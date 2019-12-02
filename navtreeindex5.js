@@ -1,6 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"structENV__MAZE.html#a1a5feeb192a01da60c1f75d5cbae5920":[1,0,9,0],
 "structENV__MAZE.html#a310adaaa1e8c646762ed1171a0dedd0a":[1,0,9,1],
 "structENV__MAZE.html#a89392dd7856ca6722ed9a371a226247f":[1,0,9,4],
 "structENV__MAZE.html#a9fca857a59db85736a5361dda59f900d":[1,0,9,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX5 =
 "structXCS.html#ace81c9545f09326064bfc146d2d2f88f":[1,0,27,111],
 "structXCS.html#acec34920c8fbbe57d88e18fb6a0b3163":[1,0,27,155],
 "structXCS.html#acf369c125c580e09babaa17c78ad2374":[1,0,27,120],
-"structXCS.html#ad1b8f4b33a3c409687b14e45f0d50747":[1,0,27,63]
+"structXCS.html#ad1b8f4b33a3c409687b14e45f0d50747":[1,0,27,63],
+"structXCS.html#ad22e1ae16c6094daa2c079ffddef21cf":[1,0,27,7]
 };
