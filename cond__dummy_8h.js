@@ -12,5 +12,6 @@ var cond__dummy_8h =
     [ "cond_dummy_print", "cond__dummy_8h.html#a958b61fd1d16408592899dd0f0af3a50", null ],
     [ "cond_dummy_save", "cond__dummy_8h.html#af3f8ecc99a82cf02b07365c8ce83e4fd", null ],
     [ "cond_dummy_size", "cond__dummy_8h.html#a1effb27f8ce16cec03f57540f89a4b79", null ],
-    [ "cond_dummy_update", "cond__dummy_8h.html#ad907dac239a56895537c7a17845f791e", null ]
+    [ "cond_dummy_update", "cond__dummy_8h.html#ad907dac239a56895537c7a17845f791e", null ],
+    [ "cond_dummy_vtbl", "cond__dummy_8h.html#a6eca159b80d5d651ee4d1447962940f2", null ]
 ];

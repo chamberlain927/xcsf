@@ -1,5 +1,12 @@
 var searchData=
 [
+  ['act_5fcompute',['act_compute',['../action_8h.html#a0d7fce139fe8ea66b42b95ebcb941c1d',1,'action.h']]],
+  ['act_5fcopy',['act_copy',['../action_8h.html#a14d439f42b7289d45535ddf979ede948',1,'action.h']]],
+  ['act_5fcover',['act_cover',['../action_8h.html#aef1564c19502c8f890ff9f3c1260d6cf',1,'action.h']]],
+  ['act_5fcrossover',['act_crossover',['../action_8h.html#a400b3ebf43c740b204844d543dc8b2e7',1,'action.h']]],
+  ['act_5ffree',['act_free',['../action_8h.html#a3c0b8f4ef29f45d210b6e76340a25e15',1,'action.h']]],
+  ['act_5fgeneral',['act_general',['../action_8h.html#a5e7db6967718fd96162050e97ac7a9e8',1,'action.h']]],
+  ['act_5finit',['act_init',['../action_8h.html#a5fff1d9e3cc60eaae50fda42aef83661',1,'action.h']]],
   ['act_5finteger_5fcompute',['act_integer_compute',['../act__integer_8c.html#a0fb2aa76cdb4adc53fe96e19442d3017',1,'act_integer_compute(XCSF *xcsf, CL *c, double *x):&#160;act_integer.c'],['../act__integer_8h.html#a0fb2aa76cdb4adc53fe96e19442d3017',1,'act_integer_compute(XCSF *xcsf, CL *c, double *x):&#160;act_integer.c']]],
   ['act_5finteger_5fcopy',['act_integer_copy',['../act__integer_8c.html#a4d0fb44b4dc949c8eadc34fb9e54076f',1,'act_integer_copy(XCSF *xcsf, CL *to, CL *from):&#160;act_integer.c'],['../act__integer_8h.html#a4d0fb44b4dc949c8eadc34fb9e54076f',1,'act_integer_copy(XCSF *xcsf, CL *to, CL *from):&#160;act_integer.c']]],
   ['act_5finteger_5fcover',['act_integer_cover',['../act__integer_8c.html#ac86dec05a76799cc2b409f1d52f43bfa',1,'act_integer_cover(XCSF *xcsf, CL *c, double *x, int action):&#160;act_integer.c'],['../act__integer_8h.html#ac86dec05a76799cc2b409f1d52f43bfa',1,'act_integer_cover(XCSF *xcsf, CL *c, double *x, int action):&#160;act_integer.c']]],
@@ -13,6 +20,12 @@ var searchData=
   ['act_5finteger_5frand',['act_integer_rand',['../act__integer_8c.html#a81d7de7fc5388f6306c6e27ceba91dda',1,'act_integer_rand(XCSF *xcsf, CL *c):&#160;act_integer.c'],['../act__integer_8h.html#a81d7de7fc5388f6306c6e27ceba91dda',1,'act_integer_rand(XCSF *xcsf, CL *c):&#160;act_integer.c']]],
   ['act_5finteger_5fsave',['act_integer_save',['../act__integer_8c.html#abd7efdadcf1379a128723c25b51f8429',1,'act_integer_save(XCSF *xcsf, CL *c, FILE *fp):&#160;act_integer.c'],['../act__integer_8h.html#abd7efdadcf1379a128723c25b51f8429',1,'act_integer_save(XCSF *xcsf, CL *c, FILE *fp):&#160;act_integer.c']]],
   ['act_5finteger_5fupdate',['act_integer_update',['../act__integer_8c.html#a39c2ad7b609165b21e88a71298954474',1,'act_integer_update(XCSF *xcsf, CL *c, double *x, double *y):&#160;act_integer.c'],['../act__integer_8h.html#a39c2ad7b609165b21e88a71298954474',1,'act_integer_update(XCSF *xcsf, CL *c, double *x, double *y):&#160;act_integer.c']]],
+  ['act_5fload',['act_load',['../action_8h.html#a569364567c72e1ac1242e249d225a9d5',1,'action.h']]],
+  ['act_5fmutate',['act_mutate',['../action_8h.html#a640186c1f23f8aa979d9eec1f416b199',1,'action.h']]],
+  ['act_5fprint',['act_print',['../action_8h.html#ac6dff8a7b6f5e236c08df56588e188ca',1,'action.h']]],
+  ['act_5frand',['act_rand',['../action_8h.html#a7e24eb074d92b1c9a663be2b7e29293b',1,'action.h']]],
+  ['act_5fsave',['act_save',['../action_8h.html#ab3e22194b9ced126cdfea043dcc5f7d3',1,'action.h']]],
+  ['act_5fupdate',['act_update',['../action_8h.html#af752baf1f8d7b4f15b018a95759fc9c5',1,'action.h']]],
   ['action_5fset',['action_set',['../action_8c.html#a3dda6c6f441d69995296435482803ae8',1,'action_set(XCSF *xcsf, CL *c):&#160;action.c'],['../action_8h.html#a3dda6c6f441d69995296435482803ae8',1,'action_set(XCSF *xcsf, CL *c):&#160;action.c']]],
   ['activation_5fstring',['activation_string',['../neural__activations_8c.html#a7174b4bd7afa366eaf34053d53005684',1,'activation_string(int function):&#160;neural_activations.c'],['../neural__activations_8h.html#a7174b4bd7afa366eaf34053d53005684',1,'activation_string(int function):&#160;neural_activations.c']]]
 ];

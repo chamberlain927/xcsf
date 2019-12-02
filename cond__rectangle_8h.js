@@ -12,5 +12,6 @@ var cond__rectangle_8h =
     [ "cond_rectangle_print", "cond__rectangle_8h.html#a57bb3d94ea86f91effa628e15830e0b5", null ],
     [ "cond_rectangle_save", "cond__rectangle_8h.html#add979bc054bf035603f59663e801dbb9", null ],
     [ "cond_rectangle_size", "cond__rectangle_8h.html#aafe63f3edff571df9277849f293ff830", null ],
-    [ "cond_rectangle_update", "cond__rectangle_8h.html#af49c892bfb7155358585bc90e0898b2e", null ]
+    [ "cond_rectangle_update", "cond__rectangle_8h.html#af49c892bfb7155358585bc90e0898b2e", null ],
+    [ "cond_rectangle_vtbl", "cond__rectangle_8h.html#a26ebc50c0fcdd8f094504d3aeab392cd", null ]
 ];

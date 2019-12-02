@@ -12,5 +12,6 @@ var act__integer_8h =
     [ "act_integer_print", "act__integer_8h.html#a80d13ba531b2d0226fc388d61ee319ed", null ],
     [ "act_integer_rand", "act__integer_8h.html#a81d7de7fc5388f6306c6e27ceba91dda", null ],
     [ "act_integer_save", "act__integer_8h.html#abd7efdadcf1379a128723c25b51f8429", null ],
-    [ "act_integer_update", "act__integer_8h.html#a39c2ad7b609165b21e88a71298954474", null ]
+    [ "act_integer_update", "act__integer_8h.html#a39c2ad7b609165b21e88a71298954474", null ],
+    [ "act_integer_vtbl", "act__integer_8h.html#a6cadc98dfa533b801ec39093082c3c09", null ]
 ];

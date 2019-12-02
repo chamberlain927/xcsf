@@ -25,5 +25,7 @@ var rule__neural_8h =
     [ "rule_neural_cond_print", "rule__neural_8h.html#a576174904d0f6903150f076ce077a03b", null ],
     [ "rule_neural_cond_save", "rule__neural_8h.html#a9565580fa07b077616e1b58e1369c5a2", null ],
     [ "rule_neural_cond_size", "rule__neural_8h.html#ac8136ad9b8a3a204031a90df4f558122", null ],
-    [ "rule_neural_cond_update", "rule__neural_8h.html#a7c5597208a7b1b7a7ebc638db191eb22", null ]
+    [ "rule_neural_cond_update", "rule__neural_8h.html#a7c5597208a7b1b7a7ebc638db191eb22", null ],
+    [ "rule_neural_act_vtbl", "rule__neural_8h.html#a2c4afcec6fab66da17e007b89838ce04", null ],
+    [ "rule_neural_cond_vtbl", "rule__neural_8h.html#a553e747b0c468709a145efccdf6664a9", null ]
 ];

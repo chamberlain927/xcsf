@@ -2,6 +2,8 @@ var searchData=
 [
   ['iconstrain',['iconstrain',['../utils_8c.html#a9543cec444b548668ef25265e302f496',1,'iconstrain(int min, int max, int a):&#160;utils.c'],['../utils_8h.html#a9543cec444b548668ef25265e302f496',1,'iconstrain(int min, int max, int a):&#160;utils.c']]],
   ['identity',['IDENTITY',['../neural__activations_8h.html#a44fdeee315bbbfda43356ffbdf05a1b3',1,'neural_activations.h']]],
+  ['identity_5factivate',['identity_activate',['../neural__activations_8h.html#a1c01e61dfab1213f2efbaeefc2cb9e1b',1,'neural_activations.h']]],
+  ['identity_5fgradient',['identity_gradient',['../neural__activations_8h.html#a6cb9aa8ba018adb630bd106875cd06a7',1,'neural_activations.h']]],
   ['init_5fby_5farray64',['init_by_array64',['../mt19937-64_8c.html#a0aa2627c5353d914072ef3d7d8faad41',1,'init_by_array64(unsigned long long init_key[], unsigned long long key_length):&#160;mt19937-64.c'],['../mt64_8h.html#a0aa2627c5353d914072ef3d7d8faad41',1,'init_by_array64(unsigned long long init_key[], unsigned long long key_length):&#160;mt19937-64.c']]],
   ['init_5fconfig',['init_config',['../config_8c.html#a751b5ee568de1fb81375bf564aac2c00',1,'config.c']]],
   ['init_5ferror',['INIT_ERROR',['../structXCSF.html#a2f4ad8c341675460e1a6569d1141457e',1,'XCSF']]],

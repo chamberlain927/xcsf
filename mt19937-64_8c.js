@@ -11,5 +11,7 @@ var mt19937_64_8c =
     [ "genrand64_real2", "mt19937-64_8c.html#a2ad707677cef640d71dcb044bdb3fda8", null ],
     [ "genrand64_real3", "mt19937-64_8c.html#acf4dc4c799f67c36260959f776949103", null ],
     [ "init_by_array64", "mt19937-64_8c.html#a0aa2627c5353d914072ef3d7d8faad41", null ],
-    [ "init_genrand64", "mt19937-64_8c.html#adf4127d44c2dc34fcb318d406131ef7c", null ]
+    [ "init_genrand64", "mt19937-64_8c.html#adf4127d44c2dc34fcb318d406131ef7c", null ],
+    [ "mt", "mt19937-64_8c.html#ab0784edcb38d3a800c6e9534fc00c7b2", null ],
+    [ "mti", "mt19937-64_8c.html#a0893639c022032e006e5b13378f7b4b2", null ]
 ];

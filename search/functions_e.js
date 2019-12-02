@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['tanh_5factivate',['tanh_activate',['../neural__activations_8h.html#ad140d819f7f36fd2750f697d914cfed9',1,'neural_activations.h']]],
+  ['tanh_5fgradient',['tanh_gradient',['../neural__activations_8h.html#a9ff181117fd714ae3d53c60f48eef8b0',1,'neural_activations.h']]],
   ['tidyup',['tidyup',['../config_8c.html#abbcf90229482ba53a897197f58b1a905',1,'config.c']]],
   ['tree_5fcopy',['tree_copy',['../gp_8c.html#add1ec6e099e63188640410c7027453a5',1,'tree_copy(XCSF *xcsf, GP_TREE *to, GP_TREE *from):&#160;gp.c'],['../gp_8h.html#add1ec6e099e63188640410c7027453a5',1,'tree_copy(XCSF *xcsf, GP_TREE *to, GP_TREE *from):&#160;gp.c']]],
   ['tree_5fcrossover',['tree_crossover',['../gp_8c.html#a621a15d85cc2855658dfb20e7da5dadc',1,'tree_crossover(XCSF *xcsf, GP_TREE *p1, GP_TREE *p2):&#160;gp.c'],['../gp_8h.html#a621a15d85cc2855658dfb20e7da5dadc',1,'tree_crossover(XCSF *xcsf, GP_TREE *p1, GP_TREE *p2):&#160;gp.c']]],

@@ -10,5 +10,6 @@ var pred__rls_8h =
     [ "pred_rls_print", "pred__rls_8h.html#a0215b880a8d772a26b24ab083d260647", null ],
     [ "pred_rls_save", "pred__rls_8h.html#a63e2376cd0fa02bba1e0adc5b70b6b9e", null ],
     [ "pred_rls_size", "pred__rls_8h.html#ae80b7685a0f34e72541def5e9d3fa9d9", null ],
-    [ "pred_rls_update", "pred__rls_8h.html#a2fe9c87a5c1fb0e88589581856878596", null ]
+    [ "pred_rls_update", "pred__rls_8h.html#a2fe9c87a5c1fb0e88589581856878596", null ],
+    [ "pred_rls_vtbl", "pred__rls_8h.html#a47984e48180e8b7ae89f8b5548c19a86", null ]
 ];

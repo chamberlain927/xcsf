@@ -12,5 +12,6 @@ var cond__ellipsoid_8h =
     [ "cond_ellipsoid_print", "cond__ellipsoid_8h.html#aaee69138c2c8c7d842ca7f906446c8c9", null ],
     [ "cond_ellipsoid_save", "cond__ellipsoid_8h.html#abb60d890bfa2e0b6dd0cc55bc348d588", null ],
     [ "cond_ellipsoid_size", "cond__ellipsoid_8h.html#a328bff1030d79b9f3d6ed3e38faba81b", null ],
-    [ "cond_ellipsoid_update", "cond__ellipsoid_8h.html#ab218129f12fc370866193ff0fb724dab", null ]
+    [ "cond_ellipsoid_update", "cond__ellipsoid_8h.html#ab218129f12fc370866193ff0fb724dab", null ],
+    [ "cond_ellipsoid_vtbl", "cond__ellipsoid_8h.html#ae768421c5f0e309a8d36144e349f456c", null ]
 ];

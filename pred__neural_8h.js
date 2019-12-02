@@ -11,5 +11,6 @@ var pred__neural_8h =
     [ "pred_neural_print", "pred__neural_8h.html#a73b3deaf02546992c189d9277b873940", null ],
     [ "pred_neural_save", "pred__neural_8h.html#a8d0b959ee6ac760acf50bf08455c2139", null ],
     [ "pred_neural_size", "pred__neural_8h.html#adf7df3c9e3dbc945f4c120b32a34ecf2", null ],
-    [ "pred_neural_update", "pred__neural_8h.html#a11e2b74a70025e2df91baa09544a5dda", null ]
+    [ "pred_neural_update", "pred__neural_8h.html#a11e2b74a70025e2df91baa09544a5dda", null ],
+    [ "pred_neural_vtbl", "pred__neural_8h.html#ab4709e83aa4ac59b41666612909361bc", null ]
 ];

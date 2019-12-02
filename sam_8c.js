@@ -9,5 +9,6 @@ var sam_8c =
     [ "sam_log_normal_init", "sam_8c.html#a2142f014cab38e1a66523856ad64f825", null ],
     [ "sam_print", "sam_8c.html#addc6297ce445fb173be857a7a966c937", null ],
     [ "sam_rate_selection_adapt", "sam_8c.html#aa20692ac4414f9a8cfa864bd3ca3ae8a", null ],
-    [ "sam_rate_selection_init", "sam_8c.html#a3406e320683ba972c0573809afabc6b3", null ]
+    [ "sam_rate_selection_init", "sam_8c.html#a3406e320683ba972c0573809afabc6b3", null ],
+    [ "mrates", "sam_8c.html#a8eeba4cf3a046fef1598074faa1b6189", null ]
 ];

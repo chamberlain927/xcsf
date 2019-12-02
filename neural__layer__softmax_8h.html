@@ -82,7 +82,8 @@ $(document).ready(function(){initNavTree('neural__layer__softmax_8h.html','');})
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">neural_layer_softmax.h File Reference</div>  </div>
 </div><!--header-->
@@ -125,6 +126,11 @@ Functions</h2></td></tr>
 <tr class="separator:ae3ec530bf740898300325c588ad7dd99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55ac59a7e8a927a3d3098e26102e61a1"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__softmax_8h.html#a55ac59a7e8a927a3d3098e26102e61a1">neural_layer_softmax_load</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, FILE *fp)</td></tr>
 <tr class="separator:a55ac59a7e8a927a3d3098e26102e61a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a86f010cbdfcd4054464504a1233d3974"><td class="memItemLeft" align="right" valign="top">static struct <a class="el" href="structLayerVtbl.html">LayerVtbl</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__softmax_8h.html#a86f010cbdfcd4054464504a1233d3974">layer_softmax_vtbl</a></td></tr>
+<tr class="separator:a86f010cbdfcd4054464504a1233d3974"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An implementation of a softmax layer. </p>
@@ -308,7 +314,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="neural__layer__softmax_8c_source.html#l00037">37</a> of file <a class="el" href="neural__layer__softmax_8c_source.html">neural_layer_softmax.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00043">LAYER::layer_type</a>, <a class="el" href="neural__layer_8h_source.html#l00063">LAYER::layer_vptr</a>, and <a class="el" href="neural__layer_8h_source.html#l00031">SOFTMAX</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::delta</a>, <a class="el" href="neural__layer__softmax_8h_source.html#l00039">layer_softmax_vtbl</a>, <a class="el" href="neural__layer_8h_source.html#l00043">LAYER::layer_type</a>, <a class="el" href="neural__layer_8h_source.html#l00063">LAYER::layer_vptr</a>, <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::num_active</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::num_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00055">LAYER::num_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00048">LAYER::options</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, <a class="el" href="neural__layer_8h_source.html#l00031">SOFTMAX</a>, and <a class="el" href="neural__layer_8h_source.html#l00062">LAYER::temp</a>.</p>
 
 </div>
 </div>
@@ -545,6 +551,44 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="neural__layer__softmax_8c_source.html#l00102">102</a> of file <a class="el" href="neural__layer__softmax_8c_source.html">neural_layer_softmax.c</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a86f010cbdfcd4054464504a1233d3974"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86f010cbdfcd4054464504a1233d3974">&#9670;&nbsp;</a></span>layer_softmax_vtbl</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="structLayerVtbl.html">LayerVtbl</a> const layer_softmax_vtbl</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">    &amp;<a class="code" href="neural__layer__softmax_8h.html#a5b5d19bd54491be96108bee90ec80ce9">neural_layer_softmax_mutate</a>,</div><div class="line">    &amp;<a class="code" href="neural__layer__softmax_8h.html#a9bfa67529d2aaa46d4d6519acfe0f5e7">neural_layer_softmax_copy</a>,</div><div class="line">    &amp;<a class="code" href="neural__layer__softmax_8h.html#a6bea3553d3bca3bf8fba1c2bfb5c98d2">neural_layer_softmax_free</a>,</div><div class="line">    &amp;<a class="code" href="neural__layer__softmax_8h.html#aa67075685473c47c29d6f8c7442c20bc">neural_layer_softmax_rand</a>,</div><div class="line">    &amp;<a class="code" href="neural__layer__softmax_8h.html#a0db096118b8d907d6692315e9328b2a9">neural_layer_softmax_print</a>,</div><div class="line">    &amp;<a class="code" href="neural__layer__softmax_8h.html#a6e06aa26c081d444d766b6e4ff5e0ebf">neural_layer_softmax_update</a>,</div><div class="line">    &amp;<a class="code" href="neural__layer__softmax_8h.html#a344d7607f8ca96934353b6b7b74401c0">neural_layer_softmax_backward</a>,</div><div class="line">    &amp;<a class="code" href="neural__layer__softmax_8h.html#a83eb0e47ec3b846e2233b7eb6c3cf1c4">neural_layer_softmax_forward</a>,</div><div class="line">    &amp;<a class="code" href="neural__layer__softmax_8h.html#a2ad4258fa4264212c4d6fb71657f53db">neural_layer_softmax_output</a>,</div><div class="line">    &amp;<a class="code" href="neural__layer__softmax_8h.html#ae3ec530bf740898300325c588ad7dd99">neural_layer_softmax_save</a>,</div><div class="line">    &amp;<a class="code" href="neural__layer__softmax_8h.html#a55ac59a7e8a927a3d3098e26102e61a1">neural_layer_softmax_load</a></div><div class="line">}</div><div class="ttc" id="neural__layer__softmax_8h_html_a5b5d19bd54491be96108bee90ec80ce9"><div class="ttname"><a href="neural__layer__softmax_8h.html#a5b5d19bd54491be96108bee90ec80ce9">neural_layer_softmax_mutate</a></div><div class="ttdeci">_Bool neural_layer_softmax_mutate(XCSF *xcsf, LAYER *l)</div><div class="ttdef"><b>Definition:</b> <a href="neural__layer__softmax_8c_source.html#l00114">neural_layer_softmax.c:114</a></div></div>
+<div class="ttc" id="neural__layer__softmax_8h_html_aa67075685473c47c29d6f8c7442c20bc"><div class="ttname"><a href="neural__layer__softmax_8h.html#aa67075685473c47c29d6f8c7442c20bc">neural_layer_softmax_rand</a></div><div class="ttdeci">void neural_layer_softmax_rand(XCSF *xcsf, LAYER *l)</div><div class="ttdef"><b>Definition:</b> <a href="neural__layer__softmax_8c_source.html#l00069">neural_layer_softmax.c:69</a></div></div>
+<div class="ttc" id="neural__layer__softmax_8h_html_a0db096118b8d907d6692315e9328b2a9"><div class="ttname"><a href="neural__layer__softmax_8h.html#a0db096118b8d907d6692315e9328b2a9">neural_layer_softmax_print</a></div><div class="ttdeci">void neural_layer_softmax_print(XCSF *xcsf, LAYER *l, _Bool print_weights)</div><div class="ttdef"><b>Definition:</b> <a href="neural__layer__softmax_8c_source.html#l00107">neural_layer_softmax.c:107</a></div></div>
+<div class="ttc" id="neural__layer__softmax_8h_html_a2ad4258fa4264212c4d6fb71657f53db"><div class="ttname"><a href="neural__layer__softmax_8h.html#a2ad4258fa4264212c4d6fb71657f53db">neural_layer_softmax_output</a></div><div class="ttdeci">double * neural_layer_softmax_output(XCSF *xcsf, LAYER *l)</div><div class="ttdef"><b>Definition:</b> <a href="neural__layer__softmax_8c_source.html#l00127">neural_layer_softmax.c:127</a></div></div>
+<div class="ttc" id="neural__layer__softmax_8h_html_a55ac59a7e8a927a3d3098e26102e61a1"><div class="ttname"><a href="neural__layer__softmax_8h.html#a55ac59a7e8a927a3d3098e26102e61a1">neural_layer_softmax_load</a></div><div class="ttdeci">size_t neural_layer_softmax_load(XCSF *xcsf, LAYER *l, FILE *fp)</div><div class="ttdef"><b>Definition:</b> <a href="neural__layer__softmax_8c_source.html#l00144">neural_layer_softmax.c:144</a></div></div>
+<div class="ttc" id="neural__layer__softmax_8h_html_a9bfa67529d2aaa46d4d6519acfe0f5e7"><div class="ttname"><a href="neural__layer__softmax_8h.html#a9bfa67529d2aaa46d4d6519acfe0f5e7">neural_layer_softmax_copy</a></div><div class="ttdeci">LAYER * neural_layer_softmax_copy(XCSF *xcsf, LAYER *from)</div><div class="ttdef"><b>Definition:</b> <a href="neural__layer__softmax_8c_source.html#l00053">neural_layer_softmax.c:53</a></div></div>
+<div class="ttc" id="neural__layer__softmax_8h_html_ae3ec530bf740898300325c588ad7dd99"><div class="ttname"><a href="neural__layer__softmax_8h.html#ae3ec530bf740898300325c588ad7dd99">neural_layer_softmax_save</a></div><div class="ttdeci">size_t neural_layer_softmax_save(XCSF *xcsf, LAYER *l, FILE *fp)</div><div class="ttdef"><b>Definition:</b> <a href="neural__layer__softmax_8c_source.html#l00133">neural_layer_softmax.c:133</a></div></div>
+<div class="ttc" id="neural__layer__softmax_8h_html_a6bea3553d3bca3bf8fba1c2bfb5c98d2"><div class="ttname"><a href="neural__layer__softmax_8h.html#a6bea3553d3bca3bf8fba1c2bfb5c98d2">neural_layer_softmax_free</a></div><div class="ttdeci">void neural_layer_softmax_free(XCSF *xcsf, LAYER *l)</div><div class="ttdef"><b>Definition:</b> <a href="neural__layer__softmax_8c_source.html#l00120">neural_layer_softmax.c:120</a></div></div>
+<div class="ttc" id="neural__layer__softmax_8h_html_a6e06aa26c081d444d766b6e4ff5e0ebf"><div class="ttname"><a href="neural__layer__softmax_8h.html#a6e06aa26c081d444d766b6e4ff5e0ebf">neural_layer_softmax_update</a></div><div class="ttdeci">void neural_layer_softmax_update(XCSF *xcsf, LAYER *l)</div><div class="ttdef"><b>Definition:</b> <a href="neural__layer__softmax_8c_source.html#l00102">neural_layer_softmax.c:102</a></div></div>
+<div class="ttc" id="neural__layer__softmax_8h_html_a344d7607f8ca96934353b6b7b74401c0"><div class="ttname"><a href="neural__layer__softmax_8h.html#a344d7607f8ca96934353b6b7b74401c0">neural_layer_softmax_backward</a></div><div class="ttdeci">void neural_layer_softmax_backward(XCSF *xcsf, LAYER *l, NET *net)</div><div class="ttdef"><b>Definition:</b> <a href="neural__layer__softmax_8c_source.html#l00094">neural_layer_softmax.c:94</a></div></div>
+<div class="ttc" id="neural__layer__softmax_8h_html_a83eb0e47ec3b846e2233b7eb6c3cf1c4"><div class="ttname"><a href="neural__layer__softmax_8h.html#a83eb0e47ec3b846e2233b7eb6c3cf1c4">neural_layer_softmax_forward</a></div><div class="ttdeci">void neural_layer_softmax_forward(XCSF *xcsf, LAYER *l, double *input)</div><div class="ttdef"><b>Definition:</b> <a href="neural__layer__softmax_8c_source.html#l00074">neural_layer_softmax.c:74</a></div></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="neural__layer__softmax_8h_source.html#l00039">39</a> of file <a class="el" href="neural__layer__softmax_8h_source.html">neural_layer_softmax.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="neural__layer_8c_source.html#l00044">neural_layer_set_vptr()</a>, and <a class="el" href="neural__layer__softmax_8c_source.html#l00037">neural_layer_softmax_init()</a>.</p>
 
 </div>
 </div>

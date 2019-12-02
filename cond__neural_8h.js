@@ -12,5 +12,6 @@ var cond__neural_8h =
     [ "cond_neural_print", "cond__neural_8h.html#a00e7f935389f03017aa34d25dd52e7cc", null ],
     [ "cond_neural_save", "cond__neural_8h.html#a713f808d171061e6333d3013fcfe2615", null ],
     [ "cond_neural_size", "cond__neural_8h.html#aa40bf04de8eb141685ba40e45558cda6", null ],
-    [ "cond_neural_update", "cond__neural_8h.html#a8bb9064d3ed1a4e1dc7093adaa4a988d", null ]
+    [ "cond_neural_update", "cond__neural_8h.html#a8bb9064d3ed1a4e1dc7093adaa4a988d", null ],
+    [ "cond_neural_vtbl", "cond__neural_8h.html#a9a04fd02a7eb694d4b32bb49ea0e3189", null ]
 ];

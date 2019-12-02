@@ -12,5 +12,6 @@ var cond__gp_8h =
     [ "cond_gp_print", "cond__gp_8h.html#abaf67835e75b3a233d1ff0eb5c53215d", null ],
     [ "cond_gp_save", "cond__gp_8h.html#a1c3eeff6455dec9e9078bef502b36bb0", null ],
     [ "cond_gp_size", "cond__gp_8h.html#a3c8f685ecdef627fd152c656136e9610", null ],
-    [ "cond_gp_update", "cond__gp_8h.html#a90c7a359ff28c8b0794d1748048f8bb6", null ]
+    [ "cond_gp_update", "cond__gp_8h.html#a90c7a359ff28c8b0794d1748048f8bb6", null ],
+    [ "cond_gp_vtbl", "cond__gp_8h.html#a3c3195887aec1850bfd5c358bfae17fa", null ]
 ];

@@ -3,6 +3,8 @@ var searchData=
   ['t',['t',['../structGRAPH.html#ad7ec8210fa64912c6a6cbba9f167bb7d',1,'GRAPH']]],
   ['tail',['tail',['../structNET.html#ab764acdcb1d5c310d9ae55a78ca277a7',1,'NET']]],
   ['tanh',['TANH',['../neural__activations_8h.html#a1acfe6a311aa86bd70faa9032bf3c6bb',1,'neural_activations.h']]],
+  ['tanh_5factivate',['tanh_activate',['../neural__activations_8h.html#ad140d819f7f36fd2750f697d914cfed9',1,'neural_activations.h']]],
+  ['tanh_5fgradient',['tanh_gradient',['../neural__activations_8h.html#a9ff181117fd714ae3d53c60f48eef8b0',1,'neural_activations.h']]],
   ['teletransportation',['TELETRANSPORTATION',['../structXCSF.html#a55b5eb5311bf5eb3fdb61efb628b1784',1,'XCSF']]],
   ['temp',['temp',['../structLAYER.html#a743c67ae8ad10b84b80de6916c2fa4aa',1,'LAYER']]],
   ['test_5fdata',['test_data',['../structXCS.html#aa380130db371529b5f02f63da272d962',1,'XCS']]],

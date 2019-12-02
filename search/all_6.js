@@ -2,6 +2,8 @@ var searchData=
 [
   ['gamma',['GAMMA',['../structXCSF.html#a463f529dbc01388938f04eddf65f12d6',1,'XCSF']]],
   ['gaussian',['GAUSSIAN',['../neural__activations_8h.html#ad751f1b6909c0124a4ca151036b28a0e',1,'neural_activations.h']]],
+  ['gaussian_5factivate',['gaussian_activate',['../neural__activations_8h.html#a36f845e6eec4a4dd6001aa56e49ef196',1,'neural_activations.h']]],
+  ['gaussian_5fgradient',['gaussian_gradient',['../neural__activations_8h.html#a1e70d48042f40da0117b80f8311091cd',1,'neural_activations.h']]],
   ['genrand64_5fint63',['genrand64_int63',['../mt19937-64_8c.html#a90d5cdee2e6328a63e72045cfb1e93aa',1,'genrand64_int63(void):&#160;mt19937-64.c'],['../mt64_8h.html#a90d5cdee2e6328a63e72045cfb1e93aa',1,'genrand64_int63(void):&#160;mt19937-64.c']]],
   ['genrand64_5fint64',['genrand64_int64',['../mt19937-64_8c.html#a265bf48d20d6e0347371fcf4fe340e6d',1,'genrand64_int64(void):&#160;mt19937-64.c'],['../mt64_8h.html#a265bf48d20d6e0347371fcf4fe340e6d',1,'genrand64_int64(void):&#160;mt19937-64.c']]],
   ['genrand64_5freal1',['genrand64_real1',['../mt19937-64_8c.html#aa0b74daf51eca91df224d00f1730084a',1,'genrand64_real1(void):&#160;mt19937-64.c'],['../mt64_8h.html#aa0b74daf51eca91df224d00f1730084a',1,'genrand64_real1(void):&#160;mt19937-64.c']]],

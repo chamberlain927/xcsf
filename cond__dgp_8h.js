@@ -12,5 +12,6 @@ var cond__dgp_8h =
     [ "cond_dgp_print", "cond__dgp_8h.html#a0f653ebb60e2d1de4986d9bf3397ed3d", null ],
     [ "cond_dgp_save", "cond__dgp_8h.html#a594c09366f7fba5a1ddf7c44266749ea", null ],
     [ "cond_dgp_size", "cond__dgp_8h.html#a8f69cdaf819d45c2c878d2d07b528642", null ],
-    [ "cond_dgp_update", "cond__dgp_8h.html#aab9d3f0d37e9bb2a9c0383a0f3ba291b", null ]
+    [ "cond_dgp_update", "cond__dgp_8h.html#aab9d3f0d37e9bb2a9c0383a0f3ba291b", null ],
+    [ "cond_dgp_vtbl", "cond__dgp_8h.html#a8ab5cd084c9ceda214815ab9e04e6b31", null ]
 ];

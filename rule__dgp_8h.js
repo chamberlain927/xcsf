@@ -25,5 +25,7 @@ var rule__dgp_8h =
     [ "rule_dgp_cond_print", "rule__dgp_8h.html#ae370e73bc7ad7f439d4aa2625c09f595", null ],
     [ "rule_dgp_cond_save", "rule__dgp_8h.html#a546e5375782993350bf40870feefe1bd", null ],
     [ "rule_dgp_cond_size", "rule__dgp_8h.html#a497abef04204bc0e6af155c147faad07", null ],
-    [ "rule_dgp_cond_update", "rule__dgp_8h.html#acde61790f8e185ea65c30008469c9cb4", null ]
+    [ "rule_dgp_cond_update", "rule__dgp_8h.html#acde61790f8e185ea65c30008469c9cb4", null ],
+    [ "rule_dgp_act_vtbl", "rule__dgp_8h.html#a6b810bdddd974619d6331317c680586e", null ],
+    [ "rule_dgp_cond_vtbl", "rule__dgp_8h.html#aeb62959caa7871d5496de61df73cf00a", null ]
 ];

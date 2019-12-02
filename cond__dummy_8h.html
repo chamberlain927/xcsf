@@ -82,7 +82,8 @@ $(document).ready(function(){initNavTree('cond__dummy_8h.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">cond_dummy.h File Reference</div>  </div>
 </div><!--header-->
@@ -127,6 +128,12 @@ Functions</h2></td></tr>
 <tr class="separator:af3f8ecc99a82cf02b07365c8ce83e4fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7569366ce1297d21f95452561e6f16c1"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cond__dummy_8h.html#a7569366ce1297d21f95452561e6f16c1">cond_dummy_load</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, FILE *fp)</td></tr>
 <tr class="separator:a7569366ce1297d21f95452561e6f16c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a6eca159b80d5d651ee4d1447962940f2"><td class="memItemLeft" align="right" valign="top">static struct <a class="el" href="structCondVtbl.html">CondVtbl</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cond__dummy_8h.html#a6eca159b80d5d651ee4d1447962940f2">cond_dummy_vtbl</a></td></tr>
+<tr class="memdesc:a6eca159b80d5d651ee4d1447962940f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dummy condition implemented functions.  <a href="#a6eca159b80d5d651ee4d1447962940f2">More...</a><br /></td></tr>
+<tr class="separator:a6eca159b80d5d651ee4d1447962940f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Always-matching dummy condition functions. </p>
@@ -579,6 +586,48 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="cond__dummy_8c_source.html#l00055">55</a> of file <a class="el" href="cond__dummy_8c_source.html">cond_dummy.c</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a6eca159b80d5d651ee4d1447962940f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6eca159b80d5d651ee4d1447962940f2">&#9670;&nbsp;</a></span>cond_dummy_vtbl</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="structCondVtbl.html">CondVtbl</a> const cond_dummy_vtbl</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">    &amp;<a class="code" href="cond__dummy_8h.html#af0337549432d703f87a2fa1e7ad02b1e">cond_dummy_crossover</a>,</div><div class="line">    &amp;<a class="code" href="cond__dummy_8h.html#a2684785034d6b7adef79e083ccffa861">cond_dummy_general</a>,</div><div class="line">    &amp;<a class="code" href="cond__dummy_8h.html#a53c5d5582545fd5428c09f6633bbe954">cond_dummy_match</a>,</div><div class="line">    &amp;<a class="code" href="cond__dummy_8h.html#a7adcaed5676827490148341e1569e38f">cond_dummy_mutate</a>,</div><div class="line">    &amp;<a class="code" href="cond__dummy_8h.html#a711771ec91fc78d0bdd666bf46f039ed">cond_dummy_copy</a>,</div><div class="line">    &amp;<a class="code" href="cond__dummy_8h.html#a98dc478a592d4f84d665793e6b67148c">cond_dummy_cover</a>,</div><div class="line">    &amp;<a class="code" href="cond__dummy_8h.html#a832b500e91d4cdbf26fab70535f92431">cond_dummy_free</a>,</div><div class="line">    &amp;<a class="code" href="cond__dummy_8h.html#a453b0664fddc797d3409967d728360fd">cond_dummy_init</a>,</div><div class="line">    &amp;<a class="code" href="cond__dummy_8h.html#a958b61fd1d16408592899dd0f0af3a50">cond_dummy_print</a>,</div><div class="line">    &amp;<a class="code" href="cond__dummy_8h.html#ad907dac239a56895537c7a17845f791e">cond_dummy_update</a>,</div><div class="line">    &amp;<a class="code" href="cond__dummy_8h.html#a1effb27f8ce16cec03f57540f89a4b79">cond_dummy_size</a>,</div><div class="line">    &amp;<a class="code" href="cond__dummy_8h.html#af3f8ecc99a82cf02b07365c8ce83e4fd">cond_dummy_save</a>,</div><div class="line">    &amp;<a class="code" href="cond__dummy_8h.html#a7569366ce1297d21f95452561e6f16c1">cond_dummy_load</a></div><div class="line">}</div><div class="ttc" id="cond__dummy_8h_html_a832b500e91d4cdbf26fab70535f92431"><div class="ttname"><a href="cond__dummy_8h.html#a832b500e91d4cdbf26fab70535f92431">cond_dummy_free</a></div><div class="ttdeci">void cond_dummy_free(XCSF *xcsf, CL *c)</div><div class="ttdef"><b>Definition:</b> <a href="cond__dummy_8c_source.html#l00040">cond_dummy.c:40</a></div></div>
+<div class="ttc" id="cond__dummy_8h_html_a7adcaed5676827490148341e1569e38f"><div class="ttname"><a href="cond__dummy_8h.html#a7adcaed5676827490148341e1569e38f">cond_dummy_mutate</a></div><div class="ttdeci">_Bool cond_dummy_mutate(XCSF *xcsf, CL *c)</div><div class="ttdef"><b>Definition:</b> <a href="cond__dummy_8c_source.html#l00073">cond_dummy.c:73</a></div></div>
+<div class="ttc" id="cond__dummy_8h_html_af3f8ecc99a82cf02b07365c8ce83e4fd"><div class="ttname"><a href="cond__dummy_8h.html#af3f8ecc99a82cf02b07365c8ce83e4fd">cond_dummy_save</a></div><div class="ttdeci">size_t cond_dummy_save(XCSF *xcsf, CL *c, FILE *fp)</div><div class="ttdef"><b>Definition:</b> <a href="cond__dummy_8c_source.html#l00096">cond_dummy.c:96</a></div></div>
+<div class="ttc" id="cond__dummy_8h_html_a7569366ce1297d21f95452561e6f16c1"><div class="ttname"><a href="cond__dummy_8h.html#a7569366ce1297d21f95452561e6f16c1">cond_dummy_load</a></div><div class="ttdeci">size_t cond_dummy_load(XCSF *xcsf, CL *c, FILE *fp)</div><div class="ttdef"><b>Definition:</b> <a href="cond__dummy_8c_source.html#l00102">cond_dummy.c:102</a></div></div>
+<div class="ttc" id="cond__dummy_8h_html_a98dc478a592d4f84d665793e6b67148c"><div class="ttname"><a href="cond__dummy_8h.html#a98dc478a592d4f84d665793e6b67148c">cond_dummy_cover</a></div><div class="ttdeci">void cond_dummy_cover(XCSF *xcsf, CL *c, double *x)</div><div class="ttdef"><b>Definition:</b> <a href="cond__dummy_8c_source.html#l00050">cond_dummy.c:50</a></div></div>
+<div class="ttc" id="cond__dummy_8h_html_a711771ec91fc78d0bdd666bf46f039ed"><div class="ttname"><a href="cond__dummy_8h.html#a711771ec91fc78d0bdd666bf46f039ed">cond_dummy_copy</a></div><div class="ttdeci">void cond_dummy_copy(XCSF *xcsf, CL *to, CL *from)</div><div class="ttdef"><b>Definition:</b> <a href="cond__dummy_8c_source.html#l00045">cond_dummy.c:45</a></div></div>
+<div class="ttc" id="cond__dummy_8h_html_a958b61fd1d16408592899dd0f0af3a50"><div class="ttname"><a href="cond__dummy_8h.html#a958b61fd1d16408592899dd0f0af3a50">cond_dummy_print</a></div><div class="ttdeci">void cond_dummy_print(XCSF *xcsf, CL *c)</div><div class="ttdef"><b>Definition:</b> <a href="cond__dummy_8c_source.html#l00085">cond_dummy.c:85</a></div></div>
+<div class="ttc" id="cond__dummy_8h_html_a53c5d5582545fd5428c09f6633bbe954"><div class="ttname"><a href="cond__dummy_8h.html#a53c5d5582545fd5428c09f6633bbe954">cond_dummy_match</a></div><div class="ttdeci">_Bool cond_dummy_match(XCSF *xcsf, CL *c, double *x)</div><div class="ttdef"><b>Definition:</b> <a href="cond__dummy_8c_source.html#l00060">cond_dummy.c:60</a></div></div>
+<div class="ttc" id="cond__dummy_8h_html_a2684785034d6b7adef79e083ccffa861"><div class="ttname"><a href="cond__dummy_8h.html#a2684785034d6b7adef79e083ccffa861">cond_dummy_general</a></div><div class="ttdeci">_Bool cond_dummy_general(XCSF *xcsf, CL *c1, CL *c2)</div><div class="ttdef"><b>Definition:</b> <a href="cond__dummy_8c_source.html#l00079">cond_dummy.c:79</a></div></div>
+<div class="ttc" id="cond__dummy_8h_html_af0337549432d703f87a2fa1e7ad02b1e"><div class="ttname"><a href="cond__dummy_8h.html#af0337549432d703f87a2fa1e7ad02b1e">cond_dummy_crossover</a></div><div class="ttdeci">_Bool cond_dummy_crossover(XCSF *xcsf, CL *c1, CL *c2)</div><div class="ttdef"><b>Definition:</b> <a href="cond__dummy_8c_source.html#l00067">cond_dummy.c:67</a></div></div>
+<div class="ttc" id="cond__dummy_8h_html_ad907dac239a56895537c7a17845f791e"><div class="ttname"><a href="cond__dummy_8h.html#ad907dac239a56895537c7a17845f791e">cond_dummy_update</a></div><div class="ttdeci">void cond_dummy_update(XCSF *xcsf, CL *c, double *x, double *y)</div><div class="ttdef"><b>Definition:</b> <a href="cond__dummy_8c_source.html#l00055">cond_dummy.c:55</a></div></div>
+<div class="ttc" id="cond__dummy_8h_html_a1effb27f8ce16cec03f57540f89a4b79"><div class="ttname"><a href="cond__dummy_8h.html#a1effb27f8ce16cec03f57540f89a4b79">cond_dummy_size</a></div><div class="ttdeci">int cond_dummy_size(XCSF *xcsf, CL *c)</div><div class="ttdef"><b>Definition:</b> <a href="cond__dummy_8c_source.html#l00090">cond_dummy.c:90</a></div></div>
+<div class="ttc" id="cond__dummy_8h_html_a453b0664fddc797d3409967d728360fd"><div class="ttname"><a href="cond__dummy_8h.html#a453b0664fddc797d3409967d728360fd">cond_dummy_init</a></div><div class="ttdeci">void cond_dummy_init(XCSF *xcsf, CL *c)</div><div class="ttdef"><b>Definition:</b> <a href="cond__dummy_8c_source.html#l00035">cond_dummy.c:35</a></div></div>
+</div><!-- fragment -->
+<p>Dummy condition implemented functions. </p>
+
+<p class="definition">Definition at line <a class="el" href="cond__dummy_8h_source.html#l00043">43</a> of file <a class="el" href="cond__dummy_8h_source.html">cond_dummy.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="condition_8c_source.html#l00046">condition_set()</a>.</p>
 
 </div>
 </div>
