@@ -102,26 +102,37 @@ Collaboration diagram for LayerVtbl:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
 <tr class="memitem:a3d47219b22307eef5017f07c71d2c119"><td class="memItemLeft" align="right" valign="top">_Bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#a3d47219b22307eef5017f07c71d2c119">layer_impl_mutate</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td></tr>
+<tr class="memdesc:a3d47219b22307eef5017f07c71d2c119"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs layer mutation.  <a href="#a3d47219b22307eef5017f07c71d2c119">More...</a><br /></td></tr>
 <tr class="separator:a3d47219b22307eef5017f07c71d2c119"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b537a9a2ee9807cf23c2febb6bf94c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structLAYER.html">LAYER</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#a0b537a9a2ee9807cf23c2febb6bf94c3">layer_impl_copy</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *from)</td></tr>
+<tr class="memdesc:a0b537a9a2ee9807cf23c2febb6bf94c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates and returns a copy of a specified layer.  <a href="#a0b537a9a2ee9807cf23c2febb6bf94c3">More...</a><br /></td></tr>
 <tr class="separator:a0b537a9a2ee9807cf23c2febb6bf94c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0375ce6971fdf0c369f2e1243bbac6b"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#ad0375ce6971fdf0c369f2e1243bbac6b">layer_impl_free</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td></tr>
+<tr class="memdesc:ad0375ce6971fdf0c369f2e1243bbac6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees the memory used by the layer.  <a href="#ad0375ce6971fdf0c369f2e1243bbac6b">More...</a><br /></td></tr>
 <tr class="separator:ad0375ce6971fdf0c369f2e1243bbac6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1a99394dd0810a425ad3863239d53d0"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#ad1a99394dd0810a425ad3863239d53d0">layer_impl_rand</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td></tr>
+<tr class="memdesc:ad1a99394dd0810a425ad3863239d53d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Randomises a layer.  <a href="#ad1a99394dd0810a425ad3863239d53d0">More...</a><br /></td></tr>
 <tr class="separator:ad1a99394dd0810a425ad3863239d53d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83302becd112f0bf9c9a9f02d728dff0"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#a83302becd112f0bf9c9a9f02d728dff0">layer_impl_print</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, _Bool print_weights)</td></tr>
+<tr class="memdesc:a83302becd112f0bf9c9a9f02d728dff0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the layer.  <a href="#a83302becd112f0bf9c9a9f02d728dff0">More...</a><br /></td></tr>
 <tr class="separator:a83302becd112f0bf9c9a9f02d728dff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74461289302b9dc90aa3ce5eb785368b"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#a74461289302b9dc90aa3ce5eb785368b">layer_impl_update</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td></tr>
+<tr class="memdesc:a74461289302b9dc90aa3ce5eb785368b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the weights and biases of a layer.  <a href="#a74461289302b9dc90aa3ce5eb785368b">More...</a><br /></td></tr>
 <tr class="separator:a74461289302b9dc90aa3ce5eb785368b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabd95c8baceff8f2af6f881ebf44e5ae"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#aabd95c8baceff8f2af6f881ebf44e5ae">layer_impl_backward</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, <a class="el" href="structNET.html">NET</a> *net)</td></tr>
+<tr class="memdesc:aabd95c8baceff8f2af6f881ebf44e5ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Backward propagates the error through a layer.  <a href="#aabd95c8baceff8f2af6f881ebf44e5ae">More...</a><br /></td></tr>
 <tr class="separator:aabd95c8baceff8f2af6f881ebf44e5ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9ed675f08576e608979b728ac786144"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#ae9ed675f08576e608979b728ac786144">layer_impl_forward</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, double *input)</td></tr>
+<tr class="memdesc:ae9ed675f08576e608979b728ac786144"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forward propagates an input through the layer.  <a href="#ae9ed675f08576e608979b728ac786144">More...</a><br /></td></tr>
 <tr class="separator:ae9ed675f08576e608979b728ac786144"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8e9c7e34c920484d2256675b9bb6530"><td class="memItemLeft" align="right" valign="top">double *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#aa8e9c7e34c920484d2256675b9bb6530">layer_impl_output</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td></tr>
+<tr class="memdesc:aa8e9c7e34c920484d2256675b9bb6530"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the outputs of a layer.  <a href="#aa8e9c7e34c920484d2256675b9bb6530">More...</a><br /></td></tr>
 <tr class="separator:aa8e9c7e34c920484d2256675b9bb6530"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a767d6e9af372129998ae0244715b2c74"><td class="memItemLeft" align="right" valign="top">size_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#a767d6e9af372129998ae0244715b2c74">layer_impl_save</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, FILE *fp)</td></tr>
+<tr class="memdesc:a767d6e9af372129998ae0244715b2c74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the layer to a binary file.  <a href="#a767d6e9af372129998ae0244715b2c74">More...</a><br /></td></tr>
 <tr class="separator:a767d6e9af372129998ae0244715b2c74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47616098d5c6b6d94fdcd1a831803017"><td class="memItemLeft" align="right" valign="top">size_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#a47616098d5c6b6d94fdcd1a831803017">layer_impl_load</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, FILE *fp)</td></tr>
+<tr class="memdesc:a47616098d5c6b6d94fdcd1a831803017"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the layer from a binary file.  <a href="#a47616098d5c6b6d94fdcd1a831803017">More...</a><br /></td></tr>
 <tr class="separator:a47616098d5c6b6d94fdcd1a831803017"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -142,9 +153,19 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00077">77</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+<p>Backward propagates the error through a layer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">l</td><td>The layer to be backward propagated. </td></tr>
+    <tr><td class="paramname">net</td><td>The network being backward propagated. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00100">layer_backward()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00116">116</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00165">layer_backward()</a>.</p>
 
 </div>
 </div>
@@ -160,9 +181,19 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00072">72</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+<p>Creates and returns a copy of a specified layer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">from</td><td>The source layer. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A new copied layer. </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00112">layer_copy()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00084">84</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00177">layer_copy()</a>.</p>
 
 </div>
 </div>
@@ -178,9 +209,19 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00078">78</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+<p>Forward propagates an input through the layer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">l</td><td>The layer to be forward propagated. </td></tr>
+    <tr><td class="paramname">input</td><td>The input to the layer. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00096">layer_forward()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00123">123</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00161">layer_forward()</a>.</p>
 
 </div>
 </div>
@@ -196,9 +237,18 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00073">73</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+<p>Frees the memory used by the layer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">l</td><td>The layer to be freed. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00116">layer_free()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00090">90</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00181">layer_free()</a>.</p>
 
 </div>
 </div>
@@ -214,9 +264,20 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00081">81</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+<p>Reads the layer from a binary file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">l</td><td>The layer to be read. </td></tr>
+    <tr><td class="paramname">fp</td><td>Pointer to the file to be read. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The number of elements read. </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00088">layer_load()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00146">146</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00153">layer_load()</a>.</p>
 
 </div>
 </div>
@@ -232,9 +293,19 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00071">71</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+<p>Performs layer mutation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">l</td><td>The layer to mutate. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether any alterations were made. </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00108">layer_mutate()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00077">77</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00173">layer_mutate()</a>.</p>
 
 </div>
 </div>
@@ -250,9 +321,19 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00079">79</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+<p>Returns the outputs of a layer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">l</td><td>The layer whose outputs are to be returned. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The layer outputs. </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00092">layer_output()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00130">130</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00157">layer_output()</a>.</p>
 
 </div>
 </div>
@@ -268,9 +349,19 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00075">75</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+<p>Prints the layer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">l</td><td>The layer to be printed. </td></tr>
+    <tr><td class="paramname">print_weights</td><td>Whether to print the weights. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00124">layer_print()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00103">103</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00189">layer_print()</a>.</p>
 
 </div>
 </div>
@@ -286,9 +377,18 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00074">74</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+<p>Randomises a layer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">l</td><td>The layer to be randomised. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00120">layer_rand()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00096">96</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00185">layer_rand()</a>.</p>
 
 </div>
 </div>
@@ -304,9 +404,20 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00080">80</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+<p>Writes the layer to a binary file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">l</td><td>The layer to be written. </td></tr>
+    <tr><td class="paramname">fp</td><td>Pointer to the file to be written. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The number of elements written. </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00084">layer_save()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00138">138</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00149">layer_save()</a>.</p>
 
 </div>
 </div>
@@ -322,9 +433,18 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00076">76</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+<p>Updates the weights and biases of a layer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">l</td><td>The layer to be updated. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00104">layer_update()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00109">109</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00169">layer_update()</a>.</p>
 
 </div>
 </div>
