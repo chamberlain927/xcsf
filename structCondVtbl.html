@@ -154,10 +154,18 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Copies the condition from one classifier to another. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">to</td><td>The destination classifier. </td></tr>
+    <tr><td class="paramname">from</td><td>The source classifier. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="condition_8h_source.html#l00042">42</a> of file <a class="el" href="condition_8h_source.html">condition.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="condition_8h_source.html#l00070">70</a> of file <a class="el" href="condition_8h_source.html">condition.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="condition_8h_source.html#l00153">cond_copy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="condition_8h_source.html#l00161">cond_copy()</a>.</p>
 
 </div>
 </div>
@@ -174,10 +182,18 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generates a condition that matches the current input. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">c</td><td>The classifier whose condition is being covered. </td></tr>
+    <tr><td class="paramname">x</td><td>The input state to cover. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="condition_8h_source.html#l00044">44</a> of file <a class="el" href="condition_8h_source.html">condition.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="condition_8h_source.html#l00077">77</a> of file <a class="el" href="condition_8h_source.html">condition.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="condition_8h_source.html#l00163">cond_cover()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="condition_8h_source.html#l00165">cond_cover()</a>.</p>
 
 </div>
 </div>
@@ -194,10 +210,19 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Performs classifier condition crossover. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">c1</td><td>The first classifier whose condition is being crossed. </td></tr>
+    <tr><td class="paramname">c2</td><td>The second classifier whose condition is being crossed. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether any alterations were made. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="condition_8h_source.html#l00034">34</a> of file <a class="el" href="condition_8h_source.html">condition.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="condition_8h_source.html#l00040">40</a> of file <a class="el" href="condition_8h_source.html">condition.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="condition_8h_source.html#l00111">cond_crossover()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="condition_8h_source.html#l00145">cond_crossover()</a>.</p>
 
 </div>
 </div>
@@ -214,10 +239,17 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Frees the memory used by the classifier condition. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">c</td><td>The classifier whose condition is to be freed. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="condition_8h_source.html#l00046">46</a> of file <a class="el" href="condition_8h_source.html">condition.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="condition_8h_source.html#l00083">83</a> of file <a class="el" href="condition_8h_source.html">condition.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="condition_8h_source.html#l00172">cond_free()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="condition_8h_source.html#l00169">cond_free()</a>.</p>
 
 </div>
 </div>
@@ -234,10 +266,19 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns whether the condition of classifier c1 is more general than c2. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">c1</td><td>The classifier whose condition is tested to be more general. </td></tr>
+    <tr><td class="paramname">c2</td><td>The classifier whose condition is tested to be more specific. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether the condition of c1 is more general than c2. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="condition_8h_source.html#l00036">36</a> of file <a class="el" href="condition_8h_source.html">condition.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="condition_8h_source.html#l00048">48</a> of file <a class="el" href="condition_8h_source.html">condition.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="condition_8h_source.html#l00122">cond_general()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="condition_8h_source.html#l00149">cond_general()</a>.</p>
 
 </div>
 </div>
@@ -254,10 +295,17 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Initialises a classifier's condition. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">c</td><td>The classifier whose condition is to be initialised. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="condition_8h_source.html#l00048">48</a> of file <a class="el" href="condition_8h_source.html">condition.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="condition_8h_source.html#l00089">89</a> of file <a class="el" href="condition_8h_source.html">condition.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="condition_8h_source.html#l00181">cond_init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="condition_8h_source.html#l00173">cond_init()</a>.</p>
 
 </div>
 </div>
@@ -274,10 +322,19 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reads the condition from a binary file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">c</td><td>The classifier whose condition is to be read. </td></tr>
+    <tr><td class="paramname">fp</td><td>Pointer to the file to be read. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The number of elements read. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="condition_8h_source.html#l00058">58</a> of file <a class="el" href="condition_8h_source.html">condition.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="condition_8h_source.html#l00126">126</a> of file <a class="el" href="condition_8h_source.html">condition.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="condition_8h_source.html#l00079">cond_load()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="condition_8h_source.html#l00133">cond_load()</a>.</p>
 
 </div>
 </div>
@@ -294,10 +351,19 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Calculates whether the condition matches the input. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">c</td><td>The classifier whose condition to match. </td></tr>
+    <tr><td class="paramname">x</td><td>The input state. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether the condition matches the input. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="condition_8h_source.html#l00038">38</a> of file <a class="el" href="condition_8h_source.html">condition.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="condition_8h_source.html#l00056">56</a> of file <a class="el" href="condition_8h_source.html">condition.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="condition_8h_source.html#l00133">cond_match()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="condition_8h_source.html#l00153">cond_match()</a>.</p>
 
 </div>
 </div>
@@ -314,10 +380,18 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Performs classifier condition mutation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">c</td><td>The classifier whose condition is being mutated. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether any alterations were made. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="condition_8h_source.html#l00040">40</a> of file <a class="el" href="condition_8h_source.html">condition.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="condition_8h_source.html#l00063">63</a> of file <a class="el" href="condition_8h_source.html">condition.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="condition_8h_source.html#l00143">cond_mutate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="condition_8h_source.html#l00157">cond_mutate()</a>.</p>
 
 </div>
 </div>
@@ -334,10 +408,17 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Prints the classifier condition. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">c</td><td>The classifier whose condition is to be printed. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="condition_8h_source.html#l00050">50</a> of file <a class="el" href="condition_8h_source.html">condition.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="condition_8h_source.html#l00095">95</a> of file <a class="el" href="condition_8h_source.html">condition.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="condition_8h_source.html#l00190">cond_print()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="condition_8h_source.html#l00177">cond_print()</a>.</p>
 
 </div>
 </div>
@@ -354,10 +435,19 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Writes the condition to a binary file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">c</td><td>The classifier whose condition is to be written. </td></tr>
+    <tr><td class="paramname">fp</td><td>Pointer to the file to be written. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The number of elements written. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="condition_8h_source.html#l00056">56</a> of file <a class="el" href="condition_8h_source.html">condition.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="condition_8h_source.html#l00118">118</a> of file <a class="el" href="condition_8h_source.html">condition.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="condition_8h_source.html#l00068">cond_save()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="condition_8h_source.html#l00129">cond_save()</a>.</p>
 
 </div>
 </div>
@@ -374,10 +464,18 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the size of the classifier condition. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">c</td><td>The classifier whose condition size to return. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The size of the condition. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="condition_8h_source.html#l00054">54</a> of file <a class="el" href="condition_8h_source.html">condition.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="condition_8h_source.html#l00110">110</a> of file <a class="el" href="condition_8h_source.html">condition.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="condition_8h_source.html#l00089">cond_size()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="condition_8h_source.html#l00137">cond_size()</a>.</p>
 
 </div>
 </div>
@@ -394,10 +492,19 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Updates the classifier's condition. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">c</td><td>The classifier whose condition is to be updated. </td></tr>
+    <tr><td class="paramname">x</td><td>The input state. </td></tr>
+    <tr><td class="paramname">y</td><td>The payoff value. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="condition_8h_source.html#l00052">52</a> of file <a class="el" href="condition_8h_source.html">condition.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="condition_8h_source.html#l00103">103</a> of file <a class="el" href="condition_8h_source.html">condition.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="condition_8h_source.html#l00100">cond_update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="condition_8h_source.html#l00141">cond_update()</a>.</p>
 
 </div>
 </div>

@@ -530,7 +530,7 @@
 <!-- Node15 -->
 <g id="node16" class="node">
 <title>Node15</title>
-<g id="a_node16"><a xlink:href="action_8h.html#a14d439f42b7289d45535ddf979ede948" target="_top" xlink:title="Copies the action from one classifier to another. ">
+<g id="a_node16"><a xlink:href="action_8h.html#a14d439f42b7289d45535ddf979ede948" target="_top" xlink:title="act_copy">
 <polygon fill="none" stroke="#000000" points="470,-798.5 470,-817.5 526,-817.5 526,-798.5 470,-798.5"/>
 <text text-anchor="middle" x="498" y="-805.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">act_copy</text>
 </a>
@@ -545,7 +545,7 @@
 <!-- Node16 -->
 <g id="node17" class="node">
 <title>Node16</title>
-<g id="a_node17"><a xlink:href="condition_8h.html#a01fbda3bfee90047acd49e0af422de1f" target="_top" xlink:title="Copies the condition from one classifier to another. ">
+<g id="a_node17"><a xlink:href="condition_8h.html#a01fbda3bfee90047acd49e0af422de1f" target="_top" xlink:title="cond_copy">
 <polygon fill="none" stroke="#000000" points="466,-760.5 466,-779.5 530,-779.5 530,-760.5 466,-760.5"/>
 <text text-anchor="middle" x="498" y="-767.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cond_copy</text>
 </a>
@@ -560,7 +560,7 @@
 <!-- Node17 -->
 <g id="node18" class="node">
 <title>Node17</title>
-<g id="a_node18"><a xlink:href="prediction_8h.html#a88a14bb183d1eabec75440c849535c49" target="_top" xlink:title="Copies the prediction from one classifier to another. ">
+<g id="a_node18"><a xlink:href="prediction_8h.html#a88a14bb183d1eabec75440c849535c49" target="_top" xlink:title="pred_copy">
 <polygon fill="none" stroke="#000000" points="467,-874.5 467,-893.5 529,-893.5 529,-874.5 467,-874.5"/>
 <text text-anchor="middle" x="498" y="-881.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">pred_copy</text>
 </a>
@@ -575,7 +575,7 @@
 <!-- Node18 -->
 <g id="node19" class="node">
 <title>Node18</title>
-<g id="a_node19"><a xlink:href="prediction_8h.html#a9466870f30753fb12cd3670e3be4b8d2" target="_top" xlink:title="Initialises a classifier&#39;s prediction. ">
+<g id="a_node19"><a xlink:href="prediction_8h.html#a9466870f30753fb12cd3670e3be4b8d2" target="_top" xlink:title="pred_init">
 <polygon fill="none" stroke="#000000" points="610,-285.5 610,-304.5 663,-304.5 663,-285.5 610,-285.5"/>
 <text text-anchor="middle" x="636.5" y="-292.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">pred_init</text>
 </a>
@@ -605,7 +605,7 @@
 <!-- Node21 -->
 <g id="node22" class="node">
 <title>Node21</title>
-<g id="a_node22"><a xlink:href="action_8h.html#a400b3ebf43c740b204844d543dc8b2e7" target="_top" xlink:title="Performs classifier action crossover. ">
+<g id="a_node22"><a xlink:href="action_8h.html#a400b3ebf43c740b204844d543dc8b2e7" target="_top" xlink:title="act_crossover">
 <polygon fill="none" stroke="#000000" points="459,-1406.5 459,-1425.5 537,-1425.5 537,-1406.5 459,-1406.5"/>
 <text text-anchor="middle" x="498" y="-1413.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">act_crossover</text>
 </a>
@@ -620,7 +620,7 @@
 <!-- Node22 -->
 <g id="node23" class="node">
 <title>Node22</title>
-<g id="a_node23"><a xlink:href="condition_8h.html#a16d81945146f0aa48db8892a3f11ac2a" target="_top" xlink:title="Performs classifier condition crossover. ">
+<g id="a_node23"><a xlink:href="condition_8h.html#a16d81945146f0aa48db8892a3f11ac2a" target="_top" xlink:title="cond_crossover">
 <polygon fill="none" stroke="#000000" points="455,-1368.5 455,-1387.5 541,-1387.5 541,-1368.5 455,-1368.5"/>
 <text text-anchor="middle" x="498" y="-1375.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cond_crossover</text>
 </a>
@@ -635,7 +635,7 @@
 <!-- Node23 -->
 <g id="node24" class="node">
 <title>Node23</title>
-<g id="a_node24"><a xlink:href="prediction_8h.html#a502b7991589a34a7a92e959ff7ffcc78" target="_top" xlink:title="Performs classifier prediction crossover. ">
+<g id="a_node24"><a xlink:href="prediction_8h.html#a502b7991589a34a7a92e959ff7ffcc78" target="_top" xlink:title="pred_crossover">
 <polygon fill="none" stroke="#000000" points="456.5,-1330.5 456.5,-1349.5 539.5,-1349.5 539.5,-1330.5 456.5,-1330.5"/>
 <text text-anchor="middle" x="498" y="-1337.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">pred_crossover</text>
 </a>
@@ -650,7 +650,7 @@
 <!-- Node25 -->
 <g id="node26" class="node">
 <title>Node25</title>
-<g id="a_node26"><a xlink:href="action_8h.html#a3c0b8f4ef29f45d210b6e76340a25e15" target="_top" xlink:title="Frees the memory used by the classifier action. ">
+<g id="a_node26"><a xlink:href="action_8h.html#a3c0b8f4ef29f45d210b6e76340a25e15" target="_top" xlink:title="act_free">
 <polygon fill="none" stroke="#000000" points="610.5,-1501.5 610.5,-1520.5 662.5,-1520.5 662.5,-1501.5 610.5,-1501.5"/>
 <text text-anchor="middle" x="636.5" y="-1508.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">act_free</text>
 </a>
@@ -665,7 +665,7 @@
 <!-- Node26 -->
 <g id="node27" class="node">
 <title>Node26</title>
-<g id="a_node27"><a xlink:href="condition_8h.html#a3f9b67abe92145cf80a263853912a0d5" target="_top" xlink:title="Frees the memory used by the classifier condition. ">
+<g id="a_node27"><a xlink:href="condition_8h.html#a3f9b67abe92145cf80a263853912a0d5" target="_top" xlink:title="cond_free">
 <polygon fill="none" stroke="#000000" points="607,-1463.5 607,-1482.5 666,-1482.5 666,-1463.5 607,-1463.5"/>
 <text text-anchor="middle" x="636.5" y="-1470.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cond_free</text>
 </a>
@@ -680,7 +680,7 @@
 <!-- Node27 -->
 <g id="node28" class="node">
 <title>Node27</title>
-<g id="a_node28"><a xlink:href="prediction_8h.html#a5c8b28f792149c6267cc8387554e1da7" target="_top" xlink:title="Frees the memory used by the classifier prediction. ">
+<g id="a_node28"><a xlink:href="prediction_8h.html#a5c8b28f792149c6267cc8387554e1da7" target="_top" xlink:title="pred_free">
 <polygon fill="none" stroke="#000000" points="608,-1425.5 608,-1444.5 665,-1444.5 665,-1425.5 608,-1425.5"/>
 <text text-anchor="middle" x="636.5" y="-1432.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">pred_free</text>
 </a>
@@ -767,7 +767,7 @@
 <!-- Node34 -->
 <g id="node35" class="node">
 <title>Node34</title>
-<g id="a_node35"><a xlink:href="action_8h.html#a640186c1f23f8aa979d9eec1f416b199" target="_top" xlink:title="Performs classifier action mutation. ">
+<g id="a_node35"><a xlink:href="action_8h.html#a640186c1f23f8aa979d9eec1f416b199" target="_top" xlink:title="act_mutate">
 <polygon fill="none" stroke="#000000" points="465.5,-1292.5 465.5,-1311.5 530.5,-1311.5 530.5,-1292.5 465.5,-1292.5"/>
 <text text-anchor="middle" x="498" y="-1299.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">act_mutate</text>
 </a>
@@ -782,7 +782,7 @@
 <!-- Node35 -->
 <g id="node36" class="node">
 <title>Node35</title>
-<g id="a_node36"><a xlink:href="condition_8h.html#a2a5222c5d95c5fd0d498bfe6269d06dd" target="_top" xlink:title="Performs classifier condition mutation. ">
+<g id="a_node36"><a xlink:href="condition_8h.html#a2a5222c5d95c5fd0d498bfe6269d06dd" target="_top" xlink:title="cond_mutate">
 <polygon fill="none" stroke="#000000" points="461.5,-1254.5 461.5,-1273.5 534.5,-1273.5 534.5,-1254.5 461.5,-1254.5"/>
 <text text-anchor="middle" x="498" y="-1261.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cond_mutate</text>
 </a>
@@ -797,7 +797,7 @@
 <!-- Node36 -->
 <g id="node37" class="node">
 <title>Node36</title>
-<g id="a_node37"><a xlink:href="prediction_8h.html#a3e740d7f4ab0a39ee2e4fac34ce479e2" target="_top" xlink:title="Performs classifier prediction mutation. ">
+<g id="a_node37"><a xlink:href="prediction_8h.html#a3e740d7f4ab0a39ee2e4fac34ce479e2" target="_top" xlink:title="pred_mutate">
 <polygon fill="none" stroke="#000000" points="462.5,-1216.5 462.5,-1235.5 533.5,-1235.5 533.5,-1216.5 462.5,-1216.5"/>
 <text text-anchor="middle" x="498" y="-1223.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">pred_mutate</text>
 </a>
@@ -872,7 +872,7 @@
 <!-- Node41 -->
 <g id="node42" class="node">
 <title>Node41</title>
-<g id="a_node42"><a xlink:href="action_8h.html#a5e7db6967718fd96162050e97ac7a9e8" target="_top" xlink:title="Returns whether the action of classifier c1 is more general than c2. ">
+<g id="a_node42"><a xlink:href="action_8h.html#a5e7db6967718fd96162050e97ac7a9e8" target="_top" xlink:title="act_general">
 <polygon fill="none" stroke="#000000" points="603,-1140.5 603,-1159.5 670,-1159.5 670,-1140.5 603,-1140.5"/>
 <text text-anchor="middle" x="636.5" y="-1147.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">act_general</text>
 </a>
@@ -887,7 +887,7 @@
 <!-- Node42 -->
 <g id="node43" class="node">
 <title>Node42</title>
-<g id="a_node43"><a xlink:href="condition_8h.html#acb015e6580d144289c6f9d254c39553c" target="_top" xlink:title="Returns whether the condition of classifier c1 is more general than c2. ">
+<g id="a_node43"><a xlink:href="condition_8h.html#acb015e6580d144289c6f9d254c39553c" target="_top" xlink:title="cond_general">
 <polygon fill="none" stroke="#000000" points="599.5,-1178.5 599.5,-1197.5 673.5,-1197.5 673.5,-1178.5 599.5,-1178.5"/>
 <text text-anchor="middle" x="636.5" y="-1185.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cond_general</text>
 </a>
@@ -980,7 +980,7 @@
 <!-- Node48 -->
 <g id="node49" class="node">
 <title>Node48</title>
-<g id="a_node49"><a xlink:href="condition_8h.html#a1433f279ed8c1fff6eb5c4517d216315" target="_top" xlink:title="Returns the size of the classifier condition. ">
+<g id="a_node49"><a xlink:href="condition_8h.html#a1433f279ed8c1fff6eb5c4517d216315" target="_top" xlink:title="cond_size">
 <polygon fill="none" stroke="#000000" points="760,-342.5 760,-361.5 821,-361.5 821,-342.5 760,-342.5"/>
 <text text-anchor="middle" x="790.5" y="-349.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cond_size</text>
 </a>
@@ -995,7 +995,7 @@
 <!-- Node51 -->
 <g id="node52" class="node">
 <title>Node51</title>
-<g id="a_node52"><a xlink:href="prediction_8h.html#a5a7d522104f8457884c00e432dbe0a35" target="_top" xlink:title="Returns the size of the classifier prediction. ">
+<g id="a_node52"><a xlink:href="prediction_8h.html#a5a7d522104f8457884c00e432dbe0a35" target="_top" xlink:title="pred_size">
 <polygon fill="none" stroke="#000000" points="761,-380.5 761,-399.5 820,-399.5 820,-380.5 761,-380.5"/>
 <text text-anchor="middle" x="790.5" y="-387.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">pred_size</text>
 </a>
@@ -1203,7 +1203,7 @@
 <!-- Node65 -->
 <g id="node66" class="node">
 <title>Node65</title>
-<g id="a_node66"><a xlink:href="action_8h.html#a0d7fce139fe8ea66b42b95ebcb941c1d" target="_top" xlink:title="Computes the current classifier action using the input. ">
+<g id="a_node66"><a xlink:href="action_8h.html#a0d7fce139fe8ea66b42b95ebcb941c1d" target="_top" xlink:title="act_compute">
 <polygon fill="none" stroke="#000000" points="461.5,-76.5 461.5,-95.5 534.5,-95.5 534.5,-76.5 461.5,-76.5"/>
 <text text-anchor="middle" x="498" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">act_compute</text>
 </a>
@@ -1218,7 +1218,7 @@
 <!-- Node67 -->
 <g id="node68" class="node">
 <title>Node67</title>
-<g id="a_node68"><a xlink:href="action_8h.html#aef1564c19502c8f890ff9f3c1260d6cf" target="_top" xlink:title="Generates an action that matches the specified value. ">
+<g id="a_node68"><a xlink:href="action_8h.html#aef1564c19502c8f890ff9f3c1260d6cf" target="_top" xlink:title="act_cover">
 <polygon fill="none" stroke="#000000" points="468.5,-190.5 468.5,-209.5 527.5,-209.5 527.5,-190.5 468.5,-190.5"/>
 <text text-anchor="middle" x="498" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">act_cover</text>
 </a>
@@ -1248,7 +1248,7 @@
 <!-- Node74 -->
 <g id="node75" class="node">
 <title>Node74</title>
-<g id="a_node75"><a xlink:href="condition_8h.html#a641c2ffa4792f9f5549a73f31bb66d44" target="_top" xlink:title="Generates a condition that matches the current input. ">
+<g id="a_node75"><a xlink:href="condition_8h.html#a641c2ffa4792f9f5549a73f31bb66d44" target="_top" xlink:title="cond_cover">
 <polygon fill="none" stroke="#000000" points="464.5,-114.5 464.5,-133.5 531.5,-133.5 531.5,-114.5 464.5,-114.5"/>
 <text text-anchor="middle" x="498" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cond_cover</text>
 </a>
@@ -1269,7 +1269,7 @@
 <!-- Node69 -->
 <g id="node70" class="node">
 <title>Node69</title>
-<g id="a_node70"><a xlink:href="action_8h.html#a5fff1d9e3cc60eaae50fda42aef83661" target="_top" xlink:title="Initialises a classifier&#39;s action. ">
+<g id="a_node70"><a xlink:href="action_8h.html#a5fff1d9e3cc60eaae50fda42aef83661" target="_top" xlink:title="act_init">
 <polygon fill="none" stroke="#000000" points="612.5,-76.5 612.5,-95.5 660.5,-95.5 660.5,-76.5 612.5,-76.5"/>
 <text text-anchor="middle" x="636.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">act_init</text>
 </a>
@@ -1299,7 +1299,7 @@
 <!-- Node71 -->
 <g id="node72" class="node">
 <title>Node71</title>
-<g id="a_node72"><a xlink:href="condition_8h.html#ac4d6ce7d2050452ba7b242cad65d592b" target="_top" xlink:title="Initialises a classifier&#39;s condition. ">
+<g id="a_node72"><a xlink:href="condition_8h.html#ac4d6ce7d2050452ba7b242cad65d592b" target="_top" xlink:title="cond_init">
 <polygon fill="none" stroke="#000000" points="608.5,-190.5 608.5,-209.5 664.5,-209.5 664.5,-190.5 608.5,-190.5"/>
 <text text-anchor="middle" x="636.5" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cond_init</text>
 </a>
@@ -1344,7 +1344,7 @@
 <!-- Node77 -->
 <g id="node78" class="node">
 <title>Node77</title>
-<g id="a_node78"><a xlink:href="condition_8h.html#a733d2f270aa8c0c18afa29d5a449b45f" target="_top" xlink:title="Calculates whether the condition matches the input. ">
+<g id="a_node78"><a xlink:href="condition_8h.html#a733d2f270aa8c0c18afa29d5a449b45f" target="_top" xlink:title="cond_match">
 <polygon fill="none" stroke="#000000" points="463,-38.5 463,-57.5 533,-57.5 533,-38.5 463,-38.5"/>
 <text text-anchor="middle" x="498" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cond_match</text>
 </a>
@@ -1374,7 +1374,7 @@
 <!-- Node82 -->
 <g id="node83" class="node">
 <title>Node82</title>
-<g id="a_node83"><a xlink:href="prediction_8h.html#ab7b5be5cd3d39ed86fd6bf0777354d70" target="_top" xlink:title="Computes the current classifier prediction using the input. ">
+<g id="a_node83"><a xlink:href="prediction_8h.html#ab7b5be5cd3d39ed86fd6bf0777354d70" target="_top" xlink:title="pred_compute">
 <polygon fill="none" stroke="#000000" points="459,-.5 459,-19.5 537,-19.5 537,-.5 459,-.5"/>
 <text text-anchor="middle" x="498" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">pred_compute</text>
 </a>
@@ -1434,7 +1434,7 @@
 <!-- Node85 -->
 <g id="node86" class="node">
 <title>Node85</title>
-<g id="a_node86"><a xlink:href="action_8h.html#af752baf1f8d7b4f15b018a95759fc9c5" target="_top" xlink:title="Updates the classifier&#39;s action. ">
+<g id="a_node86"><a xlink:href="action_8h.html#af752baf1f8d7b4f15b018a95759fc9c5" target="_top" xlink:title="act_update">
 <polygon fill="none" stroke="#000000" points="465.5,-418.5 465.5,-437.5 530.5,-437.5 530.5,-418.5 465.5,-418.5"/>
 <text text-anchor="middle" x="498" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">act_update</text>
 </a>
@@ -1479,7 +1479,7 @@
 <!-- Node88 -->
 <g id="node89" class="node">
 <title>Node88</title>
-<g id="a_node89"><a xlink:href="condition_8h.html#af948719e895342587d81c368b771c5ea" target="_top" xlink:title="Updates the classifier&#39;s condition. ">
+<g id="a_node89"><a xlink:href="condition_8h.html#af948719e895342587d81c368b771c5ea" target="_top" xlink:title="cond_update">
 <polygon fill="none" stroke="#000000" points="462,-494.5 462,-513.5 534,-513.5 534,-494.5 462,-494.5"/>
 <text text-anchor="middle" x="498" y="-501.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cond_update</text>
 </a>
@@ -1494,7 +1494,7 @@
 <!-- Node89 -->
 <g id="node90" class="node">
 <title>Node89</title>
-<g id="a_node90"><a xlink:href="prediction_8h.html#a6eafc6725b39040c8ad05450b7a808f3" target="_top" xlink:title="Updates the classifier&#39;s prediction. ">
+<g id="a_node90"><a xlink:href="prediction_8h.html#a6eafc6725b39040c8ad05450b7a808f3" target="_top" xlink:title="pred_update">
 <polygon fill="none" stroke="#000000" points="463,-456.5 463,-475.5 533,-475.5 533,-456.5 463,-456.5"/>
 <text text-anchor="middle" x="498" y="-463.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">pred_update</text>
 </a>

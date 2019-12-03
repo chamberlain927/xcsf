@@ -154,10 +154,19 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Computes the current classifier action using the input. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">c</td><td>The classifier calculating the action. </td></tr>
+    <tr><td class="paramname">x</td><td>The input state. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The classifier's action. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="action_8h_source.html#l00040">40</a> of file <a class="el" href="action_8h_source.html">action.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="action_8h_source.html#l00063">63</a> of file <a class="el" href="action_8h_source.html">action.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="action_8h_source.html#l00122">act_compute()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="action_8h_source.html#l00149">act_compute()</a>.</p>
 
 </div>
 </div>
@@ -174,10 +183,18 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Copies the action from one classifier to another. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">to</td><td>The destination classifier. </td></tr>
+    <tr><td class="paramname">from</td><td>The source classifier. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="action_8h_source.html#l00042">42</a> of file <a class="el" href="action_8h_source.html">action.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="action_8h_source.html#l00070">70</a> of file <a class="el" href="action_8h_source.html">action.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="action_8h_source.html#l00132">act_copy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="action_8h_source.html#l00153">act_copy()</a>.</p>
 
 </div>
 </div>
@@ -194,10 +211,19 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generates an action that matches the specified value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">c</td><td>The classifier whose action is being covered. </td></tr>
+    <tr><td class="paramname">x</td><td>The input state to cover. </td></tr>
+    <tr><td class="paramname">action</td><td>The action to cover. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="action_8h_source.html#l00044">44</a> of file <a class="el" href="action_8h_source.html">action.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="action_8h_source.html#l00078">78</a> of file <a class="el" href="action_8h_source.html">action.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="action_8h_source.html#l00143">act_cover()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="action_8h_source.html#l00157">act_cover()</a>.</p>
 
 </div>
 </div>
@@ -214,10 +240,19 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Performs classifier action crossover. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">c1</td><td>The first classifier whose action is being crossed. </td></tr>
+    <tr><td class="paramname">c2</td><td>The second classifier whose action is being crossed. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether any alterations were made. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="action_8h_source.html#l00036">36</a> of file <a class="el" href="action_8h_source.html">action.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="action_8h_source.html#l00048">48</a> of file <a class="el" href="action_8h_source.html">action.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="action_8h_source.html#l00101">act_crossover()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="action_8h_source.html#l00141">act_crossover()</a>.</p>
 
 </div>
 </div>
@@ -234,10 +269,17 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Frees the memory used by the classifier action. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">c</td><td>The classifier whose action is to be freed. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="action_8h_source.html#l00046">46</a> of file <a class="el" href="action_8h_source.html">action.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="action_8h_source.html#l00084">84</a> of file <a class="el" href="action_8h_source.html">action.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="action_8h_source.html#l00152">act_free()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="action_8h_source.html#l00161">act_free()</a>.</p>
 
 </div>
 </div>
@@ -254,10 +296,19 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns whether the action of classifier c1 is more general than c2. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">c1</td><td>The classifier whose action is tested to be more general. </td></tr>
+    <tr><td class="paramname">c2</td><td>The classifier whose action is tested to be more specific. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether the action of c1 is more general than c2. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="action_8h_source.html#l00034">34</a> of file <a class="el" href="action_8h_source.html">action.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="action_8h_source.html#l00040">40</a> of file <a class="el" href="action_8h_source.html">action.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="action_8h_source.html#l00090">act_general()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="action_8h_source.html#l00137">act_general()</a>.</p>
 
 </div>
 </div>
@@ -274,10 +325,17 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Initialises a classifier's action. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">c</td><td>The classifier whose action is to be initialised. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="action_8h_source.html#l00048">48</a> of file <a class="el" href="action_8h_source.html">action.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="action_8h_source.html#l00090">90</a> of file <a class="el" href="action_8h_source.html">action.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="action_8h_source.html#l00161">act_init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="action_8h_source.html#l00165">act_init()</a>.</p>
 
 </div>
 </div>
@@ -294,10 +352,19 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reads the action from a binary file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">c</td><td>The classifier whose action is to be read. </td></tr>
+    <tr><td class="paramname">fp</td><td>Pointer to the file to be read. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The number of elements read. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="action_8h_source.html#l00058">58</a> of file <a class="el" href="action_8h_source.html">action.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="action_8h_source.html#l00126">126</a> of file <a class="el" href="action_8h_source.html">action.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="action_8h_source.html#l00079">act_load()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="action_8h_source.html#l00133">act_load()</a>.</p>
 
 </div>
 </div>
@@ -314,10 +381,18 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Performs classifier action mutation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">c</td><td>The classifier whose action is being mutated. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether any alterations were made. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="action_8h_source.html#l00038">38</a> of file <a class="el" href="action_8h_source.html">action.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="action_8h_source.html#l00055">55</a> of file <a class="el" href="action_8h_source.html">action.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="action_8h_source.html#l00111">act_mutate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="action_8h_source.html#l00145">act_mutate()</a>.</p>
 
 </div>
 </div>
@@ -334,10 +409,17 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Prints the classifier action. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">c</td><td>The classifier whose action is to be printed. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="action_8h_source.html#l00052">52</a> of file <a class="el" href="action_8h_source.html">action.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="action_8h_source.html#l00102">102</a> of file <a class="el" href="action_8h_source.html">action.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="action_8h_source.html#l00179">act_print()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="action_8h_source.html#l00173">act_print()</a>.</p>
 
 </div>
 </div>
@@ -354,10 +436,17 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Randomises a classifier's action. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">c</td><td>The classifier whose action is to be randomised. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="action_8h_source.html#l00050">50</a> of file <a class="el" href="action_8h_source.html">action.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="action_8h_source.html#l00096">96</a> of file <a class="el" href="action_8h_source.html">action.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="action_8h_source.html#l00170">act_rand()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="action_8h_source.html#l00169">act_rand()</a>.</p>
 
 </div>
 </div>
@@ -374,10 +463,19 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Writes the action to a binary file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">c</td><td>The classifier whose action is to be written. </td></tr>
+    <tr><td class="paramname">fp</td><td>Pointer to the file to be written. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The number of elements written. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="action_8h_source.html#l00056">56</a> of file <a class="el" href="action_8h_source.html">action.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="action_8h_source.html#l00118">118</a> of file <a class="el" href="action_8h_source.html">action.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="action_8h_source.html#l00068">act_save()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="action_8h_source.html#l00129">act_save()</a>.</p>
 
 </div>
 </div>
@@ -394,10 +492,19 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Updates the classifier's action. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">c</td><td>The classifier whose action is to be updated. </td></tr>
+    <tr><td class="paramname">x</td><td>The input state. </td></tr>
+    <tr><td class="paramname">y</td><td>The payoff value. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="action_8h_source.html#l00054">54</a> of file <a class="el" href="action_8h_source.html">action.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="action_8h_source.html#l00110">110</a> of file <a class="el" href="action_8h_source.html">action.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="action_8h_source.html#l00190">act_update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="action_8h_source.html#l00177">act_update()</a>.</p>
 
 </div>
 </div>
