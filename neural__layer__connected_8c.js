@@ -2,6 +2,10 @@ var neural__layer__connected_8c =
 [
     [ "ETA_MAX", "neural__layer__connected_8c.html#ac8506c6dfbaa367890d2c900541c6f19", null ],
     [ "ETA_MIN", "neural__layer__connected_8c.html#a05eb6d5155c3a0f6b17118b5ce0478ac", null ],
+    [ "mutate_eta", "neural__layer__connected_8c.html#ad19bdecde3e5250ff52376ca965d3e73", null ],
+    [ "mutate_functions", "neural__layer__connected_8c.html#a86da9735a5db9145b976c16c29114c33", null ],
+    [ "mutate_neurons", "neural__layer__connected_8c.html#aa08dc454e3cbd3216eb876792a255609", null ],
+    [ "mutate_weights", "neural__layer__connected_8c.html#a4f4211673e1e2e7a56cedaaf81f4ad54", null ],
     [ "neural_layer_connected_backward", "neural__layer__connected_8c.html#af9dcc6dbe5c6081b9384a7ba2612f2b4", null ],
     [ "neural_layer_connected_copy", "neural__layer__connected_8c.html#adcafe18ace400f29408ac12d88197dbc", null ],
     [ "neural_layer_connected_forward", "neural__layer__connected_8c.html#ad6a5740088c37ef80346b186ac74f142", null ],

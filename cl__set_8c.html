@@ -112,8 +112,7 @@ $(document).ready(function(){initNavTree('cl__set_8c.html','');});
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for cl_set.c:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c__incl.svg" width="2067" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c__incl.svg" width="2067" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <p><a href="cl__set_8c_source.html">Go to the source code of this file.</a></p>
@@ -132,6 +131,9 @@ Functions</h2></td></tr>
 <tr class="memitem:adeaf6bbaf8178ca4291f9997ab9960af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl__set_8c.html#adeaf6bbaf8178ca4291f9997ab9960af">set_update_fit</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structSET.html">SET</a> *set)</td></tr>
 <tr class="memdesc:adeaf6bbaf8178ca4291f9997ab9960af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the fitness of classifiers in the set.  <a href="#adeaf6bbaf8178ca4291f9997ab9960af">More...</a><br /></td></tr>
 <tr class="separator:adeaf6bbaf8178ca4291f9997ab9960af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe074d7cbd109322c145d194cdd02704"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl__set_8c.html#abe074d7cbd109322c145d194cdd02704">set_cover</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structSET.html">SET</a> *mset, <a class="el" href="structSET.html">SET</a> *kset, double *x, _Bool *act_covered)</td></tr>
+<tr class="memdesc:abe074d7cbd109322c145d194cdd02704"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ensures all possible actions are covered by the match set.  <a href="#abe074d7cbd109322c145d194cdd02704">More...</a><br /></td></tr>
+<tr class="separator:abe074d7cbd109322c145d194cdd02704"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e1060f1e8c1f916d798864804078e88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl__set_8c.html#a1e1060f1e8c1f916d798864804078e88">pop_init</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
 <tr class="memdesc:a1e1060f1e8c1f916d798864804078e88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises a new population set.  <a href="#a1e1060f1e8c1f916d798864804078e88">More...</a><br /></td></tr>
 <tr class="separator:a1e1060f1e8c1f916d798864804078e88"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -229,7 +231,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00044">44</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cl__set_8c_source.html#l00159">set_match()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cl__set_8c_source.html#l00207">set_cover()</a>.</p>
 
 </div>
 </div>
@@ -270,22 +272,20 @@ Functions</h2></td></tr>
 </dl>
 <p>Selects two classifiers using roulete wheel selection with the deletion vote and deletes the one with the largest condition + prediction length. For fixed-length representations this is the same as one roulete spin. </p>
 
-<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00091">91</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00092">92</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00054">CLIST::cl</a>, <a class="el" href="cl_8c_source.html#l00416">cl_cond_size()</a>, <a class="el" href="cl_8c_source.html#l00123">cl_del_vote()</a>, <a class="el" href="cl_8c_source.html#l00427">cl_pred_size()</a>, <a class="el" href="xcsf_8h_source.html#l00062">SET::list</a>, <a class="el" href="xcsf_8h_source.html#l00055">CLIST::next</a>, <a class="el" href="xcsf_8h_source.html#l00039">CL::num</a>, <a class="el" href="xcsf_8h_source.html#l00064">SET::num</a>, <a class="el" href="xcsf_8h_source.html#l00071">XCSF::pset</a>, <a class="el" href="utils_8c_source.html#l00071">rand_uniform()</a>, <a class="el" href="cl__set_8c_source.html#l00325">set_add()</a>, <a class="el" href="cl__set_8c_source.html#l00503">set_total_fit()</a>, and <a class="el" href="xcsf_8h_source.html#l00063">SET::size</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00054">CLIST::cl</a>, <a class="el" href="cl_8c_source.html#l00416">cl_cond_size()</a>, <a class="el" href="cl_8c_source.html#l00123">cl_del_vote()</a>, <a class="el" href="cl_8c_source.html#l00427">cl_pred_size()</a>, <a class="el" href="xcsf_8h_source.html#l00062">SET::list</a>, <a class="el" href="xcsf_8h_source.html#l00055">CLIST::next</a>, <a class="el" href="xcsf_8h_source.html#l00039">CL::num</a>, <a class="el" href="xcsf_8h_source.html#l00064">SET::num</a>, <a class="el" href="xcsf_8h_source.html#l00071">XCSF::pset</a>, <a class="el" href="utils_8c_source.html#l00071">rand_uniform()</a>, <a class="el" href="cl__set_8c_source.html#l00336">set_add()</a>, <a class="el" href="cl__set_8c_source.html#l00512">set_total_fit()</a>, and <a class="el" href="xcsf_8h_source.html#l00063">SET::size</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cl__set_8c_source.html#l00141">pop_enforce_limit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cl__set_8c_source.html#l00142">pop_enforce_limit()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a7ff6217fb822a2eca84c9ac23e8b5cb5_cgraph.svg" width="839" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a7ff6217fb822a2eca84c9ac23e8b5cb5_cgraph.svg" width="839" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a7ff6217fb822a2eca84c9ac23e8b5cb5_icgraph.svg" width="1198" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a7ff6217fb822a2eca84c9ac23e8b5cb5_icgraph.svg" width="1324" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -325,22 +325,20 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00141">141</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00142">142</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00064">SET::num</a>, <a class="el" href="cl__set_8c_source.html#l00091">pop_del()</a>, <a class="el" href="xcsf_8h_source.html#l00080">XCSF::POP_SIZE</a>, and <a class="el" href="xcsf_8h_source.html#l00071">XCSF::pset</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00064">SET::num</a>, <a class="el" href="cl__set_8c_source.html#l00092">pop_del()</a>, <a class="el" href="xcsf_8h_source.html#l00080">XCSF::POP_SIZE</a>, and <a class="el" href="xcsf_8h_source.html#l00071">XCSF::pset</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ea_8c_source.html#l00048">ea()</a>, and <a class="el" href="cl__set_8c_source.html#l00159">set_match()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ea_8c_source.html#l00048">ea()</a>, and <a class="el" href="cl__set_8c_source.html#l00207">set_cover()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a8537e849783523d1e2394e4a027cf33a_cgraph.svg" width="1011" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a8537e849783523d1e2394e4a027cf33a_cgraph.svg" width="1011" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a8537e849783523d1e2394e4a027cf33a_icgraph.svg" width="1048" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a8537e849783523d1e2394e4a027cf33a_icgraph.svg" width="1175" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -369,22 +367,20 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00053">53</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00054">54</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
 
-<p class="reference">References <a class="el" href="cl_8c_source.html#l00048">cl_init()</a>, <a class="el" href="cl_8c_source.html#l00106">cl_rand()</a>, <a class="el" href="xcsf_8h_source.html#l00073">XCSF::msetsize</a>, <a class="el" href="xcsf_8h_source.html#l00064">SET::num</a>, <a class="el" href="xcsf_8h_source.html#l00077">XCSF::POP_INIT</a>, <a class="el" href="xcsf_8h_source.html#l00080">XCSF::POP_SIZE</a>, <a class="el" href="xcsf_8h_source.html#l00071">XCSF::pset</a>, <a class="el" href="cl__set_8c_source.html#l00325">set_add()</a>, <a class="el" href="cl__set_8c_source.html#l00074">set_init()</a>, and <a class="el" href="xcsf_8h_source.html#l00072">XCSF::time</a>.</p>
+<p class="reference">References <a class="el" href="cl_8c_source.html#l00048">cl_init()</a>, <a class="el" href="cl_8c_source.html#l00106">cl_rand()</a>, <a class="el" href="xcsf_8h_source.html#l00073">XCSF::msetsize</a>, <a class="el" href="xcsf_8h_source.html#l00064">SET::num</a>, <a class="el" href="xcsf_8h_source.html#l00077">XCSF::POP_INIT</a>, <a class="el" href="xcsf_8h_source.html#l00080">XCSF::POP_SIZE</a>, <a class="el" href="xcsf_8h_source.html#l00071">XCSF::pset</a>, <a class="el" href="cl__set_8c_source.html#l00336">set_add()</a>, <a class="el" href="cl__set_8c_source.html#l00075">set_init()</a>, and <a class="el" href="xcsf_8h_source.html#l00072">XCSF::time</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8c_source.html#l00113">classification()</a>, <a class="el" href="python__wrapper_8cpp_source.html#l00084">XCS::fit()</a>, and <a class="el" href="main_8c_source.html#l00079">regression()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8c_source.html#l00110">classification()</a>, <a class="el" href="python__wrapper_8cpp_source.html#l00084">XCS::fit()</a>, and <a class="el" href="main_8c_source.html#l00079">regression()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a1e1060f1e8c1f916d798864804078e88_cgraph.svg" width="1474" height="367"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a1e1060f1e8c1f916d798864804078e88_cgraph.svg" width="1474" height="367"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a1e1060f1e8c1f916d798864804078e88_icgraph.svg" width="467" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a1e1060f1e8c1f916d798864804078e88_icgraph.svg" width="467" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -425,22 +421,20 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The number of elements read. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00655">655</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00667">667</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
 
-<p class="reference">References <a class="el" href="cl_8c_source.html#l00468">cl_load()</a>, <a class="el" href="xcsf_8h_source.html#l00071">XCSF::pset</a>, <a class="el" href="cl__set_8c_source.html#l00325">set_add()</a>, and <a class="el" href="cl__set_8c_source.html#l00074">set_init()</a>.</p>
+<p class="reference">References <a class="el" href="cl_8c_source.html#l00467">cl_load()</a>, <a class="el" href="xcsf_8h_source.html#l00071">XCSF::pset</a>, <a class="el" href="cl__set_8c_source.html#l00336">set_add()</a>, and <a class="el" href="cl__set_8c_source.html#l00075">set_init()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="xcsf_8c_source.html#l00276">xcsf_load()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="xcsf_8c_source.html#l00281">xcsf_load()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a488209fe1e7dc1ef3d09d9aa94340329_cgraph.svg" width="352" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a488209fe1e7dc1ef3d09d9aa94340329_cgraph.svg" width="352" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a488209fe1e7dc1ef3d09d9aa94340329_icgraph.svg" width="602" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a488209fe1e7dc1ef3d09d9aa94340329_icgraph.svg" width="602" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -481,22 +475,20 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The number of elements written. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00638">638</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00650">650</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
 
 <p class="reference">References <a class="el" href="cl_8c_source.html#l00439">cl_save()</a>, <a class="el" href="xcsf_8h_source.html#l00062">SET::list</a>, <a class="el" href="xcsf_8h_source.html#l00055">CLIST::next</a>, <a class="el" href="xcsf_8h_source.html#l00064">SET::num</a>, <a class="el" href="xcsf_8h_source.html#l00071">XCSF::pset</a>, and <a class="el" href="xcsf_8h_source.html#l00063">SET::size</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="xcsf_8c_source.html#l00254">xcsf_save()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="xcsf_8c_source.html#l00260">xcsf_save()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_af3ee52849522864af509b10333baedab_cgraph.svg" width="338" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_af3ee52849522864af509b10333baedab_cgraph.svg" width="338" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_af3ee52849522864af509b10333baedab_icgraph.svg" width="598" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_af3ee52849522864af509b10333baedab_icgraph.svg" width="598" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -550,22 +542,20 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00292">292</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00303">303</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00062">SET::list</a>, <a class="el" href="xcsf_8h_source.html#l00055">CLIST::next</a>, and <a class="el" href="cl__set_8c_source.html#l00325">set_add()</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00062">SET::list</a>, <a class="el" href="xcsf_8h_source.html#l00055">CLIST::next</a>, and <a class="el" href="cl__set_8c_source.html#l00336">set_add()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="xcs__multi__step_8c_source.html#l00139">xcs_multi_exploit()</a>, <a class="el" href="xcs__multi__step_8c_source.html#l00071">xcs_multi_explore()</a>, <a class="el" href="xcs__single__step_8c_source.html#l00106">xcs_single_exploit()</a>, and <a class="el" href="xcs__single__step_8c_source.html#l00072">xcs_single_explore()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="xcs__multi__step_8c_source.html#l00143">xcs_multi_exploit()</a>, <a class="el" href="xcs__multi__step_8c_source.html#l00073">xcs_multi_explore()</a>, <a class="el" href="xcs__single__step_8c_source.html#l00111">xcs_single_exploit()</a>, and <a class="el" href="xcs__single__step_8c_source.html#l00075">xcs_single_explore()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a3d345222ddc9ca29b5fd1f4cdda03875_cgraph.svg" width="210" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a3d345222ddc9ca29b5fd1f4cdda03875_cgraph.svg" width="210" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a3d345222ddc9ca29b5fd1f4cdda03875_icgraph.svg" width="712" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a3d345222ddc9ca29b5fd1f4cdda03875_icgraph.svg" width="712" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -613,16 +603,15 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Whether the action is covered. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00308">308</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00319">319</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00055">CLIST::next</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cl__set_8c_source.html#l00159">set_match()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cl__set_8c_source.html#l00207">set_cover()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a55395d23e56e86a5dd11be34a4e051ff_icgraph.svg" width="1094" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a55395d23e56e86a5dd11be34a4e051ff_icgraph.svg" width="1220" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -669,16 +658,15 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00325">325</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00336">336</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00041">CL::size</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ea_8c_source.html#l00048">ea()</a>, <a class="el" href="ea_8c_source.html#l00134">ea_subsume()</a>, <a class="el" href="cl__set_8c_source.html#l00091">pop_del()</a>, <a class="el" href="cl__set_8c_source.html#l00053">pop_init()</a>, <a class="el" href="cl__set_8c_source.html#l00655">pop_load()</a>, <a class="el" href="cl__set_8c_source.html#l00292">set_action()</a>, <a class="el" href="cl__set_8c_source.html#l00159">set_match()</a>, and <a class="el" href="cl__set_8c_source.html#l00406">set_subsumption()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ea_8c_source.html#l00048">ea()</a>, <a class="el" href="ea_8c_source.html#l00134">ea_subsume()</a>, <a class="el" href="cl__set_8c_source.html#l00092">pop_del()</a>, <a class="el" href="cl__set_8c_source.html#l00054">pop_init()</a>, <a class="el" href="cl__set_8c_source.html#l00667">pop_load()</a>, <a class="el" href="cl__set_8c_source.html#l00303">set_action()</a>, <a class="el" href="cl__set_8c_source.html#l00207">set_cover()</a>, <a class="el" href="cl__set_8c_source.html#l00160">set_match()</a>, and <a class="el" href="cl__set_8c_source.html#l00417">set_subsumption()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a274578f0b79dea927e8148a7c41bf75f_icgraph.svg" width="1383" height="538"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a274578f0b79dea927e8148a7c41bf75f_icgraph.svg" width="1463" height="506"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -719,7 +707,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The mean condition size of classifiers in the set. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00606">606</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00616">616</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
 
 <p class="reference">References <a class="el" href="cl_8c_source.html#l00416">cl_cond_size()</a>, and <a class="el" href="xcsf_8h_source.html#l00055">CLIST::next</a>.</p>
 
@@ -727,14 +715,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a83f22ece229912e4673e79aedd776c13_cgraph.svg" width="422" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a83f22ece229912e4673e79aedd776c13_cgraph.svg" width="422" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a83f22ece229912e4673e79aedd776c13_icgraph.svg" width="635" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a83f22ece229912e4673e79aedd776c13_icgraph.svg" width="635" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -782,22 +768,20 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The mean prediction layer ETA of classifiers in the set. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00677">677</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00690">690</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00055">CLIST::next</a>, and <a class="el" href="pred__neural_8c_source.html#l00179">pred_neural_eta()</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00055">CLIST::next</a>, and <a class="el" href="pred__neural_8c_source.html#l00171">pred_neural_eta()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00253">XCS::get_pop_avg_pred_eta()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a2f0551a4e8c23e80fa932908c5cd3f1c_cgraph.svg" width="267" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a2f0551a4e8c23e80fa932908c5cd3f1c_cgraph.svg" width="267" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a2f0551a4e8c23e80fa932908c5cd3f1c_icgraph.svg" width="584" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a2f0551a4e8c23e80fa932908c5cd3f1c_icgraph.svg" width="584" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -845,7 +829,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The mean mutation rate of classifiers in the set. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00579">579</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00588">588</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
 
 <p class="reference">References <a class="el" href="cl_8c_source.html#l00404">cl_mutation_rate()</a>, <a class="el" href="xcsf_8h_source.html#l00108">XCSF::E_MUTATION</a>, <a class="el" href="xcsf_8h_source.html#l00106">XCSF::F_MUTATION</a>, <a class="el" href="xcsf_8h_source.html#l00055">CLIST::next</a>, <a class="el" href="xcsf_8h_source.html#l00105">XCSF::P_MUTATION</a>, <a class="el" href="xcsf_8h_source.html#l00107">XCSF::S_MUTATION</a>, and <a class="el" href="xcsf_8h_source.html#l00116">XCSF::SAM_NUM</a>.</p>
 
@@ -853,14 +837,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a81227ac29f572c4dce57d5fed7ac2517_cgraph.svg" width="275" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a81227ac29f572c4dce57d5fed7ac2517_cgraph.svg" width="275" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a81227ac29f572c4dce57d5fed7ac2517_icgraph.svg" width="895" height="258"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a81227ac29f572c4dce57d5fed7ac2517_icgraph.svg" width="895" height="258"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -901,7 +883,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The mean prediction size of classifiers in the set. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00622">622</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00633">633</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
 
 <p class="reference">References <a class="el" href="cl_8c_source.html#l00427">cl_pred_size()</a>, and <a class="el" href="xcsf_8h_source.html#l00055">CLIST::next</a>.</p>
 
@@ -909,14 +891,86 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a0bd1bcc81dd3c22d0f080aa3f0ac3a05_cgraph.svg" width="411" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a0bd1bcc81dd3c22d0f080aa3f0ac3a05_cgraph.svg" width="411" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a0bd1bcc81dd3c22d0f080aa3f0ac3a05_icgraph.svg" width="627" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a0bd1bcc81dd3c22d0f080aa3f0ac3a05_icgraph.svg" width="627" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
+
+</div>
+</div>
+<a id="abe074d7cbd109322c145d194cdd02704"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe074d7cbd109322c145d194cdd02704">&#9670;&nbsp;</a></span>set_cover()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_cover </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structSET.html">SET</a> *&#160;</td>
+          <td class="paramname"><em>mset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structSET.html">SET</a> *&#160;</td>
+          <td class="paramname"><em>kset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">_Bool *&#160;</td>
+          <td class="paramname"><em>act_covered</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Ensures all possible actions are covered by the match set. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">mset</td><td>The match set. </td></tr>
+    <tr><td class="paramname">kset</td><td>A set to store deleted macro-classifiers for later memory removal. </td></tr>
+    <tr><td class="paramname">x</td><td>The input state. </td></tr>
+    <tr><td class="paramname">act_covered</td><td>Array indicating whether each action is covered by the set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00207">207</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
+
+<p class="reference">References <a class="el" href="cl_8c_source.html#l00094">cl_cover()</a>, <a class="el" href="cl_8c_source.html#l00048">cl_init()</a>, <a class="el" href="cl__set_8c_source.html#l00044">MAX_COVER</a>, <a class="el" href="xcsf_8h_source.html#l00064">SET::num</a>, <a class="el" href="xcsf_8h_source.html#l00172">XCSF::num_actions</a>, <a class="el" href="cl__set_8c_source.html#l00142">pop_enforce_limit()</a>, <a class="el" href="xcsf_8h_source.html#l00071">XCSF::pset</a>, <a class="el" href="cl__set_8c_source.html#l00319">set_action_covered()</a>, <a class="el" href="cl__set_8c_source.html#l00336">set_add()</a>, <a class="el" href="cl__set_8c_source.html#l00450">set_validate()</a>, <a class="el" href="xcsf_8h_source.html#l00063">SET::size</a>, and <a class="el" href="xcsf_8h_source.html#l00072">XCSF::time</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="cl__set_8c_source.html#l00160">set_match()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_abe074d7cbd109322c145d194cdd02704_cgraph.svg" width="1539" height="696"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_abe074d7cbd109322c145d194cdd02704_icgraph.svg" width="1038" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -956,16 +1010,15 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00545">545</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00554">554</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00055">CLIST::next</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="xcs__multi__step_8c_source.html#l00139">xcs_multi_exploit()</a>, <a class="el" href="xcs__multi__step_8c_source.html#l00071">xcs_multi_explore()</a>, <a class="el" href="xcs__single__step_8c_source.html#l00106">xcs_single_exploit()</a>, <a class="el" href="xcs__single__step_8c_source.html#l00072">xcs_single_explore()</a>, <a class="el" href="xcsf_8c_source.html#l00139">xcsf_learn_trial()</a>, <a class="el" href="xcsf_8c_source.html#l00183">xcsf_predict()</a>, <a class="el" href="xcsf_8c_source.html#l00237">xcsf_print_match_set()</a>, and <a class="el" href="xcsf_8c_source.html#l00163">xcsf_test_trial()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="xcs__multi__step_8c_source.html#l00143">xcs_multi_exploit()</a>, <a class="el" href="xcs__multi__step_8c_source.html#l00073">xcs_multi_explore()</a>, <a class="el" href="xcs__single__step_8c_source.html#l00111">xcs_single_exploit()</a>, <a class="el" href="xcs__single__step_8c_source.html#l00075">xcs_single_explore()</a>, <a class="el" href="xcsf_8c_source.html#l00141">xcsf_learn_trial()</a>, <a class="el" href="xcsf_8c_source.html#l00187">xcsf_predict()</a>, <a class="el" href="xcsf_8c_source.html#l00242">xcsf_print_match_set()</a>, and <a class="el" href="xcsf_8c_source.html#l00166">xcsf_test_trial()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_af03c3db68031f8953d79a4725ae951ad_icgraph.svg" width="898" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_af03c3db68031f8953d79a4725ae951ad_icgraph.svg" width="898" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1005,14 +1058,13 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00074">74</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00075">75</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cl__set_8c_source.html#l00053">pop_init()</a>, <a class="el" href="cl__set_8c_source.html#l00655">pop_load()</a>, <a class="el" href="xcs__multi__step_8c_source.html#l00139">xcs_multi_exploit()</a>, <a class="el" href="xcs__multi__step_8c_source.html#l00071">xcs_multi_explore()</a>, <a class="el" href="xcs__single__step_8c_source.html#l00106">xcs_single_exploit()</a>, <a class="el" href="xcs__single__step_8c_source.html#l00072">xcs_single_explore()</a>, <a class="el" href="xcsf_8c_source.html#l00139">xcsf_learn_trial()</a>, <a class="el" href="xcsf_8c_source.html#l00276">xcsf_load()</a>, <a class="el" href="xcsf_8c_source.html#l00183">xcsf_predict()</a>, <a class="el" href="xcsf_8c_source.html#l00237">xcsf_print_match_set()</a>, and <a class="el" href="xcsf_8c_source.html#l00163">xcsf_test_trial()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cl__set_8c_source.html#l00054">pop_init()</a>, <a class="el" href="cl__set_8c_source.html#l00667">pop_load()</a>, <a class="el" href="xcs__multi__step_8c_source.html#l00143">xcs_multi_exploit()</a>, <a class="el" href="xcs__multi__step_8c_source.html#l00073">xcs_multi_explore()</a>, <a class="el" href="xcs__single__step_8c_source.html#l00111">xcs_single_exploit()</a>, <a class="el" href="xcs__single__step_8c_source.html#l00075">xcs_single_explore()</a>, <a class="el" href="xcsf_8c_source.html#l00141">xcsf_learn_trial()</a>, <a class="el" href="xcsf_8c_source.html#l00281">xcsf_load()</a>, <a class="el" href="xcsf_8c_source.html#l00187">xcsf_predict()</a>, <a class="el" href="xcsf_8c_source.html#l00242">xcsf_print_match_set()</a>, and <a class="el" href="xcsf_8c_source.html#l00166">xcsf_test_trial()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_ad4388f1d26d4129991f692eb4c81886c_icgraph.svg" width="903" height="544"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_ad4388f1d26d4129991f692eb4c81886c_icgraph.svg" width="903" height="544"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1052,22 +1104,20 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00561">561</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00570">570</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00054">CLIST::cl</a>, <a class="el" href="cl_8c_source.html#l00227">cl_free()</a>, and <a class="el" href="xcsf_8h_source.html#l00055">CLIST::next</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8c_source.html#l00044">main()</a>, <a class="el" href="xcs__multi__step_8c_source.html#l00139">xcs_multi_exploit()</a>, <a class="el" href="xcs__multi__step_8c_source.html#l00071">xcs_multi_explore()</a>, <a class="el" href="xcs__single__step_8c_source.html#l00106">xcs_single_exploit()</a>, <a class="el" href="xcs__single__step_8c_source.html#l00072">xcs_single_explore()</a>, <a class="el" href="xcsf_8c_source.html#l00139">xcsf_learn_trial()</a>, <a class="el" href="xcsf_8c_source.html#l00276">xcsf_load()</a>, <a class="el" href="xcsf_8c_source.html#l00183">xcsf_predict()</a>, <a class="el" href="xcsf_8c_source.html#l00237">xcsf_print_match_set()</a>, and <a class="el" href="xcsf_8c_source.html#l00163">xcsf_test_trial()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8c_source.html#l00044">main()</a>, <a class="el" href="xcs__multi__step_8c_source.html#l00143">xcs_multi_exploit()</a>, <a class="el" href="xcs__multi__step_8c_source.html#l00073">xcs_multi_explore()</a>, <a class="el" href="xcs__single__step_8c_source.html#l00111">xcs_single_exploit()</a>, <a class="el" href="xcs__single__step_8c_source.html#l00075">xcs_single_explore()</a>, <a class="el" href="xcsf_8c_source.html#l00141">xcsf_learn_trial()</a>, <a class="el" href="xcsf_8c_source.html#l00281">xcsf_load()</a>, <a class="el" href="xcsf_8c_source.html#l00187">xcsf_predict()</a>, <a class="el" href="xcsf_8c_source.html#l00242">xcsf_print_match_set()</a>, and <a class="el" href="xcsf_8c_source.html#l00166">xcsf_test_trial()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a0b2479df1a61213f1f150907c62278bb_cgraph.svg" width="310" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a0b2479df1a61213f1f150907c62278bb_cgraph.svg" width="310" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a0b2479df1a61213f1f150907c62278bb_icgraph.svg" width="902" height="516"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a0b2479df1a61213f1f150907c62278bb_icgraph.svg" width="902" height="516"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1122,22 +1172,20 @@ Here is the caller graph for this function:</div>
 </dl>
 <p>Processes the matching conditions for each classifier in the population. Adds each matching classifier to the match set. Performs covering if any actions are not covered. </p>
 
-<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00159">159</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00160">160</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
 
-<p class="reference">References <a class="el" href="cl_8c_source.html#l00302">cl_action()</a>, <a class="el" href="cl_8c_source.html#l00094">cl_cover()</a>, <a class="el" href="cl_8c_source.html#l00048">cl_init()</a>, <a class="el" href="cl_8c_source.html#l00289">cl_m()</a>, <a class="el" href="cl_8c_source.html#l00276">cl_match()</a>, <a class="el" href="xcsf_8h_source.html#l00062">SET::list</a>, <a class="el" href="cl__set_8c_source.html#l00044">MAX_COVER</a>, <a class="el" href="xcsf_8h_source.html#l00055">CLIST::next</a>, <a class="el" href="xcsf_8h_source.html#l00064">SET::num</a>, <a class="el" href="xcsf_8h_source.html#l00172">XCSF::num_actions</a>, <a class="el" href="cl__set_8c_source.html#l00141">pop_enforce_limit()</a>, <a class="el" href="xcsf_8h_source.html#l00071">XCSF::pset</a>, <a class="el" href="cl__set_8c_source.html#l00308">set_action_covered()</a>, <a class="el" href="cl__set_8c_source.html#l00325">set_add()</a>, <a class="el" href="cl__set_8c_source.html#l00441">set_validate()</a>, <a class="el" href="xcsf_8h_source.html#l00063">SET::size</a>, and <a class="el" href="xcsf_8h_source.html#l00072">XCSF::time</a>.</p>
+<p class="reference">References <a class="el" href="cl_8c_source.html#l00302">cl_action()</a>, <a class="el" href="cl_8c_source.html#l00289">cl_m()</a>, <a class="el" href="cl_8c_source.html#l00276">cl_match()</a>, <a class="el" href="xcsf_8h_source.html#l00062">SET::list</a>, <a class="el" href="xcsf_8h_source.html#l00055">CLIST::next</a>, <a class="el" href="xcsf_8h_source.html#l00172">XCSF::num_actions</a>, <a class="el" href="xcsf_8h_source.html#l00071">XCSF::pset</a>, <a class="el" href="cl__set_8c_source.html#l00336">set_add()</a>, <a class="el" href="cl__set_8c_source.html#l00207">set_cover()</a>, and <a class="el" href="xcsf_8h_source.html#l00063">SET::size</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="xcs__multi__step_8c_source.html#l00139">xcs_multi_exploit()</a>, <a class="el" href="xcs__multi__step_8c_source.html#l00071">xcs_multi_explore()</a>, <a class="el" href="xcs__single__step_8c_source.html#l00106">xcs_single_exploit()</a>, <a class="el" href="xcs__single__step_8c_source.html#l00072">xcs_single_explore()</a>, <a class="el" href="xcsf_8c_source.html#l00139">xcsf_learn_trial()</a>, <a class="el" href="xcsf_8c_source.html#l00183">xcsf_predict()</a>, <a class="el" href="xcsf_8c_source.html#l00237">xcsf_print_match_set()</a>, and <a class="el" href="xcsf_8c_source.html#l00163">xcsf_test_trial()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="xcs__multi__step_8c_source.html#l00143">xcs_multi_exploit()</a>, <a class="el" href="xcs__multi__step_8c_source.html#l00073">xcs_multi_explore()</a>, <a class="el" href="xcs__single__step_8c_source.html#l00111">xcs_single_exploit()</a>, <a class="el" href="xcs__single__step_8c_source.html#l00075">xcs_single_explore()</a>, <a class="el" href="xcsf_8c_source.html#l00141">xcsf_learn_trial()</a>, <a class="el" href="xcsf_8c_source.html#l00187">xcsf_predict()</a>, <a class="el" href="xcsf_8c_source.html#l00242">xcsf_print_match_set()</a>, and <a class="el" href="xcsf_8c_source.html#l00166">xcsf_test_trial()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_af3bea0b4d03654b9d6cb08fbf272c847_cgraph.svg" width="1551" height="696"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_af3bea0b4d03654b9d6cb08fbf272c847_cgraph.svg" width="1670" height="848"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_af3bea0b4d03654b9d6cb08fbf272c847_icgraph.svg" width="911" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_af3bea0b4d03654b9d6cb08fbf272c847_icgraph.svg" width="911" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1178,22 +1226,20 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The mean time of classifiers in the set. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00535">535</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00544">544</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
 
-<p class="reference">References <a class="el" href="cl__set_8c_source.html#l00519">set_total_time()</a>.</p>
+<p class="reference">References <a class="el" href="cl__set_8c_source.html#l00528">set_total_time()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="ea_8c_source.html#l00048">ea()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a30cd804e16b64709844ee3a6cbae2547_cgraph.svg" width="274" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a30cd804e16b64709844ee3a6cbae2547_cgraph.svg" width="274" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a30cd804e16b64709844ee3a6cbae2547_icgraph.svg" width="971" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a30cd804e16b64709844ee3a6cbae2547_icgraph.svg" width="971" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1247,22 +1293,20 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00247">247</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00258">258</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00054">CLIST::cl</a>, <a class="el" href="cl_8c_source.html#l00315">cl_predict()</a>, <a class="el" href="xcsf_8h_source.html#l00038">CL::fit</a>, <a class="el" href="xcsf_8h_source.html#l00055">CLIST::next</a>, and <a class="el" href="xcsf_8h_source.html#l00171">XCSF::num_y_vars</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="xcsf_8c_source.html#l00139">xcsf_learn_trial()</a>, <a class="el" href="xcsf_8c_source.html#l00183">xcsf_predict()</a>, and <a class="el" href="xcsf_8c_source.html#l00163">xcsf_test_trial()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="xcsf_8c_source.html#l00141">xcsf_learn_trial()</a>, <a class="el" href="xcsf_8c_source.html#l00187">xcsf_predict()</a>, and <a class="el" href="xcsf_8c_source.html#l00166">xcsf_test_trial()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a67f86a207056d80953cf3d491327f02a_cgraph.svg" width="362" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a67f86a207056d80953cf3d491327f02a_cgraph.svg" width="362" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a67f86a207056d80953cf3d491327f02a_icgraph.svg" width="768" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a67f86a207056d80953cf3d491327f02a_icgraph.svg" width="768" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1323,22 +1367,20 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00478">478</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00487">487</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
 
 <p class="reference">References <a class="el" href="cl_8c_source.html#l00247">cl_print()</a>, and <a class="el" href="xcsf_8h_source.html#l00055">CLIST::next</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="xcsf_8c_source.html#l00237">xcsf_print_match_set()</a>, and <a class="el" href="xcsf_8c_source.html#l00224">xcsf_print_pop()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="xcsf_8c_source.html#l00242">xcsf_print_match_set()</a>, and <a class="el" href="xcsf_8c_source.html#l00229">xcsf_print_pop()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_aa461f1b5cd0429c12cbd18da16570be1_cgraph.svg" width="326" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_aa461f1b5cd0429c12cbd18da16570be1_cgraph.svg" width="326" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_aa461f1b5cd0429c12cbd18da16570be1_icgraph.svg" width="719" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_aa461f1b5cd0429c12cbd18da16570be1_icgraph.svg" width="719" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1385,22 +1427,20 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00406">406</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00417">417</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00054">CLIST::cl</a>, <a class="el" href="cl_8c_source.html#l00342">cl_general()</a>, <a class="el" href="cl_8c_source.html#l00327">cl_subsumer()</a>, <a class="el" href="xcsf_8h_source.html#l00055">CLIST::next</a>, <a class="el" href="xcsf_8h_source.html#l00039">CL::num</a>, <a class="el" href="xcsf_8h_source.html#l00071">XCSF::pset</a>, <a class="el" href="cl__set_8c_source.html#l00325">set_add()</a>, and <a class="el" href="cl__set_8c_source.html#l00441">set_validate()</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00054">CLIST::cl</a>, <a class="el" href="cl_8c_source.html#l00342">cl_general()</a>, <a class="el" href="cl_8c_source.html#l00327">cl_subsumer()</a>, <a class="el" href="xcsf_8h_source.html#l00055">CLIST::next</a>, <a class="el" href="xcsf_8h_source.html#l00039">CL::num</a>, <a class="el" href="xcsf_8h_source.html#l00071">XCSF::pset</a>, <a class="el" href="cl__set_8c_source.html#l00336">set_add()</a>, and <a class="el" href="cl__set_8c_source.html#l00450">set_validate()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cl__set_8c_source.html#l00352">set_update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cl__set_8c_source.html#l00363">set_update()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a3b0d7950c376737c8ed5b0b55f1360be_cgraph.svg" width="423" height="215"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a3b0d7950c376737c8ed5b0b55f1360be_cgraph.svg" width="423" height="215"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a3b0d7950c376737c8ed5b0b55f1360be_icgraph.svg" width="1030" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a3b0d7950c376737c8ed5b0b55f1360be_icgraph.svg" width="1030" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1440,7 +1480,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00490">490</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00499">499</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00055">CLIST::next</a>, and <a class="el" href="xcsf_8h_source.html#l00072">XCSF::time</a>.</p>
 
@@ -1448,8 +1488,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_ac08f5c8e73376f7ee6dc8f7c2db2c888_icgraph.svg" width="939" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_ac08f5c8e73376f7ee6dc8f7c2db2c888_icgraph.svg" width="939" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1490,16 +1529,15 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The total fitness of classifiers in the set. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00503">503</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00512">512</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00055">CLIST::next</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ea_8c_source.html#l00048">ea()</a>, and <a class="el" href="cl__set_8c_source.html#l00091">pop_del()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ea_8c_source.html#l00048">ea()</a>, and <a class="el" href="cl__set_8c_source.html#l00092">pop_del()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_ac2ecc83b8ceaada1cc75c14e76021d83_icgraph.svg" width="1302" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_ac2ecc83b8ceaada1cc75c14e76021d83_icgraph.svg" width="1428" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1540,16 +1578,15 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The total time of classifiers in the set. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00519">519</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00528">528</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00055">CLIST::next</a>, and <a class="el" href="xcsf_8h_source.html#l00072">XCSF::time</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cl__set_8c_source.html#l00535">set_mean_time()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cl__set_8c_source.html#l00544">set_mean_time()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a051c2af1e5b25216d24d26763232ccc5_icgraph.svg" width="1123" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a051c2af1e5b25216d24d26763232ccc5_icgraph.svg" width="1123" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1617,22 +1654,20 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00352">352</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00363">363</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
 
-<p class="reference">References <a class="el" href="cl_8c_source.html#l00155">cl_update()</a>, <a class="el" href="xcsf_8h_source.html#l00055">CLIST::next</a>, <a class="el" href="cl__set_8c_source.html#l00406">set_subsumption()</a>, <a class="el" href="xcsf_8h_source.html#l00156">XCSF::SET_SUBSUMPTION</a>, and <a class="el" href="cl__set_8c_source.html#l00381">set_update_fit()</a>.</p>
+<p class="reference">References <a class="el" href="cl_8c_source.html#l00155">cl_update()</a>, <a class="el" href="xcsf_8h_source.html#l00055">CLIST::next</a>, <a class="el" href="cl__set_8c_source.html#l00417">set_subsumption()</a>, <a class="el" href="xcsf_8h_source.html#l00156">XCSF::SET_SUBSUMPTION</a>, and <a class="el" href="cl__set_8c_source.html#l00392">set_update_fit()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="xcs__multi__step_8c_source.html#l00139">xcs_multi_exploit()</a>, <a class="el" href="xcs__multi__step_8c_source.html#l00071">xcs_multi_explore()</a>, <a class="el" href="xcs__single__step_8c_source.html#l00072">xcs_single_explore()</a>, and <a class="el" href="xcsf_8c_source.html#l00139">xcsf_learn_trial()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="xcs__multi__step_8c_source.html#l00143">xcs_multi_exploit()</a>, <a class="el" href="xcs__multi__step_8c_source.html#l00073">xcs_multi_explore()</a>, <a class="el" href="xcs__single__step_8c_source.html#l00075">xcs_single_explore()</a>, and <a class="el" href="xcsf_8c_source.html#l00141">xcsf_learn_trial()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a0993c66e2751530b39449164017d6654_cgraph.svg" width="571" height="544"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a0993c66e2751530b39449164017d6654_cgraph.svg" width="571" height="544"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a0993c66e2751530b39449164017d6654_icgraph.svg" width="860" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_a0993c66e2751530b39449164017d6654_icgraph.svg" width="860" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1672,22 +1707,20 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00381">381</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00392">392</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
 
 <p class="reference">References <a class="el" href="cl_8c_source.html#l00137">cl_acc()</a>, <a class="el" href="cl_8c_source.html#l00199">cl_update_fit()</a>, and <a class="el" href="xcsf_8h_source.html#l00055">CLIST::next</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cl__set_8c_source.html#l00352">set_update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cl__set_8c_source.html#l00363">set_update()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_adeaf6bbaf8178ca4291f9997ab9960af_cgraph.svg" width="259" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_adeaf6bbaf8178ca4291f9997ab9960af_cgraph.svg" width="259" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_adeaf6bbaf8178ca4291f9997ab9960af_icgraph.svg" width="1012" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_adeaf6bbaf8178ca4291f9997ab9960af_icgraph.svg" width="1012" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1727,16 +1760,15 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00441">441</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cl__set_8c_source.html#l00450">450</a> of file <a class="el" href="cl__set_8c_source.html">cl_set.c</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00054">CLIST::cl</a>, <a class="el" href="xcsf_8h_source.html#l00055">CLIST::next</a>, and <a class="el" href="xcsf_8h_source.html#l00039">CL::num</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cl__set_8c_source.html#l00159">set_match()</a>, <a class="el" href="cl__set_8c_source.html#l00406">set_subsumption()</a>, <a class="el" href="xcs__multi__step_8c_source.html#l00139">xcs_multi_exploit()</a>, and <a class="el" href="xcs__multi__step_8c_source.html#l00071">xcs_multi_explore()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cl__set_8c_source.html#l00207">set_cover()</a>, <a class="el" href="cl__set_8c_source.html#l00417">set_subsumption()</a>, <a class="el" href="xcs__multi__step_8c_source.html#l00143">xcs_multi_exploit()</a>, and <a class="el" href="xcs__multi__step_8c_source.html#l00073">xcs_multi_explore()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_ad2333ccd5fef4fcef4f5ae98406611d3_icgraph.svg" width="1224" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="cl__set_8c_ad2333ccd5fef4fcef4f5ae98406611d3_icgraph.svg" width="1224" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

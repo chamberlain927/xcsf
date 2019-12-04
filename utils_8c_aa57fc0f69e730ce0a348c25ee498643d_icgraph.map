@@ -1,27 +1,30 @@
 <map id="rand_normal" name="rand_normal">
 <area shape="rect" id="node2" href="$cond__ellipsoid_8h.html#a1e3bbf8d26e1519757370de2db2ed070" title="cond_ellipsoid_mutate" alt="" coords="167,5,317,32"/>
 <area shape="rect" id="node3" href="$cond__rectangle_8h.html#a66df2da336c2260d41bb129fb71b6986" title="cond_rectangle_mutate" alt="" coords="163,56,321,83"/>
-<area shape="rect" id="node4" href="$neural__layer__connected_8h.html#a40e50820f5b433df45cbfb9a5d765093" title="neural_layer_connected_init" alt="" coords="151,107,333,133"/>
-<area shape="rect" id="node8" href="$neural__layer__connected_8h.html#a2bc6f959592b6e80f7636c071daed7db" title="neural_layer_connected\l_mutate" alt="" coords="163,158,321,199"/>
-<area shape="rect" id="node9" href="$neural__layer__connected_8h.html#abb7c6e383c0a5fd4e4951d23769b1ffa" title="neural_layer_connected_rand" alt="" coords="147,224,337,251"/>
-<area shape="rect" id="node10" href="$neural__layer__noise_8h.html#a80f0dcb2fa9bcddcbd075ad4bc4cff62" title="neural_layer_noise\l_forward" alt="" coords="177,275,307,317"/>
-<area shape="rect" id="node11" href="$sam_8c.html#a3148cad9685cba51c39bf4fc262b7fe3" title="Performs log normal self&#45;adaptation. " alt="" coords="164,341,320,368"/>
-<area shape="rect" id="node5" href="$cond__neural_8h.html#a9630915748eec99071fa3b276bcb5c64" title="cond_neural_init" alt="" coords="399,107,515,133"/>
-<area shape="rect" id="node6" href="$pred__neural_8h.html#afdf0ff1b67935bc9a1df2a94a984c975" title="pred_neural_init" alt="" coords="401,157,514,184"/>
-<area shape="rect" id="node7" href="$rule__neural_8h.html#a846979c6acd6263a2da766cc1ab628ce" title="rule_neural_cond_init" alt="" coords="385,56,529,83"/>
-<area shape="rect" id="node12" href="$sam_8h.html#a60ea9eae9a7d2d624fee8614b6aa6904" title="Self&#45;adapts a classifier&#39;s mutation rates. " alt="" coords="414,341,501,368"/>
-<area shape="rect" id="node13" href="$ea_8h.html#ae3824341a2f5482cb6ac70b3839ded51" title="Executes the evolutionary algorithm (EA). " alt="" coords="577,341,616,368"/>
-<area shape="rect" id="node14" href="$xcs__multi__step_8c.html#a9f6d53384f68b9354b5757dd2c7771fd" title="Executes a multi&#45;step explore trial. " alt="" coords="667,291,794,317"/>
-<area shape="rect" id="node18" href="$xcs__single__step_8c.html#aef07baf4de9b02d9c6fd33a1c485e7ea" title="Executes a single&#45;step explore trial. " alt="" coords="664,341,797,368"/>
-<area shape="rect" id="node20" href="$xcsf_8c.html#a6dfb03d255a2684e9e06e88f9a4e3a3d" title="Executes a single XCSF learning trial. " alt="" coords="675,392,786,419"/>
-<area shape="rect" id="node15" href="$xcs__multi__step_8h.html#acc29d4a55dbd56c16ea5f19f15a7c677" title="Executes a multi&#45;step reinforcement learning experiment. " alt="" coords="848,291,987,317"/>
-<area shape="rect" id="node16" href="$main_8c.html#ab572a67aa431827116ebd6931d667d21" title="classification" alt="" coords="1037,291,1136,317"/>
-<area shape="rect" id="node17" href="$main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1256,316,1307,343"/>
-<area shape="rect" id="node19" href="$xcs__single__step_8h.html#a39a031bf59eaa9b33e30e614610dcda8" title="Executes a single&#45;step experiment. " alt="" coords="845,341,989,368"/>
-<area shape="rect" id="node21" href="$xcsf_8h.html#a874829f28fee20f9ad15b540f4b4d6ff" title="Executes MAX_TRIALS number of XCSF learning iterations using the training data. " alt="" coords="881,443,953,469"/>
-<area shape="rect" id="node24" href="$xcsf_8h.html#a0b4de57cb9dadc9deca7901aa36e5025" title="Executes MAX_TRIALS number of XCSF learning iterations using the training. data and test iterations u..." alt="" coords="881,392,953,419"/>
-<area shape="rect" id="node22" href="$structXCS.html#ad2ccafe59d2b4ae6d0e1cbc15edee53c" title="XCS::fit" alt="" coords="1052,443,1121,469"/>
-<area shape="rect" id="node23" href="$python__wrapper_8cpp.html#afbdcc1358036a0b83a6b239da2b098a2" title="BOOST_PYTHON_MODULE" alt="" coords="1184,443,1379,469"/>
-<area shape="rect" id="node25" href="$main_8c.html#a968c78da8ed8ad08662a86280deec99a" title="regression" alt="" coords="1045,341,1128,368"/>
-<area shape="rect" id="node26" href="$structXCS.html#a7d53320740db8e846251bacd0238a9fb" title="XCS::fit" alt="" coords="1052,392,1121,419"/>
+<area shape="rect" id="node4" href="$neural__layer__connected_8c.html#ad19bdecde3e5250ff52376ca965d3e73" title="mutate_eta" alt="" coords="199,107,285,133"/>
+<area shape="rect" id="node6" href="$neural__layer__connected_8c.html#aa08dc454e3cbd3216eb876792a255609" title="mutate_neurons" alt="" coords="185,157,299,184"/>
+<area shape="rect" id="node7" href="$neural__layer__connected_8c.html#a4f4211673e1e2e7a56cedaaf81f4ad54" title="mutate_weights" alt="" coords="185,208,299,235"/>
+<area shape="rect" id="node8" href="$neural__layer__connected_8h.html#a40e50820f5b433df45cbfb9a5d765093" title="neural_layer_connected_init" alt="" coords="151,259,333,285"/>
+<area shape="rect" id="node12" href="$neural__layer__connected_8h.html#abb7c6e383c0a5fd4e4951d23769b1ffa" title="neural_layer_connected_rand" alt="" coords="147,309,337,336"/>
+<area shape="rect" id="node13" href="$neural__layer__noise_8h.html#a80f0dcb2fa9bcddcbd075ad4bc4cff62" title="neural_layer_noise\l_forward" alt="" coords="177,361,307,402"/>
+<area shape="rect" id="node14" href="$sam_8c.html#a3148cad9685cba51c39bf4fc262b7fe3" title="Performs log normal self&#45;adaptation. " alt="" coords="164,427,320,453"/>
+<area shape="rect" id="node5" href="$neural__layer__connected_8h.html#a2bc6f959592b6e80f7636c071daed7db" title="neural_layer_connected\l_mutate" alt="" coords="385,146,544,187"/>
+<area shape="rect" id="node9" href="$cond__neural_8h.html#a9630915748eec99071fa3b276bcb5c64" title="cond_neural_init" alt="" coords="407,313,523,340"/>
+<area shape="rect" id="node10" href="$pred__neural_8h.html#afdf0ff1b67935bc9a1df2a94a984c975" title="pred_neural_init" alt="" coords="408,212,521,239"/>
+<area shape="rect" id="node11" href="$rule__neural_8h.html#a846979c6acd6263a2da766cc1ab628ce" title="rule_neural_cond_init" alt="" coords="393,263,537,289"/>
+<area shape="rect" id="node15" href="$sam_8h.html#a60ea9eae9a7d2d624fee8614b6aa6904" title="Self&#45;adapts a classifier&#39;s mutation rates. " alt="" coords="421,427,508,453"/>
+<area shape="rect" id="node16" href="$ea_8h.html#ae3824341a2f5482cb6ac70b3839ded51" title="Executes the evolutionary algorithm (EA). " alt="" coords="592,427,631,453"/>
+<area shape="rect" id="node17" href="$xcs__multi__step_8c.html#a9f6d53384f68b9354b5757dd2c7771fd" title="Executes a multi&#45;step explore trial. " alt="" coords="682,376,809,403"/>
+<area shape="rect" id="node21" href="$xcs__single__step_8c.html#aef07baf4de9b02d9c6fd33a1c485e7ea" title="Executes a single&#45;step explore trial. " alt="" coords="679,427,812,453"/>
+<area shape="rect" id="node23" href="$xcsf_8c.html#a6dfb03d255a2684e9e06e88f9a4e3a3d" title="Executes a single XCSF learning trial. " alt="" coords="690,477,801,504"/>
+<area shape="rect" id="node18" href="$xcs__multi__step_8h.html#acc29d4a55dbd56c16ea5f19f15a7c677" title="Executes a multi&#45;step reinforcement learning experiment. " alt="" coords="863,376,1001,403"/>
+<area shape="rect" id="node19" href="$main_8c.html#ab572a67aa431827116ebd6931d667d21" title="classification" alt="" coords="1052,376,1151,403"/>
+<area shape="rect" id="node20" href="$main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1271,401,1321,428"/>
+<area shape="rect" id="node22" href="$xcs__single__step_8h.html#a39a031bf59eaa9b33e30e614610dcda8" title="Executes a single&#45;step experiment. " alt="" coords="860,427,1004,453"/>
+<area shape="rect" id="node24" href="$xcsf_8h.html#a874829f28fee20f9ad15b540f4b4d6ff" title="Executes MAX_TRIALS number of XCSF learning iterations using the training data. " alt="" coords="896,528,968,555"/>
+<area shape="rect" id="node27" href="$xcsf_8h.html#a0b4de57cb9dadc9deca7901aa36e5025" title="Executes MAX_TRIALS number of XCSF learning iterations using the training. data and test iterations u..." alt="" coords="896,477,968,504"/>
+<area shape="rect" id="node25" href="$structXCS.html#ad2ccafe59d2b4ae6d0e1cbc15edee53c" title="XCS::fit" alt="" coords="1067,528,1136,555"/>
+<area shape="rect" id="node26" href="$python__wrapper_8cpp.html#afbdcc1358036a0b83a6b239da2b098a2" title="BOOST_PYTHON_MODULE" alt="" coords="1199,528,1393,555"/>
+<area shape="rect" id="node28" href="$main_8c.html#a968c78da8ed8ad08662a86280deec99a" title="regression" alt="" coords="1060,427,1143,453"/>
+<area shape="rect" id="node29" href="$structXCS.html#a7d53320740db8e846251bacd0238a9fb" title="XCS::fit" alt="" coords="1067,477,1136,504"/>
 </map>

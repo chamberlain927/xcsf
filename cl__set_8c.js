@@ -13,6 +13,7 @@ var cl__set_8c =
     [ "set_avg_eta", "cl__set_8c.html#a2f0551a4e8c23e80fa932908c5cd3f1c", null ],
     [ "set_avg_mut", "cl__set_8c.html#a81227ac29f572c4dce57d5fed7ac2517", null ],
     [ "set_avg_pred_size", "cl__set_8c.html#a0bd1bcc81dd3c22d0f080aa3f0ac3a05", null ],
+    [ "set_cover", "cl__set_8c.html#abe074d7cbd109322c145d194cdd02704", null ],
     [ "set_free", "cl__set_8c.html#af03c3db68031f8953d79a4725ae951ad", null ],
     [ "set_init", "cl__set_8c.html#ad4388f1d26d4129991f692eb4c81886c", null ],
     [ "set_kill", "cl__set_8c.html#a0b2479df1a61213f1f150907c62278bb", null ],
