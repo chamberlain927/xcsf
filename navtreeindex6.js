@@ -1,5 +1,8 @@
 var NAVTREEINDEX6 =
 {
+"structXCS.html#ac20ba527ebb445e5610331d24b764f74":[1,0,27,138],
+"structXCS.html#ac3a20c4ea27d30acf82b917ddacefe48":[1,0,27,109],
+"structXCS.html#ac9663186193bec11ed3f42b028c3b55c":[1,0,27,44],
 "structXCS.html#ace81c9545f09326064bfc146d2d2f88f":[1,0,27,111],
 "structXCS.html#acec34920c8fbbe57d88e18fb6a0b3163":[1,0,27,155],
 "structXCS.html#acf369c125c580e09babaa17c78ad2374":[1,0,27,120],

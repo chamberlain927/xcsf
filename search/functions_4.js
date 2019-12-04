@@ -1,6 +1,9 @@
 var searchData=
 [
   ['ea',['ea',['../ea_8c.html#ae3824341a2f5482cb6ac70b3839ded51',1,'ea(XCSF *xcsf, SET *set, SET *kset):&#160;ea.c'],['../ea_8h.html#ae3824341a2f5482cb6ac70b3839ded51',1,'ea(XCSF *xcsf, SET *set, SET *kset):&#160;ea.c']]],
+  ['ea_5fadd',['ea_add',['../ea_8c.html#ac785718d57e11925bd767a3af41c026b',1,'ea.c']]],
+  ['ea_5finit_5foffspring',['ea_init_offspring',['../ea_8c.html#ad2d58ff168b523a4e2c150d672a89f73',1,'ea.c']]],
+  ['ea_5fselect_5fparents',['ea_select_parents',['../ea_8c.html#a02828c52edd2cab594cc6db388b278e0',1,'ea.c']]],
   ['ea_5fselect_5frw',['ea_select_rw',['../ea_8c.html#a7b0bf1ebc97419cb1b3cbcb9aa8c42ee',1,'ea.c']]],
   ['ea_5fselect_5ftournament',['ea_select_tournament',['../ea_8c.html#ae9111fbfd52ea1dc5af8b642e7e56d49',1,'ea.c']]],
   ['ea_5fsubsume',['ea_subsume',['../ea_8c.html#a2500eac78a82990046fd272eda718c46',1,'ea.c']]],

@@ -104,7 +104,8 @@ $(document).ready(function(){initNavTree('ea_8c.html','');});
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for ea.c:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="ea_8c__incl.svg" width="828" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="ea_8c__incl.svg" width="828" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="ea_8c_source.html">Go to the source code of this file.</a></p>
@@ -127,6 +128,15 @@ Functions</h2></td></tr>
 <tr class="memitem:a2500eac78a82990046fd272eda718c46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ea_8c.html#a2500eac78a82990046fd272eda718c46">ea_subsume</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, <a class="el" href="structCL.html">CL</a> *c1p, <a class="el" href="structCL.html">CL</a> *c2p, <a class="el" href="structSET.html">SET</a> *set)</td></tr>
 <tr class="memdesc:a2500eac78a82990046fd272eda718c46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs evolutionary algorithm subsumption.  <a href="#a2500eac78a82990046fd272eda718c46">More...</a><br /></td></tr>
 <tr class="separator:a2500eac78a82990046fd272eda718c46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02828c52edd2cab594cc6db388b278e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ea_8c.html#a02828c52edd2cab594cc6db388b278e0">ea_select_parents</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structSET.html">SET</a> *set, <a class="el" href="structCL.html">CL</a> **c1p, <a class="el" href="structCL.html">CL</a> **c2p)</td></tr>
+<tr class="memdesc:a02828c52edd2cab594cc6db388b278e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects two parents.  <a href="#a02828c52edd2cab594cc6db388b278e0">More...</a><br /></td></tr>
+<tr class="separator:a02828c52edd2cab594cc6db388b278e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2d58ff168b523a4e2c150d672a89f73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ea_8c.html#ad2d58ff168b523a4e2c150d672a89f73">ea_init_offspring</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c1p, <a class="el" href="structCL.html">CL</a> *c2p, <a class="el" href="structCL.html">CL</a> *c1, <a class="el" href="structCL.html">CL</a> *c2, _Bool cmod)</td></tr>
+<tr class="memdesc:ad2d58ff168b523a4e2c150d672a89f73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises offspring error and fitness.  <a href="#ad2d58ff168b523a4e2c150d672a89f73">More...</a><br /></td></tr>
+<tr class="separator:ad2d58ff168b523a4e2c150d672a89f73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac785718d57e11925bd767a3af41c026b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ea_8c.html#ac785718d57e11925bd767a3af41c026b">ea_add</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structSET.html">SET</a> *set, <a class="el" href="structCL.html">CL</a> *c1p, <a class="el" href="structCL.html">CL</a> *c2p, <a class="el" href="structCL.html">CL</a> *c1, _Bool cmod, _Bool mmod)</td></tr>
+<tr class="memdesc:ac785718d57e11925bd767a3af41c026b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds offspring to the population.  <a href="#ac785718d57e11925bd767a3af41c026b">More...</a><br /></td></tr>
+<tr class="separator:ac785718d57e11925bd767a3af41c026b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3824341a2f5482cb6ac70b3839ded51"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ea_8c.html#ae3824341a2f5482cb6ac70b3839ded51">ea</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structSET.html">SET</a> *set, <a class="el" href="structSET.html">SET</a> *kset)</td></tr>
 <tr class="memdesc:ae3824341a2f5482cb6ac70b3839ded51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes the evolutionary algorithm (EA).  <a href="#ae3824341a2f5482cb6ac70b3839ded51">More...</a><br /></td></tr>
 <tr class="separator:ae3824341a2f5482cb6ac70b3839ded51"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,7 +163,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="ea_8c_source.html#l00035">35</a> of file <a class="el" href="ea_8c_source.html">ea.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ea_8c_source.html#l00048">ea()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ea_8c_source.html#l00189">ea_select_parents()</a>.</p>
 
 </div>
 </div>
@@ -216,20 +226,258 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="ea_8c_source.html#l00048">48</a> of file <a class="el" href="ea_8c_source.html">ea.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ea_8c_source.html#l00051">51</a> of file <a class="el" href="ea_8c_source.html">ea.c</a>.</p>
 
-<p class="reference">References <a class="el" href="cl_8c_source.html#l00071">cl_copy()</a>, <a class="el" href="cl_8c_source.html#l00386">cl_crossover()</a>, <a class="el" href="cl_8c_source.html#l00227">cl_free()</a>, <a class="el" href="cl_8c_source.html#l00048">cl_init()</a>, <a class="el" href="cl_8c_source.html#l00356">cl_mutate()</a>, <a class="el" href="ea_8c_source.html#l00035">EA_SELECT_ROULETTE</a>, <a class="el" href="ea_8c_source.html#l00177">ea_select_rw()</a>, <a class="el" href="ea_8c_source.html#l00196">ea_select_tournament()</a>, <a class="el" href="xcsf_8h_source.html#l00111">XCSF::EA_SELECT_TYPE</a>, <a class="el" href="ea_8c_source.html#l00134">ea_subsume()</a>, <a class="el" href="xcsf_8h_source.html#l00155">XCSF::EA_SUBSUMPTION</a>, <a class="el" href="xcsf_8h_source.html#l00037">CL::err</a>, <a class="el" href="xcsf_8h_source.html#l00093">XCSF::ERR_REDUC</a>, <a class="el" href="xcsf_8h_source.html#l00038">CL::fit</a>, <a class="el" href="xcsf_8h_source.html#l00094">XCSF::FIT_REDUC</a>, <a class="el" href="xcsf_8h_source.html#l00110">XCSF::LAMBDA</a>, <a class="el" href="xcsf_8h_source.html#l00036">CL::mu</a>, <a class="el" href="xcsf_8h_source.html#l00039">CL::num</a>, <a class="el" href="xcsf_8h_source.html#l00064">SET::num</a>, <a class="el" href="cl__set_8c_source.html#l00142">pop_enforce_limit()</a>, <a class="el" href="xcsf_8h_source.html#l00071">XCSF::pset</a>, <a class="el" href="sam_8c_source.html#l00064">sam_adapt()</a>, <a class="el" href="cl__set_8c_source.html#l00336">set_add()</a>, <a class="el" href="cl__set_8c_source.html#l00544">set_mean_time()</a>, <a class="el" href="cl__set_8c_source.html#l00499">set_times()</a>, <a class="el" href="cl__set_8c_source.html#l00512">set_total_fit()</a>, <a class="el" href="xcsf_8h_source.html#l00041">CL::size</a>, <a class="el" href="xcsf_8h_source.html#l00109">XCSF::THETA_EA</a>, <a class="el" href="xcsf_8h_source.html#l00042">CL::time</a>, and <a class="el" href="xcsf_8h_source.html#l00072">XCSF::time</a>.</p>
+<p class="reference">References <a class="el" href="cl_8c_source.html#l00071">cl_copy()</a>, <a class="el" href="cl_8c_source.html#l00386">cl_crossover()</a>, <a class="el" href="cl_8c_source.html#l00048">cl_init()</a>, <a class="el" href="cl_8c_source.html#l00356">cl_mutate()</a>, <a class="el" href="ea_8c_source.html#l00123">ea_add()</a>, <a class="el" href="ea_8c_source.html#l00095">ea_init_offspring()</a>, <a class="el" href="ea_8c_source.html#l00189">ea_select_parents()</a>, <a class="el" href="xcsf_8h_source.html#l00110">XCSF::LAMBDA</a>, <a class="el" href="xcsf_8h_source.html#l00036">CL::mu</a>, <a class="el" href="cl__set_8c_source.html#l00142">pop_enforce_limit()</a>, <a class="el" href="sam_8c_source.html#l00064">sam_adapt()</a>, <a class="el" href="cl__set_8c_source.html#l00544">set_mean_time()</a>, <a class="el" href="cl__set_8c_source.html#l00499">set_times()</a>, <a class="el" href="xcsf_8h_source.html#l00041">CL::size</a>, <a class="el" href="xcsf_8h_source.html#l00109">XCSF::THETA_EA</a>, <a class="el" href="xcsf_8h_source.html#l00042">CL::time</a>, and <a class="el" href="xcsf_8h_source.html#l00072">XCSF::time</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="xcs__multi__step_8c_source.html#l00073">xcs_multi_explore()</a>, <a class="el" href="xcs__single__step_8c_source.html#l00075">xcs_single_explore()</a>, and <a class="el" href="xcsf_8c_source.html#l00141">xcsf_learn_trial()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="ea_8c_ae3824341a2f5482cb6ac70b3839ded51_cgraph.svg" width="1528" height="1472"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="ea_8c_ae3824341a2f5482cb6ac70b3839ded51_cgraph.svg" width="1524" height="991"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="ea_8c_ae3824341a2f5482cb6ac70b3839ded51_icgraph.svg" width="812" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="ea_8c_ae3824341a2f5482cb6ac70b3839ded51_icgraph.svg" width="812" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ac785718d57e11925bd767a3af41c026b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac785718d57e11925bd767a3af41c026b">&#9670;&nbsp;</a></span>ea_add()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ea_add </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structSET.html">SET</a> *&#160;</td>
+          <td class="paramname"><em>set</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structCL.html">CL</a> *&#160;</td>
+          <td class="paramname"><em>c1p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structCL.html">CL</a> *&#160;</td>
+          <td class="paramname"><em>c2p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structCL.html">CL</a> *&#160;</td>
+          <td class="paramname"><em>c1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">_Bool&#160;</td>
+          <td class="paramname"><em>cmod</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">_Bool&#160;</td>
+          <td class="paramname"><em>mmod</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds offspring to the population. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">set</td><td>The set in which the EA is being run. </td></tr>
+    <tr><td class="paramname">c1p</td><td>First parent classifier. </td></tr>
+    <tr><td class="paramname">c2p</td><td>Second parent classifier. </td></tr>
+    <tr><td class="paramname">c1</td><td>The offspring classifier to add. </td></tr>
+    <tr><td class="paramname">cmod</td><td>Whether crossover modified the offspring. </td></tr>
+    <tr><td class="paramname">mmod</td><td>Whether mutation modified the offspring. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="ea_8c_source.html#l00123">123</a> of file <a class="el" href="ea_8c_source.html">ea.c</a>.</p>
+
+<p class="reference">References <a class="el" href="cl_8c_source.html#l00227">cl_free()</a>, <a class="el" href="ea_8c_source.html#l00146">ea_subsume()</a>, <a class="el" href="xcsf_8h_source.html#l00155">XCSF::EA_SUBSUMPTION</a>, <a class="el" href="xcsf_8h_source.html#l00039">CL::num</a>, <a class="el" href="xcsf_8h_source.html#l00064">SET::num</a>, <a class="el" href="xcsf_8h_source.html#l00071">XCSF::pset</a>, and <a class="el" href="cl__set_8c_source.html#l00336">set_add()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="ea_8c_source.html#l00051">ea()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="ea_8c_ac785718d57e11925bd767a3af41c026b_cgraph.svg" width="1102" height="342"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="ea_8c_ac785718d57e11925bd767a3af41c026b_icgraph.svg" width="924" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ad2d58ff168b523a4e2c150d672a89f73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2d58ff168b523a4e2c150d672a89f73">&#9670;&nbsp;</a></span>ea_init_offspring()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ea_init_offspring </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structCL.html">CL</a> *&#160;</td>
+          <td class="paramname"><em>c1p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structCL.html">CL</a> *&#160;</td>
+          <td class="paramname"><em>c2p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structCL.html">CL</a> *&#160;</td>
+          <td class="paramname"><em>c1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structCL.html">CL</a> *&#160;</td>
+          <td class="paramname"><em>c2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">_Bool&#160;</td>
+          <td class="paramname"><em>cmod</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialises offspring error and fitness. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">c1p</td><td>First parent classifier. </td></tr>
+    <tr><td class="paramname">c2p</td><td>Second parent classifier. </td></tr>
+    <tr><td class="paramname">c1</td><td>The first offspring classifier to initialise. </td></tr>
+    <tr><td class="paramname">c2</td><td>The second offspring classifier to initialise. </td></tr>
+    <tr><td class="paramname">cmod</td><td>Whether crossover modified the offspring. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="ea_8c_source.html#l00095">95</a> of file <a class="el" href="ea_8c_source.html">ea.c</a>.</p>
+
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00037">CL::err</a>, <a class="el" href="xcsf_8h_source.html#l00093">XCSF::ERR_REDUC</a>, <a class="el" href="xcsf_8h_source.html#l00038">CL::fit</a>, <a class="el" href="xcsf_8h_source.html#l00094">XCSF::FIT_REDUC</a>, and <a class="el" href="xcsf_8h_source.html#l00039">CL::num</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="ea_8c_source.html#l00051">ea()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="ea_8c_ad2d58ff168b523a4e2c150d672a89f73_icgraph.svg" width="978" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a02828c52edd2cab594cc6db388b278e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02828c52edd2cab594cc6db388b278e0">&#9670;&nbsp;</a></span>ea_select_parents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ea_select_parents </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structSET.html">SET</a> *&#160;</td>
+          <td class="paramname"><em>set</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structCL.html">CL</a> **&#160;</td>
+          <td class="paramname"><em>c1p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structCL.html">CL</a> **&#160;</td>
+          <td class="paramname"><em>c2p</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Selects two parents. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">set</td><td>The set in which the EA is being run. </td></tr>
+    <tr><td class="paramname">c1p</td><td>First parent classifier (set by this function). </td></tr>
+    <tr><td class="paramname">c2p</td><td>Second parent classifier (set by this function). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="ea_8c_source.html#l00189">189</a> of file <a class="el" href="ea_8c_source.html">ea.c</a>.</p>
+
+<p class="reference">References <a class="el" href="ea_8c_source.html#l00035">EA_SELECT_ROULETTE</a>, <a class="el" href="ea_8c_source.html#l00209">ea_select_rw()</a>, <a class="el" href="ea_8c_source.html#l00228">ea_select_tournament()</a>, <a class="el" href="xcsf_8h_source.html#l00111">XCSF::EA_SELECT_TYPE</a>, and <a class="el" href="cl__set_8c_source.html#l00512">set_total_fit()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="ea_8c_source.html#l00051">ea()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="ea_8c_a02828c52edd2cab594cc6db388b278e0_cgraph.svg" width="1071" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="ea_8c_a02828c52edd2cab594cc6db388b278e0_icgraph.svg" width="988" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -277,20 +525,22 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the selected classifier. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="ea_8c_source.html#l00177">177</a> of file <a class="el" href="ea_8c_source.html">ea.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ea_8c_source.html#l00209">209</a> of file <a class="el" href="ea_8c_source.html">ea.c</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00054">CLIST::cl</a>, <a class="el" href="xcsf_8h_source.html#l00038">CL::fit</a>, <a class="el" href="xcsf_8h_source.html#l00055">CLIST::next</a>, and <a class="el" href="utils_8c_source.html#l00071">rand_uniform()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ea_8c_source.html#l00048">ea()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ea_8c_source.html#l00189">ea_select_parents()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="ea_8c_a7b0bf1ebc97419cb1b3cbcb9aa8c42ee_cgraph.svg" width="843" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="ea_8c_a7b0bf1ebc97419cb1b3cbcb9aa8c42ee_cgraph.svg" width="843" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="ea_8c_a7b0bf1ebc97419cb1b3cbcb9aa8c42ee_icgraph.svg" width="959" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="ea_8c_a7b0bf1ebc97419cb1b3cbcb9aa8c42ee_icgraph.svg" width="1135" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -331,20 +581,22 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the selected classifier. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="ea_8c_source.html#l00196">196</a> of file <a class="el" href="ea_8c_source.html">ea.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ea_8c_source.html#l00228">228</a> of file <a class="el" href="ea_8c_source.html">ea.c</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00112">XCSF::EA_SELECT_SIZE</a>, <a class="el" href="xcsf_8h_source.html#l00038">CL::fit</a>, <a class="el" href="xcsf_8h_source.html#l00055">CLIST::next</a>, and <a class="el" href="utils_8c_source.html#l00071">rand_uniform()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ea_8c_source.html#l00048">ea()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ea_8c_source.html#l00189">ea_select_parents()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="ea_8c_ae9111fbfd52ea1dc5af8b642e7e56d49_cgraph.svg" width="895" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="ea_8c_ae9111fbfd52ea1dc5af8b642e7e56d49_cgraph.svg" width="895" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="ea_8c_ae9111fbfd52ea1dc5af8b642e7e56d49_icgraph.svg" width="1011" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="ea_8c_ae9111fbfd52ea1dc5af8b642e7e56d49_icgraph.svg" width="1187" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -405,20 +657,22 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="ea_8c_source.html#l00134">134</a> of file <a class="el" href="ea_8c_source.html">ea.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ea_8c_source.html#l00146">146</a> of file <a class="el" href="ea_8c_source.html">ea.c</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00054">CLIST::cl</a>, <a class="el" href="cl_8c_source.html#l00227">cl_free()</a>, <a class="el" href="cl_8c_source.html#l00342">cl_general()</a>, <a class="el" href="cl_8c_source.html#l00327">cl_subsumer()</a>, <a class="el" href="utils_8c_source.html#l00062">irand_uniform()</a>, <a class="el" href="xcsf_8h_source.html#l00055">CLIST::next</a>, <a class="el" href="xcsf_8h_source.html#l00039">CL::num</a>, <a class="el" href="xcsf_8h_source.html#l00064">SET::num</a>, <a class="el" href="xcsf_8h_source.html#l00071">XCSF::pset</a>, and <a class="el" href="cl__set_8c_source.html#l00336">set_add()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ea_8c_source.html#l00048">ea()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ea_8c_source.html#l00123">ea_add()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="ea_8c_a2500eac78a82990046fd272eda718c46_cgraph.svg" width="990" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="ea_8c_a2500eac78a82990046fd272eda718c46_cgraph.svg" width="990" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="ea_8c_a2500eac78a82990046fd272eda718c46_icgraph.svg" width="956" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="ea_8c_a2500eac78a82990046fd272eda718c46_icgraph.svg" width="1068" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>

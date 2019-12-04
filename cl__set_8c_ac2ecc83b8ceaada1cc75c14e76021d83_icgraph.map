@@ -1,29 +1,30 @@
 <map id="set_total_fit" name="set_total_fit">
-<area shape="rect" id="node2" href="$ea_8h.html#ae3824341a2f5482cb6ac70b3839ded51" title="Executes the evolutionary algorithm (EA). " alt="" coords="579,56,618,83"/>
-<area shape="rect" id="node16" href="$cl__set_8h.html#a7ff6217fb822a2eca84c9ac23e8b5cb5" title="Deletes a single classifier from the population set. " alt="" coords="144,107,211,133"/>
-<area shape="rect" id="node3" href="$xcs__multi__step_8c.html#a9f6d53384f68b9354b5757dd2c7771fd" title="Executes a multi&#45;step explore trial. " alt="" coords="698,5,825,32"/>
-<area shape="rect" id="node7" href="$xcs__single__step_8c.html#aef07baf4de9b02d9c6fd33a1c485e7ea" title="Executes a single&#45;step explore trial. " alt="" coords="695,56,828,83"/>
-<area shape="rect" id="node9" href="$xcsf_8c.html#a6dfb03d255a2684e9e06e88f9a4e3a3d" title="Executes a single XCSF learning trial. " alt="" coords="706,208,817,235"/>
-<area shape="rect" id="node4" href="$xcs__multi__step_8h.html#acc29d4a55dbd56c16ea5f19f15a7c677" title="Executes a multi&#45;step reinforcement learning experiment. " alt="" coords="889,19,1027,45"/>
-<area shape="rect" id="node5" href="$main_8c.html#ab572a67aa431827116ebd6931d667d21" title="classification" alt="" coords="1081,56,1180,83"/>
-<area shape="rect" id="node6" href="$main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1300,107,1351,133"/>
-<area shape="rect" id="node8" href="$xcs__single__step_8h.html#a39a031bf59eaa9b33e30e614610dcda8" title="Executes a single&#45;step experiment. " alt="" coords="886,69,1030,96"/>
-<area shape="rect" id="node10" href="$xcsf_8h.html#a874829f28fee20f9ad15b540f4b4d6ff" title="Executes MAX_TRIALS number of XCSF learning iterations using the training data. " alt="" coords="922,132,994,159"/>
-<area shape="rect" id="node13" href="$xcsf_8h.html#a0b4de57cb9dadc9deca7901aa36e5025" title="Executes MAX_TRIALS number of XCSF learning iterations using the training. data and test iterations u..." alt="" coords="922,208,994,235"/>
-<area shape="rect" id="node11" href="$structXCS.html#ad2ccafe59d2b4ae6d0e1cbc15edee53c" title="XCS::fit" alt="" coords="1096,107,1165,133"/>
-<area shape="rect" id="node12" href="$python__wrapper_8cpp.html#afbdcc1358036a0b83a6b239da2b098a2" title="BOOST_PYTHON_MODULE" alt="" coords="1228,284,1423,311"/>
-<area shape="rect" id="node14" href="$main_8c.html#a968c78da8ed8ad08662a86280deec99a" title="regression" alt="" coords="1089,157,1172,184"/>
-<area shape="rect" id="node15" href="$structXCS.html#a7d53320740db8e846251bacd0238a9fb" title="XCS::fit" alt="" coords="1096,208,1165,235"/>
-<area shape="rect" id="node17" href="$cl__set_8h.html#a8537e849783523d1e2394e4a027cf33a" title="Enforces the maximum population size limit. " alt="" coords="259,107,383,133"/>
-<area shape="rect" id="node18" href="$cl__set_8c.html#abe074d7cbd109322c145d194cdd02704" title="Ensures all possible actions are covered by the match set. " alt="" coords="431,157,509,184"/>
-<area shape="rect" id="node19" href="$cl__set_8h.html#af3bea0b4d03654b9d6cb08fbf272c847" title="Constructs the match set. " alt="" coords="557,157,640,184"/>
-<area shape="rect" id="node20" href="$xcs__multi__step_8c.html#af458a8b42e79e924ffcf87a7d9c9711d" title="Executes a multi&#45;step exploit trial. " alt="" coords="700,107,823,133"/>
-<area shape="rect" id="node21" href="$xcs__single__step_8c.html#a5d3ed7cfbd01de00beaa8e2559f463b5" title="Executes a single&#45;step exploit trial. " alt="" coords="697,157,826,184"/>
-<area shape="rect" id="node22" href="$xcsf_8c.html#a40ac6b86844534bd5124b4e936c768ee" title="Executes a single XCSF testing trial. " alt="" coords="709,259,813,285"/>
-<area shape="rect" id="node25" href="$xcsf_8h.html#af0b9db7273578fdff649d46823cd9790" title="Calculates the XCSF predictions for the provided input. " alt="" coords="715,309,808,336"/>
-<area shape="rect" id="node27" href="$xcsf_8h.html#ae1f6851f682e015601030a5c725c6618" title="Prints the XCSF match set for the supplied input. " alt="" coords="688,360,835,387"/>
-<area shape="rect" id="node23" href="$xcsf_8h.html#a2cf95733e5f97410d94211b72e835847" title="Calculates the XCSF error for the input data. " alt="" coords="915,259,1001,285"/>
-<area shape="rect" id="node24" href="$structXCS.html#aa77bc77484d6d14bf512304a23cfec88" title="XCS::score" alt="" coords="1085,259,1176,285"/>
-<area shape="rect" id="node26" href="$structXCS.html#a911ed75c86abed7807d33eb1385240ed" title="XCS::predict" alt="" coords="1082,309,1179,336"/>
-<area shape="rect" id="node28" href="$structXCS.html#aa5608b379fae01b724267a99068d55bb" title="XCS::print_match_set" alt="" coords="883,360,1033,387"/>
+<area shape="rect" id="node2" href="$ea_8c.html#a02828c52edd2cab594cc6db388b278e0" title="Selects two parents. " alt="" coords="259,56,387,83"/>
+<area shape="rect" id="node17" href="$cl__set_8h.html#a7ff6217fb822a2eca84c9ac23e8b5cb5" title="Deletes a single classifier from the population set. " alt="" coords="144,107,211,133"/>
+<area shape="rect" id="node3" href="$ea_8h.html#ae3824341a2f5482cb6ac70b3839ded51" title="Executes the evolutionary algorithm (EA). " alt="" coords="583,56,622,83"/>
+<area shape="rect" id="node4" href="$xcs__multi__step_8c.html#a9f6d53384f68b9354b5757dd2c7771fd" title="Executes a multi&#45;step explore trial. " alt="" coords="702,5,829,32"/>
+<area shape="rect" id="node8" href="$xcs__single__step_8c.html#aef07baf4de9b02d9c6fd33a1c485e7ea" title="Executes a single&#45;step explore trial. " alt="" coords="699,56,832,83"/>
+<area shape="rect" id="node10" href="$xcsf_8c.html#a6dfb03d255a2684e9e06e88f9a4e3a3d" title="Executes a single XCSF learning trial. " alt="" coords="710,208,821,235"/>
+<area shape="rect" id="node5" href="$xcs__multi__step_8h.html#acc29d4a55dbd56c16ea5f19f15a7c677" title="Executes a multi&#45;step reinforcement learning experiment. " alt="" coords="893,19,1031,45"/>
+<area shape="rect" id="node6" href="$main_8c.html#ab572a67aa431827116ebd6931d667d21" title="classification" alt="" coords="1085,56,1184,83"/>
+<area shape="rect" id="node7" href="$main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1304,107,1355,133"/>
+<area shape="rect" id="node9" href="$xcs__single__step_8h.html#a39a031bf59eaa9b33e30e614610dcda8" title="Executes a single&#45;step experiment. " alt="" coords="890,69,1034,96"/>
+<area shape="rect" id="node11" href="$xcsf_8h.html#a874829f28fee20f9ad15b540f4b4d6ff" title="Executes MAX_TRIALS number of XCSF learning iterations using the training data. " alt="" coords="926,132,998,159"/>
+<area shape="rect" id="node14" href="$xcsf_8h.html#a0b4de57cb9dadc9deca7901aa36e5025" title="Executes MAX_TRIALS number of XCSF learning iterations using the training. data and test iterations u..." alt="" coords="926,208,998,235"/>
+<area shape="rect" id="node12" href="$structXCS.html#ad2ccafe59d2b4ae6d0e1cbc15edee53c" title="XCS::fit" alt="" coords="1100,107,1169,133"/>
+<area shape="rect" id="node13" href="$python__wrapper_8cpp.html#afbdcc1358036a0b83a6b239da2b098a2" title="BOOST_PYTHON_MODULE" alt="" coords="1232,284,1427,311"/>
+<area shape="rect" id="node15" href="$main_8c.html#a968c78da8ed8ad08662a86280deec99a" title="regression" alt="" coords="1093,157,1176,184"/>
+<area shape="rect" id="node16" href="$structXCS.html#a7d53320740db8e846251bacd0238a9fb" title="XCS::fit" alt="" coords="1100,208,1169,235"/>
+<area shape="rect" id="node18" href="$cl__set_8h.html#a8537e849783523d1e2394e4a027cf33a" title="Enforces the maximum population size limit. " alt="" coords="261,107,385,133"/>
+<area shape="rect" id="node19" href="$cl__set_8c.html#abe074d7cbd109322c145d194cdd02704" title="Ensures all possible actions are covered by the match set. " alt="" coords="435,157,513,184"/>
+<area shape="rect" id="node20" href="$cl__set_8h.html#af3bea0b4d03654b9d6cb08fbf272c847" title="Constructs the match set. " alt="" coords="561,157,644,184"/>
+<area shape="rect" id="node21" href="$xcs__multi__step_8c.html#af458a8b42e79e924ffcf87a7d9c9711d" title="Executes a multi&#45;step exploit trial. " alt="" coords="704,107,827,133"/>
+<area shape="rect" id="node22" href="$xcs__single__step_8c.html#a5d3ed7cfbd01de00beaa8e2559f463b5" title="Executes a single&#45;step exploit trial. " alt="" coords="701,157,830,184"/>
+<area shape="rect" id="node23" href="$xcsf_8c.html#a40ac6b86844534bd5124b4e936c768ee" title="Executes a single XCSF testing trial. " alt="" coords="713,259,817,285"/>
+<area shape="rect" id="node26" href="$xcsf_8h.html#af0b9db7273578fdff649d46823cd9790" title="Calculates the XCSF predictions for the provided input. " alt="" coords="719,309,812,336"/>
+<area shape="rect" id="node28" href="$xcsf_8h.html#ae1f6851f682e015601030a5c725c6618" title="Prints the XCSF match set for the supplied input. " alt="" coords="692,360,839,387"/>
+<area shape="rect" id="node24" href="$xcsf_8h.html#a2cf95733e5f97410d94211b72e835847" title="Calculates the XCSF error for the input data. " alt="" coords="919,259,1005,285"/>
+<area shape="rect" id="node25" href="$structXCS.html#aa77bc77484d6d14bf512304a23cfec88" title="XCS::score" alt="" coords="1089,259,1180,285"/>
+<area shape="rect" id="node27" href="$structXCS.html#a911ed75c86abed7807d33eb1385240ed" title="XCS::predict" alt="" coords="1086,309,1183,336"/>
+<area shape="rect" id="node29" href="$structXCS.html#aa5608b379fae01b724267a99068d55bb" title="XCS::print_match_set" alt="" coords="887,360,1037,387"/>
 </map>
