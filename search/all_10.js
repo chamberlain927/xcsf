@@ -39,6 +39,7 @@ var searchData=
   ['set_5fcond_5fhidden_5fneuron_5factivation',['set_cond_hidden_neuron_activation',['../structXCS.html#a506848c1de55b0fea2295a1d4da24b75',1,'XCS']]],
   ['set_5fcond_5fmax_5fhidden_5fneurons',['set_cond_max_hidden_neurons',['../structXCS.html#a289dfe305c411b18c290d028fc901148',1,'XCS']]],
   ['set_5fcond_5fnum_5fhidden_5fneurons',['set_cond_num_hidden_neurons',['../structXCS.html#a0f2b916124b822f7528f177945029678',1,'XCS']]],
+  ['set_5fcond_5fsmin',['set_cond_smin',['../structXCS.html#a50bf9d169e55cb6be57ff6cd63cc0b8a',1,'XCS']]],
   ['set_5fcond_5ftype',['set_cond_type',['../structXCS.html#aed88dc8cd6bce338dc8ed6c3d8c992a3',1,'XCS']]],
   ['set_5fcover',['set_cover',['../cl__set_8c.html#abe074d7cbd109322c145d194cdd02704',1,'cl_set.c']]],
   ['set_5fdelta',['set_delta',['../structXCS.html#a41a54a2467a862c2ec68edb1541f802e',1,'XCS']]],

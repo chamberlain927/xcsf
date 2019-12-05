@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['gaussian',['GAUSSIAN',['../neural__activations_8h.html#ad751f1b6909c0124a4ca151036b28a0e',1,'neural_activations.h']]],
-  ['gp_5fmax_5flen',['GP_MAX_LEN',['../gp_8c.html#acead54baea8540fd0bd1ddb045c96798',1,'gp.c']]],
-  ['gp_5fnum_5ffunc',['GP_NUM_FUNC',['../gp_8c.html#aee9a8f46de9c5a8da3f840df8825453f',1,'gp.c']]]
+  ['ea_5fselect_5froulette',['EA_SELECT_ROULETTE',['../ea_8c.html#aeb166d481b9c61c177c155402335e4e2',1,'ea.c']]],
+  ['ea_5fselect_5ftournament',['EA_SELECT_TOURNAMENT',['../ea_8c.html#a3e45cbb20be181c5186ed716880823af',1,'ea.c']]],
+  ['eta_5fmax',['ETA_MAX',['../neural__layer__connected_8c.html#ac8506c6dfbaa367890d2c900541c6f19',1,'neural_layer_connected.c']]],
+  ['eta_5fmin',['ETA_MIN',['../neural__layer__connected_8c.html#a05eb6d5155c3a0f6b17118b5ce0478ac',1,'neural_layer_connected.c']]]
 ];

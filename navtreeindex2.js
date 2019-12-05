@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"env__mux_8c.html#abb131af6f57ea76d1af6da67368f85d2":[2,0,34,9],
 "env__mux_8c.html#ad29db7a3f10bec90371d4dace0cca5e5":[2,0,34,7],
 "env__mux_8c.html#ae578de2c4b2973b83618c1af3c195e99":[2,0,34,3],
 "env__mux_8c.html#af20ccb66105d757d227a0e6975d2726f":[2,0,34,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "neural__activations_8h.html#a6cb9aa8ba018adb630bd106875cd06a7":[2,0,46,17],
 "neural__activations_8h.html#a6e49e33b48cd376b129aeeafb65c8807":[2,0,46,25],
 "neural__activations_8h.html#a6f033c99e837d6615c495f4f2273d92d":[2,0,46,26],
-"neural__activations_8h.html#a7174b4bd7afa366eaf34053d53005684":[2,0,46,11],
-"neural__activations_8h.html#a76d382cd4a11b7a3494c21322e5ac896":[2,0,46,21]
+"neural__activations_8h.html#a7174b4bd7afa366eaf34053d53005684":[2,0,46,11]
 };

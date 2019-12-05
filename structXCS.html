@@ -188,6 +188,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2a1722918c7fcb66ec2677e2578c6b2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75d7b0aba4173aed1001f8db8020458b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structXCS.html#a75d7b0aba4173aed1001f8db8020458b">get_min_con</a> ()</td></tr>
 <tr class="separator:a75d7b0aba4173aed1001f8db8020458b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d8d21c5b07ef7c56b8698579ef457ca"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structXCS.html#a3d8d21c5b07ef7c56b8698579ef457ca">get_cond_smin</a> ()</td></tr>
+<tr class="separator:a3d8d21c5b07ef7c56b8698579ef457ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af35f9fcf62b03d7cf68a4efc19bcd69e"><td class="memItemLeft" align="right" valign="top">_Bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structXCS.html#af35f9fcf62b03d7cf68a4efc19bcd69e">get_cond_evolve_weights</a> ()</td></tr>
 <tr class="separator:af35f9fcf62b03d7cf68a4efc19bcd69e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f0c49e497d382fd8e7b62d965112c43"><td class="memItemLeft" align="right" valign="top">_Bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structXCS.html#a4f0c49e497d382fd8e7b62d965112c43">get_cond_evolve_neurons</a> ()</td></tr>
@@ -342,6 +344,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a400d643bf1eda8da6c8c10b6cec218ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa46758bfadbb09f077599fa4b4e78ca3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structXCS.html#aa46758bfadbb09f077599fa4b4e78ca3">set_min_con</a> (double a)</td></tr>
 <tr class="separator:aa46758bfadbb09f077599fa4b4e78ca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50bf9d169e55cb6be57ff6cd63cc0b8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structXCS.html#a50bf9d169e55cb6be57ff6cd63cc0b8a">set_cond_smin</a> (double a)</td></tr>
+<tr class="separator:a50bf9d169e55cb6be57ff6cd63cc0b8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a686f93a60fa8ab78682553a736bdbdbc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structXCS.html#a686f93a60fa8ab78682553a736bdbdbc">set_cond_evolve_weights</a> (_Bool a)</td></tr>
 <tr class="separator:a686f93a60fa8ab78682553a736bdbdbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a964d1f253b75e3eecd6711e2a1272b2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structXCS.html#a964d1f253b75e3eecd6711e2a1272b2c">set_cond_evolve_neurons</a> (_Bool a)</td></tr>
@@ -503,7 +507,7 @@ Data Fields</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00057">57</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="config_8c_source.html#l00059">constants_init()</a>, <a class="el" href="xcsf_8h_source.html#l00064">SET::num</a>, <a class="el" href="xcsf_8h_source.html#l00172">XCSF::num_actions</a>, <a class="el" href="xcsf_8h_source.html#l00170">XCSF::num_x_vars</a>, <a class="el" href="xcsf_8h_source.html#l00171">XCSF::num_y_vars</a>, <a class="el" href="xcsf_8h_source.html#l00076">XCSF::OMP_NUM_THREADS</a>, <a class="el" href="xcsf_8h_source.html#l00071">XCSF::pset</a>, <a class="el" href="xcsf_8h_source.html#l00184">INPUT::rows</a>, <a class="el" href="xcsf_8h_source.html#l00063">SET::size</a>, <a class="el" href="xcsf_8h_source.html#l00072">XCSF::time</a>, <a class="el" href="xcsf_8h_source.html#l00180">INPUT::x</a>, <a class="el" href="xcsf_8h_source.html#l00182">INPUT::x_cols</a>, <a class="el" href="xcsf_8h_source.html#l00181">INPUT::y</a>, and <a class="el" href="xcsf_8h_source.html#l00183">INPUT::y_cols</a>.</p>
+<p class="reference">References <a class="el" href="config_8c_source.html#l00061">constants_init()</a>, <a class="el" href="xcsf_8h_source.html#l00064">SET::num</a>, <a class="el" href="xcsf_8h_source.html#l00173">XCSF::num_actions</a>, <a class="el" href="xcsf_8h_source.html#l00171">XCSF::num_x_vars</a>, <a class="el" href="xcsf_8h_source.html#l00172">XCSF::num_y_vars</a>, <a class="el" href="xcsf_8h_source.html#l00076">XCSF::OMP_NUM_THREADS</a>, <a class="el" href="xcsf_8h_source.html#l00071">XCSF::pset</a>, <a class="el" href="xcsf_8h_source.html#l00185">INPUT::rows</a>, <a class="el" href="xcsf_8h_source.html#l00063">SET::size</a>, <a class="el" href="xcsf_8h_source.html#l00072">XCSF::time</a>, <a class="el" href="xcsf_8h_source.html#l00181">INPUT::x</a>, <a class="el" href="xcsf_8h_source.html#l00183">INPUT::x_cols</a>, <a class="el" href="xcsf_8h_source.html#l00182">INPUT::y</a>, and <a class="el" href="xcsf_8h_source.html#l00184">INPUT::y_cols</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -556,9 +560,9 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00084">84</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="cl__set_8c_source.html#l00054">pop_init()</a>, <a class="el" href="xcsf_8h_source.html#l00184">INPUT::rows</a>, <a class="el" href="xcsf_8h_source.html#l00072">XCSF::time</a>, <a class="el" href="xcsf_8h_source.html#l00180">INPUT::x</a>, <a class="el" href="xcsf_8h_source.html#l00182">INPUT::x_cols</a>, <a class="el" href="xcsf_8c_source.html#l00053">xcsf_fit1()</a>, <a class="el" href="xcsf_8h_source.html#l00181">INPUT::y</a>, and <a class="el" href="xcsf_8h_source.html#l00183">INPUT::y_cols</a>.</p>
+<p class="reference">References <a class="el" href="cl__set_8c_source.html#l00054">pop_init()</a>, <a class="el" href="xcsf_8h_source.html#l00185">INPUT::rows</a>, <a class="el" href="xcsf_8h_source.html#l00072">XCSF::time</a>, <a class="el" href="xcsf_8h_source.html#l00181">INPUT::x</a>, <a class="el" href="xcsf_8h_source.html#l00183">INPUT::x_cols</a>, <a class="el" href="xcsf_8c_source.html#l00053">xcsf_fit1()</a>, <a class="el" href="xcsf_8h_source.html#l00182">INPUT::y</a>, and <a class="el" href="xcsf_8h_source.html#l00184">INPUT::y_cols</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -628,7 +632,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00104">104</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="cl__set_8c_source.html#l00054">pop_init()</a>, <a class="el" href="xcsf_8h_source.html#l00184">INPUT::rows</a>, <a class="el" href="xcsf_8h_source.html#l00072">XCSF::time</a>, <a class="el" href="xcsf_8h_source.html#l00180">INPUT::x</a>, <a class="el" href="xcsf_8h_source.html#l00182">INPUT::x_cols</a>, <a class="el" href="xcsf_8c_source.html#l00092">xcsf_fit2()</a>, <a class="el" href="xcsf_8h_source.html#l00181">INPUT::y</a>, and <a class="el" href="xcsf_8h_source.html#l00183">INPUT::y_cols</a>.</p>
+<p class="reference">References <a class="el" href="cl__set_8c_source.html#l00054">pop_init()</a>, <a class="el" href="xcsf_8h_source.html#l00185">INPUT::rows</a>, <a class="el" href="xcsf_8h_source.html#l00072">XCSF::time</a>, <a class="el" href="xcsf_8h_source.html#l00181">INPUT::x</a>, <a class="el" href="xcsf_8h_source.html#l00183">INPUT::x_cols</a>, <a class="el" href="xcsf_8c_source.html#l00092">xcsf_fit2()</a>, <a class="el" href="xcsf_8h_source.html#l00182">INPUT::y</a>, and <a class="el" href="xcsf_8h_source.html#l00184">INPUT::y_cols</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -665,7 +669,7 @@ Here is the call graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00101">XCSF::ACT_TYPE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -702,7 +706,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00089">XCSF::ALPHA</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -739,7 +743,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00090">XCSF::BETA</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -772,11 +776,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00237">237</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00238">238</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00130">XCSF::COND_ETA</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00131">XCSF::COND_ETA</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -809,11 +813,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00216">216</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00217">217</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00133">XCSF::COND_EVOLVE_FUNCTIONS</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00134">XCSF::COND_EVOLVE_FUNCTIONS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -846,11 +850,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00215">215</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00216">216</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00132">XCSF::COND_EVOLVE_NEURONS</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00133">XCSF::COND_EVOLVE_NEURONS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -883,11 +887,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00214">214</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00215">215</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00131">XCSF::COND_EVOLVE_WEIGHTS</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00132">XCSF::COND_EVOLVE_WEIGHTS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -920,11 +924,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00219">219</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00220">220</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00136">XCSF::COND_HIDDEN_NEURON_ACTIVATION</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00137">XCSF::COND_HIDDEN_NEURON_ACTIVATION</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -957,11 +961,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00218">218</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00219">219</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00135">XCSF::COND_MAX_HIDDEN_NEURONS</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00136">XCSF::COND_MAX_HIDDEN_NEURONS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -994,15 +998,52 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00217">217</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00218">218</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00134">XCSF::COND_NUM_HIDDEN_NEURONS</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00135">XCSF::COND_NUM_HIDDEN_NEURONS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="structXCS_a4d9ed2c517bd535db56ac92dc4cf70f2_icgraph.svg" width="442" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a3d8d21c5b07ef7c56b8698579ef457ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d8d21c5b07ef7c56b8698579ef457ca">&#9670;&nbsp;</a></span>get_cond_smin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double XCS::get_cond_smin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00214">214</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00122">XCSF::COND_SMIN</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="structXCS_a3d8d21c5b07ef7c56b8698579ef457ca_icgraph.svg" width="400" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -1035,7 +1076,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00099">XCSF::COND_TYPE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1072,7 +1113,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00091">XCSF::DELTA</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1105,11 +1146,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00230">230</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00231">231</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00122">XCSF::DGP_NUM_NODES</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00123">XCSF::DGP_NUM_NODES</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1146,7 +1187,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00108">XCSF::E_MUTATION</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1183,7 +1224,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00112">XCSF::EA_SELECT_SIZE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1220,7 +1261,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00111">XCSF::EA_SELECT_TYPE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1253,11 +1294,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00242">242</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00243">243</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00155">XCSF::EA_SUBSUMPTION</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00156">XCSF::EA_SUBSUMPTION</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1294,7 +1335,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00092">XCSF::EPS_0</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1331,7 +1372,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00093">XCSF::ERR_REDUC</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1368,7 +1409,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00106">XCSF::F_MUTATION</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1405,7 +1446,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00094">XCSF::FIT_REDUC</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1438,11 +1479,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00256">256</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00257">257</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00084">XCSF::GAMMA</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1475,11 +1516,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00235">235</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00236">236</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00127">XCSF::GP_INIT_DEPTH</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00128">XCSF::GP_INIT_DEPTH</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1512,11 +1553,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00234">234</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00235">235</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00126">XCSF::GP_NUM_CONS</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00127">XCSF::GP_NUM_CONS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1553,7 +1594,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00095">XCSF::INIT_ERROR</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1590,7 +1631,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00096">XCSF::INIT_FITNESS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1627,7 +1668,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00110">XCSF::LAMBDA</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1664,7 +1705,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00081">XCSF::LOSS_FUNC</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1699,9 +1740,9 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00212">212</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00120">XCSF::MAX_CON</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00120">XCSF::COND_MAX</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1734,11 +1775,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00232">232</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00233">233</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00124">XCSF::MAX_K</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00125">XCSF::MAX_K</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1771,11 +1812,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00233">233</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00234">234</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00125">XCSF::MAX_T</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00126">XCSF::MAX_T</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1812,7 +1853,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00078">XCSF::MAX_TRIALS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1847,9 +1888,9 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00213">213</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00121">XCSF::MIN_CON</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00121">XCSF::COND_MIN</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1882,11 +1923,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00254">254</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00255">255</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00073">XCSF::msetsize</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1923,7 +1964,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00097">XCSF::NU</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1956,11 +1997,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00249">249</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00250">250</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00172">XCSF::num_actions</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00173">XCSF::num_actions</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1993,11 +2034,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00247">247</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00248">248</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00170">XCSF::num_x_vars</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00171">XCSF::num_x_vars</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2030,11 +2071,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00248">248</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00249">249</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00171">XCSF::num_y_vars</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00172">XCSF::num_y_vars</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2071,7 +2112,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00076">XCSF::OMP_NUM_THREADS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2108,7 +2149,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00104">XCSF::P_CROSSOVER</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2141,11 +2182,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00257">257</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00258">258</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00086">XCSF::P_EXPLORE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2182,7 +2223,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00105">XCSF::P_MUTATION</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2219,7 +2260,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00079">XCSF::PERF_AVG_TRIALS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2252,11 +2293,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00251">251</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00252">252</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00071">XCSF::pset</a>, and <a class="el" href="cl__set_8c_source.html#l00616">set_avg_cond_size()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2296,11 +2337,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00250">250</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00251">251</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00071">XCSF::pset</a>, and <a class="el" href="cl__set_8c_source.html#l00588">set_avg_mut()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2340,11 +2381,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00253">253</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00254">254</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00071">XCSF::pset</a>, and <a class="el" href="cl__set_8c_source.html#l00690">set_avg_eta()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2383,11 +2424,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00252">252</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00253">253</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00071">XCSF::pset</a>, and <a class="el" href="cl__set_8c_source.html#l00633">set_avg_pred_size()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2430,7 +2471,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00077">XCSF::POP_INIT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2467,7 +2508,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00080">XCSF::POP_SIZE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2500,11 +2541,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00245">245</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00246">246</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00064">SET::num</a>, and <a class="el" href="xcsf_8h_source.html#l00071">XCSF::pset</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2537,11 +2578,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00244">244</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00245">245</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00071">XCSF::pset</a>, and <a class="el" href="xcsf_8h_source.html#l00063">SET::size</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2574,11 +2615,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00236">236</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00237">237</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00140">XCSF::PRED_ETA</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00141">XCSF::PRED_ETA</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2611,11 +2652,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00227">227</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00228">228</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00147">XCSF::PRED_EVOLVE_ETA</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00148">XCSF::PRED_EVOLVE_ETA</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2648,11 +2689,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00226">226</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00227">227</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00146">XCSF::PRED_EVOLVE_FUNCTIONS</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00147">XCSF::PRED_EVOLVE_FUNCTIONS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2685,11 +2726,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00225">225</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00226">226</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00145">XCSF::PRED_EVOLVE_NEURONS</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00146">XCSF::PRED_EVOLVE_NEURONS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2722,11 +2763,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00224">224</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00225">225</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00144">XCSF::PRED_EVOLVE_WEIGHTS</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00145">XCSF::PRED_EVOLVE_WEIGHTS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2759,11 +2800,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00222">222</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00223">223</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00152">XCSF::PRED_HIDDEN_NEURON_ACTIVATION</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00153">XCSF::PRED_HIDDEN_NEURON_ACTIVATION</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2796,11 +2837,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00221">221</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00222">222</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00151">XCSF::PRED_MAX_HIDDEN_NEURONS</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00152">XCSF::PRED_MAX_HIDDEN_NEURONS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2833,11 +2874,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00223">223</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00224">224</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00149">XCSF::PRED_MOMENTUM</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00150">XCSF::PRED_MOMENTUM</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2870,11 +2911,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00220">220</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00221">221</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00150">XCSF::PRED_NUM_HIDDEN_NEURONS</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00151">XCSF::PRED_NUM_HIDDEN_NEURONS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2907,11 +2948,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00229">229</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00230">230</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00139">XCSF::PRED_RESET</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00140">XCSF::PRED_RESET</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2944,11 +2985,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00240">240</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00241">241</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00143">XCSF::PRED_RLS_LAMBDA</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00144">XCSF::PRED_RLS_LAMBDA</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2981,11 +3022,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00239">239</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00240">240</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00142">XCSF::PRED_RLS_SCALE_FACTOR</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00143">XCSF::PRED_RLS_SCALE_FACTOR</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -3018,11 +3059,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00228">228</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00229">229</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00148">XCSF::PRED_SGD_WEIGHTS</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00149">XCSF::PRED_SGD_WEIGHTS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -3059,7 +3100,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00100">XCSF::PRED_TYPE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -3092,11 +3133,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00238">238</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00239">239</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00141">XCSF::PRED_X0</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00142">XCSF::PRED_X0</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -3129,11 +3170,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00231">231</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00232">232</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00123">XCSF::RESET_STATES</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00124">XCSF::RESET_STATES</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -3170,7 +3211,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00107">XCSF::S_MUTATION</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -3207,7 +3248,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00117">XCSF::SAM_MIN</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -3244,7 +3285,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00116">XCSF::SAM_NUM</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -3281,7 +3322,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00115">XCSF::SAM_TYPE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -3314,11 +3355,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00243">243</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00244">244</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00156">XCSF::SET_SUBSUMPTION</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00157">XCSF::SET_SUBSUMPTION</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -3351,11 +3392,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00255">255</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00256">256</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00085">XCSF::TELETRANSPORTATION</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -3392,7 +3433,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00098">XCSF::THETA_DEL</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -3429,7 +3470,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00109">XCSF::THETA_EA</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -3462,11 +3503,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00241">241</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00242">242</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00157">XCSF::THETA_SUB</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00158">XCSF::THETA_SUB</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -3499,11 +3540,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00246">246</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00247">247</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00072">XCSF::time</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -3541,7 +3582,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8c_source.html#l00281">xcsf_load()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -3583,9 +3624,9 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00143">143</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00171">XCSF::num_y_vars</a>, and <a class="el" href="xcsf_8c_source.html#l00187">xcsf_predict()</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00172">XCSF::num_y_vars</a>, and <a class="el" href="xcsf_8c_source.html#l00187">xcsf_predict()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -3651,11 +3692,11 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8c_source.html#l00242">xcsf_print_match_set()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structXCS_aa5608b379fae01b724267a99068d55bb_cgraph.svg" width="2063" height="950"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structXCS_aa5608b379fae01b724267a99068d55bb_cgraph.svg" width="2063" height="975"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -3711,11 +3752,11 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8c_source.html#l00229">xcsf_print_pop()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structXCS_a17153434b6e3310591eafb94e81cda9a_cgraph.svg" width="639" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structXCS_a17153434b6e3310591eafb94e81cda9a_cgraph.svg" width="639" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -3755,7 +3796,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8c_source.html#l00260">xcsf_save()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -3807,9 +3848,9 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00157">157</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00184">INPUT::rows</a>, <a class="el" href="xcsf_8h_source.html#l00180">INPUT::x</a>, <a class="el" href="xcsf_8h_source.html#l00182">INPUT::x_cols</a>, <a class="el" href="xcsf_8c_source.html#l00208">xcsf_score()</a>, <a class="el" href="xcsf_8h_source.html#l00181">INPUT::y</a>, and <a class="el" href="xcsf_8h_source.html#l00183">INPUT::y_cols</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00185">INPUT::rows</a>, <a class="el" href="xcsf_8h_source.html#l00181">INPUT::x</a>, <a class="el" href="xcsf_8h_source.html#l00183">INPUT::x_cols</a>, <a class="el" href="xcsf_8c_source.html#l00208">xcsf_score()</a>, <a class="el" href="xcsf_8h_source.html#l00182">INPUT::y</a>, and <a class="el" href="xcsf_8h_source.html#l00184">INPUT::y_cols</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -3849,11 +3890,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00281">281</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00282">282</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00101">XCSF::ACT_TYPE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -3887,11 +3928,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00271">271</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00272">272</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00089">XCSF::ALPHA</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -3925,11 +3966,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00272">272</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00273">273</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00090">XCSF::BETA</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -3963,11 +4004,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00321">321</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00323">323</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00130">XCSF::COND_ETA</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00131">XCSF::COND_ETA</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4001,11 +4042,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00300">300</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00302">302</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00133">XCSF::COND_EVOLVE_FUNCTIONS</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00134">XCSF::COND_EVOLVE_FUNCTIONS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4039,11 +4080,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00299">299</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00301">301</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00132">XCSF::COND_EVOLVE_NEURONS</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00133">XCSF::COND_EVOLVE_NEURONS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4077,11 +4118,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00298">298</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00300">300</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00131">XCSF::COND_EVOLVE_WEIGHTS</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00132">XCSF::COND_EVOLVE_WEIGHTS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4115,11 +4156,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00303">303</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00305">305</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00136">XCSF::COND_HIDDEN_NEURON_ACTIVATION</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00137">XCSF::COND_HIDDEN_NEURON_ACTIVATION</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4153,11 +4194,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00302">302</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00304">304</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00135">XCSF::COND_MAX_HIDDEN_NEURONS</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00136">XCSF::COND_MAX_HIDDEN_NEURONS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4191,15 +4232,53 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00301">301</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00303">303</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00134">XCSF::COND_NUM_HIDDEN_NEURONS</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00135">XCSF::COND_NUM_HIDDEN_NEURONS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="structXCS_a0f2b916124b822f7528f177945029678_icgraph.svg" width="442" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a50bf9d169e55cb6be57ff6cd63cc0b8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50bf9d169e55cb6be57ff6cd63cc0b8a">&#9670;&nbsp;</a></span>set_cond_smin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void XCS::set_cond_smin </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00299">299</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00122">XCSF::COND_SMIN</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="structXCS_a50bf9d169e55cb6be57ff6cd63cc0b8a_icgraph.svg" width="400" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -4229,11 +4308,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00282">282</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00283">283</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00099">XCSF::COND_TYPE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4267,11 +4346,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00273">273</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00274">274</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00091">XCSF::DELTA</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4305,11 +4384,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00314">314</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00316">316</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00122">XCSF::DGP_NUM_NODES</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00123">XCSF::DGP_NUM_NODES</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4343,11 +4422,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00287">287</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00288">288</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00108">XCSF::E_MUTATION</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4381,11 +4460,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00292">292</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00293">293</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00112">XCSF::EA_SELECT_SIZE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4419,11 +4498,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00291">291</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00292">292</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00111">XCSF::EA_SELECT_TYPE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4457,11 +4536,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00326">326</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00328">328</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00155">XCSF::EA_SUBSUMPTION</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00156">XCSF::EA_SUBSUMPTION</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4495,11 +4574,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00274">274</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00275">275</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00092">XCSF::EPS_0</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4533,11 +4612,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00275">275</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00276">276</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00093">XCSF::ERR_REDUC</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4571,11 +4650,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00286">286</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00287">287</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00106">XCSF::F_MUTATION</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4609,11 +4688,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00276">276</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00277">277</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00094">XCSF::FIT_REDUC</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4647,11 +4726,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00329">329</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00331">331</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00084">XCSF::GAMMA</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4685,11 +4764,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00319">319</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00321">321</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00127">XCSF::GP_INIT_DEPTH</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00128">XCSF::GP_INIT_DEPTH</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4723,11 +4802,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00318">318</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00320">320</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00126">XCSF::GP_NUM_CONS</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00127">XCSF::GP_NUM_CONS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4761,11 +4840,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00277">277</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00278">278</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00095">XCSF::INIT_ERROR</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4799,11 +4878,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00278">278</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00279">279</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00096">XCSF::INIT_FITNESS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4837,11 +4916,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00290">290</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00291">291</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00110">XCSF::LAMBDA</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4875,11 +4954,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00270">270</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00271">271</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00081">XCSF::LOSS_FUNC</a>, and <a class="el" href="loss_8c_source.html#l00138">loss_set_func()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -4919,11 +4998,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00296">296</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00297">297</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00120">XCSF::MAX_CON</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00120">XCSF::COND_MAX</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4957,11 +5036,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00316">316</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00318">318</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00124">XCSF::MAX_K</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00125">XCSF::MAX_K</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4995,11 +5074,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00317">317</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00319">319</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00125">XCSF::MAX_T</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00126">XCSF::MAX_T</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5033,11 +5112,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00267">267</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00268">268</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00078">XCSF::MAX_TRIALS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5071,11 +5150,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00297">297</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00298">298</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00121">XCSF::MIN_CON</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00121">XCSF::COND_MIN</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5109,11 +5188,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00279">279</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00280">280</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00097">XCSF::NU</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5147,11 +5226,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00260">260</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00261">261</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00076">XCSF::OMP_NUM_THREADS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5185,11 +5264,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00284">284</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00285">285</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00104">XCSF::P_CROSSOVER</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5223,11 +5302,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00330">330</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00332">332</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00086">XCSF::P_EXPLORE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5261,11 +5340,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00285">285</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00286">286</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00105">XCSF::P_MUTATION</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5299,11 +5378,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00268">268</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00269">269</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00079">XCSF::PERF_AVG_TRIALS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5337,11 +5416,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00266">266</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00267">267</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00077">XCSF::POP_INIT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5375,11 +5454,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00269">269</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00270">270</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00080">XCSF::POP_SIZE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5413,11 +5492,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00320">320</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00322">322</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00140">XCSF::PRED_ETA</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00141">XCSF::PRED_ETA</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5451,11 +5530,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00311">311</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00313">313</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00147">XCSF::PRED_EVOLVE_ETA</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00148">XCSF::PRED_EVOLVE_ETA</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5489,11 +5568,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00310">310</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00312">312</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00146">XCSF::PRED_EVOLVE_FUNCTIONS</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00147">XCSF::PRED_EVOLVE_FUNCTIONS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5527,11 +5606,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00309">309</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00311">311</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00145">XCSF::PRED_EVOLVE_NEURONS</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00146">XCSF::PRED_EVOLVE_NEURONS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5565,11 +5644,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00308">308</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00310">310</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00144">XCSF::PRED_EVOLVE_WEIGHTS</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00145">XCSF::PRED_EVOLVE_WEIGHTS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5603,11 +5682,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00306">306</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00308">308</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00152">XCSF::PRED_HIDDEN_NEURON_ACTIVATION</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00153">XCSF::PRED_HIDDEN_NEURON_ACTIVATION</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5641,11 +5720,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00305">305</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00307">307</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00151">XCSF::PRED_MAX_HIDDEN_NEURONS</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00152">XCSF::PRED_MAX_HIDDEN_NEURONS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5679,11 +5758,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00307">307</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00309">309</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00149">XCSF::PRED_MOMENTUM</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00150">XCSF::PRED_MOMENTUM</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5717,11 +5796,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00304">304</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00306">306</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00150">XCSF::PRED_NUM_HIDDEN_NEURONS</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00151">XCSF::PRED_NUM_HIDDEN_NEURONS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5755,11 +5834,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00313">313</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00315">315</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00139">XCSF::PRED_RESET</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00140">XCSF::PRED_RESET</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5793,11 +5872,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00324">324</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00326">326</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00143">XCSF::PRED_RLS_LAMBDA</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00144">XCSF::PRED_RLS_LAMBDA</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5831,11 +5910,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00323">323</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00325">325</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00142">XCSF::PRED_RLS_SCALE_FACTOR</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00143">XCSF::PRED_RLS_SCALE_FACTOR</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5869,11 +5948,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00312">312</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00314">314</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00148">XCSF::PRED_SGD_WEIGHTS</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00149">XCSF::PRED_SGD_WEIGHTS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5907,11 +5986,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00283">283</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00284">284</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00100">XCSF::PRED_TYPE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5945,11 +6024,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00322">322</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00324">324</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00141">XCSF::PRED_X0</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00142">XCSF::PRED_X0</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -5983,11 +6062,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00315">315</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00317">317</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00123">XCSF::RESET_STATES</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00124">XCSF::RESET_STATES</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -6021,11 +6100,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00288">288</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00289">289</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00107">XCSF::S_MUTATION</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -6059,11 +6138,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00293">293</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00294">294</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00117">XCSF::SAM_MIN</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -6097,11 +6176,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00294">294</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00295">295</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00116">XCSF::SAM_NUM</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -6135,11 +6214,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00295">295</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00296">296</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00115">XCSF::SAM_TYPE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -6173,11 +6252,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00327">327</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00329">329</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00156">XCSF::SET_SUBSUMPTION</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00157">XCSF::SET_SUBSUMPTION</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -6211,11 +6290,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00328">328</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00330">330</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00085">XCSF::TELETRANSPORTATION</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -6249,11 +6328,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00280">280</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00281">281</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00098">XCSF::THETA_DEL</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -6287,11 +6366,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00289">289</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00290">290</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00109">XCSF::THETA_EA</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -6325,11 +6404,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00325">325</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00327">327</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00157">XCSF::THETA_SUB</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00158">XCSF::THETA_SUB</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -6364,9 +6443,9 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="python__wrapper_8cpp_source.html#l00080">80</a> of file <a class="el" href="python__wrapper_8cpp_source.html">python_wrapper.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8c_source.html#l00475">xcsf_version()</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8c_source.html#l00477">xcsf_version()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00333">BOOST_PYTHON_MODULE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00335">BOOST_PYTHON_MODULE()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

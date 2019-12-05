@@ -25,10 +25,13 @@ var searchData=
   ['cond_5fimpl_5fsave',['cond_impl_save',['../structCondVtbl.html#aaecae50139de46f45c17c631b0c032a4',1,'CondVtbl']]],
   ['cond_5fimpl_5fsize',['cond_impl_size',['../structCondVtbl.html#ad723cbb11a22e73b6d1b1e4d4c5094cd',1,'CondVtbl']]],
   ['cond_5fimpl_5fupdate',['cond_impl_update',['../structCondVtbl.html#aba014b33f1faf985341133cf954cfff5',1,'CondVtbl']]],
+  ['cond_5fmax',['COND_MAX',['../structXCSF.html#a87ae3c110c65ece8636e93d4180c1e75',1,'XCSF']]],
   ['cond_5fmax_5fhidden_5fneurons',['COND_MAX_HIDDEN_NEURONS',['../structXCSF.html#ae2190b7a0a1a5c0982f9a5917e7740bd',1,'XCSF']]],
+  ['cond_5fmin',['COND_MIN',['../structXCSF.html#ac6ade88d7d75337e60e25ad160f3d082',1,'XCSF']]],
   ['cond_5fneural_5fvtbl',['cond_neural_vtbl',['../cond__neural_8h.html#a9a04fd02a7eb694d4b32bb49ea0e3189',1,'cond_neural.h']]],
   ['cond_5fnum_5fhidden_5fneurons',['COND_NUM_HIDDEN_NEURONS',['../structXCSF.html#ae0fef3611445f3b9a99a79e4edb3f37e',1,'XCSF']]],
   ['cond_5frectangle_5fvtbl',['cond_rectangle_vtbl',['../cond__rectangle_8h.html#a26ebc50c0fcdd8f094504d3aeab392cd',1,'cond_rectangle.h']]],
+  ['cond_5fsmin',['COND_SMIN',['../structXCSF.html#a85a4e09d822890ce6339cf05a48a1e0b',1,'XCSF']]],
   ['cond_5ftype',['COND_TYPE',['../structXCSF.html#a793369a86ed620cbe5e5309e3e63b142',1,'XCSF']]],
   ['cond_5fvptr',['cond_vptr',['../structCL.html#ae8cef6e9220b7f48debc1215684439dc',1,'CL']]],
   ['connectivity',['connectivity',['../structGRAPH.html#ad5e1b3ea065868c3241b090c0c3854c5',1,'GRAPH']]]
