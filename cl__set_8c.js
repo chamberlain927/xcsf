@@ -13,7 +13,7 @@ var cl__set_8c =
     [ "set_avg_eta", "cl__set_8c.html#a2f0551a4e8c23e80fa932908c5cd3f1c", null ],
     [ "set_avg_mut", "cl__set_8c.html#a81227ac29f572c4dce57d5fed7ac2517", null ],
     [ "set_avg_pred_size", "cl__set_8c.html#a0bd1bcc81dd3c22d0f080aa3f0ac3a05", null ],
-    [ "set_cover", "cl__set_8c.html#abe074d7cbd109322c145d194cdd02704", null ],
+    [ "set_cover", "cl__set_8c.html#aa4b74b698e7491734e4788fcfae8e27a", null ],
     [ "set_free", "cl__set_8c.html#af03c3db68031f8953d79a4725ae951ad", null ],
     [ "set_init", "cl__set_8c.html#ad4388f1d26d4129991f692eb4c81886c", null ],
     [ "set_kill", "cl__set_8c.html#a0b2479df1a61213f1f150907c62278bb", null ],
@@ -21,11 +21,11 @@ var cl__set_8c =
     [ "set_mean_time", "cl__set_8c.html#a30cd804e16b64709844ee3a6cbae2547", null ],
     [ "set_pred", "cl__set_8c.html#a67f86a207056d80953cf3d491327f02a", null ],
     [ "set_print", "cl__set_8c.html#aa461f1b5cd0429c12cbd18da16570be1", null ],
-    [ "set_subsumption", "cl__set_8c.html#a3b0d7950c376737c8ed5b0b55f1360be", null ],
+    [ "set_subsumption", "cl__set_8c.html#ac1b10f17cdd9c68bf95b3ca7bf708e14", null ],
     [ "set_times", "cl__set_8c.html#ac08f5c8e73376f7ee6dc8f7c2db2c888", null ],
     [ "set_total_fit", "cl__set_8c.html#ac2ecc83b8ceaada1cc75c14e76021d83", null ],
     [ "set_total_time", "cl__set_8c.html#a051c2af1e5b25216d24d26763232ccc5", null ],
     [ "set_update", "cl__set_8c.html#a0993c66e2751530b39449164017d6654", null ],
-    [ "set_update_fit", "cl__set_8c.html#adeaf6bbaf8178ca4291f9997ab9960af", null ],
+    [ "set_update_fit", "cl__set_8c.html#a3bec2ea0ca44be3605e1085220978f4f", null ],
     [ "set_validate", "cl__set_8c.html#ad2333ccd5fef4fcef4f5ae98406611d3", null ]
 ];

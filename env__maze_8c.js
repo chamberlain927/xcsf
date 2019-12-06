@@ -12,7 +12,7 @@ var env__maze_8c =
     [ "env_maze_isreset", "env__maze_8c.html#afa5e8efbf19dee8713874ffeb56c4bac", null ],
     [ "env_maze_maxpayoff", "env__maze_8c.html#a5b1276098c82444a07ec7651960ce0df", null ],
     [ "env_maze_multistep", "env__maze_8c.html#aae70b4cb8b16f3d302595272c52519d0", null ],
-    [ "env_maze_print", "env__maze_8c.html#a68219ec6cca4034dbfd6ff4abddf0ed4", null ],
+    [ "env_maze_print", "env__maze_8c.html#a5b31187f78f3519c271ac9651c7190fc", null ],
     [ "env_maze_reset", "env__maze_8c.html#a237f7f760ea767a3ab486804fa699ee4", null ],
     [ "env_maze_sensor", "env__maze_8c.html#a13104e04cf54d8722fe9a82ec4f9f754", null ],
     [ "x_moves", "env__maze_8c.html#ad258b1cc4d3d94af9bd4e7d2ef24404f", null ],

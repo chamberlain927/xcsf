@@ -5,7 +5,7 @@ var cond__ellipsoid_8c =
     [ "cond_ellipsoid_copy", "cond__ellipsoid_8c.html#ab03d883e99b20215d9d76a3846161501", null ],
     [ "cond_ellipsoid_cover", "cond__ellipsoid_8c.html#aab054a1f536b825ef7faafcfc060c9b4", null ],
     [ "cond_ellipsoid_crossover", "cond__ellipsoid_8c.html#a690054de0ade5f193c7e738209af9d97", null ],
-    [ "cond_ellipsoid_dist", "cond__ellipsoid_8c.html#a3a917ac5052a9428444170b159a9e531", null ],
+    [ "cond_ellipsoid_dist", "cond__ellipsoid_8c.html#a68136566af5f51609d558fac88d6b0f9", null ],
     [ "cond_ellipsoid_free", "cond__ellipsoid_8c.html#a6889c785a2c9071dfe2485ab86500800", null ],
     [ "cond_ellipsoid_general", "cond__ellipsoid_8c.html#a222e2af871e4a62ce50db5d1cd685531", null ],
     [ "cond_ellipsoid_init", "cond__ellipsoid_8c.html#ab7579a6160dd02ac53b1012dec973157", null ],

@@ -5,8 +5,8 @@ var searchData=
   ['main_2ec',['main.c',['../main_8c.html',1,'']]],
   ['matrix',['matrix',['../structPRED__RLS.html#a1a9e3687a9e26026416f7f1c93e427bf',1,'PRED_RLS']]],
   ['matrix_5fa',['MATRIX_A',['../mt19937-64_8c.html#a376c3581bae3c2367fc9ce694e5a8949',1,'mt19937-64.c']]],
-  ['matrix_5fmatrix_5fmultiply',['matrix_matrix_multiply',['../pred__rls_8c.html#a0984693bdd6606f6829cd23a276cc01b',1,'pred_rls.c']]],
-  ['matrix_5fvector_5fmultiply',['matrix_vector_multiply',['../pred__rls_8c.html#ace41d3863405fbb8f8d1e32851a74f3b',1,'pred_rls.c']]],
+  ['matrix_5fmatrix_5fmultiply',['matrix_matrix_multiply',['../pred__rls_8c.html#a0495599b5e0677cd077212eaa9f3fd31',1,'pred_rls.c']]],
+  ['matrix_5fvector_5fmultiply',['matrix_vector_multiply',['../pred__rls_8c.html#abf68900ca12cb5ad1ab6b884c31285d2',1,'pred_rls.c']]],
   ['max_5fcols',['MAX_COLS',['../env__csv_8c.html#a551f71f92f90f76151a3cfc9679271a0',1,'env_csv.c']]],
   ['max_5fcover',['MAX_COVER',['../cl__set_8c.html#a9cca6f51165de2b97647cb83f2128ddb',1,'cl_set.c']]],
   ['max_5fk',['MAX_K',['../structXCSF.html#a2fe572eeaacb9368264a92ff4c2efd20',1,'XCSF']]],
@@ -29,8 +29,8 @@ var searchData=
   ['mti',['mti',['../mt19937-64_8c.html#a0893639c022032e006e5b13378f7b4b2',1,'mt19937-64.c']]],
   ['mu',['mu',['../structCL.html#ac041d3df100a129e0de82d9e09155979',1,'CL']]],
   ['mul',['MUL',['../gp_8c.html#ab7aff04ad21c86032dee3b2012ad6126',1,'gp.c']]],
-  ['mutate_5feta',['mutate_eta',['../neural__layer__connected_8c.html#ad19bdecde3e5250ff52376ca965d3e73',1,'neural_layer_connected.c']]],
-  ['mutate_5ffunctions',['mutate_functions',['../neural__layer__connected_8c.html#a86da9735a5db9145b976c16c29114c33',1,'neural_layer_connected.c']]],
-  ['mutate_5fneurons',['mutate_neurons',['../neural__layer__connected_8c.html#aa08dc454e3cbd3216eb876792a255609',1,'neural_layer_connected.c']]],
-  ['mutate_5fweights',['mutate_weights',['../neural__layer__connected_8c.html#a4f4211673e1e2e7a56cedaaf81f4ad54',1,'neural_layer_connected.c']]]
+  ['mutate_5feta',['mutate_eta',['../neural__layer__connected_8c.html#a89e19cb309ae3cc7722d8dac64ea0a8c',1,'neural_layer_connected.c']]],
+  ['mutate_5ffunctions',['mutate_functions',['../neural__layer__connected_8c.html#ac1c67136ea139779a7c2f91b59a62edd',1,'neural_layer_connected.c']]],
+  ['mutate_5fneurons',['mutate_neurons',['../neural__layer__connected_8c.html#ad933cd5004ffd10751af44495d2ce68d',1,'neural_layer_connected.c']]],
+  ['mutate_5fweights',['mutate_weights',['../neural__layer__connected_8c.html#a587edba8a58f8356b4cadf6d1bb75c03',1,'neural_layer_connected.c']]]
 ];

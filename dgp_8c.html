@@ -117,12 +117,12 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a40bc091837ac09c51caeeb99ec34173b"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dgp_8c.html#a40bc091837ac09c51caeeb99ec34173b">function_string</a> (int function)</td></tr>
-<tr class="memdesc:a40bc091837ac09c51caeeb99ec34173b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of a specified node function.  <a href="#a40bc091837ac09c51caeeb99ec34173b">More...</a><br /></td></tr>
-<tr class="separator:a40bc091837ac09c51caeeb99ec34173b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4787523214502416d2d19db955031b8d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dgp_8c.html#a4787523214502416d2d19db955031b8d">node_activate</a> (int function, double *inputs, int k)</td></tr>
-<tr class="memdesc:a4787523214502416d2d19db955031b8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the result from applying a specified activation function.  <a href="#a4787523214502416d2d19db955031b8d">More...</a><br /></td></tr>
-<tr class="separator:a4787523214502416d2d19db955031b8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54761f253089cbb91745da23a90b3e33"><td class="memItemLeft" align="right" valign="top">static char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dgp_8c.html#a54761f253089cbb91745da23a90b3e33">function_string</a> (int function)</td></tr>
+<tr class="memdesc:a54761f253089cbb91745da23a90b3e33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of a specified node function.  <a href="#a54761f253089cbb91745da23a90b3e33">More...</a><br /></td></tr>
+<tr class="separator:a54761f253089cbb91745da23a90b3e33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b9b640297a361166886d98377da743b"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dgp_8c.html#a0b9b640297a361166886d98377da743b">node_activate</a> (int function, double *inputs, int k)</td></tr>
+<tr class="memdesc:a0b9b640297a361166886d98377da743b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the result from applying a specified activation function.  <a href="#a0b9b640297a361166886d98377da743b">More...</a><br /></td></tr>
+<tr class="separator:a0b9b640297a361166886d98377da743b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78200d0f7f1385e9ef5ca092530e3846"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dgp_8c.html#a78200d0f7f1385e9ef5ca092530e3846">graph_init</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structGRAPH.html">GRAPH</a> *dgp, int n)</td></tr>
 <tr class="memdesc:a78200d0f7f1385e9ef5ca092530e3846"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises a new DGP graph.  <a href="#a78200d0f7f1385e9ef5ca092530e3846">More...</a><br /></td></tr>
 <tr class="separator:a78200d0f7f1385e9ef5ca092530e3846"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -189,20 +189,28 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a40bc091837ac09c51caeeb99ec34173b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40bc091837ac09c51caeeb99ec34173b">&#9670;&nbsp;</a></span>function_string()</h2>
+<a id="a54761f253089cbb91745da23a90b3e33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54761f253089cbb91745da23a90b3e33">&#9670;&nbsp;</a></span>function_string()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">char * function_string </td>
+          <td class="memname">static char * function_string </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>function</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Returns the name of a specified node function. </p>
@@ -220,7 +228,7 @@ Functions</h2></td></tr>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="dgp_8c_a40bc091837ac09c51caeeb99ec34173b_icgraph.svg" width="439" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="dgp_8c_a54761f253089cbb91745da23a90b3e33_icgraph.svg" width="439" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -899,14 +907,17 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a4787523214502416d2d19db955031b8d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4787523214502416d2d19db955031b8d">&#9670;&nbsp;</a></span>node_activate()</h2>
+<a id="a0b9b640297a361166886d98377da743b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b9b640297a361166886d98377da743b">&#9670;&nbsp;</a></span>node_activate()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double node_activate </td>
+          <td class="memname">static double node_activate </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>function</em>, </td>
@@ -929,6 +940,11 @@ Here is the caller graph for this function:</div>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Returns the result from applying a specified activation function. </p>
@@ -950,13 +966,13 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="dgp_8c_a4787523214502416d2d19db955031b8d_cgraph.svg" width="236" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="dgp_8c_a0b9b640297a361166886d98377da743b_cgraph.svg" width="236" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="dgp_8c_a4787523214502416d2d19db955031b8d_icgraph.svg" width="642" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="dgp_8c_a0b9b640297a361166886d98377da743b_icgraph.svg" width="642" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 

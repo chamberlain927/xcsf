@@ -2,9 +2,9 @@ var pred__rls_8c =
 [
     [ "PRED_RLS", "structPRED__RLS.html", "structPRED__RLS" ],
     [ "PRED_RLS", "pred__rls_8c.html#a7ccd99bf7a7c951c23d85a4ec7bb6449", null ],
-    [ "init_matrix", "pred__rls_8c.html#a0cbc7603ebdece6a4f4b7f998cf48530", null ],
-    [ "matrix_matrix_multiply", "pred__rls_8c.html#a0984693bdd6606f6829cd23a276cc01b", null ],
-    [ "matrix_vector_multiply", "pred__rls_8c.html#ace41d3863405fbb8f8d1e32851a74f3b", null ],
+    [ "init_matrix", "pred__rls_8c.html#a7e145e21e28edb366fda9a86433faf81", null ],
+    [ "matrix_matrix_multiply", "pred__rls_8c.html#a0495599b5e0677cd077212eaa9f3fd31", null ],
+    [ "matrix_vector_multiply", "pred__rls_8c.html#abf68900ca12cb5ad1ab6b884c31285d2", null ],
     [ "pred_rls_compute", "pred__rls_8c.html#acaf64d1a7de8a0214d1f682bb65bd642", null ],
     [ "pred_rls_copy", "pred__rls_8c.html#a8b88cf5e0a8cb027967f9bc52a9690c9", null ],
     [ "pred_rls_crossover", "pred__rls_8c.html#ae620006ed343d13cefcca8ee574fbe66", null ],

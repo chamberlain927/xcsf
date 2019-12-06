@@ -115,12 +115,12 @@ Include dependency graph for xcs_single_step.c:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aef07baf4de9b02d9c6fd33a1c485e7ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcs__single__step_8c.html#aef07baf4de9b02d9c6fd33a1c485e7ea">xcs_single_explore</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
-<tr class="memdesc:aef07baf4de9b02d9c6fd33a1c485e7ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a single-step explore trial.  <a href="#aef07baf4de9b02d9c6fd33a1c485e7ea">More...</a><br /></td></tr>
-<tr class="separator:aef07baf4de9b02d9c6fd33a1c485e7ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d3ed7cfbd01de00beaa8e2559f463b5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcs__single__step_8c.html#a5d3ed7cfbd01de00beaa8e2559f463b5">xcs_single_exploit</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, double *error)</td></tr>
-<tr class="memdesc:a5d3ed7cfbd01de00beaa8e2559f463b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a single-step exploit trial.  <a href="#a5d3ed7cfbd01de00beaa8e2559f463b5">More...</a><br /></td></tr>
-<tr class="separator:a5d3ed7cfbd01de00beaa8e2559f463b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7aa49a74bb28adda31400d94a29c2b0b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcs__single__step_8c.html#a7aa49a74bb28adda31400d94a29c2b0b">xcs_single_explore</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="memdesc:a7aa49a74bb28adda31400d94a29c2b0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a single-step explore trial.  <a href="#a7aa49a74bb28adda31400d94a29c2b0b">More...</a><br /></td></tr>
+<tr class="separator:a7aa49a74bb28adda31400d94a29c2b0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab16ce2421e484a5dc7cb2a60a74517a"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcs__single__step_8c.html#aab16ce2421e484a5dc7cb2a60a74517a">xcs_single_exploit</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, double *error)</td></tr>
+<tr class="memdesc:aab16ce2421e484a5dc7cb2a60a74517a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a single-step exploit trial.  <a href="#aab16ce2421e484a5dc7cb2a60a74517a">More...</a><br /></td></tr>
+<tr class="separator:aab16ce2421e484a5dc7cb2a60a74517a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39a031bf59eaa9b33e30e614610dcda8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcs__single__step_8c.html#a39a031bf59eaa9b33e30e614610dcda8">xcs_single_step_exp</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
 <tr class="memdesc:a39a031bf59eaa9b33e30e614610dcda8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a single-step experiment.  <a href="#a39a031bf59eaa9b33e30e614610dcda8">More...</a><br /></td></tr>
 <tr class="separator:a39a031bf59eaa9b33e30e614610dcda8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -133,14 +133,17 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition in file <a class="el" href="xcs__single__step_8c_source.html">xcs_single_step.c</a>.</p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="a5d3ed7cfbd01de00beaa8e2559f463b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d3ed7cfbd01de00beaa8e2559f463b5">&#9670;&nbsp;</a></span>xcs_single_exploit()</h2>
+<a id="aab16ce2421e484a5dc7cb2a60a74517a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab16ce2421e484a5dc7cb2a60a74517a">&#9670;&nbsp;</a></span>xcs_single_exploit()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double xcs_single_exploit </td>
+          <td class="memname">static double xcs_single_exploit </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
           <td class="paramname"><em>xcsf</em>, </td>
@@ -157,6 +160,11 @@ Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Executes a single-step exploit trial. </p>
@@ -177,32 +185,40 @@ Functions</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__single__step_8c_a5d3ed7cfbd01de00beaa8e2559f463b5_cgraph.svg" width="1875" height="950"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__single__step_8c_aab16ce2421e484a5dc7cb2a60a74517a_cgraph.svg" width="1875" height="950"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__single__step_8c_a5d3ed7cfbd01de00beaa8e2559f463b5_icgraph.svg" width="578" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__single__step_8c_aab16ce2421e484a5dc7cb2a60a74517a_icgraph.svg" width="578" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="aef07baf4de9b02d9c6fd33a1c485e7ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef07baf4de9b02d9c6fd33a1c485e7ea">&#9670;&nbsp;</a></span>xcs_single_explore()</h2>
+<a id="a7aa49a74bb28adda31400d94a29c2b0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7aa49a74bb28adda31400d94a29c2b0b">&#9670;&nbsp;</a></span>xcs_single_explore()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void xcs_single_explore </td>
+          <td class="memname">static void xcs_single_explore </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
           <td class="paramname"><em>xcsf</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Executes a single-step explore trial. </p>
@@ -221,13 +237,13 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__single__step_8c_aef07baf4de9b02d9c6fd33a1c485e7ea_cgraph.svg" width="1936" height="1950"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__single__step_8c_a7aa49a74bb28adda31400d94a29c2b0b_cgraph.svg" width="1936" height="1950"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__single__step_8c_aef07baf4de9b02d9c6fd33a1c485e7ea_icgraph.svg" width="582" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__single__step_8c_a7aa49a74bb28adda31400d94a29c2b0b_icgraph.svg" width="582" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 

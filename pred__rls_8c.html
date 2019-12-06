@@ -125,12 +125,12 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a0984693bdd6606f6829cd23a276cc01b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__rls_8c.html#a0984693bdd6606f6829cd23a276cc01b">matrix_matrix_multiply</a> (double *srca, double *srcb, double *dest, int n)</td></tr>
-<tr class="separator:a0984693bdd6606f6829cd23a276cc01b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace41d3863405fbb8f8d1e32851a74f3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__rls_8c.html#ace41d3863405fbb8f8d1e32851a74f3b">matrix_vector_multiply</a> (double *srcm, double *srcv, double *dest, int n)</td></tr>
-<tr class="separator:ace41d3863405fbb8f8d1e32851a74f3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cbc7603ebdece6a4f4b7f998cf48530"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__rls_8c.html#a0cbc7603ebdece6a4f4b7f998cf48530">init_matrix</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, double *matrix, int n)</td></tr>
-<tr class="separator:a0cbc7603ebdece6a4f4b7f998cf48530"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0495599b5e0677cd077212eaa9f3fd31"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__rls_8c.html#a0495599b5e0677cd077212eaa9f3fd31">matrix_matrix_multiply</a> (double *srca, double *srcb, double *dest, int n)</td></tr>
+<tr class="separator:a0495599b5e0677cd077212eaa9f3fd31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf68900ca12cb5ad1ab6b884c31285d2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__rls_8c.html#abf68900ca12cb5ad1ab6b884c31285d2">matrix_vector_multiply</a> (double *srcm, double *srcv, double *dest, int n)</td></tr>
+<tr class="separator:abf68900ca12cb5ad1ab6b884c31285d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e145e21e28edb366fda9a86433faf81"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__rls_8c.html#a7e145e21e28edb366fda9a86433faf81">init_matrix</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, double *matrix, int n)</td></tr>
+<tr class="separator:a7e145e21e28edb366fda9a86433faf81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add56391e52e3e797bb8c9ea665bd3dfb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__rls_8c.html#add56391e52e3e797bb8c9ea665bd3dfb">pred_rls_init</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c)</td></tr>
 <tr class="separator:add56391e52e3e797bb8c9ea665bd3dfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b88cf5e0a8cb027967f9bc52a9690c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__rls_8c.html#a8b88cf5e0a8cb027967f9bc52a9690c9">pred_rls_copy</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *to, <a class="el" href="structCL.html">CL</a> *from)</td></tr>
@@ -179,14 +179,17 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a0cbc7603ebdece6a4f4b7f998cf48530"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0cbc7603ebdece6a4f4b7f998cf48530">&#9670;&nbsp;</a></span>init_matrix()</h2>
+<a id="a7e145e21e28edb366fda9a86433faf81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e145e21e28edb366fda9a86433faf81">&#9670;&nbsp;</a></span>init_matrix()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void init_matrix </td>
+          <td class="memname">static void init_matrix </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
           <td class="paramname"><em>xcsf</em>, </td>
@@ -209,6 +212,11 @@ Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="pred__rls_8c_source.html#l00087">87</a> of file <a class="el" href="pred__rls_8c_source.html">pred_rls.c</a>.</p>
@@ -219,20 +227,23 @@ Functions</h2></td></tr>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="pred__rls_8c_a0cbc7603ebdece6a4f4b7f998cf48530_icgraph.svg" width="384" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="pred__rls_8c_a7e145e21e28edb366fda9a86433faf81_icgraph.svg" width="384" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="a0984693bdd6606f6829cd23a276cc01b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0984693bdd6606f6829cd23a276cc01b">&#9670;&nbsp;</a></span>matrix_matrix_multiply()</h2>
+<a id="a0495599b5e0677cd077212eaa9f3fd31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0495599b5e0677cd077212eaa9f3fd31">&#9670;&nbsp;</a></span>matrix_matrix_multiply()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void matrix_matrix_multiply </td>
+          <td class="memname">static void matrix_matrix_multiply </td>
           <td>(</td>
           <td class="paramtype">double *&#160;</td>
           <td class="paramname"><em>srca</em>, </td>
@@ -261,6 +272,11 @@ Here is the caller graph for this function:</div>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="pred__rls_8c_source.html#l00223">223</a> of file <a class="el" href="pred__rls_8c_source.html">pred_rls.c</a>.</p>
@@ -269,20 +285,23 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="pred__rls_8c_a0984693bdd6606f6829cd23a276cc01b_icgraph.svg" width="327" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="pred__rls_8c_a0495599b5e0677cd077212eaa9f3fd31_icgraph.svg" width="327" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="ace41d3863405fbb8f8d1e32851a74f3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace41d3863405fbb8f8d1e32851a74f3b">&#9670;&nbsp;</a></span>matrix_vector_multiply()</h2>
+<a id="abf68900ca12cb5ad1ab6b884c31285d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf68900ca12cb5ad1ab6b884c31285d2">&#9670;&nbsp;</a></span>matrix_vector_multiply()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void matrix_vector_multiply </td>
+          <td class="memname">static void matrix_vector_multiply </td>
           <td>(</td>
           <td class="paramtype">double *&#160;</td>
           <td class="paramname"><em>srcm</em>, </td>
@@ -311,6 +330,11 @@ Here is the caller graph for this function:</div>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="pred__rls_8c_source.html#l00235">235</a> of file <a class="el" href="pred__rls_8c_source.html">pred_rls.c</a>.</p>
@@ -319,7 +343,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="pred__rls_8c_ace41d3863405fbb8f8d1e32851a74f3b_icgraph.svg" width="327" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="pred__rls_8c_abf68900ca12cb5ad1ab6b884c31285d2_icgraph.svg" width="327" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 

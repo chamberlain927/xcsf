@@ -128,12 +128,12 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa73d6bcb4336bf443d6bd5c89323e6e3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gp_8c.html#aa73d6bcb4336bf443d6bd5c89323e6e3">tree_grow</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, int *buffer, int p, int max, int depth)</td></tr>
-<tr class="memdesc:aa73d6bcb4336bf443d6bd5c89323e6e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Grows a random GP tree of specified max length and depth.  <a href="#aa73d6bcb4336bf443d6bd5c89323e6e3">More...</a><br /></td></tr>
-<tr class="separator:aa73d6bcb4336bf443d6bd5c89323e6e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84aeeee8cb74c89c8acfc5049906b312"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gp_8c.html#a84aeeee8cb74c89c8acfc5049906b312">tree_traverse</a> (int *tree, int p)</td></tr>
-<tr class="memdesc:a84aeeee8cb74c89c8acfc5049906b312"><td class="mdescLeft">&#160;</td><td class="mdescRight">Traverses a GP tree.  <a href="#a84aeeee8cb74c89c8acfc5049906b312">More...</a><br /></td></tr>
-<tr class="separator:a84aeeee8cb74c89c8acfc5049906b312"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf89c5486df161ec44733a12a7bf9f04"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gp_8c.html#aaf89c5486df161ec44733a12a7bf9f04">tree_grow</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, int *buffer, int p, int max, int depth)</td></tr>
+<tr class="memdesc:aaf89c5486df161ec44733a12a7bf9f04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Grows a random GP tree of specified max length and depth.  <a href="#aaf89c5486df161ec44733a12a7bf9f04">More...</a><br /></td></tr>
+<tr class="separator:aaf89c5486df161ec44733a12a7bf9f04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c42cce0ae1e713a3dc4d34b1cdd5d42"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gp_8c.html#a7c42cce0ae1e713a3dc4d34b1cdd5d42">tree_traverse</a> (int *tree, int p)</td></tr>
+<tr class="memdesc:a7c42cce0ae1e713a3dc4d34b1cdd5d42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Traverses a GP tree.  <a href="#a7c42cce0ae1e713a3dc4d34b1cdd5d42">More...</a><br /></td></tr>
+<tr class="separator:a7c42cce0ae1e713a3dc4d34b1cdd5d42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a262c601e1744b1d1c654f609a5138b94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gp_8c.html#a262c601e1744b1d1c654f609a5138b94">tree_init_cons</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
 <tr class="memdesc:a262c601e1744b1d1c654f609a5138b94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises the constants shared among all GP trees.  <a href="#a262c601e1744b1d1c654f609a5138b94">More...</a><br /></td></tr>
 <tr class="separator:a262c601e1744b1d1c654f609a5138b94"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -548,7 +548,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00129">XCSF::gp_cons</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00186">constants_free()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00185">constants_free()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -558,14 +558,17 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="aa73d6bcb4336bf443d6bd5c89323e6e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa73d6bcb4336bf443d6bd5c89323e6e3">&#9670;&nbsp;</a></span>tree_grow()</h2>
+<a id="aaf89c5486df161ec44733a12a7bf9f04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf89c5486df161ec44733a12a7bf9f04">&#9670;&nbsp;</a></span>tree_grow()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int tree_grow </td>
+          <td class="memname">static int tree_grow </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
           <td class="paramname"><em>xcsf</em>, </td>
@@ -600,6 +603,11 @@ Here is the caller graph for this function:</div>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Grows a random GP tree of specified max length and depth. </p>
@@ -624,13 +632,13 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_aa73d6bcb4336bf443d6bd5c89323e6e3_cgraph.svg" width="971" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_aaf89c5486df161ec44733a12a7bf9f04_cgraph.svg" width="971" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_aa73d6bcb4336bf443d6bd5c89323e6e3_icgraph.svg" width="523" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_aaf89c5486df161ec44733a12a7bf9f04_icgraph.svg" width="523" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -664,7 +672,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00120">XCSF::COND_MAX</a>, <a class="el" href="xcsf_8h_source.html#l00121">XCSF::COND_MIN</a>, <a class="el" href="xcsf_8h_source.html#l00129">XCSF::gp_cons</a>, <a class="el" href="xcsf_8h_source.html#l00127">XCSF::GP_NUM_CONS</a>, and <a class="el" href="utils_8c_source.html#l00071">rand_uniform()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00061">constants_init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00060">constants_init()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -974,14 +982,17 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a84aeeee8cb74c89c8acfc5049906b312"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84aeeee8cb74c89c8acfc5049906b312">&#9670;&nbsp;</a></span>tree_traverse()</h2>
+<a id="a7c42cce0ae1e713a3dc4d34b1cdd5d42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c42cce0ae1e713a3dc4d34b1cdd5d42">&#9670;&nbsp;</a></span>tree_traverse()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int tree_traverse </td>
+          <td class="memname">static int tree_traverse </td>
           <td>(</td>
           <td class="paramtype">int *&#160;</td>
           <td class="paramname"><em>tree</em>, </td>
@@ -998,6 +1009,11 @@ Here is the caller graph for this function:</div>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Traverses a GP tree. </p>
@@ -1018,7 +1034,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_a84aeeee8cb74c89c8acfc5049906b312_icgraph.svg" width="448" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_a7c42cce0ae1e713a3dc4d34b1cdd5d42_icgraph.svg" width="448" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 

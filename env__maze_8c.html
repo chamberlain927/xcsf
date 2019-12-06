@@ -141,9 +141,9 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a68219ec6cca4034dbfd6ff4abddf0ed4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="env__maze_8c.html#a68219ec6cca4034dbfd6ff4abddf0ed4">env_maze_print</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
-<tr class="memdesc:a68219ec6cca4034dbfd6ff4abddf0ed4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the current state of the maze environment.  <a href="#a68219ec6cca4034dbfd6ff4abddf0ed4">More...</a><br /></td></tr>
-<tr class="separator:a68219ec6cca4034dbfd6ff4abddf0ed4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b31187f78f3519c271ac9651c7190fc"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="env__maze_8c.html#a5b31187f78f3519c271ac9651c7190fc">env_maze_print</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="memdesc:a5b31187f78f3519c271ac9651c7190fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the current state of the maze environment.  <a href="#a5b31187f78f3519c271ac9651c7190fc">More...</a><br /></td></tr>
+<tr class="separator:a5b31187f78f3519c271ac9651c7190fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13104e04cf54d8722fe9a82ec4f9f754"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="env__maze_8c.html#a13104e04cf54d8722fe9a82ec4f9f754">env_maze_sensor</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, char s)</td></tr>
 <tr class="memdesc:a13104e04cf54d8722fe9a82ec4f9f754"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a float encoding of a sensor perception.  <a href="#a13104e04cf54d8722fe9a82ec4f9f754">More...</a><br /></td></tr>
 <tr class="separator:a13104e04cf54d8722fe9a82ec4f9f754"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -174,10 +174,10 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ad258b1cc4d3d94af9bd4e7d2ef24404f"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="env__maze_8c.html#ad258b1cc4d3d94af9bd4e7d2ef24404f">x_moves</a> [] ={ 0, +1, +1, +1, 0, -1, -1, -1}</td></tr>
+<tr class="memitem:ad258b1cc4d3d94af9bd4e7d2ef24404f"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="env__maze_8c.html#ad258b1cc4d3d94af9bd4e7d2ef24404f">x_moves</a> [] ={ 0, +1, +1, +1, 0, -1, -1, -1}</td></tr>
 <tr class="memdesc:ad258b1cc4d3d94af9bd4e7d2ef24404f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Possible maze moves on x-axis.  <a href="#ad258b1cc4d3d94af9bd4e7d2ef24404f">More...</a><br /></td></tr>
 <tr class="separator:ad258b1cc4d3d94af9bd4e7d2ef24404f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8b354755ed423138edda7b28c6b8cfa"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="env__maze_8c.html#ac8b354755ed423138edda7b28c6b8cfa">y_moves</a> [] ={-1, -1, 0, +1, +1, +1, 0, -1}</td></tr>
+<tr class="memitem:ac8b354755ed423138edda7b28c6b8cfa"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="env__maze_8c.html#ac8b354755ed423138edda7b28c6b8cfa">y_moves</a> [] ={-1, -1, 0, +1, +1, +1, 0, -1}</td></tr>
 <tr class="memdesc:ac8b354755ed423138edda7b28c6b8cfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Possible maze moves on y-axis.  <a href="#ac8b354755ed423138edda7b28c6b8cfa">More...</a><br /></td></tr>
 <tr class="separator:ac8b354755ed423138edda7b28c6b8cfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -535,20 +535,28 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a68219ec6cca4034dbfd6ff4abddf0ed4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68219ec6cca4034dbfd6ff4abddf0ed4">&#9670;&nbsp;</a></span>env_maze_print()</h2>
+<a id="a5b31187f78f3519c271ac9651c7190fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b31187f78f3519c271ac9651c7190fc">&#9670;&nbsp;</a></span>env_maze_print()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void env_maze_print </td>
+          <td class="memname">static void env_maze_print </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
           <td class="paramname"><em>xcsf</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Prints the current state of the maze environment. </p>
@@ -567,7 +575,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="env__maze_8c_a68219ec6cca4034dbfd6ff4abddf0ed4_icgraph.svg" width="308" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="env__maze_8c_a5b31187f78f3519c271ac9651c7190fc_icgraph.svg" width="308" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -663,11 +671,19 @@ Here is the caller graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">const int x_moves[] ={ 0, +1, +1, +1, 0, -1, -1, -1}</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Possible maze moves on x-axis. </p>
@@ -683,11 +699,19 @@ Here is the caller graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">const int y_moves[] ={-1, -1, 0, +1, +1, +1, 0, -1}</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Possible maze moves on y-axis. </p>

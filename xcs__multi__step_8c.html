@@ -115,12 +115,12 @@ Include dependency graph for xcs_multi_step.c:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a9f6d53384f68b9354b5757dd2c7771fd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcs__multi__step_8c.html#a9f6d53384f68b9354b5757dd2c7771fd">xcs_multi_explore</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
-<tr class="memdesc:a9f6d53384f68b9354b5757dd2c7771fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a multi-step explore trial.  <a href="#a9f6d53384f68b9354b5757dd2c7771fd">More...</a><br /></td></tr>
-<tr class="separator:a9f6d53384f68b9354b5757dd2c7771fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af458a8b42e79e924ffcf87a7d9c9711d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcs__multi__step_8c.html#af458a8b42e79e924ffcf87a7d9c9711d">xcs_multi_exploit</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, double *error)</td></tr>
-<tr class="memdesc:af458a8b42e79e924ffcf87a7d9c9711d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a multi-step exploit trial.  <a href="#af458a8b42e79e924ffcf87a7d9c9711d">More...</a><br /></td></tr>
-<tr class="separator:af458a8b42e79e924ffcf87a7d9c9711d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a617d9e432dc180dccf0c5ef11a94f79f"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcs__multi__step_8c.html#a617d9e432dc180dccf0c5ef11a94f79f">xcs_multi_explore</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="memdesc:a617d9e432dc180dccf0c5ef11a94f79f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a multi-step explore trial.  <a href="#a617d9e432dc180dccf0c5ef11a94f79f">More...</a><br /></td></tr>
+<tr class="separator:a617d9e432dc180dccf0c5ef11a94f79f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c317faec2f018cc620fe5e465ebf378"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcs__multi__step_8c.html#a7c317faec2f018cc620fe5e465ebf378">xcs_multi_exploit</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, double *error)</td></tr>
+<tr class="memdesc:a7c317faec2f018cc620fe5e465ebf378"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a multi-step exploit trial.  <a href="#a7c317faec2f018cc620fe5e465ebf378">More...</a><br /></td></tr>
+<tr class="separator:a7c317faec2f018cc620fe5e465ebf378"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc29d4a55dbd56c16ea5f19f15a7c677"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcs__multi__step_8c.html#acc29d4a55dbd56c16ea5f19f15a7c677">xcs_multi_step_exp</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
 <tr class="memdesc:acc29d4a55dbd56c16ea5f19f15a7c677"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a multi-step reinforcement learning experiment.  <a href="#acc29d4a55dbd56c16ea5f19f15a7c677">More...</a><br /></td></tr>
 <tr class="separator:acc29d4a55dbd56c16ea5f19f15a7c677"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -133,14 +133,17 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition in file <a class="el" href="xcs__multi__step_8c_source.html">xcs_multi_step.c</a>.</p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="af458a8b42e79e924ffcf87a7d9c9711d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af458a8b42e79e924ffcf87a7d9c9711d">&#9670;&nbsp;</a></span>xcs_multi_exploit()</h2>
+<a id="a7c317faec2f018cc620fe5e465ebf378"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c317faec2f018cc620fe5e465ebf378">&#9670;&nbsp;</a></span>xcs_multi_exploit()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int xcs_multi_exploit </td>
+          <td class="memname">static int xcs_multi_exploit </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
           <td class="paramname"><em>xcsf</em>, </td>
@@ -157,6 +160,11 @@ Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Executes a multi-step exploit trial. </p>
@@ -177,32 +185,40 @@ Functions</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__multi__step_8c_af458a8b42e79e924ffcf87a7d9c9711d_cgraph.svg" width="1928" height="1482"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__multi__step_8c_a7c317faec2f018cc620fe5e465ebf378_cgraph.svg" width="1928" height="1482"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__multi__step_8c_af458a8b42e79e924ffcf87a7d9c9711d_icgraph.svg" width="566" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__multi__step_8c_a7c317faec2f018cc620fe5e465ebf378_icgraph.svg" width="566" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="a9f6d53384f68b9354b5757dd2c7771fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f6d53384f68b9354b5757dd2c7771fd">&#9670;&nbsp;</a></span>xcs_multi_explore()</h2>
+<a id="a617d9e432dc180dccf0c5ef11a94f79f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a617d9e432dc180dccf0c5ef11a94f79f">&#9670;&nbsp;</a></span>xcs_multi_explore()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int xcs_multi_explore </td>
+          <td class="memname">static int xcs_multi_explore </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
           <td class="paramname"><em>xcsf</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Executes a multi-step explore trial. </p>
@@ -222,13 +238,13 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__multi__step_8c_a9f6d53384f68b9354b5757dd2c7771fd_cgraph.svg" width="1968" height="2064"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__multi__step_8c_a617d9e432dc180dccf0c5ef11a94f79f_cgraph.svg" width="1968" height="2064"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__multi__step_8c_a9f6d53384f68b9354b5757dd2c7771fd_icgraph.svg" width="570" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__multi__step_8c_a617d9e432dc180dccf0c5ef11a94f79f_icgraph.svg" width="570" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 

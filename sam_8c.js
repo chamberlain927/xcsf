@@ -5,10 +5,10 @@ var sam_8c =
     [ "sam_copy", "sam_8c.html#a1def5009483d7c0b876c1e91e170375d", null ],
     [ "sam_free", "sam_8c.html#ab788a3ced38cf0fd20f8e6a2bab9f86a", null ],
     [ "sam_init", "sam_8c.html#ab529fdda992a0d15c0f798ec3fefe843", null ],
-    [ "sam_log_normal_adapt", "sam_8c.html#a3148cad9685cba51c39bf4fc262b7fe3", null ],
-    [ "sam_log_normal_init", "sam_8c.html#a2142f014cab38e1a66523856ad64f825", null ],
+    [ "sam_log_normal_adapt", "sam_8c.html#a031d8383bb00ebca619ba28aa93b1084", null ],
+    [ "sam_log_normal_init", "sam_8c.html#af9ece15d6d1cb98bb4817cb267d24f82", null ],
     [ "sam_print", "sam_8c.html#addc6297ce445fb173be857a7a966c937", null ],
-    [ "sam_rate_selection_adapt", "sam_8c.html#aa20692ac4414f9a8cfa864bd3ca3ae8a", null ],
-    [ "sam_rate_selection_init", "sam_8c.html#a3406e320683ba972c0573809afabc6b3", null ],
+    [ "sam_rate_selection_adapt", "sam_8c.html#a2438d2a92748eee35bd6e2761e2e5610", null ],
+    [ "sam_rate_selection_init", "sam_8c.html#ade3e812ff797267372cee374fa55aad8", null ],
     [ "mrates", "sam_8c.html#a8eeba4cf3a046fef1598074faa1b6189", null ]
 ];
