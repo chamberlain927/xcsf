@@ -166,7 +166,7 @@ var structXCS =
     [ "kset", "structXCS.html#a7f21ed63967e63e955550a7ca03d0220", null ],
     [ "mset", "structXCS.html#a6292c9d48b7cad83d5e21a80cb8dbec7", null ],
     [ "state", "structXCS.html#a61fa1da4c28c0a3e9d1c24d06171c940", null ],
-    [ "test_data", "structXCS.html#aa380130db371529b5f02f63da272d962", null ],
-    [ "train_data", "structXCS.html#acec34920c8fbbe57d88e18fb6a0b3163", null ],
+    [ "test_data", "structXCS.html#aba1237989c28a1cf48ac2f2e742f23ac", null ],
+    [ "train_data", "structXCS.html#a8fc5c0aca84b1c700d2d5a6d04c9f527", null ],
     [ "xcs", "structXCS.html#af60e18f39edc745425fe1fecea03732b", null ]
 ];

@@ -8,288 +8,267 @@
  viewBox="0.00 0.00 861.00 192.06" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 188.0566)">
 <title>set_update_fit</title>
-<!-- Node637 -->
+<!-- Node624 -->
 <g id="node1" class="node">
-<title>Node637</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="0,-57.5 0,-76.5 78,-76.5 78,-57.5 0,-57.5"/>
-<text text-anchor="middle" x="39" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">set_update_fit</text>
+<title>Node624</title>
+<polygon fill="#bfbfbf" stroke="#000000" points="0,-67.5 0,-86.5 78,-86.5 78,-67.5 0,-67.5"/>
+<text text-anchor="middle" x="39" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">set_update_fit</text>
 </g>
-<!-- Node638 -->
+<!-- Node625 -->
 <g id="node2" class="node">
-<title>Node638</title>
+<title>Node625</title>
 <g id="a_node2"><a xlink:href="cl__set_8h.html#a0993c66e2751530b39449164017d6654" target="_top" xlink:title="Provides reinforcement to the set and performs set subsumption. ">
-<polygon fill="none" stroke="#000000" points="114,-57.5 114,-76.5 179,-76.5 179,-57.5 114,-57.5"/>
-<text text-anchor="middle" x="146.5" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">set_update</text>
+<polygon fill="none" stroke="#000000" points="114,-67.5 114,-86.5 179,-86.5 179,-67.5 114,-67.5"/>
+<text text-anchor="middle" x="146.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">set_update</text>
 </a>
 </g>
 </g>
-<!-- Node637&#45;&gt;Node638 -->
+<!-- Node624&#45;&gt;Node625 -->
 <g id="edge1" class="edge">
-<title>Node637&#45;&gt;Node638</title>
-<path fill="none" stroke="#191970" d="M88.2268,-67C96.9513,-67 105.836,-67 113.9524,-67"/>
-<polygon fill="#191970" stroke="#191970" points="88.1141,-63.5001 78.1141,-67 88.114,-70.5001 88.1141,-63.5001"/>
+<title>Node624&#45;&gt;Node625</title>
+<path fill="none" stroke="#191970" d="M88.2268,-77C96.9513,-77 105.836,-77 113.9524,-77"/>
+<polygon fill="#191970" stroke="#191970" points="88.1141,-73.5001 78.1141,-77 88.114,-80.5001 88.1141,-73.5001"/>
 </g>
-<!-- Node639 -->
+<!-- Node626 -->
 <g id="node3" class="node">
-<title>Node639</title>
-<g id="a_node3"><a xlink:href="xcs__multi__step_8c.html#a617d9e432dc180dccf0c5ef11a94f79f" target="_top" xlink:title="Executes a multi&#45;step explore trial. ">
-<polygon fill="none" stroke="#000000" points="216.5,-38.5 216.5,-57.5 311.5,-57.5 311.5,-38.5 216.5,-38.5"/>
-<text text-anchor="middle" x="264" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcs_multi_explore</text>
+<title>Node626</title>
+<g id="a_node3"><a xlink:href="xcs__multi__step_8c.html#a1e1c2a3094be715b468dda79cd59ebf3" target="_top" xlink:title="Executes a multi&#45;step trial using a built&#45;in environment. ">
+<polygon fill="none" stroke="#000000" points="224,-10.5 224,-29.5 304,-29.5 304,-10.5 224,-10.5"/>
+<text text-anchor="middle" x="264" y="-17.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcs_multi_trial</text>
 </a>
 </g>
 </g>
-<!-- Node638&#45;&gt;Node639 -->
+<!-- Node625&#45;&gt;Node626 -->
 <g id="edge2" class="edge">
-<title>Node638&#45;&gt;Node639</title>
-<path fill="none" stroke="#191970" d="M189.1938,-60.0963C197.9254,-58.6844 207.1696,-57.1896 216.0706,-55.7503"/>
-<polygon fill="#191970" stroke="#191970" points="188.5433,-56.656 179.2303,-61.7074 189.6608,-63.5662 188.5433,-56.656"/>
+<title>Node625&#45;&gt;Node626</title>
+<path fill="none" stroke="#191970" d="M175.4363,-62.9628C196.8441,-52.5778 225.4376,-38.7069 244.269,-29.5716"/>
+<polygon fill="#191970" stroke="#191970" points="173.6365,-59.9458 166.1669,-67.4595 176.6917,-66.2438 173.6365,-59.9458"/>
 </g>
-<!-- Node643 -->
+<!-- Node630 -->
 <g id="node7" class="node">
-<title>Node643</title>
-<g id="a_node7"><a xlink:href="xcs__multi__step_8c.html#a7c317faec2f018cc620fe5e465ebf378" target="_top" xlink:title="Executes a multi&#45;step exploit trial. ">
-<polygon fill="none" stroke="#000000" points="218,-.5 218,-19.5 310,-19.5 310,-.5 218,-.5"/>
-<text text-anchor="middle" x="264" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcs_multi_exploit</text>
+<title>Node630</title>
+<g id="a_node7"><a xlink:href="xcs__single__step_8h.html#aff4aec035e4573993a7906569f2028f5" target="_top" xlink:title="Creates the action set, updates the classifiers and runs the EA. ">
+<polygon fill="none" stroke="#000000" points="215,-67.5 215,-86.5 313,-86.5 313,-67.5 215,-67.5"/>
+<text text-anchor="middle" x="264" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcs_single_update</text>
 </a>
 </g>
 </g>
-<!-- Node638&#45;&gt;Node643 -->
+<!-- Node625&#45;&gt;Node630 -->
 <g id="edge6" class="edge">
-<title>Node638&#45;&gt;Node643</title>
-<path fill="none" stroke="#191970" d="M170.9636,-52.3613C183.8457,-44.9279 200.0366,-36.0115 215,-29 222.188,-25.6319 230.1496,-22.3587 237.5288,-19.5048"/>
-<polygon fill="#191970" stroke="#191970" points="169.1009,-49.396 162.2331,-57.4634 172.6329,-55.4396 169.1009,-49.396"/>
+<title>Node625&#45;&gt;Node630</title>
+<path fill="none" stroke="#191970" d="M189.3769,-77C197.6204,-77 206.3146,-77 214.7413,-77"/>
+<polygon fill="#191970" stroke="#191970" points="189.2303,-73.5001 179.2303,-77 189.2303,-80.5001 189.2303,-73.5001"/>
 </g>
-<!-- Node644 -->
-<g id="node8" class="node">
-<title>Node644</title>
-<g id="a_node8"><a xlink:href="xcs__single__step_8h.html#aff4aec035e4573993a7906569f2028f5" target="_top" xlink:title="Creates the action set, updates the classifiers and runs the EA. ">
-<polygon fill="none" stroke="#000000" points="215,-76.5 215,-95.5 313,-95.5 313,-76.5 215,-76.5"/>
-<text text-anchor="middle" x="264" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcs_single_update</text>
-</a>
-</g>
-</g>
-<!-- Node638&#45;&gt;Node644 -->
-<g id="edge8" class="edge">
-<title>Node638&#45;&gt;Node644</title>
-<path fill="none" stroke="#191970" d="M189.1023,-73.8889C197.4272,-75.235 206.221,-76.657 214.7413,-78.0348"/>
-<polygon fill="#191970" stroke="#191970" points="189.6608,-70.4338 179.2303,-72.2926 188.5433,-77.3441 189.6608,-70.4338"/>
-</g>
-<!-- Node649 -->
-<g id="node13" class="node">
-<title>Node649</title>
-<g id="a_node13"><a xlink:href="xcsf_8c.html#a474f4e13cfc5f00958c689cd8c81135a" target="_top" xlink:title="Executes a single XCSF learning trial. ">
+<!-- Node635 -->
+<g id="node12" class="node">
+<title>Node635</title>
+<g id="a_node12"><a xlink:href="xcsf_8c.html#a474f4e13cfc5f00958c689cd8c81135a" target="_top" xlink:title="Executes a single XCSF learning trial. ">
 <polygon fill="none" stroke="#000000" points="222.5,-114.5 222.5,-133.5 305.5,-133.5 305.5,-114.5 222.5,-114.5"/>
 <text text-anchor="middle" x="264" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcsf_learn_trial</text>
 </a>
 </g>
 </g>
-<!-- Node638&#45;&gt;Node649 -->
-<g id="edge14" class="edge">
-<title>Node638&#45;&gt;Node649</title>
-<path fill="none" stroke="#191970" d="M170.9636,-81.6387C183.8457,-89.0721 200.0366,-97.9885 215,-105 222.188,-108.3681 230.1496,-111.6413 237.5288,-114.4952"/>
-<polygon fill="#191970" stroke="#191970" points="172.6329,-78.5604 162.2331,-76.5366 169.1009,-84.604 172.6329,-78.5604"/>
+<!-- Node625&#45;&gt;Node635 -->
+<g id="edge12" class="edge">
+<title>Node625&#45;&gt;Node635</title>
+<path fill="none" stroke="#191970" d="M179.8157,-90.3263C198.9397,-97.9759 222.5196,-107.4078 239.8542,-114.3417"/>
+<polygon fill="#191970" stroke="#191970" points="180.8625,-86.9754 170.2779,-86.5112 178.2628,-93.4748 180.8625,-86.9754"/>
 </g>
-<!-- Node640 -->
+<!-- Node627 -->
 <g id="node4" class="node">
-<title>Node640</title>
+<title>Node627</title>
 <g id="a_node4"><a xlink:href="xcs__multi__step_8h.html#acc29d4a55dbd56c16ea5f19f15a7c677" target="_top" xlink:title="Executes a multi&#45;step reinforcement learning experiment. ">
-<polygon fill="none" stroke="#000000" points="349,-.5 349,-19.5 453,-19.5 453,-.5 349,-.5"/>
-<text text-anchor="middle" x="401" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcs_multi_step_exp</text>
+<polygon fill="none" stroke="#000000" points="491,-.5 491,-19.5 595,-19.5 595,-.5 491,-.5"/>
+<text text-anchor="middle" x="543" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcs_multi_step_exp</text>
 </a>
 </g>
 </g>
-<!-- Node639&#45;&gt;Node640 -->
+<!-- Node626&#45;&gt;Node627 -->
 <g id="edge3" class="edge">
-<title>Node639&#45;&gt;Node640</title>
-<path fill="none" stroke="#191970" d="M308.4108,-35.6817C327.2337,-30.4607 348.8376,-24.4684 366.4402,-19.5859"/>
-<polygon fill="#191970" stroke="#191970" points="307.2716,-32.3654 298.5709,-38.411 309.1426,-39.1108 307.2716,-32.3654"/>
+<title>Node626&#45;&gt;Node627</title>
+<path fill="none" stroke="#191970" d="M314.5047,-18.1898C364.4046,-16.4013 440.3872,-13.6779 490.8508,-11.8691"/>
+<polygon fill="#191970" stroke="#191970" points="314.1392,-14.7006 304.271,-18.5566 314.39,-21.6961 314.1392,-14.7006"/>
 </g>
-<!-- Node641 -->
+<!-- Node628 -->
 <g id="node5" class="node">
-<title>Node641</title>
+<title>Node628</title>
 <g id="a_node5"><a xlink:href="main_8c.html#ab572a67aa431827116ebd6931d667d21" target="_top" xlink:title="classification">
 <polygon fill="none" stroke="#000000" points="669,-38.5 669,-57.5 743,-57.5 743,-38.5 669,-38.5"/>
 <text text-anchor="middle" x="706" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">classification</text>
 </a>
 </g>
 </g>
-<!-- Node640&#45;&gt;Node641 -->
+<!-- Node627&#45;&gt;Node628 -->
 <g id="edge4" class="edge">
-<title>Node640&#45;&gt;Node641</title>
-<path fill="none" stroke="#191970" d="M463.1705,-14.8125C501.7767,-18.1016 552.373,-22.9563 597,-29 620.9843,-32.2481 647.7642,-36.9016 668.7775,-40.7902"/>
-<polygon fill="#191970" stroke="#191970" points="463.3787,-11.3177 453.1208,-13.9685 462.7928,-18.2932 463.3787,-11.3177"/>
+<title>Node627&#45;&gt;Node628</title>
+<path fill="none" stroke="#191970" d="M593.8838,-21.8625C618.1266,-27.5142 646.5982,-34.1517 668.7833,-39.3237"/>
+<polygon fill="#191970" stroke="#191970" points="594.6653,-18.4509 584.1318,-19.589 593.076,-25.2681 594.6653,-18.4509"/>
 </g>
-<!-- Node642 -->
+<!-- Node629 -->
 <g id="node6" class="node">
-<title>Node642</title>
+<title>Node629</title>
 <g id="a_node6"><a xlink:href="main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" target="_top" xlink:title="main">
 <polygon fill="none" stroke="#000000" points="815,-76.5 815,-95.5 853,-95.5 853,-76.5 815,-76.5"/>
 <text text-anchor="middle" x="834" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">main</text>
 </a>
 </g>
 </g>
-<!-- Node641&#45;&gt;Node642 -->
+<!-- Node628&#45;&gt;Node629 -->
 <g id="edge5" class="edge">
-<title>Node641&#45;&gt;Node642</title>
+<title>Node628&#45;&gt;Node629</title>
 <path fill="none" stroke="#191970" d="M747.9951,-60.4673C770.5448,-67.1617 797.2443,-75.0882 814.8458,-80.3136"/>
 <polygon fill="#191970" stroke="#191970" points="748.8824,-57.0798 738.2998,-57.589 746.8902,-63.7903 748.8824,-57.0798"/>
 </g>
-<!-- Node643&#45;&gt;Node640 -->
-<g id="edge7" class="edge">
-<title>Node643&#45;&gt;Node640</title>
-<path fill="none" stroke="#191970" d="M320.1111,-10C329.5802,-10 339.3761,-10 348.742,-10"/>
-<polygon fill="#191970" stroke="#191970" points="320.0002,-6.5001 310.0001,-10 320.0001,-13.5001 320.0002,-6.5001"/>
-</g>
-<!-- Node645 -->
-<g id="node9" class="node">
-<title>Node645</title>
-<g id="a_node9"><a xlink:href="structXCS.html#aedc01ad6f00a54b260a7605929a1d4c9" target="_top" xlink:title="XCS::single_update">
-<polygon fill="none" stroke="#000000" points="491,-76.5 491,-95.5 595,-95.5 595,-76.5 491,-76.5"/>
-<text text-anchor="middle" x="543" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">XCS::single_update</text>
+<!-- Node631 -->
+<g id="node8" class="node">
+<title>Node631</title>
+<g id="a_node8"><a xlink:href="structXCS.html#aedc01ad6f00a54b260a7605929a1d4c9" target="_top" xlink:title="XCS::single_update">
+<polygon fill="none" stroke="#000000" points="349,-76.5 349,-95.5 453,-95.5 453,-76.5 349,-76.5"/>
+<text text-anchor="middle" x="401" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">XCS::single_update</text>
 </a>
 </g>
 </g>
-<!-- Node644&#45;&gt;Node645 -->
-<g id="edge9" class="edge">
-<title>Node644&#45;&gt;Node645</title>
-<path fill="none" stroke="#191970" d="M323.5208,-86C373.2404,-86 443.4302,-86 490.9427,-86"/>
-<polygon fill="#191970" stroke="#191970" points="323.2374,-82.5001 313.2374,-86 323.2373,-89.5001 323.2374,-82.5001"/>
+<!-- Node630&#45;&gt;Node631 -->
+<g id="edge7" class="edge">
+<title>Node630&#45;&gt;Node631</title>
+<path fill="none" stroke="#191970" d="M323.2254,-80.8907C331.6549,-81.4445 340.2753,-82.0108 348.5632,-82.5552"/>
+<polygon fill="#191970" stroke="#191970" points="323.2811,-77.3869 313.0732,-80.2238 322.8222,-84.3719 323.2811,-77.3869"/>
 </g>
-<!-- Node647 -->
-<g id="node11" class="node">
-<title>Node647</title>
-<g id="a_node11"><a xlink:href="xcs__single__step_8c.html#a3d1fd2472d35310800aed897219a65af" target="_top" xlink:title="Executes a single&#45;step trial using a built&#45;in environment. ">
+<!-- Node633 -->
+<g id="node10" class="node">
+<title>Node633</title>
+<g id="a_node10"><a xlink:href="xcs__single__step_8c.html#a3d1fd2472d35310800aed897219a65af" target="_top" xlink:title="Executes a single&#45;step trial using a built&#45;in environment. ">
 <polygon fill="none" stroke="#000000" points="359,-38.5 359,-57.5 443,-57.5 443,-38.5 359,-38.5"/>
 <text text-anchor="middle" x="401" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcs_single_trial</text>
 </a>
 </g>
 </g>
-<!-- Node644&#45;&gt;Node647 -->
-<g id="edge11" class="edge">
-<title>Node644&#45;&gt;Node647</title>
-<path fill="none" stroke="#191970" d="M308.4108,-73.6817C327.2337,-68.4607 348.8376,-62.4684 366.4402,-57.5859"/>
-<polygon fill="#191970" stroke="#191970" points="307.2716,-70.3654 298.5709,-76.411 309.1426,-77.1108 307.2716,-70.3654"/>
+<!-- Node630&#45;&gt;Node633 -->
+<g id="edge9" class="edge">
+<title>Node630&#45;&gt;Node633</title>
+<path fill="none" stroke="#191970" d="M319.1285,-65.3305C332.2801,-62.5466 346.1158,-59.6178 358.5935,-56.9766"/>
+<polygon fill="#191970" stroke="#191970" points="318.297,-61.9288 309.2386,-67.4239 319.7467,-68.7771 318.297,-61.9288"/>
 </g>
-<!-- Node646 -->
-<g id="node10" class="node">
-<title>Node646</title>
-<g id="a_node10"><a xlink:href="python__wrapper_8cpp.html#afbdcc1358036a0b83a6b239da2b098a2" target="_top" xlink:title="BOOST_PYTHON_MODULE">
+<!-- Node632 -->
+<g id="node9" class="node">
+<title>Node632</title>
+<g id="a_node9"><a xlink:href="python__wrapper_8cpp.html#afbdcc1358036a0b83a6b239da2b098a2" target="_top" xlink:title="BOOST_PYTHON_MODULE">
 <polygon fill="none" stroke="#000000" points="633,-95.5 633,-114.5 779,-114.5 779,-95.5 633,-95.5"/>
 <text text-anchor="middle" x="706" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">BOOST_PYTHON_MODULE</text>
 </a>
 </g>
 </g>
-<!-- Node645&#45;&gt;Node646 -->
-<g id="edge10" class="edge">
-<title>Node645&#45;&gt;Node646</title>
-<path fill="none" stroke="#191970" d="M605.0776,-93.236C614.1344,-94.2917 623.5309,-95.387 632.7836,-96.4656"/>
-<polygon fill="#191970" stroke="#191970" points="605.3604,-89.7454 595.0224,-92.064 604.5499,-96.6983 605.3604,-89.7454"/>
+<!-- Node631&#45;&gt;Node632 -->
+<g id="edge8" class="edge">
+<title>Node631&#45;&gt;Node632</title>
+<path fill="none" stroke="#191970" d="M463.2714,-89.8792C512.4614,-92.9435 581.2093,-97.2262 632.9881,-100.4517"/>
+<polygon fill="#191970" stroke="#191970" points="463.2831,-86.3732 453.0848,-89.2446 462.8478,-93.3597 463.2831,-86.3732"/>
 </g>
-<!-- Node648 -->
-<g id="node12" class="node">
-<title>Node648</title>
-<g id="a_node12"><a xlink:href="xcs__single__step_8h.html#a39a031bf59eaa9b33e30e614610dcda8" target="_top" xlink:title="Executes a single&#45;step experiment. ">
+<!-- Node634 -->
+<g id="node11" class="node">
+<title>Node634</title>
+<g id="a_node11"><a xlink:href="xcs__single__step_8h.html#a39a031bf59eaa9b33e30e614610dcda8" target="_top" xlink:title="Executes a single&#45;step experiment. ">
 <polygon fill="none" stroke="#000000" points="489,-38.5 489,-57.5 597,-57.5 597,-38.5 489,-38.5"/>
 <text text-anchor="middle" x="543" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcs_single_step_exp</text>
 </a>
 </g>
 </g>
-<!-- Node647&#45;&gt;Node648 -->
-<g id="edge12" class="edge">
-<title>Node647&#45;&gt;Node648</title>
+<!-- Node633&#45;&gt;Node634 -->
+<g id="edge10" class="edge">
+<title>Node633&#45;&gt;Node634</title>
 <path fill="none" stroke="#191970" d="M453.551,-48C465.0539,-48 477.2511,-48 488.8166,-48"/>
 <polygon fill="#191970" stroke="#191970" points="453.2203,-44.5001 443.2202,-48 453.2202,-51.5001 453.2203,-44.5001"/>
 </g>
-<!-- Node648&#45;&gt;Node641 -->
-<g id="edge13" class="edge">
-<title>Node648&#45;&gt;Node641</title>
+<!-- Node634&#45;&gt;Node628 -->
+<g id="edge11" class="edge">
+<title>Node634&#45;&gt;Node628</title>
 <path fill="none" stroke="#191970" d="M607.3777,-48C628.2632,-48 650.7197,-48 668.9204,-48"/>
 <polygon fill="#191970" stroke="#191970" points="607.2767,-44.5001 597.2766,-48 607.2766,-51.5001 607.2767,-44.5001"/>
 </g>
-<!-- Node650 -->
-<g id="node14" class="node">
-<title>Node650</title>
-<g id="a_node14"><a xlink:href="xcsf_8h.html#a874829f28fee20f9ad15b540f4b4d6ff" target="_top" xlink:title="Executes MAX_TRIALS number of XCSF learning iterations using the training data. ">
+<!-- Node636 -->
+<g id="node13" class="node">
+<title>Node636</title>
+<g id="a_node13"><a xlink:href="xcsf_8h.html#a874829f28fee20f9ad15b540f4b4d6ff" target="_top" xlink:title="Executes MAX_TRIALS number of XCSF learning iterations using the training data. ">
 <polygon fill="none" stroke="#000000" points="374,-114.5 374,-133.5 428,-133.5 428,-114.5 374,-114.5"/>
 <text text-anchor="middle" x="401" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcsf_fit1</text>
 </a>
 </g>
 </g>
-<!-- Node649&#45;&gt;Node650 -->
-<g id="edge15" class="edge">
-<title>Node649&#45;&gt;Node650</title>
+<!-- Node635&#45;&gt;Node636 -->
+<g id="edge13" class="edge">
+<title>Node635&#45;&gt;Node636</title>
 <path fill="none" stroke="#191970" d="M315.9115,-124C335.5628,-124 357.1522,-124 373.6669,-124"/>
 <polygon fill="#191970" stroke="#191970" points="315.849,-120.5001 305.8489,-124 315.8489,-127.5001 315.849,-120.5001"/>
 </g>
-<!-- Node652 -->
-<g id="node16" class="node">
-<title>Node652</title>
-<g id="a_node16"><a xlink:href="xcsf_8h.html#a0b4de57cb9dadc9deca7901aa36e5025" target="_top" xlink:title="Executes MAX_TRIALS number of XCSF learning iterations using the training. data and test iterations u...">
+<!-- Node638 -->
+<g id="node15" class="node">
+<title>Node638</title>
+<g id="a_node15"><a xlink:href="xcsf_8h.html#a0b4de57cb9dadc9deca7901aa36e5025" target="_top" xlink:title="Executes MAX_TRIALS number of XCSF learning iterations using the training. data and test iterations u...">
 <polygon fill="none" stroke="#000000" points="374,-152.5 374,-171.5 428,-171.5 428,-152.5 374,-152.5"/>
 <text text-anchor="middle" x="401" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcsf_fit2</text>
 </a>
 </g>
 </g>
-<!-- Node649&#45;&gt;Node652 -->
-<g id="edge18" class="edge">
-<title>Node649&#45;&gt;Node652</title>
+<!-- Node635&#45;&gt;Node638 -->
+<g id="edge16" class="edge">
+<title>Node635&#45;&gt;Node638</title>
 <path fill="none" stroke="#191970" d="M308.4823,-136.3382C330.0016,-142.307 355.1417,-149.2802 373.7797,-154.4498"/>
 <polygon fill="#191970" stroke="#191970" points="309.1426,-132.8892 298.5709,-133.589 307.2716,-139.6346 309.1426,-132.8892"/>
 </g>
-<!-- Node651 -->
-<g id="node15" class="node">
-<title>Node651</title>
-<g id="a_node15"><a xlink:href="structXCS.html#ad2ccafe59d2b4ae6d0e1cbc15edee53c" target="_top" xlink:title="XCS::fit">
+<!-- Node637 -->
+<g id="node14" class="node">
+<title>Node637</title>
+<g id="a_node14"><a xlink:href="structXCS.html#ad2ccafe59d2b4ae6d0e1cbc15edee53c" target="_top" xlink:title="XCS::fit">
 <polygon fill="none" stroke="#000000" points="517,-114.5 517,-133.5 569,-133.5 569,-114.5 517,-114.5"/>
 <text text-anchor="middle" x="543" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">XCS::fit</text>
 </a>
 </g>
 </g>
-<!-- Node650&#45;&gt;Node651 -->
-<g id="edge16" class="edge">
-<title>Node650&#45;&gt;Node651</title>
+<!-- Node636&#45;&gt;Node637 -->
+<g id="edge14" class="edge">
+<title>Node636&#45;&gt;Node637</title>
 <path fill="none" stroke="#191970" d="M438.1114,-124C462.7321,-124 494.4557,-124 516.538,-124"/>
 <polygon fill="#191970" stroke="#191970" points="438.0434,-120.5001 428.0434,-124 438.0433,-127.5001 438.0434,-120.5001"/>
 </g>
-<!-- Node651&#45;&gt;Node646 -->
-<g id="edge17" class="edge">
-<title>Node651&#45;&gt;Node646</title>
+<!-- Node637&#45;&gt;Node632 -->
+<g id="edge15" class="edge">
+<title>Node637&#45;&gt;Node632</title>
 <path fill="none" stroke="#191970" d="M579.5233,-119.7427C595.2717,-117.907 614.2822,-115.691 632.7251,-113.5412"/>
 <polygon fill="#191970" stroke="#191970" points="578.7163,-116.313 569.1888,-120.9473 579.5268,-123.2659 578.7163,-116.313"/>
 </g>
-<!-- Node653 -->
-<g id="node17" class="node">
-<title>Node653</title>
-<g id="a_node17"><a xlink:href="main_8c.html#a968c78da8ed8ad08662a86280deec99a" target="_top" xlink:title="regression">
+<!-- Node639 -->
+<g id="node16" class="node">
+<title>Node639</title>
+<g id="a_node16"><a xlink:href="main_8c.html#a968c78da8ed8ad08662a86280deec99a" target="_top" xlink:title="regression">
 <polygon fill="none" stroke="#000000" points="675,-161.5 675,-180.5 737,-180.5 737,-161.5 675,-161.5"/>
 <text text-anchor="middle" x="706" y="-168.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">regression</text>
 </a>
 </g>
 </g>
-<!-- Node652&#45;&gt;Node653 -->
-<g id="edge19" class="edge">
-<title>Node652&#45;&gt;Node653</title>
+<!-- Node638&#45;&gt;Node639 -->
+<g id="edge17" class="edge">
+<title>Node638&#45;&gt;Node639</title>
 <path fill="none" stroke="#191970" d="M437.9242,-171.8011C453.5572,-175.4723 472.0439,-179.1904 489,-181 554.8136,-188.024 632.3751,-180.7177 674.6462,-175.4282"/>
 <polygon fill="#191970" stroke="#191970" points="438.6517,-168.376 428.108,-169.4159 436.9988,-175.1781 438.6517,-168.376"/>
 </g>
-<!-- Node654 -->
-<g id="node18" class="node">
-<title>Node654</title>
-<g id="a_node18"><a xlink:href="structXCS.html#a7d53320740db8e846251bacd0238a9fb" target="_top" xlink:title="XCS::fit">
+<!-- Node640 -->
+<g id="node17" class="node">
+<title>Node640</title>
+<g id="a_node17"><a xlink:href="structXCS.html#a7d53320740db8e846251bacd0238a9fb" target="_top" xlink:title="XCS::fit">
 <polygon fill="none" stroke="#000000" points="517,-152.5 517,-171.5 569,-171.5 569,-152.5 517,-152.5"/>
 <text text-anchor="middle" x="543" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">XCS::fit</text>
 </a>
 </g>
 </g>
-<!-- Node652&#45;&gt;Node654 -->
-<g id="edge21" class="edge">
-<title>Node652&#45;&gt;Node654</title>
+<!-- Node638&#45;&gt;Node640 -->
+<g id="edge19" class="edge">
+<title>Node638&#45;&gt;Node640</title>
 <path fill="none" stroke="#191970" d="M438.1114,-162C462.7321,-162 494.4557,-162 516.538,-162"/>
 <polygon fill="#191970" stroke="#191970" points="438.0434,-158.5001 428.0434,-162 438.0433,-165.5001 438.0434,-158.5001"/>
 </g>
-<!-- Node653&#45;&gt;Node642 -->
-<g id="edge20" class="edge">
-<title>Node653&#45;&gt;Node642</title>
+<!-- Node639&#45;&gt;Node629 -->
+<g id="edge18" class="edge">
+<title>Node639&#45;&gt;Node629</title>
 <path fill="none" stroke="#191970" d="M729.9274,-155.8714C744.2407,-146.7529 762.7482,-134.8418 779,-124 793.096,-114.5963 809.0028,-103.559 820.0702,-95.81"/>
 <polygon fill="#191970" stroke="#191970" points="727.7564,-153.104 721.193,-161.421 731.5104,-159.0123 727.7564,-153.104"/>
 </g>
