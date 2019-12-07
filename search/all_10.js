@@ -114,6 +114,10 @@ var searchData=
   ['sin',['SIN',['../neural__activations_8h.html#ac80ce9955a1af2ab7aa3a67251ec9f5c',1,'neural_activations.h']]],
   ['sin_5factivate',['sin_activate',['../neural__activations_8h.html#a02090b679f2d4a4fc64567538275a4ae',1,'neural_activations.h']]],
   ['sin_5fgradient',['sin_gradient',['../neural__activations_8h.html#ae81fb7fd858fb67cf5bb3514dbf399ce',1,'neural_activations.h']]],
+  ['single_5fdecision',['single_decision',['../structXCS.html#a94d556a5e545ec415d7165d5e91b21d4',1,'XCS']]],
+  ['single_5ferror',['single_error',['../structXCS.html#a5487a1d5b304064705559113afd3b077',1,'XCS']]],
+  ['single_5freset',['single_reset',['../structXCS.html#ab58a4fb495b05f3450b182bc21dcba1f',1,'XCS']]],
+  ['single_5fupdate',['single_update',['../structXCS.html#aedc01ad6f00a54b260a7605929a1d4c9',1,'XCS']]],
   ['size',['size',['../structCL.html#aab0b0dbc7ab5a30157d15b172d50e1e0',1,'CL::size()'],['../structSET.html#aeb7ebbd40986a05cd2d8bd7dd4cc8bb1',1,'SET::size()']]],
   ['soft_5fplus',['SOFT_PLUS',['../neural__activations_8h.html#ae3eaec13534ff9b241d3480dd94a3098',1,'neural_activations.h']]],
   ['soft_5fplus_5factivate',['soft_plus_activate',['../neural__activations_8h.html#a1e7917de33b1a1c96bf0d2463808f03f',1,'neural_activations.h']]],
@@ -121,6 +125,6 @@ var searchData=
   ['softmax',['SOFTMAX',['../neural__layer_8h.html#a77134663e1817fdbe0ab9a4a2a9ee378',1,'neural_layer.h']]],
   ['spread',['spread',['../structCOND__ELLIPSOID.html#a6bf14e1e7cc2fe5139c844e7fedf6d11',1,'COND_ELLIPSOID::spread()'],['../structCOND__RECTANGLE.html#ace9e6173944a796d795456fbfabffe61',1,'COND_RECTANGLE::spread()']]],
   ['stage',['stage',['../structXCSF.html#a49030443c123c514706ddaeae6cc44e9',1,'XCSF']]],
-  ['state',['state',['../structGRAPH.html#a41cb889151ea903ff0bf29f8d28957a5',1,'GRAPH::state()'],['../structENV__MAZE.html#a9fca857a59db85736a5361dda59f900d',1,'ENV_MAZE::state()'],['../structENV__MUX.html#a9196d3562471d77578d27f5fea9f9f7a',1,'ENV_MUX::state()'],['../structLAYER.html#aa38e92c54e0af70754c55b389e615b3e',1,'LAYER::state()']]],
+  ['state',['state',['../structGRAPH.html#a41cb889151ea903ff0bf29f8d28957a5',1,'GRAPH::state()'],['../structENV__MAZE.html#a9fca857a59db85736a5361dda59f900d',1,'ENV_MAZE::state()'],['../structENV__MUX.html#a9196d3562471d77578d27f5fea9f9f7a',1,'ENV_MUX::state()'],['../structLAYER.html#aa38e92c54e0af70754c55b389e615b3e',1,'LAYER::state()'],['../structXCS.html#a61fa1da4c28c0a3e9d1c24d06171c940',1,'XCS::state()']]],
   ['sub',['SUB',['../gp_8c.html#a62c52d6d320f53e9e6632cce5a595660',1,'gp.c']]]
 ];

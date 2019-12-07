@@ -8,90 +8,90 @@
  viewBox="0.00 0.00 522.00 66.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 62)">
 <title>env_reset</title>
-<!-- Node48 -->
+<!-- Node46 -->
 <g id="node1" class="node">
-<title>Node48</title>
+<title>Node46</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-19.5 0,-38.5 59,-38.5 59,-19.5 0,-19.5"/>
 <text text-anchor="middle" x="29.5" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">env_reset</text>
 </g>
-<!-- Node49 -->
+<!-- Node47 -->
 <g id="node2" class="node">
-<title>Node49</title>
+<title>Node47</title>
 <g id="a_node2"><a xlink:href="xcs__multi__step_8c.html#a7c317faec2f018cc620fe5e465ebf378" target="_top" xlink:title="Executes a multi&#45;step exploit trial. ">
 <polygon fill="none" stroke="#000000" points="96.5,-38.5 96.5,-57.5 188.5,-57.5 188.5,-38.5 96.5,-38.5"/>
 <text text-anchor="middle" x="142.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcs_multi_exploit</text>
 </a>
 </g>
 </g>
-<!-- Node48&#45;&gt;Node49 -->
+<!-- Node46&#45;&gt;Node47 -->
 <g id="edge1" class="edge">
-<title>Node48&#45;&gt;Node49</title>
+<title>Node46&#45;&gt;Node47</title>
 <path fill="none" stroke="#191970" d="M69.1799,-35.6718C77.9736,-37.1504 87.3654,-38.7296 96.3909,-40.2471"/>
 <polygon fill="#191970" stroke="#191970" points="69.6314,-32.1987 59.1894,-33.992 68.4706,-39.1018 69.6314,-32.1987"/>
 </g>
-<!-- Node53 -->
+<!-- Node51 -->
 <g id="node6" class="node">
-<title>Node53</title>
+<title>Node51</title>
 <g id="a_node6"><a xlink:href="xcs__multi__step_8c.html#a617d9e432dc180dccf0c5ef11a94f79f" target="_top" xlink:title="Executes a multi&#45;step explore trial. ">
 <polygon fill="none" stroke="#000000" points="95,-.5 95,-19.5 190,-19.5 190,-.5 95,-.5"/>
 <text text-anchor="middle" x="142.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcs_multi_explore</text>
 </a>
 </g>
 </g>
-<!-- Node48&#45;&gt;Node53 -->
+<!-- Node46&#45;&gt;Node51 -->
 <g id="edge5" class="edge">
-<title>Node48&#45;&gt;Node53</title>
+<title>Node46&#45;&gt;Node51</title>
 <path fill="none" stroke="#191970" d="M69.2524,-22.316C77.4625,-20.9355 86.1912,-19.4678 94.6546,-18.0448"/>
 <polygon fill="#191970" stroke="#191970" points="68.4706,-18.8982 59.1894,-24.008 69.6314,-25.8013 68.4706,-18.8982"/>
 </g>
-<!-- Node50 -->
+<!-- Node48 -->
 <g id="node3" class="node">
-<title>Node50</title>
+<title>Node48</title>
 <g id="a_node3"><a xlink:href="xcs__multi__step_8h.html#acc29d4a55dbd56c16ea5f19f15a7c677" target="_top" xlink:title="Executes a multi&#45;step reinforcement learning experiment. ">
 <polygon fill="none" stroke="#000000" points="226,-19.5 226,-38.5 330,-38.5 330,-19.5 226,-19.5"/>
 <text text-anchor="middle" x="278" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcs_multi_step_exp</text>
 </a>
 </g>
 </g>
-<!-- Node49&#45;&gt;Node50 -->
+<!-- Node47&#45;&gt;Node48 -->
 <g id="edge2" class="edge">
-<title>Node49&#45;&gt;Node50</title>
+<title>Node47&#45;&gt;Node48</title>
 <path fill="none" stroke="#191970" d="M198.7519,-40.1123C207.7445,-38.8513 217.0154,-37.5513 225.9059,-36.3047"/>
 <polygon fill="#191970" stroke="#191970" points="198.1695,-36.6596 188.7524,-41.5144 199.1416,-43.5918 198.1695,-36.6596"/>
 </g>
-<!-- Node51 -->
+<!-- Node49 -->
 <g id="node4" class="node">
-<title>Node51</title>
+<title>Node49</title>
 <g id="a_node4"><a xlink:href="main_8c.html#ab572a67aa431827116ebd6931d667d21" target="_top" xlink:title="classification">
 <polygon fill="none" stroke="#000000" points="366,-19.5 366,-38.5 440,-38.5 440,-19.5 366,-19.5"/>
 <text text-anchor="middle" x="403" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">classification</text>
 </a>
 </g>
 </g>
-<!-- Node50&#45;&gt;Node51 -->
+<!-- Node48&#45;&gt;Node49 -->
 <g id="edge3" class="edge">
-<title>Node50&#45;&gt;Node51</title>
+<title>Node48&#45;&gt;Node49</title>
 <path fill="none" stroke="#191970" d="M340.4154,-29C349.0782,-29 357.7431,-29 365.7445,-29"/>
 <polygon fill="#191970" stroke="#191970" points="340.287,-25.5001 330.287,-29 340.2869,-32.5001 340.287,-25.5001"/>
 </g>
-<!-- Node52 -->
+<!-- Node50 -->
 <g id="node5" class="node">
-<title>Node52</title>
+<title>Node50</title>
 <g id="a_node5"><a xlink:href="main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" target="_top" xlink:title="main">
 <polygon fill="none" stroke="#000000" points="476,-19.5 476,-38.5 514,-38.5 514,-19.5 476,-19.5"/>
 <text text-anchor="middle" x="495" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">main</text>
 </a>
 </g>
 </g>
-<!-- Node51&#45;&gt;Node52 -->
+<!-- Node49&#45;&gt;Node50 -->
 <g id="edge4" class="edge">
-<title>Node51&#45;&gt;Node52</title>
+<title>Node49&#45;&gt;Node50</title>
 <path fill="none" stroke="#191970" d="M450.3389,-29C459.3996,-29 468.391,-29 475.9053,-29"/>
 <polygon fill="#191970" stroke="#191970" points="450.1548,-25.5001 440.1547,-29 450.1547,-32.5001 450.1548,-25.5001"/>
 </g>
-<!-- Node53&#45;&gt;Node50 -->
+<!-- Node51&#45;&gt;Node48 -->
 <g id="edge6" class="edge">
-<title>Node53&#45;&gt;Node50</title>
+<title>Node51&#45;&gt;Node48</title>
 <path fill="none" stroke="#191970" d="M200.3567,-18.1127C208.7372,-19.2879 217.3241,-20.4919 225.5894,-21.6509"/>
 <polygon fill="#191970" stroke="#191970" points="200.6614,-14.6213 190.2722,-16.6987 199.6893,-21.5535 200.6614,-14.6213"/>
 </g>

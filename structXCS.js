@@ -1,5 +1,6 @@
 var structXCS =
 [
+    [ "XCS", "structXCS.html#a0dd359a4dfc0a6439a5c6554768c8b9f", null ],
     [ "XCS", "structXCS.html#abcfa655a934bb0bf6348df073b39ce72", null ],
     [ "XCS", "structXCS.html#a6cfaf100bf40e491fb8b32a93439b969", null ],
     [ "fit", "structXCS.html#ad2ccafe59d2b4ae6d0e1cbc15edee53c", null ],
@@ -155,7 +156,16 @@ var structXCS =
     [ "set_theta_del", "structXCS.html#a4b0d3dcc399a9d89b19cc1a0271c37a0", null ],
     [ "set_theta_ea", "structXCS.html#a8fcb3ad2d2882be818ee00c91e25f794", null ],
     [ "set_theta_sub", "structXCS.html#aa38ae8045901e931b0f405238f07a5c0", null ],
+    [ "single_decision", "structXCS.html#a94d556a5e545ec415d7165d5e91b21d4", null ],
+    [ "single_error", "structXCS.html#a5487a1d5b304064705559113afd3b077", null ],
+    [ "single_reset", "structXCS.html#ab58a4fb495b05f3450b182bc21dcba1f", null ],
+    [ "single_update", "structXCS.html#aedc01ad6f00a54b260a7605929a1d4c9", null ],
     [ "version", "structXCS.html#aa2197e74319fcf1b60d52de04fb132b1", null ],
+    [ "action", "structXCS.html#ab15ea71a709a43dec56cac1a2eebebcc", null ],
+    [ "aset", "structXCS.html#ae9a88afa19d851ec744c542f693f2249", null ],
+    [ "kset", "structXCS.html#a7f21ed63967e63e955550a7ca03d0220", null ],
+    [ "mset", "structXCS.html#a6292c9d48b7cad83d5e21a80cb8dbec7", null ],
+    [ "state", "structXCS.html#a61fa1da4c28c0a3e9d1c24d06171c940", null ],
     [ "test_data", "structXCS.html#aa380130db371529b5f02f63da272d962", null ],
     [ "train_data", "structXCS.html#acec34920c8fbbe57d88e18fb6a0b3163", null ],
     [ "xcs", "structXCS.html#af60e18f39edc745425fe1fecea03732b", null ]

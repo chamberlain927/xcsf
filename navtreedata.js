@@ -32,7 +32,7 @@ var NAVTREEINDEX =
 "neural__activations_8h.html#a76d382cd4a11b7a3494c21322e5ac896",
 "pred__nlms_8h.html#adf0ef049ba5210b6dae9315f1e9a631d",
 "structCondVtbl.html#a91ec4a98d4209007e4f95c582e24b3e2",
-"structXCS.html#abd8f17fb53bcb7222df3d030bdf93eb2"
+"structXCS.html#ab4e9334fd63a4dbd4499c1c63881a7a2"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

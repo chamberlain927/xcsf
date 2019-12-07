@@ -45,7 +45,7 @@ var searchData=
   ['act_5ftype',['ACT_TYPE',['../structXCSF.html#a665acef952eda9895067d37cb5d9a9bc',1,'XCSF']]],
   ['act_5fupdate',['act_update',['../action_8h.html#af752baf1f8d7b4f15b018a95759fc9c5',1,'action.h']]],
   ['act_5fvptr',['act_vptr',['../structCL.html#a029b13d6a2e908af0bf292f05ab21940',1,'CL']]],
-  ['action',['action',['../structCL.html#a014cd367304cd8e6093e827b1517dfd1',1,'CL']]],
+  ['action',['action',['../structXCS.html#ab15ea71a709a43dec56cac1a2eebebcc',1,'XCS::action()'],['../structCL.html#a014cd367304cd8e6093e827b1517dfd1',1,'CL::action()']]],
   ['action_2ec',['action.c',['../action_8c.html',1,'']]],
   ['action_2eh',['action.h',['../action_8h.html',1,'']]],
   ['action_5fset',['action_set',['../action_8c.html#a3dda6c6f441d69995296435482803ae8',1,'action_set(XCSF *xcsf, CL *c):&#160;action.c'],['../action_8h.html#a3dda6c6f441d69995296435482803ae8',1,'action_set(XCSF *xcsf, CL *c):&#160;action.c']]],
@@ -53,5 +53,6 @@ var searchData=
   ['active',['active',['../structLAYER.html#a9c656849cfe10577251f6cd684a488b3',1,'LAYER']]],
   ['actvtbl',['ActVtbl',['../structActVtbl.html',1,'']]],
   ['add',['ADD',['../gp_8c.html#a97fe5470fb1ac167c713671655ff3e52',1,'gp.c']]],
-  ['alpha',['ALPHA',['../structXCSF.html#aab84d855d797f15ffbd6feab2d615e30',1,'XCSF']]]
+  ['alpha',['ALPHA',['../structXCSF.html#aab84d855d797f15ffbd6feab2d615e30',1,'XCSF']]],
+  ['aset',['aset',['../structXCS.html#ae9a88afa19d851ec744c542f693f2249',1,'XCS']]]
 ];

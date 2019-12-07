@@ -1,95 +1,99 @@
 <map id="drand" name="drand">
-<area shape="rect" id="node2" href="$utils_8h.html#aa57fc0f69e730ce0a348c25ee498643d" title="Returns a normal random float with specified mean and standard deviation. " alt="" coords="110,220,203,247"/>
-<area shape="rect" id="node31" href="$utils_8h.html#ae42a9e1d467853befaa7922cfafed3bb" title="Returns a uniform random float [min,max]. " alt="" coords="108,1208,205,1235"/>
-<area shape="rect" id="node3" href="$cond__ellipsoid_8h.html#a1e3bbf8d26e1519757370de2db2ed070" title="cond_ellipsoid_mutate" alt="" coords="273,93,424,120"/>
-<area shape="rect" id="node4" href="$cond__rectangle_8h.html#a66df2da336c2260d41bb129fb71b6986" title="cond_rectangle_mutate" alt="" coords="270,144,427,171"/>
-<area shape="rect" id="node5" href="$neural__layer__connected_8h.html#a40e50820f5b433df45cbfb9a5d765093" title="neural_layer_connected_init" alt="" coords="257,565,440,592"/>
-<area shape="rect" id="node9" href="$neural__layer__connected_8h.html#abb7c6e383c0a5fd4e4951d23769b1ffa" title="neural_layer_connected_rand" alt="" coords="253,43,444,69"/>
-<area shape="rect" id="node10" href="$neural__layer__connected_8c.html#ad933cd5004ffd10751af44495d2ce68d" title="mutate_neurons" alt="" coords="291,296,406,323"/>
-<area shape="rect" id="node12" href="$neural__layer__connected_8c.html#a587edba8a58f8356b4cadf6d1bb75c03" title="mutate_weights" alt="" coords="520,195,635,221"/>
-<area shape="rect" id="node13" href="$neural__layer__connected_8c.html#a89e19cb309ae3cc7722d8dac64ea0a8c" title="mutate_eta" alt="" coords="534,68,621,95"/>
-<area shape="rect" id="node14" href="$neural__layer__noise_8h.html#a80f0dcb2fa9bcddcbd075ad4bc4cff62" title="neural_layer_noise\l_forward" alt="" coords="283,347,414,389"/>
-<area shape="rect" id="node15" href="$sam_8c.html#a031d8383bb00ebca619ba28aa93b1084" title="Performs log normal self&#45;adaptation. " alt="" coords="271,245,427,272"/>
-<area shape="rect" id="node6" href="$cond__neural_8h.html#a9630915748eec99071fa3b276bcb5c64" title="cond_neural_init" alt="" coords="519,499,635,525"/>
-<area shape="rect" id="node7" href="$pred__neural_8h.html#afdf0ff1b67935bc9a1df2a94a984c975" title="pred_neural_init" alt="" coords="521,549,634,576"/>
-<area shape="rect" id="node8" href="$rule__neural_8h.html#a846979c6acd6263a2da766cc1ab628ce" title="rule_neural_cond_init" alt="" coords="505,600,649,627"/>
-<area shape="rect" id="node11" href="$neural__layer__connected_8h.html#a2bc6f959592b6e80f7636c071daed7db" title="neural_layer_connected\l_mutate" alt="" coords="711,238,869,279"/>
-<area shape="rect" id="node16" href="$sam_8h.html#a60ea9eae9a7d2d624fee8614b6aa6904" title="Self&#45;adapts a classifier&#39;s mutation rates. " alt="" coords="747,920,833,947"/>
-<area shape="rect" id="node17" href="$ea_8h.html#ae3824341a2f5482cb6ac70b3839ded51" title="Executes the evolutionary algorithm (EA). " alt="" coords="1136,971,1175,997"/>
-<area shape="rect" id="node18" href="$xcs__multi__step_8c.html#a617d9e432dc180dccf0c5ef11a94f79f" title="Executes a multi&#45;step explore trial. " alt="" coords="1427,1123,1554,1149"/>
-<area shape="rect" id="node22" href="$xcs__single__step_8c.html#a7aa49a74bb28adda31400d94a29c2b0b" title="Executes a single&#45;step explore trial. " alt="" coords="1424,1072,1557,1099"/>
-<area shape="rect" id="node24" href="$xcsf_8c.html#a474f4e13cfc5f00958c689cd8c81135a" title="Executes a single XCSF learning trial. " alt="" coords="1435,819,1546,845"/>
-<area shape="rect" id="node19" href="$xcs__multi__step_8h.html#acc29d4a55dbd56c16ea5f19f15a7c677" title="Executes a multi&#45;step reinforcement learning experiment. " alt="" coords="1615,1021,1753,1048"/>
-<area shape="rect" id="node20" href="$main_8c.html#ab572a67aa431827116ebd6931d667d21" title="classification" alt="" coords="1830,971,1929,997"/>
-<area shape="rect" id="node21" href="$main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="2075,971,2125,997"/>
-<area shape="rect" id="node23" href="$xcs__single__step_8h.html#a39a031bf59eaa9b33e30e614610dcda8" title="Executes a single&#45;step experiment. " alt="" coords="1612,971,1756,997"/>
-<area shape="rect" id="node25" href="$xcsf_8h.html#a874829f28fee20f9ad15b540f4b4d6ff" title="Executes MAX_TRIALS number of XCSF learning iterations using the training data. " alt="" coords="1648,768,1720,795"/>
-<area shape="rect" id="node28" href="$xcsf_8h.html#a0b4de57cb9dadc9deca7901aa36e5025" title="Executes MAX_TRIALS number of XCSF learning iterations using the training. data and test iterations u..." alt="" coords="1648,819,1720,845"/>
-<area shape="rect" id="node26" href="$structXCS.html#ad2ccafe59d2b4ae6d0e1cbc15edee53c" title="XCS::fit" alt="" coords="1845,857,1914,884"/>
-<area shape="rect" id="node27" href="$python__wrapper_8cpp.html#afbdcc1358036a0b83a6b239da2b098a2" title="BOOST_PYTHON_MODULE" alt="" coords="2003,753,2197,780"/>
-<area shape="rect" id="node29" href="$main_8c.html#a968c78da8ed8ad08662a86280deec99a" title="regression" alt="" coords="1838,920,1921,947"/>
-<area shape="rect" id="node30" href="$structXCS.html#a7d53320740db8e846251bacd0238a9fb" title="XCS::fit" alt="" coords="1845,756,1914,783"/>
-<area shape="rect" id="node32" href="$act__integer_8h.html#ae3ab0c3098c34a8ba8badb96a3227ce8" title="act_integer_mutate" alt="" coords="511,1427,644,1453"/>
-<area shape="rect" id="node33" href="$cl__set_8h.html#a7ff6217fb822a2eca84c9ac23e8b5cb5" title="Deletes a single classifier from the population set. " alt="" coords="757,869,823,896"/>
-<area shape="rect" id="node46" href="$cond__ellipsoid_8h.html#ab7579a6160dd02ac53b1012dec973157" title="cond_ellipsoid_init" alt="" coords="285,1731,413,1757"/>
-<area shape="rect" id="node47" href="$cond__ellipsoid_8h.html#aab054a1f536b825ef7faafcfc060c9b4" title="cond_ellipsoid_cover" alt="" coords="277,1781,420,1808"/>
-<area shape="rect" id="node48" href="$cond__ellipsoid_8h.html#a690054de0ade5f193c7e738209af9d97" title="cond_ellipsoid_crossover" alt="" coords="265,1832,433,1859"/>
-<area shape="rect" id="node49" href="$cond__gp_8h.html#ac9fb211d80b892a37635505f9657addd" title="cond_gp_mutate" alt="" coords="731,1832,849,1859"/>
-<area shape="rect" id="node50" href="$cond__gp_8h.html#ad5f278d1ae20507bcc9cfcd4c9993683" title="cond_gp_crossover" alt="" coords="723,532,857,559"/>
-<area shape="rect" id="node51" href="$cond__rectangle_8h.html#af49d5add3fbf87b1bde8e93a1706b0d3" title="cond_rectangle_init" alt="" coords="281,641,416,668"/>
-<area shape="rect" id="node52" href="$cond__rectangle_8h.html#a6dcbca409911c241f7558fef604470b7" title="cond_rectangle_cover" alt="" coords="274,692,423,719"/>
-<area shape="rect" id="node53" href="$cond__rectangle_8h.html#a476003d2f18e9e3aebe2c8c1872211b1" title="cond_rectangle_crossover" alt="" coords="261,743,436,769"/>
-<area shape="rect" id="node54" href="$dgp_8h.html#a686eb8ab5988e7c4557b6f78afc92975" title="Randomises a specified DGP graph. " alt="" coords="534,1325,621,1352"/>
-<area shape="rect" id="node61" href="$dgp_8h.html#a42dcd17a67d88ace188cb731a91a1153" title="Mutates a specified DGP graph. " alt="" coords="527,1376,628,1403"/>
-<area shape="rect" id="node64" href="$dgp_8h.html#ab0fd1e99551bf370563afe22debd9d49" title="Performs uniform crossover with two DGP graphs. " alt="" coords="289,1680,408,1707"/>
-<area shape="rect" id="node67" href="$ea_8c.html#a80adad74483f6fdb11216422687e4494" title="Selects a classifier from the set via roulete wheel. " alt="" coords="299,1208,398,1235"/>
-<area shape="rect" id="node69" href="$ea_8c.html#a8088b3c672efcf48c4760b18ed75136e" title="Selects a classifier from the set via tournament. " alt="" coords="273,1157,424,1184"/>
-<area shape="rect" id="node70" href="$env__mux_8h.html#a88dfb6a33d8036c49df23ecc3eaad6ce" title="Returns a random problem instance. " alt="" coords="281,1512,417,1539"/>
-<area shape="rect" id="node71" href="$gp_8h.html#a262c601e1744b1d1c654f609a5138b94" title="Initialises the constants shared among all GP trees. " alt="" coords="297,1629,400,1656"/>
-<area shape="rect" id="node74" href="$gp_8h.html#a541c34b12929d185e1053e1ebb504989" title="Performs point mutation on a GP tree. " alt="" coords="527,1781,628,1808"/>
-<area shape="rect" id="node75" href="$neural__layer__connected_8c.html#ac1c67136ea139779a7c2f91b59a62edd" title="mutate_functions" alt="" coords="516,347,639,373"/>
-<area shape="rect" id="node76" href="$neural__layer__dropout_8h.html#a7967c047a049f3e1722fe447a0067579" title="neural_layer_dropout\l_forward" alt="" coords="277,1563,420,1605"/>
-<area shape="rect" id="node77" href="$sam_8c.html#af9ece15d6d1cb98bb4817cb267d24f82" title="Initialises log normal self&#45;adaptive mutation rates. " alt="" coords="278,515,419,541"/>
-<area shape="rect" id="node81" href="$sam_8c.html#a2438d2a92748eee35bd6e2761e2e5610" title="Performs self&#45;adaptation via a rate selection mechanism. " alt="" coords="510,803,645,845"/>
-<area shape="rect" id="node82" href="$utils_8h.html#a32648ab076544a9ac1c086d0f07b599f" title="Returns a uniform random integer [min,max] not inclusive of max. " alt="" coords="299,971,399,997"/>
-<area shape="rect" id="node34" href="$cl__set_8h.html#a8537e849783523d1e2394e4a027cf33a" title="Enforces the maximum population size limit. " alt="" coords="923,869,1047,896"/>
-<area shape="rect" id="node35" href="$cl__set_8c.html#aa4b74b698e7491734e4788fcfae8e27a" title="Ensures all possible actions are covered by the match set. " alt="" coords="1116,920,1195,947"/>
-<area shape="rect" id="node36" href="$cl__set_8h.html#af3bea0b4d03654b9d6cb08fbf272c847" title="Constructs the match set. " alt="" coords="1273,971,1355,997"/>
-<area shape="rect" id="node37" href="$xcs__multi__step_8c.html#a7c317faec2f018cc620fe5e465ebf378" title="Executes a multi&#45;step exploit trial. " alt="" coords="1429,1021,1552,1048"/>
-<area shape="rect" id="node38" href="$xcs__single__step_8c.html#aab16ce2421e484a5dc7cb2a60a74517a" title="Executes a single&#45;step exploit trial. " alt="" coords="1426,971,1555,997"/>
-<area shape="rect" id="node39" href="$xcsf_8h.html#af0b9db7273578fdff649d46823cd9790" title="Calculates the XCSF predictions for the provided input. " alt="" coords="1637,620,1731,647"/>
-<area shape="rect" id="node41" href="$xcsf_8h.html#ae1f6851f682e015601030a5c725c6618" title="Prints the XCSF match set for the supplied input. " alt="" coords="1417,667,1564,693"/>
-<area shape="rect" id="node43" href="$xcsf_8c.html#aa6edd3962ddd04940e2c78a4f99de7cd" title="Executes a single XCSF testing trial. " alt="" coords="1439,869,1543,896"/>
-<area shape="rect" id="node40" href="$structXCS.html#a911ed75c86abed7807d33eb1385240ed" title="XCS::predict" alt="" coords="1831,645,1928,672"/>
-<area shape="rect" id="node42" href="$structXCS.html#aa5608b379fae01b724267a99068d55bb" title="XCS::print_match_set" alt="" coords="1804,699,1955,725"/>
-<area shape="rect" id="node44" href="$xcsf_8h.html#a2cf95733e5f97410d94211b72e835847" title="Calculates the XCSF error for the input data. " alt="" coords="1641,869,1727,896"/>
-<area shape="rect" id="node45" href="$structXCS.html#aa77bc77484d6d14bf512304a23cfec88" title="XCS::score" alt="" coords="1834,807,1925,833"/>
-<area shape="rect" id="node55" href="$cond__dgp_8h.html#a503ced650fea7ae71842e3c26f7299af" title="cond_dgp_init" alt="" coords="739,1325,841,1352"/>
-<area shape="rect" id="node56" href="$cond__dgp_8c.html#a551cc5a7383df3b9db79918bc5cc2647" title="cond_dgp_rand" alt="" coords="735,1376,845,1403"/>
-<area shape="rect" id="node58" href="$rule__dgp_8h.html#a43cb19f08ab4598b7b8f33275dfc19be" title="rule_dgp_cond_init" alt="" coords="725,1427,855,1453"/>
-<area shape="rect" id="node59" href="$rule__dgp_8c.html#ae4c3c9c6209c279599948f54c1cc51fe" title="rule_dgp_cond_rand" alt="" coords="721,1275,859,1301"/>
-<area shape="rect" id="node57" href="$cond__dgp_8h.html#aecdb3338f1a79677184e47f1df6331e9" title="cond_dgp_cover" alt="" coords="926,1376,1043,1403"/>
-<area shape="rect" id="node60" href="$rule__dgp_8h.html#a964d4495fdba2211613e024e0e09d064" title="rule_dgp_act_cover" alt="" coords="917,1275,1052,1301"/>
-<area shape="rect" id="node62" href="$cond__dgp_8h.html#a5a4688a22df988bcdb6555dc38b12f78" title="cond_dgp_mutate" alt="" coords="727,1528,853,1555"/>
-<area shape="rect" id="node63" href="$rule__dgp_8h.html#a565a751c00aeb2af7b7a193ecf370932" title="rule_dgp_cond_mutate" alt="" coords="713,1477,867,1504"/>
-<area shape="rect" id="node65" href="$cond__dgp_8h.html#a90b45b30fe452dde762757d95b207173" title="cond_dgp_crossover" alt="" coords="506,1680,649,1707"/>
-<area shape="rect" id="node66" href="$rule__dgp_8h.html#a25514e038fe1f595822020e9f87197e9" title="rule_dgp_cond_crossover" alt="" coords="492,1832,663,1859"/>
-<area shape="rect" id="node68" href="$ea_8c.html#aaf85b71dbd4c2810c3892bf7793bcf36" title="Selects two parents. " alt="" coords="513,1224,641,1251"/>
-<area shape="rect" id="node72" href="$config_8h.html#acc9074ddd76624bcc0368318bc8f8691" title="Initialises global constants and reads the specified configuration file. " alt="" coords="526,1629,629,1656"/>
-<area shape="rect" id="node73" href="$structXCS.html#a6cfaf100bf40e491fb8b32a93439b969" title="XCS::XCS" alt="" coords="747,1629,833,1656"/>
-<area shape="rect" id="node78" href="$sam_8h.html#ab529fdda992a0d15c0f798ec3fefe843" title="Initialises a classifier&#39;s self&#45;adaptive mutation rates. " alt="" coords="755,819,825,845"/>
-<area shape="rect" id="node79" href="$cl_8h.html#ab76fe4ea183f51174a3797c3cbb1b3bf" title="Initialises a new classifier. " alt="" coords="957,819,1013,845"/>
-<area shape="rect" id="node80" href="$cl__set_8h.html#a1e1060f1e8c1f916d798864804078e88" title="Initialises a new population set. " alt="" coords="1651,920,1717,947"/>
-<area shape="rect" id="node83" href="$act__integer_8h.html#a81d7de7fc5388f6306c6e27ceba91dda" title="act_integer_rand" alt="" coords="518,1021,637,1048"/>
-<area shape="rect" id="node84" href="$ea_8c.html#afe1eb3a920dc0bbcd5f737b9cdda2170" title="Performs evolutionary algorithm subsumption. " alt="" coords="742,971,838,997"/>
-<area shape="rect" id="node86" href="$env__maze_8h.html#a237f7f760ea767a3ab486804fa699ee4" title="Resets the animat to a random empty position in the maze. " alt="" coords="518,1072,637,1099"/>
-<area shape="rect" id="node87" href="$gp_8c.html#aaf89c5486df161ec44733a12a7bf9f04" title="Grows a random GP tree of specified max length and depth. " alt="" coords="538,1123,617,1149"/>
-<area shape="rect" id="node92" href="$gp_8h.html#a621a15d85cc2855658dfb20e7da5dadc" title="Performs sub&#45;tree crossover. " alt="" coords="523,701,631,728"/>
-<area shape="rect" id="node93" href="$pa_8h.html#aa70af38ac3144902d9c7dd5905fe34a8" title="Returns a random action from the prediction array. " alt="" coords="1259,1173,1369,1200"/>
-<area shape="rect" id="node94" href="$sam_8c.html#ade3e812ff797267372cee374fa55aad8" title="Initialises rate selection self&#45;adaptive mutation. " alt="" coords="498,920,657,947"/>
-<area shape="rect" id="node85" href="$ea_8c.html#a14278fc032b7fb0c473e11764ab1c4d1" title="Adds offspring to the population. " alt="" coords="953,971,1017,997"/>
-<area shape="rect" id="node88" href="$gp_8h.html#a33414d31c158a9e6c89f63bb9373b89e" title="Creates a random GP tree. " alt="" coords="752,1123,828,1149"/>
-<area shape="rect" id="node89" href="$cond__gp_8h.html#aefa6c8a6839ec798ffc9305528932660" title="cond_gp_init" alt="" coords="937,1123,1032,1149"/>
-<area shape="rect" id="node90" href="$cond__gp_8c.html#aca09aa432f4b62f73d00386c5383a580" title="cond_gp_rand" alt="" coords="933,1072,1036,1099"/>
-<area shape="rect" id="node91" href="$cond__gp_8h.html#a010013c25fde53b4f86f213acafb56c0" title="cond_gp_cover" alt="" coords="1100,1072,1211,1099"/>
+<area shape="rect" id="node2" href="$utils_8h.html#aa57fc0f69e730ce0a348c25ee498643d" title="Returns a normal random float with specified mean and standard deviation. " alt="" coords="110,233,203,260"/>
+<area shape="rect" id="node33" href="$utils_8h.html#ae42a9e1d467853befaa7922cfafed3bb" title="Returns a uniform random float [min,max]. " alt="" coords="108,1027,205,1053"/>
+<area shape="rect" id="node3" href="$cond__ellipsoid_8h.html#a1e3bbf8d26e1519757370de2db2ed070" title="cond_ellipsoid_mutate" alt="" coords="273,56,424,83"/>
+<area shape="rect" id="node4" href="$cond__rectangle_8h.html#a66df2da336c2260d41bb129fb71b6986" title="cond_rectangle_mutate" alt="" coords="270,107,427,133"/>
+<area shape="rect" id="node5" href="$neural__layer__connected_8h.html#a40e50820f5b433df45cbfb9a5d765093" title="neural_layer_connected_init" alt="" coords="257,605,440,632"/>
+<area shape="rect" id="node9" href="$neural__layer__connected_8h.html#abb7c6e383c0a5fd4e4951d23769b1ffa" title="neural_layer_connected_rand" alt="" coords="253,5,444,32"/>
+<area shape="rect" id="node10" href="$neural__layer__connected_8c.html#ad933cd5004ffd10751af44495d2ce68d" title="mutate_neurons" alt="" coords="291,259,406,285"/>
+<area shape="rect" id="node12" href="$neural__layer__connected_8c.html#a587edba8a58f8356b4cadf6d1bb75c03" title="mutate_weights" alt="" coords="520,157,635,184"/>
+<area shape="rect" id="node13" href="$neural__layer__connected_8c.html#a89e19cb309ae3cc7722d8dac64ea0a8c" title="mutate_eta" alt="" coords="534,208,621,235"/>
+<area shape="rect" id="node14" href="$neural__layer__noise_8h.html#a80f0dcb2fa9bcddcbd075ad4bc4cff62" title="neural_layer_noise\l_forward" alt="" coords="283,310,414,351"/>
+<area shape="rect" id="node15" href="$sam_8c.html#a031d8383bb00ebca619ba28aa93b1084" title="Performs log normal self&#45;adaptation. " alt="" coords="271,427,427,453"/>
+<area shape="rect" id="node6" href="$cond__neural_8h.html#a9630915748eec99071fa3b276bcb5c64" title="cond_neural_init" alt="" coords="519,672,635,699"/>
+<area shape="rect" id="node7" href="$pred__neural_8h.html#afdf0ff1b67935bc9a1df2a94a984c975" title="pred_neural_init" alt="" coords="521,571,634,597"/>
+<area shape="rect" id="node8" href="$rule__neural_8h.html#a846979c6acd6263a2da766cc1ab628ce" title="rule_neural_cond_init" alt="" coords="505,621,649,648"/>
+<area shape="rect" id="node11" href="$neural__layer__connected_8h.html#a2bc6f959592b6e80f7636c071daed7db" title="neural_layer_connected\l_mutate" alt="" coords="711,226,869,267"/>
+<area shape="rect" id="node16" href="$sam_8h.html#a60ea9eae9a7d2d624fee8614b6aa6904" title="Self&#45;adapts a classifier&#39;s mutation rates. " alt="" coords="747,1144,833,1171"/>
+<area shape="rect" id="node17" href="$ea_8h.html#ae3824341a2f5482cb6ac70b3839ded51" title="Executes the evolutionary algorithm (EA). " alt="" coords="1136,1175,1175,1201"/>
+<area shape="rect" id="node18" href="$xcs__multi__step_8c.html#a617d9e432dc180dccf0c5ef11a94f79f" title="Executes a multi&#45;step explore trial. " alt="" coords="1427,1331,1554,1357"/>
+<area shape="rect" id="node22" href="$xcs__single__step_8h.html#aff4aec035e4573993a7906569f2028f5" title="Creates the action set, updates the classifiers and runs the EA. " alt="" coords="1425,1229,1556,1256"/>
+<area shape="rect" id="node27" href="$xcsf_8c.html#a474f4e13cfc5f00958c689cd8c81135a" title="Executes a single XCSF learning trial. " alt="" coords="1435,976,1546,1003"/>
+<area shape="rect" id="node19" href="$xcs__multi__step_8h.html#acc29d4a55dbd56c16ea5f19f15a7c677" title="Executes a multi&#45;step reinforcement learning experiment. " alt="" coords="1618,1331,1757,1357"/>
+<area shape="rect" id="node20" href="$main_8c.html#ab572a67aa431827116ebd6931d667d21" title="classification" alt="" coords="2053,1229,2152,1256"/>
+<area shape="rect" id="node21" href="$main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="2248,1229,2299,1256"/>
+<area shape="rect" id="node23" href="$structXCS.html#aedc01ad6f00a54b260a7605929a1d4c9" title="XCS::single_update" alt="" coords="1815,1280,1953,1307"/>
+<area shape="rect" id="node25" href="$xcs__single__step_8c.html#a3d1fd2472d35310800aed897219a65af" title="Executes a single&#45;step trial using a built&#45;in environment. " alt="" coords="1631,1229,1743,1256"/>
+<area shape="rect" id="node24" href="$python__wrapper_8cpp.html#afbdcc1358036a0b83a6b239da2b098a2" title="BOOST_PYTHON_MODULE" alt="" coords="2005,1077,2200,1104"/>
+<area shape="rect" id="node26" href="$xcs__single__step_8h.html#a39a031bf59eaa9b33e30e614610dcda8" title="Executes a single&#45;step experiment. " alt="" coords="1812,1229,1956,1256"/>
+<area shape="rect" id="node28" href="$xcsf_8h.html#a874829f28fee20f9ad15b540f4b4d6ff" title="Executes MAX_TRIALS number of XCSF learning iterations using the training data. " alt="" coords="1651,925,1723,952"/>
+<area shape="rect" id="node30" href="$xcsf_8h.html#a0b4de57cb9dadc9deca7901aa36e5025" title="Executes MAX_TRIALS number of XCSF learning iterations using the training. data and test iterations u..." alt="" coords="1651,976,1723,1003"/>
+<area shape="rect" id="node29" href="$structXCS.html#ad2ccafe59d2b4ae6d0e1cbc15edee53c" title="XCS::fit" alt="" coords="1849,925,1919,952"/>
+<area shape="rect" id="node31" href="$main_8c.html#a968c78da8ed8ad08662a86280deec99a" title="regression" alt="" coords="1843,875,1925,901"/>
+<area shape="rect" id="node32" href="$structXCS.html#a7d53320740db8e846251bacd0238a9fb" title="XCS::fit" alt="" coords="1849,976,1919,1003"/>
+<area shape="rect" id="node34" href="$act__integer_8h.html#ae3ab0c3098c34a8ba8badb96a3227ce8" title="act_integer_mutate" alt="" coords="511,824,644,851"/>
+<area shape="rect" id="node35" href="$cl__set_8h.html#a7ff6217fb822a2eca84c9ac23e8b5cb5" title="Deletes a single classifier from the population set. " alt="" coords="757,1093,823,1120"/>
+<area shape="rect" id="node40" href="$xcs__single__step_8h.html#a6cd0f3c0c1c71e13dba1ce493ef873a5" title="Constructs the match set and selects an action to perform. " alt="" coords="1421,1179,1560,1205"/>
+<area shape="rect" id="node49" href="$cond__ellipsoid_8h.html#ab7579a6160dd02ac53b1012dec973157" title="cond_ellipsoid_init" alt="" coords="285,824,413,851"/>
+<area shape="rect" id="node50" href="$cond__ellipsoid_8h.html#aab054a1f536b825ef7faafcfc060c9b4" title="cond_ellipsoid_cover" alt="" coords="277,875,420,901"/>
+<area shape="rect" id="node51" href="$cond__ellipsoid_8h.html#a690054de0ade5f193c7e738209af9d97" title="cond_ellipsoid_crossover" alt="" coords="265,925,433,952"/>
+<area shape="rect" id="node52" href="$cond__gp_8h.html#ac9fb211d80b892a37635505f9657addd" title="cond_gp_mutate" alt="" coords="731,621,849,648"/>
+<area shape="rect" id="node53" href="$cond__gp_8h.html#ad5f278d1ae20507bcc9cfcd4c9993683" title="cond_gp_crossover" alt="" coords="723,1296,857,1323"/>
+<area shape="rect" id="node54" href="$cond__rectangle_8h.html#af49d5add3fbf87b1bde8e93a1706b0d3" title="cond_rectangle_init" alt="" coords="281,1179,416,1205"/>
+<area shape="rect" id="node55" href="$cond__rectangle_8h.html#a6dcbca409911c241f7558fef604470b7" title="cond_rectangle_cover" alt="" coords="274,1229,423,1256"/>
+<area shape="rect" id="node56" href="$cond__rectangle_8h.html#a476003d2f18e9e3aebe2c8c1872211b1" title="cond_rectangle_crossover" alt="" coords="261,1280,436,1307"/>
+<area shape="rect" id="node57" href="$dgp_8h.html#a686eb8ab5988e7c4557b6f78afc92975" title="Randomises a specified DGP graph. " alt="" coords="534,1600,621,1627"/>
+<area shape="rect" id="node64" href="$dgp_8h.html#a42dcd17a67d88ace188cb731a91a1153" title="Mutates a specified DGP graph. " alt="" coords="527,1803,628,1829"/>
+<area shape="rect" id="node67" href="$dgp_8h.html#ab0fd1e99551bf370563afe22debd9d49" title="Performs uniform crossover with two DGP graphs. " alt="" coords="289,376,408,403"/>
+<area shape="rect" id="node70" href="$ea_8c.html#a80adad74483f6fdb11216422687e4494" title="Selects a classifier from the set via roulete wheel. " alt="" coords="299,1549,398,1576"/>
+<area shape="rect" id="node72" href="$ea_8c.html#a8088b3c672efcf48c4760b18ed75136e" title="Selects a classifier from the set via tournament. " alt="" coords="273,1499,424,1525"/>
+<area shape="rect" id="node73" href="$env__mux_8h.html#a88dfb6a33d8036c49df23ecc3eaad6ce" title="Returns a random problem instance. " alt="" coords="281,656,417,683"/>
+<area shape="rect" id="node74" href="$gp_8h.html#a262c601e1744b1d1c654f609a5138b94" title="Initialises the constants shared among all GP trees. " alt="" coords="297,1651,400,1677"/>
+<area shape="rect" id="node77" href="$gp_8h.html#a541c34b12929d185e1053e1ebb504989" title="Performs point mutation on a GP tree. " alt="" coords="527,723,628,749"/>
+<area shape="rect" id="node78" href="$neural__layer__connected_8c.html#ac1c67136ea139779a7c2f91b59a62edd" title="mutate_functions" alt="" coords="516,469,639,496"/>
+<area shape="rect" id="node79" href="$neural__layer__dropout_8h.html#a7967c047a049f3e1722fe447a0067579" title="neural_layer_dropout\l_forward" alt="" coords="277,707,420,749"/>
+<area shape="rect" id="node80" href="$sam_8c.html#af9ece15d6d1cb98bb4817cb267d24f82" title="Initialises log normal self&#45;adaptive mutation rates. " alt="" coords="278,976,419,1003"/>
+<area shape="rect" id="node85" href="$sam_8c.html#a2438d2a92748eee35bd6e2761e2e5610" title="Performs self&#45;adaptation via a rate selection mechanism. " alt="" coords="510,1433,645,1474"/>
+<area shape="rect" id="node86" href="$utils_8h.html#a32648ab076544a9ac1c086d0f07b599f" title="Returns a uniform random integer [min,max] not inclusive of max. " alt="" coords="299,1077,399,1104"/>
+<area shape="rect" id="node36" href="$cl__set_8h.html#a8537e849783523d1e2394e4a027cf33a" title="Enforces the maximum population size limit. " alt="" coords="923,1093,1047,1120"/>
+<area shape="rect" id="node37" href="$cl__set_8c.html#aa4b74b698e7491734e4788fcfae8e27a" title="Ensures all possible actions are covered by the match set. " alt="" coords="1116,1065,1195,1092"/>
+<area shape="rect" id="node38" href="$cl__set_8h.html#af3bea0b4d03654b9d6cb08fbf272c847" title="Constructs the match set. " alt="" coords="1273,1065,1355,1092"/>
+<area shape="rect" id="node39" href="$xcs__multi__step_8c.html#a7c317faec2f018cc620fe5e465ebf378" title="Executes a multi&#45;step exploit trial. " alt="" coords="1429,1280,1552,1307"/>
+<area shape="rect" id="node42" href="$xcsf_8h.html#af0b9db7273578fdff649d46823cd9790" title="Calculates the XCSF predictions for the provided input. " alt="" coords="1444,1077,1537,1104"/>
+<area shape="rect" id="node44" href="$xcsf_8h.html#ae1f6851f682e015601030a5c725c6618" title="Prints the XCSF match set for the supplied input. " alt="" coords="1417,1128,1564,1155"/>
+<area shape="rect" id="node46" href="$xcsf_8c.html#aa6edd3962ddd04940e2c78a4f99de7cd" title="Executes a single XCSF testing trial. " alt="" coords="1439,1027,1543,1053"/>
+<area shape="rect" id="node41" href="$structXCS.html#a94d556a5e545ec415d7165d5e91b21d4" title="XCS::single_decision" alt="" coords="1811,1179,1957,1205"/>
+<area shape="rect" id="node43" href="$structXCS.html#a911ed75c86abed7807d33eb1385240ed" title="XCS::predict" alt="" coords="1639,1077,1736,1104"/>
+<area shape="rect" id="node45" href="$structXCS.html#aa5608b379fae01b724267a99068d55bb" title="XCS::print_match_set" alt="" coords="1612,1128,1763,1155"/>
+<area shape="rect" id="node47" href="$xcsf_8h.html#a2cf95733e5f97410d94211b72e835847" title="Calculates the XCSF error for the input data. " alt="" coords="1644,1027,1731,1053"/>
+<area shape="rect" id="node48" href="$structXCS.html#aa77bc77484d6d14bf512304a23cfec88" title="XCS::score" alt="" coords="1839,1027,1929,1053"/>
+<area shape="rect" id="node58" href="$cond__dgp_8h.html#a503ced650fea7ae71842e3c26f7299af" title="cond_dgp_init" alt="" coords="739,1549,841,1576"/>
+<area shape="rect" id="node59" href="$cond__dgp_8c.html#a551cc5a7383df3b9db79918bc5cc2647" title="cond_dgp_rand" alt="" coords="735,1600,845,1627"/>
+<area shape="rect" id="node61" href="$rule__dgp_8h.html#a43cb19f08ab4598b7b8f33275dfc19be" title="rule_dgp_cond_init" alt="" coords="725,1448,855,1475"/>
+<area shape="rect" id="node62" href="$rule__dgp_8c.html#ae4c3c9c6209c279599948f54c1cc51fe" title="rule_dgp_cond_rand" alt="" coords="721,1499,859,1525"/>
+<area shape="rect" id="node60" href="$cond__dgp_8h.html#aecdb3338f1a79677184e47f1df6331e9" title="cond_dgp_cover" alt="" coords="926,1600,1043,1627"/>
+<area shape="rect" id="node63" href="$rule__dgp_8h.html#a964d4495fdba2211613e024e0e09d064" title="rule_dgp_act_cover" alt="" coords="917,1499,1052,1525"/>
+<area shape="rect" id="node65" href="$cond__dgp_8h.html#a5a4688a22df988bcdb6555dc38b12f78" title="cond_dgp_mutate" alt="" coords="727,1803,853,1829"/>
+<area shape="rect" id="node66" href="$rule__dgp_8h.html#a565a751c00aeb2af7b7a193ecf370932" title="rule_dgp_cond_mutate" alt="" coords="713,1853,867,1880"/>
+<area shape="rect" id="node68" href="$cond__dgp_8h.html#a90b45b30fe452dde762757d95b207173" title="cond_dgp_crossover" alt="" coords="506,317,649,344"/>
+<area shape="rect" id="node69" href="$rule__dgp_8h.html#a25514e038fe1f595822020e9f87197e9" title="rule_dgp_cond_crossover" alt="" coords="492,368,663,395"/>
+<area shape="rect" id="node71" href="$ea_8c.html#aaf85b71dbd4c2810c3892bf7793bcf36" title="Selects two parents. " alt="" coords="513,1549,641,1576"/>
+<area shape="rect" id="node75" href="$config_8h.html#acc9074ddd76624bcc0368318bc8f8691" title="Initialises global constants and reads the specified configuration file. " alt="" coords="526,1651,629,1677"/>
+<area shape="rect" id="node76" href="$structXCS.html#a0dd359a4dfc0a6439a5c6554768c8b9f" title="Constructor for single&#45;step reinforcement learning. " alt="" coords="747,1651,833,1677"/>
+<area shape="rect" id="node81" href="$sam_8h.html#ab529fdda992a0d15c0f798ec3fefe843" title="Initialises a classifier&#39;s self&#45;adaptive mutation rates. " alt="" coords="755,976,825,1003"/>
+<area shape="rect" id="node82" href="$cl_8h.html#ab76fe4ea183f51174a3797c3cbb1b3bf" title="Initialises a new classifier. " alt="" coords="957,984,1013,1011"/>
+<area shape="rect" id="node83" href="$cl__set_8h.html#a1e1060f1e8c1f916d798864804078e88" title="Initialises a new population set. " alt="" coords="1654,875,1721,901"/>
+<area shape="rect" id="node84" href="$structXCS.html#ab58a4fb495b05f3450b182bc21dcba1f" title="XCS::single_reset" alt="" coords="1820,773,1948,800"/>
+<area shape="rect" id="node87" href="$act__integer_8h.html#a81d7de7fc5388f6306c6e27ceba91dda" title="act_integer_rand" alt="" coords="518,1027,637,1053"/>
+<area shape="rect" id="node88" href="$ea_8c.html#afe1eb3a920dc0bbcd5f737b9cdda2170" title="Performs evolutionary algorithm subsumption. " alt="" coords="742,1195,838,1221"/>
+<area shape="rect" id="node90" href="$env__maze_8h.html#a237f7f760ea767a3ab486804fa699ee4" title="Resets the animat to a random empty position in the maze. " alt="" coords="518,1077,637,1104"/>
+<area shape="rect" id="node91" href="$gp_8c.html#aaf89c5486df161ec44733a12a7bf9f04" title="Grows a random GP tree of specified max length and depth. " alt="" coords="538,1179,617,1205"/>
+<area shape="rect" id="node96" href="$gp_8h.html#a621a15d85cc2855658dfb20e7da5dadc" title="Performs sub&#45;tree crossover. " alt="" coords="523,1229,631,1256"/>
+<area shape="rect" id="node97" href="$pa_8h.html#aa70af38ac3144902d9c7dd5905fe34a8" title="Returns a random action from the prediction array. " alt="" coords="1259,1280,1369,1307"/>
+<area shape="rect" id="node98" href="$sam_8c.html#ade3e812ff797267372cee374fa55aad8" title="Initialises rate selection self&#45;adaptive mutation. " alt="" coords="498,976,657,1003"/>
+<area shape="rect" id="node89" href="$ea_8c.html#a14278fc032b7fb0c473e11764ab1c4d1" title="Adds offspring to the population. " alt="" coords="953,1195,1017,1221"/>
+<area shape="rect" id="node92" href="$gp_8h.html#a33414d31c158a9e6c89f63bb9373b89e" title="Creates a random GP tree. " alt="" coords="752,1245,828,1272"/>
+<area shape="rect" id="node93" href="$cond__gp_8h.html#aefa6c8a6839ec798ffc9305528932660" title="cond_gp_init" alt="" coords="937,1245,1032,1272"/>
+<area shape="rect" id="node94" href="$cond__gp_8c.html#aca09aa432f4b62f73d00386c5383a580" title="cond_gp_rand" alt="" coords="933,1347,1036,1373"/>
+<area shape="rect" id="node95" href="$cond__gp_8h.html#a010013c25fde53b4f86f213acafb56c0" title="cond_gp_cover" alt="" coords="1100,1347,1211,1373"/>
 </map>

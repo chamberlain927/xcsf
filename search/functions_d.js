@@ -104,6 +104,10 @@ var searchData=
   ['set_5fvalidate',['set_validate',['../cl__set_8c.html#ad2333ccd5fef4fcef4f5ae98406611d3',1,'set_validate(XCSF *xcsf, SET *set):&#160;cl_set.c'],['../cl__set_8h.html#ad2333ccd5fef4fcef4f5ae98406611d3',1,'set_validate(XCSF *xcsf, SET *set):&#160;cl_set.c']]],
   ['sin_5factivate',['sin_activate',['../neural__activations_8h.html#a02090b679f2d4a4fc64567538275a4ae',1,'neural_activations.h']]],
   ['sin_5fgradient',['sin_gradient',['../neural__activations_8h.html#ae81fb7fd858fb67cf5bb3514dbf399ce',1,'neural_activations.h']]],
+  ['single_5fdecision',['single_decision',['../structXCS.html#a94d556a5e545ec415d7165d5e91b21d4',1,'XCS']]],
+  ['single_5ferror',['single_error',['../structXCS.html#a5487a1d5b304064705559113afd3b077',1,'XCS']]],
+  ['single_5freset',['single_reset',['../structXCS.html#ab58a4fb495b05f3450b182bc21dcba1f',1,'XCS']]],
+  ['single_5fupdate',['single_update',['../structXCS.html#aedc01ad6f00a54b260a7605929a1d4c9',1,'XCS']]],
   ['soft_5fplus_5factivate',['soft_plus_activate',['../neural__activations_8h.html#a1e7917de33b1a1c96bf0d2463808f03f',1,'neural_activations.h']]],
   ['soft_5fplus_5fgradient',['soft_plus_gradient',['../neural__activations_8h.html#ad35d1ffc99173b6570b4b6076e97c1d0',1,'neural_activations.h']]]
 ];

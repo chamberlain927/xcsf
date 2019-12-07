@@ -17,7 +17,8 @@ var searchData=
   ['act_5finteger_5fvtbl',['act_integer_vtbl',['../act__integer_8h.html#a6cadc98dfa533b801ec39093082c3c09',1,'act_integer.h']]],
   ['act_5ftype',['ACT_TYPE',['../structXCSF.html#a665acef952eda9895067d37cb5d9a9bc',1,'XCSF']]],
   ['act_5fvptr',['act_vptr',['../structCL.html#a029b13d6a2e908af0bf292f05ab21940',1,'CL']]],
-  ['action',['action',['../structCL.html#a014cd367304cd8e6093e827b1517dfd1',1,'CL']]],
+  ['action',['action',['../structXCS.html#ab15ea71a709a43dec56cac1a2eebebcc',1,'XCS::action()'],['../structCL.html#a014cd367304cd8e6093e827b1517dfd1',1,'CL::action()']]],
   ['active',['active',['../structLAYER.html#a9c656849cfe10577251f6cd684a488b3',1,'LAYER']]],
-  ['alpha',['ALPHA',['../structXCSF.html#aab84d855d797f15ffbd6feab2d615e30',1,'XCSF']]]
+  ['alpha',['ALPHA',['../structXCSF.html#aab84d855d797f15ffbd6feab2d615e30',1,'XCSF']]],
+  ['aset',['aset',['../structXCS.html#ae9a88afa19d851ec744c542f693f2249',1,'XCS']]]
 ];
