@@ -31,7 +31,6 @@ var searchData=
   ['cl_5fupdate_5ferr',['cl_update_err',['../cl_8c.html#ae04b1b35f3bfa95430f1abc054697dd5',1,'cl.c']]],
   ['cl_5fupdate_5ffit',['cl_update_fit',['../cl_8c.html#ab6660165a4d41493ee056b4d0ebd71d3',1,'cl_update_fit(XCSF *xcsf, CL *c, double acc_sum, double acc):&#160;cl.c'],['../cl_8h.html#ab6660165a4d41493ee056b4d0ebd71d3',1,'cl_update_fit(XCSF *xcsf, CL *c, double acc_sum, double acc):&#160;cl.c']]],
   ['cl_5fupdate_5fsize',['cl_update_size',['../cl_8c.html#afc238fc3418e3b3f9796e1f5059fc5dd',1,'cl.c']]],
-  ['classification',['classification',['../main_8c.html#ab572a67aa431827116ebd6931d667d21',1,'main.c']]],
   ['clist',['CLIST',['../structCLIST.html',1,'CLIST'],['../xcsf_8h.html#a17533dc1441cf20abea01cc7a3c0218a',1,'CLIST():&#160;xcsf.h']]],
   ['cond',['cond',['../structCL.html#a42ab2a8cd7e48b345cfe73b75bd5ba1b',1,'CL']]],
   ['cond_5fcopy',['cond_copy',['../condition_8h.html#a01fbda3bfee90047acd49e0af422de1f',1,'condition.h']]],

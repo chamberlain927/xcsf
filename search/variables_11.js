@@ -4,7 +4,7 @@ var searchData=
   ['tail',['tail',['../structNET.html#ab764acdcb1d5c310d9ae55a78ca277a7',1,'NET']]],
   ['teletransportation',['TELETRANSPORTATION',['../structXCSF.html#a55b5eb5311bf5eb3fdb61efb628b1784',1,'XCSF']]],
   ['temp',['temp',['../structLAYER.html#a743c67ae8ad10b84b80de6916c2fa4aa',1,'LAYER']]],
-  ['test_5fdata',['test_data',['../structXCS.html#aba1237989c28a1cf48ac2f2e742f23ac',1,'XCS']]],
+  ['test_5fdata',['test_data',['../structENV__CSV.html#a4c642d8adaef71937df3c2043707aafa',1,'ENV_CSV::test_data()'],['../structXCS.html#aba1237989c28a1cf48ac2f2e742f23ac',1,'XCS::test_data()']]],
   ['theta_5fdel',['THETA_DEL',['../structXCSF.html#a6f0096b6367d1ab342686e12a988c267',1,'XCSF']]],
   ['theta_5fea',['THETA_EA',['../structXCSF.html#a580a42d79930991c1f45928ccc5de6af',1,'XCSF']]],
   ['theta_5fsub',['THETA_SUB',['../structXCSF.html#ad5e368101793c1a242ffa38c81d45b3b',1,'XCSF']]],
@@ -15,6 +15,6 @@ var searchData=
   ['tmp_5fmatrix2',['tmp_matrix2',['../structPRED__RLS.html#a137d818b4ee254348b053bed75404689',1,'PRED_RLS']]],
   ['tmp_5fvec',['tmp_vec',['../structPRED__RLS.html#a1c65f3c0190eba8ef8a0b677c2577857',1,'PRED_RLS']]],
   ['train',['train',['../structXCSF.html#a3858c34e3409563cd131afc70d12995b',1,'XCSF']]],
-  ['train_5fdata',['train_data',['../structXCS.html#a8fc5c0aca84b1c700d2d5a6d04c9f527',1,'XCS']]],
+  ['train_5fdata',['train_data',['../structENV__CSV.html#af9647c345bc79dd102ecafe3393688cb',1,'ENV_CSV::train_data()'],['../structXCS.html#a8fc5c0aca84b1c700d2d5a6d04c9f527',1,'XCS::train_data()']]],
   ['tree',['tree',['../structGP__TREE.html#a107586ea0cdfc73a7bd227fa6e329c8e',1,'GP_TREE']]]
 ];

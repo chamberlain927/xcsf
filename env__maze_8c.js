@@ -14,7 +14,7 @@ var env__maze_8c =
     [ "env_maze_multistep", "env__maze_8c.html#aae70b4cb8b16f3d302595272c52519d0", null ],
     [ "env_maze_print", "env__maze_8c.html#a5b31187f78f3519c271ac9651c7190fc", null ],
     [ "env_maze_reset", "env__maze_8c.html#a237f7f760ea767a3ab486804fa699ee4", null ],
-    [ "env_maze_sensor", "env__maze_8c.html#a13104e04cf54d8722fe9a82ec4f9f754", null ],
+    [ "env_maze_sensor", "env__maze_8c.html#a3568dea99106d6fa4e8e45f48fe6e5f5", null ],
     [ "x_moves", "env__maze_8c.html#ad258b1cc4d3d94af9bd4e7d2ef24404f", null ],
     [ "y_moves", "env__maze_8c.html#ac8b354755ed423138edda7b28c6b8cfa", null ]
 ];

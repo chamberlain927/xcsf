@@ -5,7 +5,6 @@ var searchData=
   ['rand_5funiform',['rand_uniform',['../utils_8c.html#ae42a9e1d467853befaa7922cfafed3bb',1,'rand_uniform(double min, double max):&#160;utils.c'],['../utils_8h.html#ae42a9e1d467853befaa7922cfafed3bb',1,'rand_uniform(double min, double max):&#160;utils.c']]],
   ['random_5finit',['random_init',['../utils_8c.html#af2e80b8de6ec1840dac4668ca5a38606',1,'random_init():&#160;utils.c'],['../utils_8h.html#af2e80b8de6ec1840dac4668ca5a38606',1,'random_init():&#160;utils.c']]],
   ['readme_2emd',['README.md',['../README_8md.html',1,'']]],
-  ['regression',['regression',['../main_8c.html#a968c78da8ed8ad08662a86280deec99a',1,'main.c']]],
   ['relu',['RELU',['../neural__activations_8h.html#a6a9f120917c6b18fde3cb85c95af7550',1,'neural_activations.h']]],
   ['relu_5factivate',['relu_activate',['../neural__activations_8h.html#a90b4b22f4ec82215ebf5bee3ccd0013f',1,'neural_activations.h']]],
   ['relu_5fgradient',['relu_gradient',['../neural__activations_8h.html#a6e49e33b48cd376b129aeeafb65c8807',1,'neural_activations.h']]],
