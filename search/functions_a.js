@@ -65,6 +65,5 @@ var searchData=
   ['neural_5frand',['neural_rand',['../neural_8c.html#a3c856d22c24c212862bc7d07d9a93549',1,'neural_rand(XCSF *xcsf, NET *net):&#160;neural.c'],['../neural_8h.html#a3c856d22c24c212862bc7d07d9a93549',1,'neural_rand(XCSF *xcsf, NET *net):&#160;neural.c']]],
   ['neural_5fsave',['neural_save',['../neural_8c.html#a2690c6b4f8d7ebf3158abb1a94c0e527',1,'neural_save(XCSF *xcsf, NET *net, FILE *fp):&#160;neural.c'],['../neural_8h.html#a2690c6b4f8d7ebf3158abb1a94c0e527',1,'neural_save(XCSF *xcsf, NET *net, FILE *fp):&#160;neural.c']]],
   ['neural_5fsize',['neural_size',['../neural_8c.html#a82fe23ff5a6cd5322f5b4ac1d3d8bd24',1,'neural_size(XCSF *xcsf, NET *net):&#160;neural.c'],['../neural_8h.html#a82fe23ff5a6cd5322f5b4ac1d3d8bd24',1,'neural_size(XCSF *xcsf, NET *net):&#160;neural.c']]],
-  ['newnvpair',['newnvpair',['../config_8c.html#a0045590d654421fb8b2985e0fed4edf2',1,'config.c']]],
   ['node_5factivate',['node_activate',['../dgp_8c.html#a0b9b640297a361166886d98377da743b',1,'dgp.c']]]
 ];

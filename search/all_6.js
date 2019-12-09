@@ -87,7 +87,6 @@ var searchData=
   ['get_5ftheta_5fea',['get_theta_ea',['../structXCS.html#afd7b98a54b7b779f8ec20b9d1044b259',1,'XCS']]],
   ['get_5ftheta_5fsub',['get_theta_sub',['../structXCS.html#a23440843ffd9b9610983df06415875c0',1,'XCS']]],
   ['get_5ftime',['get_time',['../structXCS.html#ab7d5a6029cc29b32bbc39836300c6586',1,'XCS']]],
-  ['getvalue',['getvalue',['../config_8c.html#a4848a468fe536eb441d0a0a2f1c5eb53',1,'config.c']]],
   ['gp',['gp',['../structCOND__GP.html#a41d435583e61ec22e2767c434d628977',1,'COND_GP']]],
   ['gp_2ec',['gp.c',['../gp_8c.html',1,'']]],
   ['gp_2eh',['gp.h',['../gp_8h.html',1,'']]],

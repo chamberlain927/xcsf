@@ -1,5 +1,5 @@
 var config_8h =
 [
-    [ "constants_free", "config_8h.html#a78ca0dc8485365d78a5a64a212db4d6f", null ],
-    [ "constants_init", "config_8h.html#acc9074ddd76624bcc0368318bc8f8691", null ]
+    [ "config_free", "config_8h.html#a660e998cf3410ae947d19e0d886ca6c9", null ],
+    [ "config_init", "config_8h.html#a37df9fe8af1e1583876040747eeee030", null ]
 ];

@@ -85,7 +85,6 @@ var searchData=
   ['get_5ftheta_5fea',['get_theta_ea',['../structXCS.html#afd7b98a54b7b779f8ec20b9d1044b259',1,'XCS']]],
   ['get_5ftheta_5fsub',['get_theta_sub',['../structXCS.html#a23440843ffd9b9610983df06415875c0',1,'XCS']]],
   ['get_5ftime',['get_time',['../structXCS.html#ab7d5a6029cc29b32bbc39836300c6586',1,'XCS']]],
-  ['getvalue',['getvalue',['../config_8c.html#a4848a468fe536eb441d0a0a2f1c5eb53',1,'config.c']]],
   ['gplot_5ffree',['gplot_free',['../perf_8c.html#ab8a54728a7f58890e6c7001969254d16',1,'gplot_free(XCSF *xcsf):&#160;perf.c'],['../perf_8h.html#ab8a54728a7f58890e6c7001969254d16',1,'gplot_free(XCSF *xcsf):&#160;perf.c']]],
   ['gplot_5finit',['gplot_init',['../perf_8c.html#a8a4ffedb577efb2072cf1659b8289b3e',1,'gplot_init(XCSF *xcsf):&#160;perf.c'],['../perf_8h.html#a8a4ffedb577efb2072cf1659b8289b3e',1,'gplot_init(XCSF *xcsf):&#160;perf.c']]],
   ['graph_5fcopy',['graph_copy',['../dgp_8c.html#a50df3ce4b4355b626cf5d75e432f1628',1,'graph_copy(XCSF *xcsf, GRAPH *to, GRAPH *from):&#160;dgp.c'],['../dgp_8h.html#a50df3ce4b4355b626cf5d75e432f1628',1,'graph_copy(XCSF *xcsf, GRAPH *to, GRAPH *from):&#160;dgp.c']]],

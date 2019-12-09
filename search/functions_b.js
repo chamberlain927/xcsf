@@ -7,6 +7,14 @@ var searchData=
   ['pa_5finit',['pa_init',['../pa_8c.html#aa55a39344262edf881d250e41fa2c581',1,'pa_init(XCSF *xcsf):&#160;pa.c'],['../pa_8h.html#aa55a39344262edf881d250e41fa2c581',1,'pa_init(XCSF *xcsf):&#160;pa.c']]],
   ['pa_5frand_5faction',['pa_rand_action',['../pa_8c.html#aa70af38ac3144902d9c7dd5905fe34a8',1,'pa_rand_action(XCSF *xcsf):&#160;pa.c'],['../pa_8h.html#aa70af38ac3144902d9c7dd5905fe34a8',1,'pa_rand_action(XCSF *xcsf):&#160;pa.c']]],
   ['pa_5fval',['pa_val',['../pa_8c.html#af866c9dc82ff1a0e007b0bdaff9410c0',1,'pa_val(XCSF *xcsf, int action):&#160;pa.c'],['../pa_8h.html#aaec12e6ee2177c6b37559543fe4ca6a9',1,'pa_val(XCSF *xcsf, int act):&#160;pa.c']]],
+  ['params_5fcl_5faction',['params_cl_action',['../config_8c.html#a39ac19705915795f1f3daefebf96e37d',1,'config.c']]],
+  ['params_5fcl_5fcondition',['params_cl_condition',['../config_8c.html#a165dae50e0b9f879753798bea405c7e0',1,'config.c']]],
+  ['params_5fcl_5fgeneral',['params_cl_general',['../config_8c.html#adc175ba379a3169ae3bc6df1a31b0d0f',1,'config.c']]],
+  ['params_5fcl_5fprediction',['params_cl_prediction',['../config_8c.html#a9e94168e46b659d4ae6962a05b8a34e7',1,'config.c']]],
+  ['params_5fea',['params_ea',['../config_8c.html#ae95254f43497b746fa5446cad160e21f',1,'config.c']]],
+  ['params_5fgeneral',['params_general',['../config_8c.html#a0d7a055b73c24de7dd348448b75ea626',1,'config.c']]],
+  ['params_5fmultistep',['params_multistep',['../config_8c.html#aeedb9eacce33b5236623057f71df1ebb',1,'config.c']]],
+  ['params_5fsubsumption',['params_subsumption',['../config_8c.html#abe7b908d3de0d9711545ecc150d91628',1,'config.c']]],
   ['pop_5fdel',['pop_del',['../cl__set_8c.html#a7ff6217fb822a2eca84c9ac23e8b5cb5',1,'pop_del(XCSF *xcsf, SET *kset):&#160;cl_set.c'],['../cl__set_8h.html#a7ff6217fb822a2eca84c9ac23e8b5cb5',1,'pop_del(XCSF *xcsf, SET *kset):&#160;cl_set.c']]],
   ['pop_5fenforce_5flimit',['pop_enforce_limit',['../cl__set_8c.html#a8537e849783523d1e2394e4a027cf33a',1,'pop_enforce_limit(XCSF *xcsf, SET *kset):&#160;cl_set.c'],['../cl__set_8h.html#a8537e849783523d1e2394e4a027cf33a',1,'pop_enforce_limit(XCSF *xcsf, SET *kset):&#160;cl_set.c']]],
   ['pop_5finit',['pop_init',['../cl__set_8c.html#a1e1060f1e8c1f916d798864804078e88',1,'pop_init(XCSF *xcsf):&#160;cl_set.c'],['../cl__set_8h.html#a1e1060f1e8c1f916d798864804078e88',1,'pop_init(XCSF *xcsf):&#160;cl_set.c']]],
@@ -60,6 +68,5 @@ var searchData=
   ['predict',['predict',['../structXCS.html#a911ed75c86abed7807d33eb1385240ed',1,'XCS']]],
   ['prediction_5fset',['prediction_set',['../prediction_8c.html#a68bf56c06ff52c2e31c4fb31436e1eed',1,'prediction_set(XCSF *xcsf, CL *c):&#160;prediction.c'],['../prediction_8h.html#a68bf56c06ff52c2e31c4fb31436e1eed',1,'prediction_set(XCSF *xcsf, CL *c):&#160;prediction.c']]],
   ['print_5fmatch_5fset',['print_match_set',['../structXCS.html#aa5608b379fae01b724267a99068d55bb',1,'XCS']]],
-  ['print_5fpop',['print_pop',['../structXCS.html#a17153434b6e3310591eafb94e81cda9a',1,'XCS']]],
-  ['process',['process',['../config_8c.html#a2cea13014358ff0cff25357e9c1d6be4',1,'config.c']]]
+  ['print_5fpop',['print_pop',['../structXCS.html#a17153434b6e3310591eafb94e81cda9a',1,'XCS']]]
 ];

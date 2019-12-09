@@ -11,7 +11,6 @@ var searchData=
   ['theta_5fdel',['THETA_DEL',['../structXCSF.html#a6f0096b6367d1ab342686e12a988c267',1,'XCSF']]],
   ['theta_5fea',['THETA_EA',['../structXCSF.html#a580a42d79930991c1f45928ccc5de6af',1,'XCSF']]],
   ['theta_5fsub',['THETA_SUB',['../structXCSF.html#ad5e368101793c1a242ffa38c81d45b3b',1,'XCSF']]],
-  ['tidyup',['tidyup',['../config_8c.html#a04077b988ee57662bb004618f53032ba',1,'config.c']]],
   ['time',['time',['../structCL.html#a860381acf1b5143ec6856909f2a41af2',1,'CL::time()'],['../structXCSF.html#abe0405c64106260871074d7dc21d2b4e',1,'XCSF::time()']]],
   ['tmp',['tmp',['../structGRAPH.html#a16c5ac1f4986a65a1b4ba2ddeee769e9',1,'GRAPH']]],
   ['tmp_5finput',['tmp_input',['../structPRED__RLS.html#aab9ed1b9a46df631fb1e15ef5f2a41be',1,'PRED_RLS']]],
@@ -33,6 +32,5 @@ var searchData=
   ['tree_5fprint',['tree_print',['../gp_8c.html#a6dd3cdcce2d4147f379668f8da646162',1,'tree_print(XCSF *xcsf, GP_TREE *gp, int p):&#160;gp.c'],['../gp_8h.html#a6dd3cdcce2d4147f379668f8da646162',1,'tree_print(XCSF *xcsf, GP_TREE *gp, int p):&#160;gp.c']]],
   ['tree_5frand',['tree_rand',['../gp_8c.html#a33414d31c158a9e6c89f63bb9373b89e',1,'tree_rand(XCSF *xcsf, GP_TREE *gp):&#160;gp.c'],['../gp_8h.html#a33414d31c158a9e6c89f63bb9373b89e',1,'tree_rand(XCSF *xcsf, GP_TREE *gp):&#160;gp.c']]],
   ['tree_5fsave',['tree_save',['../gp_8c.html#af02316b66016eb9a53627bc040100933',1,'tree_save(XCSF *xcsf, GP_TREE *gp, FILE *fp):&#160;gp.c'],['../gp_8h.html#af02316b66016eb9a53627bc040100933',1,'tree_save(XCSF *xcsf, GP_TREE *gp, FILE *fp):&#160;gp.c']]],
-  ['tree_5ftraverse',['tree_traverse',['../gp_8c.html#a7c42cce0ae1e713a3dc4d34b1cdd5d42',1,'gp.c']]],
-  ['trim',['trim',['../config_8c.html#a6b21b3f128c91055d8784740fcf05519',1,'config.c']]]
+  ['tree_5ftraverse',['tree_traverse',['../gp_8c.html#a7c42cce0ae1e713a3dc4d34b1cdd5d42',1,'gp.c']]]
 ];

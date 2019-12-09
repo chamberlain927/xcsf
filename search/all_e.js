@@ -15,6 +15,14 @@ var searchData=
   ['pa_5frand_5faction',['pa_rand_action',['../pa_8c.html#aa70af38ac3144902d9c7dd5905fe34a8',1,'pa_rand_action(XCSF *xcsf):&#160;pa.c'],['../pa_8h.html#aa70af38ac3144902d9c7dd5905fe34a8',1,'pa_rand_action(XCSF *xcsf):&#160;pa.c']]],
   ['pa_5fval',['pa_val',['../pa_8c.html#af866c9dc82ff1a0e007b0bdaff9410c0',1,'pa_val(XCSF *xcsf, int action):&#160;pa.c'],['../pa_8h.html#aaec12e6ee2177c6b37559543fe4ca6a9',1,'pa_val(XCSF *xcsf, int act):&#160;pa.c']]],
   ['param_5flist',['PARAM_LIST',['../structPARAM__LIST.html',1,'PARAM_LIST'],['../config_8c.html#a2f743c55f8d1d763667fedc61e7f9e94',1,'PARAM_LIST():&#160;config.c']]],
+  ['params_5fcl_5faction',['params_cl_action',['../config_8c.html#a39ac19705915795f1f3daefebf96e37d',1,'config.c']]],
+  ['params_5fcl_5fcondition',['params_cl_condition',['../config_8c.html#a165dae50e0b9f879753798bea405c7e0',1,'config.c']]],
+  ['params_5fcl_5fgeneral',['params_cl_general',['../config_8c.html#adc175ba379a3169ae3bc6df1a31b0d0f',1,'config.c']]],
+  ['params_5fcl_5fprediction',['params_cl_prediction',['../config_8c.html#a9e94168e46b659d4ae6962a05b8a34e7',1,'config.c']]],
+  ['params_5fea',['params_ea',['../config_8c.html#ae95254f43497b746fa5446cad160e21f',1,'config.c']]],
+  ['params_5fgeneral',['params_general',['../config_8c.html#a0d7a055b73c24de7dd348448b75ea626',1,'config.c']]],
+  ['params_5fmultistep',['params_multistep',['../config_8c.html#aeedb9eacce33b5236623057f71df1ebb',1,'config.c']]],
+  ['params_5fsubsumption',['params_subsumption',['../config_8c.html#abe7b908d3de0d9711545ecc150d91628',1,'config.c']]],
   ['perf_2ec',['perf.c',['../perf_8c.html',1,'']]],
   ['perf_2eh',['perf.h',['../perf_8h.html',1,'']]],
   ['perf_5favg_5ftrials',['PERF_AVG_TRIALS',['../structXCSF.html#abd8b561bd85c09b72b9c7fee1613ee68',1,'XCSF']]],
@@ -121,7 +129,6 @@ var searchData=
   ['print_5fmatch_5fset',['print_match_set',['../structXCS.html#aa5608b379fae01b724267a99068d55bb',1,'XCS']]],
   ['print_5fpop',['print_pop',['../structXCS.html#a17153434b6e3310591eafb94e81cda9a',1,'XCS']]],
   ['probability',['probability',['../structLAYER.html#ae2e5f0a3c65acd933c1405f161afc430',1,'LAYER']]],
-  ['process',['process',['../config_8c.html#a2cea13014358ff0cff25357e9c1d6be4',1,'config.c']]],
   ['pset',['pset',['../structXCSF.html#aab2d6bccf73f89ea3e20fbcf0a31e513',1,'XCSF']]],
   ['python_5fwrapper_2ecpp',['python_wrapper.cpp',['../python__wrapper_8cpp.html',1,'']]]
 ];

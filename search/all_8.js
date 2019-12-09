@@ -5,7 +5,6 @@ var searchData=
   ['identity_5factivate',['identity_activate',['../neural__activations_8h.html#a1c01e61dfab1213f2efbaeefc2cb9e1b',1,'neural_activations.h']]],
   ['identity_5fgradient',['identity_gradient',['../neural__activations_8h.html#a6cb9aa8ba018adb630bd106875cd06a7',1,'neural_activations.h']]],
   ['init_5fby_5farray64',['init_by_array64',['../mt19937-64_8c.html#a0aa2627c5353d914072ef3d7d8faad41',1,'init_by_array64(unsigned long long init_key[], unsigned long long key_length):&#160;mt19937-64.c'],['../mt64_8h.html#a0aa2627c5353d914072ef3d7d8faad41',1,'init_by_array64(unsigned long long init_key[], unsigned long long key_length):&#160;mt19937-64.c']]],
-  ['init_5fconfig',['init_config',['../config_8c.html#adbf824faa5f928e964f2c8ab1c407ab8',1,'config.c']]],
   ['init_5ferror',['INIT_ERROR',['../structXCSF.html#a2f4ad8c341675460e1a6569d1141457e',1,'XCSF']]],
   ['init_5ffitness',['INIT_FITNESS',['../structXCSF.html#a22451dae348eb6a6d4f4f399afa70562',1,'XCSF']]],
   ['init_5fgenrand64',['init_genrand64',['../mt19937-64_8c.html#adf4127d44c2dc34fcb318d406131ef7c',1,'init_genrand64(unsigned long long seed):&#160;mt19937-64.c'],['../mt64_8h.html#adf4127d44c2dc34fcb318d406131ef7c',1,'init_genrand64(unsigned long long seed):&#160;mt19937-64.c']]],
