@@ -32,6 +32,7 @@ var searchData=
   ['cond_5fnum_5fhidden_5fneurons',['COND_NUM_HIDDEN_NEURONS',['../structXCSF.html#ae0fef3611445f3b9a99a79e4edb3f37e',1,'XCSF']]],
   ['cond_5frectangle_5fvtbl',['cond_rectangle_vtbl',['../cond__rectangle_8h.html#a26ebc50c0fcdd8f094504d3aeab392cd',1,'cond_rectangle.h']]],
   ['cond_5fsmin',['COND_SMIN',['../structXCSF.html#a85a4e09d822890ce6339cf05a48a1e0b',1,'XCSF']]],
+  ['cond_5fternary_5fvtbl',['cond_ternary_vtbl',['../cond__ternary_8h.html#a149a217d9597a07e2cff7a8a4737b3a3',1,'cond_ternary.h']]],
   ['cond_5ftype',['COND_TYPE',['../structXCSF.html#a793369a86ed620cbe5e5309e3e63b142',1,'XCSF']]],
   ['cond_5fvptr',['cond_vptr',['../structCL.html#ae8cef6e9220b7f48debc1215684439dc',1,'CL']]],
   ['connectivity',['connectivity',['../structGRAPH.html#ad5e1b3ea065868c3241b090c0c3854c5',1,'GRAPH']]]

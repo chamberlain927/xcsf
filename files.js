@@ -20,6 +20,8 @@ var files =
     [ "cond_neural.h", "cond__neural_8h.html", "cond__neural_8h" ],
     [ "cond_rectangle.c", "cond__rectangle_8c.html", "cond__rectangle_8c" ],
     [ "cond_rectangle.h", "cond__rectangle_8h.html", "cond__rectangle_8h" ],
+    [ "cond_ternary.c", "cond__ternary_8c.html", "cond__ternary_8c" ],
+    [ "cond_ternary.h", "cond__ternary_8h.html", "cond__ternary_8h" ],
     [ "condition.c", "condition_8c.html", "condition_8c" ],
     [ "condition.h", "condition_8h.html", "condition_8h" ],
     [ "config.c", "config_8c.html", "config_8c" ],

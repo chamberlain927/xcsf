@@ -12,6 +12,7 @@ var xcsf_8h =
     [ "COND_TYPE_HYPERELLIPSOID", "xcsf_8h.html#a7a0c49b4c36cabce1b9e02de961ecedf", null ],
     [ "COND_TYPE_HYPERRECTANGLE", "xcsf_8h.html#a6eabf842ac032559a554614c53a45494", null ],
     [ "COND_TYPE_NEURAL", "xcsf_8h.html#af5c1cf8ace43f9626a6676f12e2527e1", null ],
+    [ "COND_TYPE_TERNARY", "xcsf_8h.html#a3e29ba0853416e3859204d6daa982e09", null ],
     [ "PRED_TYPE_NEURAL", "xcsf_8h.html#a60cd83e6c910f5c02187ad74e45b587e", null ],
     [ "PRED_TYPE_NLMS_LINEAR", "xcsf_8h.html#a17aac70a656503856bab6d988b8f33b2", null ],
     [ "PRED_TYPE_NLMS_QUADRATIC", "xcsf_8h.html#ab9a680ad534a2eee657e39d49f11a9a4", null ],

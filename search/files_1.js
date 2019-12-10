@@ -16,6 +16,8 @@ var searchData=
   ['cond_5fneural_2eh',['cond_neural.h',['../cond__neural_8h.html',1,'']]],
   ['cond_5frectangle_2ec',['cond_rectangle.c',['../cond__rectangle_8c.html',1,'']]],
   ['cond_5frectangle_2eh',['cond_rectangle.h',['../cond__rectangle_8h.html',1,'']]],
+  ['cond_5fternary_2ec',['cond_ternary.c',['../cond__ternary_8c.html',1,'']]],
+  ['cond_5fternary_2eh',['cond_ternary.h',['../cond__ternary_8h.html',1,'']]],
   ['condition_2ec',['condition.c',['../condition_8c.html',1,'']]],
   ['condition_2eh',['condition.h',['../condition_8h.html',1,'']]],
   ['config_2ec',['config.c',['../config_8c.html',1,'']]],

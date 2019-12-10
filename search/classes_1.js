@@ -7,5 +7,6 @@ var searchData=
   ['cond_5fgp',['COND_GP',['../structCOND__GP.html',1,'']]],
   ['cond_5fneural',['COND_NEURAL',['../structCOND__NEURAL.html',1,'']]],
   ['cond_5frectangle',['COND_RECTANGLE',['../structCOND__RECTANGLE.html',1,'']]],
+  ['cond_5fternary',['COND_TERNARY',['../structCOND__TERNARY.html',1,'']]],
   ['condvtbl',['CondVtbl',['../structCondVtbl.html',1,'']]]
 ];

@@ -2,6 +2,7 @@ var searchData=
 [
   ['p',['p',['../structGP__TREE.html#a7a994cad068039735f9781905f849ae8',1,'GP_TREE']]],
   ['p_5fcrossover',['P_CROSSOVER',['../structXCSF.html#af0d484f3eda41d05ba80878bbce4c0df',1,'XCSF']]],
+  ['p_5fdontcare',['P_DONTCARE',['../cond__ternary_8c.html#a406fe7fd44755ef2832ac805c8a748e6',1,'cond_ternary.c']]],
   ['p_5fexplore',['P_EXPLORE',['../structXCSF.html#a356e1eb7293a55c8e53cbb3e1d1265cf',1,'XCSF']]],
   ['p_5fmutation',['P_MUTATION',['../structXCSF.html#abdb5b699aa73e7761582256aad6baacc',1,'XCSF']]],
   ['pa',['pa',['../structXCSF.html#a49681646a21a0ba54e73f4efc7874fbd',1,'XCSF']]],

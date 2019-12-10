@@ -6,6 +6,7 @@ var searchData=
   ['cond_5ftype_5fhyperellipsoid',['COND_TYPE_HYPERELLIPSOID',['../xcsf_8h.html#a7a0c49b4c36cabce1b9e02de961ecedf',1,'xcsf.h']]],
   ['cond_5ftype_5fhyperrectangle',['COND_TYPE_HYPERRECTANGLE',['../xcsf_8h.html#a6eabf842ac032559a554614c53a45494',1,'xcsf.h']]],
   ['cond_5ftype_5fneural',['COND_TYPE_NEURAL',['../xcsf_8h.html#af5c1cf8ace43f9626a6676f12e2527e1',1,'xcsf.h']]],
+  ['cond_5ftype_5fternary',['COND_TYPE_TERNARY',['../xcsf_8h.html#a3e29ba0853416e3859204d6daa982e09',1,'xcsf.h']]],
   ['connected',['CONNECTED',['../neural__layer_8h.html#af6202935c026af12978d46a765dafb90',1,'neural_layer.h']]],
   ['cos',['COS',['../neural__activations_8h.html#af1af2de870caad797b91210f0fc6fe78',1,'neural_activations.h']]]
 ];

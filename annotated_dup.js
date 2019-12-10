@@ -8,6 +8,7 @@ var annotated_dup =
     [ "COND_GP", "structCOND__GP.html", "structCOND__GP" ],
     [ "COND_NEURAL", "structCOND__NEURAL.html", "structCOND__NEURAL" ],
     [ "COND_RECTANGLE", "structCOND__RECTANGLE.html", "structCOND__RECTANGLE" ],
+    [ "COND_TERNARY", "structCOND__TERNARY.html", "structCOND__TERNARY" ],
     [ "CondVtbl", "structCondVtbl.html", "structCondVtbl" ],
     [ "ENV_CSV", "structENV__CSV.html", "structENV__CSV" ],
     [ "ENV_MAZE", "structENV__MAZE.html", "structENV__MAZE" ],
