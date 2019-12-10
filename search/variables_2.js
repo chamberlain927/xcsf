@@ -3,6 +3,7 @@ var searchData=
   ['center',['center',['../structCOND__ELLIPSOID.html#af7a89d807af8775d6f1a3f67f8f9682a',1,'COND_ELLIPSOID::center()'],['../structCOND__RECTANGLE.html#a36ac57fc676b86795cec1af317a527b5',1,'COND_RECTANGLE::center()']]],
   ['cl',['cl',['../structCLIST.html#a60651d8123d20a55ae61704349d3d305',1,'CLIST']]],
   ['cond',['cond',['../structCL.html#a42ab2a8cd7e48b345cfe73b75bd5ba1b',1,'CL']]],
+  ['cond_5fbits',['COND_BITS',['../structXCSF.html#a64444510e07ae9c399176ac0b687d56f',1,'XCSF']]],
   ['cond_5fdgp_5fvtbl',['cond_dgp_vtbl',['../cond__dgp_8h.html#a8ab5cd084c9ceda214815ab9e04e6b31',1,'cond_dgp.h']]],
   ['cond_5fdummy_5fvtbl',['cond_dummy_vtbl',['../cond__dummy_8h.html#a6eca159b80d5d651ee4d1447962940f2',1,'cond_dummy.h']]],
   ['cond_5fellipsoid_5fvtbl',['cond_ellipsoid_vtbl',['../cond__ellipsoid_8h.html#ae768421c5f0e309a8d36144e349f456c',1,'cond_ellipsoid.h']]],

@@ -130,6 +130,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a9543cec444b548668ef25265e302f496"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8c.html#a9543cec444b548668ef25265e302f496">iconstrain</a> (int min, int max, int a)</td></tr>
 <tr class="memdesc:a9543cec444b548668ef25265e302f496"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an integer constrained within the specified range.  <a href="#a9543cec444b548668ef25265e302f496">More...</a><br /></td></tr>
 <tr class="separator:a9543cec444b548668ef25265e302f496"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeea3b7786cba0e5f69e2e176762a1edf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8c.html#aeea3b7786cba0e5f69e2e176762a1edf">float_to_binary</a> (double f, char *binary, int bits)</td></tr>
+<tr class="memdesc:aeea3b7786cba0e5f69e2e176762a1edf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a binary string from a float.  <a href="#aeea3b7786cba0e5f69e2e176762a1edf">More...</a><br /></td></tr>
+<tr class="separator:aeea3b7786cba0e5f69e2e176762a1edf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Utility functions for random number handling, etc. </p>
@@ -228,6 +231,60 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="utils_8c_a0c0a81e7797a05c535bad34449d8642c_icgraph.svg" width="2398" height="2022"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="aeea3b7786cba0e5f69e2e176762a1edf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeea3b7786cba0e5f69e2e176762a1edf">&#9670;&nbsp;</a></span>float_to_binary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void float_to_binary </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>binary</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>bits</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generates a binary string from a float. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>The float to binarise. </td></tr>
+    <tr><td class="paramname">binary</td><td>The converted binary string (set by this function). </td></tr>
+    <tr><td class="paramname">bits</td><td>The number of bits to use for binarising. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="utils_8c_source.html#l00139">139</a> of file <a class="el" href="utils_8c_source.html">utils.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="cond__ternary_8c_source.html#l00091">cond_ternary_cover()</a>, and <a class="el" href="cond__ternary_8c_source.html#l00113">cond_ternary_match()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="utils_8c_aeea3b7786cba0e5f69e2e176762a1edf_icgraph.svg" width="306" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -464,7 +521,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="mt19937-64_8c_source.html#l00081">init_genrand64()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00414">BOOST_PYTHON_MODULE()</a>, and <a class="el" href="main_8c_source.html#l00041">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00416">BOOST_PYTHON_MODULE()</a>, and <a class="el" href="main_8c_source.html#l00041">main()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

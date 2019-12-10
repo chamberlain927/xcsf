@@ -33,6 +33,7 @@ var searchData=
   ['cl_5fupdate_5fsize',['cl_update_size',['../cl_8c.html#afc238fc3418e3b3f9796e1f5059fc5dd',1,'cl.c']]],
   ['clist',['CLIST',['../structCLIST.html',1,'CLIST'],['../xcsf_8h.html#a17533dc1441cf20abea01cc7a3c0218a',1,'CLIST():&#160;xcsf.h']]],
   ['cond',['cond',['../structCL.html#a42ab2a8cd7e48b345cfe73b75bd5ba1b',1,'CL']]],
+  ['cond_5fbits',['COND_BITS',['../structXCSF.html#a64444510e07ae9c399176ac0b687d56f',1,'XCSF']]],
   ['cond_5fcopy',['cond_copy',['../condition_8h.html#a01fbda3bfee90047acd49e0af422de1f',1,'condition.h']]],
   ['cond_5fcover',['cond_cover',['../condition_8h.html#a641c2ffa4792f9f5549a73f31bb66d44',1,'condition.h']]],
   ['cond_5fcrossover',['cond_crossover',['../condition_8h.html#a16d81945146f0aa48db8892a3f11ac2a',1,'condition.h']]],

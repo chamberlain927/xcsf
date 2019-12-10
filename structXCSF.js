@@ -3,6 +3,7 @@ var structXCSF =
     [ "ACT_TYPE", "structXCSF.html#a665acef952eda9895067d37cb5d9a9bc", null ],
     [ "ALPHA", "structXCSF.html#aab84d855d797f15ffbd6feab2d615e30", null ],
     [ "BETA", "structXCSF.html#a90f971a6d7d1596cac1cef8d5dec947a", null ],
+    [ "COND_BITS", "structXCSF.html#a64444510e07ae9c399176ac0b687d56f", null ],
     [ "COND_ETA", "structXCSF.html#a89c02c415d0f790ffde4233b0ec14236", null ],
     [ "COND_EVOLVE_FUNCTIONS", "structXCSF.html#af42d9fade5df04ada5880f4187c91738", null ],
     [ "COND_EVOLVE_NEURONS", "structXCSF.html#a2d9ef5da33a58a6010ed0b1d33994603", null ],

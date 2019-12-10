@@ -32,6 +32,7 @@ var searchData=
   ['set_5favg_5fmut',['set_avg_mut',['../cl__set_8c.html#a81227ac29f572c4dce57d5fed7ac2517',1,'set_avg_mut(XCSF *xcsf, SET *set, int m):&#160;cl_set.c'],['../cl__set_8h.html#a81227ac29f572c4dce57d5fed7ac2517',1,'set_avg_mut(XCSF *xcsf, SET *set, int m):&#160;cl_set.c']]],
   ['set_5favg_5fpred_5fsize',['set_avg_pred_size',['../cl__set_8c.html#a0bd1bcc81dd3c22d0f080aa3f0ac3a05',1,'set_avg_pred_size(XCSF *xcsf, SET *set):&#160;cl_set.c'],['../cl__set_8h.html#a0bd1bcc81dd3c22d0f080aa3f0ac3a05',1,'set_avg_pred_size(XCSF *xcsf, SET *set):&#160;cl_set.c']]],
   ['set_5fbeta',['set_beta',['../structXCS.html#a10a220dff9f0275f3cfeb6148b14b61f',1,'XCS']]],
+  ['set_5fcond_5fbits',['set_cond_bits',['../structXCS.html#a044847423faee3ce9219ecc3ebcf16ae',1,'XCS']]],
   ['set_5fcond_5feta',['set_cond_eta',['../structXCS.html#a4fc7940382a8fb80476f61ab62a5db38',1,'XCS']]],
   ['set_5fcond_5fevolve_5ffunctions',['set_cond_evolve_functions',['../structXCS.html#a4d0df3031d806ff9aa065f1525d68676',1,'XCS']]],
   ['set_5fcond_5fevolve_5fneurons',['set_cond_evolve_neurons',['../structXCS.html#a964d1f253b75e3eecd6711e2a1272b2c',1,'XCS']]],

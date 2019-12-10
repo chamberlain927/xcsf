@@ -10,6 +10,7 @@ var searchData=
   ['get_5fact_5ftype',['get_act_type',['../structXCS.html#a6472a962f16eff33db155860e26fe22b',1,'XCS']]],
   ['get_5falpha',['get_alpha',['../structXCS.html#af7386da09a0fd0dc3da605a18c9ea9f4',1,'XCS']]],
   ['get_5fbeta',['get_beta',['../structXCS.html#ad9cbabeccd5bf519287455fea7648e14',1,'XCS']]],
+  ['get_5fcond_5fbits',['get_cond_bits',['../structXCS.html#ac28e060f2bad031b9982bd556cda7636',1,'XCS']]],
   ['get_5fcond_5feta',['get_cond_eta',['../structXCS.html#ad22e1ae16c6094daa2c079ffddef21cf',1,'XCS']]],
   ['get_5fcond_5fevolve_5ffunctions',['get_cond_evolve_functions',['../structXCS.html#a942c25d3dd5172b2294c37f71b30a3a0',1,'XCS']]],
   ['get_5fcond_5fevolve_5fneurons',['get_cond_evolve_neurons',['../structXCS.html#a4f0c49e497d382fd8e7b62d965112c43',1,'XCS']]],
