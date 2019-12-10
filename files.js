@@ -63,6 +63,8 @@ var files =
     [ "pa.h", "pa_8h.html", "pa_8h" ],
     [ "perf.c", "perf_8c.html", "perf_8c" ],
     [ "perf.h", "perf_8h.html", "perf_8h" ],
+    [ "pred_constant.c", "pred__constant_8c.html", "pred__constant_8c" ],
+    [ "pred_constant.h", "pred__constant_8h.html", "pred__constant_8h" ],
     [ "pred_neural.c", "pred__neural_8c.html", "pred__neural_8c" ],
     [ "pred_neural.h", "pred__neural_8h.html", "pred__neural_8h" ],
     [ "pred_nlms.c", "pred__nlms_8c.html", "pred__nlms_8c" ],
