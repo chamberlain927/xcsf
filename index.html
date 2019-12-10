@@ -104,35 +104,35 @@ $(document).ready(function(){initNavTree('index.html','');});
 <p>See <code>default.ini</code> for a full list of options.</p>
 <h3>Evolved Conditions</h3>
 <ul>
-<li><code>COND_TYPE = 0</code> Always matching dummy condition</li>
-<li><code>COND_TYPE = 1</code> Hyperrectangles</li>
-<li><code>COND_TYPE = 2</code> Hyperellipsoids</li>
-<li><code>COND_TYPE = 3</code> Multilayer perceptron neural networks</li>
-<li><code>COND_TYPE = 4</code> GP trees</li>
-<li><code>COND_TYPE = 5</code> Dynamical GP graphs</li>
-<li><code>COND_TYPE = 6</code> Ternary bitstrings (binarises inputs)</li>
-<li><code>COND_TYPE = 11</code> Both conditions and actions in single dynamical GP graphs</li>
-<li><code>COND_TYPE = 12</code> Both conditions and actions in single neural networks</li>
+<li><code>COND_TYPE = 0</code> : Always matching dummy condition</li>
+<li><code>COND_TYPE = 1</code> : Hyperrectangles</li>
+<li><code>COND_TYPE = 2</code> : Hyperellipsoids</li>
+<li><code>COND_TYPE = 3</code> : Multilayer perceptron neural networks</li>
+<li><code>COND_TYPE = 4</code> : GP trees</li>
+<li><code>COND_TYPE = 5</code> : Dynamical GP graphs</li>
+<li><code>COND_TYPE = 6</code> : Ternary bitstrings (binarises inputs)</li>
+<li><code>COND_TYPE = 11</code> : Both conditions and actions in single dynamical GP graphs</li>
+<li><code>COND_TYPE = 12</code> : Both conditions and actions in single neural networks</li>
 </ul>
 <h3>Evolved Actions</h3>
 <ul>
-<li><code>ACT_TYPE = 0</code> Integer actions</li>
+<li><code>ACT_TYPE = 0</code> : Integer actions</li>
 </ul>
 <h3>Computed Predictions</h3>
 <ul>
-<li><code>PRED_TYPE = 0</code> Piece-wise constant</li>
-<li><code>PRED_TYPE = 1</code> Linear least squares</li>
-<li><code>PRED_TYPE = 2</code> Quadratic least squares</li>
-<li><code>PRED_TYPE = 3</code> Linear recursive least squares</li>
-<li><code>PRED_TYPE = 4</code> Quadratic recursive least squares</li>
-<li><code>PRED_TYPE = 5</code> Stochastic gradient descent multilayer perceptron neural networks</li>
+<li><code>PRED_TYPE = 0</code> : Piece-wise constant</li>
+<li><code>PRED_TYPE = 1</code> : Linear least squares</li>
+<li><code>PRED_TYPE = 2</code> : Quadratic least squares</li>
+<li><code>PRED_TYPE = 3</code> : Linear recursive least squares</li>
+<li><code>PRED_TYPE = 4</code> : Quadratic recursive least squares</li>
+<li><code>PRED_TYPE = 5</code> : Stochastic gradient descent multilayer perceptron neural networks</li>
 </ul>
 <hr/>
 <h2>Compiler options</h2>
 <ul>
-<li><code>XCSF_PYLIB = ON</code> Python library (CMake default = OFF)</li>
-<li><code>PARALLEL = ON</code> CPU parallelised matching, predicting, and updating with OpenMP (CMake default = ON)</li>
-<li><code>GNUPLOT = ON</code> real-time Gnuplot of the system error; data saved in folder: <code>out</code> (CMake default = OFF)</li>
+<li><code>XCSF_PYLIB = ON</code> : Python library (CMake default = OFF)</li>
+<li><code>PARALLEL = ON</code> : CPU parallelised matching, predicting, and updating with OpenMP (CMake default = ON)</li>
+<li><code>GNUPLOT = ON</code> : real-time Gnuplot of the system error; data saved in folder: <code>out</code> (CMake default = OFF)</li>
 </ul>
 <hr/>
 <h2>Requirements</h2>
