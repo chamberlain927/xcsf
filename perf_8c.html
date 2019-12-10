@@ -103,8 +103,7 @@ $(document).ready(function(){initNavTree('perf_8c.html','');});
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for perf.c:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="perf_8c__incl.svg" width="842" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="perf_8c__incl.svg" width="842" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <p><a href="perf_8c_source.html">Go to the source code of this file.</a></p>
@@ -112,12 +111,16 @@ Include dependency graph for perf.c:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a8a4ffedb577efb2072cf1659b8289b3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="perf_8c.html#a8a4ffedb577efb2072cf1659b8289b3e">gplot_init</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="memdesc:a8a4ffedb577efb2072cf1659b8289b3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dummy init function if Gnuplot not defined.  <a href="#a8a4ffedb577efb2072cf1659b8289b3e">More...</a><br /></td></tr>
 <tr class="separator:a8a4ffedb577efb2072cf1659b8289b3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8a54728a7f58890e6c7001969254d16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="perf_8c.html#ab8a54728a7f58890e6c7001969254d16">gplot_free</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="memdesc:ab8a54728a7f58890e6c7001969254d16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dummy free function if Gnuplot not defined.  <a href="#ab8a54728a7f58890e6c7001969254d16">More...</a><br /></td></tr>
 <tr class="separator:ab8a54728a7f58890e6c7001969254d16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6951afc97f1e102dda5b0e88fd626602"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="perf_8c.html#a6951afc97f1e102dda5b0e88fd626602">disp_perf1</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, double error, int trial)</td></tr>
+<tr class="memdesc:a6951afc97f1e102dda5b0e88fd626602"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays the current training performance (additionally redraws Gnuplot if defined.)  <a href="#a6951afc97f1e102dda5b0e88fd626602">More...</a><br /></td></tr>
 <tr class="separator:a6951afc97f1e102dda5b0e88fd626602"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada9784544f0b0c0b2690427ce3b21949"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="perf_8c.html#ada9784544f0b0c0b2690427ce3b21949">disp_perf2</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, double error, double terror, int trial)</td></tr>
+<tr class="memdesc:ada9784544f0b0c0b2690427ce3b21949"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays the current training and test performance (additionally redraws Gnuplot if defined.)  <a href="#ada9784544f0b0c0b2690427ce3b21949">More...</a><br /></td></tr>
 <tr class="separator:ada9784544f0b0c0b2690427ce3b21949"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -160,22 +163,30 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="perf_8c_source.html#l00189">189</a> of file <a class="el" href="perf_8c_source.html">perf.c</a>.</p>
+<p>Displays the current training performance (additionally redraws Gnuplot if defined.) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">error</td><td>The current training error. </td></tr>
+    <tr><td class="paramname">trial</td><td>The number of learning trials executed. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00071">XCSF::pset</a>, <a class="el" href="xcsf_8h_source.html#l00116">XCSF::SAM_NUM</a>, <a class="el" href="cl__set_8c_source.html#l00588">set_avg_mut()</a>, and <a class="el" href="xcsf_8h_source.html#l00063">SET::size</a>.</p>
+<p class="definition">Definition at line <a class="el" href="perf_8c_source.html#l00230">230</a> of file <a class="el" href="perf_8c_source.html">perf.c</a>.</p>
+
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00088">XCSF::pset</a>, <a class="el" href="xcsf_8h_source.html#l00133">XCSF::SAM_NUM</a>, <a class="el" href="cl__set_8c_source.html#l00588">set_avg_mut()</a>, and <a class="el" href="xcsf_8h_source.html#l00080">SET::size</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="xcsf_8c_source.html#l00068">xcsf_fit2()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="perf_8c_a6951afc97f1e102dda5b0e88fd626602_cgraph.svg" width="406" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="perf_8c_a6951afc97f1e102dda5b0e88fd626602_cgraph.svg" width="406" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="perf_8c_a6951afc97f1e102dda5b0e88fd626602_icgraph.svg" width="694" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="perf_8c_a6951afc97f1e102dda5b0e88fd626602_icgraph.svg" width="694" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -218,22 +229,31 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="perf_8c_source.html#l00202">202</a> of file <a class="el" href="perf_8c_source.html">perf.c</a>.</p>
+<p>Displays the current training and test performance (additionally redraws Gnuplot if defined.) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">error</td><td>The current training error. </td></tr>
+    <tr><td class="paramname">terror</td><td>The current testing error. </td></tr>
+    <tr><td class="paramname">trial</td><td>The number of learning trials executed. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00071">XCSF::pset</a>, <a class="el" href="xcsf_8h_source.html#l00116">XCSF::SAM_NUM</a>, <a class="el" href="cl__set_8c_source.html#l00588">set_avg_mut()</a>, and <a class="el" href="xcsf_8h_source.html#l00063">SET::size</a>.</p>
+<p class="definition">Definition at line <a class="el" href="perf_8c_source.html#l00251">251</a> of file <a class="el" href="perf_8c_source.html">perf.c</a>.</p>
+
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00088">XCSF::pset</a>, <a class="el" href="xcsf_8h_source.html#l00133">XCSF::SAM_NUM</a>, <a class="el" href="cl__set_8c_source.html#l00588">set_avg_mut()</a>, and <a class="el" href="xcsf_8h_source.html#l00080">SET::size</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="xcs__multi__step_8c_source.html#l00046">xcs_multi_step_exp()</a>, <a class="el" href="xcs__single__step_8c_source.html#l00046">xcs_single_step_exp()</a>, and <a class="el" href="xcsf_8c_source.html#l00068">xcsf_fit2()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="perf_8c_ada9784544f0b0c0b2690427ce3b21949_cgraph.svg" width="406" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="perf_8c_ada9784544f0b0c0b2690427ce3b21949_cgraph.svg" width="406" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="perf_8c_ada9784544f0b0c0b2690427ce3b21949_icgraph.svg" width="766" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="perf_8c_ada9784544f0b0c0b2690427ce3b21949_icgraph.svg" width="766" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -254,22 +274,28 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="perf_8c_source.html#l00042">42</a> of file <a class="el" href="perf_8c_source.html">perf.c</a>.</p>
+<p>Dummy free function if Gnuplot not defined. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00099">XCSF::COND_TYPE</a>, <a class="el" href="perf_8c_source.html#l00042">gplot_free()</a>, <a class="el" href="perf_8c_source.html#l00037">gplot_init()</a>, <a class="el" href="xcsf_8h_source.html#l00173">XCSF::num_actions</a>, <a class="el" href="xcsf_8h_source.html#l00080">XCSF::POP_SIZE</a>, <a class="el" href="xcsf_8h_source.html#l00100">XCSF::PRED_TYPE</a>, <a class="el" href="xcsf_8h_source.html#l00071">XCSF::pset</a>, <a class="el" href="xcsf_8h_source.html#l00116">XCSF::SAM_NUM</a>, <a class="el" href="cl__set_8c_source.html#l00588">set_avg_mut()</a>, and <a class="el" href="xcsf_8h_source.html#l00063">SET::size</a>.</p>
+<p class="definition">Definition at line <a class="el" href="perf_8c_source.html#l00050">50</a> of file <a class="el" href="perf_8c_source.html">perf.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="perf_8c_source.html#l00042">gplot_free()</a>, <a class="el" href="xcs__multi__step_8c_source.html#l00046">xcs_multi_step_exp()</a>, <a class="el" href="xcs__single__step_8c_source.html#l00046">xcs_single_step_exp()</a>, and <a class="el" href="xcsf_8c_source.html#l00068">xcsf_fit2()</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00116">XCSF::COND_TYPE</a>, <a class="el" href="xcsf_8h_source.html#l00031">COND_TYPE_DGP</a>, <a class="el" href="xcsf_8h_source.html#l00026">COND_TYPE_DUMMY</a>, <a class="el" href="xcsf_8h_source.html#l00030">COND_TYPE_GP</a>, <a class="el" href="xcsf_8h_source.html#l00028">COND_TYPE_HYPERELLIPSOID</a>, <a class="el" href="xcsf_8h_source.html#l00027">COND_TYPE_HYPERRECTANGLE</a>, <a class="el" href="xcsf_8h_source.html#l00029">COND_TYPE_NEURAL</a>, <a class="el" href="perf_8c_source.html#l00050">gplot_free()</a>, <a class="el" href="perf_8c_source.html#l00041">gplot_init()</a>, <a class="el" href="xcsf_8h_source.html#l00190">XCSF::num_actions</a>, <a class="el" href="xcsf_8h_source.html#l00097">XCSF::POP_SIZE</a>, <a class="el" href="xcsf_8h_source.html#l00117">XCSF::PRED_TYPE</a>, <a class="el" href="xcsf_8h_source.html#l00041">PRED_TYPE_NEURAL</a>, <a class="el" href="xcsf_8h_source.html#l00037">PRED_TYPE_NLMS_LINEAR</a>, <a class="el" href="xcsf_8h_source.html#l00038">PRED_TYPE_NLMS_QUADRATIC</a>, <a class="el" href="xcsf_8h_source.html#l00039">PRED_TYPE_RLS_LINEAR</a>, <a class="el" href="xcsf_8h_source.html#l00040">PRED_TYPE_RLS_QUADRATIC</a>, <a class="el" href="xcsf_8h_source.html#l00088">XCSF::pset</a>, <a class="el" href="xcsf_8h_source.html#l00032">RULE_TYPE_DGP</a>, <a class="el" href="xcsf_8h_source.html#l00033">RULE_TYPE_NEURAL</a>, <a class="el" href="xcsf_8h_source.html#l00133">XCSF::SAM_NUM</a>, <a class="el" href="cl__set_8c_source.html#l00588">set_avg_mut()</a>, and <a class="el" href="xcsf_8h_source.html#l00080">SET::size</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="perf_8c_source.html#l00050">gplot_free()</a>, <a class="el" href="xcs__multi__step_8c_source.html#l00046">xcs_multi_step_exp()</a>, <a class="el" href="xcs__single__step_8c_source.html#l00046">xcs_single_step_exp()</a>, and <a class="el" href="xcsf_8c_source.html#l00068">xcsf_fit2()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="perf_8c_ab8a54728a7f58890e6c7001969254d16_cgraph.svg" width="402" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="perf_8c_ab8a54728a7f58890e6c7001969254d16_cgraph.svg" width="402" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="perf_8c_ab8a54728a7f58890e6c7001969254d16_icgraph.svg" width="888" height="210"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="perf_8c_ab8a54728a7f58890e6c7001969254d16_icgraph.svg" width="888" height="210"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -290,14 +316,21 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="perf_8c_source.html#l00037">37</a> of file <a class="el" href="perf_8c_source.html">perf.c</a>.</p>
+<p>Dummy init function if Gnuplot not defined. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="reference">Referenced by <a class="el" href="perf_8c_source.html#l00042">gplot_free()</a>, <a class="el" href="xcs__multi__step_8c_source.html#l00046">xcs_multi_step_exp()</a>, <a class="el" href="xcs__single__step_8c_source.html#l00046">xcs_single_step_exp()</a>, and <a class="el" href="xcsf_8c_source.html#l00068">xcsf_fit2()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="perf_8c_source.html#l00041">41</a> of file <a class="el" href="perf_8c_source.html">perf.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="perf_8c_source.html#l00050">gplot_free()</a>, <a class="el" href="xcs__multi__step_8c_source.html#l00046">xcs_multi_step_exp()</a>, <a class="el" href="xcs__single__step_8c_source.html#l00046">xcs_single_step_exp()</a>, and <a class="el" href="xcsf_8c_source.html#l00068">xcsf_fit2()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="perf_8c_a8a4ffedb577efb2072cf1659b8289b3e_icgraph.svg" width="884" height="211"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="perf_8c_a8a4ffedb577efb2072cf1659b8289b3e_icgraph.svg" width="884" height="211"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

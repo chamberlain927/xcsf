@@ -43,6 +43,7 @@ var searchData=
   ['act_5frand',['act_rand',['../action_8h.html#a7e24eb074d92b1c9a663be2b7e29293b',1,'action.h']]],
   ['act_5fsave',['act_save',['../action_8h.html#ab3e22194b9ced126cdfea043dcc5f7d3',1,'action.h']]],
   ['act_5ftype',['ACT_TYPE',['../structXCSF.html#a665acef952eda9895067d37cb5d9a9bc',1,'XCSF']]],
+  ['act_5ftype_5finteger',['ACT_TYPE_INTEGER',['../xcsf_8h.html#abbc6abdf84851d097491b04eced2f54e',1,'xcsf.h']]],
   ['act_5fupdate',['act_update',['../action_8h.html#af752baf1f8d7b4f15b018a95759fc9c5',1,'action.h']]],
   ['act_5fvptr',['act_vptr',['../structCL.html#a029b13d6a2e908af0bf292f05ab21940',1,'CL']]],
   ['action',['action',['../structXCS.html#ab15ea71a709a43dec56cac1a2eebebcc',1,'XCS::action()'],['../structCL.html#a014cd367304cd8e6093e827b1517dfd1',1,'CL::action()']]],
