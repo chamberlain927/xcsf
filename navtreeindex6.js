@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"structXCS.html#a38608386e4a81f877231635271f1dee1":[1,0,29,43],
 "structXCS.html#a38dbe604ed47cec50afe431e2ff43a3f":[1,0,29,59],
 "structXCS.html#a38dce73a7295dbef9e9e6a87b8c0de58":[1,0,29,108],
 "structXCS.html#a3d8d21c5b07ef7c56b8698579ef457ca":[1,0,29,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "xcs__multi__step_8c_source.html":[2,0,82],
 "xcs__multi__step_8h.html":[2,0,83],
 "xcs__multi__step_8h.html#acc29d4a55dbd56c16ea5f19f15a7c677":[2,0,83,0],
-"xcs__multi__step_8h_source.html":[2,0,83],
-"xcs__single__step_8c.html":[2,0,84]
+"xcs__multi__step_8h_source.html":[2,0,83]
 };

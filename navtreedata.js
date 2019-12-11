@@ -32,8 +32,8 @@ var NAVTREEINDEX =
 "neural_8c.html#a2690c6b4f8d7ebf3158abb1a94c0e527",
 "perf_8h.html#ada9784544f0b0c0b2690427ce3b21949",
 "rule__neural_8h.html#a8ccc0984e6a815cc9197e330f95ede08",
-"structXCS.html#a38dbe604ed47cec50afe431e2ff43a3f",
-"xcs__single__step_8c.html#a39a031bf59eaa9b33e30e614610dcda8"
+"structXCS.html#a38608386e4a81f877231635271f1dee1",
+"xcs__single__step_8c.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
