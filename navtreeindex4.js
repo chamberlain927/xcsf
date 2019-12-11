@@ -136,6 +136,7 @@ var NAVTREEINDEX4 =
 "prediction_8h.html#ab7b5be5cd3d39ed86fd6bf0777354d70":[2,0,72,1],
 "prediction_8h_source.html":[2,0,72],
 "python__wrapper_8cpp.html":[2,0,73],
+"python__wrapper_8cpp.html#ad0bc993489799b3864429756909417a6":[2,0,73,2],
 "python__wrapper_8cpp.html#afbdcc1358036a0b83a6b239da2b098a2":[2,0,73,1],
 "python__wrapper_8cpp_source.html":[2,0,73],
 "rule__dgp_8c.html":[2,0,74],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "rule__neural_8h.html#a72b4ea53a4ca876b4216a7f81b438bba":[2,0,77,2],
 "rule__neural_8h.html#a7c5597208a7b1b7a7ebc638db191eb22":[2,0,77,25],
 "rule__neural_8h.html#a7d7fd228c443ff42540c0372305ac088":[2,0,77,11],
-"rule__neural_8h.html#a826a4c8745e9b476861de51a11134f97":[2,0,77,21],
-"rule__neural_8h.html#a846979c6acd6263a2da766cc1ab628ce":[2,0,77,18]
+"rule__neural_8h.html#a826a4c8745e9b476861de51a11134f97":[2,0,77,21]
 };

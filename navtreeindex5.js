@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"rule__neural_8h.html#a846979c6acd6263a2da766cc1ab628ce":[2,0,77,18],
 "rule__neural_8h.html#a8ccc0984e6a815cc9197e330f95ede08":[2,0,77,8],
 "rule__neural_8h.html#a8fa5e482c15d54ab163eba0994550949":[2,0,77,10],
 "rule__neural_8h.html#a9565580fa07b077616e1b58e1369c5a2":[2,0,77,23],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "structXCS.html#a3072dfc399e44f51adc3bbc8f1f987b4":[1,0,29,37],
 "structXCS.html#a3401894f75120cfd8adc727f2880ffdc":[1,0,29,107],
 "structXCS.html#a34f159d663b595087e916ddab26af2d5":[1,0,29,141],
-"structXCS.html#a362be109ab177d116fe641d4f8fee71d":[1,0,29,145],
-"structXCS.html#a3770077f8614335b32ed6c683260fe6d":[1,0,29,22]
+"structXCS.html#a362be109ab177d116fe641d4f8fee71d":[1,0,29,145]
 };

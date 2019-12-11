@@ -163,6 +163,7 @@ var structXCS =
     [ "single_reset", "structXCS.html#ab58a4fb495b05f3450b182bc21dcba1f", null ],
     [ "single_update", "structXCS.html#aedc01ad6f00a54b260a7605929a1d4c9", null ],
     [ "version", "structXCS.html#aa2197e74319fcf1b60d52de04fb132b1", null ],
+    [ "xcs_init", "structXCS.html#ad372bae45743be0fbf7d95b67e13b390", null ],
     [ "action", "structXCS.html#ab15ea71a709a43dec56cac1a2eebebcc", null ],
     [ "aset", "structXCS.html#ae9a88afa19d851ec744c542f693f2249", null ],
     [ "kset", "structXCS.html#a7f21ed63967e63e955550a7ca03d0220", null ],

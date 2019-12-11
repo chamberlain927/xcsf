@@ -1,6 +1,7 @@
 var searchData=
 [
   ['xcs',['XCS',['../structXCS.html#a0dd359a4dfc0a6439a5c6554768c8b9f',1,'XCS::XCS(int num_x_vars, int num_actions, _Bool multistep)'],['../structXCS.html#abcfa655a934bb0bf6348df073b39ce72',1,'XCS::XCS(int num_x_vars, int num_y_vars)'],['../structXCS.html#a6cfaf100bf40e491fb8b32a93439b969',1,'XCS::XCS(int num_x_vars, int num_y_vars, const char *filename)']]],
+  ['xcs_5finit',['xcs_init',['../structXCS.html#ad372bae45743be0fbf7d95b67e13b390',1,'XCS::xcs_init()'],['../python__wrapper_8cpp.html#ad0bc993489799b3864429756909417a6',1,'xcs_init():&#160;python_wrapper.cpp']]],
   ['xcs_5fmulti_5fstep_5fexp',['xcs_multi_step_exp',['../xcs__multi__step_8c.html#acc29d4a55dbd56c16ea5f19f15a7c677',1,'xcs_multi_step_exp(XCSF *xcsf):&#160;xcs_multi_step.c'],['../xcs__multi__step_8h.html#acc29d4a55dbd56c16ea5f19f15a7c677',1,'xcs_multi_step_exp(XCSF *xcsf):&#160;xcs_multi_step.c']]],
   ['xcs_5fmulti_5ftrial',['xcs_multi_trial',['../xcs__multi__step_8c.html#a1e1c2a3094be715b468dda79cd59ebf3',1,'xcs_multi_step.c']]],
   ['xcs_5fsingle_5fdecision',['xcs_single_decision',['../xcs__single__step_8c.html#a6cd0f3c0c1c71e13dba1ce493ef873a5',1,'xcs_single_decision(XCSF *xcsf, SET *mset, SET *kset, double *x):&#160;xcs_single_step.c'],['../xcs__single__step_8h.html#a6cd0f3c0c1c71e13dba1ce493ef873a5',1,'xcs_single_decision(XCSF *xcsf, SET *mset, SET *kset, double *x):&#160;xcs_single_step.c']]],
