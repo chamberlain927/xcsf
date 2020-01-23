@@ -8,6 +8,7 @@ var searchData=
   ['relu',['RELU',['../neural__activations_8h.html#a6a9f120917c6b18fde3cb85c95af7550',1,'neural_activations.h']]],
   ['relu_5factivate',['relu_activate',['../neural__activations_8h.html#a90b4b22f4ec82215ebf5bee3ccd0013f',1,'neural_activations.h']]],
   ['relu_5fgradient',['relu_gradient',['../neural__activations_8h.html#a6e49e33b48cd376b129aeeafb65c8807',1,'neural_activations.h']]],
+  ['remove_5fneuron',['remove_neuron',['../neural__layer__connected_8c.html#a35f10f5a0f103a2e045ddb9130adcd99',1,'neural_layer_connected.c']]],
   ['reset',['reset',['../structENV__MAZE.html#a310adaaa1e8c646762ed1171a0dedd0a',1,'ENV_MAZE']]],
   ['reset_5fstates',['RESET_STATES',['../structXCSF.html#aab2df0dce0e143031994db40d4e59ccd',1,'XCSF']]],
   ['rows',['rows',['../structINPUT.html#a1d53fd98b244cf91f0c90ad6d34d4c6a',1,'INPUT']]],

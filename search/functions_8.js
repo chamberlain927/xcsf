@@ -9,6 +9,7 @@ var searchData=
   ['layer_5foutput',['layer_output',['../neural__layer_8h.html#ae368122593145e157358d7059bbf0901',1,'neural_layer.h']]],
   ['layer_5fprint',['layer_print',['../neural__layer_8h.html#ae3ffe327c949f8ababec2b3d69ce27cf',1,'neural_layer.h']]],
   ['layer_5frand',['layer_rand',['../neural__layer_8h.html#afbff326e8a428fe817bfae53396d3f60',1,'neural_layer.h']]],
+  ['layer_5fresize',['layer_resize',['../neural__layer_8h.html#a955e7896dc8ff75301639b9f5479f725',1,'neural_layer.h']]],
   ['layer_5fsave',['layer_save',['../neural__layer_8h.html#ae1b2cfb59d779c130347338fff3b81b7',1,'neural_layer.h']]],
   ['layer_5fupdate',['layer_update',['../neural__layer_8h.html#a385754f0bbaaef3eccb8d51d2ff1486a',1,'neural_layer.h']]],
   ['leaky_5factivate',['leaky_activate',['../neural__activations_8h.html#afaca3dadb26beb0668bafd5058d71aa4',1,'neural_activations.h']]],

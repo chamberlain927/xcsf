@@ -8,7 +8,6 @@ var searchData=
   ['nu',['NU',['../structXCSF.html#a6ffb8993fdb50334736dbaf51b7592bd',1,'XCSF']]],
   ['num',['num',['../structCL.html#a7d2c3c55614401cc90c6ce3cc3e66f3e',1,'CL::num()'],['../structSET.html#a65c958a63359bcaf0e2a374e770df436',1,'SET::num()']]],
   ['num_5factions',['num_actions',['../structXCSF.html#ae104f4d5926f9e2f1da2fef5a14bdfd5',1,'XCSF']]],
-  ['num_5factive',['num_active',['../structLAYER.html#a7ee938301d00e468fcc000ed5417da36',1,'LAYER']]],
   ['num_5finputs',['num_inputs',['../structNET.html#abbe8f1e609d68dfed52bb5903602bb26',1,'NET::num_inputs()'],['../structLAYER.html#a444cda34793d6f792d76a997dc1384c3',1,'LAYER::num_inputs()']]],
   ['num_5flayers',['num_layers',['../structNET.html#a19f34e188483b29e4d3547b2e227155a',1,'NET']]],
   ['num_5foutputs',['num_outputs',['../structNET.html#a3bbf31738a420262dda9aa96ac6813d6',1,'NET::num_outputs()'],['../structLAYER.html#afc27659b79187e630133c63c436049eb',1,'LAYER::num_outputs()'],['../structRULE__DGP.html#a8271d57244476077a6869721895a1137',1,'RULE_DGP::num_outputs()'],['../structRULE__NEURAL.html#a05533241bac5647ed445c8b869070711',1,'RULE_NEURAL::num_outputs()']]],

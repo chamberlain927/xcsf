@@ -9,7 +9,7 @@ var structCL =
     [ "exp", "structCL.html#a14f0e79726736c74a3c0a97525f597d9", null ],
     [ "fit", "structCL.html#a31cf5b960db1c58f5509b2f77ad7330c", null ],
     [ "m", "structCL.html#a36b129a577a379310b8c02c7af61a50d", null ],
-    [ "mhist", "structCL.html#ad6ceada5cd42180fb7dfc2ad6893fb94", null ],
+    [ "mfrac", "structCL.html#ab117d203e7dc46027934bbfce9f2fd5c", null ],
     [ "mu", "structCL.html#ac041d3df100a129e0de82d9e09155979", null ],
     [ "num", "structCL.html#a7d2c3c55614401cc90c6ce3cc3e66f3e", null ],
     [ "pred", "structCL.html#a9319caaf3c1bd7008f2dff02af4a6113", null ],

@@ -13,6 +13,7 @@ var searchData=
   ['layer_5fimpl_5foutput',['layer_impl_output',['../structLayerVtbl.html#aa8e9c7e34c920484d2256675b9bb6530',1,'LayerVtbl']]],
   ['layer_5fimpl_5fprint',['layer_impl_print',['../structLayerVtbl.html#a83302becd112f0bf9c9a9f02d728dff0',1,'LayerVtbl']]],
   ['layer_5fimpl_5frand',['layer_impl_rand',['../structLayerVtbl.html#ad1a99394dd0810a425ad3863239d53d0',1,'LayerVtbl']]],
+  ['layer_5fimpl_5fresize',['layer_impl_resize',['../structLayerVtbl.html#a17aa98a92006df83c23ca006cae85474',1,'LayerVtbl']]],
   ['layer_5fimpl_5fsave',['layer_impl_save',['../structLayerVtbl.html#a767d6e9af372129998ae0244715b2c74',1,'LayerVtbl']]],
   ['layer_5fimpl_5fupdate',['layer_impl_update',['../structLayerVtbl.html#a74461289302b9dc90aa3ce5eb785368b',1,'LayerVtbl']]],
   ['layer_5fnoise_5fvtbl',['layer_noise_vtbl',['../neural__layer__noise_8h.html#a0ff6d6c8d7a805a3bc9855205a801033',1,'neural_layer_noise.h']]],

@@ -104,6 +104,9 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a3d47219b22307eef5017f07c71d2c119"><td class="memItemLeft" align="right" valign="top">_Bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#a3d47219b22307eef5017f07c71d2c119">layer_impl_mutate</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td></tr>
 <tr class="memdesc:a3d47219b22307eef5017f07c71d2c119"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs layer mutation.  <a href="#a3d47219b22307eef5017f07c71d2c119">More...</a><br /></td></tr>
 <tr class="separator:a3d47219b22307eef5017f07c71d2c119"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17aa98a92006df83c23ca006cae85474"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#a17aa98a92006df83c23ca006cae85474">layer_impl_resize</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, <a class="el" href="structLAYER.html">LAYER</a> *prev)</td></tr>
+<tr class="memdesc:a17aa98a92006df83c23ca006cae85474"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resizes a layer using the previous layer's inputs.  <a href="#a17aa98a92006df83c23ca006cae85474">More...</a><br /></td></tr>
+<tr class="separator:a17aa98a92006df83c23ca006cae85474"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b537a9a2ee9807cf23c2febb6bf94c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structLAYER.html">LAYER</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#a0b537a9a2ee9807cf23c2febb6bf94c3">layer_impl_copy</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *from)</td></tr>
 <tr class="memdesc:a0b537a9a2ee9807cf23c2febb6bf94c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates and returns a copy of a specified layer.  <a href="#a0b537a9a2ee9807cf23c2febb6bf94c3">More...</a><br /></td></tr>
 <tr class="separator:a0b537a9a2ee9807cf23c2febb6bf94c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,7 +142,7 @@ Data Fields</h2></td></tr>
 <div class="textblock"><p>Neural network layer interface data structure. </p>
 <p>Neural network layer implementations must implement these functions. </p>
 
-<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00070">70</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00069">69</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
 </div><h2 class="groupheader">Field Documentation</h2>
 <a id="aabd95c8baceff8f2af6f881ebf44e5ae"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aabd95c8baceff8f2af6f881ebf44e5ae">&#9670;&nbsp;</a></span>layer_impl_backward</h2>
@@ -163,9 +166,9 @@ Data Fields</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00116">116</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00123">123</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00165">layer_backward()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00172">layer_backward()</a>.</p>
 
 </div>
 </div>
@@ -191,9 +194,9 @@ Data Fields</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A new copied layer. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00084">84</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00091">91</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00177">layer_copy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00188">layer_copy()</a>.</p>
 
 </div>
 </div>
@@ -219,9 +222,9 @@ Data Fields</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00123">123</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00130">130</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00161">layer_forward()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00168">layer_forward()</a>.</p>
 
 </div>
 </div>
@@ -246,9 +249,9 @@ Data Fields</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00090">90</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00097">97</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00181">layer_free()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00192">layer_free()</a>.</p>
 
 </div>
 </div>
@@ -275,9 +278,9 @@ Data Fields</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The number of elements read. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00146">146</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00153">153</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00153">layer_load()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00160">layer_load()</a>.</p>
 
 </div>
 </div>
@@ -303,9 +306,9 @@ Data Fields</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Whether any alterations were made. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00077">77</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00076">76</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00173">layer_mutate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00180">layer_mutate()</a>.</p>
 
 </div>
 </div>
@@ -331,9 +334,9 @@ Data Fields</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The layer outputs. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00130">130</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00137">137</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00157">layer_output()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00164">layer_output()</a>.</p>
 
 </div>
 </div>
@@ -359,9 +362,9 @@ Data Fields</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00103">103</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00110">110</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00189">layer_print()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00200">layer_print()</a>.</p>
 
 </div>
 </div>
@@ -386,9 +389,38 @@ Data Fields</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00096">96</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00103">103</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00185">layer_rand()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00196">layer_rand()</a>.</p>
+
+</div>
+</div>
+<a id="a17aa98a92006df83c23ca006cae85474"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17aa98a92006df83c23ca006cae85474">&#9670;&nbsp;</a></span>layer_impl_resize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* LayerVtbl::layer_impl_resize) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, <a class="el" href="structLAYER.html">LAYER</a> *prev)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Resizes a layer using the previous layer's inputs. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">l</td><td>The layer to mutate. </td></tr>
+    <tr><td class="paramname">prev</td><td>The layer prior to the one being mutated. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether any alterations were made. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00084">84</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00184">layer_resize()</a>.</p>
 
 </div>
 </div>
@@ -415,9 +447,9 @@ Data Fields</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The number of elements written. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00138">138</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00145">145</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00149">layer_save()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00156">layer_save()</a>.</p>
 
 </div>
 </div>
@@ -442,9 +474,9 @@ Data Fields</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00109">109</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00116">116</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00169">layer_update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="neural__layer_8h_source.html#l00176">layer_update()</a>.</p>
 
 </div>
 </div>

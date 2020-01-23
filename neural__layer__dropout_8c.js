@@ -10,6 +10,7 @@ var neural__layer__dropout_8c =
     [ "neural_layer_dropout_output", "neural__layer__dropout_8c.html#a0f7a67a1e53715e69160ea5e4807004f", null ],
     [ "neural_layer_dropout_print", "neural__layer__dropout_8c.html#ae1ae9482074cab6d3e338f60aff24c3e", null ],
     [ "neural_layer_dropout_rand", "neural__layer__dropout_8c.html#aa70836f74d040f446812076ef68638b4", null ],
+    [ "neural_layer_dropout_resize", "neural__layer__dropout_8c.html#a03c4d3fc48507cc848bfde85ed637f17", null ],
     [ "neural_layer_dropout_save", "neural__layer__dropout_8c.html#ae266eba5625c6ae09cbb6dcf76292106", null ],
     [ "neural_layer_dropout_update", "neural__layer__dropout_8c.html#a88756042eff7a68b197a40a3dec88377", null ]
 ];

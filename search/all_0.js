@@ -51,9 +51,9 @@ var searchData=
   ['action_2eh',['action.h',['../action_8h.html',1,'']]],
   ['action_5fset',['action_set',['../action_8c.html#a3dda6c6f441d69995296435482803ae8',1,'action_set(XCSF *xcsf, CL *c):&#160;action.c'],['../action_8h.html#a3dda6c6f441d69995296435482803ae8',1,'action_set(XCSF *xcsf, CL *c):&#160;action.c']]],
   ['activation_5fstring',['activation_string',['../neural__activations_8c.html#a7174b4bd7afa366eaf34053d53005684',1,'activation_string(int function):&#160;neural_activations.c'],['../neural__activations_8h.html#a7174b4bd7afa366eaf34053d53005684',1,'activation_string(int function):&#160;neural_activations.c']]],
-  ['active',['active',['../structLAYER.html#a9c656849cfe10577251f6cd684a488b3',1,'LAYER']]],
   ['actvtbl',['ActVtbl',['../structActVtbl.html',1,'']]],
   ['add',['ADD',['../gp_8c.html#a97fe5470fb1ac167c713671655ff3e52',1,'gp.c']]],
+  ['add_5fneuron',['add_neuron',['../neural__layer__connected_8c.html#af53a7bd52046f104cf4ce416cc759122',1,'neural_layer_connected.c']]],
   ['alpha',['ALPHA',['../structXCSF.html#aab84d855d797f15ffbd6feab2d615e30',1,'XCSF']]],
   ['aset',['aset',['../structXCS.html#ae9a88afa19d851ec744c542f693f2249',1,'XCS']]]
 ];

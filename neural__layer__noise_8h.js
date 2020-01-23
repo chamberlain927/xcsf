@@ -10,6 +10,7 @@ var neural__layer__noise_8h =
     [ "neural_layer_noise_output", "neural__layer__noise_8h.html#add63636233cf6ecb9686abe2abfc9d19", null ],
     [ "neural_layer_noise_print", "neural__layer__noise_8h.html#a9425c5cf2a134df3b33c1f4a894d7d91", null ],
     [ "neural_layer_noise_rand", "neural__layer__noise_8h.html#a8117ae7e239c3d848227fdeb9e934ced", null ],
+    [ "neural_layer_noise_resize", "neural__layer__noise_8h.html#a0ebd911ff4e74cec139a85a078f4bca4", null ],
     [ "neural_layer_noise_save", "neural__layer__noise_8h.html#a18c96a53280d3bec1a04dc7800eeb5b1", null ],
     [ "neural_layer_noise_update", "neural__layer__noise_8h.html#a5dcd459a3b3538a8d6c7a1d10a450323", null ],
     [ "layer_noise_vtbl", "neural__layer__noise_8h.html#a0ff6d6c8d7a805a3bc9855205a801033", null ]

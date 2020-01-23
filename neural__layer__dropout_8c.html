@@ -129,6 +129,8 @@ Functions</h2></td></tr>
 <tr class="separator:a88756042eff7a68b197a40a3dec88377"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2361bf943d5aa2368581de0595d71e61"><td class="memItemLeft" align="right" valign="top">_Bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__dropout_8c.html#a2361bf943d5aa2368581de0595d71e61">neural_layer_dropout_mutate</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td></tr>
 <tr class="separator:a2361bf943d5aa2368581de0595d71e61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03c4d3fc48507cc848bfde85ed637f17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__dropout_8c.html#a03c4d3fc48507cc848bfde85ed637f17">neural_layer_dropout_resize</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, <a class="el" href="structLAYER.html">LAYER</a> *prev)</td></tr>
+<tr class="separator:a03c4d3fc48507cc848bfde85ed637f17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f7a67a1e53715e69160ea5e4807004f"><td class="memItemLeft" align="right" valign="top">double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__dropout_8c.html#a0f7a67a1e53715e69160ea5e4807004f">neural_layer_dropout_output</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td></tr>
 <tr class="separator:a0f7a67a1e53715e69160ea5e4807004f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1ae9482074cab6d3e338f60aff24c3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__dropout_8c.html#ae1ae9482074cab6d3e338f60aff24c3e">neural_layer_dropout_print</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, _Bool print_weights)</td></tr>
@@ -180,7 +182,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="neural__layer__dropout_8c_source.html#l00106">106</a> of file <a class="el" href="neural__layer__dropout_8c_source.html">neural_layer_dropout.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural_8h_source.html#l00042">NET::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::num_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00060">LAYER::probability</a>, <a class="el" href="neural__layer_8h_source.html#l00061">LAYER::rand</a>, and <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::scale</a>.</p>
+<p class="reference">References <a class="el" href="neural_8h_source.html#l00042">NET::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::num_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::probability</a>, <a class="el" href="neural__layer_8h_source.html#l00060">LAYER::rand</a>, and <a class="el" href="neural__layer_8h_source.html#l00058">LAYER::scale</a>.</p>
 
 </div>
 </div>
@@ -212,7 +214,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="neural__layer__dropout_8c_source.html#l00055">55</a> of file <a class="el" href="neural__layer__dropout_8c_source.html">neural_layer_dropout.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00043">LAYER::layer_type</a>, <a class="el" href="neural__layer_8h_source.html#l00063">LAYER::layer_vptr</a>, <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::num_active</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::num_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00055">LAYER::num_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00048">LAYER::options</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, <a class="el" href="neural__layer_8h_source.html#l00060">LAYER::probability</a>, <a class="el" href="neural__layer_8h_source.html#l00061">LAYER::rand</a>, and <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::scale</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00043">LAYER::layer_type</a>, <a class="el" href="neural__layer_8h_source.html#l00062">LAYER::layer_vptr</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::max_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::num_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::num_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00046">LAYER::options</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::probability</a>, <a class="el" href="neural__layer_8h_source.html#l00060">LAYER::rand</a>, and <a class="el" href="neural__layer_8h_source.html#l00058">LAYER::scale</a>.</p>
 
 </div>
 </div>
@@ -250,7 +252,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="neural__layer__dropout_8c_source.html#l00086">86</a> of file <a class="el" href="neural__layer__dropout_8c_source.html">neural_layer_dropout.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::num_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, <a class="el" href="neural__layer_8h_source.html#l00060">LAYER::probability</a>, <a class="el" href="neural__layer_8h_source.html#l00061">LAYER::rand</a>, <a class="el" href="utils_8c_source.html#l00073">rand_uniform()</a>, <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::scale</a>, and <a class="el" href="xcsf_8h_source.html#l00190">XCSF::train</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::num_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::probability</a>, <a class="el" href="neural__layer_8h_source.html#l00060">LAYER::rand</a>, <a class="el" href="utils_8c_source.html#l00073">rand_uniform()</a>, <a class="el" href="neural__layer_8h_source.html#l00058">LAYER::scale</a>, and <a class="el" href="xcsf_8h_source.html#l00190">XCSF::train</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -288,7 +290,7 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="neural__layer__dropout_8c_source.html#l00073">73</a> of file <a class="el" href="neural__layer__dropout_8c_source.html">neural_layer_dropout.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, and <a class="el" href="neural__layer_8h_source.html#l00061">LAYER::rand</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, and <a class="el" href="neural__layer_8h_source.html#l00060">LAYER::rand</a>.</p>
 
 </div>
 </div>
@@ -326,7 +328,7 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="neural__layer__dropout_8c_source.html#l00037">37</a> of file <a class="el" href="neural__layer__dropout_8c_source.html">neural_layer_dropout.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00029">DROPOUT</a>, <a class="el" href="neural__layer__dropout_8h_source.html#l00039">layer_dropout_vtbl</a>, <a class="el" href="neural__layer_8h_source.html#l00043">LAYER::layer_type</a>, <a class="el" href="neural__layer_8h_source.html#l00063">LAYER::layer_vptr</a>, <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::num_active</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::num_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00055">LAYER::num_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00048">LAYER::options</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, <a class="el" href="neural__layer_8h_source.html#l00060">LAYER::probability</a>, <a class="el" href="neural__layer_8h_source.html#l00061">LAYER::rand</a>, and <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::scale</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00029">DROPOUT</a>, <a class="el" href="neural__layer__dropout_8h_source.html#l00040">layer_dropout_vtbl</a>, <a class="el" href="neural__layer_8h_source.html#l00043">LAYER::layer_type</a>, <a class="el" href="neural__layer_8h_source.html#l00062">LAYER::layer_vptr</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::max_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::num_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::num_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00046">LAYER::options</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::probability</a>, <a class="el" href="neural__layer_8h_source.html#l00060">LAYER::rand</a>, and <a class="el" href="neural__layer_8h_source.html#l00058">LAYER::scale</a>.</p>
 
 </div>
 </div>
@@ -362,9 +364,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__dropout_8c_source.html#l00157">157</a> of file <a class="el" href="neural__layer__dropout_8c_source.html">neural_layer_dropout.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__dropout_8c_source.html#l00172">172</a> of file <a class="el" href="neural__layer__dropout_8c_source.html">neural_layer_dropout.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::num_active</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::num_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00055">LAYER::num_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00048">LAYER::options</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, <a class="el" href="neural__layer_8h_source.html#l00060">LAYER::probability</a>, <a class="el" href="neural__layer_8h_source.html#l00061">LAYER::rand</a>, and <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::scale</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::max_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::num_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::num_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00046">LAYER::options</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::probability</a>, <a class="el" href="neural__layer_8h_source.html#l00060">LAYER::rand</a>, and <a class="el" href="neural__layer_8h_source.html#l00058">LAYER::scale</a>.</p>
 
 </div>
 </div>
@@ -424,7 +426,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__dropout_8c_source.html#l00133">133</a> of file <a class="el" href="neural__layer__dropout_8c_source.html">neural_layer_dropout.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__dropout_8c_source.html#l00147">147</a> of file <a class="el" href="neural__layer__dropout_8c_source.html">neural_layer_dropout.c</a>.</p>
 
 <p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>.</p>
 
@@ -462,9 +464,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__dropout_8c_source.html#l00139">139</a> of file <a class="el" href="neural__layer__dropout_8c_source.html">neural_layer_dropout.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__dropout_8c_source.html#l00153">153</a> of file <a class="el" href="neural__layer__dropout_8c_source.html">neural_layer_dropout.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::num_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00055">LAYER::num_outputs</a>, and <a class="el" href="neural__layer_8h_source.html#l00060">LAYER::probability</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::num_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::num_outputs</a>, and <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::probability</a>.</p>
 
 </div>
 </div>
@@ -495,6 +497,44 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="neural__layer__dropout_8c_source.html#l00081">81</a> of file <a class="el" href="neural__layer__dropout_8c_source.html">neural_layer_dropout.c</a>.</p>
+
+</div>
+</div>
+<a id="a03c4d3fc48507cc848bfde85ed637f17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03c4d3fc48507cc848bfde85ed637f17">&#9670;&nbsp;</a></span>neural_layer_dropout_resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void neural_layer_dropout_resize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structLAYER.html">LAYER</a> *&#160;</td>
+          <td class="paramname"><em>l</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structLAYER.html">LAYER</a> *&#160;</td>
+          <td class="paramname"><em>prev</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="neural__layer__dropout_8c_source.html#l00133">133</a> of file <a class="el" href="neural__layer__dropout_8c_source.html">neural_layer_dropout.c</a>.</p>
+
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::max_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::num_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::num_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, and <a class="el" href="neural__layer_8h_source.html#l00060">LAYER::rand</a>.</p>
 
 </div>
 </div>
@@ -530,9 +570,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__dropout_8c_source.html#l00146">146</a> of file <a class="el" href="neural__layer__dropout_8c_source.html">neural_layer_dropout.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__dropout_8c_source.html#l00160">160</a> of file <a class="el" href="neural__layer__dropout_8c_source.html">neural_layer_dropout.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::num_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00055">LAYER::num_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00060">LAYER::probability</a>, and <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::scale</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::max_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::num_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::num_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::probability</a>, and <a class="el" href="neural__layer_8h_source.html#l00058">LAYER::scale</a>.</p>
 
 </div>
 </div>

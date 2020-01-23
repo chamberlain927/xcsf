@@ -9,6 +9,7 @@ var structLayerVtbl =
     [ "layer_impl_output", "structLayerVtbl.html#aa8e9c7e34c920484d2256675b9bb6530", null ],
     [ "layer_impl_print", "structLayerVtbl.html#a83302becd112f0bf9c9a9f02d728dff0", null ],
     [ "layer_impl_rand", "structLayerVtbl.html#ad1a99394dd0810a425ad3863239d53d0", null ],
+    [ "layer_impl_resize", "structLayerVtbl.html#a17aa98a92006df83c23ca006cae85474", null ],
     [ "layer_impl_save", "structLayerVtbl.html#a767d6e9af372129998ae0244715b2c74", null ],
     [ "layer_impl_update", "structLayerVtbl.html#a74461289302b9dc90aa3ce5eb785368b", null ]
 ];

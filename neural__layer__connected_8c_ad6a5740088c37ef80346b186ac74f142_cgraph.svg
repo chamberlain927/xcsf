@@ -8,190 +8,190 @@
  viewBox="0.00 0.00 378.00 370.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 366)">
 <title>neural_layer_connected_forward</title>
-<!-- Node50 -->
+<!-- Node61 -->
 <g id="node1" class="node">
-<title>Node50</title>
+<title>Node61</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-185 0,-215 119,-215 119,-185 0,-185"/>
 <text text-anchor="start" x="8" y="-203" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">neural_layer_connected</text>
 <text text-anchor="middle" x="59.5" y="-192" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_forward</text>
 </g>
-<!-- Node51 -->
+<!-- Node62 -->
 <g id="node2" class="node">
-<title>Node51</title>
+<title>Node62</title>
 <g id="a_node2"><a xlink:href="utils_8c.html#a4d9693be6ce890dc7a2ee825d11ca3ee" target="_top" xlink:title="Returns a float constrained within the specified range. ">
 <polygon fill="none" stroke="#000000" points="168.5,-209.5 168.5,-228.5 224.5,-228.5 224.5,-209.5 168.5,-209.5"/>
 <text text-anchor="middle" x="196.5" y="-216.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">constrain</text>
 </a>
 </g>
 </g>
-<!-- Node50&#45;&gt;Node51 -->
+<!-- Node61&#45;&gt;Node62 -->
 <g id="edge1" class="edge">
-<title>Node50&#45;&gt;Node51</title>
+<title>Node61&#45;&gt;Node62</title>
 <path fill="none" stroke="#191970" d="M119.1917,-208.2784C132.3534,-210.1038 145.9563,-211.9903 158.013,-213.6624"/>
 <polygon fill="#191970" stroke="#191970" points="157.7742,-217.1627 168.1603,-215.0697 158.7359,-210.2291 157.7742,-217.1627"/>
 </g>
-<!-- Node52 -->
+<!-- Node63 -->
 <g id="node3" class="node">
-<title>Node52</title>
+<title>Node63</title>
 <g id="a_node3"><a xlink:href="neural__activations_8c.html#a5e93ebac9138658214c3b9ea62186087" target="_top" xlink:title="Returns the result from applying a specified activation function. ">
 <polygon fill="none" stroke="#000000" points="155,-171.5 155,-190.5 238,-190.5 238,-171.5 155,-171.5"/>
 <text text-anchor="middle" x="196.5" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">neural_activate</text>
 </a>
 </g>
 </g>
-<!-- Node50&#45;&gt;Node52 -->
+<!-- Node61&#45;&gt;Node63 -->
 <g id="edge2" class="edge">
-<title>Node50&#45;&gt;Node52</title>
+<title>Node61&#45;&gt;Node63</title>
 <path fill="none" stroke="#191970" d="M119.1917,-191.7216C127.7014,-190.5414 136.3955,-189.3357 144.7369,-188.1788"/>
 <polygon fill="#191970" stroke="#191970" points="145.2762,-191.6376 154.7006,-186.797 144.3146,-184.704 145.2762,-191.6376"/>
 </g>
-<!-- Node53 -->
+<!-- Node64 -->
 <g id="node4" class="node">
-<title>Node53</title>
+<title>Node64</title>
 <g id="a_node4"><a xlink:href="neural__activations_8h.html#abb0ed807625c86c51e2b7d4c6a5c7131" target="_top" xlink:title="cos_activate">
 <polygon fill="none" stroke="#000000" points="286,-342.5 286,-361.5 358,-361.5 358,-342.5 286,-342.5"/>
 <text text-anchor="middle" x="322" y="-349.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cos_activate</text>
 </a>
 </g>
 </g>
-<!-- Node52&#45;&gt;Node53 -->
+<!-- Node63&#45;&gt;Node64 -->
 <g id="edge3" class="edge">
-<title>Node52&#45;&gt;Node53</title>
+<title>Node63&#45;&gt;Node64</title>
 <path fill="none" stroke="#191970" d="M225.9835,-190.5017C230.4888,-193.0085 234.7217,-196.1307 238,-200 277.5862,-246.7232 233.2025,-287.3307 274,-333 275.1904,-334.3326 276.4866,-335.5729 277.8648,-336.7271"/>
 <polygon fill="#191970" stroke="#191970" points="276.2205,-339.8361 286.4901,-342.441 280.0864,-334.0004 276.2205,-339.8361"/>
 </g>
-<!-- Node54 -->
+<!-- Node65 -->
 <g id="node5" class="node">
-<title>Node54</title>
+<title>Node65</title>
 <g id="a_node5"><a xlink:href="neural__activations_8h.html#a36f845e6eec4a4dd6001aa56e49ef196" target="_top" xlink:title="gaussian_activate">
 <polygon fill="none" stroke="#000000" points="274.5,-304.5 274.5,-323.5 369.5,-323.5 369.5,-304.5 274.5,-304.5"/>
 <text text-anchor="middle" x="322" y="-311.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">gaussian_activate</text>
 </a>
 </g>
 </g>
-<!-- Node52&#45;&gt;Node54 -->
+<!-- Node63&#45;&gt;Node65 -->
 <g id="edge4" class="edge">
-<title>Node52&#45;&gt;Node54</title>
+<title>Node63&#45;&gt;Node65</title>
 <path fill="none" stroke="#191970" d="M225.2444,-190.5497C229.9395,-193.0667 234.4281,-196.1799 238,-200 268.8381,-232.9807 242.3079,-262.8391 274,-295 275.4154,-296.4363 276.9528,-297.767 278.5798,-298.9994"/>
 <polygon fill="#191970" stroke="#191970" points="276.9616,-302.1133 287.3117,-304.3775 280.6326,-296.1531 276.9616,-302.1133"/>
 </g>
-<!-- Node55 -->
+<!-- Node66 -->
 <g id="node6" class="node">
-<title>Node55</title>
+<title>Node66</title>
 <g id="a_node6"><a xlink:href="neural__activations_8h.html#a1c01e61dfab1213f2efbaeefc2cb9e1b" target="_top" xlink:title="identity_activate">
 <polygon fill="none" stroke="#000000" points="278,-266.5 278,-285.5 366,-285.5 366,-266.5 278,-266.5"/>
 <text text-anchor="middle" x="322" y="-273.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">identity_activate</text>
 </a>
 </g>
 </g>
-<!-- Node52&#45;&gt;Node55 -->
+<!-- Node63&#45;&gt;Node66 -->
 <g id="edge5" class="edge">
-<title>Node52&#45;&gt;Node55</title>
+<title>Node63&#45;&gt;Node66</title>
 <path fill="none" stroke="#191970" d="M223.3416,-190.5168C228.5428,-193.099 233.7047,-196.2448 238,-200 260.5576,-219.7213 250.9331,-237.8768 274,-257 276.0225,-258.6767 278.2111,-260.2185 280.5013,-261.6344"/>
 <polygon fill="#191970" stroke="#191970" points="279.2241,-264.9178 289.7017,-266.4898 282.4913,-258.727 279.2241,-264.9178"/>
 </g>
-<!-- Node56 -->
+<!-- Node67 -->
 <g id="node7" class="node">
-<title>Node56</title>
+<title>Node67</title>
 <g id="a_node7"><a xlink:href="neural__activations_8h.html#afaca3dadb26beb0668bafd5058d71aa4" target="_top" xlink:title="leaky_activate">
 <polygon fill="none" stroke="#000000" points="282,-228.5 282,-247.5 362,-247.5 362,-228.5 282,-228.5"/>
 <text text-anchor="middle" x="322" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">leaky_activate</text>
 </a>
 </g>
 </g>
-<!-- Node52&#45;&gt;Node56 -->
+<!-- Node63&#45;&gt;Node67 -->
 <g id="edge6" class="edge">
-<title>Node52&#45;&gt;Node56</title>
+<title>Node63&#45;&gt;Node67</title>
 <path fill="none" stroke="#191970" d="M218.1479,-190.6327C224.573,-193.5665 231.6017,-196.85 238,-200 254.2312,-207.991 257.5648,-211.4373 274,-219 278.1421,-220.906 282.5337,-222.8049 286.9118,-224.6241"/>
 <polygon fill="#191970" stroke="#191970" points="285.7903,-227.9459 296.3731,-228.4514 288.4154,-221.4567 285.7903,-227.9459"/>
 </g>
-<!-- Node57 -->
+<!-- Node68 -->
 <g id="node8" class="node">
-<title>Node57</title>
+<title>Node68</title>
 <g id="a_node8"><a xlink:href="neural__activations_8h.html#a63547ce0417b7290156185257cdde252" target="_top" xlink:title="logistic_activate">
 <polygon fill="none" stroke="#000000" points="278.5,-190.5 278.5,-209.5 365.5,-209.5 365.5,-190.5 278.5,-190.5"/>
 <text text-anchor="middle" x="322" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">logistic_activate</text>
 </a>
 </g>
 </g>
-<!-- Node52&#45;&gt;Node57 -->
+<!-- Node63&#45;&gt;Node68 -->
 <g id="edge7" class="edge">
-<title>Node52&#45;&gt;Node57</title>
+<title>Node63&#45;&gt;Node68</title>
 <path fill="none" stroke="#191970" d="M238.2897,-187.3267C247.9158,-188.7841 258.2855,-190.354 268.3373,-191.8758"/>
 <polygon fill="#191970" stroke="#191970" points="267.8326,-195.3392 278.2438,-193.3756 268.8805,-188.418 267.8326,-195.3392"/>
 </g>
-<!-- Node58 -->
+<!-- Node69 -->
 <g id="node9" class="node">
-<title>Node58</title>
+<title>Node69</title>
 <g id="a_node9"><a xlink:href="neural__activations_8h.html#a90b4b22f4ec82215ebf5bee3ccd0013f" target="_top" xlink:title="relu_activate">
 <polygon fill="none" stroke="#000000" points="286,-152.5 286,-171.5 358,-171.5 358,-152.5 286,-152.5"/>
 <text text-anchor="middle" x="322" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">relu_activate</text>
 </a>
 </g>
 </g>
-<!-- Node52&#45;&gt;Node58 -->
+<!-- Node63&#45;&gt;Node69 -->
 <g id="edge8" class="edge">
-<title>Node52&#45;&gt;Node58</title>
+<title>Node63&#45;&gt;Node69</title>
 <path fill="none" stroke="#191970" d="M238.2897,-174.6733C250.3224,-172.8516 263.5167,-170.854 275.8,-168.9944"/>
 <polygon fill="#191970" stroke="#191970" points="276.4947,-172.4292 285.8581,-167.4717 275.4468,-165.5081 276.4947,-172.4292"/>
 </g>
-<!-- Node59 -->
+<!-- Node70 -->
 <g id="node10" class="node">
-<title>Node59</title>
+<title>Node70</title>
 <g id="a_node10"><a xlink:href="neural__activations_8h.html#a6f033c99e837d6615c495f4f2273d92d" target="_top" xlink:title="selu_activate">
 <polygon fill="none" stroke="#000000" points="285,-114.5 285,-133.5 359,-133.5 359,-114.5 285,-114.5"/>
 <text text-anchor="middle" x="322" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">selu_activate</text>
 </a>
 </g>
 </g>
-<!-- Node52&#45;&gt;Node59 -->
+<!-- Node63&#45;&gt;Node70 -->
 <g id="edge9" class="edge">
-<title>Node52&#45;&gt;Node59</title>
+<title>Node63&#45;&gt;Node70</title>
 <path fill="none" stroke="#191970" d="M215.0974,-171.3668C230.6761,-163.4221 253.5799,-152.0309 274,-143 278.17,-141.1558 282.5783,-139.2942 286.9655,-137.495"/>
 <polygon fill="#191970" stroke="#191970" points="288.4634,-140.6651 296.4354,-133.6867 285.8516,-134.1706 288.4634,-140.6651"/>
 </g>
-<!-- Node60 -->
+<!-- Node71 -->
 <g id="node11" class="node">
-<title>Node60</title>
+<title>Node71</title>
 <g id="a_node11"><a xlink:href="neural__activations_8h.html#a02090b679f2d4a4fc64567538275a4ae" target="_top" xlink:title="sin_activate">
 <polygon fill="none" stroke="#000000" points="287.5,-76.5 287.5,-95.5 356.5,-95.5 356.5,-76.5 287.5,-76.5"/>
 <text text-anchor="middle" x="322" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sin_activate</text>
 </a>
 </g>
 </g>
-<!-- Node52&#45;&gt;Node60 -->
+<!-- Node63&#45;&gt;Node71 -->
 <g id="edge10" class="edge">
-<title>Node52&#45;&gt;Node60</title>
+<title>Node63&#45;&gt;Node71</title>
 <path fill="none" stroke="#191970" d="M204.1223,-171.3445C217.0153,-155.5649 244.6094,-124.0994 274,-105 276.9062,-103.1114 280.0297,-101.3598 283.2386,-99.747"/>
 <polygon fill="#191970" stroke="#191970" points="284.7516,-102.9038 292.3982,-95.5703 281.8474,-96.5347 284.7516,-102.9038"/>
 </g>
-<!-- Node61 -->
+<!-- Node72 -->
 <g id="node12" class="node">
-<title>Node61</title>
+<title>Node72</title>
 <g id="a_node12"><a xlink:href="neural__activations_8h.html#a1e7917de33b1a1c96bf0d2463808f03f" target="_top" xlink:title="soft_plus_activate">
 <polygon fill="none" stroke="#000000" points="274,-38.5 274,-57.5 370,-57.5 370,-38.5 274,-38.5"/>
 <text text-anchor="middle" x="322" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">soft_plus_activate</text>
 </a>
 </g>
 </g>
-<!-- Node52&#45;&gt;Node61 -->
+<!-- Node63&#45;&gt;Node72 -->
 <g id="edge11" class="edge">
-<title>Node52&#45;&gt;Node61</title>
+<title>Node63&#45;&gt;Node72</title>
 <path fill="none" stroke="#191970" d="M200.6401,-171.3168C210.3536,-149.6711 236.6419,-96.9223 274,-67 276.1554,-65.2736 278.4873,-63.6876 280.922,-62.2331"/>
 <polygon fill="#191970" stroke="#191970" points="282.7707,-65.2179 290.057,-57.5263 279.5645,-58.9953 282.7707,-65.2179"/>
 </g>
-<!-- Node62 -->
+<!-- Node73 -->
 <g id="node13" class="node">
-<title>Node62</title>
+<title>Node73</title>
 <g id="a_node13"><a xlink:href="neural__activations_8h.html#ad140d819f7f36fd2750f697d914cfed9" target="_top" xlink:title="tanh_activate">
 <polygon fill="none" stroke="#000000" points="284.5,-.5 284.5,-19.5 359.5,-19.5 359.5,-.5 284.5,-.5"/>
 <text text-anchor="middle" x="322" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tanh_activate</text>
 </a>
 </g>
 </g>
-<!-- Node52&#45;&gt;Node62 -->
+<!-- Node63&#45;&gt;Node73 -->
 <g id="edge12" class="edge">
-<title>Node52&#45;&gt;Node62</title>
+<title>Node63&#45;&gt;Node73</title>
 <path fill="none" stroke="#191970" d="M198.8451,-171.3451C205.7464,-144.8903 228.4227,-70.4574 274,-29 275.7238,-27.432 277.5926,-25.9866 279.5591,-24.6549"/>
 <polygon fill="#191970" stroke="#191970" points="281.672,-27.4814 288.6604,-19.5181 278.2313,-21.3853 281.672,-27.4814"/>
 </g>

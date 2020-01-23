@@ -129,6 +129,8 @@ Functions</h2></td></tr>
 <tr class="separator:a5dcd459a3b3538a8d6c7a1d10a450323"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ea80272dd05e826cedab264778b9cd2"><td class="memItemLeft" align="right" valign="top">_Bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__noise_8c.html#a7ea80272dd05e826cedab264778b9cd2">neural_layer_noise_mutate</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td></tr>
 <tr class="separator:a7ea80272dd05e826cedab264778b9cd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ebd911ff4e74cec139a85a078f4bca4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__noise_8c.html#a0ebd911ff4e74cec139a85a078f4bca4">neural_layer_noise_resize</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, <a class="el" href="structLAYER.html">LAYER</a> *prev)</td></tr>
+<tr class="separator:a0ebd911ff4e74cec139a85a078f4bca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add63636233cf6ecb9686abe2abfc9d19"><td class="memItemLeft" align="right" valign="top">double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__noise_8c.html#add63636233cf6ecb9686abe2abfc9d19">neural_layer_noise_output</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td></tr>
 <tr class="separator:add63636233cf6ecb9686abe2abfc9d19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9425c5cf2a134df3b33c1f4a894d7d91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__noise_8c.html#a9425c5cf2a134df3b33c1f4a894d7d91">neural_layer_noise_print</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, _Bool print_weights)</td></tr>
@@ -180,7 +182,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="neural__layer__noise_8c_source.html#l00106">106</a> of file <a class="el" href="neural__layer__noise_8c_source.html">neural_layer_noise.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural_8h_source.html#l00042">NET::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::delta</a>, and <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::num_inputs</a>.</p>
+<p class="reference">References <a class="el" href="neural_8h_source.html#l00042">NET::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::delta</a>, and <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::num_inputs</a>.</p>
 
 </div>
 </div>
@@ -212,7 +214,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="neural__layer__noise_8c_source.html#l00055">55</a> of file <a class="el" href="neural__layer__noise_8c_source.html">neural_layer_noise.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00043">LAYER::layer_type</a>, <a class="el" href="neural__layer_8h_source.html#l00063">LAYER::layer_vptr</a>, <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::num_active</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::num_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00055">LAYER::num_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00048">LAYER::options</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, <a class="el" href="neural__layer_8h_source.html#l00060">LAYER::probability</a>, <a class="el" href="neural__layer_8h_source.html#l00061">LAYER::rand</a>, and <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::scale</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00043">LAYER::layer_type</a>, <a class="el" href="neural__layer_8h_source.html#l00062">LAYER::layer_vptr</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::max_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::num_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::num_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00046">LAYER::options</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::probability</a>, <a class="el" href="neural__layer_8h_source.html#l00060">LAYER::rand</a>, and <a class="el" href="neural__layer_8h_source.html#l00058">LAYER::scale</a>.</p>
 
 </div>
 </div>
@@ -250,7 +252,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="neural__layer__noise_8c_source.html#l00086">86</a> of file <a class="el" href="neural__layer__noise_8c_source.html">neural_layer_noise.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::num_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, <a class="el" href="neural__layer_8h_source.html#l00060">LAYER::probability</a>, <a class="el" href="neural__layer_8h_source.html#l00061">LAYER::rand</a>, <a class="el" href="utils_8c_source.html#l00086">rand_normal()</a>, <a class="el" href="utils_8c_source.html#l00073">rand_uniform()</a>, <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::scale</a>, and <a class="el" href="xcsf_8h_source.html#l00190">XCSF::train</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::num_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::probability</a>, <a class="el" href="neural__layer_8h_source.html#l00060">LAYER::rand</a>, <a class="el" href="utils_8c_source.html#l00086">rand_normal()</a>, <a class="el" href="utils_8c_source.html#l00073">rand_uniform()</a>, <a class="el" href="neural__layer_8h_source.html#l00058">LAYER::scale</a>, and <a class="el" href="xcsf_8h_source.html#l00190">XCSF::train</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -288,7 +290,7 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="neural__layer__noise_8c_source.html#l00073">73</a> of file <a class="el" href="neural__layer__noise_8c_source.html">neural_layer_noise.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, and <a class="el" href="neural__layer_8h_source.html#l00061">LAYER::rand</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, and <a class="el" href="neural__layer_8h_source.html#l00060">LAYER::rand</a>.</p>
 
 </div>
 </div>
@@ -332,7 +334,7 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="neural__layer__noise_8c_source.html#l00037">37</a> of file <a class="el" href="neural__layer__noise_8c_source.html">neural_layer_noise.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::delta</a>, <a class="el" href="neural__layer__noise_8h_source.html#l00039">layer_noise_vtbl</a>, <a class="el" href="neural__layer_8h_source.html#l00043">LAYER::layer_type</a>, <a class="el" href="neural__layer_8h_source.html#l00063">LAYER::layer_vptr</a>, <a class="el" href="neural__layer_8h_source.html#l00030">NOISE</a>, <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::num_active</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::num_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00055">LAYER::num_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00048">LAYER::options</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, <a class="el" href="neural__layer_8h_source.html#l00060">LAYER::probability</a>, <a class="el" href="neural__layer_8h_source.html#l00061">LAYER::rand</a>, and <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::scale</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::delta</a>, <a class="el" href="neural__layer__noise_8h_source.html#l00040">layer_noise_vtbl</a>, <a class="el" href="neural__layer_8h_source.html#l00043">LAYER::layer_type</a>, <a class="el" href="neural__layer_8h_source.html#l00062">LAYER::layer_vptr</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::max_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00030">NOISE</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::num_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::num_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00046">LAYER::options</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::probability</a>, <a class="el" href="neural__layer_8h_source.html#l00060">LAYER::rand</a>, and <a class="el" href="neural__layer_8h_source.html#l00058">LAYER::scale</a>.</p>
 
 </div>
 </div>
@@ -368,9 +370,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__noise_8c_source.html#l00152">152</a> of file <a class="el" href="neural__layer__noise_8c_source.html">neural_layer_noise.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__noise_8c_source.html#l00167">167</a> of file <a class="el" href="neural__layer__noise_8c_source.html">neural_layer_noise.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::num_active</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::num_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00055">LAYER::num_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00048">LAYER::options</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, <a class="el" href="neural__layer_8h_source.html#l00060">LAYER::probability</a>, <a class="el" href="neural__layer_8h_source.html#l00061">LAYER::rand</a>, and <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::scale</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::max_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::num_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::num_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00046">LAYER::options</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::probability</a>, <a class="el" href="neural__layer_8h_source.html#l00060">LAYER::rand</a>, and <a class="el" href="neural__layer_8h_source.html#l00058">LAYER::scale</a>.</p>
 
 </div>
 </div>
@@ -430,7 +432,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__noise_8c_source.html#l00128">128</a> of file <a class="el" href="neural__layer__noise_8c_source.html">neural_layer_noise.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__noise_8c_source.html#l00142">142</a> of file <a class="el" href="neural__layer__noise_8c_source.html">neural_layer_noise.c</a>.</p>
 
 <p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>.</p>
 
@@ -468,9 +470,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__noise_8c_source.html#l00134">134</a> of file <a class="el" href="neural__layer__noise_8c_source.html">neural_layer_noise.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__noise_8c_source.html#l00148">148</a> of file <a class="el" href="neural__layer__noise_8c_source.html">neural_layer_noise.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::num_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00055">LAYER::num_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00060">LAYER::probability</a>, and <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::scale</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::num_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::num_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::probability</a>, and <a class="el" href="neural__layer_8h_source.html#l00058">LAYER::scale</a>.</p>
 
 </div>
 </div>
@@ -501,6 +503,44 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="neural__layer__noise_8c_source.html#l00081">81</a> of file <a class="el" href="neural__layer__noise_8c_source.html">neural_layer_noise.c</a>.</p>
+
+</div>
+</div>
+<a id="a0ebd911ff4e74cec139a85a078f4bca4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ebd911ff4e74cec139a85a078f4bca4">&#9670;&nbsp;</a></span>neural_layer_noise_resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void neural_layer_noise_resize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structLAYER.html">LAYER</a> *&#160;</td>
+          <td class="paramname"><em>l</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structLAYER.html">LAYER</a> *&#160;</td>
+          <td class="paramname"><em>prev</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="neural__layer__noise_8c_source.html#l00128">128</a> of file <a class="el" href="neural__layer__noise_8c_source.html">neural_layer_noise.c</a>.</p>
+
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::max_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::num_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::num_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, and <a class="el" href="neural__layer_8h_source.html#l00060">LAYER::rand</a>.</p>
 
 </div>
 </div>
@@ -536,9 +576,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__noise_8c_source.html#l00141">141</a> of file <a class="el" href="neural__layer__noise_8c_source.html">neural_layer_noise.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__noise_8c_source.html#l00155">155</a> of file <a class="el" href="neural__layer__noise_8c_source.html">neural_layer_noise.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::num_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00055">LAYER::num_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00060">LAYER::probability</a>, and <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::scale</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::max_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::num_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::num_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::probability</a>, and <a class="el" href="neural__layer_8h_source.html#l00058">LAYER::scale</a>.</p>
 
 </div>
 </div>

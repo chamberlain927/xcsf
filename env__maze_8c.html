@@ -102,14 +102,12 @@ $(document).ready(function(){initNavTree('env__maze_8c.html','');});
 <code>#include &lt;errno.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="xcsf_8h_source.html">xcsf.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="utils_8h_source.html">utils.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="cl_8h_source.html">cl.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="cl__set_8h_source.html">cl_set.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="env_8h_source.html">env.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="env__maze_8h_source.html">env_maze.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for env_maze.c:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="env__maze_8c__incl.svg" width="1046" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="env__maze_8c__incl.svg" width="886" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -185,7 +183,7 @@ Variables</h2></td></tr>
 <div class="textblock"><p>The discrete maze problem environment module. </p>
 <dl class="section author"><dt>Author</dt><dd>Richard Preen <a href="#" onclick="location.href='mai'+'lto:'+'rpr'+'ee'+'n@g'+'ma'+'il.'+'co'+'m'; return false;">rpree<span style="display: none;">.nosp@m.</span>n@gm<span style="display: none;">.nosp@m.</span>ail.c<span style="display: none;">.nosp@m.</span>om</a> </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>The Authors. </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>2015&ndash;2019.</dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2015&ndash;2020.</dd></dl>
 <p>Reads in the chosen maze from a file where each entry specifies a distinct position in the maze. The maze is toroidal and if the animat reaches one edge it can reenter the maze from the other side. Obstacles are coded as 'O' and 'Q', empty positions as '*', and food as 'F' or 'G'. The 8 adjacent cells are perceived (encoded as reals) and 8 movements are possible to the adjacent cells (if not blocked.) The animat is initially placed at a random empty position. The goal is to find the shortest path to the food.</p>
 <p>Some mazes require a form of memory to be solved optimally. The optimal average number of steps for each maze is:</p>
 <p>Woods 1: 1.7 <br />
@@ -216,9 +214,9 @@ Woods 102: 3.31 </p>
 
 <p>The payoff provided at a food position. </p>
 
-<p class="definition">Definition at line <a class="el" href="env__maze_8c_source.html#l00062">62</a> of file <a class="el" href="env__maze_8c_source.html">env_maze.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="env__maze_8c_source.html#l00060">60</a> of file <a class="el" href="env__maze_8c_source.html">env_maze.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="env__maze_8c_source.html#l00228">env_maze_execute()</a>, and <a class="el" href="env__maze_8c_source.html#l00270">env_maze_maxpayoff()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="env__maze_8c_source.html#l00226">env_maze_execute()</a>, and <a class="el" href="env__maze_8c_source.html#l00268">env_maze_maxpayoff()</a>.</p>
 
 </div>
 </div>
@@ -236,9 +234,9 @@ Woods 102: 3.31 </p>
 
 <p>The maximum width/height of a maze. </p>
 
-<p class="definition">Definition at line <a class="el" href="env__maze_8c_source.html#l00061">61</a> of file <a class="el" href="env__maze_8c_source.html">env_maze.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="env__maze_8c_source.html#l00059">59</a> of file <a class="el" href="env__maze_8c_source.html">env_maze.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="env__maze_8c_source.html#l00088">env_maze_init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="env__maze_8c_source.html#l00086">env_maze_init()</a>.</p>
 
 </div>
 </div>
@@ -256,9 +254,9 @@ Woods 102: 3.31 </p>
 
 <p>Whether to print the state of the maze during exploitation. </p>
 
-<p class="definition">Definition at line <a class="el" href="env__maze_8c_source.html#l00060">60</a> of file <a class="el" href="env__maze_8c_source.html">env_maze.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="env__maze_8c_source.html#l00058">58</a> of file <a class="el" href="env__maze_8c_source.html">env_maze.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="env__maze_8c_source.html#l00228">env_maze_execute()</a>, and <a class="el" href="env__maze_8c_source.html#l00146">env_maze_reset()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="env__maze_8c_source.html#l00226">env_maze_execute()</a>, and <a class="el" href="env__maze_8c_source.html#l00144">env_maze_reset()</a>.</p>
 
 </div>
 </div>
@@ -316,9 +314,9 @@ Woods 102: 3.31 </p>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The payoff from performing the action. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="env__maze_8c_source.html#l00228">228</a> of file <a class="el" href="env__maze_8c_source.html">env_maze.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="env__maze_8c_source.html#l00226">226</a> of file <a class="el" href="env__maze_8c_source.html">env_maze.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00182">XCSF::env</a>, <a class="el" href="env__maze_8c_source.html#l00291">env_maze_print()</a>, <a class="el" href="env__maze_8c_source.html#l00062">MAX_PAYOFF</a>, <a class="el" href="env__maze_8c_source.html#l00073">ENV_MAZE::maze</a>, <a class="el" href="env__maze_8c_source.html#l00060">MAZE_DEBUG</a>, <a class="el" href="env__maze_8c_source.html#l00078">ENV_MAZE::reset</a>, <a class="el" href="xcsf_8h_source.html#l00190">XCSF::train</a>, <a class="el" href="env__maze_8c_source.html#l00063">x_moves</a>, <a class="el" href="env__maze_8c_source.html#l00074">ENV_MAZE::xpos</a>, <a class="el" href="env__maze_8c_source.html#l00076">ENV_MAZE::xsize</a>, <a class="el" href="env__maze_8c_source.html#l00064">y_moves</a>, <a class="el" href="env__maze_8c_source.html#l00075">ENV_MAZE::ypos</a>, and <a class="el" href="env__maze_8c_source.html#l00077">ENV_MAZE::ysize</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00182">XCSF::env</a>, <a class="el" href="env__maze_8c_source.html#l00289">env_maze_print()</a>, <a class="el" href="env__maze_8c_source.html#l00060">MAX_PAYOFF</a>, <a class="el" href="env__maze_8c_source.html#l00071">ENV_MAZE::maze</a>, <a class="el" href="env__maze_8c_source.html#l00058">MAZE_DEBUG</a>, <a class="el" href="env__maze_8c_source.html#l00076">ENV_MAZE::reset</a>, <a class="el" href="xcsf_8h_source.html#l00190">XCSF::train</a>, <a class="el" href="env__maze_8c_source.html#l00061">x_moves</a>, <a class="el" href="env__maze_8c_source.html#l00072">ENV_MAZE::xpos</a>, <a class="el" href="env__maze_8c_source.html#l00074">ENV_MAZE::xsize</a>, <a class="el" href="env__maze_8c_source.html#l00062">y_moves</a>, <a class="el" href="env__maze_8c_source.html#l00073">ENV_MAZE::ypos</a>, and <a class="el" href="env__maze_8c_source.html#l00075">ENV_MAZE::ysize</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -352,9 +350,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="env__maze_8c_source.html#l00135">135</a> of file <a class="el" href="env__maze_8c_source.html">env_maze.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="env__maze_8c_source.html#l00133">133</a> of file <a class="el" href="env__maze_8c_source.html">env_maze.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00182">XCSF::env</a>, and <a class="el" href="env__maze_8c_source.html#l00072">ENV_MAZE::state</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00182">XCSF::env</a>, and <a class="el" href="env__maze_8c_source.html#l00070">ENV_MAZE::state</a>.</p>
 
 </div>
 </div>
@@ -383,9 +381,9 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The current animat perceptions. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="env__maze_8c_source.html#l00177">177</a> of file <a class="el" href="env__maze_8c_source.html">env_maze.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="env__maze_8c_source.html#l00175">175</a> of file <a class="el" href="env__maze_8c_source.html">env_maze.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00182">XCSF::env</a>, <a class="el" href="env__maze_8c_source.html#l00205">env_maze_sensor()</a>, <a class="el" href="env__maze_8c_source.html#l00073">ENV_MAZE::maze</a>, <a class="el" href="env__maze_8c_source.html#l00072">ENV_MAZE::state</a>, <a class="el" href="env__maze_8c_source.html#l00074">ENV_MAZE::xpos</a>, <a class="el" href="env__maze_8c_source.html#l00076">ENV_MAZE::xsize</a>, <a class="el" href="env__maze_8c_source.html#l00075">ENV_MAZE::ypos</a>, and <a class="el" href="env__maze_8c_source.html#l00077">ENV_MAZE::ysize</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00182">XCSF::env</a>, <a class="el" href="env__maze_8c_source.html#l00203">env_maze_sensor()</a>, <a class="el" href="env__maze_8c_source.html#l00071">ENV_MAZE::maze</a>, <a class="el" href="env__maze_8c_source.html#l00070">ENV_MAZE::state</a>, <a class="el" href="env__maze_8c_source.html#l00072">ENV_MAZE::xpos</a>, <a class="el" href="env__maze_8c_source.html#l00074">ENV_MAZE::xsize</a>, <a class="el" href="env__maze_8c_source.html#l00073">ENV_MAZE::ypos</a>, and <a class="el" href="env__maze_8c_source.html#l00075">ENV_MAZE::ysize</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -430,9 +428,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="env__maze_8c_source.html#l00088">88</a> of file <a class="el" href="env__maze_8c_source.html">env_maze.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="env__maze_8c_source.html#l00086">86</a> of file <a class="el" href="env__maze_8c_source.html">env_maze.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00182">XCSF::env</a>, <a class="el" href="env__maze_8c_source.html#l00061">MAX_SIZE</a>, <a class="el" href="env__maze_8c_source.html#l00073">ENV_MAZE::maze</a>, <a class="el" href="xcsf_8h_source.html#l00193">XCSF::num_actions</a>, <a class="el" href="xcsf_8h_source.html#l00191">XCSF::num_x_vars</a>, <a class="el" href="xcsf_8h_source.html#l00192">XCSF::num_y_vars</a>, <a class="el" href="env__maze_8c_source.html#l00072">ENV_MAZE::state</a>, <a class="el" href="env__maze_8c_source.html#l00076">ENV_MAZE::xsize</a>, and <a class="el" href="env__maze_8c_source.html#l00077">ENV_MAZE::ysize</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00182">XCSF::env</a>, <a class="el" href="env__maze_8c_source.html#l00059">MAX_SIZE</a>, <a class="el" href="env__maze_8c_source.html#l00071">ENV_MAZE::maze</a>, <a class="el" href="xcsf_8h_source.html#l00193">XCSF::num_actions</a>, <a class="el" href="xcsf_8h_source.html#l00191">XCSF::num_x_vars</a>, <a class="el" href="xcsf_8h_source.html#l00192">XCSF::num_y_vars</a>, <a class="el" href="env__maze_8c_source.html#l00070">ENV_MAZE::state</a>, <a class="el" href="env__maze_8c_source.html#l00074">ENV_MAZE::xsize</a>, and <a class="el" href="env__maze_8c_source.html#l00075">ENV_MAZE::ysize</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="env_8c_source.html#l00042">env_init()</a>.</p>
 <div class="dynheader">
@@ -469,9 +467,9 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Whether the maze needs to be reset. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="env__maze_8c_source.html#l00166">166</a> of file <a class="el" href="env__maze_8c_source.html">env_maze.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="env__maze_8c_source.html#l00164">164</a> of file <a class="el" href="env__maze_8c_source.html">env_maze.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00182">XCSF::env</a>, and <a class="el" href="env__maze_8c_source.html#l00078">ENV_MAZE::reset</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00182">XCSF::env</a>, and <a class="el" href="env__maze_8c_source.html#l00076">ENV_MAZE::reset</a>.</p>
 
 </div>
 </div>
@@ -500,9 +498,9 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The maximum payoff. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="env__maze_8c_source.html#l00270">270</a> of file <a class="el" href="env__maze_8c_source.html">env_maze.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="env__maze_8c_source.html#l00268">268</a> of file <a class="el" href="env__maze_8c_source.html">env_maze.c</a>.</p>
 
-<p class="reference">References <a class="el" href="env__maze_8c_source.html#l00062">MAX_PAYOFF</a>.</p>
+<p class="reference">References <a class="el" href="env__maze_8c_source.html#l00060">MAX_PAYOFF</a>.</p>
 
 </div>
 </div>
@@ -531,7 +529,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="env__maze_8c_source.html#l00281">281</a> of file <a class="el" href="env__maze_8c_source.html">env_maze.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="env__maze_8c_source.html#l00279">279</a> of file <a class="el" href="env__maze_8c_source.html">env_maze.c</a>.</p>
 
 </div>
 </div>
@@ -567,11 +565,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="env__maze_8c_source.html#l00291">291</a> of file <a class="el" href="env__maze_8c_source.html">env_maze.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="env__maze_8c_source.html#l00289">289</a> of file <a class="el" href="env__maze_8c_source.html">env_maze.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00182">XCSF::env</a>, <a class="el" href="env__maze_8c_source.html#l00073">ENV_MAZE::maze</a>, <a class="el" href="env__maze_8c_source.html#l00074">ENV_MAZE::xpos</a>, <a class="el" href="env__maze_8c_source.html#l00076">ENV_MAZE::xsize</a>, <a class="el" href="env__maze_8c_source.html#l00075">ENV_MAZE::ypos</a>, and <a class="el" href="env__maze_8c_source.html#l00077">ENV_MAZE::ysize</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00182">XCSF::env</a>, <a class="el" href="env__maze_8c_source.html#l00071">ENV_MAZE::maze</a>, <a class="el" href="env__maze_8c_source.html#l00072">ENV_MAZE::xpos</a>, <a class="el" href="env__maze_8c_source.html#l00074">ENV_MAZE::xsize</a>, <a class="el" href="env__maze_8c_source.html#l00073">ENV_MAZE::ypos</a>, and <a class="el" href="env__maze_8c_source.html#l00075">ENV_MAZE::ysize</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="env__maze_8c_source.html#l00228">env_maze_execute()</a>, and <a class="el" href="env__maze_8c_source.html#l00146">env_maze_reset()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="env__maze_8c_source.html#l00226">env_maze_execute()</a>, and <a class="el" href="env__maze_8c_source.html#l00144">env_maze_reset()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -605,9 +603,9 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="env__maze_8c_source.html#l00146">146</a> of file <a class="el" href="env__maze_8c_source.html">env_maze.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="env__maze_8c_source.html#l00144">144</a> of file <a class="el" href="env__maze_8c_source.html">env_maze.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00182">XCSF::env</a>, <a class="el" href="env__maze_8c_source.html#l00291">env_maze_print()</a>, <a class="el" href="utils_8c_source.html#l00064">irand_uniform()</a>, <a class="el" href="env__maze_8c_source.html#l00073">ENV_MAZE::maze</a>, <a class="el" href="env__maze_8c_source.html#l00060">MAZE_DEBUG</a>, <a class="el" href="env__maze_8c_source.html#l00078">ENV_MAZE::reset</a>, <a class="el" href="xcsf_8h_source.html#l00190">XCSF::train</a>, <a class="el" href="env__maze_8c_source.html#l00074">ENV_MAZE::xpos</a>, <a class="el" href="env__maze_8c_source.html#l00076">ENV_MAZE::xsize</a>, <a class="el" href="env__maze_8c_source.html#l00075">ENV_MAZE::ypos</a>, and <a class="el" href="env__maze_8c_source.html#l00077">ENV_MAZE::ysize</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00182">XCSF::env</a>, <a class="el" href="env__maze_8c_source.html#l00289">env_maze_print()</a>, <a class="el" href="utils_8c_source.html#l00064">irand_uniform()</a>, <a class="el" href="env__maze_8c_source.html#l00071">ENV_MAZE::maze</a>, <a class="el" href="env__maze_8c_source.html#l00058">MAZE_DEBUG</a>, <a class="el" href="env__maze_8c_source.html#l00076">ENV_MAZE::reset</a>, <a class="el" href="xcsf_8h_source.html#l00190">XCSF::train</a>, <a class="el" href="env__maze_8c_source.html#l00072">ENV_MAZE::xpos</a>, <a class="el" href="env__maze_8c_source.html#l00074">ENV_MAZE::xsize</a>, <a class="el" href="env__maze_8c_source.html#l00073">ENV_MAZE::ypos</a>, and <a class="el" href="env__maze_8c_source.html#l00075">ENV_MAZE::ysize</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -661,9 +659,9 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A float encoding of the sensor. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="env__maze_8c_source.html#l00205">205</a> of file <a class="el" href="env__maze_8c_source.html">env_maze.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="env__maze_8c_source.html#l00203">203</a> of file <a class="el" href="env__maze_8c_source.html">env_maze.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="env__maze_8c_source.html#l00177">env_maze_get_state()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="env__maze_8c_source.html#l00175">env_maze_get_state()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -696,9 +694,9 @@ Here is the caller graph for this function:</div>
 
 <p>Possible maze moves on x-axis. </p>
 
-<p class="definition">Definition at line <a class="el" href="env__maze_8c_source.html#l00063">63</a> of file <a class="el" href="env__maze_8c_source.html">env_maze.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="env__maze_8c_source.html#l00061">61</a> of file <a class="el" href="env__maze_8c_source.html">env_maze.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="env__maze_8c_source.html#l00228">env_maze_execute()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="env__maze_8c_source.html#l00226">env_maze_execute()</a>.</p>
 
 </div>
 </div>
@@ -724,9 +722,9 @@ Here is the caller graph for this function:</div>
 
 <p>Possible maze moves on y-axis. </p>
 
-<p class="definition">Definition at line <a class="el" href="env__maze_8c_source.html#l00064">64</a> of file <a class="el" href="env__maze_8c_source.html">env_maze.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="env__maze_8c_source.html#l00062">62</a> of file <a class="el" href="env__maze_8c_source.html">env_maze.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="env__maze_8c_source.html#l00228">env_maze_execute()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="env__maze_8c_source.html#l00226">env_maze_execute()</a>.</p>
 
 </div>
 </div>

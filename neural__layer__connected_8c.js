@@ -2,6 +2,7 @@ var neural__layer__connected_8c =
 [
     [ "ETA_MAX", "neural__layer__connected_8c.html#ac8506c6dfbaa367890d2c900541c6f19", null ],
     [ "ETA_MIN", "neural__layer__connected_8c.html#a05eb6d5155c3a0f6b17118b5ce0478ac", null ],
+    [ "add_neuron", "neural__layer__connected_8c.html#af53a7bd52046f104cf4ce416cc759122", null ],
     [ "mutate_eta", "neural__layer__connected_8c.html#a89e19cb309ae3cc7722d8dac64ea0a8c", null ],
     [ "mutate_functions", "neural__layer__connected_8c.html#ac1c67136ea139779a7c2f91b59a62edd", null ],
     [ "mutate_neurons", "neural__layer__connected_8c.html#ad933cd5004ffd10751af44495d2ce68d", null ],
@@ -16,6 +17,8 @@ var neural__layer__connected_8c =
     [ "neural_layer_connected_output", "neural__layer__connected_8c.html#a3c8271dc8f54bb3cd94be3a3fb6f0636", null ],
     [ "neural_layer_connected_print", "neural__layer__connected_8c.html#a43a2dfe784e4fa93a8f783c8dc9bcf0b", null ],
     [ "neural_layer_connected_rand", "neural__layer__connected_8c.html#abb7c6e383c0a5fd4e4951d23769b1ffa", null ],
+    [ "neural_layer_connected_resize", "neural__layer__connected_8c.html#a9cd0dfcadb3fa73593c0a737d1c3d349", null ],
     [ "neural_layer_connected_save", "neural__layer__connected_8c.html#a7e446f1e616d4a9bde79fc01ec94ed61", null ],
-    [ "neural_layer_connected_update", "neural__layer__connected_8c.html#a3ab756a777eec5651846553e9f44c5d1", null ]
+    [ "neural_layer_connected_update", "neural__layer__connected_8c.html#a3ab756a777eec5651846553e9f44c5d1", null ],
+    [ "remove_neuron", "neural__layer__connected_8c.html#a35f10f5a0f103a2e045ddb9130adcd99", null ]
 ];
