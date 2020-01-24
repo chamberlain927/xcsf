@@ -137,12 +137,12 @@ Functions</h2></td></tr>
 <tr class="memitem:aa338b6026d4ad10513bc501f411de33f"><td class="memItemLeft" align="right" valign="top">_Bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural_8c.html#aa338b6026d4ad10513bc501f411de33f">neural_mutate</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structNET.html">NET</a> *net)</td></tr>
 <tr class="memdesc:aa338b6026d4ad10513bc501f411de33f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutates a neural network.  <a href="#aa338b6026d4ad10513bc501f411de33f">More...</a><br /></td></tr>
 <tr class="separator:aa338b6026d4ad10513bc501f411de33f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58a27b742d39a8a64a944bb12ff73c8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural_8c.html#a58a27b742d39a8a64a944bb12ff73c8f">neural_propagate</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structNET.html">NET</a> *net, double *input)</td></tr>
-<tr class="memdesc:a58a27b742d39a8a64a944bb12ff73c8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forward propagates a neural network.  <a href="#a58a27b742d39a8a64a944bb12ff73c8f">More...</a><br /></td></tr>
-<tr class="separator:a58a27b742d39a8a64a944bb12ff73c8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a009f244a9e7365d216db5d2bd34c059f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural_8c.html#a009f244a9e7365d216db5d2bd34c059f">neural_learn</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structNET.html">NET</a> *net, double *truth, double *input)</td></tr>
-<tr class="memdesc:a009f244a9e7365d216db5d2bd34c059f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a gradient descent update on a neural network.  <a href="#a009f244a9e7365d216db5d2bd34c059f">More...</a><br /></td></tr>
-<tr class="separator:a009f244a9e7365d216db5d2bd34c059f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff8503d553d492dfb12b34deaf8bb1cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural_8c.html#aff8503d553d492dfb12b34deaf8bb1cf">neural_propagate</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structNET.html">NET</a> *net, const double *input)</td></tr>
+<tr class="memdesc:aff8503d553d492dfb12b34deaf8bb1cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forward propagates a neural network.  <a href="#aff8503d553d492dfb12b34deaf8bb1cf">More...</a><br /></td></tr>
+<tr class="separator:aff8503d553d492dfb12b34deaf8bb1cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b5cd72081543dc9487d6aecccacb9ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural_8c.html#a2b5cd72081543dc9487d6aecccacb9ed">neural_learn</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structNET.html">NET</a> *net, const double *truth, const double *input)</td></tr>
+<tr class="memdesc:a2b5cd72081543dc9487d6aecccacb9ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a gradient descent update on a neural network.  <a href="#a2b5cd72081543dc9487d6aecccacb9ed">More...</a><br /></td></tr>
+<tr class="separator:a2b5cd72081543dc9487d6aecccacb9ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54519ef979c15ec72900c5e246e337cf"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural_8c.html#a54519ef979c15ec72900c5e246e337cf">neural_output</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structNET.html">NET</a> *net, int i)</td></tr>
 <tr class="memdesc:a54519ef979c15ec72900c5e246e337cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the output of a specified neuron in the output layer of a neural network.  <a href="#a54519ef979c15ec72900c5e246e337cf">More...</a><br /></td></tr>
 <tr class="separator:a54519ef979c15ec72900c5e246e337cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -163,7 +163,7 @@ Functions</h2></td></tr>
 <div class="textblock"><p>An implementation of a multi-layer perceptron neural network. </p>
 <dl class="section author"><dt>Author</dt><dd>Richard Preen <a href="#" onclick="location.href='mai'+'lto:'+'rpr'+'ee'+'n@g'+'ma'+'il.'+'co'+'m'; return false;">rpree<span style="display: none;">.nosp@m.</span>n@gm<span style="display: none;">.nosp@m.</span>ail.c<span style="display: none;">.nosp@m.</span>om</a> </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>The Authors. </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>2012&ndash;2019. </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2012&ndash;2020. </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="neural_8c_source.html">neural.c</a>.</p>
 </div><h2 class="groupheader">Function Documentation</h2>
@@ -450,8 +450,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a009f244a9e7365d216db5d2bd34c059f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a009f244a9e7365d216db5d2bd34c059f">&#9670;&nbsp;</a></span>neural_learn()</h2>
+<a id="a2b5cd72081543dc9487d6aecccacb9ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b5cd72081543dc9487d6aecccacb9ed">&#9670;&nbsp;</a></span>neural_learn()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -471,13 +471,13 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double *&#160;</td>
+          <td class="paramtype">const double *&#160;</td>
           <td class="paramname"><em>truth</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double *&#160;</td>
+          <td class="paramtype">const double *&#160;</td>
           <td class="paramname"><em>input</em>&#160;</td>
         </tr>
         <tr>
@@ -507,13 +507,13 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a009f244a9e7365d216db5d2bd34c059f_cgraph.svg" width="264" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a2b5cd72081543dc9487d6aecccacb9ed_cgraph.svg" width="264" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a009f244a9e7365d216db5d2bd34c059f_icgraph.svg" width="286" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a2b5cd72081543dc9487d6aecccacb9ed_icgraph.svg" width="286" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -763,8 +763,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a58a27b742d39a8a64a944bb12ff73c8f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58a27b742d39a8a64a944bb12ff73c8f">&#9670;&nbsp;</a></span>neural_propagate()</h2>
+<a id="aff8503d553d492dfb12b34deaf8bb1cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff8503d553d492dfb12b34deaf8bb1cf">&#9670;&nbsp;</a></span>neural_propagate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -784,7 +784,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double *&#160;</td>
+          <td class="paramtype">const double *&#160;</td>
           <td class="paramname"><em>input</em>&#160;</td>
         </tr>
         <tr>
@@ -813,13 +813,13 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a58a27b742d39a8a64a944bb12ff73c8f_cgraph.svg" width="280" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_aff8503d553d492dfb12b34deaf8bb1cf_cgraph.svg" width="280" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a58a27b742d39a8a64a944bb12ff73c8f_icgraph.svg" width="540" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_aff8503d553d492dfb12b34deaf8bb1cf_icgraph.svg" width="540" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 

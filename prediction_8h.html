@@ -121,8 +121,8 @@ Functions</h2></td></tr>
 <tr class="separator:a502b7991589a34a7a92e959ff7ffcc78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e740d7f4ab0a39ee2e4fac34ce479e2"><td class="memItemLeft" align="right" valign="top">static _Bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="prediction_8h.html#a3e740d7f4ab0a39ee2e4fac34ce479e2">pred_mutate</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c)</td></tr>
 <tr class="separator:a3e740d7f4ab0a39ee2e4fac34ce479e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7b5be5cd3d39ed86fd6bf0777354d70"><td class="memItemLeft" align="right" valign="top">static double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="prediction_8h.html#ab7b5be5cd3d39ed86fd6bf0777354d70">pred_compute</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, double *x)</td></tr>
-<tr class="separator:ab7b5be5cd3d39ed86fd6bf0777354d70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8d91ff6f8382746950bd187cf8de87a"><td class="memItemLeft" align="right" valign="top">static double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="prediction_8h.html#ac8d91ff6f8382746950bd187cf8de87a">pred_compute</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, const double *x)</td></tr>
+<tr class="separator:ac8d91ff6f8382746950bd187cf8de87a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88a14bb183d1eabec75440c849535c49"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="prediction_8h.html#a88a14bb183d1eabec75440c849535c49">pred_copy</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *to, <a class="el" href="structCL.html">CL</a> *from)</td></tr>
 <tr class="separator:a88a14bb183d1eabec75440c849535c49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c8b28f792149c6267cc8387554e1da7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="prediction_8h.html#a5c8b28f792149c6267cc8387554e1da7">pred_free</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c)</td></tr>
@@ -131,19 +131,19 @@ Functions</h2></td></tr>
 <tr class="separator:a9466870f30753fb12cd3670e3be4b8d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a929a910050e8ea6825e88f85c38c839b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="prediction_8h.html#a929a910050e8ea6825e88f85c38c839b">pred_print</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c)</td></tr>
 <tr class="separator:a929a910050e8ea6825e88f85c38c839b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6eafc6725b39040c8ad05450b7a808f3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="prediction_8h.html#a6eafc6725b39040c8ad05450b7a808f3">pred_update</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, double *x, double *y)</td></tr>
-<tr class="separator:a6eafc6725b39040c8ad05450b7a808f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60c9bcbfad477b399fb7524de543aef8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="prediction_8h.html#a60c9bcbfad477b399fb7524de543aef8">pred_update</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, const double *x, const double *y)</td></tr>
+<tr class="separator:a60c9bcbfad477b399fb7524de543aef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Interface for classifier predictions. </p>
 <dl class="section author"><dt>Author</dt><dd>Richard Preen <a href="#" onclick="location.href='mai'+'lto:'+'rpr'+'ee'+'n@g'+'ma'+'il.'+'co'+'m'; return false;">rpree<span style="display: none;">.nosp@m.</span>n@gm<span style="display: none;">.nosp@m.</span>ail.c<span style="display: none;">.nosp@m.</span>om</a> </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>The Authors. </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>2015&ndash;2019. </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2015&ndash;2020. </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="prediction_8h_source.html">prediction.h</a>.</p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="ab7b5be5cd3d39ed86fd6bf0777354d70"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7b5be5cd3d39ed86fd6bf0777354d70">&#9670;&nbsp;</a></span>pred_compute()</h2>
+<a id="ac8d91ff6f8382746950bd187cf8de87a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8d91ff6f8382746950bd187cf8de87a">&#9670;&nbsp;</a></span>pred_compute()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -166,7 +166,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double *&#160;</td>
+          <td class="paramtype">const double *&#160;</td>
           <td class="paramname"><em>x</em>&#160;</td>
         </tr>
         <tr>
@@ -190,7 +190,7 @@ Functions</h2></td></tr>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h_ab7b5be5cd3d39ed86fd6bf0777354d70_icgraph.svg" width="1348" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h_ac8d91ff6f8382746950bd187cf8de87a_icgraph.svg" width="1348" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -652,8 +652,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a6eafc6725b39040c8ad05450b7a808f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6eafc6725b39040c8ad05450b7a808f3">&#9670;&nbsp;</a></span>pred_update()</h2>
+<a id="a60c9bcbfad477b399fb7524de543aef8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60c9bcbfad477b399fb7524de543aef8">&#9670;&nbsp;</a></span>pred_update()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -676,13 +676,13 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double *&#160;</td>
+          <td class="paramtype">const double *&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double *&#160;</td>
+          <td class="paramtype">const double *&#160;</td>
           <td class="paramname"><em>y</em>&#160;</td>
         </tr>
         <tr>
@@ -706,7 +706,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h_a6eafc6725b39040c8ad05450b7a808f3_icgraph.svg" width="1335" height="266"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h_a60c9bcbfad477b399fb7524de543aef8_icgraph.svg" width="1335" height="266"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 

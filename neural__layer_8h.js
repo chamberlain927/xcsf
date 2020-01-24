@@ -14,7 +14,7 @@ var neural__layer_8h =
     [ "LAYER", "neural__layer_8h.html#aceee38d2f638cd3570a7347fa1a2a5ed", null ],
     [ "layer_backward", "neural__layer_8h.html#a67d65d693f6bdd7541bd9e10a5bdc1e3", null ],
     [ "layer_copy", "neural__layer_8h.html#a03a308f90cafedf64edacb222a920e06", null ],
-    [ "layer_forward", "neural__layer_8h.html#ad86d42bbb5b7ec7828d2e113dc7d6938", null ],
+    [ "layer_forward", "neural__layer_8h.html#a8b62312b086849e746bb175faeb8d157", null ],
     [ "layer_free", "neural__layer_8h.html#a9a5371e5bdafe15fb5195b802bc1d50d", null ],
     [ "layer_load", "neural__layer_8h.html#a35b1e7a4d66f3a460c43f91a5c2f0cd0", null ],
     [ "layer_mutate", "neural__layer_8h.html#ac5c17d9ee7778f2cac111812ff320cea", null ],

@@ -146,9 +146,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a99564a316d7ba269d2a8eb1e69728387"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gp_8c.html#a99564a316d7ba269d2a8eb1e69728387">tree_free</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structGP__TREE.html">GP_TREE</a> *gp)</td></tr>
 <tr class="memdesc:a99564a316d7ba269d2a8eb1e69728387"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees a GP tree.  <a href="#a99564a316d7ba269d2a8eb1e69728387">More...</a><br /></td></tr>
 <tr class="separator:a99564a316d7ba269d2a8eb1e69728387"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8998e7cdda7f7162b8da634efa2b441c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gp_8c.html#a8998e7cdda7f7162b8da634efa2b441c">tree_eval</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structGP__TREE.html">GP_TREE</a> *gp, double *x)</td></tr>
-<tr class="memdesc:a8998e7cdda7f7162b8da634efa2b441c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluates a GP tree.  <a href="#a8998e7cdda7f7162b8da634efa2b441c">More...</a><br /></td></tr>
-<tr class="separator:a8998e7cdda7f7162b8da634efa2b441c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa37ef73ee3e66076caa3eb3618ed99ce"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gp_8c.html#aa37ef73ee3e66076caa3eb3618ed99ce">tree_eval</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structGP__TREE.html">GP_TREE</a> *gp, const double *x)</td></tr>
+<tr class="memdesc:aa37ef73ee3e66076caa3eb3618ed99ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluates a GP tree.  <a href="#aa37ef73ee3e66076caa3eb3618ed99ce">More...</a><br /></td></tr>
+<tr class="separator:aa37ef73ee3e66076caa3eb3618ed99ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6dd3cdcce2d4147f379668f8da646162"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gp_8c.html#a6dd3cdcce2d4147f379668f8da646162">tree_print</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structGP__TREE.html">GP_TREE</a> *gp, int p)</td></tr>
 <tr class="memdesc:a6dd3cdcce2d4147f379668f8da646162"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints a GP tree.  <a href="#a6dd3cdcce2d4147f379668f8da646162">More...</a><br /></td></tr>
 <tr class="separator:a6dd3cdcce2d4147f379668f8da646162"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,7 +172,7 @@ Functions</h2></td></tr>
 <div class="textblock"><p>An implementation of GP trees based upon TinyGP. </p>
 <dl class="section author"><dt>Author</dt><dd>Richard Preen <a href="#" onclick="location.href='mai'+'lto:'+'rpr'+'ee'+'n@g'+'ma'+'il.'+'co'+'m'; return false;">rpree<span style="display: none;">.nosp@m.</span>n@gm<span style="display: none;">.nosp@m.</span>ail.c<span style="display: none;">.nosp@m.</span>om</a> </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>The Authors. </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>2016&ndash;2019.</dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2016&ndash;2020.</dd></dl>
 <p>For a more detailed description see: Poli, R., Langdon, W. B., and McPhee, N. F. (2008) "A Field Guide to Genetic Programming" </p><dl class="section see"><dt>See also</dt><dd><a href="https://dces.essex.ac.uk/staff/rpoli/gp-field-guide/A_Field_Guide_to_Genetic_Programming.pdf">https://dces.essex.ac.uk/staff/rpoli/gp-field-guide/A_Field_Guide_to_Genetic_Programming.pdf</a> </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="gp_8c_source.html">gp.c</a>.</p>
@@ -408,8 +408,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a8998e7cdda7f7162b8da634efa2b441c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8998e7cdda7f7162b8da634efa2b441c">&#9670;&nbsp;</a></span>tree_eval()</h2>
+<a id="aa37ef73ee3e66076caa3eb3618ed99ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa37ef73ee3e66076caa3eb3618ed99ce">&#9670;&nbsp;</a></span>tree_eval()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -429,7 +429,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double *&#160;</td>
+          <td class="paramtype">const double *&#160;</td>
           <td class="paramname"><em>x</em>&#160;</td>
         </tr>
         <tr>
@@ -459,13 +459,13 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_a8998e7cdda7f7162b8da634efa2b441c_cgraph.svg" width="86" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_aa37ef73ee3e66076caa3eb3618ed99ce_cgraph.svg" width="86" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_a8998e7cdda7f7162b8da634efa2b441c_icgraph.svg" width="530" height="76"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_aa37ef73ee3e66076caa3eb3618ed99ce_icgraph.svg" width="530" height="76"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 

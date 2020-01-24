@@ -100,5 +100,5 @@ var searchData=
   ['graph_5frand',['graph_rand',['../dgp_8c.html#a686eb8ab5988e7c4557b6f78afc92975',1,'graph_rand(XCSF *xcsf, GRAPH *dgp):&#160;dgp.c'],['../dgp_8h.html#a686eb8ab5988e7c4557b6f78afc92975',1,'graph_rand(XCSF *xcsf, GRAPH *dgp):&#160;dgp.c']]],
   ['graph_5freset',['graph_reset',['../dgp_8c.html#af4a7ed4eb1e0a65fee8a3a709f710b18',1,'graph_reset(XCSF *xcsf, GRAPH *dgp):&#160;dgp.c'],['../dgp_8h.html#af4a7ed4eb1e0a65fee8a3a709f710b18',1,'graph_reset(XCSF *xcsf, GRAPH *dgp):&#160;dgp.c']]],
   ['graph_5fsave',['graph_save',['../dgp_8c.html#a61e63b76302f0214c32a754f0a7033d8',1,'graph_save(XCSF *xcsf, GRAPH *dgp, FILE *fp):&#160;dgp.c'],['../dgp_8h.html#a61e63b76302f0214c32a754f0a7033d8',1,'graph_save(XCSF *xcsf, GRAPH *dgp, FILE *fp):&#160;dgp.c']]],
-  ['graph_5fupdate',['graph_update',['../dgp_8c.html#a54c9e39fac55e642cab0db6a048bd27f',1,'graph_update(XCSF *xcsf, GRAPH *dgp, double *inputs):&#160;dgp.c'],['../dgp_8h.html#a54c9e39fac55e642cab0db6a048bd27f',1,'graph_update(XCSF *xcsf, GRAPH *dgp, double *inputs):&#160;dgp.c']]]
+  ['graph_5fupdate',['graph_update',['../dgp_8c.html#a2221ddd70f57091a9eae84f83ef87ce9',1,'graph_update(XCSF *xcsf, GRAPH *dgp, const double *inputs):&#160;dgp.c'],['../dgp_8h.html#a2221ddd70f57091a9eae84f83ef87ce9',1,'graph_update(XCSF *xcsf, GRAPH *dgp, const double *inputs):&#160;dgp.c']]]
 ];

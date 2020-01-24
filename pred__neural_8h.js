@@ -1,6 +1,6 @@
 var pred__neural_8h =
 [
-    [ "pred_neural_compute", "pred__neural_8h.html#acd5b370bb756804f51e950ac8ce4d111", null ],
+    [ "pred_neural_compute", "pred__neural_8h.html#ae1fd98e9c33a99dbf15e740fce0f030e", null ],
     [ "pred_neural_copy", "pred__neural_8h.html#a450cbccc87e9452c2b1963296c1b1f6d", null ],
     [ "pred_neural_crossover", "pred__neural_8h.html#ac5a71e58cb6aff27836784ad7bb283d7", null ],
     [ "pred_neural_eta", "pred__neural_8h.html#af6522311a40484146f09db2f79a7340b", null ],
@@ -11,6 +11,6 @@ var pred__neural_8h =
     [ "pred_neural_print", "pred__neural_8h.html#a73b3deaf02546992c189d9277b873940", null ],
     [ "pred_neural_save", "pred__neural_8h.html#a8d0b959ee6ac760acf50bf08455c2139", null ],
     [ "pred_neural_size", "pred__neural_8h.html#adf7df3c9e3dbc945f4c120b32a34ecf2", null ],
-    [ "pred_neural_update", "pred__neural_8h.html#a11e2b74a70025e2df91baa09544a5dda", null ],
+    [ "pred_neural_update", "pred__neural_8h.html#a6c5bb3fca7ab4715b550b4411bcf1ff0", null ],
     [ "pred_neural_vtbl", "pred__neural_8h.html#ab4709e83aa4ac59b41666612909361bc", null ]
 ];

@@ -2,7 +2,7 @@ var searchData=
 [
   ['layer_5fbackward',['layer_backward',['../neural__layer_8h.html#a67d65d693f6bdd7541bd9e10a5bdc1e3',1,'neural_layer.h']]],
   ['layer_5fcopy',['layer_copy',['../neural__layer_8h.html#a03a308f90cafedf64edacb222a920e06',1,'neural_layer.h']]],
-  ['layer_5fforward',['layer_forward',['../neural__layer_8h.html#ad86d42bbb5b7ec7828d2e113dc7d6938',1,'neural_layer.h']]],
+  ['layer_5fforward',['layer_forward',['../neural__layer_8h.html#a8b62312b086849e746bb175faeb8d157',1,'neural_layer.h']]],
   ['layer_5ffree',['layer_free',['../neural__layer_8h.html#a9a5371e5bdafe15fb5195b802bc1d50d',1,'neural_layer.h']]],
   ['layer_5fload',['layer_load',['../neural__layer_8h.html#a35b1e7a4d66f3a460c43f91a5c2f0cd0',1,'neural_layer.h']]],
   ['layer_5fmutate',['layer_mutate',['../neural__layer_8h.html#ac5c17d9ee7778f2cac111812ff320cea',1,'neural_layer.h']]],
@@ -17,11 +17,11 @@ var searchData=
   ['load',['load',['../structXCS.html#adc9b621f2b7a306fbf381dd0efaf268b',1,'XCS']]],
   ['logistic_5factivate',['logistic_activate',['../neural__activations_8h.html#a63547ce0417b7290156185257cdde252',1,'neural_activations.h']]],
   ['logistic_5fgradient',['logistic_gradient',['../neural__activations_8h.html#a76d382cd4a11b7a3494c21322e5ac896',1,'neural_activations.h']]],
-  ['loss_5fbinary_5flog',['loss_binary_log',['../loss_8c.html#a20654b93b3fdb68e65f74f9680f4c3dc',1,'loss_binary_log(XCSF *xcsf, double *pred, double *y):&#160;loss.c'],['../loss_8h.html#a20654b93b3fdb68e65f74f9680f4c3dc',1,'loss_binary_log(XCSF *xcsf, double *pred, double *y):&#160;loss.c']]],
-  ['loss_5flog',['loss_log',['../loss_8c.html#a095f9393e8242655b20381c590042d67',1,'loss_log(XCSF *xcsf, double *pred, double *y):&#160;loss.c'],['../loss_8h.html#a095f9393e8242655b20381c590042d67',1,'loss_log(XCSF *xcsf, double *pred, double *y):&#160;loss.c']]],
-  ['loss_5fmae',['loss_mae',['../loss_8c.html#a98b101157a9dfda85e6ed3cb1defd92d',1,'loss_mae(XCSF *xcsf, double *pred, double *y):&#160;loss.c'],['../loss_8h.html#a98b101157a9dfda85e6ed3cb1defd92d',1,'loss_mae(XCSF *xcsf, double *pred, double *y):&#160;loss.c']]],
-  ['loss_5fmse',['loss_mse',['../loss_8c.html#a8a4e596b7a4a64fe12730aa097a059b2',1,'loss_mse(XCSF *xcsf, double *pred, double *y):&#160;loss.c'],['../loss_8h.html#a8a4e596b7a4a64fe12730aa097a059b2',1,'loss_mse(XCSF *xcsf, double *pred, double *y):&#160;loss.c']]],
-  ['loss_5fonehot_5facc',['loss_onehot_acc',['../loss_8c.html#af85cb54e8270da89fefacf34cb1f7b09',1,'loss_onehot_acc(XCSF *xcsf, double *pred, double *y):&#160;loss.c'],['../loss_8h.html#af85cb54e8270da89fefacf34cb1f7b09',1,'loss_onehot_acc(XCSF *xcsf, double *pred, double *y):&#160;loss.c']]],
-  ['loss_5frmse',['loss_rmse',['../loss_8c.html#a36be2910ed151be6ec0bd53147ec2b39',1,'loss_rmse(XCSF *xcsf, double *pred, double *y):&#160;loss.c'],['../loss_8h.html#a36be2910ed151be6ec0bd53147ec2b39',1,'loss_rmse(XCSF *xcsf, double *pred, double *y):&#160;loss.c']]],
+  ['loss_5fbinary_5flog',['loss_binary_log',['../loss_8c.html#a7d3c3d2e87b68e284655669ec3164f41',1,'loss_binary_log(XCSF *xcsf, const double *pred, const double *y):&#160;loss.c'],['../loss_8h.html#a7d3c3d2e87b68e284655669ec3164f41',1,'loss_binary_log(XCSF *xcsf, const double *pred, const double *y):&#160;loss.c']]],
+  ['loss_5flog',['loss_log',['../loss_8c.html#a01aa2becdd3653d1aec1619ee1e01982',1,'loss_log(XCSF *xcsf, const double *pred, const double *y):&#160;loss.c'],['../loss_8h.html#a01aa2becdd3653d1aec1619ee1e01982',1,'loss_log(XCSF *xcsf, const double *pred, const double *y):&#160;loss.c']]],
+  ['loss_5fmae',['loss_mae',['../loss_8c.html#aad7295372dcd993c57f424e02cc6bb17',1,'loss_mae(XCSF *xcsf, const double *pred, const double *y):&#160;loss.c'],['../loss_8h.html#aad7295372dcd993c57f424e02cc6bb17',1,'loss_mae(XCSF *xcsf, const double *pred, const double *y):&#160;loss.c']]],
+  ['loss_5fmse',['loss_mse',['../loss_8c.html#a5b93dfed6fa50fe21761ed1c4ed77314',1,'loss_mse(XCSF *xcsf, const double *pred, const double *y):&#160;loss.c'],['../loss_8h.html#a5b93dfed6fa50fe21761ed1c4ed77314',1,'loss_mse(XCSF *xcsf, const double *pred, const double *y):&#160;loss.c']]],
+  ['loss_5fonehot_5facc',['loss_onehot_acc',['../loss_8c.html#a7bacdd1aa368a4c34e03b304f24a6ab0',1,'loss_onehot_acc(XCSF *xcsf, const double *pred, const double *y):&#160;loss.c'],['../loss_8h.html#a7bacdd1aa368a4c34e03b304f24a6ab0',1,'loss_onehot_acc(XCSF *xcsf, const double *pred, const double *y):&#160;loss.c']]],
+  ['loss_5frmse',['loss_rmse',['../loss_8c.html#acd3f9518c7b2a284f8fe7f213c142118',1,'loss_rmse(XCSF *xcsf, const double *pred, const double *y):&#160;loss.c'],['../loss_8h.html#acd3f9518c7b2a284f8fe7f213c142118',1,'loss_rmse(XCSF *xcsf, const double *pred, const double *y):&#160;loss.c']]],
   ['loss_5fset_5ffunc',['loss_set_func',['../loss_8c.html#a1accbbfc21d6eefe2d2cb676497953f6',1,'loss_set_func(XCSF *xcsf):&#160;loss.c'],['../loss_8h.html#a1accbbfc21d6eefe2d2cb676497953f6',1,'loss_set_func(XCSF *xcsf):&#160;loss.c']]]
 ];

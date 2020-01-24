@@ -101,18 +101,18 @@ Data Fields</h2></td></tr>
 <tr class="memitem:adbcbe5f90be17000d4aa17012d40ee15"><td class="memItemLeft" align="right" valign="top">_Bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondVtbl.html#adbcbe5f90be17000d4aa17012d40ee15">cond_impl_general</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c1, <a class="el" href="structCL.html">CL</a> *c2)</td></tr>
 <tr class="memdesc:adbcbe5f90be17000d4aa17012d40ee15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the condition of classifier c1 is more general than c2.  <a href="#adbcbe5f90be17000d4aa17012d40ee15">More...</a><br /></td></tr>
 <tr class="separator:adbcbe5f90be17000d4aa17012d40ee15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3321285f92f46a0c6a88d95aab6f53aa"><td class="memItemLeft" align="right" valign="top">_Bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondVtbl.html#a3321285f92f46a0c6a88d95aab6f53aa">cond_impl_match</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, double *x)</td></tr>
-<tr class="memdesc:a3321285f92f46a0c6a88d95aab6f53aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates whether the condition matches the input.  <a href="#a3321285f92f46a0c6a88d95aab6f53aa">More...</a><br /></td></tr>
-<tr class="separator:a3321285f92f46a0c6a88d95aab6f53aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad64f966770fe9a7bacf9b0bf98f0fc80"><td class="memItemLeft" align="right" valign="top">_Bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondVtbl.html#ad64f966770fe9a7bacf9b0bf98f0fc80">cond_impl_match</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, const double *x)</td></tr>
+<tr class="memdesc:ad64f966770fe9a7bacf9b0bf98f0fc80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates whether the condition matches the input.  <a href="#ad64f966770fe9a7bacf9b0bf98f0fc80">More...</a><br /></td></tr>
+<tr class="separator:ad64f966770fe9a7bacf9b0bf98f0fc80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d17de458a0c87f658cc38935fba297e"><td class="memItemLeft" align="right" valign="top">_Bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondVtbl.html#a4d17de458a0c87f658cc38935fba297e">cond_impl_mutate</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c)</td></tr>
 <tr class="memdesc:a4d17de458a0c87f658cc38935fba297e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs classifier condition mutation.  <a href="#a4d17de458a0c87f658cc38935fba297e">More...</a><br /></td></tr>
 <tr class="separator:a4d17de458a0c87f658cc38935fba297e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37e1d0f59aba9f9d151a4e609a4c6688"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondVtbl.html#a37e1d0f59aba9f9d151a4e609a4c6688">cond_impl_copy</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *to, <a class="el" href="structCL.html">CL</a> *from)</td></tr>
 <tr class="memdesc:a37e1d0f59aba9f9d151a4e609a4c6688"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the condition from one classifier to another.  <a href="#a37e1d0f59aba9f9d151a4e609a4c6688">More...</a><br /></td></tr>
 <tr class="separator:a37e1d0f59aba9f9d151a4e609a4c6688"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d80d568bbee0518894de3c5ba2c3062"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondVtbl.html#a3d80d568bbee0518894de3c5ba2c3062">cond_impl_cover</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, double *x)</td></tr>
-<tr class="memdesc:a3d80d568bbee0518894de3c5ba2c3062"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a condition that matches the current input.  <a href="#a3d80d568bbee0518894de3c5ba2c3062">More...</a><br /></td></tr>
-<tr class="separator:a3d80d568bbee0518894de3c5ba2c3062"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dcd41a3195f66acf03e05bea5b3d829"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondVtbl.html#a7dcd41a3195f66acf03e05bea5b3d829">cond_impl_cover</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, const double *x)</td></tr>
+<tr class="memdesc:a7dcd41a3195f66acf03e05bea5b3d829"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a condition that matches the current input.  <a href="#a7dcd41a3195f66acf03e05bea5b3d829">More...</a><br /></td></tr>
+<tr class="separator:a7dcd41a3195f66acf03e05bea5b3d829"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0204a7eb4757b359ca771e8309c91bf"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondVtbl.html#af0204a7eb4757b359ca771e8309c91bf">cond_impl_free</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c)</td></tr>
 <tr class="memdesc:af0204a7eb4757b359ca771e8309c91bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees the memory used by the classifier condition.  <a href="#af0204a7eb4757b359ca771e8309c91bf">More...</a><br /></td></tr>
 <tr class="separator:af0204a7eb4757b359ca771e8309c91bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -122,9 +122,9 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a3d3742173ca6d8b2e1b27405ff378bc2"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondVtbl.html#a3d3742173ca6d8b2e1b27405ff378bc2">cond_impl_print</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c)</td></tr>
 <tr class="memdesc:a3d3742173ca6d8b2e1b27405ff378bc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the classifier condition.  <a href="#a3d3742173ca6d8b2e1b27405ff378bc2">More...</a><br /></td></tr>
 <tr class="separator:a3d3742173ca6d8b2e1b27405ff378bc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba014b33f1faf985341133cf954cfff5"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondVtbl.html#aba014b33f1faf985341133cf954cfff5">cond_impl_update</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, double *x, double *y)</td></tr>
-<tr class="memdesc:aba014b33f1faf985341133cf954cfff5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the classifier's condition.  <a href="#aba014b33f1faf985341133cf954cfff5">More...</a><br /></td></tr>
-<tr class="separator:aba014b33f1faf985341133cf954cfff5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb84af6b2b38f5b02cbaa4185d348cbd"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondVtbl.html#adb84af6b2b38f5b02cbaa4185d348cbd">cond_impl_update</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, const double *x, const double *y)</td></tr>
+<tr class="memdesc:adb84af6b2b38f5b02cbaa4185d348cbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the classifier's condition.  <a href="#adb84af6b2b38f5b02cbaa4185d348cbd">More...</a><br /></td></tr>
+<tr class="separator:adb84af6b2b38f5b02cbaa4185d348cbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad723cbb11a22e73b6d1b1e4d4c5094cd"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondVtbl.html#ad723cbb11a22e73b6d1b1e4d4c5094cd">cond_impl_size</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c)</td></tr>
 <tr class="memdesc:ad723cbb11a22e73b6d1b1e4d4c5094cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size of the classifier condition.  <a href="#ad723cbb11a22e73b6d1b1e4d4c5094cd">More...</a><br /></td></tr>
 <tr class="separator:ad723cbb11a22e73b6d1b1e4d4c5094cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,14 +169,14 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a id="a3d80d568bbee0518894de3c5ba2c3062"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d80d568bbee0518894de3c5ba2c3062">&#9670;&nbsp;</a></span>cond_impl_cover</h2>
+<a id="a7dcd41a3195f66acf03e05bea5b3d829"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dcd41a3195f66acf03e05bea5b3d829">&#9670;&nbsp;</a></span>cond_impl_cover</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* CondVtbl::cond_impl_cover) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, double *x)</td>
+          <td class="memname">void(* CondVtbl::cond_impl_cover) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, const double *x)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -338,14 +338,14 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a id="a3321285f92f46a0c6a88d95aab6f53aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3321285f92f46a0c6a88d95aab6f53aa">&#9670;&nbsp;</a></span>cond_impl_match</h2>
+<a id="ad64f966770fe9a7bacf9b0bf98f0fc80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad64f966770fe9a7bacf9b0bf98f0fc80">&#9670;&nbsp;</a></span>cond_impl_match</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">_Bool(* CondVtbl::cond_impl_match) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, double *x)</td>
+          <td class="memname">_Bool(* CondVtbl::cond_impl_match) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, const double *x)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -479,14 +479,14 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a id="aba014b33f1faf985341133cf954cfff5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba014b33f1faf985341133cf954cfff5">&#9670;&nbsp;</a></span>cond_impl_update</h2>
+<a id="adb84af6b2b38f5b02cbaa4185d348cbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb84af6b2b38f5b02cbaa4185d348cbd">&#9670;&nbsp;</a></span>cond_impl_update</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* CondVtbl::cond_impl_update) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, double *x, double *y)</td>
+          <td class="memname">void(* CondVtbl::cond_impl_update) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, const double *x, const double *y)</td>
         </tr>
       </table>
 </div><div class="memdoc">

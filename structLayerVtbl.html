@@ -125,9 +125,9 @@ Data Fields</h2></td></tr>
 <tr class="memitem:aabd95c8baceff8f2af6f881ebf44e5ae"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#aabd95c8baceff8f2af6f881ebf44e5ae">layer_impl_backward</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, <a class="el" href="structNET.html">NET</a> *net)</td></tr>
 <tr class="memdesc:aabd95c8baceff8f2af6f881ebf44e5ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Backward propagates the error through a layer.  <a href="#aabd95c8baceff8f2af6f881ebf44e5ae">More...</a><br /></td></tr>
 <tr class="separator:aabd95c8baceff8f2af6f881ebf44e5ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9ed675f08576e608979b728ac786144"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#ae9ed675f08576e608979b728ac786144">layer_impl_forward</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, double *input)</td></tr>
-<tr class="memdesc:ae9ed675f08576e608979b728ac786144"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forward propagates an input through the layer.  <a href="#ae9ed675f08576e608979b728ac786144">More...</a><br /></td></tr>
-<tr class="separator:ae9ed675f08576e608979b728ac786144"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae92e2b48ef71fb9b4654f9c627900270"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#ae92e2b48ef71fb9b4654f9c627900270">layer_impl_forward</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, const double *input)</td></tr>
+<tr class="memdesc:ae92e2b48ef71fb9b4654f9c627900270"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forward propagates an input through the layer.  <a href="#ae92e2b48ef71fb9b4654f9c627900270">More...</a><br /></td></tr>
+<tr class="separator:ae92e2b48ef71fb9b4654f9c627900270"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8e9c7e34c920484d2256675b9bb6530"><td class="memItemLeft" align="right" valign="top">double *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#aa8e9c7e34c920484d2256675b9bb6530">layer_impl_output</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td></tr>
 <tr class="memdesc:aa8e9c7e34c920484d2256675b9bb6530"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the outputs of a layer.  <a href="#aa8e9c7e34c920484d2256675b9bb6530">More...</a><br /></td></tr>
 <tr class="separator:aa8e9c7e34c920484d2256675b9bb6530"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -200,14 +200,14 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a id="ae9ed675f08576e608979b728ac786144"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9ed675f08576e608979b728ac786144">&#9670;&nbsp;</a></span>layer_impl_forward</h2>
+<a id="ae92e2b48ef71fb9b4654f9c627900270"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae92e2b48ef71fb9b4654f9c627900270">&#9670;&nbsp;</a></span>layer_impl_forward</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* LayerVtbl::layer_impl_forward) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, double *input)</td>
+          <td class="memname">void(* LayerVtbl::layer_impl_forward) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, const double *input)</td>
         </tr>
       </table>
 </div><div class="memdoc">

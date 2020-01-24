@@ -5,7 +5,7 @@ var pred__rls_8c =
     [ "init_matrix", "pred__rls_8c.html#a7e145e21e28edb366fda9a86433faf81", null ],
     [ "matrix_matrix_multiply", "pred__rls_8c.html#a0495599b5e0677cd077212eaa9f3fd31", null ],
     [ "matrix_vector_multiply", "pred__rls_8c.html#abf68900ca12cb5ad1ab6b884c31285d2", null ],
-    [ "pred_rls_compute", "pred__rls_8c.html#acaf64d1a7de8a0214d1f682bb65bd642", null ],
+    [ "pred_rls_compute", "pred__rls_8c.html#a3179021ed5bd8b2b1efaf3e309d56047", null ],
     [ "pred_rls_copy", "pred__rls_8c.html#a8b88cf5e0a8cb027967f9bc52a9690c9", null ],
     [ "pred_rls_crossover", "pred__rls_8c.html#ae620006ed343d13cefcca8ee574fbe66", null ],
     [ "pred_rls_free", "pred__rls_8c.html#a848c68859d54b4d03b284d17b8d58c8a", null ],
@@ -15,5 +15,5 @@ var pred__rls_8c =
     [ "pred_rls_print", "pred__rls_8c.html#a0215b880a8d772a26b24ab083d260647", null ],
     [ "pred_rls_save", "pred__rls_8c.html#a63e2376cd0fa02bba1e0adc5b70b6b9e", null ],
     [ "pred_rls_size", "pred__rls_8c.html#ae80b7685a0f34e72541def5e9d3fa9d9", null ],
-    [ "pred_rls_update", "pred__rls_8c.html#a2fe9c87a5c1fb0e88589581856878596", null ]
+    [ "pred_rls_update", "pred__rls_8c.html#a180bc8388c8b5ead583a93143b8fccdb", null ]
 ];

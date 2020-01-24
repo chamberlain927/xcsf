@@ -121,8 +121,8 @@ Functions</h2></td></tr>
 <tr class="separator:a60a73bd95771faf3cf4e7fc93c976c10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8117ae7e239c3d848227fdeb9e934ced"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__noise_8c.html#a8117ae7e239c3d848227fdeb9e934ced">neural_layer_noise_rand</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td></tr>
 <tr class="separator:a8117ae7e239c3d848227fdeb9e934ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80f0dcb2fa9bcddcbd075ad4bc4cff62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__noise_8c.html#a80f0dcb2fa9bcddcbd075ad4bc4cff62">neural_layer_noise_forward</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, double *input)</td></tr>
-<tr class="separator:a80f0dcb2fa9bcddcbd075ad4bc4cff62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7723e9d8cf2ba2ab3fede53bbc2ee33a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__noise_8c.html#a7723e9d8cf2ba2ab3fede53bbc2ee33a">neural_layer_noise_forward</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, const double *input)</td></tr>
+<tr class="separator:a7723e9d8cf2ba2ab3fede53bbc2ee33a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6291a5a49357187b5389d217055311f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__noise_8c.html#a6291a5a49357187b5389d217055311f3">neural_layer_noise_backward</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, <a class="el" href="structNET.html">NET</a> *net)</td></tr>
 <tr class="separator:a6291a5a49357187b5389d217055311f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5dcd459a3b3538a8d6c7a1d10a450323"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__noise_8c.html#a5dcd459a3b3538a8d6c7a1d10a450323">neural_layer_noise_update</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td></tr>
@@ -144,7 +144,7 @@ Functions</h2></td></tr>
 <div class="textblock"><p>An implementation of a Gaussian noise adding layer. </p>
 <dl class="section author"><dt>Author</dt><dd>Richard Preen <a href="#" onclick="location.href='mai'+'lto:'+'rpr'+'ee'+'n@g'+'ma'+'il.'+'co'+'m'; return false;">rpree<span style="display: none;">.nosp@m.</span>n@gm<span style="display: none;">.nosp@m.</span>ail.c<span style="display: none;">.nosp@m.</span>om</a> </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>The Authors. </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>2016&ndash;2019. </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2016&ndash;2020. </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="neural__layer__noise_8c_source.html">neural_layer_noise.c</a>.</p>
 </div><h2 class="groupheader">Function Documentation</h2>
@@ -218,8 +218,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a80f0dcb2fa9bcddcbd075ad4bc4cff62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80f0dcb2fa9bcddcbd075ad4bc4cff62">&#9670;&nbsp;</a></span>neural_layer_noise_forward()</h2>
+<a id="a7723e9d8cf2ba2ab3fede53bbc2ee33a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7723e9d8cf2ba2ab3fede53bbc2ee33a">&#9670;&nbsp;</a></span>neural_layer_noise_forward()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -239,7 +239,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double *&#160;</td>
+          <td class="paramtype">const double *&#160;</td>
           <td class="paramname"><em>input</em>&#160;</td>
         </tr>
         <tr>
@@ -256,7 +256,7 @@ Functions</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__noise_8c_a80f0dcb2fa9bcddcbd075ad4bc4cff62_cgraph.svg" width="875" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__noise_8c_a7723e9d8cf2ba2ab3fede53bbc2ee33a_cgraph.svg" width="875" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 

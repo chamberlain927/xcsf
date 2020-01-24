@@ -1,9 +1,9 @@
 var searchData=
 [
   ['act',['act',['../structCL.html#ac57f17306b0c24ac40a667f7c76bcfb4',1,'CL']]],
-  ['act_5fimpl_5fcompute',['act_impl_compute',['../structActVtbl.html#a83a78b6084c6a6547dd54fabe649d42f',1,'ActVtbl']]],
+  ['act_5fimpl_5fcompute',['act_impl_compute',['../structActVtbl.html#a0920c00fc89efdeab9ccbd9acf8f373a',1,'ActVtbl']]],
   ['act_5fimpl_5fcopy',['act_impl_copy',['../structActVtbl.html#ac5b05b38b3b4ac13607b4ace018bae1a',1,'ActVtbl']]],
-  ['act_5fimpl_5fcover',['act_impl_cover',['../structActVtbl.html#abfe89aa1d8b40f0bf03f66f642f20b5e',1,'ActVtbl']]],
+  ['act_5fimpl_5fcover',['act_impl_cover',['../structActVtbl.html#ac2d6705b6c8868bcfd15fa59cb89e859',1,'ActVtbl']]],
   ['act_5fimpl_5fcrossover',['act_impl_crossover',['../structActVtbl.html#a9996602554fd6e02d56456b636e99ea9',1,'ActVtbl']]],
   ['act_5fimpl_5ffree',['act_impl_free',['../structActVtbl.html#afbd0174b7f6c9d41011e4441a1f31460',1,'ActVtbl']]],
   ['act_5fimpl_5fgeneral',['act_impl_general',['../structActVtbl.html#a19fa32e1e2ded58278d33d26c066c272',1,'ActVtbl']]],
@@ -13,7 +13,7 @@ var searchData=
   ['act_5fimpl_5fprint',['act_impl_print',['../structActVtbl.html#a2901bdb52e4b2716a3494edcb72a93b5',1,'ActVtbl']]],
   ['act_5fimpl_5frand',['act_impl_rand',['../structActVtbl.html#a7c2aa548e8e4dbb90b5b32fb9aa430c3',1,'ActVtbl']]],
   ['act_5fimpl_5fsave',['act_impl_save',['../structActVtbl.html#a4d2d3d0035ad3718cee892992ce5be53',1,'ActVtbl']]],
-  ['act_5fimpl_5fupdate',['act_impl_update',['../structActVtbl.html#a98437bd78d766d4aca34187ecc327544',1,'ActVtbl']]],
+  ['act_5fimpl_5fupdate',['act_impl_update',['../structActVtbl.html#a8dad25f35cea8b1f8c13a031a435b05d',1,'ActVtbl']]],
   ['act_5finteger_5fvtbl',['act_integer_vtbl',['../act__integer_8h.html#a6cadc98dfa533b801ec39093082c3c09',1,'act_integer.h']]],
   ['act_5ftype',['ACT_TYPE',['../structXCSF.html#a665acef952eda9895067d37cb5d9a9bc',1,'XCSF']]],
   ['act_5fvptr',['act_vptr',['../structCL.html#a029b13d6a2e908af0bf292f05ab21940',1,'CL']]],

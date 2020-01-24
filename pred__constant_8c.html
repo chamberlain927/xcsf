@@ -117,10 +117,10 @@ Functions</h2></td></tr>
 <tr class="separator:ae7e9088e1b3f2f1bc40be98ff0be2e8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a757f4d2fd84bd315eef794ee87c0e522"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__constant_8c.html#a757f4d2fd84bd315eef794ee87c0e522">pred_constant_free</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c)</td></tr>
 <tr class="separator:a757f4d2fd84bd315eef794ee87c0e522"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af40b9f1aec1edba0c32430017b2d97cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__constant_8c.html#af40b9f1aec1edba0c32430017b2d97cd">pred_constant_update</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, double *x, double *y)</td></tr>
-<tr class="separator:af40b9f1aec1edba0c32430017b2d97cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28d3ebeaf800d2653cf376d5ba3e5459"><td class="memItemLeft" align="right" valign="top">double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__constant_8c.html#a28d3ebeaf800d2653cf376d5ba3e5459">pred_constant_compute</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, double *x)</td></tr>
-<tr class="separator:a28d3ebeaf800d2653cf376d5ba3e5459"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15f6b6e9266f5e20b73792915546530a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__constant_8c.html#a15f6b6e9266f5e20b73792915546530a">pred_constant_update</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, const double *x, const double *y)</td></tr>
+<tr class="separator:a15f6b6e9266f5e20b73792915546530a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea46b465b4358977497cbc99dfc97920"><td class="memItemLeft" align="right" valign="top">double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__constant_8c.html#aea46b465b4358977497cbc99dfc97920">pred_constant_compute</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, const double *x)</td></tr>
+<tr class="separator:aea46b465b4358977497cbc99dfc97920"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac029450ce18540889f883017b0a5ee8e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__constant_8c.html#ac029450ce18540889f883017b0a5ee8e">pred_constant_print</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c)</td></tr>
 <tr class="separator:ac029450ce18540889f883017b0a5ee8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affcb89405aaa1838b10aa1e4ad8eb42e"><td class="memItemLeft" align="right" valign="top">_Bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__constant_8c.html#affcb89405aaa1838b10aa1e4ad8eb42e">pred_constant_crossover</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c1, <a class="el" href="structCL.html">CL</a> *c2)</td></tr>
@@ -138,12 +138,12 @@ Functions</h2></td></tr>
 <div class="textblock"><p>Piece-wise constant prediction functions. </p>
 <dl class="section author"><dt>Author</dt><dd>Richard Preen <a href="#" onclick="location.href='mai'+'lto:'+'rpr'+'ee'+'n@g'+'ma'+'il.'+'co'+'m'; return false;">rpree<span style="display: none;">.nosp@m.</span>n@gm<span style="display: none;">.nosp@m.</span>ail.c<span style="display: none;">.nosp@m.</span>om</a> </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>The Authors. </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>2015&ndash;2019. </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2015&ndash;2020. </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="pred__constant_8c_source.html">pred_constant.c</a>.</p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="a28d3ebeaf800d2653cf376d5ba3e5459"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28d3ebeaf800d2653cf376d5ba3e5459">&#9670;&nbsp;</a></span>pred_constant_compute()</h2>
+<a id="aea46b465b4358977497cbc99dfc97920"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea46b465b4358977497cbc99dfc97920">&#9670;&nbsp;</a></span>pred_constant_compute()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -163,7 +163,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double *&#160;</td>
+          <td class="paramtype">const double *&#160;</td>
           <td class="paramname"><em>x</em>&#160;</td>
         </tr>
         <tr>
@@ -478,8 +478,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af40b9f1aec1edba0c32430017b2d97cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af40b9f1aec1edba0c32430017b2d97cd">&#9670;&nbsp;</a></span>pred_constant_update()</h2>
+<a id="a15f6b6e9266f5e20b73792915546530a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15f6b6e9266f5e20b73792915546530a">&#9670;&nbsp;</a></span>pred_constant_update()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -499,13 +499,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double *&#160;</td>
+          <td class="paramtype">const double *&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double *&#160;</td>
+          <td class="paramtype">const double *&#160;</td>
           <td class="paramname"><em>y</em>&#160;</td>
         </tr>
         <tr>

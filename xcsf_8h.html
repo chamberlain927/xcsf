@@ -200,12 +200,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a2cf95733e5f97410d94211b72e835847"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcsf_8h.html#a2cf95733e5f97410d94211b72e835847">xcsf_score</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structINPUT.html">INPUT</a> *test_data)</td></tr>
 <tr class="memdesc:a2cf95733e5f97410d94211b72e835847"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> error for the input data.  <a href="#a2cf95733e5f97410d94211b72e835847">More...</a><br /></td></tr>
 <tr class="separator:a2cf95733e5f97410d94211b72e835847"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0b9db7273578fdff649d46823cd9790"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcsf_8h.html#af0b9db7273578fdff649d46823cd9790">xcsf_predict</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, double *input, double *output, int rows)</td></tr>
-<tr class="memdesc:af0b9db7273578fdff649d46823cd9790"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> predictions for the provided input.  <a href="#af0b9db7273578fdff649d46823cd9790">More...</a><br /></td></tr>
-<tr class="separator:af0b9db7273578fdff649d46823cd9790"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1f6851f682e015601030a5c725c6618"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcsf_8h.html#ae1f6851f682e015601030a5c725c6618">xcsf_print_match_set</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, double *input, _Bool printc, _Bool printa, _Bool printp)</td></tr>
-<tr class="memdesc:ae1f6851f682e015601030a5c725c6618"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> match set for the supplied input.  <a href="#ae1f6851f682e015601030a5c725c6618">More...</a><br /></td></tr>
-<tr class="separator:ae1f6851f682e015601030a5c725c6618"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90b938e4ae2ef92284e8eabfcf4b7b7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcsf_8h.html#a90b938e4ae2ef92284e8eabfcf4b7b7b">xcsf_predict</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, const double *x, double *pred, int rows)</td></tr>
+<tr class="memdesc:a90b938e4ae2ef92284e8eabfcf4b7b7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> predictions for the provided input.  <a href="#a90b938e4ae2ef92284e8eabfcf4b7b7b">More...</a><br /></td></tr>
+<tr class="separator:a90b938e4ae2ef92284e8eabfcf4b7b7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb5e08c233a6b01b6a6d1560ef0927fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcsf_8h.html#aeb5e08c233a6b01b6a6d1560ef0927fc">xcsf_print_match_set</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, const double *x, _Bool printc, _Bool printa, _Bool printp)</td></tr>
+<tr class="memdesc:aeb5e08c233a6b01b6a6d1560ef0927fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> match set for the supplied input.  <a href="#aeb5e08c233a6b01b6a6d1560ef0927fc">More...</a><br /></td></tr>
+<tr class="separator:aeb5e08c233a6b01b6a6d1560ef0927fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa81c624d435554140c97471cc3b67cbe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcsf_8h.html#aa81c624d435554140c97471cc3b67cbe">xcsf_print_pop</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, _Bool printc, _Bool printa, _Bool printp)</td></tr>
 <tr class="memdesc:aa81c624d435554140c97471cc3b67cbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the current <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> population.  <a href="#aa81c624d435554140c97471cc3b67cbe">More...</a><br /></td></tr>
 <tr class="separator:aa81c624d435554140c97471cc3b67cbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -818,8 +818,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="af0b9db7273578fdff649d46823cd9790"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0b9db7273578fdff649d46823cd9790">&#9670;&nbsp;</a></span>xcsf_predict()</h2>
+<a id="a90b938e4ae2ef92284e8eabfcf4b7b7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90b938e4ae2ef92284e8eabfcf4b7b7b">&#9670;&nbsp;</a></span>xcsf_predict()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -833,14 +833,14 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double *&#160;</td>
-          <td class="paramname"><em>input</em>, </td>
+          <td class="paramtype">const double *&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double *&#160;</td>
-          <td class="paramname"><em>output</em>, </td>
+          <td class="paramname"><em>pred</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -860,8 +860,8 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
-    <tr><td class="paramname">input</td><td>The input feature variables. </td></tr>
-    <tr><td class="paramname">output</td><td>The calculated <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> predictions (set by this function). </td></tr>
+    <tr><td class="paramname">x</td><td>The input feature variables. </td></tr>
+    <tr><td class="paramname">pred</td><td>The calculated <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> predictions (set by this function). </td></tr>
     <tr><td class="paramname">rows</td><td>The number of instances. </td></tr>
   </table>
   </dd>
@@ -875,20 +875,20 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="xcsf_8h_af0b9db7273578fdff649d46823cd9790_cgraph.svg" width="1870" height="874"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="xcsf_8h_a90b938e4ae2ef92284e8eabfcf4b7b7b_cgraph.svg" width="1870" height="874"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="xcsf_8h_af0b9db7273578fdff649d46823cd9790_icgraph.svg" width="492" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="xcsf_8h_a90b938e4ae2ef92284e8eabfcf4b7b7b_icgraph.svg" width="492" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="ae1f6851f682e015601030a5c725c6618"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1f6851f682e015601030a5c725c6618">&#9670;&nbsp;</a></span>xcsf_print_match_set()</h2>
+<a id="aeb5e08c233a6b01b6a6d1560ef0927fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb5e08c233a6b01b6a6d1560ef0927fc">&#9670;&nbsp;</a></span>xcsf_print_match_set()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -902,8 +902,8 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double *&#160;</td>
-          <td class="paramname"><em>input</em>, </td>
+          <td class="paramtype">const double *&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -935,7 +935,7 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
-    <tr><td class="paramname">input</td><td>The input features to perform matching. </td></tr>
+    <tr><td class="paramname">x</td><td>The input features to perform matching. </td></tr>
     <tr><td class="paramname">printc</td><td>Whether to print condition structures. </td></tr>
     <tr><td class="paramname">printa</td><td>Whether to print action structures. </td></tr>
     <tr><td class="paramname">printp</td><td>Whether to print prediction structures. </td></tr>
@@ -951,13 +951,13 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="xcsf_8h_ae1f6851f682e015601030a5c725c6618_cgraph.svg" width="1923" height="975"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="xcsf_8h_aeb5e08c233a6b01b6a6d1560ef0927fc_cgraph.svg" width="1923" height="975"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="xcsf_8h_ae1f6851f682e015601030a5c725c6618_icgraph.svg" width="599" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="xcsf_8h_aeb5e08c233a6b01b6a6d1560ef0927fc_icgraph.svg" width="599" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 

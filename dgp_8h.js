@@ -13,5 +13,5 @@ var dgp_8h =
     [ "graph_rand", "dgp_8h.html#a686eb8ab5988e7c4557b6f78afc92975", null ],
     [ "graph_reset", "dgp_8h.html#af4a7ed4eb1e0a65fee8a3a709f710b18", null ],
     [ "graph_save", "dgp_8h.html#a61e63b76302f0214c32a754f0a7033d8", null ],
-    [ "graph_update", "dgp_8h.html#a54c9e39fac55e642cab0db6a048bd27f", null ]
+    [ "graph_update", "dgp_8h.html#a2221ddd70f57091a9eae84f83ef87ce9", null ]
 ];

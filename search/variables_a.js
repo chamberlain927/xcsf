@@ -6,7 +6,7 @@ var searchData=
   ['layer_5fdropout_5fvtbl',['layer_dropout_vtbl',['../neural__layer__dropout_8h.html#a6c5aa1c66eaa28dd748530488cd00c82',1,'neural_layer_dropout.h']]],
   ['layer_5fimpl_5fbackward',['layer_impl_backward',['../structLayerVtbl.html#aabd95c8baceff8f2af6f881ebf44e5ae',1,'LayerVtbl']]],
   ['layer_5fimpl_5fcopy',['layer_impl_copy',['../structLayerVtbl.html#a0b537a9a2ee9807cf23c2febb6bf94c3',1,'LayerVtbl']]],
-  ['layer_5fimpl_5fforward',['layer_impl_forward',['../structLayerVtbl.html#ae9ed675f08576e608979b728ac786144',1,'LayerVtbl']]],
+  ['layer_5fimpl_5fforward',['layer_impl_forward',['../structLayerVtbl.html#ae92e2b48ef71fb9b4654f9c627900270',1,'LayerVtbl']]],
   ['layer_5fimpl_5ffree',['layer_impl_free',['../structLayerVtbl.html#ad0375ce6971fdf0c369f2e1243bbac6b',1,'LayerVtbl']]],
   ['layer_5fimpl_5fload',['layer_impl_load',['../structLayerVtbl.html#a47616098d5c6b6d94fdcd1a831803017',1,'LayerVtbl']]],
   ['layer_5fimpl_5fmutate',['layer_impl_mutate',['../structLayerVtbl.html#a3d47219b22307eef5017f07c71d2c119',1,'LayerVtbl']]],
@@ -23,5 +23,5 @@ var searchData=
   ['len',['len',['../structCOND__TERNARY.html#a7b0df6d789023f20adbcd8b43739c02c',1,'COND_TERNARY::len()'],['../structGP__TREE.html#ad6bf91035d4a3f9ed4fcc7d1b4d8e26a',1,'GP_TREE::len()']]],
   ['list',['list',['../structSET.html#a460c2f8a8f129f83b1c33f3ebe0169dd',1,'SET']]],
   ['loss_5ffunc',['LOSS_FUNC',['../structXCSF.html#acc15b9f731ea288dcd495d10d2ce32cb',1,'XCSF']]],
-  ['loss_5fptr',['loss_ptr',['../structXCSF.html#a4de4ef02b9e585fbae6192b4c8eaa928',1,'XCSF']]]
+  ['loss_5fptr',['loss_ptr',['../structXCSF.html#a25e16e39d06ec0862551b5bebee11409',1,'XCSF']]]
 ];

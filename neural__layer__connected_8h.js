@@ -2,7 +2,7 @@ var neural__layer__connected_8h =
 [
     [ "neural_layer_connected_backward", "neural__layer__connected_8h.html#af9dcc6dbe5c6081b9384a7ba2612f2b4", null ],
     [ "neural_layer_connected_copy", "neural__layer__connected_8h.html#adcafe18ace400f29408ac12d88197dbc", null ],
-    [ "neural_layer_connected_forward", "neural__layer__connected_8h.html#ad6a5740088c37ef80346b186ac74f142", null ],
+    [ "neural_layer_connected_forward", "neural__layer__connected_8h.html#a48787f10543702a3147bfc112de70da2", null ],
     [ "neural_layer_connected_free", "neural__layer__connected_8h.html#a64bc49aa83d07ed7bc25621d412b6049", null ],
     [ "neural_layer_connected_init", "neural__layer__connected_8h.html#a40e50820f5b433df45cbfb9a5d765093", null ],
     [ "neural_layer_connected_load", "neural__layer__connected_8h.html#a39cc348d9bf84489f18270a2a340e233", null ],

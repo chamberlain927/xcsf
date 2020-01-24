@@ -35,7 +35,7 @@ var structXCSF =
     [ "INIT_FITNESS", "structXCSF.html#a22451dae348eb6a6d4f4f399afa70562", null ],
     [ "LAMBDA", "structXCSF.html#aad4792803190df96b319e9fd925e7072", null ],
     [ "LOSS_FUNC", "structXCSF.html#acc15b9f731ea288dcd495d10d2ce32cb", null ],
-    [ "loss_ptr", "structXCSF.html#a4de4ef02b9e585fbae6192b4c8eaa928", null ],
+    [ "loss_ptr", "structXCSF.html#a25e16e39d06ec0862551b5bebee11409", null ],
     [ "MAX_K", "structXCSF.html#a2fe572eeaacb9368264a92ff4c2efd20", null ],
     [ "MAX_T", "structXCSF.html#a0c67805480258552f7fa1fef6d3999d9", null ],
     [ "MAX_TRIALS", "structXCSF.html#a9898230859b2b2aeff2b3ba7fc2f64e4", null ],

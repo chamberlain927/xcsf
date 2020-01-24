@@ -104,15 +104,15 @@ Data Fields</h2></td></tr>
 <tr class="memitem:ab6ca647916da8969b3139dde4905fdee"><td class="memItemLeft" align="right" valign="top">_Bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structActVtbl.html#ab6ca647916da8969b3139dde4905fdee">act_impl_mutate</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c)</td></tr>
 <tr class="memdesc:ab6ca647916da8969b3139dde4905fdee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs classifier action mutation.  <a href="#ab6ca647916da8969b3139dde4905fdee">More...</a><br /></td></tr>
 <tr class="separator:ab6ca647916da8969b3139dde4905fdee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83a78b6084c6a6547dd54fabe649d42f"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structActVtbl.html#a83a78b6084c6a6547dd54fabe649d42f">act_impl_compute</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, double *x)</td></tr>
-<tr class="memdesc:a83a78b6084c6a6547dd54fabe649d42f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the current classifier action using the input.  <a href="#a83a78b6084c6a6547dd54fabe649d42f">More...</a><br /></td></tr>
-<tr class="separator:a83a78b6084c6a6547dd54fabe649d42f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0920c00fc89efdeab9ccbd9acf8f373a"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structActVtbl.html#a0920c00fc89efdeab9ccbd9acf8f373a">act_impl_compute</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, const double *x)</td></tr>
+<tr class="memdesc:a0920c00fc89efdeab9ccbd9acf8f373a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the current classifier action using the input.  <a href="#a0920c00fc89efdeab9ccbd9acf8f373a">More...</a><br /></td></tr>
+<tr class="separator:a0920c00fc89efdeab9ccbd9acf8f373a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5b05b38b3b4ac13607b4ace018bae1a"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structActVtbl.html#ac5b05b38b3b4ac13607b4ace018bae1a">act_impl_copy</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *to, <a class="el" href="structCL.html">CL</a> *from)</td></tr>
 <tr class="memdesc:ac5b05b38b3b4ac13607b4ace018bae1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the action from one classifier to another.  <a href="#ac5b05b38b3b4ac13607b4ace018bae1a">More...</a><br /></td></tr>
 <tr class="separator:ac5b05b38b3b4ac13607b4ace018bae1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfe89aa1d8b40f0bf03f66f642f20b5e"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structActVtbl.html#abfe89aa1d8b40f0bf03f66f642f20b5e">act_impl_cover</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, double *x, int action)</td></tr>
-<tr class="memdesc:abfe89aa1d8b40f0bf03f66f642f20b5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates an action that matches the specified value.  <a href="#abfe89aa1d8b40f0bf03f66f642f20b5e">More...</a><br /></td></tr>
-<tr class="separator:abfe89aa1d8b40f0bf03f66f642f20b5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2d6705b6c8868bcfd15fa59cb89e859"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structActVtbl.html#ac2d6705b6c8868bcfd15fa59cb89e859">act_impl_cover</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, const double *x, int action)</td></tr>
+<tr class="memdesc:ac2d6705b6c8868bcfd15fa59cb89e859"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates an action that matches the specified value.  <a href="#ac2d6705b6c8868bcfd15fa59cb89e859">More...</a><br /></td></tr>
+<tr class="separator:ac2d6705b6c8868bcfd15fa59cb89e859"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbd0174b7f6c9d41011e4441a1f31460"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structActVtbl.html#afbd0174b7f6c9d41011e4441a1f31460">act_impl_free</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c)</td></tr>
 <tr class="memdesc:afbd0174b7f6c9d41011e4441a1f31460"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees the memory used by the classifier action.  <a href="#afbd0174b7f6c9d41011e4441a1f31460">More...</a><br /></td></tr>
 <tr class="separator:afbd0174b7f6c9d41011e4441a1f31460"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -125,9 +125,9 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a2901bdb52e4b2716a3494edcb72a93b5"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structActVtbl.html#a2901bdb52e4b2716a3494edcb72a93b5">act_impl_print</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c)</td></tr>
 <tr class="memdesc:a2901bdb52e4b2716a3494edcb72a93b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the classifier action.  <a href="#a2901bdb52e4b2716a3494edcb72a93b5">More...</a><br /></td></tr>
 <tr class="separator:a2901bdb52e4b2716a3494edcb72a93b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98437bd78d766d4aca34187ecc327544"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structActVtbl.html#a98437bd78d766d4aca34187ecc327544">act_impl_update</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, double *x, double *y)</td></tr>
-<tr class="memdesc:a98437bd78d766d4aca34187ecc327544"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the classifier's action.  <a href="#a98437bd78d766d4aca34187ecc327544">More...</a><br /></td></tr>
-<tr class="separator:a98437bd78d766d4aca34187ecc327544"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dad25f35cea8b1f8c13a031a435b05d"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structActVtbl.html#a8dad25f35cea8b1f8c13a031a435b05d">act_impl_update</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, const double *x, const double *y)</td></tr>
+<tr class="memdesc:a8dad25f35cea8b1f8c13a031a435b05d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the classifier's action.  <a href="#a8dad25f35cea8b1f8c13a031a435b05d">More...</a><br /></td></tr>
+<tr class="separator:a8dad25f35cea8b1f8c13a031a435b05d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d2d3d0035ad3718cee892992ce5be53"><td class="memItemLeft" align="right" valign="top">size_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structActVtbl.html#a4d2d3d0035ad3718cee892992ce5be53">act_impl_save</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, FILE *fp)</td></tr>
 <tr class="memdesc:a4d2d3d0035ad3718cee892992ce5be53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the action to a binary file.  <a href="#a4d2d3d0035ad3718cee892992ce5be53">More...</a><br /></td></tr>
 <tr class="separator:a4d2d3d0035ad3718cee892992ce5be53"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,14 +141,14 @@ Data Fields</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="action_8h_source.html#l00032">32</a> of file <a class="el" href="action_8h_source.html">action.h</a>.</p>
 </div><h2 class="groupheader">Field Documentation</h2>
-<a id="a83a78b6084c6a6547dd54fabe649d42f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83a78b6084c6a6547dd54fabe649d42f">&#9670;&nbsp;</a></span>act_impl_compute</h2>
+<a id="a0920c00fc89efdeab9ccbd9acf8f373a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0920c00fc89efdeab9ccbd9acf8f373a">&#9670;&nbsp;</a></span>act_impl_compute</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* ActVtbl::act_impl_compute) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, double *x)</td>
+          <td class="memname">int(* ActVtbl::act_impl_compute) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, const double *x)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -198,14 +198,14 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a id="abfe89aa1d8b40f0bf03f66f642f20b5e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abfe89aa1d8b40f0bf03f66f642f20b5e">&#9670;&nbsp;</a></span>act_impl_cover</h2>
+<a id="ac2d6705b6c8868bcfd15fa59cb89e859"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2d6705b6c8868bcfd15fa59cb89e859">&#9670;&nbsp;</a></span>act_impl_cover</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* ActVtbl::act_impl_cover) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, double *x, int action)</td>
+          <td class="memname">void(* ActVtbl::act_impl_cover) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, const double *x, int action)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -479,14 +479,14 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a id="a98437bd78d766d4aca34187ecc327544"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98437bd78d766d4aca34187ecc327544">&#9670;&nbsp;</a></span>act_impl_update</h2>
+<a id="a8dad25f35cea8b1f8c13a031a435b05d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dad25f35cea8b1f8c13a031a435b05d">&#9670;&nbsp;</a></span>act_impl_update</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* ActVtbl::act_impl_update) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, double *x, double *y)</td>
+          <td class="memname">void(* ActVtbl::act_impl_update) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, const double *x, const double *y)</td>
         </tr>
       </table>
 </div><div class="memdoc">

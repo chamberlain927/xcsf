@@ -101,9 +101,9 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a2e2da634e4ae5ab683a2547851415ad3"><td class="memItemLeft" align="right" valign="top">_Bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPredVtbl.html#a2e2da634e4ae5ab683a2547851415ad3">pred_impl_mutate</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c)</td></tr>
 <tr class="memdesc:a2e2da634e4ae5ab683a2547851415ad3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs classifier prediction mutation.  <a href="#a2e2da634e4ae5ab683a2547851415ad3">More...</a><br /></td></tr>
 <tr class="separator:a2e2da634e4ae5ab683a2547851415ad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a628e97974ded94c95d493ea565fd7e42"><td class="memItemLeft" align="right" valign="top">double *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPredVtbl.html#a628e97974ded94c95d493ea565fd7e42">pred_impl_compute</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, double *x)</td></tr>
-<tr class="memdesc:a628e97974ded94c95d493ea565fd7e42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the current classifier prediction using the input.  <a href="#a628e97974ded94c95d493ea565fd7e42">More...</a><br /></td></tr>
-<tr class="separator:a628e97974ded94c95d493ea565fd7e42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c045699d574e47a7229d8b7f3fcdd8a"><td class="memItemLeft" align="right" valign="top">double *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPredVtbl.html#a2c045699d574e47a7229d8b7f3fcdd8a">pred_impl_compute</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, const double *x)</td></tr>
+<tr class="memdesc:a2c045699d574e47a7229d8b7f3fcdd8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the current classifier prediction using the input.  <a href="#a2c045699d574e47a7229d8b7f3fcdd8a">More...</a><br /></td></tr>
+<tr class="separator:a2c045699d574e47a7229d8b7f3fcdd8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0207611f89d6b9e70abf189b0606e66"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPredVtbl.html#ae0207611f89d6b9e70abf189b0606e66">pred_impl_copy</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *to, <a class="el" href="structCL.html">CL</a> *from)</td></tr>
 <tr class="memdesc:ae0207611f89d6b9e70abf189b0606e66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the prediction from one classifier to another.  <a href="#ae0207611f89d6b9e70abf189b0606e66">More...</a><br /></td></tr>
 <tr class="separator:ae0207611f89d6b9e70abf189b0606e66"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -116,9 +116,9 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a4b064b03400caa18739aa9072c4d4ea8"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPredVtbl.html#a4b064b03400caa18739aa9072c4d4ea8">pred_impl_print</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c)</td></tr>
 <tr class="memdesc:a4b064b03400caa18739aa9072c4d4ea8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the classifier prediction.  <a href="#a4b064b03400caa18739aa9072c4d4ea8">More...</a><br /></td></tr>
 <tr class="separator:a4b064b03400caa18739aa9072c4d4ea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e8748343b55e6a7cf8b782a0d6d257a"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPredVtbl.html#a1e8748343b55e6a7cf8b782a0d6d257a">pred_impl_update</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, double *x, double *y)</td></tr>
-<tr class="memdesc:a1e8748343b55e6a7cf8b782a0d6d257a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the classifier's prediction.  <a href="#a1e8748343b55e6a7cf8b782a0d6d257a">More...</a><br /></td></tr>
-<tr class="separator:a1e8748343b55e6a7cf8b782a0d6d257a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24171ac49812a27741ba771cf230b058"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPredVtbl.html#a24171ac49812a27741ba771cf230b058">pred_impl_update</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, const double *x, const double *y)</td></tr>
+<tr class="memdesc:a24171ac49812a27741ba771cf230b058"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the classifier's prediction.  <a href="#a24171ac49812a27741ba771cf230b058">More...</a><br /></td></tr>
+<tr class="separator:a24171ac49812a27741ba771cf230b058"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4301fb074c9a1116a55cc821efb63a37"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPredVtbl.html#a4301fb074c9a1116a55cc821efb63a37">pred_impl_size</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c)</td></tr>
 <tr class="memdesc:a4301fb074c9a1116a55cc821efb63a37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size of the classifier prediction.  <a href="#a4301fb074c9a1116a55cc821efb63a37">More...</a><br /></td></tr>
 <tr class="separator:a4301fb074c9a1116a55cc821efb63a37"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,14 +135,14 @@ Data Fields</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="prediction_8h_source.html#l00032">32</a> of file <a class="el" href="prediction_8h_source.html">prediction.h</a>.</p>
 </div><h2 class="groupheader">Field Documentation</h2>
-<a id="a628e97974ded94c95d493ea565fd7e42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a628e97974ded94c95d493ea565fd7e42">&#9670;&nbsp;</a></span>pred_impl_compute</h2>
+<a id="a2c045699d574e47a7229d8b7f3fcdd8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c045699d574e47a7229d8b7f3fcdd8a">&#9670;&nbsp;</a></span>pred_impl_compute</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double*(* PredVtbl::pred_impl_compute) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, double *x)</td>
+          <td class="memname">double*(* PredVtbl::pred_impl_compute) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, const double *x)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -416,14 +416,14 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a id="a1e8748343b55e6a7cf8b782a0d6d257a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e8748343b55e6a7cf8b782a0d6d257a">&#9670;&nbsp;</a></span>pred_impl_update</h2>
+<a id="a24171ac49812a27741ba771cf230b058"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24171ac49812a27741ba771cf230b058">&#9670;&nbsp;</a></span>pred_impl_update</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* PredVtbl::pred_impl_update) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, double *x, double *y)</td>
+          <td class="memname">void(* PredVtbl::pred_impl_update) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, const double *x, const double *y)</td>
         </tr>
       </table>
 </div><div class="memdoc">
