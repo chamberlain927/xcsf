@@ -111,14 +111,14 @@ Functions</h2></td></tr>
 <tr class="memitem:a625040bfc20e836245df6bfd5df2e97b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="env_8h.html#a625040bfc20e836245df6bfd5df2e97b">env_init</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, char **argv)</td></tr>
 <tr class="memdesc:a625040bfc20e836245df6bfd5df2e97b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises a built-in problem environment.  <a href="#a625040bfc20e836245df6bfd5df2e97b">More...</a><br /></td></tr>
 <tr class="separator:a625040bfc20e836245df6bfd5df2e97b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec77b84c94e34d3cc143e4ce6d4be566"><td class="memItemLeft" align="right" valign="top">static _Bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="env_8h.html#aec77b84c94e34d3cc143e4ce6d4be566">env_is_reset</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
-<tr class="separator:aec77b84c94e34d3cc143e4ce6d4be566"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1eb5c55e7467d5cdb44f135aa88e40fd"><td class="memItemLeft" align="right" valign="top">static _Bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="env_8h.html#a1eb5c55e7467d5cdb44f135aa88e40fd">env_multistep</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
-<tr class="separator:a1eb5c55e7467d5cdb44f135aa88e40fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7c72ee008665504d43cd7414bcf84d2"><td class="memItemLeft" align="right" valign="top">static _Bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="env_8h.html#aa7c72ee008665504d43cd7414bcf84d2">env_is_reset</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="separator:aa7c72ee008665504d43cd7414bcf84d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07dceeed036688d64a341761346a5540"><td class="memItemLeft" align="right" valign="top">static _Bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="env_8h.html#a07dceeed036688d64a341761346a5540">env_multistep</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="separator:a07dceeed036688d64a341761346a5540"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a7407ba215b0279ffbdca7374461899"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="env_8h.html#a0a7407ba215b0279ffbdca7374461899">env_execute</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, int action)</td></tr>
 <tr class="separator:a0a7407ba215b0279ffbdca7374461899"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ee80839b438cc0c0d2e8c35a0007f55"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="env_8h.html#a3ee80839b438cc0c0d2e8c35a0007f55">env_max_payoff</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
-<tr class="separator:a3ee80839b438cc0c0d2e8c35a0007f55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c4413cd9083f82b37f6d8496aa05f56"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="env_8h.html#a5c4413cd9083f82b37f6d8496aa05f56">env_max_payoff</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="separator:a5c4413cd9083f82b37f6d8496aa05f56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab35d28dd4fa0fba570442f45f5b16a65"><td class="memItemLeft" align="right" valign="top">static const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="env_8h.html#ab35d28dd4fa0fba570442f45f5b16a65">env_get_state</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
 <tr class="separator:ab35d28dd4fa0fba570442f45f5b16a65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab520c4512903f83f9b593403fa9278c9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="env_8h.html#ab520c4512903f83f9b593403fa9278c9">env_free</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
@@ -313,8 +313,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="aec77b84c94e34d3cc143e4ce6d4be566"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec77b84c94e34d3cc143e4ce6d4be566">&#9670;&nbsp;</a></span>env_is_reset()</h2>
+<a id="aa7c72ee008665504d43cd7414bcf84d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7c72ee008665504d43cd7414bcf84d2">&#9670;&nbsp;</a></span>env_is_reset()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -325,7 +325,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">static _Bool env_is_reset </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
           <td class="paramname"><em>xcsf</em></td><td>)</td>
           <td></td>
         </tr>
@@ -345,14 +345,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="env_8h_aec77b84c94e34d3cc143e4ce6d4be566_icgraph.svg" width="547" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="env_8h_aa7c72ee008665504d43cd7414bcf84d2_icgraph.svg" width="547" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="a3ee80839b438cc0c0d2e8c35a0007f55"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ee80839b438cc0c0d2e8c35a0007f55">&#9670;&nbsp;</a></span>env_max_payoff()</h2>
+<a id="a5c4413cd9083f82b37f6d8496aa05f56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c4413cd9083f82b37f6d8496aa05f56">&#9670;&nbsp;</a></span>env_max_payoff()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -363,7 +363,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">static double env_max_payoff </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
           <td class="paramname"><em>xcsf</em></td><td>)</td>
           <td></td>
         </tr>
@@ -383,14 +383,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="env_8h_a3ee80839b438cc0c0d2e8c35a0007f55_icgraph.svg" width="570" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="env_8h_a5c4413cd9083f82b37f6d8496aa05f56_icgraph.svg" width="570" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="a1eb5c55e7467d5cdb44f135aa88e40fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1eb5c55e7467d5cdb44f135aa88e40fd">&#9670;&nbsp;</a></span>env_multistep()</h2>
+<a id="a07dceeed036688d64a341761346a5540"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07dceeed036688d64a341761346a5540">&#9670;&nbsp;</a></span>env_multistep()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -401,7 +401,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">static _Bool env_multistep </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
           <td class="paramname"><em>xcsf</em></td><td>)</td>
           <td></td>
         </tr>
@@ -421,7 +421,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="env_8h_a1eb5c55e7467d5cdb44f135aa88e40fd_icgraph.svg" width="212" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="env_8h_a07dceeed036688d64a341761346a5540_icgraph.svg" width="212" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 

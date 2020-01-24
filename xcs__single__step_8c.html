@@ -124,9 +124,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ae25a81ce7f997ab7167ab23daec18183"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcs__single__step_8c.html#ae25a81ce7f997ab7167ab23daec18183">xcs_single_decision</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structSET.html">SET</a> *mset, <a class="el" href="structSET.html">SET</a> *kset, const double *x)</td></tr>
 <tr class="memdesc:ae25a81ce7f997ab7167ab23daec18183"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs the match set and selects an action to perform.  <a href="#ae25a81ce7f997ab7167ab23daec18183">More...</a><br /></td></tr>
 <tr class="separator:ae25a81ce7f997ab7167ab23daec18183"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0fc4c261bd470fbd11276afc045f29b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcs__single__step_8c.html#ae0fc4c261bd470fbd11276afc045f29b">xcs_single_update</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structSET.html">SET</a> *mset, <a class="el" href="structSET.html">SET</a> *aset, <a class="el" href="structSET.html">SET</a> *kset, const double *x, int a, double r)</td></tr>
-<tr class="memdesc:ae0fc4c261bd470fbd11276afc045f29b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the action set, updates the classifiers and runs the EA.  <a href="#ae0fc4c261bd470fbd11276afc045f29b">More...</a><br /></td></tr>
-<tr class="separator:ae0fc4c261bd470fbd11276afc045f29b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd31e5406eeef1fb9b244f635a0f0408"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcs__single__step_8c.html#afd31e5406eeef1fb9b244f635a0f0408">xcs_single_update</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structSET.html">SET</a> *mset, <a class="el" href="structSET.html">SET</a> *aset, <a class="el" href="structSET.html">SET</a> *kset, const double *x, int a, double r)</td></tr>
+<tr class="memdesc:afd31e5406eeef1fb9b244f635a0f0408"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the action set, updates the classifiers and runs the EA.  <a href="#afd31e5406eeef1fb9b244f635a0f0408">More...</a><br /></td></tr>
+<tr class="separator:afd31e5406eeef1fb9b244f635a0f0408"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7963dc25c9a9e54d7b9b8ed681af79cd"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcs__single__step_8c.html#a7963dc25c9a9e54d7b9b8ed681af79cd">xcs_single_error</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, double reward)</td></tr>
 <tr class="memdesc:a7963dc25c9a9e54d7b9b8ed681af79cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the system error.  <a href="#a7963dc25c9a9e54d7b9b8ed681af79cd">More...</a><br /></td></tr>
 <tr class="separator:a7963dc25c9a9e54d7b9b8ed681af79cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -381,8 +381,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ae0fc4c261bd470fbd11276afc045f29b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0fc4c261bd470fbd11276afc045f29b">&#9670;&nbsp;</a></span>xcs_single_update()</h2>
+<a id="afd31e5406eeef1fb9b244f635a0f0408"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd31e5406eeef1fb9b244f635a0f0408">&#9670;&nbsp;</a></span>xcs_single_update()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -396,7 +396,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structSET.html">SET</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="structSET.html">SET</a> *&#160;</td>
           <td class="paramname"><em>mset</em>, </td>
         </tr>
         <tr>
@@ -459,13 +459,13 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__single__step_8c_ae0fc4c261bd470fbd11276afc045f29b_cgraph.svg" width="1811" height="1687"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__single__step_8c_afd31e5406eeef1fb9b244f635a0f0408_cgraph.svg" width="1811" height="1687"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__single__step_8c_ae0fc4c261bd470fbd11276afc045f29b_icgraph.svg" width="670" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__single__step_8c_afd31e5406eeef1fb9b244f635a0f0408_icgraph.svg" width="670" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 

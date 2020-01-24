@@ -4,7 +4,7 @@ var neural_8h =
     [ "NET", "structNET.html", "structNET" ],
     [ "LLIST", "neural_8h.html#a35898f06463a5c653daac0682b27bd8e", null ],
     [ "NET", "neural_8h.html#a175ac6f9df6bf95316c0102dfee55f62", null ],
-    [ "neural_copy", "neural_8h.html#ad6654736e312f885e59cfb43579392b7", null ],
+    [ "neural_copy", "neural_8h.html#a8da978581c53ed20994dc0d3b0a5d1a8", null ],
     [ "neural_free", "neural_8h.html#aca1f0c0d2a771c3c65a74e6b7c49a1b7", null ],
     [ "neural_init", "neural_8h.html#a89a8b1cf58b3c2abe700d9e602e13c8e", null ],
     [ "neural_layer_insert", "neural_8h.html#acf7f7c5ff1758235a46d583310342b76", null ],
@@ -12,10 +12,10 @@ var neural_8h =
     [ "neural_learn", "neural_8h.html#a707de205b2a8e26a586d9ad8539f2186", null ],
     [ "neural_load", "neural_8h.html#a82feaf5070043d33da3e6568ab3bfa63", null ],
     [ "neural_mutate", "neural_8h.html#a9da7f9b824f9ef3e27e2e7c3a275a975", null ],
-    [ "neural_output", "neural_8h.html#a82cb82fff4617b806c18af3c368d3fd7", null ],
-    [ "neural_print", "neural_8h.html#a785143c7711d925e49b873f9f837eb31", null ],
+    [ "neural_output", "neural_8h.html#a37652d16ab189bac7e909e98f223e0bb", null ],
+    [ "neural_print", "neural_8h.html#a85e5bbbe70913a21f854a613511cb90d", null ],
     [ "neural_propagate", "neural_8h.html#a751555b79b78dad092d1a2d7d1d6de06", null ],
     [ "neural_rand", "neural_8h.html#a10fe9f4c70a23c67daeb0d4028fe588f", null ],
-    [ "neural_save", "neural_8h.html#a18168d30bd0c770015989edab6536497", null ],
-    [ "neural_size", "neural_8h.html#a845c01798b14b9ff3b6d379998a96681", null ]
+    [ "neural_save", "neural_8h.html#a535649e8569318c9b4f8d9395a308b1d", null ],
+    [ "neural_size", "neural_8h.html#ab4705268bc0ccf470275783b10dabe9d", null ]
 ];

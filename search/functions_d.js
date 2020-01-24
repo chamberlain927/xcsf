@@ -1,12 +1,12 @@
 var searchData=
 [
   ['sam_5fadapt',['sam_adapt',['../sam_8c.html#aa7382542688a4953644df6cb73a2972c',1,'sam_adapt(const XCSF *xcsf, double *mu):&#160;sam.c'],['../sam_8h.html#aa7382542688a4953644df6cb73a2972c',1,'sam_adapt(const XCSF *xcsf, double *mu):&#160;sam.c']]],
-  ['sam_5fcopy',['sam_copy',['../sam_8c.html#afef7f9141bf79dc5b89865be7885e0e1',1,'sam_copy(const XCSF *xcsf, double *to, double *from):&#160;sam.c'],['../sam_8h.html#afef7f9141bf79dc5b89865be7885e0e1',1,'sam_copy(const XCSF *xcsf, double *to, double *from):&#160;sam.c']]],
+  ['sam_5fcopy',['sam_copy',['../sam_8c.html#af6da3bfee68339d3e714eb7237c2f7d6',1,'sam_copy(const XCSF *xcsf, double *to, const double *from):&#160;sam.c'],['../sam_8h.html#af6da3bfee68339d3e714eb7237c2f7d6',1,'sam_copy(const XCSF *xcsf, double *to, const double *from):&#160;sam.c']]],
   ['sam_5ffree',['sam_free',['../sam_8c.html#a0f3791bc58a3d67f38670151d1cd4418',1,'sam_free(const XCSF *xcsf, double *mu):&#160;sam.c'],['../sam_8h.html#a0f3791bc58a3d67f38670151d1cd4418',1,'sam_free(const XCSF *xcsf, double *mu):&#160;sam.c']]],
   ['sam_5finit',['sam_init',['../sam_8c.html#ac19f397e3c1bd2a2a4f4a1174509ac67',1,'sam_init(const XCSF *xcsf, double **mu):&#160;sam.c'],['../sam_8h.html#ac19f397e3c1bd2a2a4f4a1174509ac67',1,'sam_init(const XCSF *xcsf, double **mu):&#160;sam.c']]],
   ['sam_5flog_5fnormal_5fadapt',['sam_log_normal_adapt',['../sam_8c.html#aa5d85dde453132446949b7c8d837b3d0',1,'sam.c']]],
   ['sam_5flog_5fnormal_5finit',['sam_log_normal_init',['../sam_8c.html#a9b54bfbcf790a621afa925081a66941e',1,'sam.c']]],
-  ['sam_5fprint',['sam_print',['../sam_8c.html#a275d73bfc0a2b23973ec7d017616e6b8',1,'sam_print(const XCSF *xcsf, double *mu):&#160;sam.c'],['../sam_8h.html#a275d73bfc0a2b23973ec7d017616e6b8',1,'sam_print(const XCSF *xcsf, double *mu):&#160;sam.c']]],
+  ['sam_5fprint',['sam_print',['../sam_8c.html#a1a9f6c2dea22a8f1120035fc935923bc',1,'sam_print(const XCSF *xcsf, const double *mu):&#160;sam.c'],['../sam_8h.html#a1a9f6c2dea22a8f1120035fc935923bc',1,'sam_print(const XCSF *xcsf, const double *mu):&#160;sam.c']]],
   ['sam_5frate_5fselection_5fadapt',['sam_rate_selection_adapt',['../sam_8c.html#a4fb45b5b818c1ceafa64661c5f9d5f6c',1,'sam.c']]],
   ['sam_5frate_5fselection_5finit',['sam_rate_selection_init',['../sam_8c.html#afa2d48bd3ec297da02c66bdbb554280b',1,'sam.c']]],
   ['save',['save',['../structXCS.html#a1312ff6b9e9eef9c34029bff38c39de7',1,'XCS']]],

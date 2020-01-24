@@ -125,9 +125,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a6bf7b7f57925225ad66ae8269d50590a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural_8c.html#a6bf7b7f57925225ad66ae8269d50590a">neural_layer_remove</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structNET.html">NET</a> *net, int p)</td></tr>
 <tr class="memdesc:a6bf7b7f57925225ad66ae8269d50590a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a layer from a neural network.  <a href="#a6bf7b7f57925225ad66ae8269d50590a">More...</a><br /></td></tr>
 <tr class="separator:a6bf7b7f57925225ad66ae8269d50590a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6654736e312f885e59cfb43579392b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural_8c.html#ad6654736e312f885e59cfb43579392b7">neural_copy</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structNET.html">NET</a> *to, <a class="el" href="structNET.html">NET</a> *from)</td></tr>
-<tr class="memdesc:ad6654736e312f885e59cfb43579392b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a neural network.  <a href="#ad6654736e312f885e59cfb43579392b7">More...</a><br /></td></tr>
-<tr class="separator:ad6654736e312f885e59cfb43579392b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8da978581c53ed20994dc0d3b0a5d1a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural_8c.html#a8da978581c53ed20994dc0d3b0a5d1a8">neural_copy</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structNET.html">NET</a> *to, const <a class="el" href="structNET.html">NET</a> *from)</td></tr>
+<tr class="memdesc:a8da978581c53ed20994dc0d3b0a5d1a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a neural network.  <a href="#a8da978581c53ed20994dc0d3b0a5d1a8">More...</a><br /></td></tr>
+<tr class="separator:a8da978581c53ed20994dc0d3b0a5d1a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca1f0c0d2a771c3c65a74e6b7c49a1b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural_8c.html#aca1f0c0d2a771c3c65a74e6b7c49a1b7">neural_free</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structNET.html">NET</a> *net)</td></tr>
 <tr class="memdesc:aca1f0c0d2a771c3c65a74e6b7c49a1b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees a neural network.  <a href="#aca1f0c0d2a771c3c65a74e6b7c49a1b7">More...</a><br /></td></tr>
 <tr class="separator:aca1f0c0d2a771c3c65a74e6b7c49a1b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,18 +143,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a1b1b03936f483261383e82c36540f1eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural_8c.html#a1b1b03936f483261383e82c36540f1eb">neural_learn</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structNET.html">NET</a> *net, const double *truth, const double *input)</td></tr>
 <tr class="memdesc:a1b1b03936f483261383e82c36540f1eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a gradient descent update on a neural network.  <a href="#a1b1b03936f483261383e82c36540f1eb">More...</a><br /></td></tr>
 <tr class="separator:a1b1b03936f483261383e82c36540f1eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82cb82fff4617b806c18af3c368d3fd7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural_8c.html#a82cb82fff4617b806c18af3c368d3fd7">neural_output</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structNET.html">NET</a> *net, int i)</td></tr>
-<tr class="memdesc:a82cb82fff4617b806c18af3c368d3fd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the output of a specified neuron in the output layer of a neural network.  <a href="#a82cb82fff4617b806c18af3c368d3fd7">More...</a><br /></td></tr>
-<tr class="separator:a82cb82fff4617b806c18af3c368d3fd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a785143c7711d925e49b873f9f837eb31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural_8c.html#a785143c7711d925e49b873f9f837eb31">neural_print</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structNET.html">NET</a> *net, _Bool print_weights)</td></tr>
-<tr class="memdesc:a785143c7711d925e49b873f9f837eb31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints a neural network.  <a href="#a785143c7711d925e49b873f9f837eb31">More...</a><br /></td></tr>
-<tr class="separator:a785143c7711d925e49b873f9f837eb31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a845c01798b14b9ff3b6d379998a96681"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural_8c.html#a845c01798b14b9ff3b6d379998a96681">neural_size</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structNET.html">NET</a> *net)</td></tr>
-<tr class="memdesc:a845c01798b14b9ff3b6d379998a96681"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the total number of neurons in a neural network.  <a href="#a845c01798b14b9ff3b6d379998a96681">More...</a><br /></td></tr>
-<tr class="separator:a845c01798b14b9ff3b6d379998a96681"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18168d30bd0c770015989edab6536497"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural_8c.html#a18168d30bd0c770015989edab6536497">neural_save</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structNET.html">NET</a> *net, FILE *fp)</td></tr>
-<tr class="memdesc:a18168d30bd0c770015989edab6536497"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a neural network to a binary file.  <a href="#a18168d30bd0c770015989edab6536497">More...</a><br /></td></tr>
-<tr class="separator:a18168d30bd0c770015989edab6536497"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37652d16ab189bac7e909e98f223e0bb"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural_8c.html#a37652d16ab189bac7e909e98f223e0bb">neural_output</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structNET.html">NET</a> *net, int i)</td></tr>
+<tr class="memdesc:a37652d16ab189bac7e909e98f223e0bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the output of a specified neuron in the output layer of a neural network.  <a href="#a37652d16ab189bac7e909e98f223e0bb">More...</a><br /></td></tr>
+<tr class="separator:a37652d16ab189bac7e909e98f223e0bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85e5bbbe70913a21f854a613511cb90d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural_8c.html#a85e5bbbe70913a21f854a613511cb90d">neural_print</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structNET.html">NET</a> *net, _Bool print_weights)</td></tr>
+<tr class="memdesc:a85e5bbbe70913a21f854a613511cb90d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints a neural network.  <a href="#a85e5bbbe70913a21f854a613511cb90d">More...</a><br /></td></tr>
+<tr class="separator:a85e5bbbe70913a21f854a613511cb90d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4705268bc0ccf470275783b10dabe9d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural_8c.html#ab4705268bc0ccf470275783b10dabe9d">neural_size</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structNET.html">NET</a> *net)</td></tr>
+<tr class="memdesc:ab4705268bc0ccf470275783b10dabe9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the total number of neurons in a neural network.  <a href="#ab4705268bc0ccf470275783b10dabe9d">More...</a><br /></td></tr>
+<tr class="separator:ab4705268bc0ccf470275783b10dabe9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a535649e8569318c9b4f8d9395a308b1d"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural_8c.html#a535649e8569318c9b4f8d9395a308b1d">neural_save</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structNET.html">NET</a> *net, FILE *fp)</td></tr>
+<tr class="memdesc:a535649e8569318c9b4f8d9395a308b1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a neural network to a binary file.  <a href="#a535649e8569318c9b4f8d9395a308b1d">More...</a><br /></td></tr>
+<tr class="separator:a535649e8569318c9b4f8d9395a308b1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82feaf5070043d33da3e6568ab3bfa63"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural_8c.html#a82feaf5070043d33da3e6568ab3bfa63">neural_load</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structNET.html">NET</a> *net, FILE *fp)</td></tr>
 <tr class="memdesc:a82feaf5070043d33da3e6568ab3bfa63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a neural network from a binary file.  <a href="#a82feaf5070043d33da3e6568ab3bfa63">More...</a><br /></td></tr>
 <tr class="separator:a82feaf5070043d33da3e6568ab3bfa63"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,8 +167,8 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition in file <a class="el" href="neural_8c_source.html">neural.c</a>.</p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="ad6654736e312f885e59cfb43579392b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6654736e312f885e59cfb43579392b7">&#9670;&nbsp;</a></span>neural_copy()</h2>
+<a id="a8da978581c53ed20994dc0d3b0a5d1a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8da978581c53ed20994dc0d3b0a5d1a8">&#9670;&nbsp;</a></span>neural_copy()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -188,7 +188,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structNET.html">NET</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="structNET.html">NET</a> *&#160;</td>
           <td class="paramname"><em>from</em>&#160;</td>
         </tr>
         <tr>
@@ -202,7 +202,7 @@ Functions</h2></td></tr>
 <p>Copies a neural network. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The const <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
     <tr><td class="paramname">to</td><td>The destination neural network. </td></tr>
     <tr><td class="paramname">from</td><td>The source neural network. </td></tr>
   </table>
@@ -217,13 +217,13 @@ Functions</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_ad6654736e312f885e59cfb43579392b7_cgraph.svg" width="282" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a8da978581c53ed20994dc0d3b0a5d1a8_cgraph.svg" width="282" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_ad6654736e312f885e59cfb43579392b7_icgraph.svg" width="306" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a8da978581c53ed20994dc0d3b0a5d1a8_icgraph.svg" width="306" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -258,7 +258,7 @@ Here is the caller graph for this function:</div>
 <p>Frees a neural network. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The const <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
     <tr><td class="paramname">net</td><td>The neural network to free. </td></tr>
   </table>
   </dd>
@@ -313,7 +313,7 @@ Here is the caller graph for this function:</div>
 <p>Initialises an empty neural network. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The const <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
     <tr><td class="paramname">net</td><td>The neural network to initialise. </td></tr>
   </table>
   </dd>
@@ -374,7 +374,7 @@ Here is the caller graph for this function:</div>
 <p>Inserts a layer into a neural network. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The const <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
     <tr><td class="paramname">net</td><td>The neural network receiving the layer. </td></tr>
     <tr><td class="paramname">l</td><td>The layer to insert. </td></tr>
     <tr><td class="paramname">p</td><td>The position in the network to insert the layer. </td></tr>
@@ -431,7 +431,7 @@ Here is the caller graph for this function:</div>
 <p>Removes a layer from a neural network. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The const <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
     <tr><td class="paramname">net</td><td>The neural network removing the layer. </td></tr>
     <tr><td class="paramname">p</td><td>The position of the layer in the network to be removed. </td></tr>
   </table>
@@ -491,7 +491,7 @@ Here is the call graph for this function:</div>
 <p>Performs a gradient descent update on a neural network. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The const <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
     <tr><td class="paramname">net</td><td>The neural network to be updated. </td></tr>
     <tr><td class="paramname">truth</td><td>The desired network output. </td></tr>
     <tr><td class="paramname">input</td><td>The input state. </td></tr>
@@ -554,7 +554,7 @@ Here is the caller graph for this function:</div>
 <p>Reads a neural network from a binary file. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The const <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
     <tr><td class="paramname">net</td><td>The neural network to load. </td></tr>
     <tr><td class="paramname">fp</td><td>Pointer to the file to be read. </td></tr>
   </table>
@@ -611,7 +611,7 @@ Here is the caller graph for this function:</div>
 <p>Mutates a neural network. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The const <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
     <tr><td class="paramname">net</td><td>The neural network to mutate. </td></tr>
   </table>
   </dd>
@@ -638,8 +638,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a82cb82fff4617b806c18af3c368d3fd7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82cb82fff4617b806c18af3c368d3fd7">&#9670;&nbsp;</a></span>neural_output()</h2>
+<a id="a37652d16ab189bac7e909e98f223e0bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37652d16ab189bac7e909e98f223e0bb">&#9670;&nbsp;</a></span>neural_output()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -653,7 +653,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structNET.html">NET</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="structNET.html">NET</a> *&#160;</td>
           <td class="paramname"><em>net</em>, </td>
         </tr>
         <tr>
@@ -673,7 +673,7 @@ Here is the caller graph for this function:</div>
 <p>Returns the output of a specified neuron in the output layer of a neural network. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The const <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
     <tr><td class="paramname">net</td><td>The neural network to output. </td></tr>
     <tr><td class="paramname">i</td><td>Which neuron in the output layer to return. </td></tr>
   </table>
@@ -689,20 +689,20 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a82cb82fff4617b806c18af3c368d3fd7_cgraph.svg" width="252" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a37652d16ab189bac7e909e98f223e0bb_cgraph.svg" width="252" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a82cb82fff4617b806c18af3c368d3fd7_icgraph.svg" width="523" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a37652d16ab189bac7e909e98f223e0bb_icgraph.svg" width="523" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="a785143c7711d925e49b873f9f837eb31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a785143c7711d925e49b873f9f837eb31">&#9670;&nbsp;</a></span>neural_print()</h2>
+<a id="a85e5bbbe70913a21f854a613511cb90d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85e5bbbe70913a21f854a613511cb90d">&#9670;&nbsp;</a></span>neural_print()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -716,7 +716,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structNET.html">NET</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="structNET.html">NET</a> *&#160;</td>
           <td class="paramname"><em>net</em>, </td>
         </tr>
         <tr>
@@ -736,7 +736,7 @@ Here is the caller graph for this function:</div>
 <p>Prints a neural network. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The const <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
     <tr><td class="paramname">net</td><td>The neural network to print. </td></tr>
     <tr><td class="paramname">print_weights</td><td>Whether to print the weights in each layer. </td></tr>
   </table>
@@ -751,13 +751,13 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a785143c7711d925e49b873f9f837eb31_cgraph.svg" width="426" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a85e5bbbe70913a21f854a613511cb90d_cgraph.svg" width="426" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a785143c7711d925e49b873f9f837eb31_icgraph.svg" width="300" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a85e5bbbe70913a21f854a613511cb90d_icgraph.svg" width="300" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -798,7 +798,7 @@ Here is the caller graph for this function:</div>
 <p>Forward propagates a neural network. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The const <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
     <tr><td class="paramname">net</td><td>The neural network to propagate. </td></tr>
     <tr><td class="paramname">input</td><td>The input state. </td></tr>
   </table>
@@ -854,7 +854,7 @@ Here is the caller graph for this function:</div>
 <p>Randomises the layers within a neural network. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The const <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
     <tr><td class="paramname">net</td><td>The neural network to randomise. </td></tr>
   </table>
   </dd>
@@ -880,8 +880,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a18168d30bd0c770015989edab6536497"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18168d30bd0c770015989edab6536497">&#9670;&nbsp;</a></span>neural_save()</h2>
+<a id="a535649e8569318c9b4f8d9395a308b1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a535649e8569318c9b4f8d9395a308b1d">&#9670;&nbsp;</a></span>neural_save()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -895,7 +895,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structNET.html">NET</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="structNET.html">NET</a> *&#160;</td>
           <td class="paramname"><em>net</em>, </td>
         </tr>
         <tr>
@@ -915,7 +915,7 @@ Here is the caller graph for this function:</div>
 <p>Writes a neural network to a binary file. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The const <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
     <tr><td class="paramname">net</td><td>The neural network to save. </td></tr>
     <tr><td class="paramname">fp</td><td>Pointer to the file to be written. </td></tr>
   </table>
@@ -931,20 +931,20 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a18168d30bd0c770015989edab6536497_cgraph.svg" width="236" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a535649e8569318c9b4f8d9395a308b1d_cgraph.svg" width="236" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a18168d30bd0c770015989edab6536497_icgraph.svg" width="306" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a535649e8569318c9b4f8d9395a308b1d_icgraph.svg" width="306" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="a845c01798b14b9ff3b6d379998a96681"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a845c01798b14b9ff3b6d379998a96681">&#9670;&nbsp;</a></span>neural_size()</h2>
+<a id="ab4705268bc0ccf470275783b10dabe9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4705268bc0ccf470275783b10dabe9d">&#9670;&nbsp;</a></span>neural_size()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -958,7 +958,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structNET.html">NET</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="structNET.html">NET</a> *&#160;</td>
           <td class="paramname"><em>net</em>&#160;</td>
         </tr>
         <tr>
@@ -972,7 +972,7 @@ Here is the caller graph for this function:</div>
 <p>Returns the total number of neurons in a neural network. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The const <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
     <tr><td class="paramname">net</td><td>The neural network to calculate the number of neurons. </td></tr>
   </table>
   </dd>
@@ -987,7 +987,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a845c01798b14b9ff3b6d379998a96681_icgraph.svg" width="298" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_ab4705268bc0ccf470275783b10dabe9d_icgraph.svg" width="298" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
