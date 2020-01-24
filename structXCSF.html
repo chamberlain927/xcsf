@@ -344,9 +344,9 @@ Data Fields</h2></td></tr>
 <tr class="memitem:ae104f4d5926f9e2f1da2fef5a14bdfd5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structXCSF.html#ae104f4d5926f9e2f1da2fef5a14bdfd5">num_actions</a></td></tr>
 <tr class="memdesc:ae104f4d5926f9e2f1da2fef5a14bdfd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of class labels / actions.  <a href="#ae104f4d5926f9e2f1da2fef5a14bdfd5">More...</a><br /></td></tr>
 <tr class="separator:ae104f4d5926f9e2f1da2fef5a14bdfd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25e16e39d06ec0862551b5bebee11409"><td class="memItemLeft" align="right" valign="top">double(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structXCSF.html#a25e16e39d06ec0862551b5bebee11409">loss_ptr</a> )(struct <a class="el" href="structXCSF.html">XCSF</a> *, const double *, const double *)</td></tr>
-<tr class="memdesc:a25e16e39d06ec0862551b5bebee11409"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to error function.  <a href="#a25e16e39d06ec0862551b5bebee11409">More...</a><br /></td></tr>
-<tr class="separator:a25e16e39d06ec0862551b5bebee11409"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac40dd5a7b202433c7c53bb5513747868"><td class="memItemLeft" align="right" valign="top">double(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structXCSF.html#ac40dd5a7b202433c7c53bb5513747868">loss_ptr</a> )(const struct <a class="el" href="structXCSF.html">XCSF</a> *, const double *, const double *)</td></tr>
+<tr class="memdesc:ac40dd5a7b202433c7c53bb5513747868"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error function.  <a href="#ac40dd5a7b202433c7c53bb5513747868">More...</a><br /></td></tr>
+<tr class="separator:ac40dd5a7b202433c7c53bb5513747868"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </p>
@@ -1053,19 +1053,19 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a id="a25e16e39d06ec0862551b5bebee11409"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25e16e39d06ec0862551b5bebee11409">&#9670;&nbsp;</a></span>loss_ptr</h2>
+<a id="ac40dd5a7b202433c7c53bb5513747868"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac40dd5a7b202433c7c53bb5513747868">&#9670;&nbsp;</a></span>loss_ptr</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double(* XCSF::loss_ptr) (struct <a class="el" href="structXCSF.html">XCSF</a> *, const double *, const double *)</td>
+          <td class="memname">double(* XCSF::loss_ptr) (const struct <a class="el" href="structXCSF.html">XCSF</a> *, const double *, const double *)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Pointer to error function. </p>
+<p>Error function. </p>
 
 <p class="definition">Definition at line <a class="el" href="xcsf_8h_source.html#l00194">194</a> of file <a class="el" href="xcsf_8h_source.html">xcsf.h</a>.</p>
 

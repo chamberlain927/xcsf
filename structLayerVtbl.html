@@ -101,42 +101,42 @@ Collaboration diagram for LayerVtbl:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:a3d47219b22307eef5017f07c71d2c119"><td class="memItemLeft" align="right" valign="top">_Bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#a3d47219b22307eef5017f07c71d2c119">layer_impl_mutate</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td></tr>
-<tr class="memdesc:a3d47219b22307eef5017f07c71d2c119"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs layer mutation.  <a href="#a3d47219b22307eef5017f07c71d2c119">More...</a><br /></td></tr>
-<tr class="separator:a3d47219b22307eef5017f07c71d2c119"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17aa98a92006df83c23ca006cae85474"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#a17aa98a92006df83c23ca006cae85474">layer_impl_resize</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, <a class="el" href="structLAYER.html">LAYER</a> *prev)</td></tr>
-<tr class="memdesc:a17aa98a92006df83c23ca006cae85474"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resizes a layer using the previous layer's inputs.  <a href="#a17aa98a92006df83c23ca006cae85474">More...</a><br /></td></tr>
-<tr class="separator:a17aa98a92006df83c23ca006cae85474"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b537a9a2ee9807cf23c2febb6bf94c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structLAYER.html">LAYER</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#a0b537a9a2ee9807cf23c2febb6bf94c3">layer_impl_copy</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *from)</td></tr>
-<tr class="memdesc:a0b537a9a2ee9807cf23c2febb6bf94c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates and returns a copy of a specified layer.  <a href="#a0b537a9a2ee9807cf23c2febb6bf94c3">More...</a><br /></td></tr>
-<tr class="separator:a0b537a9a2ee9807cf23c2febb6bf94c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0375ce6971fdf0c369f2e1243bbac6b"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#ad0375ce6971fdf0c369f2e1243bbac6b">layer_impl_free</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td></tr>
-<tr class="memdesc:ad0375ce6971fdf0c369f2e1243bbac6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees the memory used by the layer.  <a href="#ad0375ce6971fdf0c369f2e1243bbac6b">More...</a><br /></td></tr>
-<tr class="separator:ad0375ce6971fdf0c369f2e1243bbac6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1a99394dd0810a425ad3863239d53d0"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#ad1a99394dd0810a425ad3863239d53d0">layer_impl_rand</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td></tr>
-<tr class="memdesc:ad1a99394dd0810a425ad3863239d53d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Randomises a layer.  <a href="#ad1a99394dd0810a425ad3863239d53d0">More...</a><br /></td></tr>
-<tr class="separator:ad1a99394dd0810a425ad3863239d53d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83302becd112f0bf9c9a9f02d728dff0"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#a83302becd112f0bf9c9a9f02d728dff0">layer_impl_print</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, _Bool print_weights)</td></tr>
-<tr class="memdesc:a83302becd112f0bf9c9a9f02d728dff0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the layer.  <a href="#a83302becd112f0bf9c9a9f02d728dff0">More...</a><br /></td></tr>
-<tr class="separator:a83302becd112f0bf9c9a9f02d728dff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74461289302b9dc90aa3ce5eb785368b"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#a74461289302b9dc90aa3ce5eb785368b">layer_impl_update</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td></tr>
-<tr class="memdesc:a74461289302b9dc90aa3ce5eb785368b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the weights and biases of a layer.  <a href="#a74461289302b9dc90aa3ce5eb785368b">More...</a><br /></td></tr>
-<tr class="separator:a74461289302b9dc90aa3ce5eb785368b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabd95c8baceff8f2af6f881ebf44e5ae"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#aabd95c8baceff8f2af6f881ebf44e5ae">layer_impl_backward</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, <a class="el" href="structNET.html">NET</a> *net)</td></tr>
-<tr class="memdesc:aabd95c8baceff8f2af6f881ebf44e5ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Backward propagates the error through a layer.  <a href="#aabd95c8baceff8f2af6f881ebf44e5ae">More...</a><br /></td></tr>
-<tr class="separator:aabd95c8baceff8f2af6f881ebf44e5ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae92e2b48ef71fb9b4654f9c627900270"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#ae92e2b48ef71fb9b4654f9c627900270">layer_impl_forward</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, const double *input)</td></tr>
-<tr class="memdesc:ae92e2b48ef71fb9b4654f9c627900270"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forward propagates an input through the layer.  <a href="#ae92e2b48ef71fb9b4654f9c627900270">More...</a><br /></td></tr>
-<tr class="separator:ae92e2b48ef71fb9b4654f9c627900270"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8e9c7e34c920484d2256675b9bb6530"><td class="memItemLeft" align="right" valign="top">double *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#aa8e9c7e34c920484d2256675b9bb6530">layer_impl_output</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td></tr>
-<tr class="memdesc:aa8e9c7e34c920484d2256675b9bb6530"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the outputs of a layer.  <a href="#aa8e9c7e34c920484d2256675b9bb6530">More...</a><br /></td></tr>
-<tr class="separator:aa8e9c7e34c920484d2256675b9bb6530"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a767d6e9af372129998ae0244715b2c74"><td class="memItemLeft" align="right" valign="top">size_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#a767d6e9af372129998ae0244715b2c74">layer_impl_save</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, FILE *fp)</td></tr>
-<tr class="memdesc:a767d6e9af372129998ae0244715b2c74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the layer to a binary file.  <a href="#a767d6e9af372129998ae0244715b2c74">More...</a><br /></td></tr>
-<tr class="separator:a767d6e9af372129998ae0244715b2c74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47616098d5c6b6d94fdcd1a831803017"><td class="memItemLeft" align="right" valign="top">size_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#a47616098d5c6b6d94fdcd1a831803017">layer_impl_load</a> )(<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, FILE *fp)</td></tr>
-<tr class="memdesc:a47616098d5c6b6d94fdcd1a831803017"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the layer from a binary file.  <a href="#a47616098d5c6b6d94fdcd1a831803017">More...</a><br /></td></tr>
-<tr class="separator:a47616098d5c6b6d94fdcd1a831803017"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75fdcb8662accf18ff7351ef750be6cf"><td class="memItemLeft" align="right" valign="top">_Bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#a75fdcb8662accf18ff7351ef750be6cf">layer_impl_mutate</a> )(const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td></tr>
+<tr class="memdesc:a75fdcb8662accf18ff7351ef750be6cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs layer mutation.  <a href="#a75fdcb8662accf18ff7351ef750be6cf">More...</a><br /></td></tr>
+<tr class="separator:a75fdcb8662accf18ff7351ef750be6cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77befa293c835082625c8663b2534822"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#a77befa293c835082625c8663b2534822">layer_impl_resize</a> )(const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, <a class="el" href="structLAYER.html">LAYER</a> *prev)</td></tr>
+<tr class="memdesc:a77befa293c835082625c8663b2534822"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resizes a layer using the previous layer's inputs.  <a href="#a77befa293c835082625c8663b2534822">More...</a><br /></td></tr>
+<tr class="separator:a77befa293c835082625c8663b2534822"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbee861cfcdc3c36f5dffc8fdd3dcd70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structLAYER.html">LAYER</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#afbee861cfcdc3c36f5dffc8fdd3dcd70">layer_impl_copy</a> )(const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *from)</td></tr>
+<tr class="memdesc:afbee861cfcdc3c36f5dffc8fdd3dcd70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates and returns a copy of a specified layer.  <a href="#afbee861cfcdc3c36f5dffc8fdd3dcd70">More...</a><br /></td></tr>
+<tr class="separator:afbee861cfcdc3c36f5dffc8fdd3dcd70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9092ca7c38f7de02e056faa47d697ea"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#aa9092ca7c38f7de02e056faa47d697ea">layer_impl_free</a> )(const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td></tr>
+<tr class="memdesc:aa9092ca7c38f7de02e056faa47d697ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees the memory used by the layer.  <a href="#aa9092ca7c38f7de02e056faa47d697ea">More...</a><br /></td></tr>
+<tr class="separator:aa9092ca7c38f7de02e056faa47d697ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefc1546255f8600ff1ac3ac15e283215"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#aefc1546255f8600ff1ac3ac15e283215">layer_impl_rand</a> )(const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td></tr>
+<tr class="memdesc:aefc1546255f8600ff1ac3ac15e283215"><td class="mdescLeft">&#160;</td><td class="mdescRight">Randomises a layer.  <a href="#aefc1546255f8600ff1ac3ac15e283215">More...</a><br /></td></tr>
+<tr class="separator:aefc1546255f8600ff1ac3ac15e283215"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa01d362999b6b4ca4887503ba0b4aed8"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#aa01d362999b6b4ca4887503ba0b4aed8">layer_impl_print</a> )(const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, _Bool print_weights)</td></tr>
+<tr class="memdesc:aa01d362999b6b4ca4887503ba0b4aed8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the layer.  <a href="#aa01d362999b6b4ca4887503ba0b4aed8">More...</a><br /></td></tr>
+<tr class="separator:aa01d362999b6b4ca4887503ba0b4aed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a787570adf20aab5d5ac40b7ac5f20d3d"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#a787570adf20aab5d5ac40b7ac5f20d3d">layer_impl_update</a> )(const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td></tr>
+<tr class="memdesc:a787570adf20aab5d5ac40b7ac5f20d3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the weights and biases of a layer.  <a href="#a787570adf20aab5d5ac40b7ac5f20d3d">More...</a><br /></td></tr>
+<tr class="separator:a787570adf20aab5d5ac40b7ac5f20d3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d7e02e000dabfa4e7bb1659468bde6a"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#a6d7e02e000dabfa4e7bb1659468bde6a">layer_impl_backward</a> )(const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, <a class="el" href="structNET.html">NET</a> *net)</td></tr>
+<tr class="memdesc:a6d7e02e000dabfa4e7bb1659468bde6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Backward propagates the error through a layer.  <a href="#a6d7e02e000dabfa4e7bb1659468bde6a">More...</a><br /></td></tr>
+<tr class="separator:a6d7e02e000dabfa4e7bb1659468bde6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdb56e2c41b28850149ecbcbfc458f2b"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#abdb56e2c41b28850149ecbcbfc458f2b">layer_impl_forward</a> )(const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, const double *input)</td></tr>
+<tr class="memdesc:abdb56e2c41b28850149ecbcbfc458f2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forward propagates an input through the layer.  <a href="#abdb56e2c41b28850149ecbcbfc458f2b">More...</a><br /></td></tr>
+<tr class="separator:abdb56e2c41b28850149ecbcbfc458f2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43ea15ca3f18aa683e05f2bbe72e5043"><td class="memItemLeft" align="right" valign="top">double *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#a43ea15ca3f18aa683e05f2bbe72e5043">layer_impl_output</a> )(const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td></tr>
+<tr class="memdesc:a43ea15ca3f18aa683e05f2bbe72e5043"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the outputs of a layer.  <a href="#a43ea15ca3f18aa683e05f2bbe72e5043">More...</a><br /></td></tr>
+<tr class="separator:a43ea15ca3f18aa683e05f2bbe72e5043"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21045ea2a17c64e43af5b2bd4714e027"><td class="memItemLeft" align="right" valign="top">size_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#a21045ea2a17c64e43af5b2bd4714e027">layer_impl_save</a> )(const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, FILE *fp)</td></tr>
+<tr class="memdesc:a21045ea2a17c64e43af5b2bd4714e027"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the layer to a binary file.  <a href="#a21045ea2a17c64e43af5b2bd4714e027">More...</a><br /></td></tr>
+<tr class="separator:a21045ea2a17c64e43af5b2bd4714e027"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77504873cbb648caa761dde01ae67c40"><td class="memItemLeft" align="right" valign="top">size_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLayerVtbl.html#a77504873cbb648caa761dde01ae67c40">layer_impl_load</a> )(const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, FILE *fp)</td></tr>
+<tr class="memdesc:a77504873cbb648caa761dde01ae67c40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the layer from a binary file.  <a href="#a77504873cbb648caa761dde01ae67c40">More...</a><br /></td></tr>
+<tr class="separator:a77504873cbb648caa761dde01ae67c40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Neural network layer interface data structure. </p>
@@ -144,14 +144,14 @@ Data Fields</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="neural__layer_8h_source.html#l00069">69</a> of file <a class="el" href="neural__layer_8h_source.html">neural_layer.h</a>.</p>
 </div><h2 class="groupheader">Field Documentation</h2>
-<a id="aabd95c8baceff8f2af6f881ebf44e5ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aabd95c8baceff8f2af6f881ebf44e5ae">&#9670;&nbsp;</a></span>layer_impl_backward</h2>
+<a id="a6d7e02e000dabfa4e7bb1659468bde6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d7e02e000dabfa4e7bb1659468bde6a">&#9670;&nbsp;</a></span>layer_impl_backward</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* LayerVtbl::layer_impl_backward) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, <a class="el" href="structNET.html">NET</a> *net)</td>
+          <td class="memname">void(* LayerVtbl::layer_impl_backward) (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, <a class="el" href="structNET.html">NET</a> *net)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -159,7 +159,7 @@ Data Fields</h2></td></tr>
 <p>Backward propagates the error through a layer. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">xcsf</td><td>The const <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
     <tr><td class="paramname">l</td><td>The layer to be backward propagated. </td></tr>
     <tr><td class="paramname">net</td><td>The network being backward propagated. </td></tr>
   </table>
@@ -172,14 +172,14 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a id="a0b537a9a2ee9807cf23c2febb6bf94c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b537a9a2ee9807cf23c2febb6bf94c3">&#9670;&nbsp;</a></span>layer_impl_copy</h2>
+<a id="afbee861cfcdc3c36f5dffc8fdd3dcd70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbee861cfcdc3c36f5dffc8fdd3dcd70">&#9670;&nbsp;</a></span>layer_impl_copy</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structLAYER.html">LAYER</a>*(* LayerVtbl::layer_impl_copy) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *from)</td>
+          <td class="memname"><a class="el" href="structLAYER.html">LAYER</a>*(* LayerVtbl::layer_impl_copy) (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *from)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -187,7 +187,7 @@ Data Fields</h2></td></tr>
 <p>Creates and returns a copy of a specified layer. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">xcsf</td><td>The const <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
     <tr><td class="paramname">from</td><td>The source layer. </td></tr>
   </table>
   </dd>
@@ -200,14 +200,14 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a id="ae92e2b48ef71fb9b4654f9c627900270"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae92e2b48ef71fb9b4654f9c627900270">&#9670;&nbsp;</a></span>layer_impl_forward</h2>
+<a id="abdb56e2c41b28850149ecbcbfc458f2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdb56e2c41b28850149ecbcbfc458f2b">&#9670;&nbsp;</a></span>layer_impl_forward</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* LayerVtbl::layer_impl_forward) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, const double *input)</td>
+          <td class="memname">void(* LayerVtbl::layer_impl_forward) (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, const double *input)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -215,7 +215,7 @@ Data Fields</h2></td></tr>
 <p>Forward propagates an input through the layer. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">xcsf</td><td>The const <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
     <tr><td class="paramname">l</td><td>The layer to be forward propagated. </td></tr>
     <tr><td class="paramname">input</td><td>The input to the layer. </td></tr>
   </table>
@@ -228,14 +228,14 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a id="ad0375ce6971fdf0c369f2e1243bbac6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0375ce6971fdf0c369f2e1243bbac6b">&#9670;&nbsp;</a></span>layer_impl_free</h2>
+<a id="aa9092ca7c38f7de02e056faa47d697ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9092ca7c38f7de02e056faa47d697ea">&#9670;&nbsp;</a></span>layer_impl_free</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* LayerVtbl::layer_impl_free) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td>
+          <td class="memname">void(* LayerVtbl::layer_impl_free) (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -243,7 +243,7 @@ Data Fields</h2></td></tr>
 <p>Frees the memory used by the layer. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">xcsf</td><td>The const <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
     <tr><td class="paramname">l</td><td>The layer to be freed. </td></tr>
   </table>
   </dd>
@@ -255,14 +255,14 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a id="a47616098d5c6b6d94fdcd1a831803017"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47616098d5c6b6d94fdcd1a831803017">&#9670;&nbsp;</a></span>layer_impl_load</h2>
+<a id="a77504873cbb648caa761dde01ae67c40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77504873cbb648caa761dde01ae67c40">&#9670;&nbsp;</a></span>layer_impl_load</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">size_t(* LayerVtbl::layer_impl_load) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, FILE *fp)</td>
+          <td class="memname">size_t(* LayerVtbl::layer_impl_load) (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, FILE *fp)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -270,7 +270,7 @@ Data Fields</h2></td></tr>
 <p>Reads the layer from a binary file. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">xcsf</td><td>The const <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
     <tr><td class="paramname">l</td><td>The layer to be read. </td></tr>
     <tr><td class="paramname">fp</td><td>Pointer to the file to be read. </td></tr>
   </table>
@@ -284,14 +284,14 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a id="a3d47219b22307eef5017f07c71d2c119"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d47219b22307eef5017f07c71d2c119">&#9670;&nbsp;</a></span>layer_impl_mutate</h2>
+<a id="a75fdcb8662accf18ff7351ef750be6cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75fdcb8662accf18ff7351ef750be6cf">&#9670;&nbsp;</a></span>layer_impl_mutate</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">_Bool(* LayerVtbl::layer_impl_mutate) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td>
+          <td class="memname">_Bool(* LayerVtbl::layer_impl_mutate) (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -299,7 +299,7 @@ Data Fields</h2></td></tr>
 <p>Performs layer mutation. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">xcsf</td><td>The const <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
     <tr><td class="paramname">l</td><td>The layer to mutate. </td></tr>
   </table>
   </dd>
@@ -312,14 +312,14 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a id="aa8e9c7e34c920484d2256675b9bb6530"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8e9c7e34c920484d2256675b9bb6530">&#9670;&nbsp;</a></span>layer_impl_output</h2>
+<a id="a43ea15ca3f18aa683e05f2bbe72e5043"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43ea15ca3f18aa683e05f2bbe72e5043">&#9670;&nbsp;</a></span>layer_impl_output</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double*(* LayerVtbl::layer_impl_output) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td>
+          <td class="memname">double*(* LayerVtbl::layer_impl_output) (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -327,7 +327,7 @@ Data Fields</h2></td></tr>
 <p>Returns the outputs of a layer. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">xcsf</td><td>The const <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
     <tr><td class="paramname">l</td><td>The layer whose outputs are to be returned. </td></tr>
   </table>
   </dd>
@@ -340,14 +340,14 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a id="a83302becd112f0bf9c9a9f02d728dff0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83302becd112f0bf9c9a9f02d728dff0">&#9670;&nbsp;</a></span>layer_impl_print</h2>
+<a id="aa01d362999b6b4ca4887503ba0b4aed8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa01d362999b6b4ca4887503ba0b4aed8">&#9670;&nbsp;</a></span>layer_impl_print</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* LayerVtbl::layer_impl_print) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, _Bool print_weights)</td>
+          <td class="memname">void(* LayerVtbl::layer_impl_print) (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, _Bool print_weights)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -355,7 +355,7 @@ Data Fields</h2></td></tr>
 <p>Prints the layer. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">xcsf</td><td>The const <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
     <tr><td class="paramname">l</td><td>The layer to be printed. </td></tr>
     <tr><td class="paramname">print_weights</td><td>Whether to print the weights. </td></tr>
   </table>
@@ -368,14 +368,14 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a id="ad1a99394dd0810a425ad3863239d53d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1a99394dd0810a425ad3863239d53d0">&#9670;&nbsp;</a></span>layer_impl_rand</h2>
+<a id="aefc1546255f8600ff1ac3ac15e283215"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefc1546255f8600ff1ac3ac15e283215">&#9670;&nbsp;</a></span>layer_impl_rand</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* LayerVtbl::layer_impl_rand) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td>
+          <td class="memname">void(* LayerVtbl::layer_impl_rand) (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -383,7 +383,7 @@ Data Fields</h2></td></tr>
 <p>Randomises a layer. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">xcsf</td><td>The const <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
     <tr><td class="paramname">l</td><td>The layer to be randomised. </td></tr>
   </table>
   </dd>
@@ -395,14 +395,14 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a id="a17aa98a92006df83c23ca006cae85474"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17aa98a92006df83c23ca006cae85474">&#9670;&nbsp;</a></span>layer_impl_resize</h2>
+<a id="a77befa293c835082625c8663b2534822"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77befa293c835082625c8663b2534822">&#9670;&nbsp;</a></span>layer_impl_resize</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* LayerVtbl::layer_impl_resize) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, <a class="el" href="structLAYER.html">LAYER</a> *prev)</td>
+          <td class="memname">void(* LayerVtbl::layer_impl_resize) (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, <a class="el" href="structLAYER.html">LAYER</a> *prev)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -410,7 +410,7 @@ Data Fields</h2></td></tr>
 <p>Resizes a layer using the previous layer's inputs. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">xcsf</td><td>The const <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
     <tr><td class="paramname">l</td><td>The layer to mutate. </td></tr>
     <tr><td class="paramname">prev</td><td>The layer prior to the one being mutated. </td></tr>
   </table>
@@ -424,14 +424,14 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a id="a767d6e9af372129998ae0244715b2c74"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a767d6e9af372129998ae0244715b2c74">&#9670;&nbsp;</a></span>layer_impl_save</h2>
+<a id="a21045ea2a17c64e43af5b2bd4714e027"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21045ea2a17c64e43af5b2bd4714e027">&#9670;&nbsp;</a></span>layer_impl_save</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">size_t(* LayerVtbl::layer_impl_save) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, FILE *fp)</td>
+          <td class="memname">size_t(* LayerVtbl::layer_impl_save) (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, FILE *fp)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -439,7 +439,7 @@ Data Fields</h2></td></tr>
 <p>Writes the layer to a binary file. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">xcsf</td><td>The const <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
     <tr><td class="paramname">l</td><td>The layer to be written. </td></tr>
     <tr><td class="paramname">fp</td><td>Pointer to the file to be written. </td></tr>
   </table>
@@ -453,14 +453,14 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a id="a74461289302b9dc90aa3ce5eb785368b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74461289302b9dc90aa3ce5eb785368b">&#9670;&nbsp;</a></span>layer_impl_update</h2>
+<a id="a787570adf20aab5d5ac40b7ac5f20d3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a787570adf20aab5d5ac40b7ac5f20d3d">&#9670;&nbsp;</a></span>layer_impl_update</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* LayerVtbl::layer_impl_update) (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td>
+          <td class="memname">void(* LayerVtbl::layer_impl_update) (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -468,7 +468,7 @@ Data Fields</h2></td></tr>
 <p>Updates the weights and biases of a layer. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">xcsf</td><td>The const <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
     <tr><td class="paramname">l</td><td>The layer to be updated. </td></tr>
   </table>
   </dd>

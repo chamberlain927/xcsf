@@ -1,8 +1,8 @@
 var sam_8h =
 [
-    [ "sam_adapt", "sam_8h.html#a60ea9eae9a7d2d624fee8614b6aa6904", null ],
-    [ "sam_copy", "sam_8h.html#a1def5009483d7c0b876c1e91e170375d", null ],
-    [ "sam_free", "sam_8h.html#ab788a3ced38cf0fd20f8e6a2bab9f86a", null ],
-    [ "sam_init", "sam_8h.html#ab529fdda992a0d15c0f798ec3fefe843", null ],
-    [ "sam_print", "sam_8h.html#addc6297ce445fb173be857a7a966c937", null ]
+    [ "sam_adapt", "sam_8h.html#aa7382542688a4953644df6cb73a2972c", null ],
+    [ "sam_copy", "sam_8h.html#afef7f9141bf79dc5b89865be7885e0e1", null ],
+    [ "sam_free", "sam_8h.html#a0f3791bc58a3d67f38670151d1cd4418", null ],
+    [ "sam_init", "sam_8h.html#ac19f397e3c1bd2a2a4f4a1174509ac67", null ],
+    [ "sam_print", "sam_8h.html#a275d73bfc0a2b23973ec7d017616e6b8", null ]
 ];

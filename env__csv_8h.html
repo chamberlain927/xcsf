@@ -124,8 +124,8 @@ Functions</h2></td></tr>
 <tr class="separator:a0b151218f9d3b17ebc97d13c24200586"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87f90c793652577c7034e4e755fd7829"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="env__csv_8h.html#a87f90c793652577c7034e4e755fd7829">env_csv_maxpayoff</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
 <tr class="separator:a87f90c793652577c7034e4e755fd7829"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9d46446a249a3b71d0a19684d469693"><td class="memItemLeft" align="right" valign="top">double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="env__csv_8h.html#ad9d46446a249a3b71d0a19684d469693">env_csv_get_state</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
-<tr class="separator:ad9d46446a249a3b71d0a19684d469693"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41376ae2783c51e7615cbb185036e5e0"><td class="memItemLeft" align="right" valign="top">const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="env__csv_8h.html#a41376ae2783c51e7615cbb185036e5e0">env_csv_get_state</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="separator:a41376ae2783c51e7615cbb185036e5e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70adac3ae1e17f2840700bbcdd2c9534"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="env__csv_8h.html#a70adac3ae1e17f2840700bbcdd2c9534">env_csv_free</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
 <tr class="memdesc:a70adac3ae1e17f2840700bbcdd2c9534"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees the csv environment.  <a href="#a70adac3ae1e17f2840700bbcdd2c9534">More...</a><br /></td></tr>
 <tr class="separator:a70adac3ae1e17f2840700bbcdd2c9534"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -145,7 +145,7 @@ Variables</h2></td></tr>
 <div class="textblock"><p>CSV input file handling functions. </p>
 <dl class="section author"><dt>Author</dt><dd>Richard Preen <a href="#" onclick="location.href='mai'+'lto:'+'rpr'+'ee'+'n@g'+'ma'+'il.'+'co'+'m'; return false;">rpree<span style="display: none;">.nosp@m.</span>n@gm<span style="display: none;">.nosp@m.</span>ail.c<span style="display: none;">.nosp@m.</span>om</a> </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>The Authors. </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>2015&ndash;2019. </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2015&ndash;2020. </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="env__csv_8h_source.html">env_csv.h</a>.</p>
 </div><h2 class="groupheader">Typedef Documentation</h2>
@@ -226,14 +226,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ad9d46446a249a3b71d0a19684d469693"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9d46446a249a3b71d0a19684d469693">&#9670;&nbsp;</a></span>env_csv_get_state()</h2>
+<a id="a41376ae2783c51e7615cbb185036e5e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41376ae2783c51e7615cbb185036e5e0">&#9670;&nbsp;</a></span>env_csv_get_state()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double* env_csv_get_state </td>
+          <td class="memname">const double* env_csv_get_state </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
           <td class="paramname"><em>xcsf</em></td><td>)</td>
@@ -401,12 +401,12 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">    &amp;<a class="code" href="env__csv_8h.html#a7319299dfba719eee6d1c86102f940ba">env_csv_isreset</a>,</div><div class="line">    &amp;<a class="code" href="env__csv_8h.html#a2d539a55ea00e24e7a71a70f937d2cee">env_csv_multistep</a>,</div><div class="line">    &amp;<a class="code" href="env__csv_8h.html#a0b151218f9d3b17ebc97d13c24200586">env_csv_execute</a>,</div><div class="line">    &amp;<a class="code" href="env__csv_8h.html#a87f90c793652577c7034e4e755fd7829">env_csv_maxpayoff</a>,</div><div class="line">    &amp;<a class="code" href="env__csv_8h.html#ad9d46446a249a3b71d0a19684d469693">env_csv_get_state</a>,</div><div class="line">    &amp;<a class="code" href="env__csv_8h.html#a70adac3ae1e17f2840700bbcdd2c9534">env_csv_free</a>,</div><div class="line">    &amp;<a class="code" href="env__csv_8h.html#abaaa9f80c0bbe08303749c0c18608ed7">env_csv_reset</a></div><div class="line">}</div><div class="ttc" id="env__csv_8h_html_a87f90c793652577c7034e4e755fd7829"><div class="ttname"><a href="env__csv_8h.html#a87f90c793652577c7034e4e755fd7829">env_csv_maxpayoff</a></div><div class="ttdeci">double env_csv_maxpayoff(XCSF *xcsf)</div><div class="ttdef"><b>Definition:</b> <a href="env__csv_8c_source.html#l00178">env_csv.c:178</a></div></div>
-<div class="ttc" id="env__csv_8h_html_ad9d46446a249a3b71d0a19684d469693"><div class="ttname"><a href="env__csv_8h.html#ad9d46446a249a3b71d0a19684d469693">env_csv_get_state</a></div><div class="ttdeci">double * env_csv_get_state(XCSF *xcsf)</div><div class="ttdef"><b>Definition:</b> <a href="env__csv_8c_source.html#l00159">env_csv.c:159</a></div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">    &amp;<a class="code" href="env__csv_8h.html#a7319299dfba719eee6d1c86102f940ba">env_csv_isreset</a>,</div><div class="line">    &amp;<a class="code" href="env__csv_8h.html#a2d539a55ea00e24e7a71a70f937d2cee">env_csv_multistep</a>,</div><div class="line">    &amp;<a class="code" href="env__csv_8h.html#a0b151218f9d3b17ebc97d13c24200586">env_csv_execute</a>,</div><div class="line">    &amp;<a class="code" href="env__csv_8h.html#a87f90c793652577c7034e4e755fd7829">env_csv_maxpayoff</a>,</div><div class="line">    &amp;<a class="code" href="env__csv_8h.html#a41376ae2783c51e7615cbb185036e5e0">env_csv_get_state</a>,</div><div class="line">    &amp;<a class="code" href="env__csv_8h.html#a70adac3ae1e17f2840700bbcdd2c9534">env_csv_free</a>,</div><div class="line">    &amp;<a class="code" href="env__csv_8h.html#abaaa9f80c0bbe08303749c0c18608ed7">env_csv_reset</a></div><div class="line">}</div><div class="ttc" id="env__csv_8h_html_a87f90c793652577c7034e4e755fd7829"><div class="ttname"><a href="env__csv_8h.html#a87f90c793652577c7034e4e755fd7829">env_csv_maxpayoff</a></div><div class="ttdeci">double env_csv_maxpayoff(XCSF *xcsf)</div><div class="ttdef"><b>Definition:</b> <a href="env__csv_8c_source.html#l00178">env_csv.c:178</a></div></div>
 <div class="ttc" id="env__csv_8h_html_a70adac3ae1e17f2840700bbcdd2c9534"><div class="ttname"><a href="env__csv_8h.html#a70adac3ae1e17f2840700bbcdd2c9534">env_csv_free</a></div><div class="ttdeci">void env_csv_free(XCSF *xcsf)</div><div class="ttdoc">Frees the csv environment. </div><div class="ttdef"><b>Definition:</b> <a href="env__csv_8c_source.html#l00064">env_csv.c:64</a></div></div>
 <div class="ttc" id="env__csv_8h_html_a7319299dfba719eee6d1c86102f940ba"><div class="ttname"><a href="env__csv_8h.html#a7319299dfba719eee6d1c86102f940ba">env_csv_isreset</a></div><div class="ttdeci">_Bool env_csv_isreset(XCSF *xcsf)</div><div class="ttdef"><b>Definition:</b> <a href="env__csv_8c_source.html#l00153">env_csv.c:153</a></div></div>
 <div class="ttc" id="env__csv_8h_html_abaaa9f80c0bbe08303749c0c18608ed7"><div class="ttname"><a href="env__csv_8h.html#abaaa9f80c0bbe08303749c0c18608ed7">env_csv_reset</a></div><div class="ttdeci">void env_csv_reset(XCSF *xcsf)</div><div class="ttdef"><b>Definition:</b> <a href="env__csv_8c_source.html#l00148">env_csv.c:148</a></div></div>
 <div class="ttc" id="env__csv_8h_html_a0b151218f9d3b17ebc97d13c24200586"><div class="ttname"><a href="env__csv_8h.html#a0b151218f9d3b17ebc97d13c24200586">env_csv_execute</a></div><div class="ttdeci">double env_csv_execute(XCSF *xcsf, int action)</div><div class="ttdef"><b>Definition:</b> <a href="env__csv_8c_source.html#l00165">env_csv.c:165</a></div></div>
+<div class="ttc" id="env__csv_8h_html_a41376ae2783c51e7615cbb185036e5e0"><div class="ttname"><a href="env__csv_8h.html#a41376ae2783c51e7615cbb185036e5e0">env_csv_get_state</a></div><div class="ttdeci">const double * env_csv_get_state(XCSF *xcsf)</div><div class="ttdef"><b>Definition:</b> <a href="env__csv_8c_source.html#l00159">env_csv.c:159</a></div></div>
 <div class="ttc" id="env__csv_8h_html_a2d539a55ea00e24e7a71a70f937d2cee"><div class="ttname"><a href="env__csv_8h.html#a2d539a55ea00e24e7a71a70f937d2cee">env_csv_multistep</a></div><div class="ttdeci">_Bool env_csv_multistep(XCSF *xcsf)</div><div class="ttdef"><b>Definition:</b> <a href="env__csv_8c_source.html#l00172">env_csv.c:172</a></div></div>
 </div><!-- fragment -->
 <p>csv input environment implemented functions. </p>
