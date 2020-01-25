@@ -5,8 +5,8 @@ var searchData=
   ['main_2ec',['main.c',['../main_8c.html',1,'']]],
   ['matrix',['matrix',['../structPRED__RLS.html#a1a9e3687a9e26026416f7f1c93e427bf',1,'PRED_RLS']]],
   ['matrix_5fa',['MATRIX_A',['../mt19937-64_8c.html#a376c3581bae3c2367fc9ce694e5a8949',1,'mt19937-64.c']]],
-  ['matrix_5fmatrix_5fmultiply',['matrix_matrix_multiply',['../pred__rls_8c.html#a0495599b5e0677cd077212eaa9f3fd31',1,'pred_rls.c']]],
-  ['matrix_5fvector_5fmultiply',['matrix_vector_multiply',['../pred__rls_8c.html#abf68900ca12cb5ad1ab6b884c31285d2',1,'pred_rls.c']]],
+  ['matrix_5fmatrix_5fmultiply',['matrix_matrix_multiply',['../pred__rls_8c.html#a704e208474d55cc3af2859f786cea6a8',1,'pred_rls.c']]],
+  ['matrix_5fvector_5fmultiply',['matrix_vector_multiply',['../pred__rls_8c.html#a09e287b671c2afcc06cc6045745557cf',1,'pred_rls.c']]],
   ['max_5fcols',['MAX_COLS',['../env__csv_8c.html#a551f71f92f90f76151a3cfc9679271a0',1,'env_csv.c']]],
   ['max_5fcover',['MAX_COVER',['../clset_8c.html#a9cca6f51165de2b97647cb83f2128ddb',1,'clset.c']]],
   ['max_5fk',['MAX_K',['../structXCSF.html#a2fe572eeaacb9368264a92ff4c2efd20',1,'XCSF']]],
@@ -34,5 +34,5 @@ var searchData=
   ['mutate_5feta',['mutate_eta',['../neural__layer__connected_8c.html#aa3c3795277157d8feb0b941252d5c6ba',1,'neural_layer_connected.c']]],
   ['mutate_5ffunctions',['mutate_functions',['../neural__layer__connected_8c.html#a5f64296e7986d14a0ea81b87c6889aa0',1,'neural_layer_connected.c']]],
   ['mutate_5fneurons',['mutate_neurons',['../neural__layer__connected_8c.html#a537f920da2e85d9467e7ea113f20232a',1,'neural_layer_connected.c']]],
-  ['mutate_5fweights',['mutate_weights',['../neural__layer__connected_8c.html#a080a46683a6c9a91f49419e7175e2563',1,'neural_layer_connected.c']]]
+  ['mutate_5fweights',['mutate_weights',['../neural__layer__connected_8c.html#a8fb012041a518550bcf8537d793d8032',1,'neural_layer_connected.c']]]
 ];

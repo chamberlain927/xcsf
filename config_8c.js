@@ -4,7 +4,7 @@ var config_8c =
     [ "BASE", "config_8c.html#a79bcfb6bde984f42d1124b068a509af7", null ],
     [ "MAXLEN", "config_8c.html#ae6648cd71a8bd49d58ae8ed33ba910d1", null ],
     [ "PARAM_LIST", "config_8c.html#a2f743c55f8d1d763667fedc61e7f9e94", null ],
-    [ "config_free", "config_8c.html#a660e998cf3410ae947d19e0d886ca6c9", null ],
+    [ "config_free", "config_8c.html#abb4c739fd67dc5287da16408ec47d5c5", null ],
     [ "config_getvalue", "config_8c.html#a10e65fe892d670b67552cef67eb86475", null ],
     [ "config_init", "config_8c.html#a37df9fe8af1e1583876040747eeee030", null ],
     [ "config_newnvpair", "config_8c.html#ae2e1c63fec3382cc3dfe4b72c7a24db8", null ],

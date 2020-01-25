@@ -11,7 +11,7 @@ var neural__activations_8h =
     [ "SIN", "neural__activations_8h.html#ac80ce9955a1af2ab7aa3a67251ec9f5c", null ],
     [ "SOFT_PLUS", "neural__activations_8h.html#ae3eaec13534ff9b241d3480dd94a3098", null ],
     [ "TANH", "neural__activations_8h.html#a1acfe6a311aa86bd70faa9032bf3c6bb", null ],
-    [ "activation_string", "neural__activations_8h.html#a7174b4bd7afa366eaf34053d53005684", null ],
+    [ "activation_string", "neural__activations_8h.html#a3c497db1eec07b52784eff06e61c06c0", null ],
     [ "cos_activate", "neural__activations_8h.html#abb0ed807625c86c51e2b7d4c6a5c7131", null ],
     [ "cos_gradient", "neural__activations_8h.html#aeb419ce905e0dc5552b80a2cbee8d7b4", null ],
     [ "gaussian_activate", "neural__activations_8h.html#a36f845e6eec4a4dd6001aa56e49ef196", null ],
