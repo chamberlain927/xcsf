@@ -28,5 +28,6 @@ var rule__neural_8c =
     [ "rule_neural_cond_rand", "rule__neural_8c.html#ab5a77d9a5639d94e5d97eb9a928b90ec", null ],
     [ "rule_neural_cond_save", "rule__neural_8c.html#a021425b9b6defc0335e91851e609cbab", null ],
     [ "rule_neural_cond_size", "rule__neural_8c.html#a62620bd1b6a2b0acc134a09b54044c76", null ],
-    [ "rule_neural_cond_update", "rule__neural_8c.html#aac5fd77146e5a0d3a7691e906f5c48cc", null ]
+    [ "rule_neural_cond_update", "rule__neural_8c.html#aac5fd77146e5a0d3a7691e906f5c48cc", null ],
+    [ "rule_neural_lopt", "rule__neural_8c.html#aef85634661a05ebde4850db80177fdf7", null ]
 ];

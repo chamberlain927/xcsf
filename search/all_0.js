@@ -53,6 +53,7 @@ var searchData=
   ['activation_5fstring',['activation_string',['../neural__activations_8c.html#a3c497db1eec07b52784eff06e61c06c0',1,'activation_string(int function):&#160;neural_activations.c'],['../neural__activations_8h.html#a3c497db1eec07b52784eff06e61c06c0',1,'activation_string(int function):&#160;neural_activations.c']]],
   ['actvtbl',['ActVtbl',['../structActVtbl.html',1,'']]],
   ['add',['ADD',['../gp_8c.html#a97fe5470fb1ac167c713671655ff3e52',1,'gp.c']]],
+  ['age',['age',['../structCL.html#af9c2de55d24975ff050b430b164825ce',1,'CL']]],
   ['alpha',['ALPHA',['../structXCSF.html#aab84d855d797f15ffbd6feab2d615e30',1,'XCSF']]],
   ['aset',['aset',['../structXCS.html#ae9a88afa19d851ec744c542f693f2249',1,'XCS']]]
 ];

@@ -10,5 +10,6 @@ var sam_8c =
     [ "sam_print", "sam_8c.html#a1a9f6c2dea22a8f1120035fc935923bc", null ],
     [ "sam_rate_selection_adapt", "sam_8c.html#a4fb45b5b818c1ceafa64661c5f9d5f6c", null ],
     [ "sam_rate_selection_init", "sam_8c.html#afa2d48bd3ec297da02c66bdbb554280b", null ],
+    [ "sam_reset", "sam_8c.html#a934d788eb57734b6118fff7385733803", null ],
     [ "mrates", "sam_8c.html#a8eeba4cf3a046fef1598074faa1b6189", null ]
 ];

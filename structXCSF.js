@@ -37,6 +37,7 @@ var structXCSF =
     [ "LOSS_FUNC", "structXCSF.html#acc15b9f731ea288dcd495d10d2ce32cb", null ],
     [ "loss_ptr", "structXCSF.html#ac40dd5a7b202433c7c53bb5513747868", null ],
     [ "MAX_K", "structXCSF.html#a2fe572eeaacb9368264a92ff4c2efd20", null ],
+    [ "MAX_NEURON_MOD", "structXCSF.html#a52ce72a8e80dd91df00334d01c740188", null ],
     [ "MAX_T", "structXCSF.html#a0c67805480258552f7fa1fef6d3999d9", null ],
     [ "MAX_TRIALS", "structXCSF.html#a9898230859b2b2aeff2b3ba7fc2f64e4", null ],
     [ "msetsize", "structXCSF.html#a0bf4923dbd0a75e220576049e083275a", null ],

@@ -9,6 +9,7 @@ var cond__neural_8c =
     [ "cond_neural_general", "cond__neural_8c.html#a1873e5cf2ac3a4239f532a072a2d9716", null ],
     [ "cond_neural_init", "cond__neural_8c.html#afec4115526e4854e95c8dae631df7cf6", null ],
     [ "cond_neural_load", "cond__neural_8c.html#a6dfcd57818b0cbaf0c7120f5f574d353", null ],
+    [ "cond_neural_lopt", "cond__neural_8c.html#a1e18b3a8ea6760223101df8327b5444d", null ],
     [ "cond_neural_match", "cond__neural_8c.html#a2c2bc1d934688d90af626be468332c03", null ],
     [ "cond_neural_mutate", "cond__neural_8c.html#a4ee8091e170f4cb117cfa43b3577d9ee", null ],
     [ "cond_neural_print", "cond__neural_8c.html#af22c0cbe20a0d7835a098c278bfbc89b", null ],

@@ -69,7 +69,7 @@ var searchData=
   ['neural_5frand',['neural_rand',['../neural_8c.html#aaf0a6701c2d891294dd7fd2d118137ef',1,'neural_rand(const XCSF *xcsf, const NET *net):&#160;neural.c'],['../neural_8h.html#aaf0a6701c2d891294dd7fd2d118137ef',1,'neural_rand(const XCSF *xcsf, const NET *net):&#160;neural.c']]],
   ['neural_5fsave',['neural_save',['../neural_8c.html#a535649e8569318c9b4f8d9395a308b1d',1,'neural_save(const XCSF *xcsf, const NET *net, FILE *fp):&#160;neural.c'],['../neural_8h.html#a535649e8569318c9b4f8d9395a308b1d',1,'neural_save(const XCSF *xcsf, const NET *net, FILE *fp):&#160;neural.c']]],
   ['neural_5fsize',['neural_size',['../neural_8c.html#ab4705268bc0ccf470275783b10dabe9d',1,'neural_size(const XCSF *xcsf, const NET *net):&#160;neural.c'],['../neural_8h.html#ab4705268bc0ccf470275783b10dabe9d',1,'neural_size(const XCSF *xcsf, const NET *net):&#160;neural.c']]],
-  ['neuron_5fadd',['neuron_add',['../neural__layer__connected_8c.html#a4a2753deedc0ccd6dd9f0e98dd23a9f7',1,'neural_layer_connected.c']]],
-  ['neuron_5fremove',['neuron_remove',['../neural__layer__connected_8c.html#a56bf3049546449bb238d10e083171156',1,'neural_layer_connected.c']]],
+  ['neuron_5fadd',['neuron_add',['../neural__layer__connected_8c.html#a6e87a1a97403c4bf705953327c870af8',1,'neural_layer_connected.c']]],
+  ['neuron_5fremove',['neuron_remove',['../neural__layer__connected_8c.html#afef6f1db503b9db764876a88a4015c3f',1,'neural_layer_connected.c']]],
   ['node_5factivate',['node_activate',['../dgp_8c.html#a36cd860ca5cce8d9b0ea53cf40b8bfba',1,'dgp.c']]]
 ];

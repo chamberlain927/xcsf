@@ -75,6 +75,7 @@ var searchData=
   ['rule_5fneural_5fcond_5fsize',['rule_neural_cond_size',['../rule__neural_8c.html#a62620bd1b6a2b0acc134a09b54044c76',1,'rule_neural_cond_size(const XCSF *xcsf, const CL *c):&#160;rule_neural.c'],['../rule__neural_8h.html#a62620bd1b6a2b0acc134a09b54044c76',1,'rule_neural_cond_size(const XCSF *xcsf, const CL *c):&#160;rule_neural.c']]],
   ['rule_5fneural_5fcond_5fupdate',['rule_neural_cond_update',['../rule__neural_8c.html#aac5fd77146e5a0d3a7691e906f5c48cc',1,'rule_neural_cond_update(const XCSF *xcsf, const CL *c, const double *x, const double *y):&#160;rule_neural.c'],['../rule__neural_8h.html#aac5fd77146e5a0d3a7691e906f5c48cc',1,'rule_neural_cond_update(const XCSF *xcsf, const CL *c, const double *x, const double *y):&#160;rule_neural.c']]],
   ['rule_5fneural_5fcond_5fvtbl',['rule_neural_cond_vtbl',['../rule__neural_8h.html#a553e747b0c468709a145efccdf6664a9',1,'rule_neural.h']]],
+  ['rule_5fneural_5flopt',['rule_neural_lopt',['../rule__neural_8c.html#aef85634661a05ebde4850db80177fdf7',1,'rule_neural.c']]],
   ['rule_5ftype_5fdgp',['RULE_TYPE_DGP',['../xcsf_8h.html#a8e91611196dde8fc77b115c7ca337eb6',1,'xcsf.h']]],
   ['rule_5ftype_5fneural',['RULE_TYPE_NEURAL',['../xcsf_8h.html#a80ee0bc9e46fc9007c95371b4e86a20f',1,'xcsf.h']]]
 ];

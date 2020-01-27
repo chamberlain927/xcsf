@@ -132,6 +132,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ac19f397e3c1bd2a2a4f4a1174509ac67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam_8c.html#ac19f397e3c1bd2a2a4f4a1174509ac67">sam_init</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, double **mu)</td></tr>
 <tr class="memdesc:ac19f397e3c1bd2a2a4f4a1174509ac67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises a classifier's self-adaptive mutation rates.  <a href="#ac19f397e3c1bd2a2a4f4a1174509ac67">More...</a><br /></td></tr>
 <tr class="separator:ac19f397e3c1bd2a2a4f4a1174509ac67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a934d788eb57734b6118fff7385733803"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam_8c.html#a934d788eb57734b6118fff7385733803">sam_reset</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, double **mu)</td></tr>
+<tr class="memdesc:a934d788eb57734b6118fff7385733803"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets a classifier's self-adaptive mutation rates.  <a href="#a934d788eb57734b6118fff7385733803">More...</a><br /></td></tr>
+<tr class="separator:a934d788eb57734b6118fff7385733803"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7382542688a4953644df6cb73a2972c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam_8c.html#aa7382542688a4953644df6cb73a2972c">sam_adapt</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, double *mu)</td></tr>
 <tr class="memdesc:aa7382542688a4953644df6cb73a2972c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Self-adapts a classifier's mutation rates.  <a href="#aa7382542688a4953644df6cb73a2972c">More...</a><br /></td></tr>
 <tr class="separator:aa7382542688a4953644df6cb73a2972c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -174,7 +177,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00036">36</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="sam_8c_source.html#l00162">sam_rate_selection_adapt()</a>, and <a class="el" href="sam_8c_source.html#l00148">sam_rate_selection_init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="sam_8c_source.html#l00174">sam_rate_selection_adapt()</a>, and <a class="el" href="sam_8c_source.html#l00160">sam_rate_selection_init()</a>.</p>
 
 </div>
 </div>
@@ -214,9 +217,9 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00064">64</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00076">76</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
 
-<p class="reference">References <a class="el" href="sam_8c_source.html#l00130">sam_log_normal_adapt()</a>, <a class="el" href="sam_8c_source.html#l00162">sam_rate_selection_adapt()</a>, and <a class="el" href="xcsf_8h_source.html#l00134">XCSF::SAM_TYPE</a>.</p>
+<p class="reference">References <a class="el" href="sam_8c_source.html#l00142">sam_log_normal_adapt()</a>, <a class="el" href="sam_8c_source.html#l00174">sam_rate_selection_adapt()</a>, and <a class="el" href="xcsf_8h_source.html#l00135">XCSF::SAM_TYPE</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="ea_8c_source.html#l00051">ea()</a>.</p>
 <div class="dynheader">
@@ -276,11 +279,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00080">80</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00092">92</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00135">XCSF::SAM_NUM</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00136">XCSF::SAM_NUM</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00071">cl_copy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00072">cl_copy()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -325,11 +328,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00092">92</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00104">104</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00135">XCSF::SAM_NUM</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00136">XCSF::SAM_NUM</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00227">cl_free()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00228">cl_free()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -376,13 +379,13 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00046">46</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
 
-<p class="reference">References <a class="el" href="sam_8c_source.html#l00118">sam_log_normal_init()</a>, <a class="el" href="xcsf_8h_source.html#l00135">XCSF::SAM_NUM</a>, <a class="el" href="sam_8c_source.html#l00148">sam_rate_selection_init()</a>, and <a class="el" href="xcsf_8h_source.html#l00134">XCSF::SAM_TYPE</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00136">XCSF::SAM_NUM</a>, and <a class="el" href="sam_8c_source.html#l00059">sam_reset()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00048">cl_init()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_ac19f397e3c1bd2a2a4f4a1174509ac67_cgraph.svg" width="1211" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_ac19f397e3c1bd2a2a4f4a1174509ac67_cgraph.svg" width="1342" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -437,11 +440,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00130">130</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00142">142</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
 
-<p class="reference">References <a class="el" href="utils_8c_source.html#l00086">rand_normal()</a>, <a class="el" href="xcsf_8h_source.html#l00136">XCSF::SAM_MIN</a>, and <a class="el" href="xcsf_8h_source.html#l00135">XCSF::SAM_NUM</a>.</p>
+<p class="reference">References <a class="el" href="utils_8c_source.html#l00086">rand_normal()</a>, <a class="el" href="xcsf_8h_source.html#l00137">XCSF::SAM_MIN</a>, and <a class="el" href="xcsf_8h_source.html#l00136">XCSF::SAM_NUM</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="sam_8c_source.html#l00064">sam_adapt()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="sam_8c_source.html#l00076">sam_adapt()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -500,11 +503,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00118">118</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00130">130</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
 
-<p class="reference">References <a class="el" href="utils_8c_source.html#l00073">rand_uniform()</a>, and <a class="el" href="xcsf_8h_source.html#l00135">XCSF::SAM_NUM</a>.</p>
+<p class="reference">References <a class="el" href="utils_8c_source.html#l00073">rand_uniform()</a>, and <a class="el" href="xcsf_8h_source.html#l00136">XCSF::SAM_NUM</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="sam_8c_source.html#l00046">sam_init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="sam_8c_source.html#l00059">sam_reset()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -514,7 +517,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_a9b54bfbcf790a621afa925081a66941e_icgraph.svg" width="1676" height="538"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_a9b54bfbcf790a621afa925081a66941e_icgraph.svg" width="1807" height="538"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -555,11 +558,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00104">104</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00116">116</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00135">XCSF::SAM_NUM</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00136">XCSF::SAM_NUM</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00246">cl_print()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00247">cl_print()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -613,11 +616,11 @@ Here is the caller graph for this function:</div>
 </dl>
 <p>With 10% probability, randomly selects one of the possible rates. </p>
 
-<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00162">162</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00174">174</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
 
-<p class="reference">References <a class="el" href="utils_8c_source.html#l00064">irand_uniform()</a>, <a class="el" href="sam_8c_source.html#l00037">mrates</a>, <a class="el" href="sam_8c_source.html#l00036">NUM_RATES</a>, <a class="el" href="utils_8c_source.html#l00073">rand_uniform()</a>, and <a class="el" href="xcsf_8h_source.html#l00135">XCSF::SAM_NUM</a>.</p>
+<p class="reference">References <a class="el" href="utils_8c_source.html#l00064">irand_uniform()</a>, <a class="el" href="sam_8c_source.html#l00037">mrates</a>, <a class="el" href="sam_8c_source.html#l00036">NUM_RATES</a>, <a class="el" href="utils_8c_source.html#l00073">rand_uniform()</a>, and <a class="el" href="xcsf_8h_source.html#l00136">XCSF::SAM_NUM</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="sam_8c_source.html#l00064">sam_adapt()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="sam_8c_source.html#l00076">sam_adapt()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -676,11 +679,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00148">148</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00160">160</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
 
-<p class="reference">References <a class="el" href="utils_8c_source.html#l00064">irand_uniform()</a>, <a class="el" href="sam_8c_source.html#l00037">mrates</a>, <a class="el" href="sam_8c_source.html#l00036">NUM_RATES</a>, and <a class="el" href="xcsf_8h_source.html#l00135">XCSF::SAM_NUM</a>.</p>
+<p class="reference">References <a class="el" href="utils_8c_source.html#l00064">irand_uniform()</a>, <a class="el" href="sam_8c_source.html#l00037">mrates</a>, <a class="el" href="sam_8c_source.html#l00036">NUM_RATES</a>, and <a class="el" href="xcsf_8h_source.html#l00136">XCSF::SAM_NUM</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="sam_8c_source.html#l00046">sam_init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="sam_8c_source.html#l00059">sam_reset()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -690,7 +693,62 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_afa2d48bd3ec297da02c66bdbb554280b_icgraph.svg" width="1694" height="538"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_afa2d48bd3ec297da02c66bdbb554280b_icgraph.svg" width="1824" height="538"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a934d788eb57734b6118fff7385733803"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a934d788eb57734b6118fff7385733803">&#9670;&nbsp;</a></span>sam_reset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sam_reset </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double **&#160;</td>
+          <td class="paramname"><em>mu</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Resets a classifier's self-adaptive mutation rates. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">mu</td><td>The classifier's mutation rates. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00059">59</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
+
+<p class="reference">References <a class="el" href="sam_8c_source.html#l00130">sam_log_normal_init()</a>, <a class="el" href="xcsf_8h_source.html#l00136">XCSF::SAM_NUM</a>, <a class="el" href="sam_8c_source.html#l00160">sam_rate_selection_init()</a>, and <a class="el" href="xcsf_8h_source.html#l00135">XCSF::SAM_TYPE</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="sam_8c_source.html#l00046">sam_init()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_a934d788eb57734b6118fff7385733803_cgraph.svg" width="1223" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_a934d788eb57734b6118fff7385733803_icgraph.svg" width="1618" height="538"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -719,7 +777,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00037">37</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="sam_8c_source.html#l00162">sam_rate_selection_adapt()</a>, and <a class="el" href="sam_8c_source.html#l00148">sam_rate_selection_init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="sam_8c_source.html#l00174">sam_rate_selection_adapt()</a>, and <a class="el" href="sam_8c_source.html#l00160">sam_rate_selection_init()</a>.</p>
 
 </div>
 </div>
