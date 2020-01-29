@@ -1,11 +1,14 @@
 var searchData=
 [
-  ['layer_5fevolve_5feta',['LAYER_EVOLVE_ETA',['../neural__layer_8h.html#a2dd72d2b1754574d49d136beef537116',1,'neural_layer.h']]],
-  ['layer_5fevolve_5ffunctions',['LAYER_EVOLVE_FUNCTIONS',['../neural__layer_8h.html#a2e3532966ea550f89965fc0e8a7350cc',1,'neural_layer.h']]],
-  ['layer_5fevolve_5fneurons',['LAYER_EVOLVE_NEURONS',['../neural__layer_8h.html#a7a6d21d5c57a13cd2a3cb2850ab2957d',1,'neural_layer.h']]],
-  ['layer_5fevolve_5fweights',['LAYER_EVOLVE_WEIGHTS',['../neural__layer_8h.html#a50ea5e049563f7732e57f6fe462f04e1',1,'neural_layer.h']]],
-  ['layer_5fsgd_5fweights',['LAYER_SGD_WEIGHTS',['../neural__layer_8h.html#ae74396a2a5ad2984421ae401f57f0815',1,'neural_layer.h']]],
-  ['leaky',['LEAKY',['../neural__activations_8h.html#ad362c0298d543d2ce1bc6692c0ff9cd4',1,'neural_activations.h']]],
-  ['lm',['LM',['../mt19937-64_8c.html#a4b3e3200940ab78533ae2126430fe840',1,'mt19937-64.c']]],
-  ['logistic',['LOGISTIC',['../neural__activations_8h.html#a4dd5812520f0d909b360c24636086bee',1,'neural_activations.h']]]
+  ['matrix_5fa',['MATRIX_A',['../mt19937-64_8c.html#a376c3581bae3c2367fc9ce694e5a8949',1,'mt19937-64.c']]],
+  ['max_5fcols',['MAX_COLS',['../env__csv_8c.html#a551f71f92f90f76151a3cfc9679271a0',1,'env_csv.c']]],
+  ['max_5fcover',['MAX_COVER',['../clset_8c.html#a9cca6f51165de2b97647cb83f2128ddb',1,'clset.c']]],
+  ['max_5fname',['MAX_NAME',['../env__csv_8c.html#ac7c0207aa5a0e10d378be03b68041350',1,'env_csv.c']]],
+  ['max_5fpayoff',['MAX_PAYOFF',['../env__maze_8c.html#af20ccb66105d757d227a0e6975d2726f',1,'MAX_PAYOFF():&#160;env_maze.c'],['../env__mux_8c.html#af20ccb66105d757d227a0e6975d2726f',1,'MAX_PAYOFF():&#160;env_mux.c']]],
+  ['max_5frows',['MAX_ROWS',['../env__csv_8c.html#a3b94af9dcb0358f28d175d80eed98330',1,'env_csv.c']]],
+  ['max_5fsize',['MAX_SIZE',['../env__maze_8c.html#a0592dba56693fad79136250c11e5a7fe',1,'env_maze.c']]],
+  ['maxlen',['MAXLEN',['../config_8c.html#ae6648cd71a8bd49d58ae8ed33ba910d1',1,'config.c']]],
+  ['maze_5fdebug',['MAZE_DEBUG',['../env__maze_8c.html#ae20553cae6a84d9ae8a57c80a5cb3d2d',1,'env_maze.c']]],
+  ['mm',['MM',['../mt19937-64_8c.html#afdc383f8992f4a960bb22998f57b6d37',1,'mt19937-64.c']]],
+  ['mul',['MUL',['../gp_8c.html#ab7aff04ad21c86032dee3b2012ad6126',1,'gp.c']]]
 ];

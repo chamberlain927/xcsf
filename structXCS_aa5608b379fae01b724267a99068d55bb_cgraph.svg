@@ -8,858 +8,858 @@
  viewBox="0.00 0.00 1704.00 674.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 670)">
 <title>XCS::print_match_set</title>
-<!-- Node624 -->
+<!-- Node630 -->
 <g id="node1" class="node">
-<title>Node624</title>
+<title>Node630</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-333.5 0,-352.5 113,-352.5 113,-333.5 0,-333.5"/>
 <text text-anchor="middle" x="56.5" y="-340.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">XCS::print_match_set</text>
 </g>
-<!-- Node625 -->
+<!-- Node631 -->
 <g id="node2" class="node">
-<title>Node625</title>
+<title>Node631</title>
 <g id="a_node2"><a xlink:href="xcsf_8c.html#aeb5e08c233a6b01b6a6d1560ef0927fc" target="_top" xlink:title="Prints the XCSF match set for the supplied input. ">
 <polygon fill="none" stroke="#000000" points="149,-333.5 149,-352.5 259,-352.5 259,-333.5 149,-333.5"/>
 <text text-anchor="middle" x="204" y="-340.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcsf_print_match_set</text>
 </a>
 </g>
 </g>
-<!-- Node624&#45;&gt;Node625 -->
+<!-- Node630&#45;&gt;Node631 -->
 <g id="edge1" class="edge">
-<title>Node624&#45;&gt;Node625</title>
+<title>Node630&#45;&gt;Node631</title>
 <path fill="none" stroke="#191970" d="M113.1055,-343C121.4226,-343 130.0477,-343 138.5251,-343"/>
 <polygon fill="#191970" stroke="#191970" points="138.7618,-346.5001 148.7618,-343 138.7617,-339.5001 138.7618,-346.5001"/>
 </g>
-<!-- Node626 -->
+<!-- Node632 -->
 <g id="node3" class="node">
-<title>Node626</title>
+<title>Node632</title>
 <g id="a_node3"><a xlink:href="clset_8c.html#a75789e37a9512f6358e710580ad17d87" target="_top" xlink:title="Frees the set, but not the classifiers. ">
 <polygon fill="none" stroke="#000000" points="300.5,-409.5 300.5,-428.5 359.5,-428.5 359.5,-409.5 300.5,-409.5"/>
 <text text-anchor="middle" x="330" y="-416.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">clset_free</text>
 </a>
 </g>
 </g>
-<!-- Node625&#45;&gt;Node626 -->
+<!-- Node631&#45;&gt;Node632 -->
 <g id="edge2" class="edge">
-<title>Node625&#45;&gt;Node626</title>
+<title>Node631&#45;&gt;Node632</title>
 <path fill="none" stroke="#191970" d="M218.6434,-352.5662C236.483,-364.1283 267.6319,-384.021 295,-400 297.5189,-401.4707 300.1582,-402.9727 302.8096,-404.4556"/>
 <polygon fill="#191970" stroke="#191970" points="301.2653,-407.6006 311.7145,-409.3515 304.6378,-401.4666 301.2653,-407.6006"/>
 </g>
-<!-- Node627 -->
+<!-- Node633 -->
 <g id="node4" class="node">
-<title>Node627</title>
+<title>Node633</title>
 <g id="a_node4"><a xlink:href="clset_8c.html#a7feb00168d3dbd1d0597301029aed664" target="_top" xlink:title="Initialises a new set. ">
 <polygon fill="none" stroke="#000000" points="302,-371.5 302,-390.5 358,-390.5 358,-371.5 302,-371.5"/>
 <text text-anchor="middle" x="330" y="-378.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">clset_init</text>
 </a>
 </g>
 </g>
-<!-- Node625&#45;&gt;Node627 -->
+<!-- Node631&#45;&gt;Node633 -->
 <g id="edge3" class="edge">
-<title>Node625&#45;&gt;Node627</title>
+<title>Node631&#45;&gt;Node633</title>
 <path fill="none" stroke="#191970" d="M235.7951,-352.589C252.8955,-357.7463 274.0995,-364.1411 292.058,-369.5572"/>
 <polygon fill="#191970" stroke="#191970" points="291.0697,-372.9148 301.6544,-372.4513 293.091,-366.2129 291.0697,-372.9148"/>
 </g>
-<!-- Node628 -->
+<!-- Node634 -->
 <g id="node5" class="node">
-<title>Node628</title>
+<title>Node634</title>
 <g id="a_node5"><a xlink:href="clset_8c.html#aad012238caff12fcd827b1e282c9a4ef" target="_top" xlink:title="Frees the set and the classifiers. ">
 <polygon fill="none" stroke="#000000" points="302.5,-333.5 302.5,-352.5 357.5,-352.5 357.5,-333.5 302.5,-333.5"/>
 <text text-anchor="middle" x="330" y="-340.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">clset_kill</text>
 </a>
 </g>
 </g>
-<!-- Node625&#45;&gt;Node628 -->
+<!-- Node631&#45;&gt;Node634 -->
 <g id="edge4" class="edge">
-<title>Node625&#45;&gt;Node628</title>
+<title>Node631&#45;&gt;Node634</title>
 <path fill="none" stroke="#191970" d="M259.2654,-343C270.3564,-343 281.7721,-343 292.1094,-343"/>
 <polygon fill="#191970" stroke="#191970" points="292.4328,-346.5001 302.4327,-343 292.4327,-339.5001 292.4328,-346.5001"/>
 </g>
-<!-- Node634 -->
+<!-- Node640 -->
 <g id="node11" class="node">
-<title>Node634</title>
+<title>Node640</title>
 <g id="a_node11"><a xlink:href="clset_8c.html#a460e3bd1d979c502e9e9d97d4253f97c" target="_top" xlink:title="Constructs the match set. ">
 <polygon fill="none" stroke="#000000" points="295,-295.5 295,-314.5 365,-314.5 365,-295.5 295,-295.5"/>
 <text text-anchor="middle" x="330" y="-302.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">clset_match</text>
 </a>
 </g>
 </g>
-<!-- Node625&#45;&gt;Node634 -->
+<!-- Node631&#45;&gt;Node640 -->
 <g id="edge10" class="edge">
-<title>Node625&#45;&gt;Node634</title>
+<title>Node631&#45;&gt;Node640</title>
 <path fill="none" stroke="#191970" d="M235.7951,-333.411C251.7621,-328.5956 271.3067,-322.7012 288.4465,-317.532"/>
 <polygon fill="#191970" stroke="#191970" points="289.6516,-320.8244 298.2151,-314.5859 287.6304,-314.1225 289.6516,-320.8244"/>
 </g>
-<!-- Node673 -->
+<!-- Node679 -->
 <g id="node50" class="node">
-<title>Node673</title>
+<title>Node679</title>
 <g id="a_node50"><a xlink:href="clset_8c.html#af735b50009ce40e991d187e2c57033d4" target="_top" xlink:title="Prints the classifiers in the set. ">
 <polygon fill="none" stroke="#000000" points="299,-181.5 299,-200.5 361,-200.5 361,-181.5 299,-181.5"/>
 <text text-anchor="middle" x="330" y="-188.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">clset_print</text>
 </a>
 </g>
 </g>
-<!-- Node625&#45;&gt;Node673 -->
+<!-- Node631&#45;&gt;Node679 -->
 <g id="edge53" class="edge">
-<title>Node625&#45;&gt;Node673</title>
+<title>Node631&#45;&gt;Node679</title>
 <path fill="none" stroke="#191970" d="M211.8819,-333.4917C232.5652,-308.5404 288.6401,-240.8945 315.4035,-208.6085"/>
 <polygon fill="#191970" stroke="#191970" points="318.4338,-210.4372 322.1211,-200.5047 313.0446,-205.9698 318.4338,-210.4372"/>
 </g>
-<!-- Node629 -->
+<!-- Node635 -->
 <g id="node6" class="node">
-<title>Node629</title>
+<title>Node635</title>
 <g id="a_node6"><a xlink:href="cl_8c.html#a2bba8869890a67c2412a358c8f3ec0b4" target="_top" xlink:title="Frees the memory used by the classifier. ">
 <polygon fill="none" stroke="#000000" points="411.5,-570.5 411.5,-589.5 457.5,-589.5 457.5,-570.5 411.5,-570.5"/>
 <text text-anchor="middle" x="434.5" y="-577.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cl_free</text>
 </a>
 </g>
 </g>
-<!-- Node628&#45;&gt;Node629 -->
+<!-- Node634&#45;&gt;Node635 -->
 <g id="edge5" class="edge">
-<title>Node628&#45;&gt;Node629</title>
+<title>Node634&#45;&gt;Node635</title>
 <path fill="none" stroke="#191970" d="M354.2992,-352.6355C358.3508,-355.1627 362.1542,-358.2576 365,-362 408.0695,-418.6403 375.8611,-451.4331 401,-518 406.7982,-533.3533 415.7178,-549.6396 422.8958,-561.6657"/>
 <polygon fill="#191970" stroke="#191970" points="419.9765,-563.6005 428.1861,-570.2978 425.9449,-559.9428 419.9765,-563.6005"/>
 </g>
-<!-- Node630 -->
+<!-- Node636 -->
 <g id="node7" class="node">
-<title>Node630</title>
+<title>Node636</title>
 <g id="a_node7"><a xlink:href="action_8h.html#a2e77a50c24d06a37f2fc5aab8e3ecbac" target="_top" xlink:title="act_free">
 <polygon fill="none" stroke="#000000" points="537.5,-570.5 537.5,-589.5 589.5,-589.5 589.5,-570.5 537.5,-570.5"/>
 <text text-anchor="middle" x="563.5" y="-577.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">act_free</text>
 </a>
 </g>
 </g>
-<!-- Node629&#45;&gt;Node630 -->
+<!-- Node635&#45;&gt;Node636 -->
 <g id="edge6" class="edge">
-<title>Node629&#45;&gt;Node630</title>
+<title>Node635&#45;&gt;Node636</title>
 <path fill="none" stroke="#191970" d="M457.5626,-580C476.8319,-580 504.6577,-580 526.9563,-580"/>
 <polygon fill="#191970" stroke="#191970" points="527.0788,-583.5001 537.0788,-580 527.0787,-576.5001 527.0788,-583.5001"/>
 </g>
-<!-- Node631 -->
+<!-- Node637 -->
 <g id="node8" class="node">
-<title>Node631</title>
+<title>Node637</title>
 <g id="a_node8"><a xlink:href="condition_8h.html#a3359b327b7de91f97ce0fb0cee911d04" target="_top" xlink:title="cond_free">
 <polygon fill="none" stroke="#000000" points="534,-532.5 534,-551.5 593,-551.5 593,-532.5 534,-532.5"/>
 <text text-anchor="middle" x="563.5" y="-539.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cond_free</text>
 </a>
 </g>
 </g>
-<!-- Node629&#45;&gt;Node631 -->
+<!-- Node635&#45;&gt;Node637 -->
 <g id="edge7" class="edge">
-<title>Node629&#45;&gt;Node631</title>
+<title>Node635&#45;&gt;Node637</title>
 <path fill="none" stroke="#191970" d="M457.5626,-573.2064C476.0392,-567.7636 502.383,-560.0035 524.1774,-553.5834"/>
 <polygon fill="#191970" stroke="#191970" points="525.2229,-556.9242 533.8264,-550.7411 523.2449,-550.2095 525.2229,-556.9242"/>
 </g>
-<!-- Node632 -->
+<!-- Node638 -->
 <g id="node9" class="node">
-<title>Node632</title>
+<title>Node638</title>
 <g id="a_node9"><a xlink:href="prediction_8h.html#a43bac629eb9434b643605a214f5d5876" target="_top" xlink:title="pred_free">
 <polygon fill="none" stroke="#000000" points="535,-646.5 535,-665.5 592,-665.5 592,-646.5 535,-646.5"/>
 <text text-anchor="middle" x="563.5" y="-653.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">pred_free</text>
 </a>
 </g>
 </g>
-<!-- Node629&#45;&gt;Node632 -->
+<!-- Node635&#45;&gt;Node638 -->
 <g id="edge8" class="edge">
-<title>Node629&#45;&gt;Node632</title>
+<title>Node635&#45;&gt;Node638</title>
 <path fill="none" stroke="#191970" d="M443.9815,-589.806C456.6108,-602.3585 480.1453,-624.03 504,-637 510.5496,-640.5611 517.8726,-643.5797 525.0812,-646.0905"/>
 <polygon fill="#191970" stroke="#191970" points="524.1654,-649.4725 534.7568,-649.2028 526.3089,-642.8088 524.1654,-649.4725"/>
 </g>
-<!-- Node633 -->
+<!-- Node639 -->
 <g id="node10" class="node">
-<title>Node633</title>
+<title>Node639</title>
 <g id="a_node10"><a xlink:href="sam_8c.html#a0f3791bc58a3d67f38670151d1cd4418" target="_top" xlink:title="Frees the self&#45;adaptive mutation rates. ">
 <polygon fill="none" stroke="#000000" points="535,-608.5 535,-627.5 592,-627.5 592,-608.5 535,-608.5"/>
 <text text-anchor="middle" x="563.5" y="-615.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sam_free</text>
 </a>
 </g>
 </g>
-<!-- Node629&#45;&gt;Node633 -->
+<!-- Node635&#45;&gt;Node639 -->
 <g id="edge9" class="edge">
-<title>Node629&#45;&gt;Node633</title>
+<title>Node635&#45;&gt;Node639</title>
 <path fill="none" stroke="#191970" d="M457.5626,-586.7936C476.2906,-592.3104 503.1013,-600.2081 525.0644,-606.6779"/>
 <polygon fill="#191970" stroke="#191970" points="524.1866,-610.0679 534.7681,-609.5363 526.1646,-603.3532 524.1866,-610.0679"/>
 </g>
-<!-- Node635 -->
+<!-- Node641 -->
 <g id="node12" class="node">
-<title>Node635</title>
+<title>Node641</title>
 <g id="a_node12"><a xlink:href="cl_8c.html#a03bd37ba4e5697866192d6f643a50de3" target="_top" xlink:title="Computes the current classifier action using the input. ">
 <polygon fill="none" stroke="#000000" points="406.5,-295.5 406.5,-314.5 462.5,-314.5 462.5,-295.5 406.5,-295.5"/>
 <text text-anchor="middle" x="434.5" y="-302.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cl_action</text>
 </a>
 </g>
 </g>
-<!-- Node634&#45;&gt;Node635 -->
+<!-- Node640&#45;&gt;Node641 -->
 <g id="edge11" class="edge">
-<title>Node634&#45;&gt;Node635</title>
+<title>Node640&#45;&gt;Node641</title>
 <path fill="none" stroke="#191970" d="M365.0877,-305C375.0333,-305 385.9121,-305 396.0453,-305"/>
 <polygon fill="#191970" stroke="#191970" points="396.2649,-308.5001 406.2649,-305 396.2649,-301.5001 396.2649,-308.5001"/>
 </g>
-<!-- Node637 -->
+<!-- Node643 -->
 <g id="node14" class="node">
-<title>Node637</title>
+<title>Node643</title>
 <g id="a_node14"><a xlink:href="cl_8c.html#ad26f65e65f9785ce44ece9979362d889" target="_top" xlink:title="Returns whether the classifier matched the most recent input. ">
 <polygon fill="none" stroke="#000000" points="415.5,-257.5 415.5,-276.5 453.5,-276.5 453.5,-257.5 415.5,-257.5"/>
 <text text-anchor="middle" x="434.5" y="-264.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cl_m</text>
 </a>
 </g>
 </g>
-<!-- Node634&#45;&gt;Node637 -->
+<!-- Node640&#45;&gt;Node643 -->
 <g id="edge13" class="edge">
-<title>Node634&#45;&gt;Node637</title>
+<title>Node640&#45;&gt;Node643</title>
 <path fill="none" stroke="#191970" d="M356.3698,-295.411C371.4478,-289.9281 390.3727,-283.0463 405.8202,-277.429"/>
 <polygon fill="#191970" stroke="#191970" points="407.1921,-280.6545 415.3939,-273.9477 404.7998,-274.0759 407.1921,-280.6545"/>
 </g>
-<!-- Node638 -->
+<!-- Node644 -->
 <g id="node15" class="node">
-<title>Node638</title>
+<title>Node644</title>
 <g id="a_node15"><a xlink:href="cl_8c.html#af5a666538852ce0406d5d8ad933f92f7" target="_top" xlink:title="Calculates whether the classifier matches the input. ">
 <polygon fill="none" stroke="#000000" points="406.5,-200.5 406.5,-219.5 462.5,-219.5 462.5,-200.5 406.5,-200.5"/>
 <text text-anchor="middle" x="434.5" y="-207.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cl_match</text>
 </a>
 </g>
 </g>
-<!-- Node634&#45;&gt;Node638 -->
+<!-- Node640&#45;&gt;Node644 -->
 <g id="edge14" class="edge">
-<title>Node634&#45;&gt;Node638</title>
+<title>Node640&#45;&gt;Node644</title>
 <path fill="none" stroke="#191970" d="M340.7897,-295.1911C358.6385,-278.965 394.5021,-246.3617 416.3181,-226.529"/>
 <polygon fill="#191970" stroke="#191970" points="418.8795,-228.9306 423.9246,-219.614 414.1708,-223.751 418.8795,-228.9306"/>
 </g>
-<!-- Node640 -->
+<!-- Node646 -->
 <g id="node17" class="node">
-<title>Node640</title>
+<title>Node646</title>
 <g id="a_node17"><a xlink:href="clset_8c.html#a73ab8d4cc3a3e4f70561c7f5bf20c265" target="_top" xlink:title="Adds a classifier to the set. ">
 <polygon fill="none" stroke="#000000" points="781,-513.5 781,-532.5 840,-532.5 840,-513.5 781,-513.5"/>
 <text text-anchor="middle" x="810.5" y="-520.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">clset_add</text>
 </a>
 </g>
 </g>
-<!-- Node634&#45;&gt;Node640 -->
+<!-- Node640&#45;&gt;Node646 -->
 <g id="edge16" class="edge">
-<title>Node634&#45;&gt;Node640</title>
+<title>Node640&#45;&gt;Node646</title>
 <path fill="none" stroke="#191970" d="M351.2866,-314.7011C356.05,-317.3634 360.9006,-320.496 365,-324 385.0014,-341.0964 383.7549,-351.1266 401,-371 443.8441,-420.3737 445.8237,-446.1855 504,-476 591.2267,-520.7024 709.4127,-525.5929 770.4009,-524.6892"/>
 <polygon fill="#191970" stroke="#191970" points="770.8247,-528.1812 780.7487,-524.4712 770.6771,-521.1827 770.8247,-528.1812"/>
 </g>
-<!-- Node641 -->
+<!-- Node647 -->
 <g id="node18" class="node">
-<title>Node641</title>
+<title>Node647</title>
 <g id="a_node18"><a xlink:href="clset_8c.html#afc4b91ff72294195a5462944b92ec9b2" target="_top" xlink:title="Ensures all possible actions are covered by the match set. ">
 <polygon fill="none" stroke="#000000" points="401,-342.5 401,-361.5 468,-361.5 468,-342.5 401,-342.5"/>
 <text text-anchor="middle" x="434.5" y="-349.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">clset_cover</text>
 </a>
 </g>
 </g>
-<!-- Node634&#45;&gt;Node641 -->
+<!-- Node640&#45;&gt;Node647 -->
 <g id="edge17" class="edge">
-<title>Node634&#45;&gt;Node641</title>
+<title>Node640&#45;&gt;Node647</title>
 <path fill="none" stroke="#191970" d="M351.1471,-314.5112C366.2032,-321.2828 386.6766,-330.4909 403.5646,-338.0865"/>
 <polygon fill="#191970" stroke="#191970" points="402.4699,-341.4318 413.0256,-342.3417 405.3413,-335.0478 402.4699,-341.4318"/>
 </g>
-<!-- Node636 -->
+<!-- Node642 -->
 <g id="node13" class="node">
-<title>Node636</title>
+<title>Node642</title>
 <g id="a_node13"><a xlink:href="action_8h.html#aab6ebb454826f8e9425efc0ed2917023" target="_top" xlink:title="act_compute">
 <polygon fill="none" stroke="#000000" points="527,-228.5 527,-247.5 600,-247.5 600,-228.5 527,-228.5"/>
 <text text-anchor="middle" x="563.5" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">act_compute</text>
 </a>
 </g>
 </g>
-<!-- Node635&#45;&gt;Node636 -->
+<!-- Node641&#45;&gt;Node642 -->
 <g id="edge12" class="edge">
-<title>Node635&#45;&gt;Node636</title>
+<title>Node641&#45;&gt;Node642</title>
 <path fill="none" stroke="#191970" d="M452.559,-295.4655C457.6548,-292.5867 463.1339,-289.3078 468,-286 484.9915,-274.4496 485.9069,-266.7346 504,-257 508.1957,-254.7426 512.7039,-252.7003 517.2938,-250.8659"/>
 <polygon fill="#191970" stroke="#191970" points="518.5758,-254.1237 526.7556,-247.3901 516.162,-247.5531 518.5758,-254.1237"/>
 </g>
-<!-- Node639 -->
+<!-- Node645 -->
 <g id="node16" class="node">
-<title>Node639</title>
+<title>Node645</title>
 <g id="a_node16"><a xlink:href="condition_8h.html#a921ad37edd9a0af1c245bd9a490e3527" target="_top" xlink:title="cond_match">
 <polygon fill="none" stroke="#000000" points="528.5,-190.5 528.5,-209.5 598.5,-209.5 598.5,-190.5 528.5,-190.5"/>
 <text text-anchor="middle" x="563.5" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cond_match</text>
 </a>
 </g>
 </g>
-<!-- Node638&#45;&gt;Node639 -->
+<!-- Node644&#45;&gt;Node645 -->
 <g id="edge15" class="edge">
-<title>Node638&#45;&gt;Node639</title>
+<title>Node644&#45;&gt;Node645</title>
 <path fill="none" stroke="#191970" d="M462.8096,-207.8055C479.0799,-206.5442 499.8927,-204.9308 518.3685,-203.4986"/>
 <polygon fill="#191970" stroke="#191970" points="518.6492,-206.9874 528.3487,-202.7249 518.1081,-200.0083 518.6492,-206.9874"/>
 </g>
-<!-- Node641&#45;&gt;Node640 -->
+<!-- Node647&#45;&gt;Node646 -->
 <g id="edge41" class="edge">
-<title>Node641&#45;&gt;Node640</title>
+<title>Node647&#45;&gt;Node646</title>
 <path fill="none" stroke="#191970" d="M438.5756,-361.6963C447.3653,-381.3202 470.0906,-425.6825 504,-447 592.7809,-502.813 635.8203,-458.9974 736,-490 744.8679,-492.7443 764.2238,-501.3481 780.9832,-509.0821"/>
 <polygon fill="#191970" stroke="#191970" points="779.9086,-512.4422 790.452,-513.4844 782.8598,-506.0947 779.9086,-512.4422"/>
 </g>
-<!-- Node642 -->
+<!-- Node648 -->
 <g id="node19" class="node">
-<title>Node642</title>
+<title>Node648</title>
 <g id="a_node19"><a xlink:href="cl_8c.html#a502630fa339b234b42b9b859a8c70986" target="_top" xlink:title="Covers the condition and action for a classifier. ">
 <polygon fill="none" stroke="#000000" points="537,-380.5 537,-399.5 590,-399.5 590,-380.5 537,-380.5"/>
 <text text-anchor="middle" x="563.5" y="-387.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cl_cover</text>
 </a>
 </g>
 </g>
-<!-- Node641&#45;&gt;Node642 -->
+<!-- Node647&#45;&gt;Node648 -->
 <g id="edge18" class="edge">
-<title>Node641&#45;&gt;Node642</title>
+<title>Node647&#45;&gt;Node648</title>
 <path fill="none" stroke="#191970" d="M467.0521,-361.589C485.2734,-366.9565 508.0455,-373.6646 526.8862,-379.2146"/>
 <polygon fill="#191970" stroke="#191970" points="526.0329,-382.6118 536.6144,-382.0802 528.0109,-375.8971 526.0329,-382.6118"/>
 </g>
-<!-- Node652 -->
+<!-- Node658 -->
 <g id="node29" class="node">
-<title>Node652</title>
+<title>Node658</title>
 <g id="a_node29"><a xlink:href="cl_8c.html#ab45c6f772a335d0a4fdb753a61958744" target="_top" xlink:title="Initialises a new classifier. ">
 <polygon fill="none" stroke="#000000" points="542.5,-342.5 542.5,-361.5 584.5,-361.5 584.5,-342.5 542.5,-342.5"/>
 <text text-anchor="middle" x="563.5" y="-349.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cl_init</text>
 </a>
 </g>
 </g>
-<!-- Node641&#45;&gt;Node652 -->
+<!-- Node647&#45;&gt;Node658 -->
 <g id="edge28" class="edge">
-<title>Node641&#45;&gt;Node652</title>
+<title>Node647&#45;&gt;Node658</title>
 <path fill="none" stroke="#191970" d="M468.0565,-352C487.8347,-352 512.7003,-352 532.0924,-352"/>
 <polygon fill="#191970" stroke="#191970" points="532.2356,-355.5001 542.2355,-352 532.2355,-348.5001 532.2356,-355.5001"/>
 </g>
-<!-- Node663 -->
+<!-- Node669 -->
 <g id="node40" class="node">
-<title>Node663</title>
+<title>Node669</title>
 <g id="a_node40"><a xlink:href="clset_8c.html#a1be391cf8ecd96d1a71b1dc6a7feb4a9" target="_top" xlink:title="Returns whether an action is covered by the set. ">
 <polygon fill="none" stroke="#000000" points="509,-304.5 509,-323.5 618,-323.5 618,-304.5 509,-304.5"/>
 <text text-anchor="middle" x="563.5" y="-311.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">clset_action_covered</text>
 </a>
 </g>
 </g>
-<!-- Node641&#45;&gt;Node663 -->
+<!-- Node647&#45;&gt;Node669 -->
 <g id="edge40" class="edge">
-<title>Node641&#45;&gt;Node663</title>
+<title>Node647&#45;&gt;Node669</title>
 <path fill="none" stroke="#191970" d="M467.0521,-342.411C483.3993,-337.5956 503.4092,-331.7012 520.9571,-326.532"/>
 <polygon fill="#191970" stroke="#191970" points="522.3548,-329.7691 530.9583,-323.5859 520.3768,-323.0543 522.3548,-329.7691"/>
 </g>
-<!-- Node664 -->
+<!-- Node670 -->
 <g id="node41" class="node">
-<title>Node664</title>
+<title>Node670</title>
 <g id="a_node41"><a xlink:href="clset_8c.html#ad87086ed11e5fdd6bffe41b8a34f3608" target="_top" xlink:title="Enforces the maximum population size limit. ">
 <polygon fill="none" stroke="#000000" points="504,-418.5 504,-437.5 623,-437.5 623,-418.5 504,-418.5"/>
 <text text-anchor="middle" x="563.5" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">clset_pop_enforce_limit</text>
 </a>
 </g>
 </g>
-<!-- Node641&#45;&gt;Node664 -->
+<!-- Node647&#45;&gt;Node670 -->
 <g id="edge42" class="edge">
-<title>Node641&#45;&gt;Node664</title>
+<title>Node647&#45;&gt;Node670</title>
 <path fill="none" stroke="#191970" d="M443.9815,-361.806C456.6108,-374.3585 480.1453,-396.03 504,-409 507.9655,-411.1561 512.2145,-413.1133 516.5499,-414.8794"/>
 <polygon fill="#191970" stroke="#191970" points="515.51,-418.227 526.1026,-418.4432 517.9568,-411.6685 515.51,-418.227"/>
 </g>
-<!-- Node672 -->
+<!-- Node678 -->
 <g id="node49" class="node">
-<title>Node672</title>
+<title>Node678</title>
 <g id="a_node49"><a xlink:href="clset_8c.html#a7ec1121fd19ff524f19b46ffa0522dd9" target="_top" xlink:title="Removes classifiers with 0 numerosity from the set. ">
 <polygon fill="none" stroke="#000000" points="525,-266.5 525,-285.5 602,-285.5 602,-266.5 525,-266.5"/>
 <text text-anchor="middle" x="563.5" y="-273.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">clset_validate</text>
 </a>
 </g>
 </g>
-<!-- Node641&#45;&gt;Node672 -->
+<!-- Node647&#45;&gt;Node678 -->
 <g id="edge52" class="edge">
-<title>Node641&#45;&gt;Node672</title>
+<title>Node647&#45;&gt;Node678</title>
 <path fill="none" stroke="#191970" d="M445.924,-342.4421C464.8066,-326.6711 500.7782,-296.7517 504,-295 507.9655,-292.8439 512.2145,-290.8867 516.5499,-289.1206"/>
 <polygon fill="#191970" stroke="#191970" points="517.9568,-292.3315 526.1026,-285.5568 515.51,-285.773 517.9568,-292.3315"/>
 </g>
-<!-- Node643 -->
+<!-- Node649 -->
 <g id="node20" class="node">
-<title>Node643</title>
+<title>Node649</title>
 <g id="a_node20"><a xlink:href="action_8h.html#ac250a5534d7c5fb268e0ccdb479d6e20" target="_top" xlink:title="act_cover">
 <polygon fill="none" stroke="#000000" points="668,-342.5 668,-361.5 727,-361.5 727,-342.5 668,-342.5"/>
 <text text-anchor="middle" x="697.5" y="-349.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">act_cover</text>
 </a>
 </g>
 </g>
-<!-- Node642&#45;&gt;Node643 -->
+<!-- Node648&#45;&gt;Node649 -->
 <g id="edge19" class="edge">
-<title>Node642&#45;&gt;Node643</title>
+<title>Node648&#45;&gt;Node649</title>
 <path fill="none" stroke="#191970" d="M590.2948,-382.4015C609.7672,-376.8795 636.4294,-369.3185 658.2926,-363.1185"/>
 <polygon fill="#191970" stroke="#191970" points="659.2913,-366.4734 667.9571,-360.3778 657.3815,-359.7389 659.2913,-366.4734"/>
 </g>
-<!-- Node644 -->
+<!-- Node650 -->
 <g id="node21" class="node">
-<title>Node644</title>
+<title>Node650</title>
 <g id="a_node21"><a xlink:href="cl_8c.html#a7b56e6acc90b92c0692466ae2b7d2a24" target="_top" xlink:title="Initialises random actions, conditions and predictions. ">
 <polygon fill="none" stroke="#000000" points="673.5,-209.5 673.5,-228.5 721.5,-228.5 721.5,-209.5 673.5,-209.5"/>
 <text text-anchor="middle" x="697.5" y="-216.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cl_rand</text>
 </a>
 </g>
 </g>
-<!-- Node642&#45;&gt;Node644 -->
+<!-- Node648&#45;&gt;Node650 -->
 <g id="edge20" class="edge">
-<title>Node642&#45;&gt;Node644</title>
+<title>Node648&#45;&gt;Node650</title>
 <path fill="none" stroke="#191970" d="M590.0722,-386.2607C601.2683,-383.5644 613.8062,-378.9357 623,-371 664.3931,-335.2712 684.9711,-271.1846 693.1253,-238.8351"/>
 <polygon fill="#191970" stroke="#191970" points="696.5996,-239.3529 695.5052,-228.8148 689.7891,-237.7353 696.5996,-239.3529"/>
 </g>
-<!-- Node651 -->
+<!-- Node657 -->
 <g id="node28" class="node">
-<title>Node651</title>
+<title>Node657</title>
 <g id="a_node28"><a xlink:href="condition_8h.html#af6a4967f684827b76d279cc04420ab6d" target="_top" xlink:title="cond_cover">
 <polygon fill="none" stroke="#000000" points="664,-380.5 664,-399.5 731,-399.5 731,-380.5 664,-380.5"/>
 <text text-anchor="middle" x="697.5" y="-387.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cond_cover</text>
 </a>
 </g>
 </g>
-<!-- Node642&#45;&gt;Node651 -->
+<!-- Node648&#45;&gt;Node657 -->
 <g id="edge27" class="edge">
-<title>Node642&#45;&gt;Node651</title>
+<title>Node648&#45;&gt;Node657</title>
 <path fill="none" stroke="#191970" d="M590.2948,-390C608.328,-390 632.5274,-390 653.371,-390"/>
 <polygon fill="#191970" stroke="#191970" points="653.6023,-393.5001 663.6023,-390 653.6022,-386.5001 653.6023,-393.5001"/>
 </g>
-<!-- Node645 -->
+<!-- Node651 -->
 <g id="node22" class="node">
-<title>Node645</title>
+<title>Node651</title>
 <g id="a_node22"><a xlink:href="action_8h.html#a7561ff50b261f644feae225259c8b8f6" target="_top" xlink:title="act_init">
 <polygon fill="none" stroke="#000000" points="786.5,-209.5 786.5,-228.5 834.5,-228.5 834.5,-209.5 786.5,-209.5"/>
 <text text-anchor="middle" x="810.5" y="-216.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">act_init</text>
 </a>
 </g>
 </g>
-<!-- Node644&#45;&gt;Node645 -->
+<!-- Node650&#45;&gt;Node651 -->
 <g id="edge21" class="edge">
-<title>Node644&#45;&gt;Node645</title>
+<title>Node650&#45;&gt;Node651</title>
 <path fill="none" stroke="#191970" d="M721.7413,-219C737.5302,-219 758.3736,-219 775.8941,-219"/>
 <polygon fill="#191970" stroke="#191970" points="776.2988,-222.5001 786.2988,-219 776.2987,-215.5001 776.2988,-222.5001"/>
 </g>
-<!-- Node646 -->
+<!-- Node652 -->
 <g id="node23" class="node">
-<title>Node646</title>
+<title>Node652</title>
 <g id="a_node23"><a xlink:href="action_8c.html#ac235375c6dc54d6abca5efb0f50b1400" target="_top" xlink:title="Sets a classifier&#39;s action functions to the implementations. ">
 <polygon fill="none" stroke="#000000" points="779.5,-171.5 779.5,-190.5 841.5,-190.5 841.5,-171.5 779.5,-171.5"/>
 <text text-anchor="middle" x="810.5" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">action_set</text>
 </a>
 </g>
 </g>
-<!-- Node644&#45;&gt;Node646 -->
+<!-- Node650&#45;&gt;Node652 -->
 <g id="edge22" class="edge">
-<title>Node644&#45;&gt;Node646</title>
+<title>Node650&#45;&gt;Node652</title>
 <path fill="none" stroke="#191970" d="M721.7413,-210.848C736.4866,-205.8895 755.6401,-199.4485 772.3785,-193.8196"/>
 <polygon fill="#191970" stroke="#191970" points="773.5404,-197.1216 781.9032,-190.6166 771.3091,-190.4867 773.5404,-197.1216"/>
 </g>
-<!-- Node647 -->
+<!-- Node653 -->
 <g id="node24" class="node">
-<title>Node647</title>
+<title>Node653</title>
 <g id="a_node24"><a xlink:href="condition_8h.html#ac4e250ced4f7408df04ba9ac9f302c6e" target="_top" xlink:title="cond_init">
 <polygon fill="none" stroke="#000000" points="782.5,-133.5 782.5,-152.5 838.5,-152.5 838.5,-133.5 782.5,-133.5"/>
 <text text-anchor="middle" x="810.5" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cond_init</text>
 </a>
 </g>
 </g>
-<!-- Node644&#45;&gt;Node647 -->
+<!-- Node650&#45;&gt;Node653 -->
 <g id="edge23" class="edge">
-<title>Node644&#45;&gt;Node647</title>
+<title>Node650&#45;&gt;Node653</title>
 <path fill="none" stroke="#191970" d="M708.6137,-209.3899C722.7539,-197.4291 748.2048,-176.7785 772,-162 774.6376,-160.3619 777.4362,-158.7538 780.2736,-157.2093"/>
 <polygon fill="#191970" stroke="#191970" points="782.0429,-160.2348 789.3193,-152.5338 778.8287,-154.0163 782.0429,-160.2348"/>
 </g>
-<!-- Node648 -->
+<!-- Node654 -->
 <g id="node25" class="node">
-<title>Node648</title>
+<title>Node654</title>
 <g id="a_node25"><a xlink:href="condition_8c.html#aa485cf16f149e89aae83972b83b70596" target="_top" xlink:title="Sets a classifier&#39;s condition functions to the implementations. ">
 <polygon fill="none" stroke="#000000" points="773.5,-95.5 773.5,-114.5 847.5,-114.5 847.5,-95.5 773.5,-95.5"/>
 <text text-anchor="middle" x="810.5" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">condition_set</text>
 </a>
 </g>
 </g>
-<!-- Node644&#45;&gt;Node648 -->
+<!-- Node650&#45;&gt;Node654 -->
 <g id="edge24" class="edge">
-<title>Node644&#45;&gt;Node648</title>
+<title>Node650&#45;&gt;Node654</title>
 <path fill="none" stroke="#191970" d="M702.9386,-209.4931C713.9274,-190.9731 740.4362,-149.6342 772,-124 773.7864,-122.5492 775.7019,-121.172 777.6894,-119.8717"/>
 <polygon fill="#191970" stroke="#191970" points="779.7786,-122.7069 786.6867,-114.6739 776.277,-116.6456 779.7786,-122.7069"/>
 </g>
-<!-- Node649 -->
+<!-- Node655 -->
 <g id="node26" class="node">
-<title>Node649</title>
+<title>Node655</title>
 <g id="a_node26"><a xlink:href="prediction_8h.html#a32efd0b8ad0f4cbc72683c35c5e49afd" target="_top" xlink:title="pred_init">
 <polygon fill="none" stroke="#000000" points="784,-285.5 784,-304.5 837,-304.5 837,-285.5 784,-285.5"/>
 <text text-anchor="middle" x="810.5" y="-292.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">pred_init</text>
 </a>
 </g>
 </g>
-<!-- Node644&#45;&gt;Node649 -->
+<!-- Node650&#45;&gt;Node655 -->
 <g id="edge25" class="edge">
-<title>Node644&#45;&gt;Node649</title>
+<title>Node650&#45;&gt;Node655</title>
 <path fill="none" stroke="#191970" d="M708.6137,-228.6101C722.7539,-240.5709 748.2048,-261.2215 772,-276 774.6376,-277.6381 777.4362,-279.2462 780.2736,-280.7907"/>
 <polygon fill="#191970" stroke="#191970" points="778.8287,-283.9837 789.3193,-285.4662 782.0429,-277.7652 778.8287,-283.9837"/>
 </g>
-<!-- Node650 -->
+<!-- Node656 -->
 <g id="node27" class="node">
-<title>Node650</title>
+<title>Node656</title>
 <g id="a_node27"><a xlink:href="prediction_8c.html#acc3389ac08ab3b032ab1223e3339be12" target="_top" xlink:title="Sets a classifier&#39;s prediction functions to the implementations. ">
 <polygon fill="none" stroke="#000000" points="772,-247.5 772,-266.5 849,-266.5 849,-247.5 772,-247.5"/>
 <text text-anchor="middle" x="810.5" y="-254.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">prediction_set</text>
 </a>
 </g>
 </g>
-<!-- Node644&#45;&gt;Node650 -->
+<!-- Node650&#45;&gt;Node656 -->
 <g id="edge26" class="edge">
-<title>Node644&#45;&gt;Node650</title>
+<title>Node650&#45;&gt;Node656</title>
 <path fill="none" stroke="#191970" d="M721.7413,-227.152C736.4866,-232.1105 755.6401,-238.5515 772.3785,-244.1804"/>
 <polygon fill="#191970" stroke="#191970" points="771.3091,-247.5133 781.9032,-247.3834 773.5404,-240.8784 771.3091,-247.5133"/>
 </g>
-<!-- Node653 -->
+<!-- Node659 -->
 <g id="node30" class="node">
-<title>Node653</title>
+<title>Node659</title>
 <g id="a_node30"><a xlink:href="sam_8c.html#ac19f397e3c1bd2a2a4f4a1174509ac67" target="_top" xlink:title="Initialises a classifier&#39;s self&#45;adaptive mutation rates. ">
 <polygon fill="none" stroke="#000000" points="671,-114.5 671,-133.5 724,-133.5 724,-114.5 671,-114.5"/>
 <text text-anchor="middle" x="697.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sam_init</text>
 </a>
 </g>
 </g>
-<!-- Node652&#45;&gt;Node653 -->
+<!-- Node658&#45;&gt;Node659 -->
 <g id="edge29" class="edge">
-<title>Node652&#45;&gt;Node653</title>
+<title>Node658&#45;&gt;Node659</title>
 <path fill="none" stroke="#191970" d="M584.6049,-350.2753C597.3622,-348.1448 613.0327,-343.4236 623,-333 665.3223,-288.74 637.0484,-257.1686 659,-200 666.8287,-179.6117 678.4346,-157.4591 686.856,-142.3602"/>
 <polygon fill="#191970" stroke="#191970" points="689.9664,-143.9706 691.8585,-133.5461 683.8785,-140.5154 689.9664,-143.9706"/>
 </g>
-<!-- Node654 -->
+<!-- Node660 -->
 <g id="node31" class="node">
-<title>Node654</title>
+<title>Node660</title>
 <g id="a_node31"><a xlink:href="sam_8c.html#a934d788eb57734b6118fff7385733803" target="_top" xlink:title="Resets a classifier&#39;s self&#45;adaptive mutation rates. ">
 <polygon fill="none" stroke="#000000" points="779.5,-57.5 779.5,-76.5 841.5,-76.5 841.5,-57.5 779.5,-57.5"/>
 <text text-anchor="middle" x="810.5" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sam_reset</text>
 </a>
 </g>
 </g>
-<!-- Node653&#45;&gt;Node654 -->
+<!-- Node659&#45;&gt;Node660 -->
 <g id="edge30" class="edge">
-<title>Node653&#45;&gt;Node654</title>
+<title>Node659&#45;&gt;Node660</title>
 <path fill="none" stroke="#191970" d="M716.1417,-114.4053C731.1903,-106.6807 752.9232,-95.5719 772,-86 775.1603,-84.4143 778.4714,-82.7638 781.7688,-81.1271"/>
 <polygon fill="#191970" stroke="#191970" points="783.4776,-84.1867 790.8892,-76.6158 780.374,-77.9123 783.4776,-84.1867"/>
 </g>
-<!-- Node655 -->
+<!-- Node661 -->
 <g id="node32" class="node">
-<title>Node655</title>
+<title>Node661</title>
 <g id="a_node32"><a xlink:href="sam_8c.html#a9b54bfbcf790a621afa925081a66941e" target="_top" xlink:title="Initialises log normal self&#45;adaptive mutation rates. ">
 <polygon fill="none" stroke="#000000" points="1040,-95.5 1040,-114.5 1146,-114.5 1146,-95.5 1040,-95.5"/>
 <text text-anchor="middle" x="1093" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sam_log_normal_init</text>
 </a>
 </g>
 </g>
-<!-- Node654&#45;&gt;Node655 -->
+<!-- Node660&#45;&gt;Node661 -->
 <g id="edge31" class="edge">
-<title>Node654&#45;&gt;Node655</title>
+<title>Node660&#45;&gt;Node661</title>
 <path fill="none" stroke="#191970" d="M841.7995,-76.1591C855.0269,-79.722 870.6614,-83.5327 885,-86 933.0988,-94.2764 988.1165,-99.102 1029.4822,-101.8177"/>
 <polygon fill="#191970" stroke="#191970" points="1029.4913,-105.3251 1039.6923,-102.4634 1029.9332,-98.3391 1029.4913,-105.3251"/>
 </g>
-<!-- Node661 -->
+<!-- Node667 -->
 <g id="node38" class="node">
-<title>Node661</title>
+<title>Node667</title>
 <g id="a_node38"><a xlink:href="sam_8c.html#afa2d48bd3ec297da02c66bdbb554280b" target="_top" xlink:title="Initialises rate selection self&#45;adaptive mutation. ">
 <polygon fill="none" stroke="#000000" points="885,-57.5 885,-76.5 1004,-76.5 1004,-57.5 885,-57.5"/>
 <text text-anchor="middle" x="944.5" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sam_rate_selection_init</text>
 </a>
 </g>
 </g>
-<!-- Node654&#45;&gt;Node661 -->
+<!-- Node660&#45;&gt;Node667 -->
 <g id="edge37" class="edge">
-<title>Node654&#45;&gt;Node661</title>
+<title>Node660&#45;&gt;Node667</title>
 <path fill="none" stroke="#191970" d="M841.5791,-67C851.5653,-67 863.0631,-67 874.6743,-67"/>
 <polygon fill="#191970" stroke="#191970" points="874.8721,-70.5001 884.8721,-67 874.872,-63.5001 874.8721,-70.5001"/>
 </g>
-<!-- Node656 -->
+<!-- Node662 -->
 <g id="node33" class="node">
-<title>Node656</title>
+<title>Node662</title>
 <g id="a_node33"><a xlink:href="utils_8c.html#ae42a9e1d467853befaa7922cfafed3bb" target="_top" xlink:title="Returns a uniform random float [min,max]. ">
 <polygon fill="none" stroke="#000000" points="1182,-95.5 1182,-114.5 1255,-114.5 1255,-95.5 1182,-95.5"/>
 <text text-anchor="middle" x="1218.5" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">rand_uniform</text>
 </a>
 </g>
 </g>
-<!-- Node655&#45;&gt;Node656 -->
+<!-- Node661&#45;&gt;Node662 -->
 <g id="edge32" class="edge">
-<title>Node655&#45;&gt;Node656</title>
+<title>Node661&#45;&gt;Node662</title>
 <path fill="none" stroke="#191970" d="M1146.2233,-105C1154.6785,-105 1163.37,-105 1171.6643,-105"/>
 <polygon fill="#191970" stroke="#191970" points="1171.9104,-108.5001 1181.9103,-105 1171.9103,-101.5001 1171.9104,-108.5001"/>
 </g>
-<!-- Node657 -->
+<!-- Node663 -->
 <g id="node34" class="node">
-<title>Node657</title>
+<title>Node663</title>
 <g id="a_node34"><a xlink:href="utils_8c.html#a101d27cdda714b7f17a06224c65cac56" target="_top" xlink:title="Returns a uniform random float [0,1]. ">
 <polygon fill="none" stroke="#000000" points="1291,-95.5 1291,-114.5 1332,-114.5 1332,-95.5 1291,-95.5"/>
 <text text-anchor="middle" x="1311.5" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">drand</text>
 </a>
 </g>
 </g>
-<!-- Node656&#45;&gt;Node657 -->
+<!-- Node662&#45;&gt;Node663 -->
 <g id="edge33" class="edge">
-<title>Node656&#45;&gt;Node657</title>
+<title>Node662&#45;&gt;Node663</title>
 <path fill="none" stroke="#191970" d="M1255.2561,-105C1263.658,-105 1272.5043,-105 1280.63,-105"/>
 <polygon fill="#191970" stroke="#191970" points="1280.799,-108.5001 1290.7989,-105 1280.7989,-101.5001 1280.799,-108.5001"/>
 </g>
-<!-- Node658 -->
+<!-- Node664 -->
 <g id="node35" class="node">
-<title>Node658</title>
+<title>Node664</title>
 <g id="a_node35"><a xlink:href="mt19937-64_8c.html#aa0b74daf51eca91df224d00f1730084a" target="_top" xlink:title="genrand64_real1">
 <polygon fill="none" stroke="#000000" points="1368,-95.5 1368,-114.5 1456,-114.5 1456,-95.5 1368,-95.5"/>
 <text text-anchor="middle" x="1412" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">genrand64_real1</text>
 </a>
 </g>
 </g>
-<!-- Node657&#45;&gt;Node658 -->
+<!-- Node663&#45;&gt;Node664 -->
 <g id="edge34" class="edge">
-<title>Node657&#45;&gt;Node658</title>
+<title>Node663&#45;&gt;Node664</title>
 <path fill="none" stroke="#191970" d="M1332.3237,-105C1339.8428,-105 1348.7193,-105 1357.769,-105"/>
 <polygon fill="#191970" stroke="#191970" points="1357.9969,-108.5001 1367.9969,-105 1357.9969,-101.5001 1357.9969,-108.5001"/>
 </g>
-<!-- Node659 -->
+<!-- Node665 -->
 <g id="node36" class="node">
-<title>Node659</title>
+<title>Node665</title>
 <g id="a_node36"><a xlink:href="mt19937-64_8c.html#a265bf48d20d6e0347371fcf4fe340e6d" target="_top" xlink:title="genrand64_int64">
 <polygon fill="none" stroke="#000000" points="1492,-95.5 1492,-114.5 1580,-114.5 1580,-95.5 1492,-95.5"/>
 <text text-anchor="middle" x="1536" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">genrand64_int64</text>
 </a>
 </g>
 </g>
-<!-- Node658&#45;&gt;Node659 -->
+<!-- Node664&#45;&gt;Node665 -->
 <g id="edge35" class="edge">
-<title>Node658&#45;&gt;Node659</title>
+<title>Node664&#45;&gt;Node665</title>
 <path fill="none" stroke="#191970" d="M1456.0669,-105C1464.2822,-105 1472.957,-105 1481.4432,-105"/>
 <polygon fill="#191970" stroke="#191970" points="1481.6572,-108.5001 1491.6572,-105 1481.6572,-101.5001 1481.6572,-108.5001"/>
 </g>
-<!-- Node660 -->
+<!-- Node666 -->
 <g id="node37" class="node">
-<title>Node660</title>
+<title>Node666</title>
 <g id="a_node37"><a xlink:href="mt19937-64_8c.html#adf4127d44c2dc34fcb318d406131ef7c" target="_top" xlink:title="init_genrand64">
 <polygon fill="none" stroke="#000000" points="1616,-95.5 1616,-114.5 1696,-114.5 1696,-95.5 1616,-95.5"/>
 <text text-anchor="middle" x="1656" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">init_genrand64</text>
 </a>
 </g>
 </g>
-<!-- Node659&#45;&gt;Node660 -->
+<!-- Node665&#45;&gt;Node666 -->
 <g id="edge36" class="edge">
-<title>Node659&#45;&gt;Node660</title>
+<title>Node665&#45;&gt;Node666</title>
 <path fill="none" stroke="#191970" d="M1580.0022,-105C1588.3719,-105 1597.1896,-105 1605.7365,-105"/>
 <polygon fill="#191970" stroke="#191970" points="1605.9792,-108.5001 1615.9792,-105 1605.9792,-101.5001 1605.9792,-108.5001"/>
 </g>
-<!-- Node662 -->
+<!-- Node668 -->
 <g id="node39" class="node">
-<title>Node662</title>
+<title>Node668</title>
 <g id="a_node39"><a xlink:href="utils_8c.html#a32648ab076544a9ac1c086d0f07b599f" target="_top" xlink:title="Returns a uniform random integer [min,max] not inclusive of max. ">
 <polygon fill="none" stroke="#000000" points="1055.5,-57.5 1055.5,-76.5 1130.5,-76.5 1130.5,-57.5 1055.5,-57.5"/>
 <text text-anchor="middle" x="1093" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">irand_uniform</text>
 </a>
 </g>
 </g>
-<!-- Node661&#45;&gt;Node662 -->
+<!-- Node667&#45;&gt;Node668 -->
 <g id="edge38" class="edge">
-<title>Node661&#45;&gt;Node662</title>
+<title>Node667&#45;&gt;Node668</title>
 <path fill="none" stroke="#191970" d="M1004.045,-67C1017.6704,-67 1031.9841,-67 1045.05,-67"/>
 <polygon fill="#191970" stroke="#191970" points="1045.2241,-70.5001 1055.2241,-67 1045.2241,-63.5001 1045.2241,-70.5001"/>
 </g>
-<!-- Node662&#45;&gt;Node656 -->
+<!-- Node668&#45;&gt;Node662 -->
 <g id="edge39" class="edge">
-<title>Node662&#45;&gt;Node656</title>
+<title>Node668&#45;&gt;Node662</title>
 <path fill="none" stroke="#191970" d="M1124.6689,-76.589C1140.5725,-81.4044 1160.0396,-87.2988 1177.1114,-92.468"/>
 <polygon fill="#191970" stroke="#191970" points="1176.256,-95.8658 1186.8412,-95.4141 1178.2846,-89.1662 1176.256,-95.8658"/>
 </g>
-<!-- Node665 -->
+<!-- Node671 -->
 <g id="node42" class="node">
-<title>Node665</title>
+<title>Node671</title>
 <g id="a_node42"><a xlink:href="clset_8c.html#a6dae2bd49bceef5337bcad19010098f8" target="_top" xlink:title="Deletes a single classifier from the population set. ">
 <polygon fill="none" stroke="#000000" points="659,-418.5 659,-437.5 736,-437.5 736,-418.5 659,-418.5"/>
 <text text-anchor="middle" x="697.5" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">clset_pop_del</text>
 </a>
 </g>
 </g>
-<!-- Node664&#45;&gt;Node665 -->
+<!-- Node670&#45;&gt;Node671 -->
 <g id="edge43" class="edge">
-<title>Node664&#45;&gt;Node665</title>
+<title>Node670&#45;&gt;Node671</title>
 <path fill="none" stroke="#191970" d="M623.0547,-428C631.6064,-428 640.3219,-428 648.6346,-428"/>
 <polygon fill="#191970" stroke="#191970" points="648.906,-431.5001 658.906,-428 648.9059,-424.5001 648.906,-431.5001"/>
 </g>
-<!-- Node665&#45;&gt;Node640 -->
+<!-- Node671&#45;&gt;Node646 -->
 <g id="edge49" class="edge">
-<title>Node665&#45;&gt;Node640</title>
+<title>Node671&#45;&gt;Node646</title>
 <path fill="none" stroke="#191970" d="M716.2207,-437.5888C722.8909,-441.5216 730.1842,-446.4575 736,-452 756.3485,-471.3923 750.717,-485.6382 772,-504 773.6966,-505.4637 775.5257,-506.8457 777.4327,-508.1449"/>
 <polygon fill="#191970" stroke="#191970" points="775.7386,-511.2095 786.1235,-513.3082 779.314,-505.1915 775.7386,-511.2095"/>
 </g>
-<!-- Node665&#45;&gt;Node656 -->
+<!-- Node671&#45;&gt;Node662 -->
 <g id="edge51" class="edge">
-<title>Node665&#45;&gt;Node656</title>
+<title>Node671&#45;&gt;Node662</title>
 <path fill="none" stroke="#191970" d="M717.1374,-418.4368C723.2025,-415.4488 729.8925,-412.118 736,-409 752.1133,-400.7738 754.8496,-395.7595 772,-390 871.0491,-356.7373 912.7617,-402.9186 1004,-352 1105.862,-295.1525 1182.3477,-170.5302 1208.6081,-123.4781"/>
 <polygon fill="#191970" stroke="#191970" points="1211.7003,-125.1183 1213.4405,-114.6674 1205.5628,-121.7521 1211.7003,-125.1183"/>
 </g>
-<!-- Node666 -->
+<!-- Node672 -->
 <g id="node43" class="node">
-<title>Node666</title>
+<title>Node672</title>
 <g id="a_node43"><a xlink:href="cl_8c.html#a49f5a7f4f2f47ce1cf7f33b3769de7cc" target="_top" xlink:title="Returns the size of the classifier condition. ">
 <polygon fill="none" stroke="#000000" points="773.5,-323.5 773.5,-342.5 847.5,-342.5 847.5,-323.5 773.5,-323.5"/>
 <text text-anchor="middle" x="810.5" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cl_cond_size</text>
 </a>
 </g>
 </g>
-<!-- Node665&#45;&gt;Node666 -->
+<!-- Node671&#45;&gt;Node672 -->
 <g id="edge44" class="edge">
-<title>Node665&#45;&gt;Node666</title>
+<title>Node671&#45;&gt;Node672</title>
 <path fill="none" stroke="#191970" d="M721.8765,-418.3082C726.8449,-415.7107 731.8237,-412.603 736,-409 757.283,-390.6382 751.6515,-376.3923 772,-357 775.3623,-353.7957 779.2184,-350.7942 783.1624,-348.0721"/>
 <polygon fill="#191970" stroke="#191970" points="785.2216,-350.9103 791.7793,-342.5888 781.4635,-345.0046 785.2216,-350.9103"/>
 </g>
-<!-- Node668 -->
+<!-- Node674 -->
 <g id="node45" class="node">
-<title>Node668</title>
+<title>Node674</title>
 <g id="a_node45"><a xlink:href="cl_8c.html#aa0059f455cba46b3a1acb6b8a271b95f" target="_top" xlink:title="Returns the deletion vote of the classifier. ">
 <polygon fill="none" stroke="#000000" points="777.5,-475.5 777.5,-494.5 843.5,-494.5 843.5,-475.5 777.5,-475.5"/>
 <text text-anchor="middle" x="810.5" y="-482.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cl_del_vote</text>
 </a>
 </g>
 </g>
-<!-- Node665&#45;&gt;Node668 -->
+<!-- Node671&#45;&gt;Node674 -->
 <g id="edge46" class="edge">
-<title>Node665&#45;&gt;Node668</title>
+<title>Node671&#45;&gt;Node674</title>
 <path fill="none" stroke="#191970" d="M716.1417,-437.5947C731.1903,-445.3193 752.9232,-456.4281 772,-466 775.1603,-467.5857 778.4714,-469.2362 781.7688,-470.8729"/>
 <polygon fill="#191970" stroke="#191970" points="780.374,-474.0877 790.8892,-475.3842 783.4776,-467.8133 780.374,-474.0877"/>
 </g>
-<!-- Node669 -->
+<!-- Node675 -->
 <g id="node46" class="node">
-<title>Node669</title>
+<title>Node675</title>
 <g id="a_node46"><a xlink:href="cl_8c.html#a72d3cf213699a8d68d348ff75c2b2d49" target="_top" xlink:title="Returns the size of the classifier prediction. ">
 <polygon fill="none" stroke="#000000" points="775,-437.5 775,-456.5 846,-456.5 846,-437.5 775,-437.5"/>
 <text text-anchor="middle" x="810.5" y="-444.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cl_pred_size</text>
 </a>
 </g>
 </g>
-<!-- Node665&#45;&gt;Node669 -->
+<!-- Node671&#45;&gt;Node675 -->
 <g id="edge47" class="edge">
-<title>Node665&#45;&gt;Node669</title>
+<title>Node671&#45;&gt;Node675</title>
 <path fill="none" stroke="#191970" d="M736.0721,-434.4856C745.2749,-436.033 755.1856,-437.6994 764.6789,-439.2956"/>
 <polygon fill="#191970" stroke="#191970" points="764.3211,-442.7845 774.7631,-440.9911 765.4819,-435.8814 764.3211,-442.7845"/>
 </g>
-<!-- Node671 -->
+<!-- Node677 -->
 <g id="node48" class="node">
-<title>Node671</title>
+<title>Node677</title>
 <g id="a_node48"><a xlink:href="clset_8c.html#a9a50c1393921d731b6840a654c366fb8" target="_top" xlink:title="Calculates the total fitness of classifiers in the set. ">
 <polygon fill="none" stroke="#000000" points="773,-399.5 773,-418.5 848,-418.5 848,-399.5 773,-399.5"/>
 <text text-anchor="middle" x="810.5" y="-406.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">clset_total_fit</text>
 </a>
 </g>
 </g>
-<!-- Node665&#45;&gt;Node671 -->
+<!-- Node671&#45;&gt;Node677 -->
 <g id="edge50" class="edge">
-<title>Node665&#45;&gt;Node671</title>
+<title>Node671&#45;&gt;Node677</title>
 <path fill="none" stroke="#191970" d="M736.0721,-421.5144C744.7125,-420.0616 753.9769,-418.5039 762.9339,-416.9978"/>
 <polygon fill="#191970" stroke="#191970" points="763.5853,-420.4375 772.8665,-415.3278 762.4246,-413.5344 763.5853,-420.4375"/>
 </g>
-<!-- Node667 -->
+<!-- Node673 -->
 <g id="node44" class="node">
-<title>Node667</title>
+<title>Node673</title>
 <g id="a_node44"><a xlink:href="condition_8h.html#afc882c8ebd96835127f8e611b815d447" target="_top" xlink:title="cond_size">
 <polygon fill="none" stroke="#000000" points="914,-323.5 914,-342.5 975,-342.5 975,-323.5 914,-323.5"/>
 <text text-anchor="middle" x="944.5" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cond_size</text>
 </a>
 </g>
 </g>
-<!-- Node666&#45;&gt;Node667 -->
+<!-- Node672&#45;&gt;Node673 -->
 <g id="edge45" class="edge">
-<title>Node666&#45;&gt;Node667</title>
+<title>Node672&#45;&gt;Node673</title>
 <path fill="none" stroke="#191970" d="M847.8265,-333C865.1756,-333 885.8512,-333 903.6205,-333"/>
 <polygon fill="#191970" stroke="#191970" points="903.6999,-336.5001 913.6999,-333 903.6999,-329.5001 903.6999,-336.5001"/>
 </g>
-<!-- Node670 -->
+<!-- Node676 -->
 <g id="node47" class="node">
-<title>Node670</title>
+<title>Node676</title>
 <g id="a_node47"><a xlink:href="prediction_8h.html#a60ead673b526125328224ec152916290" target="_top" xlink:title="pred_size">
 <polygon fill="none" stroke="#000000" points="915,-437.5 915,-456.5 974,-456.5 974,-437.5 915,-437.5"/>
 <text text-anchor="middle" x="944.5" y="-444.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">pred_size</text>
 </a>
 </g>
 </g>
-<!-- Node669&#45;&gt;Node670 -->
+<!-- Node675&#45;&gt;Node676 -->
 <g id="edge48" class="edge">
-<title>Node669&#45;&gt;Node670</title>
+<title>Node675&#45;&gt;Node676</title>
 <path fill="none" stroke="#191970" d="M846.0577,-447C864.0302,-447 885.9064,-447 904.468,-447"/>
 <polygon fill="#191970" stroke="#191970" points="904.6753,-450.5001 914.6752,-447 904.6752,-443.5001 904.6753,-450.5001"/>
 </g>
-<!-- Node674 -->
+<!-- Node680 -->
 <g id="node51" class="node">
-<title>Node674</title>
+<title>Node680</title>
 <g id="a_node51"><a xlink:href="cl_8c.html#ae72baabb74be8c1a8eca64eacb1941d1" target="_top" xlink:title="Prints the classifier. ">
 <polygon fill="none" stroke="#000000" points="410.5,-95.5 410.5,-114.5 458.5,-114.5 458.5,-95.5 410.5,-95.5"/>
 <text text-anchor="middle" x="434.5" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cl_print</text>
 </a>
 </g>
 </g>
-<!-- Node673&#45;&gt;Node674 -->
+<!-- Node679&#45;&gt;Node680 -->
 <g id="edge54" class="edge">
-<title>Node673&#45;&gt;Node674</title>
+<title>Node679&#45;&gt;Node680</title>
 <path fill="none" stroke="#191970" d="M341.5826,-181.4679C359.3157,-166.8742 393.4042,-138.8205 414.9954,-121.0517"/>
 <polygon fill="#191970" stroke="#191970" points="417.3681,-123.6318 422.8655,-114.5748 412.92,-118.2268 417.3681,-123.6318"/>
 </g>
-<!-- Node675 -->
+<!-- Node681 -->
 <g id="node52" class="node">
-<title>Node675</title>
+<title>Node681</title>
 <g id="a_node52"><a xlink:href="action_8h.html#a19d614ece27ba815737d5e7a370eebd6" target="_top" xlink:title="act_print">
 <polygon fill="none" stroke="#000000" points="536.5,-38.5 536.5,-57.5 590.5,-57.5 590.5,-38.5 536.5,-38.5"/>
 <text text-anchor="middle" x="563.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">act_print</text>
 </a>
 </g>
 </g>
-<!-- Node674&#45;&gt;Node675 -->
+<!-- Node680&#45;&gt;Node681 -->
 <g id="edge55" class="edge">
-<title>Node674&#45;&gt;Node675</title>
+<title>Node680&#45;&gt;Node681</title>
 <path fill="none" stroke="#191970" d="M450.0779,-95.3563C463.8872,-87.084 484.786,-75.2307 504,-67 511.2079,-63.9123 519.0912,-61.053 526.6933,-58.5394"/>
 <polygon fill="#191970" stroke="#191970" points="527.9722,-61.8056 536.4446,-55.444 525.8543,-55.1337 527.9722,-61.8056"/>
 </g>
-<!-- Node676 -->
+<!-- Node682 -->
 <g id="node53" class="node">
-<title>Node676</title>
+<title>Node682</title>
 <g id="a_node53"><a xlink:href="cl_8c.html#a98982b34e8eebe2f85333397bdd24bd3" target="_top" xlink:title="Returns the fraction of observed inputs matched by the classifier. ">
 <polygon fill="none" stroke="#000000" points="536.5,-.5 536.5,-19.5 590.5,-19.5 590.5,-.5 536.5,-.5"/>
 <text text-anchor="middle" x="563.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cl_mfrac</text>
 </a>
 </g>
 </g>
-<!-- Node674&#45;&gt;Node676 -->
+<!-- Node680&#45;&gt;Node682 -->
 <g id="edge56" class="edge">
-<title>Node674&#45;&gt;Node676</title>
+<title>Node680&#45;&gt;Node682</title>
 <path fill="none" stroke="#191970" d="M440.7887,-95.3423C451.7377,-79.2719 475.8433,-47.0304 504,-29 510.8703,-24.6005 518.8414,-21.1459 526.6728,-18.4608"/>
 <polygon fill="#191970" stroke="#191970" points="527.8975,-21.746 536.4246,-15.458 525.8374,-15.056 527.8975,-21.746"/>
 </g>
-<!-- Node677 -->
+<!-- Node683 -->
 <g id="node54" class="node">
-<title>Node677</title>
+<title>Node683</title>
 <g id="a_node54"><a xlink:href="condition_8h.html#a9ae64611660a1d945ac9bf79d3a974b0" target="_top" xlink:title="cond_print">
 <polygon fill="none" stroke="#000000" points="532.5,-152.5 532.5,-171.5 594.5,-171.5 594.5,-152.5 532.5,-152.5"/>
 <text text-anchor="middle" x="563.5" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cond_print</text>
 </a>
 </g>
 </g>
-<!-- Node674&#45;&gt;Node677 -->
+<!-- Node680&#45;&gt;Node683 -->
 <g id="edge57" class="edge">
-<title>Node674&#45;&gt;Node677</title>
+<title>Node680&#45;&gt;Node683</title>
 <path fill="none" stroke="#191970" d="M450.0779,-114.6437C463.8872,-122.916 484.786,-134.7693 504,-143 509.8872,-145.5219 516.2249,-147.8915 522.492,-150.0448"/>
 <polygon fill="#191970" stroke="#191970" points="521.6142,-153.4405 532.2072,-153.2413 523.8021,-146.7911 521.6142,-153.4405"/>
 </g>
-<!-- Node678 -->
+<!-- Node684 -->
 <g id="node55" class="node">
-<title>Node678</title>
+<title>Node684</title>
 <g id="a_node55"><a xlink:href="prediction_8h.html#aa20cce1c5d4805d59e833c7738e10570" target="_top" xlink:title="pred_print">
 <polygon fill="none" stroke="#000000" points="534,-114.5 534,-133.5 593,-133.5 593,-114.5 534,-114.5"/>
 <text text-anchor="middle" x="563.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">pred_print</text>
 </a>
 </g>
 </g>
-<!-- Node674&#45;&gt;Node678 -->
+<!-- Node680&#45;&gt;Node684 -->
 <g id="edge58" class="edge">
-<title>Node674&#45;&gt;Node678</title>
+<title>Node680&#45;&gt;Node684</title>
 <path fill="none" stroke="#191970" d="M458.7639,-108.5738C477.0785,-111.2713 502.5993,-115.0301 523.8633,-118.162"/>
 <polygon fill="#191970" stroke="#191970" points="523.5066,-121.6472 533.9099,-119.6418 524.5266,-114.7219 523.5066,-121.6472"/>
 </g>
-<!-- Node679 -->
+<!-- Node685 -->
 <g id="node56" class="node">
-<title>Node679</title>
+<title>Node685</title>
 <g id="a_node56"><a xlink:href="sam_8c.html#a1a9f6c2dea22a8f1120035fc935923bc" target="_top" xlink:title="Prints the self&#45;adaptive mutation rates. ">
 <polygon fill="none" stroke="#000000" points="534,-76.5 534,-95.5 593,-95.5 593,-76.5 534,-76.5"/>
 <text text-anchor="middle" x="563.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sam_print</text>
 </a>
 </g>
 </g>
-<!-- Node674&#45;&gt;Node679 -->
+<!-- Node680&#45;&gt;Node685 -->
 <g id="edge59" class="edge">
-<title>Node674&#45;&gt;Node679</title>
+<title>Node680&#45;&gt;Node685</title>
 <path fill="none" stroke="#191970" d="M458.7639,-101.4262C477.0785,-98.7287 502.5993,-94.9699 523.8633,-91.838"/>
 <polygon fill="#191970" stroke="#191970" points="524.5266,-95.2781 533.9099,-90.3582 523.5066,-88.3528 524.5266,-95.2781"/>
 </g>

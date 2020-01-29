@@ -1,8 +1,10 @@
 var searchData=
 [
-  ['nn',['NN',['../mt19937-64_8c.html#a170755e30c36be4904106b7bb279b1ec',1,'mt19937-64.c']]],
-  ['noise',['NOISE',['../neural__layer_8h.html#a1252823eae0fb4c87dddc5c2caef7790',1,'neural_layer.h']]],
-  ['num_5factivations',['NUM_ACTIVATIONS',['../neural__activations_8h.html#a4937a4f2709888cde5189a2f35e4de09',1,'neural_activations.h']]],
-  ['num_5ffunc',['NUM_FUNC',['../dgp_8c.html#a9aad0046191b9926d17eb7e3b3b53c66',1,'dgp.c']]],
-  ['num_5frates',['NUM_RATES',['../sam_8c.html#a645e6e4b2b86edabb8055e43055b1b02',1,'sam.c']]]
+  ['p_5fdontcare',['P_DONTCARE',['../cond__ternary_8c.html#a406fe7fd44755ef2832ac805c8a748e6',1,'cond_ternary.c']]],
+  ['pred_5ftype_5fconstant',['PRED_TYPE_CONSTANT',['../xcsf_8h.html#ae7d5f53d421c017ceb10c05f0e6090c0',1,'xcsf.h']]],
+  ['pred_5ftype_5fneural',['PRED_TYPE_NEURAL',['../xcsf_8h.html#a60cd83e6c910f5c02187ad74e45b587e',1,'xcsf.h']]],
+  ['pred_5ftype_5fnlms_5flinear',['PRED_TYPE_NLMS_LINEAR',['../xcsf_8h.html#a17aac70a656503856bab6d988b8f33b2',1,'xcsf.h']]],
+  ['pred_5ftype_5fnlms_5fquadratic',['PRED_TYPE_NLMS_QUADRATIC',['../xcsf_8h.html#ab9a680ad534a2eee657e39d49f11a9a4',1,'xcsf.h']]],
+  ['pred_5ftype_5frls_5flinear',['PRED_TYPE_RLS_LINEAR',['../xcsf_8h.html#afc4cec761b72b5348c5c21acc22c6168',1,'xcsf.h']]],
+  ['pred_5ftype_5frls_5fquadratic',['PRED_TYPE_RLS_QUADRATIC',['../xcsf_8h.html#a90f10300f1552e1221eaaac6ea7028b9',1,'xcsf.h']]]
 ];

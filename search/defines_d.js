@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['tanh',['TANH',['../neural__activations_8h.html#a1acfe6a311aa86bd70faa9032bf3c6bb',1,'neural_activations.h']]]
+  ['um',['UM',['../mt19937-64_8c.html#a4b9cfb88c6beb4254e2971abacbd8aab',1,'mt19937-64.c']]]
 ];

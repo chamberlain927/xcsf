@@ -16,7 +16,6 @@ var structCL =
     [ "pred", "structCL.html#a9319caaf3c1bd7008f2dff02af4a6113", null ],
     [ "pred_vptr", "structCL.html#aed4c4c0f42aeb9ed127f70a2799dfc30", null ],
     [ "prediction", "structCL.html#a51b08df4ebc5fe2f7307a4c80bba29e3", null ],
-    [ "prev_prediction", "structCL.html#a62f8ff473fb90e428f240810dc5ce07c", null ],
     [ "size", "structCL.html#aab0b0dbc7ab5a30157d15b172d50e1e0", null ],
     [ "time", "structCL.html#a860381acf1b5143ec6856909f2a41af2", null ]
 ];

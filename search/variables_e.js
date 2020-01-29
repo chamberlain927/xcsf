@@ -16,7 +16,7 @@ var searchData=
   ['pred_5fevolve_5ffunctions',['PRED_EVOLVE_FUNCTIONS',['../structXCSF.html#a1f7ed9f36020762f2e4093c8614c4431',1,'XCSF']]],
   ['pred_5fevolve_5fneurons',['PRED_EVOLVE_NEURONS',['../structXCSF.html#a0ca49c92ca3322df3a4bbb985d4e562d',1,'XCSF']]],
   ['pred_5fevolve_5fweights',['PRED_EVOLVE_WEIGHTS',['../structXCSF.html#a6120ab023727a2a2b2ab590279205c14',1,'XCSF']]],
-  ['pred_5fhidden_5fneuron_5factivation',['PRED_HIDDEN_NEURON_ACTIVATION',['../structXCSF.html#ad46b1719eb6301f954d164cbff8489da',1,'XCSF']]],
+  ['pred_5fhidden_5factivation',['PRED_HIDDEN_ACTIVATION',['../structXCSF.html#ad3557a43a4ca4781c7289bffa1abf6be',1,'XCSF']]],
   ['pred_5fimpl_5fcompute',['pred_impl_compute',['../structPredVtbl.html#ad14ca8c15fed356c842cb7a9ca533dca',1,'PredVtbl']]],
   ['pred_5fimpl_5fcopy',['pred_impl_copy',['../structPredVtbl.html#a055d46ca8c3ababe5615467519b2c678',1,'PredVtbl']]],
   ['pred_5fimpl_5fcrossover',['pred_impl_crossover',['../structPredVtbl.html#a1c8ac9829bd9ca179e38f6d28edd83a1',1,'PredVtbl']]],
@@ -33,6 +33,7 @@ var searchData=
   ['pred_5fneural_5fvtbl',['pred_neural_vtbl',['../pred__neural_8h.html#ab4709e83aa4ac59b41666612909361bc',1,'pred_neural.h']]],
   ['pred_5fnlms_5fvtbl',['pred_nlms_vtbl',['../pred__nlms_8h.html#ab67344b96732217ae05774540112921f',1,'pred_nlms.h']]],
   ['pred_5fnum_5fhidden_5fneurons',['PRED_NUM_HIDDEN_NEURONS',['../structXCSF.html#a966653d1b6763126b63e045bd97fd529',1,'XCSF']]],
+  ['pred_5foutput_5factivation',['PRED_OUTPUT_ACTIVATION',['../structXCSF.html#a687a085cc980c29c82a6a62f3d03be55',1,'XCSF']]],
   ['pred_5freset',['PRED_RESET',['../structXCSF.html#ab75d2c4826081054a6902dd0b3177450',1,'XCSF']]],
   ['pred_5frls_5flambda',['PRED_RLS_LAMBDA',['../structXCSF.html#ac9890218f614425094de658142229a26',1,'XCSF']]],
   ['pred_5frls_5fscale_5ffactor',['PRED_RLS_SCALE_FACTOR',['../structXCSF.html#a5977806124bf6fb3d4f212bf9590701e',1,'XCSF']]],
@@ -43,7 +44,6 @@ var searchData=
   ['pred_5fx0',['PRED_X0',['../structXCSF.html#a21249fc82c1082f993b7e5e6bfbebf54',1,'XCSF']]],
   ['prediction',['prediction',['../structCL.html#a51b08df4ebc5fe2f7307a4c80bba29e3',1,'CL']]],
   ['prev',['prev',['../structLLIST.html#a930899798aa970fdb7b7a7323f964c82',1,'LLIST']]],
-  ['prev_5fprediction',['prev_prediction',['../structCL.html#a62f8ff473fb90e428f240810dc5ce07c',1,'CL']]],
   ['probability',['probability',['../structLAYER.html#ae2e5f0a3c65acd933c1405f161afc430',1,'LAYER']]],
   ['pset',['pset',['../structXCSF.html#aab2d6bccf73f89ea3e20fbcf0a31e513',1,'XCSF']]]
 ];
