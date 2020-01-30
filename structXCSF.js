@@ -42,6 +42,7 @@ var structXCSF =
     [ "MAX_NEURON_MOD", "structXCSF.html#a52ce72a8e80dd91df00334d01c740188", null ],
     [ "MAX_T", "structXCSF.html#a0c67805480258552f7fa1fef6d3999d9", null ],
     [ "MAX_TRIALS", "structXCSF.html#a9898230859b2b2aeff2b3ba7fc2f64e4", null ],
+    [ "mfrac", "structXCSF.html#ac594b319e9ddce39f20d31b4e62d3ded", null ],
     [ "msetsize", "structXCSF.html#a0bf4923dbd0a75e220576049e083275a", null ],
     [ "nr", "structXCSF.html#a1e9f7b5c246cbf133be30effa606e94d", null ],
     [ "NU", "structXCSF.html#a6ffb8993fdb50334736dbaf51b7592bd", null ],

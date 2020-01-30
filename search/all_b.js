@@ -22,6 +22,7 @@ var searchData=
   ['maxlen',['MAXLEN',['../config_8c.html#ae6648cd71a8bd49d58ae8ed33ba910d1',1,'config.c']]],
   ['maze',['maze',['../structENV__MAZE.html#a1a5feeb192a01da60c1f75d5cbae5920',1,'ENV_MAZE']]],
   ['maze_5fdebug',['MAZE_DEBUG',['../env__maze_8c.html#ae20553cae6a84d9ae8a57c80a5cb3d2d',1,'env_maze.c']]],
+  ['mfrac',['mfrac',['../structXCSF.html#ac594b319e9ddce39f20d31b4e62d3ded',1,'XCSF']]],
   ['mm',['MM',['../mt19937-64_8c.html#afdc383f8992f4a960bb22998f57b6d37',1,'mt19937-64.c']]],
   ['mrates',['mrates',['../sam_8c.html#a8eeba4cf3a046fef1598074faa1b6189',1,'sam.c']]],
   ['mset',['mset',['../structXCS.html#a6292c9d48b7cad83d5e21a80cb8dbec7',1,'XCS']]],
