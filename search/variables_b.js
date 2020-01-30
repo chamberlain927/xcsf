@@ -1,6 +1,7 @@
 var searchData=
 [
   ['m',['m',['../structCL.html#a36b129a577a379310b8c02c7af61a50d',1,'CL']]],
+  ['m_5fprobation',['M_PROBATION',['../structXCSF.html#a083e59e1e0ece04c38503c77c4647b51',1,'XCSF']]],
   ['matrix',['matrix',['../structPRED__RLS.html#a1a9e3687a9e26026416f7f1c93e427bf',1,'PRED_RLS']]],
   ['max_5fk',['MAX_K',['../structXCSF.html#a2fe572eeaacb9368264a92ff4c2efd20',1,'XCSF']]],
   ['max_5fneuron_5fmod',['MAX_NEURON_MOD',['../structXCSF.html#a52ce72a8e80dd91df00334d01c740188',1,'XCSF']]],

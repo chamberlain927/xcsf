@@ -82,6 +82,7 @@ $(document).ready(function(){initNavTree('sam_8h.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">sam.h File Reference</div>  </div>
@@ -99,6 +100,15 @@ This graph shows which files directly or indirectly include this file:</div>
 </div>
 <p><a href="sam_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a7bb706f447cc9034816dd45431bb2955"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam_8h.html#a7bb706f447cc9034816dd45431bb2955">SAM_LOG_NORMAL</a>&#160;&#160;&#160;0</td></tr>
+<tr class="memdesc:a7bb706f447cc9034816dd45431bb2955"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log normal self-adaptation.  <a href="#a7bb706f447cc9034816dd45431bb2955">More...</a><br /></td></tr>
+<tr class="separator:a7bb706f447cc9034816dd45431bb2955"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f762d640acc6a7e21611e4b705f5ac7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam_8h.html#a1f762d640acc6a7e21611e4b705f5ac7">SAM_RATE_SELECT</a>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:a1f762d640acc6a7e21611e4b705f5ac7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ten normally distributed rates.  <a href="#a1f762d640acc6a7e21611e4b705f5ac7">More...</a><br /></td></tr>
+<tr class="separator:a1f762d640acc6a7e21611e4b705f5ac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:aa7382542688a4953644df6cb73a2972c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam_8h.html#aa7382542688a4953644df6cb73a2972c">sam_adapt</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, double *mu)</td></tr>
@@ -127,7 +137,48 @@ Functions</h2></td></tr>
 <dl class="section date"><dt>Date</dt><dd>2015&ndash;2020. </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="sam_8h_source.html">sam.h</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a7bb706f447cc9034816dd45431bb2955"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bb706f447cc9034816dd45431bb2955">&#9670;&nbsp;</a></span>SAM_LOG_NORMAL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SAM_LOG_NORMAL&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Log normal self-adaptation. </p>
+
+<p class="definition">Definition at line <a class="el" href="sam_8h_source.html#l00026">26</a> of file <a class="el" href="sam_8h_source.html">sam.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="sam_8c_source.html#l00077">sam_adapt()</a>, and <a class="el" href="sam_8c_source.html#l00059">sam_reset()</a>.</p>
+
+</div>
+</div>
+<a id="a1f762d640acc6a7e21611e4b705f5ac7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f762d640acc6a7e21611e4b705f5ac7">&#9670;&nbsp;</a></span>SAM_RATE_SELECT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SAM_RATE_SELECT&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Ten normally distributed rates. </p>
+
+<p class="definition">Definition at line <a class="el" href="sam_8h_source.html#l00027">27</a> of file <a class="el" href="sam_8h_source.html">sam.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="sam_8c_source.html#l00077">sam_adapt()</a>, and <a class="el" href="sam_8c_source.html#l00059">sam_reset()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
 <a id="aa7382542688a4953644df6cb73a2972c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa7382542688a4953644df6cb73a2972c">&#9670;&nbsp;</a></span>sam_adapt()</h2>
 
@@ -163,9 +214,9 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00076">76</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00077">77</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
 
-<p class="reference">References <a class="el" href="sam_8c_source.html#l00142">sam_log_normal_adapt()</a>, <a class="el" href="sam_8c_source.html#l00174">sam_rate_selection_adapt()</a>, and <a class="el" href="xcsf_8h_source.html#l00134">XCSF::SAM_TYPE</a>.</p>
+<p class="reference">References <a class="el" href="sam_8h_source.html#l00026">SAM_LOG_NORMAL</a>, <a class="el" href="sam_8c_source.html#l00144">sam_log_normal_adapt()</a>, <a class="el" href="sam_8h_source.html#l00027">SAM_RATE_SELECT</a>, <a class="el" href="sam_8c_source.html#l00176">sam_rate_selection_adapt()</a>, and <a class="el" href="xcsf_8h_source.html#l00135">XCSF::SAM_TYPE</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="ea_8c_source.html#l00051">ea()</a>.</p>
 <div class="dynheader">
@@ -225,9 +276,9 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00092">92</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00094">94</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00135">XCSF::SAM_NUM</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00136">XCSF::SAM_NUM</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00071">cl_copy()</a>.</p>
 <div class="dynheader">
@@ -274,9 +325,9 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00104">104</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00106">106</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00135">XCSF::SAM_NUM</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00136">XCSF::SAM_NUM</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00224">cl_free()</a>.</p>
 <div class="dynheader">
@@ -325,7 +376,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00046">46</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00135">XCSF::SAM_NUM</a>, and <a class="el" href="sam_8c_source.html#l00059">sam_reset()</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00136">XCSF::SAM_NUM</a>, and <a class="el" href="sam_8c_source.html#l00059">sam_reset()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00048">cl_init()</a>.</p>
 <div class="dynheader">
@@ -378,9 +429,9 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00116">116</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00118">118</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00135">XCSF::SAM_NUM</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00136">XCSF::SAM_NUM</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00242">cl_print()</a>.</p>
 <div class="dynheader">
@@ -429,7 +480,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00059">59</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
 
-<p class="reference">References <a class="el" href="sam_8c_source.html#l00130">sam_log_normal_init()</a>, <a class="el" href="xcsf_8h_source.html#l00135">XCSF::SAM_NUM</a>, <a class="el" href="sam_8c_source.html#l00160">sam_rate_selection_init()</a>, and <a class="el" href="xcsf_8h_source.html#l00134">XCSF::SAM_TYPE</a>.</p>
+<p class="reference">References <a class="el" href="sam_8h_source.html#l00026">SAM_LOG_NORMAL</a>, <a class="el" href="sam_8c_source.html#l00132">sam_log_normal_init()</a>, <a class="el" href="xcsf_8h_source.html#l00136">XCSF::SAM_NUM</a>, <a class="el" href="sam_8h_source.html#l00027">SAM_RATE_SELECT</a>, <a class="el" href="sam_8c_source.html#l00162">sam_rate_selection_init()</a>, and <a class="el" href="xcsf_8h_source.html#l00135">XCSF::SAM_TYPE</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="sam_8c_source.html#l00046">sam_init()</a>.</p>
 <div class="dynheader">

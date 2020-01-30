@@ -1,6 +1,7 @@
 var searchData=
 [
   ['m',['m',['../structCL.html#a36b129a577a379310b8c02c7af61a50d',1,'CL']]],
+  ['m_5fprobation',['M_PROBATION',['../structXCSF.html#a083e59e1e0ece04c38503c77c4647b51',1,'XCSF']]],
   ['main',['main',['../main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main.c']]],
   ['main_2ec',['main.c',['../main_8c.html',1,'']]],
   ['matrix',['matrix',['../structPRED__RLS.html#a1a9e3687a9e26026416f7f1c93e427bf',1,'PRED_RLS']]],

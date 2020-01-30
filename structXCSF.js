@@ -37,6 +37,7 @@ var structXCSF =
     [ "LAMBDA", "structXCSF.html#aad4792803190df96b319e9fd925e7072", null ],
     [ "LOSS_FUNC", "structXCSF.html#acc15b9f731ea288dcd495d10d2ce32cb", null ],
     [ "loss_ptr", "structXCSF.html#ac40dd5a7b202433c7c53bb5513747868", null ],
+    [ "M_PROBATION", "structXCSF.html#a083e59e1e0ece04c38503c77c4647b51", null ],
     [ "MAX_K", "structXCSF.html#a2fe572eeaacb9368264a92ff4c2efd20", null ],
     [ "MAX_NEURON_MOD", "structXCSF.html#a52ce72a8e80dd91df00334d01c740188", null ],
     [ "MAX_T", "structXCSF.html#a0c67805480258552f7fa1fef6d3999d9", null ],

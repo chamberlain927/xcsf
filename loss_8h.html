@@ -82,6 +82,7 @@ $(document).ready(function(){initNavTree('loss_8h.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">loss.h File Reference</div>  </div>
@@ -99,6 +100,27 @@ This graph shows which files directly or indirectly include this file:</div>
 </div>
 <p><a href="loss_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ab933ef973a4fd9946b854f98a024a617"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loss_8h.html#ab933ef973a4fd9946b854f98a024a617">LOSS_MAE</a>&#160;&#160;&#160;0</td></tr>
+<tr class="memdesc:ab933ef973a4fd9946b854f98a024a617"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mean absolute error.  <a href="#ab933ef973a4fd9946b854f98a024a617">More...</a><br /></td></tr>
+<tr class="separator:ab933ef973a4fd9946b854f98a024a617"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a23cb399abaa46c19c1c28243b13f39"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loss_8h.html#a1a23cb399abaa46c19c1c28243b13f39">LOSS_MSE</a>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:a1a23cb399abaa46c19c1c28243b13f39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mean squared error.  <a href="#a1a23cb399abaa46c19c1c28243b13f39">More...</a><br /></td></tr>
+<tr class="separator:a1a23cb399abaa46c19c1c28243b13f39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c448064834bdb151c405371b3c3faca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loss_8h.html#a0c448064834bdb151c405371b3c3faca">LOSS_RMSE</a>&#160;&#160;&#160;2</td></tr>
+<tr class="memdesc:a0c448064834bdb151c405371b3c3faca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Root mean squared error.  <a href="#a0c448064834bdb151c405371b3c3faca">More...</a><br /></td></tr>
+<tr class="separator:a0c448064834bdb151c405371b3c3faca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc3eb97e60129b1d917b328bfbfa8147"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loss_8h.html#adc3eb97e60129b1d917b328bfbfa8147">LOSS_LOG</a>&#160;&#160;&#160;3</td></tr>
+<tr class="memdesc:adc3eb97e60129b1d917b328bfbfa8147"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log loss.  <a href="#adc3eb97e60129b1d917b328bfbfa8147">More...</a><br /></td></tr>
+<tr class="separator:adc3eb97e60129b1d917b328bfbfa8147"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bcfbc96f60579fe3e5e8c6e4c4c0ab0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loss_8h.html#a7bcfbc96f60579fe3e5e8c6e4c4c0ab0">LOSS_BINARY_LOG</a>&#160;&#160;&#160;4</td></tr>
+<tr class="memdesc:a7bcfbc96f60579fe3e5e8c6e4c4c0ab0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binary log loss.  <a href="#a7bcfbc96f60579fe3e5e8c6e4c4c0ab0">More...</a><br /></td></tr>
+<tr class="separator:a7bcfbc96f60579fe3e5e8c6e4c4c0ab0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c6c070e506c9981b61e9fc65e1054aa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loss_8h.html#a0c6c070e506c9981b61e9fc65e1054aa">LOSS_ONEHOT_ACC</a>&#160;&#160;&#160;5</td></tr>
+<tr class="memdesc:a0c6c070e506c9981b61e9fc65e1054aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">One-hot encoding classification error.  <a href="#a0c6c070e506c9981b61e9fc65e1054aa">More...</a><br /></td></tr>
+<tr class="separator:a0c6c070e506c9981b61e9fc65e1054aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:adccb11b8a1e21aae044940951c6da988"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loss_8h.html#adccb11b8a1e21aae044940951c6da988">loss_mae</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const double *pred, const double *y)</td></tr>
@@ -130,7 +152,128 @@ Functions</h2></td></tr>
 <dl class="section date"><dt>Date</dt><dd>2019&ndash;2020. </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="loss_8h_source.html">loss.h</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a7bcfbc96f60579fe3e5e8c6e4c4c0ab0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bcfbc96f60579fe3e5e8c6e4c4c0ab0">&#9670;&nbsp;</a></span>LOSS_BINARY_LOG</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LOSS_BINARY_LOG&#160;&#160;&#160;4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Binary log loss. </p>
+
+<p class="definition">Definition at line <a class="el" href="loss_8h_source.html#l00030">30</a> of file <a class="el" href="loss_8h_source.html">loss.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="loss_8c_source.html#l00138">loss_set_func()</a>.</p>
+
+</div>
+</div>
+<a id="adc3eb97e60129b1d917b328bfbfa8147"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc3eb97e60129b1d917b328bfbfa8147">&#9670;&nbsp;</a></span>LOSS_LOG</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LOSS_LOG&#160;&#160;&#160;3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Log loss. </p>
+
+<p class="definition">Definition at line <a class="el" href="loss_8h_source.html#l00029">29</a> of file <a class="el" href="loss_8h_source.html">loss.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="loss_8c_source.html#l00138">loss_set_func()</a>.</p>
+
+</div>
+</div>
+<a id="ab933ef973a4fd9946b854f98a024a617"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab933ef973a4fd9946b854f98a024a617">&#9670;&nbsp;</a></span>LOSS_MAE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LOSS_MAE&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Mean absolute error. </p>
+
+<p class="definition">Definition at line <a class="el" href="loss_8h_source.html#l00026">26</a> of file <a class="el" href="loss_8h_source.html">loss.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="loss_8c_source.html#l00138">loss_set_func()</a>.</p>
+
+</div>
+</div>
+<a id="a1a23cb399abaa46c19c1c28243b13f39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a23cb399abaa46c19c1c28243b13f39">&#9670;&nbsp;</a></span>LOSS_MSE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LOSS_MSE&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Mean squared error. </p>
+
+<p class="definition">Definition at line <a class="el" href="loss_8h_source.html#l00027">27</a> of file <a class="el" href="loss_8h_source.html">loss.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="loss_8c_source.html#l00138">loss_set_func()</a>.</p>
+
+</div>
+</div>
+<a id="a0c6c070e506c9981b61e9fc65e1054aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c6c070e506c9981b61e9fc65e1054aa">&#9670;&nbsp;</a></span>LOSS_ONEHOT_ACC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LOSS_ONEHOT_ACC&#160;&#160;&#160;5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>One-hot encoding classification error. </p>
+
+<p class="definition">Definition at line <a class="el" href="loss_8h_source.html#l00031">31</a> of file <a class="el" href="loss_8h_source.html">loss.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="loss_8c_source.html#l00138">loss_set_func()</a>.</p>
+
+</div>
+</div>
+<a id="a0c448064834bdb151c405371b3c3faca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c448064834bdb151c405371b3c3faca">&#9670;&nbsp;</a></span>LOSS_RMSE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LOSS_RMSE&#160;&#160;&#160;2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Root mean squared error. </p>
+
+<p class="definition">Definition at line <a class="el" href="loss_8h_source.html#l00028">28</a> of file <a class="el" href="loss_8h_source.html">loss.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="loss_8c_source.html#l00138">loss_set_func()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
 <a id="a39395cf45199ace9d5d1417cea421ef1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a39395cf45199ace9d5d1417cea421ef1">&#9670;&nbsp;</a></span>loss_binary_log()</h2>
 
@@ -176,7 +319,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="loss_8c_source.html#l00103">103</a> of file <a class="el" href="loss_8c_source.html">loss.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00195">XCSF::num_y_vars</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00196">XCSF::num_y_vars</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="loss_8c_source.html#l00138">loss_set_func()</a>.</p>
 <div class="dynheader">
@@ -234,7 +377,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="loss_8c_source.html#l00087">87</a> of file <a class="el" href="loss_8c_source.html">loss.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00195">XCSF::num_y_vars</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00196">XCSF::num_y_vars</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="loss_8c_source.html#l00138">loss_set_func()</a>.</p>
 <div class="dynheader">
@@ -291,7 +434,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="loss_8c_source.html#l00038">38</a> of file <a class="el" href="loss_8c_source.html">loss.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00195">XCSF::num_y_vars</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00196">XCSF::num_y_vars</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="loss_8c_source.html#l00138">loss_set_func()</a>.</p>
 <div class="dynheader">
@@ -348,7 +491,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="loss_8c_source.html#l00055">55</a> of file <a class="el" href="loss_8c_source.html">loss.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00195">XCSF::num_y_vars</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00196">XCSF::num_y_vars</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="loss_8c_source.html#l00072">loss_rmse()</a>, and <a class="el" href="loss_8c_source.html#l00138">loss_set_func()</a>.</p>
 <div class="dynheader">
@@ -405,7 +548,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="loss_8c_source.html#l00120">120</a> of file <a class="el" href="loss_8c_source.html">loss.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00195">XCSF::num_y_vars</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00196">XCSF::num_y_vars</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="loss_8c_source.html#l00138">loss_set_func()</a>.</p>
 <div class="dynheader">
@@ -506,9 +649,9 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="loss_8c_source.html#l00138">138</a> of file <a class="el" href="loss_8c_source.html">loss.c</a>.</p>
 
-<p class="reference">References <a class="el" href="loss_8c_source.html#l00103">loss_binary_log()</a>, <a class="el" href="xcsf_8h_source.html#l00100">XCSF::LOSS_FUNC</a>, <a class="el" href="loss_8c_source.html#l00087">loss_log()</a>, <a class="el" href="loss_8c_source.html#l00038">loss_mae()</a>, <a class="el" href="loss_8c_source.html#l00055">loss_mse()</a>, <a class="el" href="loss_8c_source.html#l00120">loss_onehot_acc()</a>, <a class="el" href="xcsf_8h_source.html#l00197">XCSF::loss_ptr</a>, and <a class="el" href="loss_8c_source.html#l00072">loss_rmse()</a>.</p>
+<p class="reference">References <a class="el" href="loss_8h_source.html#l00030">LOSS_BINARY_LOG</a>, <a class="el" href="loss_8c_source.html#l00103">loss_binary_log()</a>, <a class="el" href="xcsf_8h_source.html#l00100">XCSF::LOSS_FUNC</a>, <a class="el" href="loss_8h_source.html#l00029">LOSS_LOG</a>, <a class="el" href="loss_8c_source.html#l00087">loss_log()</a>, <a class="el" href="loss_8h_source.html#l00026">LOSS_MAE</a>, <a class="el" href="loss_8c_source.html#l00038">loss_mae()</a>, <a class="el" href="loss_8h_source.html#l00027">LOSS_MSE</a>, <a class="el" href="loss_8c_source.html#l00055">loss_mse()</a>, <a class="el" href="loss_8h_source.html#l00031">LOSS_ONEHOT_ACC</a>, <a class="el" href="loss_8c_source.html#l00120">loss_onehot_acc()</a>, <a class="el" href="xcsf_8h_source.html#l00198">XCSF::loss_ptr</a>, <a class="el" href="loss_8h_source.html#l00028">LOSS_RMSE</a>, and <a class="el" href="loss_8c_source.html#l00072">loss_rmse()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00069">config_init()</a>, <a class="el" href="python__wrapper_8cpp_source.html#l00359">XCS::set_loss_func()</a>, and <a class="el" href="xcsf_8c_source.html#l00388">xcsf_load_params()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00069">config_init()</a>, <a class="el" href="python__wrapper_8cpp_source.html#l00360">XCS::set_loss_func()</a>, and <a class="el" href="xcsf_8c_source.html#l00389">xcsf_load_params()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

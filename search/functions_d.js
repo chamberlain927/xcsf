@@ -45,6 +45,7 @@ var searchData=
   ['set_5finit_5ffitness',['set_init_fitness',['../structXCS.html#a6e76fa2c109307051d04cc47a64acf7d',1,'XCS']]],
   ['set_5flambda',['set_lambda',['../structXCS.html#a8bdf16ffbcdae8cddd4e0744c94531ab',1,'XCS']]],
   ['set_5floss_5ffunc',['set_loss_func',['../structXCS.html#af56f8d608830e61565b7472d45758463',1,'XCS']]],
+  ['set_5fm_5fprobation',['set_m_probation',['../structXCS.html#a96699ef878dc7d16c84a2dd820f37c85',1,'XCS']]],
   ['set_5fmax_5fcon',['set_max_con',['../structXCS.html#a400d643bf1eda8da6c8c10b6cec218ca',1,'XCS']]],
   ['set_5fmax_5fk',['set_max_k',['../structXCS.html#a8d5aafe389c1460d2ed09e31a426f1d0',1,'XCS']]],
   ['set_5fmax_5fneuron_5fmod',['set_max_neuron_mod',['../structXCS.html#a2d69ea82b6dd1d97ddf396e8d98e5ec5',1,'XCS']]],
