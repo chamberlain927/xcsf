@@ -21,6 +21,8 @@ var clset_8c =
     [ "clset_pop_enforce_limit", "clset_8c.html#ad87086ed11e5fdd6bffe41b8a34f3608", null ],
     [ "clset_pop_init", "clset_8c.html#a010148dc53ed67a07156c06cd3bedc17", null ],
     [ "clset_pop_load", "clset_8c.html#a50717081740d969067fe82d38c74b5fc", null ],
+    [ "clset_pop_never_match", "clset_8c.html#af899fada328f41ed56991a51fe80db17", null ],
+    [ "clset_pop_roulette", "clset_8c.html#a008502b88c280aa55bb9a3645216209c", null ],
     [ "clset_pop_save", "clset_8c.html#a8650c13c3bc2e031423ae85b5f78911d", null ],
     [ "clset_pred", "clset_8c.html#a7146a28cbf1fbbcc90f8bb583144fb12", null ],
     [ "clset_print", "clset_8c.html#af735b50009ce40e991d187e2c57033d4", null ],

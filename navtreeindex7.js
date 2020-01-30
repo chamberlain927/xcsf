@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"structXCSF.html#aa05eb16deb5689154c25d707c1b3107c":[1,0,30,70],
+"structXCSF.html#aa80fbdfc452c7e1e9d022de58339f13c":[1,0,30,78],
 "structXCSF.html#aa9a00dcb8882c2fa7a8658f197dc0749":[1,0,30,56],
 "structXCSF.html#aaaa216ea4b93f5b0360d500fb633dd4a":[1,0,30,27],
 "structXCSF.html#aab2d6bccf73f89ea3e20fbcf0a31e513":[1,0,30,72],

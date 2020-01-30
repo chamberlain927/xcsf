@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"structRULE__DGP.html#ae4ac6be1e8fb9934bb767dd0375e3303":[1,0,26,0],
+"structRULE__NEURAL.html":[1,0,27],
 "structRULE__NEURAL.html#a05533241bac5647ed445c8b869070711":[1,0,27,1],
 "structRULE__NEURAL.html#a0dbbeb9afcbfa620ec930dacffcdab13":[1,0,27,0],
 "structSET.html":[1,0,28],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "structXCSF.html#a8f4b8bebee13b0cf90fc13c1d32d8d02":[1,0,30,16],
 "structXCSF.html#a90f971a6d7d1596cac1cef8d5dec947a":[1,0,30,2],
 "structXCSF.html#a966653d1b6763126b63e045bd97fd529":[1,0,30,64],
-"structXCSF.html#a9898230859b2b2aeff2b3ba7fc2f64e4":[1,0,30,41],
-"structXCSF.html#aa05eb16deb5689154c25d707c1b3107c":[1,0,30,70],
-"structXCSF.html#aa80fbdfc452c7e1e9d022de58339f13c":[1,0,30,78]
+"structXCSF.html#a9898230859b2b2aeff2b3ba7fc2f64e4":[1,0,30,41]
 };
