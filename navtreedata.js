@@ -33,7 +33,7 @@ var NAVTREEINDEX =
 "pa_8c.html#a07ed3dd7e593775f01885af0f67a6d41",
 "rule__neural_8c.html#a7ea938a40fa62db8e4f9b9d3f75ca292",
 "structRULE__DGP.html#ae4ac6be1e8fb9934bb767dd0375e3303",
-"structXCSF.html#aa05eb16deb5689154c25d707c1b3107c"
+"structXCSF.html#aa80fbdfc452c7e1e9d022de58339f13c"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

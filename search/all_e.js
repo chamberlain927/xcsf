@@ -146,7 +146,6 @@ var searchData=
   ['prediction_5fset',['prediction_set',['../prediction_8c.html#acc3389ac08ab3b032ab1223e3339be12',1,'prediction_set(const XCSF *xcsf, CL *c):&#160;prediction.c'],['../prediction_8h.html#acc3389ac08ab3b032ab1223e3339be12',1,'prediction_set(const XCSF *xcsf, CL *c):&#160;prediction.c']]],
   ['predvtbl',['PredVtbl',['../structPredVtbl.html',1,'']]],
   ['prev',['prev',['../structLLIST.html#a930899798aa970fdb7b7a7323f964c82',1,'LLIST']]],
-  ['print_5fmatch_5fset',['print_match_set',['../structXCS.html#aa5608b379fae01b724267a99068d55bb',1,'XCS']]],
   ['print_5fpop',['print_pop',['../structXCS.html#a17153434b6e3310591eafb94e81cda9a',1,'XCS']]],
   ['probability',['probability',['../structLAYER.html#ae2e5f0a3c65acd933c1405f161afc430',1,'LAYER']]],
   ['pset',['pset',['../structXCSF.html#aab2d6bccf73f89ea3e20fbcf0a31e513',1,'XCSF']]],

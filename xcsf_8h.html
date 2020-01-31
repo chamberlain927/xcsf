@@ -203,9 +203,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a90b938e4ae2ef92284e8eabfcf4b7b7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcsf_8h.html#a90b938e4ae2ef92284e8eabfcf4b7b7b">xcsf_predict</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, const double *x, double *pred, int rows)</td></tr>
 <tr class="memdesc:a90b938e4ae2ef92284e8eabfcf4b7b7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> predictions for the provided input.  <a href="#a90b938e4ae2ef92284e8eabfcf4b7b7b">More...</a><br /></td></tr>
 <tr class="separator:a90b938e4ae2ef92284e8eabfcf4b7b7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb5e08c233a6b01b6a6d1560ef0927fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcsf_8h.html#aeb5e08c233a6b01b6a6d1560ef0927fc">xcsf_print_match_set</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, const double *x, _Bool printc, _Bool printa, _Bool printp)</td></tr>
-<tr class="memdesc:aeb5e08c233a6b01b6a6d1560ef0927fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> match set for the supplied input.  <a href="#aeb5e08c233a6b01b6a6d1560ef0927fc">More...</a><br /></td></tr>
-<tr class="separator:aeb5e08c233a6b01b6a6d1560ef0927fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84d6ba23771186ab252b9120f87f9eac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcsf_8h.html#a84d6ba23771186ab252b9120f87f9eac">xcsf_print_pop</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, _Bool printc, _Bool printa, _Bool printp)</td></tr>
 <tr class="memdesc:a84d6ba23771186ab252b9120f87f9eac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the current <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> population.  <a href="#a84d6ba23771186ab252b9120f87f9eac">More...</a><br /></td></tr>
 <tr class="separator:a84d6ba23771186ab252b9120f87f9eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -674,13 +671,13 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="xcsf_8c_source.html#l00053">53</a> of file <a class="el" href="xcsf_8c_source.html">xcsf.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8c_source.html#l00068">xcsf_fit2()</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8c_source.html#l00067">xcsf_fit2()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00165">XCS::fit()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="xcsf_8h_afd4a983899f1980887b8375e40b32a72_cgraph.svg" width="2432" height="1835"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="xcsf_8h_afd4a983899f1980887b8375e40b32a72_cgraph.svg" width="2460" height="1999"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -742,15 +739,15 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The average <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> training error using the loss function. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="xcsf_8c_source.html#l00068">68</a> of file <a class="el" href="xcsf_8c_source.html">xcsf.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xcsf_8c_source.html#l00067">67</a> of file <a class="el" href="xcsf_8c_source.html">xcsf.c</a>.</p>
 
-<p class="reference">References <a class="el" href="perf_8c_source.html#l00232">disp_perf1()</a>, <a class="el" href="perf_8c_source.html#l00253">disp_perf2()</a>, <a class="el" href="perf_8c_source.html#l00050">gplot_free()</a>, <a class="el" href="perf_8c_source.html#l00041">gplot_init()</a>, <a class="el" href="utils_8c_source.html#l00064">irand_uniform()</a>, <a class="el" href="xcsf_8h_source.html#l00098">XCSF::MAX_TRIALS</a>, <a class="el" href="xcsf_8h_source.html#l00197">XCSF::num_y_vars</a>, <a class="el" href="xcsf_8h_source.html#l00099">XCSF::PERF_AVG_TRIALS</a>, <a class="el" href="xcsf_8h_source.html#l00210">INPUT::rows</a>, <a class="el" href="xcsf_8h_source.html#l00195">XCSF::train</a>, <a class="el" href="xcsf_8h_source.html#l00206">INPUT::x</a>, <a class="el" href="xcsf_8h_source.html#l00208">INPUT::x_cols</a>, <a class="el" href="xcsf_8c_source.html#l00131">xcsf_learn_trial()</a>, <a class="el" href="xcsf_8c_source.html#l00154">xcsf_test_trial()</a>, <a class="el" href="xcsf_8h_source.html#l00207">INPUT::y</a>, and <a class="el" href="xcsf_8h_source.html#l00209">INPUT::y_cols</a>.</p>
+<p class="reference">References <a class="el" href="perf_8c_source.html#l00232">disp_perf1()</a>, <a class="el" href="perf_8c_source.html#l00253">disp_perf2()</a>, <a class="el" href="perf_8c_source.html#l00050">gplot_free()</a>, <a class="el" href="perf_8c_source.html#l00041">gplot_init()</a>, <a class="el" href="xcsf_8h_source.html#l00199">XCSF::loss_ptr</a>, <a class="el" href="xcsf_8h_source.html#l00098">XCSF::MAX_TRIALS</a>, <a class="el" href="xcsf_8h_source.html#l00197">XCSF::num_y_vars</a>, <a class="el" href="xcsf_8h_source.html#l00099">XCSF::PERF_AVG_TRIALS</a>, <a class="el" href="xcsf_8h_source.html#l00195">XCSF::train</a>, <a class="el" href="xcsf_8h_source.html#l00206">INPUT::x</a>, <a class="el" href="xcsf_8h_source.html#l00208">INPUT::x_cols</a>, <a class="el" href="xcsf_8c_source.html#l00116">xcsf_select_sample()</a>, <a class="el" href="xcsf_8c_source.html#l00133">xcsf_trial()</a>, <a class="el" href="xcsf_8h_source.html#l00207">INPUT::y</a>, and <a class="el" href="xcsf_8h_source.html#l00209">INPUT::y_cols</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00185">XCS::fit()</a>, <a class="el" href="main_8c_source.html#l00041">main()</a>, and <a class="el" href="xcsf_8c_source.html#l00053">xcsf_fit1()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="xcsf_8h_a40f4dfe69c6480f25c55d21c44746eb8_cgraph.svg" width="2312" height="1835"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="xcsf_8h_a40f4dfe69c6480f25c55d21c44746eb8_cgraph.svg" width="2340" height="1999"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -798,9 +795,9 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The total number of elements read. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="xcsf_8c_source.html#l00268">268</a> of file <a class="el" href="xcsf_8c_source.html">xcsf.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xcsf_8c_source.html#l00224">224</a> of file <a class="el" href="xcsf_8c_source.html">xcsf.c</a>.</p>
 
-<p class="reference">References <a class="el" href="clset_8c_source.html#l00075">clset_init()</a>, <a class="el" href="clset_8c_source.html#l00608">clset_kill()</a>, <a class="el" href="clset_8c_source.html#l00642">clset_pop_load()</a>, <a class="el" href="xcsf_8h_source.html#l00090">XCSF::pset</a>, <a class="el" href="xcsf_8h_source.html#l00082">SET::size</a>, <a class="el" href="xcsf_8c_source.html#l00038">VERSION</a>, and <a class="el" href="xcsf_8c_source.html#l00387">xcsf_load_params()</a>.</p>
+<p class="reference">References <a class="el" href="clset_8c_source.html#l00075">clset_init()</a>, <a class="el" href="clset_8c_source.html#l00608">clset_kill()</a>, <a class="el" href="clset_8c_source.html#l00642">clset_pop_load()</a>, <a class="el" href="xcsf_8h_source.html#l00090">XCSF::pset</a>, <a class="el" href="xcsf_8h_source.html#l00082">SET::size</a>, <a class="el" href="xcsf_8c_source.html#l00038">VERSION</a>, and <a class="el" href="xcsf_8c_source.html#l00343">xcsf_load_params()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00123">XCS::load()</a>, and <a class="el" href="main_8c_source.html#l00041">main()</a>.</p>
 <div class="dynheader">
@@ -867,97 +864,21 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="xcsf_8c_source.html#l00174">174</a> of file <a class="el" href="xcsf_8c_source.html">xcsf.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xcsf_8c_source.html#l00156">156</a> of file <a class="el" href="xcsf_8c_source.html">xcsf.c</a>.</p>
 
-<p class="reference">References <a class="el" href="clset_8c_source.html#l00592">clset_free()</a>, <a class="el" href="clset_8c_source.html#l00075">clset_init()</a>, <a class="el" href="clset_8c_source.html#l00608">clset_kill()</a>, <a class="el" href="clset_8c_source.html#l00196">clset_match()</a>, <a class="el" href="clset_8c_source.html#l00297">clset_pred()</a>, <a class="el" href="xcsf_8h_source.html#l00196">XCSF::num_x_vars</a>, <a class="el" href="xcsf_8h_source.html#l00197">XCSF::num_y_vars</a>, and <a class="el" href="xcsf_8h_source.html#l00195">XCSF::train</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00196">XCSF::num_x_vars</a>, <a class="el" href="xcsf_8h_source.html#l00197">XCSF::num_y_vars</a>, <a class="el" href="xcsf_8h_source.html#l00195">XCSF::train</a>, and <a class="el" href="xcsf_8c_source.html#l00133">xcsf_trial()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00224">XCS::predict()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="xcsf_8h_a90b938e4ae2ef92284e8eabfcf4b7b7b_cgraph.svg" width="2079" height="798"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="xcsf_8h_a90b938e4ae2ef92284e8eabfcf4b7b7b_cgraph.svg" width="2271" height="1802"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="xcsf_8h_a90b938e4ae2ef92284e8eabfcf4b7b7b_icgraph.svg" width="492" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
-</div>
-</div>
-<a id="aeb5e08c233a6b01b6a6d1560ef0927fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb5e08c233a6b01b6a6d1560ef0927fc">&#9670;&nbsp;</a></span>xcsf_print_match_set()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void xcsf_print_match_set </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
-          <td class="paramname"><em>xcsf</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const double *&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">_Bool&#160;</td>
-          <td class="paramname"><em>printc</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">_Bool&#160;</td>
-          <td class="paramname"><em>printa</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">_Bool&#160;</td>
-          <td class="paramname"><em>printp</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Prints the <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> match set for the supplied input. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
-    <tr><td class="paramname">x</td><td>The input features to perform matching. </td></tr>
-    <tr><td class="paramname">printc</td><td>Whether to print condition structures. </td></tr>
-    <tr><td class="paramname">printa</td><td>Whether to print action structures. </td></tr>
-    <tr><td class="paramname">printp</td><td>Whether to print prediction structures. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="xcsf_8c_source.html#l00229">229</a> of file <a class="el" href="xcsf_8c_source.html">xcsf.c</a>.</p>
-
-<p class="reference">References <a class="el" href="clset_8c_source.html#l00592">clset_free()</a>, <a class="el" href="clset_8c_source.html#l00075">clset_init()</a>, <a class="el" href="clset_8c_source.html#l00608">clset_kill()</a>, <a class="el" href="clset_8c_source.html#l00196">clset_match()</a>, and <a class="el" href="clset_8c_source.html#l00525">clset_print()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00256">XCS::print_match_set()</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="xcsf_8h_aeb5e08c233a6b01b6a6d1560ef0927fc_cgraph.svg" width="2132" height="899"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="xcsf_8h_aeb5e08c233a6b01b6a6d1560ef0927fc_icgraph.svg" width="599" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -1012,7 +933,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="xcsf_8c_source.html#l00216">216</a> of file <a class="el" href="xcsf_8c_source.html">xcsf.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xcsf_8c_source.html#l00192">192</a> of file <a class="el" href="xcsf_8c_source.html">xcsf.c</a>.</p>
 
 <p class="reference">References <a class="el" href="clset_8c_source.html#l00525">clset_print()</a>, and <a class="el" href="xcsf_8h_source.html#l00090">XCSF::pset</a>.</p>
 
@@ -1068,9 +989,9 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The total number of elements written. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="xcsf_8c_source.html#l00247">247</a> of file <a class="el" href="xcsf_8c_source.html">xcsf.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xcsf_8c_source.html#l00203">203</a> of file <a class="el" href="xcsf_8c_source.html">xcsf.c</a>.</p>
 
-<p class="reference">References <a class="el" href="clset_8c_source.html#l00625">clset_pop_save()</a>, <a class="el" href="xcsf_8c_source.html#l00038">VERSION</a>, and <a class="el" href="xcsf_8c_source.html#l00299">xcsf_save_params()</a>.</p>
+<p class="reference">References <a class="el" href="clset_8c_source.html#l00625">clset_pop_save()</a>, <a class="el" href="xcsf_8c_source.html#l00038">VERSION</a>, and <a class="el" href="xcsf_8c_source.html#l00255">xcsf_save_params()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00122">XCS::save()</a>.</p>
 <div class="dynheader">
@@ -1124,15 +1045,15 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The average <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> error using the loss function. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="xcsf_8c_source.html#l00195">195</a> of file <a class="el" href="xcsf_8c_source.html">xcsf.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xcsf_8c_source.html#l00170">170</a> of file <a class="el" href="xcsf_8c_source.html">xcsf.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00197">XCSF::num_y_vars</a>, <a class="el" href="xcsf_8h_source.html#l00210">INPUT::rows</a>, <a class="el" href="xcsf_8h_source.html#l00195">XCSF::train</a>, <a class="el" href="xcsf_8h_source.html#l00206">INPUT::x</a>, <a class="el" href="xcsf_8h_source.html#l00208">INPUT::x_cols</a>, <a class="el" href="xcsf_8c_source.html#l00154">xcsf_test_trial()</a>, <a class="el" href="xcsf_8h_source.html#l00207">INPUT::y</a>, and <a class="el" href="xcsf_8h_source.html#l00209">INPUT::y_cols</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00199">XCSF::loss_ptr</a>, <a class="el" href="xcsf_8h_source.html#l00197">XCSF::num_y_vars</a>, <a class="el" href="xcsf_8h_source.html#l00210">INPUT::rows</a>, <a class="el" href="xcsf_8h_source.html#l00195">XCSF::train</a>, <a class="el" href="xcsf_8h_source.html#l00206">INPUT::x</a>, <a class="el" href="xcsf_8h_source.html#l00208">INPUT::x_cols</a>, <a class="el" href="xcsf_8c_source.html#l00133">xcsf_trial()</a>, <a class="el" href="xcsf_8h_source.html#l00207">INPUT::y</a>, and <a class="el" href="xcsf_8h_source.html#l00209">INPUT::y_cols</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00238">XCS::score()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="xcsf_8h_a348b8cd321211c377fb1deedc62c7c67_cgraph.svg" width="2224" height="798"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="xcsf_8h_a348b8cd321211c377fb1deedc62c7c67_cgraph.svg" width="2264" height="1802"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -1162,7 +1083,7 @@ Here is the caller graph for this function:</div>
 <p>Returns the <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> version number. </p>
 <dl class="section return"><dt>Returns</dt><dd>version number. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="xcsf_8c_source.html#l00476">476</a> of file <a class="el" href="xcsf_8c_source.html">xcsf.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xcsf_8c_source.html#l00432">432</a> of file <a class="el" href="xcsf_8c_source.html">xcsf.c</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8c_source.html#l00038">VERSION</a>.</p>
 

@@ -93,7 +93,6 @@ var structXCS =
     [ "get_time", "structXCS.html#ab7d5a6029cc29b32bbc39836300c6586", null ],
     [ "load", "structXCS.html#adc9b621f2b7a306fbf381dd0efaf268b", null ],
     [ "predict", "structXCS.html#a911ed75c86abed7807d33eb1385240ed", null ],
-    [ "print_match_set", "structXCS.html#aa5608b379fae01b724267a99068d55bb", null ],
     [ "print_pop", "structXCS.html#a17153434b6e3310591eafb94e81cda9a", null ],
     [ "save", "structXCS.html#a1312ff6b9e9eef9c34029bff38c39de7", null ],
     [ "score", "structXCS.html#aa77bc77484d6d14bf512304a23cfec88", null ],

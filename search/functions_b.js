@@ -76,6 +76,5 @@ var searchData=
   ['pred_5fupdate',['pred_update',['../prediction_8h.html#a45792a63b5b63ffa0ede37b3c1468f56',1,'prediction.h']]],
   ['predict',['predict',['../structXCS.html#a911ed75c86abed7807d33eb1385240ed',1,'XCS']]],
   ['prediction_5fset',['prediction_set',['../prediction_8c.html#acc3389ac08ab3b032ab1223e3339be12',1,'prediction_set(const XCSF *xcsf, CL *c):&#160;prediction.c'],['../prediction_8h.html#acc3389ac08ab3b032ab1223e3339be12',1,'prediction_set(const XCSF *xcsf, CL *c):&#160;prediction.c']]],
-  ['print_5fmatch_5fset',['print_match_set',['../structXCS.html#aa5608b379fae01b724267a99068d55bb',1,'XCS']]],
   ['print_5fpop',['print_pop',['../structXCS.html#a17153434b6e3310591eafb94e81cda9a',1,'XCS']]]
 ];
