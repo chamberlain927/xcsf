@@ -171,6 +171,7 @@ var searchData=
   ['cond_5fupdate',['cond_update',['../condition_8h.html#ae7e93281fcc20cd9a68d1ea8174932f4',1,'condition.h']]],
   ['condition_5fset',['condition_set',['../condition_8c.html#aa485cf16f149e89aae83972b83b70596',1,'condition_set(const XCSF *xcsf, CL *c):&#160;condition.c'],['../condition_8h.html#aa485cf16f149e89aae83972b83b70596',1,'condition_set(const XCSF *xcsf, CL *c):&#160;condition.c']]],
   ['config_5ffree',['config_free',['../config_8c.html#abb4c739fd67dc5287da16408ec47d5c5',1,'config_free(const XCSF *xcsf):&#160;config.c'],['../config_8h.html#abb4c739fd67dc5287da16408ec47d5c5',1,'config_free(const XCSF *xcsf):&#160;config.c']]],
+  ['config_5fget_5fints',['config_get_ints',['../config_8c.html#a007b1540f14136a2b3cc8b85e4902466',1,'config.c']]],
   ['config_5fgetvalue',['config_getvalue',['../config_8c.html#a10e65fe892d670b67552cef67eb86475',1,'config.c']]],
   ['config_5finit',['config_init',['../config_8c.html#a37df9fe8af1e1583876040747eeee030',1,'config_init(XCSF *xcsf, const char *filename):&#160;config.c'],['../config_8h.html#a37df9fe8af1e1583876040747eeee030',1,'config_init(XCSF *xcsf, const char *filename):&#160;config.c']]],
   ['config_5fnewnvpair',['config_newnvpair',['../config_8c.html#ae2e1c63fec3382cc3dfe4b72c7a24db8',1,'config.c']]],

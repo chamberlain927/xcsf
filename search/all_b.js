@@ -11,6 +11,7 @@ var searchData=
   ['max_5fcols',['MAX_COLS',['../env__csv_8c.html#a551f71f92f90f76151a3cfc9679271a0',1,'env_csv.c']]],
   ['max_5fcover',['MAX_COVER',['../clset_8c.html#a9cca6f51165de2b97647cb83f2128ddb',1,'clset.c']]],
   ['max_5fk',['MAX_K',['../structXCSF.html#a2fe572eeaacb9368264a92ff4c2efd20',1,'XCSF']]],
+  ['max_5flayers',['MAX_LAYERS',['../xcsf_8h.html#ade9d4b2ac5f29fe89ffea40e7c58c9d6',1,'xcsf.h']]],
   ['max_5fname',['MAX_NAME',['../env__csv_8c.html#ac7c0207aa5a0e10d378be03b68041350',1,'env_csv.c']]],
   ['max_5fneuron_5fmod',['MAX_NEURON_MOD',['../structXCSF.html#a52ce72a8e80dd91df00334d01c740188',1,'XCSF']]],
   ['max_5foutputs',['max_outputs',['../structLAYER.html#a2c480b635cb98ac2a904dba9202acfa5',1,'LAYER']]],

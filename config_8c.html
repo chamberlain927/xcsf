@@ -121,6 +121,9 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
+<tr class="memitem:a3d7c8faadcf5bcb3f2c6c90b2921e75d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a3d7c8faadcf5bcb3f2c6c90b2921e75d">ARRAY_DELIM</a>&#160;&#160;&#160;&quot;,&quot;</td></tr>
+<tr class="memdesc:a3d7c8faadcf5bcb3f2c6c90b2921e75d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delimeter for config arrays.  <a href="#a3d7c8faadcf5bcb3f2c6c90b2921e75d">More...</a><br /></td></tr>
+<tr class="separator:a3d7c8faadcf5bcb3f2c6c90b2921e75d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6648cd71a8bd49d58ae8ed33ba910d1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#ae6648cd71a8bd49d58ae8ed33ba910d1">MAXLEN</a>&#160;&#160;&#160;127</td></tr>
 <tr class="memdesc:ae6648cd71a8bd49d58ae8ed33ba910d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum config file line length to read.  <a href="#ae6648cd71a8bd49d58ae8ed33ba910d1">More...</a><br /></td></tr>
 <tr class="separator:ae6648cd71a8bd49d58ae8ed33ba910d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -136,48 +139,51 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a9948d2908366d72fbb1c6feb609b3d4f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a9948d2908366d72fbb1c6feb609b3d4f">config_read</a> (const char *filename)</td></tr>
-<tr class="memdesc:a9948d2908366d72fbb1c6feb609b3d4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the specified configuration file.  <a href="#a9948d2908366d72fbb1c6feb609b3d4f">More...</a><br /></td></tr>
-<tr class="separator:a9948d2908366d72fbb1c6feb609b3d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3333848c96ebca04623dd04ce5be655b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a3333848c96ebca04623dd04ce5be655b">config_process</a> (const char *configline)</td></tr>
-<tr class="memdesc:a3333848c96ebca04623dd04ce5be655b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses a line of the config file and adds to the list.  <a href="#a3333848c96ebca04623dd04ce5be655b">More...</a><br /></td></tr>
-<tr class="separator:a3333848c96ebca04623dd04ce5be655b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c81724e9bdc867a3dd41bafab67cbd3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a0c81724e9bdc867a3dd41bafab67cbd3">config_trim</a> (char *s)</td></tr>
-<tr class="memdesc:a0c81724e9bdc867a3dd41bafab67cbd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes tabs/spaces/lf/cr.  <a href="#a0c81724e9bdc867a3dd41bafab67cbd3">More...</a><br /></td></tr>
-<tr class="separator:a0c81724e9bdc867a3dd41bafab67cbd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c74c2f130c3fda846bc707b3c1467c1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a4c74c2f130c3fda846bc707b3c1467c1">config_tidyup</a> ()</td></tr>
-<tr class="memdesc:a4c74c2f130c3fda846bc707b3c1467c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees the config file parameter list.  <a href="#a4c74c2f130c3fda846bc707b3c1467c1">More...</a><br /></td></tr>
-<tr class="separator:a4c74c2f130c3fda846bc707b3c1467c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2e1c63fec3382cc3dfe4b72c7a24db8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#ae2e1c63fec3382cc3dfe4b72c7a24db8">config_newnvpair</a> (const char *config)</td></tr>
-<tr class="memdesc:ae2e1c63fec3382cc3dfe4b72c7a24db8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a parameter to the list.  <a href="#ae2e1c63fec3382cc3dfe4b72c7a24db8">More...</a><br /></td></tr>
-<tr class="separator:ae2e1c63fec3382cc3dfe4b72c7a24db8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10e65fe892d670b67552cef67eb86475"><td class="memItemLeft" align="right" valign="top">static char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a10e65fe892d670b67552cef67eb86475">config_getvalue</a> (const char *name)</td></tr>
 <tr class="memdesc:a10e65fe892d670b67552cef67eb86475"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of a specified parameter from the list.  <a href="#a10e65fe892d670b67552cef67eb86475">More...</a><br /></td></tr>
 <tr class="separator:a10e65fe892d670b67552cef67eb86475"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a007b1540f14136a2b3cc8b85e4902466"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a007b1540f14136a2b3cc8b85e4902466">config_get_ints</a> (const char *name, int *value)</td></tr>
+<tr class="memdesc:a007b1540f14136a2b3cc8b85e4902466"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a csv list of ints into an array.  <a href="#a007b1540f14136a2b3cc8b85e4902466">More...</a><br /></td></tr>
+<tr class="separator:a007b1540f14136a2b3cc8b85e4902466"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2e1c63fec3382cc3dfe4b72c7a24db8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#ae2e1c63fec3382cc3dfe4b72c7a24db8">config_newnvpair</a> (const char *config)</td></tr>
+<tr class="memdesc:ae2e1c63fec3382cc3dfe4b72c7a24db8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a parameter to the list.  <a href="#ae2e1c63fec3382cc3dfe4b72c7a24db8">More...</a><br /></td></tr>
+<tr class="separator:ae2e1c63fec3382cc3dfe4b72c7a24db8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3333848c96ebca04623dd04ce5be655b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a3333848c96ebca04623dd04ce5be655b">config_process</a> (const char *configline)</td></tr>
+<tr class="memdesc:a3333848c96ebca04623dd04ce5be655b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses a line of the config file and adds to the list.  <a href="#a3333848c96ebca04623dd04ce5be655b">More...</a><br /></td></tr>
+<tr class="separator:a3333848c96ebca04623dd04ce5be655b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9948d2908366d72fbb1c6feb609b3d4f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a9948d2908366d72fbb1c6feb609b3d4f">config_read</a> (const char *filename)</td></tr>
+<tr class="memdesc:a9948d2908366d72fbb1c6feb609b3d4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the specified configuration file.  <a href="#a9948d2908366d72fbb1c6feb609b3d4f">More...</a><br /></td></tr>
+<tr class="separator:a9948d2908366d72fbb1c6feb609b3d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c74c2f130c3fda846bc707b3c1467c1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a4c74c2f130c3fda846bc707b3c1467c1">config_tidyup</a> ()</td></tr>
+<tr class="memdesc:a4c74c2f130c3fda846bc707b3c1467c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees the config file parameter list.  <a href="#a4c74c2f130c3fda846bc707b3c1467c1">More...</a><br /></td></tr>
+<tr class="separator:a4c74c2f130c3fda846bc707b3c1467c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c81724e9bdc867a3dd41bafab67cbd3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a0c81724e9bdc867a3dd41bafab67cbd3">config_trim</a> (char *s)</td></tr>
+<tr class="memdesc:a0c81724e9bdc867a3dd41bafab67cbd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes tabs/spaces/lf/cr.  <a href="#a0c81724e9bdc867a3dd41bafab67cbd3">More...</a><br /></td></tr>
+<tr class="separator:a0c81724e9bdc867a3dd41bafab67cbd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39ac19705915795f1f3daefebf96e37d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a39ac19705915795f1f3daefebf96e37d">params_cl_action</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="memdesc:a39ac19705915795f1f3daefebf96e37d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises classifier action parameters.  <a href="#a39ac19705915795f1f3daefebf96e37d">More...</a><br /></td></tr>
+<tr class="separator:a39ac19705915795f1f3daefebf96e37d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a165dae50e0b9f879753798bea405c7e0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a165dae50e0b9f879753798bea405c7e0">params_cl_condition</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="memdesc:a165dae50e0b9f879753798bea405c7e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises classifier condition parameters.  <a href="#a165dae50e0b9f879753798bea405c7e0">More...</a><br /></td></tr>
+<tr class="separator:a165dae50e0b9f879753798bea405c7e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc175ba379a3169ae3bc6df1a31b0d0f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#adc175ba379a3169ae3bc6df1a31b0d0f">params_cl_general</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="memdesc:adc175ba379a3169ae3bc6df1a31b0d0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises general classifier parameters.  <a href="#adc175ba379a3169ae3bc6df1a31b0d0f">More...</a><br /></td></tr>
+<tr class="separator:adc175ba379a3169ae3bc6df1a31b0d0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e94168e46b659d4ae6962a05b8a34e7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a9e94168e46b659d4ae6962a05b8a34e7">params_cl_prediction</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="memdesc:a9e94168e46b659d4ae6962a05b8a34e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises classifier prediction parameters.  <a href="#a9e94168e46b659d4ae6962a05b8a34e7">More...</a><br /></td></tr>
+<tr class="separator:a9e94168e46b659d4ae6962a05b8a34e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae95254f43497b746fa5446cad160e21f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#ae95254f43497b746fa5446cad160e21f">params_ea</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="memdesc:ae95254f43497b746fa5446cad160e21f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises evolutionary algorithm parameters.  <a href="#ae95254f43497b746fa5446cad160e21f">More...</a><br /></td></tr>
+<tr class="separator:ae95254f43497b746fa5446cad160e21f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d7a055b73c24de7dd348448b75ea626"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a0d7a055b73c24de7dd348448b75ea626">params_general</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
 <tr class="memdesc:a0d7a055b73c24de7dd348448b75ea626"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises general system parameters.  <a href="#a0d7a055b73c24de7dd348448b75ea626">More...</a><br /></td></tr>
 <tr class="separator:a0d7a055b73c24de7dd348448b75ea626"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeedb9eacce33b5236623057f71df1ebb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#aeedb9eacce33b5236623057f71df1ebb">params_multistep</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
 <tr class="memdesc:aeedb9eacce33b5236623057f71df1ebb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises multi-step parameters.  <a href="#aeedb9eacce33b5236623057f71df1ebb">More...</a><br /></td></tr>
 <tr class="separator:aeedb9eacce33b5236623057f71df1ebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae95254f43497b746fa5446cad160e21f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#ae95254f43497b746fa5446cad160e21f">params_ea</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
-<tr class="memdesc:ae95254f43497b746fa5446cad160e21f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises evolutionary algorithm parameters.  <a href="#ae95254f43497b746fa5446cad160e21f">More...</a><br /></td></tr>
-<tr class="separator:ae95254f43497b746fa5446cad160e21f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe7b908d3de0d9711545ecc150d91628"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#abe7b908d3de0d9711545ecc150d91628">params_subsumption</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
 <tr class="memdesc:abe7b908d3de0d9711545ecc150d91628"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises subsumption parameters.  <a href="#abe7b908d3de0d9711545ecc150d91628">More...</a><br /></td></tr>
 <tr class="separator:abe7b908d3de0d9711545ecc150d91628"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc175ba379a3169ae3bc6df1a31b0d0f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#adc175ba379a3169ae3bc6df1a31b0d0f">params_cl_general</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
-<tr class="memdesc:adc175ba379a3169ae3bc6df1a31b0d0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises general classifier parameters.  <a href="#adc175ba379a3169ae3bc6df1a31b0d0f">More...</a><br /></td></tr>
-<tr class="separator:adc175ba379a3169ae3bc6df1a31b0d0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a165dae50e0b9f879753798bea405c7e0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a165dae50e0b9f879753798bea405c7e0">params_cl_condition</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
-<tr class="memdesc:a165dae50e0b9f879753798bea405c7e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises classifier condition parameters.  <a href="#a165dae50e0b9f879753798bea405c7e0">More...</a><br /></td></tr>
-<tr class="separator:a165dae50e0b9f879753798bea405c7e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39ac19705915795f1f3daefebf96e37d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a39ac19705915795f1f3daefebf96e37d">params_cl_action</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
-<tr class="memdesc:a39ac19705915795f1f3daefebf96e37d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises classifier action parameters.  <a href="#a39ac19705915795f1f3daefebf96e37d">More...</a><br /></td></tr>
-<tr class="separator:a39ac19705915795f1f3daefebf96e37d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e94168e46b659d4ae6962a05b8a34e7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a9e94168e46b659d4ae6962a05b8a34e7">params_cl_prediction</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
-<tr class="memdesc:a9e94168e46b659d4ae6962a05b8a34e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises classifier prediction parameters.  <a href="#a9e94168e46b659d4ae6962a05b8a34e7">More...</a><br /></td></tr>
-<tr class="separator:a9e94168e46b659d4ae6962a05b8a34e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37df9fe8af1e1583876040747eeee030"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a37df9fe8af1e1583876040747eeee030">config_init</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, const char *filename)</td></tr>
 <tr class="memdesc:a37df9fe8af1e1583876040747eeee030"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises global constants and reads the specified configuration file.  <a href="#a37df9fe8af1e1583876040747eeee030">More...</a><br /></td></tr>
 <tr class="separator:a37df9fe8af1e1583876040747eeee030"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -199,6 +205,26 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition in file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a3d7c8faadcf5bcb3f2c6c90b2921e75d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d7c8faadcf5bcb3f2c6c90b2921e75d">&#9670;&nbsp;</a></span>ARRAY_DELIM</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ARRAY_DELIM&#160;&#160;&#160;&quot;,&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Delimeter for config arrays. </p>
+
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00035">35</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00293">config_get_ints()</a>.</p>
+
+</div>
+</div>
 <a id="a79bcfb6bde984f42d1124b068a509af7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a79bcfb6bde984f42d1124b068a509af7">&#9670;&nbsp;</a></span>BASE</h2>
 
@@ -213,9 +239,9 @@ Variables</h2></td></tr>
 
 <p>Decimal numbers. </p>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00036">36</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00037">37</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00232">params_cl_action()</a>, <a class="el" href="config_8c_source.html#l00191">params_cl_condition()</a>, <a class="el" href="config_8c_source.html#l00171">params_cl_general()</a>, <a class="el" href="config_8c_source.html#l00242">params_cl_prediction()</a>, <a class="el" href="config_8c_source.html#l00132">params_ea()</a>, <a class="el" href="config_8c_source.html#l00102">params_general()</a>, <a class="el" href="config_8c_source.html#l00120">params_multistep()</a>, and <a class="el" href="config_8c_source.html#l00153">params_subsumption()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00293">config_get_ints()</a>, <a class="el" href="config_8c_source.html#l00236">params_cl_action()</a>, <a class="el" href="config_8c_source.html#l00193">params_cl_condition()</a>, <a class="el" href="config_8c_source.html#l00173">params_cl_general()</a>, <a class="el" href="config_8c_source.html#l00246">params_cl_prediction()</a>, <a class="el" href="config_8c_source.html#l00134">params_ea()</a>, <a class="el" href="config_8c_source.html#l00104">params_general()</a>, <a class="el" href="config_8c_source.html#l00122">params_multistep()</a>, and <a class="el" href="config_8c_source.html#l00155">params_subsumption()</a>.</p>
 
 </div>
 </div>
@@ -233,9 +259,9 @@ Variables</h2></td></tr>
 
 <p>Maximum config file line length to read. </p>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00035">35</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00036">36</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00298">config_newnvpair()</a>, <a class="el" href="config_8c_source.html#l00362">config_process()</a>, and <a class="el" href="config_8c_source.html#l00383">config_read()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00325">config_newnvpair()</a>, <a class="el" href="config_8c_source.html#l00389">config_process()</a>, and <a class="el" href="config_8c_source.html#l00410">config_read()</a>.</p>
 
 </div>
 </div>
@@ -281,7 +307,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00093">93</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00095">95</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
 <p class="reference">References <a class="el" href="gp_8c_source.html#l00064">tree_free_cons()</a>.</p>
 
@@ -296,6 +322,70 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_abb4c739fd67dc5287da16408ec47d5c5_icgraph.svg" width="196" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a007b1540f14136a2b3cc8b85e4902466"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a007b1540f14136a2b3cc8b85e4902466">&#9670;&nbsp;</a></span>config_get_ints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int config_get_ints </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reads a csv list of ints into an array. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the parameter. </td></tr>
+    <tr><td class="paramname">value</td><td>An integer array (set by this function). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The number of values read into the array. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00293">293</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+
+<p class="reference">References <a class="el" href="config_8c_source.html#l00035">ARRAY_DELIM</a>, <a class="el" href="config_8c_source.html#l00037">BASE</a>, and <a class="el" href="config_8c_source.html#l00374">config_getvalue()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00193">params_cl_condition()</a>, and <a class="el" href="config_8c_source.html#l00246">params_cl_prediction()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a007b1540f14136a2b3cc8b85e4902466_cgraph.svg" width="283" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a007b1540f14136a2b3cc8b85e4902466_icgraph.svg" width="730" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -334,15 +424,15 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The value of the parameter. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00347">347</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00374">374</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">References <a class="el" href="config_8c_source.html#l00044">PARAM_LIST::next</a>.</p>
+<p class="reference">References <a class="el" href="config_8c_source.html#l00045">PARAM_LIST::next</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00232">params_cl_action()</a>, <a class="el" href="config_8c_source.html#l00191">params_cl_condition()</a>, <a class="el" href="config_8c_source.html#l00171">params_cl_general()</a>, <a class="el" href="config_8c_source.html#l00242">params_cl_prediction()</a>, <a class="el" href="config_8c_source.html#l00132">params_ea()</a>, <a class="el" href="config_8c_source.html#l00102">params_general()</a>, <a class="el" href="config_8c_source.html#l00120">params_multistep()</a>, and <a class="el" href="config_8c_source.html#l00153">params_subsumption()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00293">config_get_ints()</a>, <a class="el" href="config_8c_source.html#l00236">params_cl_action()</a>, <a class="el" href="config_8c_source.html#l00193">params_cl_condition()</a>, <a class="el" href="config_8c_source.html#l00173">params_cl_general()</a>, <a class="el" href="config_8c_source.html#l00246">params_cl_prediction()</a>, <a class="el" href="config_8c_source.html#l00134">params_ea()</a>, <a class="el" href="config_8c_source.html#l00104">params_general()</a>, <a class="el" href="config_8c_source.html#l00122">params_multistep()</a>, and <a class="el" href="config_8c_source.html#l00155">params_subsumption()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a10e65fe892d670b67552cef67eb86475_icgraph.svg" width="734" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a10e65fe892d670b67552cef67eb86475_icgraph.svg" width="927" height="426"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -383,15 +473,15 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00069">69</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00071">71</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">References <a class="el" href="config_8c_source.html#l00383">config_read()</a>, <a class="el" href="config_8c_source.html#l00404">config_tidyup()</a>, <a class="el" href="loss_8c_source.html#l00138">loss_set_func()</a>, <a class="el" href="config_8c_source.html#l00232">params_cl_action()</a>, <a class="el" href="config_8c_source.html#l00191">params_cl_condition()</a>, <a class="el" href="config_8c_source.html#l00171">params_cl_general()</a>, <a class="el" href="config_8c_source.html#l00242">params_cl_prediction()</a>, <a class="el" href="config_8c_source.html#l00132">params_ea()</a>, <a class="el" href="config_8c_source.html#l00102">params_general()</a>, <a class="el" href="config_8c_source.html#l00120">params_multistep()</a>, <a class="el" href="config_8c_source.html#l00153">params_subsumption()</a>, and <a class="el" href="gp_8c_source.html#l00052">tree_init_cons()</a>.</p>
+<p class="reference">References <a class="el" href="config_8c_source.html#l00410">config_read()</a>, <a class="el" href="config_8c_source.html#l00431">config_tidyup()</a>, <a class="el" href="loss_8c_source.html#l00138">loss_set_func()</a>, <a class="el" href="config_8c_source.html#l00236">params_cl_action()</a>, <a class="el" href="config_8c_source.html#l00193">params_cl_condition()</a>, <a class="el" href="config_8c_source.html#l00173">params_cl_general()</a>, <a class="el" href="config_8c_source.html#l00246">params_cl_prediction()</a>, <a class="el" href="config_8c_source.html#l00134">params_ea()</a>, <a class="el" href="config_8c_source.html#l00104">params_general()</a>, <a class="el" href="config_8c_source.html#l00122">params_multistep()</a>, <a class="el" href="config_8c_source.html#l00155">params_subsumption()</a>, and <a class="el" href="gp_8c_source.html#l00052">tree_init_cons()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8c_source.html#l00041">main()</a>, and <a class="el" href="python__wrapper_8cpp_source.html#l00094">XCS::xcs_init()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a37df9fe8af1e1583876040747eeee030_cgraph.svg" width="1111" height="696"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a37df9fe8af1e1583876040747eeee030_cgraph.svg" width="1122" height="899"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -435,11 +525,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00298">298</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00325">325</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">References <a class="el" href="config_8c_source.html#l00047">head</a>, <a class="el" href="config_8c_source.html#l00035">MAXLEN</a>, <a class="el" href="config_8c_source.html#l00042">PARAM_LIST::name</a>, <a class="el" href="config_8c_source.html#l00044">PARAM_LIST::next</a>, and <a class="el" href="config_8c_source.html#l00043">PARAM_LIST::value</a>.</p>
+<p class="reference">References <a class="el" href="config_8c_source.html#l00048">head</a>, <a class="el" href="config_8c_source.html#l00036">MAXLEN</a>, <a class="el" href="config_8c_source.html#l00043">PARAM_LIST::name</a>, <a class="el" href="config_8c_source.html#l00045">PARAM_LIST::next</a>, and <a class="el" href="config_8c_source.html#l00044">PARAM_LIST::value</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00362">config_process()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00389">config_process()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -481,11 +571,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00362">362</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00389">389</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">References <a class="el" href="config_8c_source.html#l00298">config_newnvpair()</a>, and <a class="el" href="config_8c_source.html#l00035">MAXLEN</a>.</p>
+<p class="reference">References <a class="el" href="config_8c_source.html#l00325">config_newnvpair()</a>, and <a class="el" href="config_8c_source.html#l00036">MAXLEN</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00383">config_read()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00410">config_read()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -533,11 +623,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00383">383</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00410">410</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">References <a class="el" href="config_8c_source.html#l00362">config_process()</a>, <a class="el" href="config_8c_source.html#l00285">config_trim()</a>, and <a class="el" href="config_8c_source.html#l00035">MAXLEN</a>.</p>
+<p class="reference">References <a class="el" href="config_8c_source.html#l00389">config_process()</a>, <a class="el" href="config_8c_source.html#l00312">config_trim()</a>, and <a class="el" href="config_8c_source.html#l00036">MAXLEN</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00069">config_init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00071">config_init()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -578,11 +668,11 @@ Here is the caller graph for this function:</div>
 
 <p>Frees the config file parameter list. </p>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00404">404</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00431">431</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">References <a class="el" href="config_8c_source.html#l00047">head</a>, <a class="el" href="config_8c_source.html#l00042">PARAM_LIST::name</a>, <a class="el" href="config_8c_source.html#l00044">PARAM_LIST::next</a>, and <a class="el" href="config_8c_source.html#l00043">PARAM_LIST::value</a>.</p>
+<p class="reference">References <a class="el" href="config_8c_source.html#l00048">head</a>, <a class="el" href="config_8c_source.html#l00043">PARAM_LIST::name</a>, <a class="el" href="config_8c_source.html#l00045">PARAM_LIST::next</a>, and <a class="el" href="config_8c_source.html#l00044">PARAM_LIST::value</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00069">config_init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00071">config_init()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -624,9 +714,9 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00285">285</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00312">312</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00383">config_read()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00410">config_read()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -668,11 +758,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00232">232</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00236">236</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00121">XCSF::ACT_TYPE</a>, <a class="el" href="config_8c_source.html#l00036">BASE</a>, and <a class="el" href="config_8c_source.html#l00347">config_getvalue()</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00123">XCSF::ACT_TYPE</a>, <a class="el" href="config_8c_source.html#l00037">BASE</a>, and <a class="el" href="config_8c_source.html#l00374">config_getvalue()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00069">config_init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00071">config_init()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -720,15 +810,15 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00191">191</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00193">193</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">References <a class="el" href="config_8c_source.html#l00036">BASE</a>, <a class="el" href="xcsf_8h_source.html#l00144">XCSF::COND_BITS</a>, <a class="el" href="xcsf_8h_source.html#l00154">XCSF::COND_ETA</a>, <a class="el" href="xcsf_8h_source.html#l00157">XCSF::COND_EVOLVE_FUNCTIONS</a>, <a class="el" href="xcsf_8h_source.html#l00156">XCSF::COND_EVOLVE_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00155">XCSF::COND_EVOLVE_WEIGHTS</a>, <a class="el" href="xcsf_8h_source.html#l00161">XCSF::COND_HIDDEN_ACTIVATION</a>, <a class="el" href="xcsf_8h_source.html#l00141">XCSF::COND_MAX</a>, <a class="el" href="xcsf_8h_source.html#l00159">XCSF::COND_MAX_HIDDEN_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00142">XCSF::COND_MIN</a>, <a class="el" href="xcsf_8h_source.html#l00158">XCSF::COND_NUM_HIDDEN_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00160">XCSF::COND_OUTPUT_ACTIVATION</a>, <a class="el" href="xcsf_8h_source.html#l00143">XCSF::COND_SMIN</a>, <a class="el" href="xcsf_8h_source.html#l00119">XCSF::COND_TYPE</a>, <a class="el" href="config_8c_source.html#l00347">config_getvalue()</a>, <a class="el" href="xcsf_8h_source.html#l00145">XCSF::DGP_NUM_NODES</a>, <a class="el" href="xcsf_8h_source.html#l00150">XCSF::GP_INIT_DEPTH</a>, <a class="el" href="xcsf_8h_source.html#l00149">XCSF::GP_NUM_CONS</a>, <a class="el" href="xcsf_8h_source.html#l00147">XCSF::MAX_K</a>, <a class="el" href="xcsf_8h_source.html#l00152">XCSF::MAX_NEURON_MOD</a>, <a class="el" href="xcsf_8h_source.html#l00148">XCSF::MAX_T</a>, and <a class="el" href="xcsf_8h_source.html#l00146">XCSF::RESET_STATES</a>.</p>
+<p class="reference">References <a class="el" href="config_8c_source.html#l00037">BASE</a>, <a class="el" href="xcsf_8h_source.html#l00146">XCSF::COND_BITS</a>, <a class="el" href="xcsf_8h_source.html#l00156">XCSF::COND_ETA</a>, <a class="el" href="xcsf_8h_source.html#l00159">XCSF::COND_EVOLVE_FUNCTIONS</a>, <a class="el" href="xcsf_8h_source.html#l00158">XCSF::COND_EVOLVE_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00157">XCSF::COND_EVOLVE_WEIGHTS</a>, <a class="el" href="xcsf_8h_source.html#l00163">XCSF::COND_HIDDEN_ACTIVATION</a>, <a class="el" href="xcsf_8h_source.html#l00143">XCSF::COND_MAX</a>, <a class="el" href="xcsf_8h_source.html#l00161">XCSF::COND_MAX_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00144">XCSF::COND_MIN</a>, <a class="el" href="xcsf_8h_source.html#l00160">XCSF::COND_NUM_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00162">XCSF::COND_OUTPUT_ACTIVATION</a>, <a class="el" href="xcsf_8h_source.html#l00145">XCSF::COND_SMIN</a>, <a class="el" href="xcsf_8h_source.html#l00121">XCSF::COND_TYPE</a>, <a class="el" href="config_8c_source.html#l00293">config_get_ints()</a>, <a class="el" href="config_8c_source.html#l00374">config_getvalue()</a>, <a class="el" href="xcsf_8h_source.html#l00147">XCSF::DGP_NUM_NODES</a>, <a class="el" href="xcsf_8h_source.html#l00152">XCSF::GP_INIT_DEPTH</a>, <a class="el" href="xcsf_8h_source.html#l00151">XCSF::GP_NUM_CONS</a>, <a class="el" href="xcsf_8h_source.html#l00149">XCSF::MAX_K</a>, <a class="el" href="xcsf_8h_source.html#l00045">MAX_LAYERS</a>, <a class="el" href="xcsf_8h_source.html#l00154">XCSF::MAX_NEURON_MOD</a>, <a class="el" href="xcsf_8h_source.html#l00150">XCSF::MAX_T</a>, and <a class="el" href="xcsf_8h_source.html#l00148">XCSF::RESET_STATES</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00069">config_init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00071">config_init()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a165dae50e0b9f879753798bea405c7e0_cgraph.svg" width="314" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a165dae50e0b9f879753798bea405c7e0_cgraph.svg" width="472" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -772,11 +862,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00171">171</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00173">173</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00109">XCSF::ALPHA</a>, <a class="el" href="config_8c_source.html#l00036">BASE</a>, <a class="el" href="xcsf_8h_source.html#l00110">XCSF::BETA</a>, <a class="el" href="config_8c_source.html#l00347">config_getvalue()</a>, <a class="el" href="xcsf_8h_source.html#l00111">XCSF::DELTA</a>, <a class="el" href="xcsf_8h_source.html#l00112">XCSF::EPS_0</a>, <a class="el" href="xcsf_8h_source.html#l00113">XCSF::ERR_REDUC</a>, <a class="el" href="xcsf_8h_source.html#l00114">XCSF::FIT_REDUC</a>, <a class="el" href="xcsf_8h_source.html#l00115">XCSF::INIT_ERROR</a>, <a class="el" href="xcsf_8h_source.html#l00116">XCSF::INIT_FITNESS</a>, <a class="el" href="xcsf_8h_source.html#l00122">XCSF::M_PROBATION</a>, <a class="el" href="xcsf_8h_source.html#l00117">XCSF::NU</a>, and <a class="el" href="xcsf_8h_source.html#l00118">XCSF::THETA_DEL</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00111">XCSF::ALPHA</a>, <a class="el" href="config_8c_source.html#l00037">BASE</a>, <a class="el" href="xcsf_8h_source.html#l00112">XCSF::BETA</a>, <a class="el" href="config_8c_source.html#l00374">config_getvalue()</a>, <a class="el" href="xcsf_8h_source.html#l00113">XCSF::DELTA</a>, <a class="el" href="xcsf_8h_source.html#l00114">XCSF::EPS_0</a>, <a class="el" href="xcsf_8h_source.html#l00115">XCSF::ERR_REDUC</a>, <a class="el" href="xcsf_8h_source.html#l00116">XCSF::FIT_REDUC</a>, <a class="el" href="xcsf_8h_source.html#l00117">XCSF::INIT_ERROR</a>, <a class="el" href="xcsf_8h_source.html#l00118">XCSF::INIT_FITNESS</a>, <a class="el" href="xcsf_8h_source.html#l00124">XCSF::M_PROBATION</a>, <a class="el" href="xcsf_8h_source.html#l00119">XCSF::NU</a>, and <a class="el" href="xcsf_8h_source.html#l00120">XCSF::THETA_DEL</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00069">config_init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00071">config_init()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -824,15 +914,15 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00242">242</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00246">246</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">References <a class="el" href="config_8c_source.html#l00036">BASE</a>, <a class="el" href="config_8c_source.html#l00347">config_getvalue()</a>, <a class="el" href="xcsf_8h_source.html#l00165">XCSF::PRED_ETA</a>, <a class="el" href="xcsf_8h_source.html#l00172">XCSF::PRED_EVOLVE_ETA</a>, <a class="el" href="xcsf_8h_source.html#l00171">XCSF::PRED_EVOLVE_FUNCTIONS</a>, <a class="el" href="xcsf_8h_source.html#l00170">XCSF::PRED_EVOLVE_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00169">XCSF::PRED_EVOLVE_WEIGHTS</a>, <a class="el" href="xcsf_8h_source.html#l00178">XCSF::PRED_HIDDEN_ACTIVATION</a>, <a class="el" href="xcsf_8h_source.html#l00176">XCSF::PRED_MAX_HIDDEN_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00174">XCSF::PRED_MOMENTUM</a>, <a class="el" href="xcsf_8h_source.html#l00175">XCSF::PRED_NUM_HIDDEN_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00177">XCSF::PRED_OUTPUT_ACTIVATION</a>, <a class="el" href="xcsf_8h_source.html#l00164">XCSF::PRED_RESET</a>, <a class="el" href="xcsf_8h_source.html#l00168">XCSF::PRED_RLS_LAMBDA</a>, <a class="el" href="xcsf_8h_source.html#l00167">XCSF::PRED_RLS_SCALE_FACTOR</a>, <a class="el" href="xcsf_8h_source.html#l00173">XCSF::PRED_SGD_WEIGHTS</a>, <a class="el" href="xcsf_8h_source.html#l00120">XCSF::PRED_TYPE</a>, and <a class="el" href="xcsf_8h_source.html#l00166">XCSF::PRED_X0</a>.</p>
+<p class="reference">References <a class="el" href="config_8c_source.html#l00037">BASE</a>, <a class="el" href="config_8c_source.html#l00293">config_get_ints()</a>, <a class="el" href="config_8c_source.html#l00374">config_getvalue()</a>, <a class="el" href="xcsf_8h_source.html#l00045">MAX_LAYERS</a>, <a class="el" href="xcsf_8h_source.html#l00167">XCSF::PRED_ETA</a>, <a class="el" href="xcsf_8h_source.html#l00174">XCSF::PRED_EVOLVE_ETA</a>, <a class="el" href="xcsf_8h_source.html#l00173">XCSF::PRED_EVOLVE_FUNCTIONS</a>, <a class="el" href="xcsf_8h_source.html#l00172">XCSF::PRED_EVOLVE_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00171">XCSF::PRED_EVOLVE_WEIGHTS</a>, <a class="el" href="xcsf_8h_source.html#l00180">XCSF::PRED_HIDDEN_ACTIVATION</a>, <a class="el" href="xcsf_8h_source.html#l00178">XCSF::PRED_MAX_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00176">XCSF::PRED_MOMENTUM</a>, <a class="el" href="xcsf_8h_source.html#l00177">XCSF::PRED_NUM_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00179">XCSF::PRED_OUTPUT_ACTIVATION</a>, <a class="el" href="xcsf_8h_source.html#l00166">XCSF::PRED_RESET</a>, <a class="el" href="xcsf_8h_source.html#l00170">XCSF::PRED_RLS_LAMBDA</a>, <a class="el" href="xcsf_8h_source.html#l00169">XCSF::PRED_RLS_SCALE_FACTOR</a>, <a class="el" href="xcsf_8h_source.html#l00175">XCSF::PRED_SGD_WEIGHTS</a>, <a class="el" href="xcsf_8h_source.html#l00122">XCSF::PRED_TYPE</a>, and <a class="el" href="xcsf_8h_source.html#l00168">XCSF::PRED_X0</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00069">config_init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00071">config_init()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a9e94168e46b659d4ae6962a05b8a34e7_cgraph.svg" width="318" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a9e94168e46b659d4ae6962a05b8a34e7_cgraph.svg" width="476" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -876,11 +966,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00132">132</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00134">134</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">References <a class="el" href="config_8c_source.html#l00036">BASE</a>, <a class="el" href="config_8c_source.html#l00347">config_getvalue()</a>, <a class="el" href="xcsf_8h_source.html#l00129">XCSF::E_MUTATION</a>, <a class="el" href="xcsf_8h_source.html#l00133">XCSF::EA_SELECT_SIZE</a>, <a class="el" href="xcsf_8h_source.html#l00132">XCSF::EA_SELECT_TYPE</a>, <a class="el" href="xcsf_8h_source.html#l00127">XCSF::F_MUTATION</a>, <a class="el" href="xcsf_8h_source.html#l00131">XCSF::LAMBDA</a>, <a class="el" href="xcsf_8h_source.html#l00125">XCSF::P_CROSSOVER</a>, <a class="el" href="xcsf_8h_source.html#l00126">XCSF::P_MUTATION</a>, <a class="el" href="xcsf_8h_source.html#l00128">XCSF::S_MUTATION</a>, <a class="el" href="xcsf_8h_source.html#l00138">XCSF::SAM_MIN</a>, <a class="el" href="xcsf_8h_source.html#l00137">XCSF::SAM_NUM</a>, <a class="el" href="xcsf_8h_source.html#l00136">XCSF::SAM_TYPE</a>, and <a class="el" href="xcsf_8h_source.html#l00130">XCSF::THETA_EA</a>.</p>
+<p class="reference">References <a class="el" href="config_8c_source.html#l00037">BASE</a>, <a class="el" href="config_8c_source.html#l00374">config_getvalue()</a>, <a class="el" href="xcsf_8h_source.html#l00131">XCSF::E_MUTATION</a>, <a class="el" href="xcsf_8h_source.html#l00135">XCSF::EA_SELECT_SIZE</a>, <a class="el" href="xcsf_8h_source.html#l00134">XCSF::EA_SELECT_TYPE</a>, <a class="el" href="xcsf_8h_source.html#l00129">XCSF::F_MUTATION</a>, <a class="el" href="xcsf_8h_source.html#l00133">XCSF::LAMBDA</a>, <a class="el" href="xcsf_8h_source.html#l00127">XCSF::P_CROSSOVER</a>, <a class="el" href="xcsf_8h_source.html#l00128">XCSF::P_MUTATION</a>, <a class="el" href="xcsf_8h_source.html#l00130">XCSF::S_MUTATION</a>, <a class="el" href="xcsf_8h_source.html#l00140">XCSF::SAM_MIN</a>, <a class="el" href="xcsf_8h_source.html#l00139">XCSF::SAM_NUM</a>, <a class="el" href="xcsf_8h_source.html#l00138">XCSF::SAM_TYPE</a>, and <a class="el" href="xcsf_8h_source.html#l00132">XCSF::THETA_EA</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00069">config_init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00071">config_init()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -928,11 +1018,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00102">102</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00104">104</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">References <a class="el" href="config_8c_source.html#l00036">BASE</a>, <a class="el" href="config_8c_source.html#l00347">config_getvalue()</a>, <a class="el" href="xcsf_8h_source.html#l00101">XCSF::LOSS_FUNC</a>, <a class="el" href="xcsf_8h_source.html#l00098">XCSF::MAX_TRIALS</a>, <a class="el" href="xcsf_8h_source.html#l00096">XCSF::OMP_NUM_THREADS</a>, <a class="el" href="xcsf_8h_source.html#l00099">XCSF::PERF_AVG_TRIALS</a>, <a class="el" href="xcsf_8h_source.html#l00097">XCSF::POP_INIT</a>, and <a class="el" href="xcsf_8h_source.html#l00100">XCSF::POP_SIZE</a>.</p>
+<p class="reference">References <a class="el" href="config_8c_source.html#l00037">BASE</a>, <a class="el" href="config_8c_source.html#l00374">config_getvalue()</a>, <a class="el" href="xcsf_8h_source.html#l00103">XCSF::LOSS_FUNC</a>, <a class="el" href="xcsf_8h_source.html#l00100">XCSF::MAX_TRIALS</a>, <a class="el" href="xcsf_8h_source.html#l00098">XCSF::OMP_NUM_THREADS</a>, <a class="el" href="xcsf_8h_source.html#l00101">XCSF::PERF_AVG_TRIALS</a>, <a class="el" href="xcsf_8h_source.html#l00099">XCSF::POP_INIT</a>, and <a class="el" href="xcsf_8h_source.html#l00102">XCSF::POP_SIZE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00069">config_init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00071">config_init()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -980,11 +1070,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00120">120</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00122">122</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">References <a class="el" href="config_8c_source.html#l00036">BASE</a>, <a class="el" href="config_8c_source.html#l00347">config_getvalue()</a>, <a class="el" href="xcsf_8h_source.html#l00104">XCSF::GAMMA</a>, <a class="el" href="xcsf_8h_source.html#l00106">XCSF::P_EXPLORE</a>, and <a class="el" href="xcsf_8h_source.html#l00105">XCSF::TELETRANSPORTATION</a>.</p>
+<p class="reference">References <a class="el" href="config_8c_source.html#l00037">BASE</a>, <a class="el" href="config_8c_source.html#l00374">config_getvalue()</a>, <a class="el" href="xcsf_8h_source.html#l00106">XCSF::GAMMA</a>, <a class="el" href="xcsf_8h_source.html#l00108">XCSF::P_EXPLORE</a>, and <a class="el" href="xcsf_8h_source.html#l00107">XCSF::TELETRANSPORTATION</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00069">config_init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00071">config_init()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1032,11 +1122,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00153">153</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00155">155</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">References <a class="el" href="config_8c_source.html#l00036">BASE</a>, <a class="el" href="config_8c_source.html#l00347">config_getvalue()</a>, <a class="el" href="xcsf_8h_source.html#l00181">XCSF::EA_SUBSUMPTION</a>, <a class="el" href="xcsf_8h_source.html#l00182">XCSF::SET_SUBSUMPTION</a>, and <a class="el" href="xcsf_8h_source.html#l00183">XCSF::THETA_SUB</a>.</p>
+<p class="reference">References <a class="el" href="config_8c_source.html#l00037">BASE</a>, <a class="el" href="config_8c_source.html#l00374">config_getvalue()</a>, <a class="el" href="xcsf_8h_source.html#l00183">XCSF::EA_SUBSUMPTION</a>, <a class="el" href="xcsf_8h_source.html#l00184">XCSF::SET_SUBSUMPTION</a>, and <a class="el" href="xcsf_8h_source.html#l00185">XCSF::THETA_SUB</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00069">config_init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00071">config_init()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1075,9 +1165,9 @@ Here is the caller graph for this function:</div>
 
 <p>Linked list of config file parameters. </p>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00047">47</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00048">48</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00298">config_newnvpair()</a>, and <a class="el" href="config_8c_source.html#l00404">config_tidyup()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00325">config_newnvpair()</a>, and <a class="el" href="config_8c_source.html#l00431">config_tidyup()</a>.</p>
 
 </div>
 </div>

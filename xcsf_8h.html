@@ -170,6 +170,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a60cd83e6c910f5c02187ad74e45b587e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcsf_8h.html#a60cd83e6c910f5c02187ad74e45b587e">PRED_TYPE_NEURAL</a>&#160;&#160;&#160;5</td></tr>
 <tr class="memdesc:a60cd83e6c910f5c02187ad74e45b587e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prediction type neural.  <a href="#a60cd83e6c910f5c02187ad74e45b587e">More...</a><br /></td></tr>
 <tr class="separator:a60cd83e6c910f5c02187ad74e45b587e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade9d4b2ac5f29fe89ffea40e7c58c9d6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcsf_8h.html#ade9d4b2ac5f29fe89ffea40e7c58c9d6">MAX_LAYERS</a>&#160;&#160;&#160;100</td></tr>
+<tr class="memdesc:ade9d4b2ac5f29fe89ffea40e7c58c9d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of neural network layers.  <a href="#ade9d4b2ac5f29fe89ffea40e7c58c9d6">More...</a><br /></td></tr>
+<tr class="separator:ade9d4b2ac5f29fe89ffea40e7c58c9d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -381,6 +384,26 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="xcsf_8h_source.html#l00032">32</a> of file <a class="el" href="xcsf_8h_source.html">xcsf.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="condition_8c_source.html#l00047">condition_set()</a>, and <a class="el" href="perf_8c_source.html#l00050">gplot_free()</a>.</p>
+
+</div>
+</div>
+<a id="ade9d4b2ac5f29fe89ffea40e7c58c9d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade9d4b2ac5f29fe89ffea40e7c58c9d6">&#9670;&nbsp;</a></span>MAX_LAYERS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_LAYERS&#160;&#160;&#160;100</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Maximum number of neural network layers. </p>
+
+<p class="definition">Definition at line <a class="el" href="xcsf_8h_source.html#l00045">45</a> of file <a class="el" href="xcsf_8h_source.html">xcsf.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00266">XCS::get_cond_max_neurons()</a>, <a class="el" href="python__wrapper_8cpp_source.html#l00258">XCS::get_cond_num_neurons()</a>, <a class="el" href="python__wrapper_8cpp_source.html#l00282">XCS::get_pred_max_neurons()</a>, <a class="el" href="python__wrapper_8cpp_source.html#l00274">XCS::get_pred_num_neurons()</a>, <a class="el" href="config_8c_source.html#l00193">params_cl_condition()</a>, <a class="el" href="config_8c_source.html#l00246">params_cl_prediction()</a>, <a class="el" href="python__wrapper_8cpp_source.html#l00389">XCS::set_cond_max_neurons()</a>, <a class="el" href="python__wrapper_8cpp_source.html#l00382">XCS::set_cond_num_neurons()</a>, <a class="el" href="python__wrapper_8cpp_source.html#l00403">XCS::set_pred_max_neurons()</a>, <a class="el" href="python__wrapper_8cpp_source.html#l00396">XCS::set_pred_num_neurons()</a>, <a class="el" href="xcsf_8c_source.html#l00343">xcsf_load_params()</a>, and <a class="el" href="xcsf_8c_source.html#l00255">xcsf_save_params()</a>.</p>
 
 </div>
 </div>
@@ -741,7 +764,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="xcsf_8c_source.html#l00067">67</a> of file <a class="el" href="xcsf_8c_source.html">xcsf.c</a>.</p>
 
-<p class="reference">References <a class="el" href="perf_8c_source.html#l00232">disp_perf1()</a>, <a class="el" href="perf_8c_source.html#l00253">disp_perf2()</a>, <a class="el" href="perf_8c_source.html#l00050">gplot_free()</a>, <a class="el" href="perf_8c_source.html#l00041">gplot_init()</a>, <a class="el" href="xcsf_8h_source.html#l00199">XCSF::loss_ptr</a>, <a class="el" href="xcsf_8h_source.html#l00098">XCSF::MAX_TRIALS</a>, <a class="el" href="xcsf_8h_source.html#l00197">XCSF::num_y_vars</a>, <a class="el" href="xcsf_8h_source.html#l00099">XCSF::PERF_AVG_TRIALS</a>, <a class="el" href="xcsf_8h_source.html#l00195">XCSF::train</a>, <a class="el" href="xcsf_8h_source.html#l00206">INPUT::x</a>, <a class="el" href="xcsf_8h_source.html#l00208">INPUT::x_cols</a>, <a class="el" href="xcsf_8c_source.html#l00116">xcsf_select_sample()</a>, <a class="el" href="xcsf_8c_source.html#l00133">xcsf_trial()</a>, <a class="el" href="xcsf_8h_source.html#l00207">INPUT::y</a>, and <a class="el" href="xcsf_8h_source.html#l00209">INPUT::y_cols</a>.</p>
+<p class="reference">References <a class="el" href="perf_8c_source.html#l00232">disp_perf1()</a>, <a class="el" href="perf_8c_source.html#l00253">disp_perf2()</a>, <a class="el" href="perf_8c_source.html#l00050">gplot_free()</a>, <a class="el" href="perf_8c_source.html#l00041">gplot_init()</a>, <a class="el" href="xcsf_8h_source.html#l00201">XCSF::loss_ptr</a>, <a class="el" href="xcsf_8h_source.html#l00100">XCSF::MAX_TRIALS</a>, <a class="el" href="xcsf_8h_source.html#l00199">XCSF::num_y_vars</a>, <a class="el" href="xcsf_8h_source.html#l00101">XCSF::PERF_AVG_TRIALS</a>, <a class="el" href="xcsf_8h_source.html#l00197">XCSF::train</a>, <a class="el" href="xcsf_8h_source.html#l00208">INPUT::x</a>, <a class="el" href="xcsf_8h_source.html#l00210">INPUT::x_cols</a>, <a class="el" href="xcsf_8c_source.html#l00116">xcsf_select_sample()</a>, <a class="el" href="xcsf_8c_source.html#l00133">xcsf_trial()</a>, <a class="el" href="xcsf_8h_source.html#l00209">INPUT::y</a>, and <a class="el" href="xcsf_8h_source.html#l00211">INPUT::y_cols</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00185">XCS::fit()</a>, <a class="el" href="main_8c_source.html#l00041">main()</a>, and <a class="el" href="xcsf_8c_source.html#l00053">xcsf_fit1()</a>.</p>
 <div class="dynheader">
@@ -797,7 +820,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="xcsf_8c_source.html#l00224">224</a> of file <a class="el" href="xcsf_8c_source.html">xcsf.c</a>.</p>
 
-<p class="reference">References <a class="el" href="clset_8c_source.html#l00075">clset_init()</a>, <a class="el" href="clset_8c_source.html#l00608">clset_kill()</a>, <a class="el" href="clset_8c_source.html#l00642">clset_pop_load()</a>, <a class="el" href="xcsf_8h_source.html#l00090">XCSF::pset</a>, <a class="el" href="xcsf_8h_source.html#l00082">SET::size</a>, <a class="el" href="xcsf_8c_source.html#l00038">VERSION</a>, and <a class="el" href="xcsf_8c_source.html#l00343">xcsf_load_params()</a>.</p>
+<p class="reference">References <a class="el" href="clset_8c_source.html#l00075">clset_init()</a>, <a class="el" href="clset_8c_source.html#l00608">clset_kill()</a>, <a class="el" href="clset_8c_source.html#l00642">clset_pop_load()</a>, <a class="el" href="xcsf_8h_source.html#l00092">XCSF::pset</a>, <a class="el" href="xcsf_8h_source.html#l00084">SET::size</a>, <a class="el" href="xcsf_8c_source.html#l00038">VERSION</a>, and <a class="el" href="xcsf_8c_source.html#l00343">xcsf_load_params()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00123">XCS::load()</a>, and <a class="el" href="main_8c_source.html#l00041">main()</a>.</p>
 <div class="dynheader">
@@ -866,7 +889,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="xcsf_8c_source.html#l00156">156</a> of file <a class="el" href="xcsf_8c_source.html">xcsf.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00196">XCSF::num_x_vars</a>, <a class="el" href="xcsf_8h_source.html#l00197">XCSF::num_y_vars</a>, <a class="el" href="xcsf_8h_source.html#l00195">XCSF::train</a>, and <a class="el" href="xcsf_8c_source.html#l00133">xcsf_trial()</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00198">XCSF::num_x_vars</a>, <a class="el" href="xcsf_8h_source.html#l00199">XCSF::num_y_vars</a>, <a class="el" href="xcsf_8h_source.html#l00197">XCSF::train</a>, and <a class="el" href="xcsf_8c_source.html#l00133">xcsf_trial()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00224">XCS::predict()</a>.</p>
 <div class="dynheader">
@@ -935,7 +958,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="xcsf_8c_source.html#l00192">192</a> of file <a class="el" href="xcsf_8c_source.html">xcsf.c</a>.</p>
 
-<p class="reference">References <a class="el" href="clset_8c_source.html#l00525">clset_print()</a>, and <a class="el" href="xcsf_8h_source.html#l00090">XCSF::pset</a>.</p>
+<p class="reference">References <a class="el" href="clset_8c_source.html#l00525">clset_print()</a>, and <a class="el" href="xcsf_8h_source.html#l00092">XCSF::pset</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00252">XCS::print_pop()</a>.</p>
 <div class="dynheader">
@@ -1047,7 +1070,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="xcsf_8c_source.html#l00170">170</a> of file <a class="el" href="xcsf_8c_source.html">xcsf.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00199">XCSF::loss_ptr</a>, <a class="el" href="xcsf_8h_source.html#l00197">XCSF::num_y_vars</a>, <a class="el" href="xcsf_8h_source.html#l00210">INPUT::rows</a>, <a class="el" href="xcsf_8h_source.html#l00195">XCSF::train</a>, <a class="el" href="xcsf_8h_source.html#l00206">INPUT::x</a>, <a class="el" href="xcsf_8h_source.html#l00208">INPUT::x_cols</a>, <a class="el" href="xcsf_8c_source.html#l00133">xcsf_trial()</a>, <a class="el" href="xcsf_8h_source.html#l00207">INPUT::y</a>, and <a class="el" href="xcsf_8h_source.html#l00209">INPUT::y_cols</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00201">XCSF::loss_ptr</a>, <a class="el" href="xcsf_8h_source.html#l00199">XCSF::num_y_vars</a>, <a class="el" href="xcsf_8h_source.html#l00212">INPUT::rows</a>, <a class="el" href="xcsf_8h_source.html#l00197">XCSF::train</a>, <a class="el" href="xcsf_8h_source.html#l00208">INPUT::x</a>, <a class="el" href="xcsf_8h_source.html#l00210">INPUT::x_cols</a>, <a class="el" href="xcsf_8c_source.html#l00133">xcsf_trial()</a>, <a class="el" href="xcsf_8h_source.html#l00209">INPUT::y</a>, and <a class="el" href="xcsf_8h_source.html#l00211">INPUT::y_cols</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00238">XCS::score()</a>.</p>
 <div class="dynheader">
