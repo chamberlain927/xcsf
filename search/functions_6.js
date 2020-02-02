@@ -55,7 +55,7 @@ var searchData=
   ['get_5fp_5fcrossover',['get_p_crossover',['../structXCS.html#a22ce9a9a40be88953f6bd865fa91d314',1,'XCS']]],
   ['get_5fp_5fexplore',['get_p_explore',['../structXCS.html#ac9663186193bec11ed3f42b028c3b55c',1,'XCS']]],
   ['get_5fp_5fmutation',['get_p_mutation',['../structXCS.html#aba30b203d5a8dd4d50b88c821aa0bb3e',1,'XCS']]],
-  ['get_5fperf_5favg_5ftrials',['get_perf_avg_trials',['../structXCS.html#ada5360557663b131b95f271733a88db5',1,'XCS']]],
+  ['get_5fperf_5ftrials',['get_perf_trials',['../structXCS.html#a1bbe28ce60bf8d205aa5cd70a95cf1ee',1,'XCS']]],
   ['get_5fpop_5finit',['get_pop_init',['../structXCS.html#a8a598a33952d31a4f451ab6977a11b3d',1,'XCS']]],
   ['get_5fpop_5fmax_5fsize',['get_pop_max_size',['../structXCS.html#ab799e1cb1d5501548406316ac2a5869f',1,'XCS']]],
   ['get_5fpop_5fmean_5fcond_5fsize',['get_pop_mean_cond_size',['../structXCS.html#ad41c1a22e9eeec57921dba4471591a42',1,'XCS']]],

@@ -57,7 +57,7 @@ var searchData=
   ['set_5fp_5fcrossover',['set_p_crossover',['../structXCS.html#af27430bcd605f9e611b74ecfb72e49b6',1,'XCS']]],
   ['set_5fp_5fexplore',['set_p_explore',['../structXCS.html#aeba961386911599e5da4f155e90589f3',1,'XCS']]],
   ['set_5fp_5fmutation',['set_p_mutation',['../structXCS.html#a90adca08018cd3973d2670527fa308d9',1,'XCS']]],
-  ['set_5fperf_5favg_5ftrials',['set_perf_avg_trials',['../structXCS.html#a6f9f4ee80ce8e635ed8839e44cda4691',1,'XCS']]],
+  ['set_5fperf_5ftrials',['set_perf_trials',['../structXCS.html#a769dc62f4e0a20d402f3033fd0e4580e',1,'XCS']]],
   ['set_5fpop_5finit',['set_pop_init',['../structXCS.html#a4bace85b712b1b7afaf6534dfb8a3b91',1,'XCS']]],
   ['set_5fpop_5fmax_5fsize',['set_pop_max_size',['../structXCS.html#a451a1881ff588dd207eddf4a23c21570',1,'XCS']]],
   ['set_5fpred_5feta',['set_pred_eta',['../structXCS.html#a87157a25a142a3a2f97c0aebec6b4dda',1,'XCS']]],

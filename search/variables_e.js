@@ -5,7 +5,7 @@ var searchData=
   ['p_5fexplore',['P_EXPLORE',['../structXCSF.html#a356e1eb7293a55c8e53cbb3e1d1265cf',1,'XCSF']]],
   ['p_5fmutation',['P_MUTATION',['../structXCSF.html#abdb5b699aa73e7761582256aad6baacc',1,'XCSF']]],
   ['pa',['pa',['../structXCSF.html#a49681646a21a0ba54e73f4efc7874fbd',1,'XCSF']]],
-  ['perf_5favg_5ftrials',['PERF_AVG_TRIALS',['../structXCSF.html#abd8b561bd85c09b72b9c7fee1613ee68',1,'XCSF']]],
+  ['perf_5ftrials',['PERF_TRIALS',['../structXCSF.html#a487d9deb0e6deca1af2f0b0eb66750fc',1,'XCSF']]],
   ['pop_5finit',['POP_INIT',['../structXCSF.html#af7a397309a0f109d3368e9aa5eb7794a',1,'XCSF']]],
   ['pop_5fsize',['POP_SIZE',['../structXCSF.html#a87a937b17f4e4a224cc7c957e56d21a1',1,'XCSF']]],
   ['pos_5fbits',['pos_bits',['../structENV__MUX.html#a2785627894275ab1c21728f4f01542db',1,'ENV_MUX']]],
