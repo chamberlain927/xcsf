@@ -152,7 +152,7 @@
 <!-- Node152 -->
 <g id="node153" class="node">
 <title>Node152</title>
-<g id="a_node153"><a xlink:href="xcs__single__step_8c.html#a39a031bf59eaa9b33e30e614610dcda8" target="_top" xlink:title="Executes a single&#45;step experiment. ">
+<g id="a_node153"><a xlink:href="xcs__single__step_8c.html#a39a031bf59eaa9b33e30e614610dcda8" target="_top" xlink:title="Executes a single&#45;step reinforcement learning experiment. ">
 <polygon fill="none" stroke="#000000" points="74,-1026.5 74,-1045.5 182,-1045.5 182,-1026.5 74,-1026.5"/>
 <text text-anchor="middle" x="128" y="-1033.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcs_single_step_exp</text>
 </a>
@@ -2640,7 +2640,7 @@
 <!-- Node153 -->
 <g id="node154" class="node">
 <title>Node153</title>
-<g id="a_node154"><a xlink:href="xcs__single__step_8c.html#a3d1fd2472d35310800aed897219a65af" target="_top" xlink:title="Executes a single&#45;step trial using a built&#45;in environment. ">
+<g id="a_node154"><a xlink:href="xcs__single__step_8c.html#a536ab4256e871e31959ea6e907455340" target="_top" xlink:title="Executes a single&#45;step trial using a built&#45;in environment. ">
 <polygon fill="none" stroke="#000000" points="218,-1216.5 218,-1235.5 302,-1235.5 302,-1216.5 218,-1216.5"/>
 <text text-anchor="middle" x="260" y="-1223.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcs_single_trial</text>
 </a>
@@ -2653,7 +2653,7 @@
 <polygon fill="#191970" stroke="#191970" points="244.5479,-1209.8927 253.1279,-1216.1083 250.2967,-1205.8988 244.5479,-1209.8927"/>
 </g>
 <!-- Node153&#45;&gt;Node1 -->
-<g id="edge216" class="edge">
+<g id="edge218" class="edge">
 <title>Node153&#45;&gt;Node1</title>
 <path fill="none" stroke="#191970" d="M269.926,-1235.7537C284.1321,-1249.3528 311.4842,-1274.2249 338,-1291 387.9403,-1322.5946 451.2244,-1349.4732 490.1479,-1364.6734"/>
 <polygon fill="#191970" stroke="#191970" points="489.3827,-1368.1296 499.9722,-1368.4636 491.9023,-1361.5987 489.3827,-1368.1296"/>
@@ -2677,7 +2677,7 @@
 <polygon fill="#191970" stroke="#191970" points="479.535,-1264.6083 489.7588,-1261.8292 480.0334,-1257.626 479.535,-1264.6083"/>
 </g>
 <!-- Node153&#45;&gt;Node146 -->
-<g id="edge217" class="edge">
+<g id="edge219" class="edge">
 <title>Node153&#45;&gt;Node146</title>
 <path fill="none" stroke="#191970" d="M264.2758,-1216.2978C272.591,-1197.103 291.0803,-1152.7793 302,-1114 324.9405,-1032.531 283.1307,-991.4423 338,-927 369.903,-889.531 411.0109,-927.2283 442,-889 513.2444,-801.1124 407.9305,-725.8272 478,-637 480.5499,-633.7675 483.7302,-631.0834 487.2327,-628.8548"/>
 <polygon fill="#191970" stroke="#191970" points="489.0854,-631.8399 496.4268,-624.2008 485.924,-625.5944 489.0854,-631.8399"/>
@@ -2700,32 +2700,32 @@
 <!-- Node155 -->
 <g id="node156" class="node">
 <title>Node155</title>
-<g id="a_node156"><a xlink:href="xcs__single__step_8c.html#afd31e5406eeef1fb9b244f635a0f0408" target="_top" xlink:title="Creates the action set, updates the classifiers and runs the EA. ">
-<polygon fill="none" stroke="#000000" points="341,-936.5 341,-955.5 439,-955.5 439,-936.5 341,-936.5"/>
-<text text-anchor="middle" x="390" y="-943.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcs_single_update</text>
+<g id="a_node156"><a xlink:href="xcs__single__step_8c.html#a51a3b271605184cd935395cfba646a38" target="_top" xlink:title="Returns the system error. ">
+<polygon fill="none" stroke="#000000" points="346,-1216.5 346,-1235.5 434,-1235.5 434,-1216.5 346,-1216.5"/>
+<text text-anchor="middle" x="390" y="-1223.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcs_single_error</text>
 </a>
 </g>
 </g>
 <!-- Node153&#45;&gt;Node155 -->
 <g id="edge212" class="edge">
 <title>Node153&#45;&gt;Node155</title>
-<path fill="none" stroke="#191970" d="M264.6988,-1216.2614C273.0809,-1198.6018 290.783,-1159.9735 302,-1126 323.0887,-1062.1274 298.7673,-1033.6374 338,-979 343.2444,-971.6964 350.6545,-965.6302 358.2415,-960.7765"/>
-<polygon fill="#191970" stroke="#191970" points="360.2147,-963.6783 367.1101,-955.6343 356.7035,-957.6226 360.2147,-963.6783"/>
+<path fill="none" stroke="#191970" d="M302.2073,-1226C312.8787,-1226 324.4885,-1226 335.6658,-1226"/>
+<polygon fill="#191970" stroke="#191970" points="335.7697,-1229.5001 345.7697,-1226 335.7696,-1222.5001 335.7697,-1229.5001"/>
 </g>
 <!-- Node156 -->
 <g id="node157" class="node">
 <title>Node156</title>
-<g id="a_node157"><a xlink:href="xcs__single__step_8c.html#a51a3b271605184cd935395cfba646a38" target="_top" xlink:title="Returns the system error. ">
-<polygon fill="none" stroke="#000000" points="346,-1216.5 346,-1235.5 434,-1235.5 434,-1216.5 346,-1216.5"/>
-<text text-anchor="middle" x="390" y="-1223.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcs_single_error</text>
+<g id="a_node157"><a xlink:href="xcs__single__step_8c.html#afd31e5406eeef1fb9b244f635a0f0408" target="_top" xlink:title="Creates the action set, updates the classifiers and runs the EA. ">
+<polygon fill="none" stroke="#000000" points="341,-936.5 341,-955.5 439,-955.5 439,-936.5 341,-936.5"/>
+<text text-anchor="middle" x="390" y="-943.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcs_single_update</text>
 </a>
 </g>
 </g>
 <!-- Node153&#45;&gt;Node156 -->
-<g id="edge218" class="edge">
+<g id="edge214" class="edge">
 <title>Node153&#45;&gt;Node156</title>
-<path fill="none" stroke="#191970" d="M302.2073,-1226C312.8787,-1226 324.4885,-1226 335.6658,-1226"/>
-<polygon fill="#191970" stroke="#191970" points="335.7697,-1229.5001 345.7697,-1226 335.7696,-1222.5001 335.7697,-1229.5001"/>
+<path fill="none" stroke="#191970" d="M264.6988,-1216.2614C273.0809,-1198.6018 290.783,-1159.9735 302,-1126 323.0887,-1062.1274 298.7673,-1033.6374 338,-979 343.2444,-971.6964 350.6545,-965.6302 358.2415,-960.7765"/>
+<polygon fill="#191970" stroke="#191970" points="360.2147,-963.6783 367.1101,-955.6343 356.7035,-957.6226 360.2147,-963.6783"/>
 </g>
 <!-- Node154&#45;&gt;Node12 -->
 <g id="edge208" class="edge">
@@ -2757,29 +2757,29 @@
 <path fill="none" stroke="#191970" d="M442.1922,-1161.7084C452.6418,-1160.2486 463.6187,-1158.715 474.0598,-1157.2564"/>
 <polygon fill="#191970" stroke="#191970" points="474.8633,-1160.6782 484.2829,-1155.8281 473.8947,-1153.7455 474.8633,-1160.6782"/>
 </g>
-<!-- Node155&#45;&gt;Node98 -->
+<!-- Node155&#45;&gt;Node101 -->
 <g id="edge213" class="edge">
-<title>Node155&#45;&gt;Node98</title>
+<title>Node155&#45;&gt;Node101</title>
+<path fill="none" stroke="#191970" d="M434.1553,-1226C449.1536,-1226 465.924,-1226 480.9883,-1226"/>
+<polygon fill="#191970" stroke="#191970" points="481.1022,-1229.5001 491.1022,-1226 481.1022,-1222.5001 481.1022,-1229.5001"/>
+</g>
+<!-- Node156&#45;&gt;Node98 -->
+<g id="edge215" class="edge">
+<title>Node156&#45;&gt;Node98</title>
 <path fill="none" stroke="#191970" d="M418.212,-936.4968C426.4724,-932.8273 435.1225,-928.0313 442,-922 464.5274,-902.2442 454.9331,-884.1232 478,-865 480.0225,-863.3233 482.2111,-861.7815 484.5013,-860.3656"/>
 <polygon fill="#191970" stroke="#191970" points="486.4913,-863.273 493.7017,-855.5102 483.2241,-857.0822 486.4913,-863.273"/>
 </g>
-<!-- Node155&#45;&gt;Node102 -->
-<g id="edge214" class="edge">
-<title>Node155&#45;&gt;Node102</title>
+<!-- Node156&#45;&gt;Node102 -->
+<g id="edge216" class="edge">
+<title>Node156&#45;&gt;Node102</title>
 <path fill="none" stroke="#191970" d="M423.4456,-936.4611C430.535,-932.9781 437.29,-928.2861 442,-922 507.2027,-834.9782 414.1644,-768.0296 478,-680 480.5228,-676.521 483.6948,-673.5166 487.2001,-670.9286"/>
 <polygon fill="#191970" stroke="#191970" points="489.1504,-673.8381 495.8354,-665.6185 485.4837,-667.8753 489.1504,-673.8381"/>
 </g>
-<!-- Node155&#45;&gt;Node117 -->
-<g id="edge215" class="edge">
-<title>Node155&#45;&gt;Node117</title>
+<!-- Node156&#45;&gt;Node117 -->
+<g id="edge217" class="edge">
+<title>Node156&#45;&gt;Node117</title>
 <path fill="none" stroke="#191970" d="M420.895,-936.4556C428.5686,-932.9048 436.2372,-928.1821 442,-922 472.7876,-888.9722 440.8439,-852.6543 478,-827 513.1108,-802.7579 537.8974,-804.2614 574,-827 634.8192,-865.3059 655.8881,-956.7694 662.3951,-997.2013"/>
 <polygon fill="#191970" stroke="#191970" points="658.943,-997.7833 663.8652,-1007.1653 665.8681,-996.7615 658.943,-997.7833"/>
-</g>
-<!-- Node156&#45;&gt;Node101 -->
-<g id="edge219" class="edge">
-<title>Node156&#45;&gt;Node101</title>
-<path fill="none" stroke="#191970" d="M434.1553,-1226C449.1536,-1226 465.924,-1226 480.9883,-1226"/>
-<polygon fill="#191970" stroke="#191970" points="481.1022,-1229.5001 491.1022,-1226 481.1022,-1222.5001 481.1022,-1229.5001"/>
 </g>
 <!-- Node157&#45;&gt;Node64 -->
 <g id="edge224" class="edge">

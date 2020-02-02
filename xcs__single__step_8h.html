@@ -105,7 +105,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a51a3b271605184cd935395cfba646a38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the system error.  <a href="#a51a3b271605184cd935395cfba646a38">More...</a><br /></td></tr>
 <tr class="separator:a51a3b271605184cd935395cfba646a38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39a031bf59eaa9b33e30e614610dcda8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcs__single__step_8h.html#a39a031bf59eaa9b33e30e614610dcda8">xcs_single_step_exp</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
-<tr class="memdesc:a39a031bf59eaa9b33e30e614610dcda8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a single-step experiment.  <a href="#a39a031bf59eaa9b33e30e614610dcda8">More...</a><br /></td></tr>
+<tr class="memdesc:a39a031bf59eaa9b33e30e614610dcda8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a single-step reinforcement learning experiment.  <a href="#a39a031bf59eaa9b33e30e614610dcda8">More...</a><br /></td></tr>
 <tr class="separator:a39a031bf59eaa9b33e30e614610dcda8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae25a81ce7f997ab7167ab23daec18183"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcs__single__step_8h.html#ae25a81ce7f997ab7167ab23daec18183">xcs_single_decision</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structSET.html">SET</a> *mset, <a class="el" href="structSET.html">SET</a> *kset, const double *x)</td></tr>
 <tr class="memdesc:ae25a81ce7f997ab7167ab23daec18183"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs the match set and selects an action to perform.  <a href="#ae25a81ce7f997ab7167ab23daec18183">More...</a><br /></td></tr>
@@ -172,7 +172,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The selected action. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="xcs__single__step_8c_source.html#l00113">113</a> of file <a class="el" href="xcs__single__step_8c_source.html">xcs_single_step.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xcs__single__step_8c_source.html#l00108">108</a> of file <a class="el" href="xcs__single__step_8c_source.html">xcs_single_step.c</a>.</p>
 
 <p class="reference">References <a class="el" href="clset_8c_source.html#l00196">clset_match()</a>, <a class="el" href="xcsf_8h_source.html#l00108">XCSF::P_EXPLORE</a>, <a class="el" href="pa_8c_source.html#l00075">pa_best_action()</a>, <a class="el" href="pa_8c_source.html#l00049">pa_build()</a>, <a class="el" href="pa_8c_source.html#l00091">pa_rand_action()</a>, <a class="el" href="utils_8c_source.html#l00073">rand_uniform()</a>, and <a class="el" href="xcsf_8h_source.html#l00197">XCSF::train</a>.</p>
 
@@ -228,7 +228,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The system prediction error. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="xcs__single__step_8c_source.html#l00146">146</a> of file <a class="el" href="xcs__single__step_8c_source.html">xcs_single_step.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xcs__single__step_8c_source.html#l00141">141</a> of file <a class="el" href="xcs__single__step_8c_source.html">xcs_single_step.c</a>.</p>
 
 <p class="reference">References <a class="el" href="pa_8c_source.html#l00105">pa_best_val()</a>.</p>
 
@@ -264,14 +264,14 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Executes a single-step experiment. </p>
+<p>Executes a single-step reinforcement learning experiment. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>The mean prediction error. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The mean accuracy. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="xcs__single__step_8c_source.html#l00046">46</a> of file <a class="el" href="xcs__single__step_8c_source.html">xcs_single_step.c</a>.</p>
 
@@ -363,7 +363,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="xcs__single__step_8c_source.html#l00133">133</a> of file <a class="el" href="xcs__single__step_8c_source.html">xcs_single_step.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xcs__single__step_8c_source.html#l00128">128</a> of file <a class="el" href="xcs__single__step_8c_source.html">xcs_single_step.c</a>.</p>
 
 <p class="reference">References <a class="el" href="clset_8c_source.html#l00342">clset_action()</a>, <a class="el" href="clset_8c_source.html#l00402">clset_update()</a>, and <a class="el" href="ea_8c_source.html#l00051">ea()</a>.</p>
 

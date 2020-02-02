@@ -15,7 +15,7 @@ var searchData=
   ['xcs_5fsingle_5fstep_2ec',['xcs_single_step.c',['../xcs__single__step_8c.html',1,'']]],
   ['xcs_5fsingle_5fstep_2eh',['xcs_single_step.h',['../xcs__single__step_8h.html',1,'']]],
   ['xcs_5fsingle_5fstep_5fexp',['xcs_single_step_exp',['../xcs__single__step_8c.html#a39a031bf59eaa9b33e30e614610dcda8',1,'xcs_single_step_exp(XCSF *xcsf):&#160;xcs_single_step.c'],['../xcs__single__step_8h.html#a39a031bf59eaa9b33e30e614610dcda8',1,'xcs_single_step_exp(XCSF *xcsf):&#160;xcs_single_step.c']]],
-  ['xcs_5fsingle_5ftrial',['xcs_single_trial',['../xcs__single__step_8c.html#a3d1fd2472d35310800aed897219a65af',1,'xcs_single_step.c']]],
+  ['xcs_5fsingle_5ftrial',['xcs_single_trial',['../xcs__single__step_8c.html#a536ab4256e871e31959ea6e907455340',1,'xcs_single_step.c']]],
   ['xcs_5fsingle_5fupdate',['xcs_single_update',['../xcs__single__step_8c.html#afd31e5406eeef1fb9b244f635a0f0408',1,'xcs_single_update(XCSF *xcsf, const SET *mset, SET *aset, SET *kset, const double *x, int a, double r):&#160;xcs_single_step.c'],['../xcs__single__step_8h.html#afd31e5406eeef1fb9b244f635a0f0408',1,'xcs_single_update(XCSF *xcsf, const SET *mset, SET *aset, SET *kset, const double *x, int a, double r):&#160;xcs_single_step.c']]],
   ['xcsf',['XCSF',['../structXCSF.html',1,'XCSF'],['../xcsf_8h.html#a88fa7587df88c4f1ccfd8046f69f02e8',1,'XCSF():&#160;xcsf.h']]],
   ['xcsf_2ec',['xcsf.c',['../xcsf_8c.html',1,'']]],
