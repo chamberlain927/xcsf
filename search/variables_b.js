@@ -11,7 +11,7 @@ var searchData=
   ['maze',['maze',['../structENV__MAZE.html#a1a5feeb192a01da60c1f75d5cbae5920',1,'ENV_MAZE']]],
   ['mfrac',['mfrac',['../structXCSF.html#ac594b319e9ddce39f20d31b4e62d3ded',1,'XCSF']]],
   ['mrates',['mrates',['../sam_8c.html#a8eeba4cf3a046fef1598074faa1b6189',1,'sam.c']]],
-  ['mset',['mset',['../structXCS.html#a6292c9d48b7cad83d5e21a80cb8dbec7',1,'XCS']]],
+  ['mset',['mset',['../structXCSF.html#a823e3e2c9c12d6d9bbf5b5026c7279d3',1,'XCSF']]],
   ['msetsize',['msetsize',['../structXCSF.html#a0bf4923dbd0a75e220576049e083275a',1,'XCSF']]],
   ['mt',['mt',['../mt19937-64_8c.html#ab0784edcb38d3a800c6e9534fc00c7b2',1,'mt19937-64.c']]],
   ['mti',['mti',['../mt19937-64_8c.html#a0893639c022032e006e5b13378f7b4b2',1,'mt19937-64.c']]],

@@ -101,9 +101,9 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a3e63f4f98f4b3eb0de9a52a1abe1c225"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ea_8h.html#a3e63f4f98f4b3eb0de9a52a1abe1c225">ea</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structSET.html">SET</a> *set, <a class="el" href="structSET.html">SET</a> *kset)</td></tr>
-<tr class="memdesc:a3e63f4f98f4b3eb0de9a52a1abe1c225"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes the evolutionary algorithm (EA).  <a href="#a3e63f4f98f4b3eb0de9a52a1abe1c225">More...</a><br /></td></tr>
-<tr class="separator:a3e63f4f98f4b3eb0de9a52a1abe1c225"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae90a9b4131bb94462265b9c928499eb8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ea_8h.html#ae90a9b4131bb94462265b9c928499eb8">ea</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structSET.html">SET</a> *set)</td></tr>
+<tr class="memdesc:ae90a9b4131bb94462265b9c928499eb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes the evolutionary algorithm (EA).  <a href="#ae90a9b4131bb94462265b9c928499eb8">More...</a><br /></td></tr>
+<tr class="separator:ae90a9b4131bb94462265b9c928499eb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Evolutionary algorithm functions. </p>
@@ -113,8 +113,8 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition in file <a class="el" href="ea_8h_source.html">ea.h</a>.</p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="a3e63f4f98f4b3eb0de9a52a1abe1c225"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e63f4f98f4b3eb0de9a52a1abe1c225">&#9670;&nbsp;</a></span>ea()</h2>
+<a id="ae90a9b4131bb94462265b9c928499eb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae90a9b4131bb94462265b9c928499eb8">&#9670;&nbsp;</a></span>ea()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -129,13 +129,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="structSET.html">SET</a> *&#160;</td>
-          <td class="paramname"><em>set</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structSET.html">SET</a> *&#160;</td>
-          <td class="paramname"><em>kset</em>&#160;</td>
+          <td class="paramname"><em>set</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -150,26 +144,25 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
     <tr><td class="paramname">set</td><td>The set in which to run the EA. </td></tr>
-    <tr><td class="paramname">kset</td><td>A set to store deleted macro-classifiers for later memory removal. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="ea_8c_source.html#l00051">51</a> of file <a class="el" href="ea_8c_source.html">ea.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ea_8c_source.html#l00050">50</a> of file <a class="el" href="ea_8c_source.html">ea.c</a>.</p>
 
-<p class="reference">References <a class="el" href="cl_8c_source.html#l00071">cl_copy()</a>, <a class="el" href="cl_8c_source.html#l00400">cl_crossover()</a>, <a class="el" href="cl_8c_source.html#l00048">cl_init()</a>, <a class="el" href="cl_8c_source.html#l00370">cl_mutate()</a>, <a class="el" href="clset_8c_source.html#l00582">clset_mean_time()</a>, <a class="el" href="clset_8c_source.html#l00178">clset_pop_enforce_limit()</a>, <a class="el" href="clset_8c_source.html#l00537">clset_set_times()</a>, <a class="el" href="ea_8c_source.html#l00125">ea_add()</a>, <a class="el" href="ea_8c_source.html#l00097">ea_init_offspring()</a>, <a class="el" href="ea_8c_source.html#l00191">ea_select_parents()</a>, <a class="el" href="xcsf_8h_source.html#l00133">XCSF::LAMBDA</a>, <a class="el" href="xcsf_8h_source.html#l00057">CL::mu</a>, <a class="el" href="sam_8c_source.html#l00077">sam_adapt()</a>, <a class="el" href="xcsf_8h_source.html#l00062">CL::size</a>, <a class="el" href="xcsf_8h_source.html#l00132">XCSF::THETA_EA</a>, <a class="el" href="xcsf_8h_source.html#l00063">CL::time</a>, and <a class="el" href="xcsf_8h_source.html#l00093">XCSF::time</a>.</p>
+<p class="reference">References <a class="el" href="cl_8c_source.html#l00071">cl_copy()</a>, <a class="el" href="cl_8c_source.html#l00400">cl_crossover()</a>, <a class="el" href="cl_8c_source.html#l00048">cl_init()</a>, <a class="el" href="cl_8c_source.html#l00370">cl_mutate()</a>, <a class="el" href="clset_8c_source.html#l00553">clset_mean_time()</a>, <a class="el" href="clset_8c_source.html#l00169">clset_pop_enforce_limit()</a>, <a class="el" href="clset_8c_source.html#l00513">clset_set_times()</a>, <a class="el" href="ea_8c_source.html#l00124">ea_add()</a>, <a class="el" href="ea_8c_source.html#l00096">ea_init_offspring()</a>, <a class="el" href="ea_8c_source.html#l00190">ea_select_parents()</a>, <a class="el" href="xcsf_8h_source.html#l00138">XCSF::LAMBDA</a>, <a class="el" href="xcsf_8h_source.html#l00057">CL::mu</a>, <a class="el" href="sam_8c_source.html#l00077">sam_adapt()</a>, <a class="el" href="xcsf_8h_source.html#l00062">CL::size</a>, <a class="el" href="xcsf_8h_source.html#l00137">XCSF::THETA_EA</a>, <a class="el" href="xcsf_8h_source.html#l00063">CL::time</a>, and <a class="el" href="xcsf_8h_source.html#l00098">XCSF::time</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="xcs__multi__step_8c_source.html#l00078">xcs_multi_trial()</a>, <a class="el" href="xcs__single__step_8c_source.html#l00128">xcs_single_update()</a>, and <a class="el" href="xcsf_8c_source.html#l00133">xcsf_trial()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="xcs__multi__step_8c_source.html#l00078">xcs_multi_trial()</a>, <a class="el" href="xcs__single__step_8c_source.html#l00137">xcs_single_update()</a>, and <a class="el" href="xcsf_8c_source.html#l00145">xcsf_trial()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="ea_8h_a3e63f4f98f4b3eb0de9a52a1abe1c225_cgraph.svg" width="1710" height="950"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="ea_8h_ae90a9b4131bb94462265b9c928499eb8_cgraph.svg" width="1710" height="950"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="ea_8h_a3e63f4f98f4b3eb0de9a52a1abe1c225_icgraph.svg" width="1010" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="ea_8h_ae90a9b4131bb94462265b9c928499eb8_icgraph.svg" width="1010" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 

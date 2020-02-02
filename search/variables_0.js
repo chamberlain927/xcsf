@@ -20,5 +20,5 @@ var searchData=
   ['action',['action',['../structXCS.html#ab15ea71a709a43dec56cac1a2eebebcc',1,'XCS::action()'],['../structCL.html#a014cd367304cd8e6093e827b1517dfd1',1,'CL::action()']]],
   ['age',['age',['../structCL.html#af9c2de55d24975ff050b430b164825ce',1,'CL']]],
   ['alpha',['ALPHA',['../structXCSF.html#aab84d855d797f15ffbd6feab2d615e30',1,'XCSF']]],
-  ['aset',['aset',['../structXCS.html#ae9a88afa19d851ec744c542f693f2249',1,'XCS']]]
+  ['aset',['aset',['../structXCSF.html#a7283bb9a6642f19818c62630a28f2bee',1,'XCSF']]]
 ];

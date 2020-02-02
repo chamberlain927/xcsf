@@ -44,6 +44,7 @@ var searchData=
   ['pred_5fx0',['PRED_X0',['../structXCSF.html#a21249fc82c1082f993b7e5e6bfbebf54',1,'XCSF']]],
   ['prediction',['prediction',['../structCL.html#a51b08df4ebc5fe2f7307a4c80bba29e3',1,'CL']]],
   ['prev',['prev',['../structLLIST.html#a930899798aa970fdb7b7a7323f964c82',1,'LLIST']]],
+  ['prev_5faset',['prev_aset',['../structXCSF.html#a55236eae9d5986ca072d3f34ea1fb4dd',1,'XCSF']]],
   ['probability',['probability',['../structLAYER.html#ae2e5f0a3c65acd933c1405f161afc430',1,'LAYER']]],
   ['pset',['pset',['../structXCSF.html#aab2d6bccf73f89ea3e20fbcf0a31e513',1,'XCSF']]]
 ];

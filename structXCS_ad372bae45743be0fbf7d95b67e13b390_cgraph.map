@@ -1,32 +1,33 @@
 <map id="XCS::xcs_init" name="XCS::xcs_init">
-<area shape="rect" id="node2" href="$clset_8c.html#a7feb00168d3dbd1d0597301029aed664" title="Initialises a new set. " alt="" coords="159,537,234,564"/>
-<area shape="rect" id="node3" href="$config_8c.html#a37df9fe8af1e1583876040747eeee030" title="Initialises global constants and reads the specified configuration file. " alt="" coords="156,588,237,615"/>
-<area shape="rect" id="node4" href="$config_8c.html#a9948d2908366d72fbb1c6feb609b3d4f" title="Reads the specified configuration file. " alt="" coords="314,56,403,83"/>
-<area shape="rect" id="node8" href="$config_8c.html#a4c74c2f130c3fda846bc707b3c1467c1" title="Frees the config file parameter list. " alt="" coords="309,233,408,260"/>
-<area shape="rect" id="node9" href="$loss_8c.html#a1accbbfc21d6eefe2d2cb676497953f6" title="Sets the XCSF error function to the implemented function. " alt="" coords="307,284,410,311"/>
-<area shape="rect" id="node16" href="$config_8c.html#a39ac19705915795f1f3daefebf96e37d" title="Initialises classifier action parameters. " alt="" coords="483,411,607,437"/>
-<area shape="rect" id="node18" href="$config_8c.html#a165dae50e0b9f879753798bea405c7e0" title="Initialises classifier condition parameters. " alt="" coords="288,512,429,539"/>
-<area shape="rect" id="node20" href="$config_8c.html#adc175ba379a3169ae3bc6df1a31b0d0f" title="Initialises general classifier parameters. " alt="" coords="480,613,611,640"/>
-<area shape="rect" id="node21" href="$config_8c.html#a9e94168e46b659d4ae6962a05b8a34e7" title="Initialises classifier prediction parameters. " alt="" coords="286,563,431,589"/>
-<area shape="rect" id="node22" href="$config_8c.html#ae95254f43497b746fa5446cad160e21f" title="Initialises evolutionary algorithm parameters. " alt="" coords="315,664,402,691"/>
-<area shape="rect" id="node23" href="$config_8c.html#a0d7a055b73c24de7dd348448b75ea626" title="Initialises general system parameters. " alt="" coords="301,715,416,741"/>
-<area shape="rect" id="node24" href="$config_8c.html#aeedb9eacce33b5236623057f71df1ebb" title="Initialises multi&#45;step parameters. " alt="" coords="296,765,421,792"/>
-<area shape="rect" id="node25" href="$config_8c.html#abe7b908d3de0d9711545ecc150d91628" title="Initialises subsumption parameters. " alt="" coords="285,816,432,843"/>
-<area shape="rect" id="node26" href="$gp_8c.html#a262c601e1744b1d1c654f609a5138b94" title="Initialises the constants shared among all GP trees. " alt="" coords="307,867,410,893"/>
-<area shape="rect" id="node5" href="$config_8c.html#a3333848c96ebca04623dd04ce5be655b" title="Parses a line of the config file and adds to the list. " alt="" coords="490,5,601,32"/>
-<area shape="rect" id="node7" href="$config_8c.html#a0c81724e9bdc867a3dd41bafab67cbd3" title="Removes tabs/spaces/lf/cr. " alt="" coords="502,56,589,83"/>
-<area shape="rect" id="node6" href="$config_8c.html#ae2e1c63fec3382cc3dfe4b72c7a24db8" title="Adds a parameter to the list. " alt="" coords="659,5,781,32"/>
-<area shape="rect" id="node10" href="$loss_8c.html#a39395cf45199ace9d5d1417cea421ef1" title="Binary logistic log loss for binary&#45;class classification. " alt="" coords="489,107,601,133"/>
-<area shape="rect" id="node11" href="$loss_8c.html#ae77d02973678eda049e5c2d002443f8b" title="Logistic log loss for multi&#45;class classification. " alt="" coords="510,157,581,184"/>
-<area shape="rect" id="node12" href="$loss_8c.html#adccb11b8a1e21aae044940951c6da988" title="Mean absolute error loss function. " alt="" coords="506,208,585,235"/>
-<area shape="rect" id="node13" href="$loss_8c.html#ad3492e9d69c36471df1fbe572aee0ea7" title="Mean squared error loss function. " alt="" coords="681,309,759,336"/>
-<area shape="rect" id="node14" href="$loss_8c.html#ace95b144b0430b39e6a1486f73b2dfd8" title="One&#45;hot classification error. " alt="" coords="485,309,605,336"/>
-<area shape="rect" id="node15" href="$loss_8c.html#a8b9f770f00ca3c534690d727bc9d61ea" title="Root mean squared error loss function. " alt="" coords="504,360,587,387"/>
-<area shape="rect" id="node17" href="$config_8c.html#a10e65fe892d670b67552cef67eb86475" title="Returns the value of a specified parameter from the list. " alt="" coords="663,613,777,640"/>
-<area shape="rect" id="node19" href="$config_8c.html#a007b1540f14136a2b3cc8b85e4902466" title="Reads a csv list of ints into an array. " alt="" coords="490,512,601,539"/>
-<area shape="rect" id="node27" href="$utils_8c.html#ae42a9e1d467853befaa7922cfafed3bb" title="Returns a uniform random float [min,max]. " alt="" coords="497,867,594,893"/>
-<area shape="rect" id="node28" href="$utils_8c.html#a101d27cdda714b7f17a06224c65cac56" title="Returns a uniform random float [0,1]. " alt="" coords="693,867,747,893"/>
-<area shape="rect" id="node29" href="$mt19937-64_8c.html#aa0b74daf51eca91df224d00f1730084a" title="genrand64_real1" alt="" coords="829,867,947,893"/>
-<area shape="rect" id="node30" href="$mt19937-64_8c.html#a265bf48d20d6e0347371fcf4fe340e6d" title="genrand64_int64" alt="" coords="995,867,1112,893"/>
-<area shape="rect" id="node31" href="$mt19937-64_8c.html#adf4127d44c2dc34fcb318d406131ef7c" title="init_genrand64" alt="" coords="1160,867,1267,893"/>
+<area shape="rect" id="node2" href="$config_8c.html#a37df9fe8af1e1583876040747eeee030" title="Initialises global constants and reads the specified configuration file. " alt="" coords="156,563,237,589"/>
+<area shape="rect" id="node31" href="$xcsf_8c.html#ac2cf4a27bb10f866b2e393a2804c8c33" title="Initialises XCSF with an empty population. " alt="" coords="161,740,232,767"/>
+<area shape="rect" id="node3" href="$config_8c.html#a9948d2908366d72fbb1c6feb609b3d4f" title="Reads the specified configuration file. " alt="" coords="314,107,403,133"/>
+<area shape="rect" id="node7" href="$config_8c.html#a4c74c2f130c3fda846bc707b3c1467c1" title="Frees the config file parameter list. " alt="" coords="309,284,408,311"/>
+<area shape="rect" id="node8" href="$loss_8c.html#a1accbbfc21d6eefe2d2cb676497953f6" title="Sets the XCSF error function to the implemented function. " alt="" coords="307,335,410,361"/>
+<area shape="rect" id="node15" href="$config_8c.html#a39ac19705915795f1f3daefebf96e37d" title="Initialises classifier action parameters. " alt="" coords="483,461,607,488"/>
+<area shape="rect" id="node17" href="$config_8c.html#a165dae50e0b9f879753798bea405c7e0" title="Initialises classifier condition parameters. " alt="" coords="288,563,429,589"/>
+<area shape="rect" id="node19" href="$config_8c.html#adc175ba379a3169ae3bc6df1a31b0d0f" title="Initialises general classifier parameters. " alt="" coords="480,512,611,539"/>
+<area shape="rect" id="node20" href="$config_8c.html#a9e94168e46b659d4ae6962a05b8a34e7" title="Initialises classifier prediction parameters. " alt="" coords="286,613,431,640"/>
+<area shape="rect" id="node21" href="$config_8c.html#ae95254f43497b746fa5446cad160e21f" title="Initialises evolutionary algorithm parameters. " alt="" coords="315,664,402,691"/>
+<area shape="rect" id="node22" href="$config_8c.html#a0d7a055b73c24de7dd348448b75ea626" title="Initialises general system parameters. " alt="" coords="301,715,416,741"/>
+<area shape="rect" id="node23" href="$config_8c.html#aeedb9eacce33b5236623057f71df1ebb" title="Initialises multi&#45;step parameters. " alt="" coords="296,765,421,792"/>
+<area shape="rect" id="node24" href="$config_8c.html#abe7b908d3de0d9711545ecc150d91628" title="Initialises subsumption parameters. " alt="" coords="285,816,432,843"/>
+<area shape="rect" id="node25" href="$gp_8c.html#a262c601e1744b1d1c654f609a5138b94" title="Initialises the constants shared among all GP trees. " alt="" coords="307,31,410,57"/>
+<area shape="rect" id="node4" href="$config_8c.html#a3333848c96ebca04623dd04ce5be655b" title="Parses a line of the config file and adds to the list. " alt="" coords="490,107,601,133"/>
+<area shape="rect" id="node6" href="$config_8c.html#a0c81724e9bdc867a3dd41bafab67cbd3" title="Removes tabs/spaces/lf/cr. " alt="" coords="502,56,589,83"/>
+<area shape="rect" id="node5" href="$config_8c.html#ae2e1c63fec3382cc3dfe4b72c7a24db8" title="Adds a parameter to the list. " alt="" coords="659,107,781,133"/>
+<area shape="rect" id="node9" href="$loss_8c.html#a39395cf45199ace9d5d1417cea421ef1" title="Binary logistic log loss for binary&#45;class classification. " alt="" coords="489,411,601,437"/>
+<area shape="rect" id="node10" href="$loss_8c.html#ae77d02973678eda049e5c2d002443f8b" title="Logistic log loss for multi&#45;class classification. " alt="" coords="510,157,581,184"/>
+<area shape="rect" id="node11" href="$loss_8c.html#adccb11b8a1e21aae044940951c6da988" title="Mean absolute error loss function. " alt="" coords="506,208,585,235"/>
+<area shape="rect" id="node12" href="$loss_8c.html#ad3492e9d69c36471df1fbe572aee0ea7" title="Mean squared error loss function. " alt="" coords="681,309,759,336"/>
+<area shape="rect" id="node13" href="$loss_8c.html#ace95b144b0430b39e6a1486f73b2dfd8" title="One&#45;hot classification error. " alt="" coords="485,309,605,336"/>
+<area shape="rect" id="node14" href="$loss_8c.html#a8b9f770f00ca3c534690d727bc9d61ea" title="Root mean squared error loss function. " alt="" coords="504,360,587,387"/>
+<area shape="rect" id="node16" href="$config_8c.html#a10e65fe892d670b67552cef67eb86475" title="Returns the value of a specified parameter from the list. " alt="" coords="663,664,777,691"/>
+<area shape="rect" id="node18" href="$config_8c.html#a007b1540f14136a2b3cc8b85e4902466" title="Reads a csv list of ints into an array. " alt="" coords="490,613,601,640"/>
+<area shape="rect" id="node26" href="$utils_8c.html#ae42a9e1d467853befaa7922cfafed3bb" title="Returns a uniform random float [min,max]. " alt="" coords="497,5,594,32"/>
+<area shape="rect" id="node27" href="$utils_8c.html#a101d27cdda714b7f17a06224c65cac56" title="Returns a uniform random float [0,1]. " alt="" coords="693,5,747,32"/>
+<area shape="rect" id="node28" href="$mt19937-64_8c.html#aa0b74daf51eca91df224d00f1730084a" title="genrand64_real1" alt="" coords="829,5,947,32"/>
+<area shape="rect" id="node29" href="$mt19937-64_8c.html#a265bf48d20d6e0347371fcf4fe340e6d" title="genrand64_int64" alt="" coords="995,5,1112,32"/>
+<area shape="rect" id="node30" href="$mt19937-64_8c.html#adf4127d44c2dc34fcb318d406131ef7c" title="init_genrand64" alt="" coords="1160,5,1267,32"/>
+<area shape="rect" id="node32" href="$clset_8c.html#a23c23122a8e68a161d3511b995591075" title="Initialises a new set. " alt="" coords="321,867,396,893"/>
 </map>

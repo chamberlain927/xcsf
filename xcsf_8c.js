@@ -2,6 +2,7 @@ var xcsf_8c =
 [
     [ "xcsf_fit1", "xcsf_8c.html#afd4a983899f1980887b8375e40b32a72", null ],
     [ "xcsf_fit2", "xcsf_8c.html#a40f4dfe69c6480f25c55d21c44746eb8", null ],
+    [ "xcsf_init", "xcsf_8c.html#ac2cf4a27bb10f866b2e393a2804c8c33", null ],
     [ "xcsf_load", "xcsf_8c.html#af419720749752a7b5596f9def871a71c", null ],
     [ "xcsf_load_params", "xcsf_8c.html#a842f021b7221803c5fabca534a4b02c0", null ],
     [ "xcsf_predict", "xcsf_8c.html#a90b938e4ae2ef92284e8eabfcf4b7b7b", null ],

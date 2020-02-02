@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['ea',['ea',['../ea_8c.html#a3e63f4f98f4b3eb0de9a52a1abe1c225',1,'ea(XCSF *xcsf, const SET *set, SET *kset):&#160;ea.c'],['../ea_8h.html#a3e63f4f98f4b3eb0de9a52a1abe1c225',1,'ea(XCSF *xcsf, const SET *set, SET *kset):&#160;ea.c']]],
+  ['ea',['ea',['../ea_8c.html#ae90a9b4131bb94462265b9c928499eb8',1,'ea(XCSF *xcsf, const SET *set):&#160;ea.c'],['../ea_8h.html#ae90a9b4131bb94462265b9c928499eb8',1,'ea(XCSF *xcsf, const SET *set):&#160;ea.c']]],
   ['ea_5fadd',['ea_add',['../ea_8c.html#a72cd70b4efb82200d9c3004e1658a69c',1,'ea.c']]],
   ['ea_5finit_5foffspring',['ea_init_offspring',['../ea_8c.html#ac54076d982b898168a52da1998f3ab30',1,'ea.c']]],
   ['ea_5fselect_5fparents',['ea_select_parents',['../ea_8c.html#a5cd7c69a55f785aa0bfedcc146a322dd',1,'ea.c']]],

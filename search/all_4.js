@@ -1,7 +1,7 @@
 var searchData=
 [
   ['e_5fmutation',['E_MUTATION',['../structXCSF.html#a5c75cfd486e7ebe94565439fa38a75b5',1,'XCSF']]],
-  ['ea',['ea',['../ea_8c.html#a3e63f4f98f4b3eb0de9a52a1abe1c225',1,'ea(XCSF *xcsf, const SET *set, SET *kset):&#160;ea.c'],['../ea_8h.html#a3e63f4f98f4b3eb0de9a52a1abe1c225',1,'ea(XCSF *xcsf, const SET *set, SET *kset):&#160;ea.c']]],
+  ['ea',['ea',['../ea_8c.html#ae90a9b4131bb94462265b9c928499eb8',1,'ea(XCSF *xcsf, const SET *set):&#160;ea.c'],['../ea_8h.html#ae90a9b4131bb94462265b9c928499eb8',1,'ea(XCSF *xcsf, const SET *set):&#160;ea.c']]],
   ['ea_2ec',['ea.c',['../ea_8c.html',1,'']]],
   ['ea_2eh',['ea.h',['../ea_8h.html',1,'']]],
   ['ea_5fadd',['ea_add',['../ea_8c.html#a72cd70b4efb82200d9c3004e1658a69c',1,'ea.c']]],

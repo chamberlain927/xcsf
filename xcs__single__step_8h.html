@@ -107,12 +107,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a39a031bf59eaa9b33e30e614610dcda8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcs__single__step_8h.html#a39a031bf59eaa9b33e30e614610dcda8">xcs_single_step_exp</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
 <tr class="memdesc:a39a031bf59eaa9b33e30e614610dcda8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a single-step reinforcement learning experiment.  <a href="#a39a031bf59eaa9b33e30e614610dcda8">More...</a><br /></td></tr>
 <tr class="separator:a39a031bf59eaa9b33e30e614610dcda8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae25a81ce7f997ab7167ab23daec18183"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcs__single__step_8h.html#ae25a81ce7f997ab7167ab23daec18183">xcs_single_decision</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structSET.html">SET</a> *mset, <a class="el" href="structSET.html">SET</a> *kset, const double *x)</td></tr>
-<tr class="memdesc:ae25a81ce7f997ab7167ab23daec18183"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs the match set and selects an action to perform.  <a href="#ae25a81ce7f997ab7167ab23daec18183">More...</a><br /></td></tr>
-<tr class="separator:ae25a81ce7f997ab7167ab23daec18183"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd31e5406eeef1fb9b244f635a0f0408"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcs__single__step_8h.html#afd31e5406eeef1fb9b244f635a0f0408">xcs_single_update</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structSET.html">SET</a> *mset, <a class="el" href="structSET.html">SET</a> *aset, <a class="el" href="structSET.html">SET</a> *kset, const double *x, int a, double r)</td></tr>
-<tr class="memdesc:afd31e5406eeef1fb9b244f635a0f0408"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the action set, updates the classifiers and runs the EA.  <a href="#afd31e5406eeef1fb9b244f635a0f0408">More...</a><br /></td></tr>
-<tr class="separator:afd31e5406eeef1fb9b244f635a0f0408"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c1d53976f601ae3603aed34f0767c29"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcs__single__step_8h.html#a5c1d53976f601ae3603aed34f0767c29">xcs_single_decision</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, const double *x)</td></tr>
+<tr class="memdesc:a5c1d53976f601ae3603aed34f0767c29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs the match set and selects an action to perform.  <a href="#a5c1d53976f601ae3603aed34f0767c29">More...</a><br /></td></tr>
+<tr class="separator:a5c1d53976f601ae3603aed34f0767c29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd3a46a0461d4fcfbc60c4364bc99377"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcs__single__step_8h.html#acd3a46a0461d4fcfbc60c4364bc99377">xcs_single_free</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="memdesc:acd3a46a0461d4fcfbc60c4364bc99377"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees memory used by match, action, and kill sets.  <a href="#acd3a46a0461d4fcfbc60c4364bc99377">More...</a><br /></td></tr>
+<tr class="separator:acd3a46a0461d4fcfbc60c4364bc99377"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b3026fe84124f1e9d8aaa871a507b01"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcs__single__step_8h.html#a1b3026fe84124f1e9d8aaa871a507b01">xcs_single_init</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="memdesc:a1b3026fe84124f1e9d8aaa871a507b01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises match, action, and kill sets.  <a href="#a1b3026fe84124f1e9d8aaa871a507b01">More...</a><br /></td></tr>
+<tr class="separator:a1b3026fe84124f1e9d8aaa871a507b01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ff6b521f66224d56ef0e6f50f5781b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcs__single__step_8h.html#a0ff6b521f66224d56ef0e6f50f5781b9">xcs_single_update</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, const double *x, int action, double reward)</td></tr>
+<tr class="memdesc:a0ff6b521f66224d56ef0e6f50f5781b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the action set, updates the classifiers and runs the EA.  <a href="#a0ff6b521f66224d56ef0e6f50f5781b9">More...</a><br /></td></tr>
+<tr class="separator:a0ff6b521f66224d56ef0e6f50f5781b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Single-step reinforcement learning functions. </p>
@@ -122,8 +128,8 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition in file <a class="el" href="xcs__single__step_8h_source.html">xcs_single_step.h</a>.</p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="ae25a81ce7f997ab7167ab23daec18183"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae25a81ce7f997ab7167ab23daec18183">&#9670;&nbsp;</a></span>xcs_single_decision()</h2>
+<a id="a5c1d53976f601ae3603aed34f0767c29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c1d53976f601ae3603aed34f0767c29">&#9670;&nbsp;</a></span>xcs_single_decision()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133,18 +139,6 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
           <td class="paramname"><em>xcsf</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structSET.html">SET</a> *&#160;</td>
-          <td class="paramname"><em>mset</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structSET.html">SET</a> *&#160;</td>
-          <td class="paramname"><em>kset</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -164,29 +158,27 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
-    <tr><td class="paramname">mset</td><td>The match set. </td></tr>
-    <tr><td class="paramname">kset</td><td>A set to store deleted macro-classifiers for later memory removal. </td></tr>
     <tr><td class="paramname">x</td><td>The input state. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The selected action. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="xcs__single__step_8c_source.html#l00108">108</a> of file <a class="el" href="xcs__single__step_8c_source.html">xcs_single_step.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xcs__single__step_8c_source.html#l00120">120</a> of file <a class="el" href="xcs__single__step_8c_source.html">xcs_single_step.c</a>.</p>
 
-<p class="reference">References <a class="el" href="clset_8c_source.html#l00196">clset_match()</a>, <a class="el" href="xcsf_8h_source.html#l00108">XCSF::P_EXPLORE</a>, <a class="el" href="pa_8c_source.html#l00075">pa_best_action()</a>, <a class="el" href="pa_8c_source.html#l00049">pa_build()</a>, <a class="el" href="pa_8c_source.html#l00091">pa_rand_action()</a>, <a class="el" href="utils_8c_source.html#l00073">rand_uniform()</a>, and <a class="el" href="xcsf_8h_source.html#l00197">XCSF::train</a>.</p>
+<p class="reference">References <a class="el" href="clset_8c_source.html#l00184">clset_match()</a>, <a class="el" href="xcsf_8h_source.html#l00113">XCSF::P_EXPLORE</a>, <a class="el" href="pa_8c_source.html#l00074">pa_best_action()</a>, <a class="el" href="pa_8c_source.html#l00048">pa_build()</a>, <a class="el" href="pa_8c_source.html#l00090">pa_rand_action()</a>, <a class="el" href="utils_8c_source.html#l00073">rand_uniform()</a>, and <a class="el" href="xcsf_8h_source.html#l00202">XCSF::train</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00148">XCS::single_decision()</a>, and <a class="el" href="xcs__single__step_8c_source.html#l00078">xcs_single_trial()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00125">XCS::single_decision()</a>, and <a class="el" href="xcs__single__step_8c_source.html#l00078">xcs_single_trial()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__single__step_8h_ae25a81ce7f997ab7167ab23daec18183_cgraph.svg" width="2142" height="648"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__single__step_8h_a5c1d53976f601ae3603aed34f0767c29_cgraph.svg" width="2142" height="648"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__single__step_8h_ae25a81ce7f997ab7167ab23daec18183_icgraph.svg" width="686" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__single__step_8h_a5c1d53976f601ae3603aed34f0767c29_icgraph.svg" width="686" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -228,11 +220,11 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The system prediction error. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="xcs__single__step_8c_source.html#l00141">141</a> of file <a class="el" href="xcs__single__step_8c_source.html">xcs_single_step.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xcs__single__step_8c_source.html#l00150">150</a> of file <a class="el" href="xcs__single__step_8c_source.html">xcs_single_step.c</a>.</p>
 
-<p class="reference">References <a class="el" href="pa_8c_source.html#l00105">pa_best_val()</a>.</p>
+<p class="reference">References <a class="el" href="pa_8c_source.html#l00104">pa_best_val()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00159">XCS::single_error()</a>, and <a class="el" href="xcs__single__step_8c_source.html#l00078">xcs_single_trial()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00136">XCS::single_error()</a>, and <a class="el" href="xcs__single__step_8c_source.html#l00078">xcs_single_trial()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -243,6 +235,94 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="xcs__single__step_8h_a51a3b271605184cd935395cfba646a38_icgraph.svg" width="643" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="acd3a46a0461d4fcfbc60c4364bc99377"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd3a46a0461d4fcfbc60c4364bc99377">&#9670;&nbsp;</a></span>xcs_single_free()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void xcs_single_free </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Frees memory used by match, action, and kill sets. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="xcs__single__step_8c_source.html#l00107">107</a> of file <a class="el" href="xcs__single__step_8c_source.html">xcs_single_step.c</a>.</p>
+
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00094">XCSF::aset</a>, <a class="el" href="clset_8c_source.html#l00562">clset_free()</a>, <a class="el" href="clset_8c_source.html#l00579">clset_kill()</a>, <a class="el" href="xcsf_8h_source.html#l00095">XCSF::kset</a>, and <a class="el" href="xcsf_8h_source.html#l00093">XCSF::mset</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00118">XCS::single_reset()</a>, and <a class="el" href="xcs__single__step_8c_source.html#l00078">xcs_single_trial()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__single__step_8h_acd3a46a0461d4fcfbc60c4364bc99377_cgraph.svg" width="487" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__single__step_8h_acd3a46a0461d4fcfbc60c4364bc99377_icgraph.svg" width="642" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a1b3026fe84124f1e9d8aaa871a507b01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b3026fe84124f1e9d8aaa871a507b01">&#9670;&nbsp;</a></span>xcs_single_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void xcs_single_init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialises match, action, and kill sets. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="xcs__single__step_8c_source.html#l00097">97</a> of file <a class="el" href="xcs__single__step_8c_source.html">xcs_single_step.c</a>.</p>
+
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00094">XCSF::aset</a>, <a class="el" href="clset_8c_source.html#l00069">clset_init()</a>, <a class="el" href="xcsf_8h_source.html#l00095">XCSF::kset</a>, and <a class="el" href="xcsf_8h_source.html#l00093">XCSF::mset</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00063">XCS::XCS()</a>, and <a class="el" href="xcs__single__step_8c_source.html#l00078">xcs_single_trial()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__single__step_8h_a1b3026fe84124f1e9d8aaa871a507b01_cgraph.svg" width="242" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__single__step_8h_a1b3026fe84124f1e9d8aaa871a507b01_icgraph.svg" width="570" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -275,13 +355,13 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="xcs__single__step_8c_source.html#l00046">46</a> of file <a class="el" href="xcs__single__step_8c_source.html">xcs_single_step.c</a>.</p>
 
-<p class="reference">References <a class="el" href="perf_8c_source.html#l00253">disp_perf2()</a>, <a class="el" href="perf_8c_source.html#l00050">gplot_free()</a>, <a class="el" href="perf_8c_source.html#l00041">gplot_init()</a>, <a class="el" href="xcsf_8h_source.html#l00100">XCSF::MAX_TRIALS</a>, <a class="el" href="pa_8c_source.html#l00135">pa_free()</a>, <a class="el" href="pa_8c_source.html#l00037">pa_init()</a>, <a class="el" href="xcsf_8h_source.html#l00101">XCSF::PERF_TRIALS</a>, and <a class="el" href="xcs__single__step_8c_source.html#l00078">xcs_single_trial()</a>.</p>
+<p class="reference">References <a class="el" href="perf_8c_source.html#l00253">disp_perf2()</a>, <a class="el" href="perf_8c_source.html#l00050">gplot_free()</a>, <a class="el" href="perf_8c_source.html#l00041">gplot_init()</a>, <a class="el" href="xcsf_8h_source.html#l00105">XCSF::MAX_TRIALS</a>, <a class="el" href="pa_8c_source.html#l00134">pa_free()</a>, <a class="el" href="pa_8c_source.html#l00037">pa_init()</a>, <a class="el" href="xcsf_8h_source.html#l00106">XCSF::PERF_TRIALS</a>, and <a class="el" href="xcs__single__step_8c_source.html#l00078">xcs_single_trial()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8c_source.html#l00041">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8c_source.html#l00037">main()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__single__step_8h_a39a031bf59eaa9b33e30e614610dcda8_cgraph.svg" width="2562" height="1992"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__single__step_8h_a39a031bf59eaa9b33e30e614610dcda8_cgraph.svg" width="2576" height="2075"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -293,8 +373,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="afd31e5406eeef1fb9b244f635a0f0408"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd31e5406eeef1fb9b244f635a0f0408">&#9670;&nbsp;</a></span>xcs_single_update()</h2>
+<a id="a0ff6b521f66224d56ef0e6f50f5781b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ff6b521f66224d56ef0e6f50f5781b9">&#9670;&nbsp;</a></span>xcs_single_update()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -308,24 +388,6 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structSET.html">SET</a> *&#160;</td>
-          <td class="paramname"><em>mset</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structSET.html">SET</a> *&#160;</td>
-          <td class="paramname"><em>aset</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structSET.html">SET</a> *&#160;</td>
-          <td class="paramname"><em>kset</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">const double *&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
@@ -333,13 +395,13 @@ Here is the caller graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
+          <td class="paramname"><em>action</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>r</em>&#160;</td>
+          <td class="paramname"><em>reward</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -353,31 +415,28 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
-    <tr><td class="paramname">mset</td><td>The match set. </td></tr>
-    <tr><td class="paramname">aset</td><td>The action set. </td></tr>
-    <tr><td class="paramname">kset</td><td>A set to store deleted macro-classifiers for later memory removal. </td></tr>
     <tr><td class="paramname">x</td><td>The input state. </td></tr>
-    <tr><td class="paramname">a</td><td>The action selected. </td></tr>
-    <tr><td class="paramname">r</td><td>The reward from performing the action. </td></tr>
+    <tr><td class="paramname">action</td><td>The action selected. </td></tr>
+    <tr><td class="paramname">reward</td><td>The reward from performing the action. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="xcs__single__step_8c_source.html#l00128">128</a> of file <a class="el" href="xcs__single__step_8c_source.html">xcs_single_step.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="xcs__single__step_8c_source.html#l00137">137</a> of file <a class="el" href="xcs__single__step_8c_source.html">xcs_single_step.c</a>.</p>
 
-<p class="reference">References <a class="el" href="clset_8c_source.html#l00342">clset_action()</a>, <a class="el" href="clset_8c_source.html#l00402">clset_update()</a>, and <a class="el" href="ea_8c_source.html#l00051">ea()</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00094">XCSF::aset</a>, <a class="el" href="clset_8c_source.html#l00326">clset_action()</a>, <a class="el" href="clset_8c_source.html#l00381">clset_update()</a>, and <a class="el" href="ea_8c_source.html#l00050">ea()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00155">XCS::single_update()</a>, and <a class="el" href="xcs__single__step_8c_source.html#l00078">xcs_single_trial()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="python__wrapper_8cpp_source.html#l00132">XCS::single_update()</a>, and <a class="el" href="xcs__single__step_8c_source.html#l00078">xcs_single_trial()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__single__step_8h_afd31e5406eeef1fb9b244f635a0f0408_cgraph.svg" width="2019" height="1406"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__single__step_8h_a0ff6b521f66224d56ef0e6f50f5781b9_cgraph.svg" width="2019" height="1406"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__single__step_8h_afd31e5406eeef1fb9b244f635a0f0408_icgraph.svg" width="670" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="xcs__single__step_8h_a0ff6b521f66224d56ef0e6f50f5781b9_icgraph.svg" width="670" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 

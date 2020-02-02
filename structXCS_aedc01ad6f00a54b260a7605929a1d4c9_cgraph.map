@@ -1,11 +1,11 @@
 <map id="XCS::single_update" name="XCS::single_update">
-<area shape="rect" id="node2" href="$xcs__single__step_8c.html#afd31e5406eeef1fb9b244f635a0f0408" title="Creates the action set, updates the classifiers and runs the EA. " alt="" coords="192,1019,323,1045"/>
-<area shape="rect" id="node3" href="$clset_8c.html#aee921e1e9e60433b1435edc37b454283" title="Constructs the action set. " alt="" coords="371,1196,463,1223"/>
-<area shape="rect" id="node5" href="$clset_8c.html#a75a41281822e032413356a4b7b353559" title="Provides reinforcement to the set and performs set subsumption. " alt="" coords="542,309,638,336"/>
-<area shape="rect" id="node23" href="$ea_8c.html#a3e63f4f98f4b3eb0de9a52a1abe1c225" title="Executes the evolutionary algorithm (EA). " alt="" coords="397,1019,436,1045"/>
-<area shape="rect" id="node4" href="$clset_8c.html#a73ab8d4cc3a3e4f70561c7f5bf20c265" title="Adds a classifier to the set. " alt="" coords="937,1019,1015,1045"/>
+<area shape="rect" id="node2" href="$xcs__single__step_8c.html#a0ff6b521f66224d56ef0e6f50f5781b9" title="Creates the action set, updates the classifiers and runs the EA. " alt="" coords="192,1019,323,1045"/>
+<area shape="rect" id="node3" href="$clset_8c.html#a619c29b16e98c286a1eb5c749b2320ba" title="Constructs the action set from the match set. " alt="" coords="371,1196,463,1223"/>
+<area shape="rect" id="node5" href="$clset_8c.html#add82b1503285b43b57b320ea3ef78a85" title="Provides reinforcement to the set and performs set subsumption. " alt="" coords="542,309,638,336"/>
+<area shape="rect" id="node23" href="$ea_8c.html#ae90a9b4131bb94462265b9c928499eb8" title="Executes the evolutionary algorithm (EA). " alt="" coords="397,1019,436,1045"/>
+<area shape="rect" id="node4" href="$clset_8c.html#ae702f77855a5f1c42a8177f197706aee" title="Adds a classifier to the set. " alt="" coords="937,1019,1015,1045"/>
 <area shape="rect" id="node6" href="$cl_8c.html#ad3ef5eea9801c3b8c38ad8e5e2141dc0" title="Updates the classifier&#39;s parameters as well as condition, action, and prediction depending on the kno..." alt="" coords="743,157,822,184"/>
-<area shape="rect" id="node14" href="$clset_8c.html#a94421523353ff7ff3f31617d9230f3f1" title="Performs set subsumption. " alt="" coords="717,461,848,488"/>
+<area shape="rect" id="node14" href="$clset_8c.html#aa301d85075acc82499cb031066d89778" title="Performs set subsumption. " alt="" coords="717,461,848,488"/>
 <area shape="rect" id="node20" href="$clset_8c.html#a3e394aed756c0bd4b95c4336bfb05a51" title="Updates the fitness of classifiers in the set. " alt="" coords="725,309,840,336"/>
 <area shape="rect" id="node7" href="$action_8h.html#a9d77d15e43830f8fb07e4e142d8cc176" title="act_update" alt="" coords="933,5,1019,32"/>
 <area shape="rect" id="node8" href="$cl_8c.html#a2e37895c1cc585b83805af74061afa46" title="Computes the current classifier payoff prediction using the input. " alt="" coords="937,56,1015,83"/>
@@ -16,7 +16,7 @@
 <area shape="rect" id="node9" href="$prediction_8h.html#a98a959a3e1a7e5e353c39a561efd666c" title="pred_compute" alt="" coords="1131,56,1235,83"/>
 <area shape="rect" id="node15" href="$cl_8c.html#a115dd8287f1fdd3480bc158321e8a842" title="Returns whether classifier c1 is more general than c2. " alt="" coords="935,740,1017,767"/>
 <area shape="rect" id="node18" href="$cl_8c.html#aad679eb45e1e1d79608ebb80e3d7810f" title="Returns whether the classifier is a potential subsumer. " alt="" coords="928,660,1024,687"/>
-<area shape="rect" id="node19" href="$clset_8c.html#a7ec1121fd19ff524f19b46ffa0522dd9" title="Removes classifiers with 0 numerosity from the set. " alt="" coords="925,601,1027,628"/>
+<area shape="rect" id="node19" href="$clset_8c.html#a1ae9e544f97c9141ff4e6ed14420711f" title="Removes classifiers with 0 numerosity from the set. " alt="" coords="925,601,1027,628"/>
 <area shape="rect" id="node16" href="$action_8h.html#aad1e1ac50032c52933294c49302a87f2" title="act_general" alt="" coords="1139,765,1228,792"/>
 <area shape="rect" id="node17" href="$condition_8h.html#a751e1163d6d37a93c12ee96c6dfce53b" title="cond_general" alt="" coords="1134,715,1233,741"/>
 <area shape="rect" id="node21" href="$cl_8c.html#aa9e4cefb1025b76d5124d7a08f496d7b" title="Returns the accuracy of the classifier. " alt="" coords="946,360,1006,387"/>
@@ -25,8 +25,8 @@
 <area shape="rect" id="node30" href="$cl_8c.html#aca8d32cc95a6a4193e11d0833143e3ac" title="Performs classifier crossover. " alt="" coords="542,841,638,868"/>
 <area shape="rect" id="node34" href="$cl_8c.html#ab45c6f772a335d0a4fdb753a61958744" title="Initialises a new classifier. " alt="" coords="562,499,618,525"/>
 <area shape="rect" id="node45" href="$cl_8c.html#aaea4bc2d0f73fe1b11c80cc7127880d8" title="Performs classifier mutation. " alt="" coords="551,1019,629,1045"/>
-<area shape="rect" id="node49" href="$clset_8c.html#a6bc763da1f89d984ccb332ebc9ce32dd" title="Calculates the mean time stamp of classifiers in the set. " alt="" coords="529,1069,651,1096"/>
-<area shape="rect" id="node51" href="$clset_8c.html#ad87086ed11e5fdd6bffe41b8a34f3608" title="Enforces the maximum population size limit. " alt="" coords="511,1221,669,1248"/>
+<area shape="rect" id="node49" href="$clset_8c.html#a736bb7f57fe81a34903bcd994947a762" title="Calculates the mean time stamp of classifiers in the set. " alt="" coords="529,1069,651,1096"/>
+<area shape="rect" id="node51" href="$clset_8c.html#aa9a3c8630ce227b87a65c6e624430c99" title="Enforces the maximum population size limit. " alt="" coords="511,1221,669,1248"/>
 <area shape="rect" id="node61" href="$clset_8c.html#a19b5e85105f5f5cb203fca3a89de6942" title="Sets the time stamps for classifiers in the set. " alt="" coords="533,1171,647,1197"/>
 <area shape="rect" id="node62" href="$ea_8c.html#a72cd70b4efb82200d9c3004e1658a69c" title="Adds offspring to the population. " alt="" coords="558,968,622,995"/>
 <area shape="rect" id="node69" href="$ea_8c.html#ac54076d982b898168a52da1998f3ab30" title="Initialises offspring error and fitness. " alt="" coords="531,1272,649,1299"/>
@@ -53,14 +53,14 @@
 <area shape="rect" id="node46" href="$action_8h.html#aa84fd143a0383b4a653c63a2f7b49d42" title="act_mutate" alt="" coords="739,1069,826,1096"/>
 <area shape="rect" id="node47" href="$condition_8h.html#a4ef93540f4346bdc4646d836238d29cf" title="cond_mutate" alt="" coords="734,1120,831,1147"/>
 <area shape="rect" id="node48" href="$prediction_8h.html#a47a713568a6631efffbffcdbbe832962" title="pred_mutate" alt="" coords="735,1171,830,1197"/>
-<area shape="rect" id="node50" href="$clset_8c.html#a5ccd3b61967f57ba12a3c0a4ac31099f" title="Calculates the total time stamps of classifiers in the set. " alt="" coords="725,1221,840,1248"/>
-<area shape="rect" id="node52" href="$clset_8c.html#a6dae2bd49bceef5337bcad19010098f8" title="Deletes a single classifier from the population set. " alt="" coords="731,1373,834,1400"/>
+<area shape="rect" id="node50" href="$clset_8c.html#a8bef7138e69134e2a85d7f0676aa58f5" title="Calculates the total time stamps of classifiers in the set. " alt="" coords="725,1221,840,1248"/>
+<area shape="rect" id="node52" href="$clset_8c.html#ab1434372d7fab6e40f3c8d898d20e025" title="Deletes a single classifier from the population set. " alt="" coords="731,1373,834,1400"/>
 <area shape="rect" id="node53" href="$clset_8c.html#af899fada328f41ed56991a51fe80db17" title="Finds a rule in the population that never matches an input. " alt="" coords="896,1323,1056,1349"/>
 <area shape="rect" id="node54" href="$clset_8c.html#a008502b88c280aa55bb9a3645216209c" title="clset_pop_roulette" alt="" coords="1119,1196,1247,1223"/>
 <area shape="rect" id="node55" href="$cl_8c.html#a49f5a7f4f2f47ce1cf7f33b3769de7cc" title="Returns the size of the classifier condition. " alt="" coords="1339,1272,1438,1299"/>
 <area shape="rect" id="node57" href="$cl_8c.html#aa0059f455cba46b3a1acb6b8a271b95f" title="Returns the deletion vote of the classifier. " alt="" coords="1345,1171,1433,1197"/>
 <area shape="rect" id="node58" href="$cl_8c.html#a72d3cf213699a8d68d348ff75c2b2d49" title="Returns the size of the classifier prediction. " alt="" coords="1341,1221,1436,1248"/>
-<area shape="rect" id="node60" href="$clset_8c.html#a9a50c1393921d731b6840a654c366fb8" title="Calculates the total fitness of classifiers in the set. " alt="" coords="1339,1069,1439,1096"/>
+<area shape="rect" id="node60" href="$clset_8c.html#aff1b530c481a2283ff4293449d1f8305" title="Calculates the total fitness of classifiers in the set. " alt="" coords="1339,1069,1439,1096"/>
 <area shape="rect" id="node56" href="$condition_8h.html#afc882c8ebd96835127f8e611b815d447" title="cond_size" alt="" coords="1523,1272,1604,1299"/>
 <area shape="rect" id="node59" href="$prediction_8h.html#a60ead673b526125328224ec152916290" title="pred_size" alt="" coords="1524,1221,1603,1248"/>
 <area shape="rect" id="node63" href="$cl_8c.html#a2bba8869890a67c2412a358c8f3ec0b4" title="Frees the memory used by the classifier. " alt="" coords="945,943,1007,969"/>

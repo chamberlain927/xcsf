@@ -29,6 +29,7 @@ var xcsf_8h =
     [ "XCSF", "xcsf_8h.html#a88fa7587df88c4f1ccfd8046f69f02e8", null ],
     [ "xcsf_fit1", "xcsf_8h.html#afd4a983899f1980887b8375e40b32a72", null ],
     [ "xcsf_fit2", "xcsf_8h.html#a40f4dfe69c6480f25c55d21c44746eb8", null ],
+    [ "xcsf_init", "xcsf_8h.html#ac2cf4a27bb10f866b2e393a2804c8c33", null ],
     [ "xcsf_load", "xcsf_8h.html#af419720749752a7b5596f9def871a71c", null ],
     [ "xcsf_predict", "xcsf_8h.html#a90b938e4ae2ef92284e8eabfcf4b7b7b", null ],
     [ "xcsf_print_pop", "xcsf_8h.html#a84d6ba23771186ab252b9120f87f9eac", null ],
