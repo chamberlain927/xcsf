@@ -8,84 +8,84 @@
  viewBox="0.00 0.00 672.00 28.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 24)">
 <title>sam_log_normal_adapt</title>
-<!-- Node115 -->
+<!-- Node107 -->
 <g id="node1" class="node">
-<title>Node115</title>
+<title>Node107</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-.5 0,-19.5 117,-19.5 117,-.5 0,-.5"/>
 <text text-anchor="middle" x="58.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sam_log_normal_adapt</text>
 </g>
-<!-- Node116 -->
+<!-- Node108 -->
 <g id="node2" class="node">
-<title>Node116</title>
+<title>Node108</title>
 <g id="a_node2"><a xlink:href="utils_8c.html#aa57fc0f69e730ce0a348c25ee498643d" target="_top" xlink:title="Returns a normal random float with specified mean and standard deviation. ">
 <polygon fill="none" stroke="#000000" points="153,-.5 153,-19.5 223,-19.5 223,-.5 153,-.5"/>
 <text text-anchor="middle" x="188" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">rand_normal</text>
 </a>
 </g>
 </g>
-<!-- Node115&#45;&gt;Node116 -->
+<!-- Node107&#45;&gt;Node108 -->
 <g id="edge1" class="edge">
-<title>Node115&#45;&gt;Node116</title>
+<title>Node107&#45;&gt;Node108</title>
 <path fill="none" stroke="#191970" d="M117.1876,-10C125.7515,-10 134.4581,-10 142.7011,-10"/>
 <polygon fill="#191970" stroke="#191970" points="142.8487,-13.5001 152.8487,-10 142.8487,-6.5001 142.8487,-13.5001"/>
 </g>
-<!-- Node117 -->
+<!-- Node109 -->
 <g id="node3" class="node">
-<title>Node117</title>
+<title>Node109</title>
 <g id="a_node3"><a xlink:href="utils_8c.html#a101d27cdda714b7f17a06224c65cac56" target="_top" xlink:title="Returns a uniform random float [0,1]. ">
 <polygon fill="none" stroke="#000000" points="259,-.5 259,-19.5 300,-19.5 300,-.5 259,-.5"/>
 <text text-anchor="middle" x="279.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">drand</text>
 </a>
 </g>
 </g>
-<!-- Node116&#45;&gt;Node117 -->
+<!-- Node108&#45;&gt;Node109 -->
 <g id="edge2" class="edge">
-<title>Node116&#45;&gt;Node117</title>
+<title>Node108&#45;&gt;Node109</title>
 <path fill="none" stroke="#191970" d="M223.1146,-10C231.5247,-10 240.4424,-10 248.6434,-10"/>
 <polygon fill="#191970" stroke="#191970" points="248.9086,-13.5001 258.9086,-10 248.9086,-6.5001 248.9086,-13.5001"/>
 </g>
-<!-- Node118 -->
+<!-- Node110 -->
 <g id="node4" class="node">
-<title>Node118</title>
+<title>Node110</title>
 <g id="a_node4"><a xlink:href="mt19937-64_8c.html#aa0b74daf51eca91df224d00f1730084a" target="_top" xlink:title="genrand64_real1">
 <polygon fill="none" stroke="#000000" points="336,-.5 336,-19.5 424,-19.5 424,-.5 336,-.5"/>
 <text text-anchor="middle" x="380" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">genrand64_real1</text>
 </a>
 </g>
 </g>
-<!-- Node117&#45;&gt;Node118 -->
+<!-- Node109&#45;&gt;Node110 -->
 <g id="edge3" class="edge">
-<title>Node117&#45;&gt;Node118</title>
+<title>Node109&#45;&gt;Node110</title>
 <path fill="none" stroke="#191970" d="M300.3237,-10C307.8428,-10 316.7193,-10 325.769,-10"/>
 <polygon fill="#191970" stroke="#191970" points="325.9969,-13.5001 335.9969,-10 325.9969,-6.5001 325.9969,-13.5001"/>
 </g>
-<!-- Node119 -->
+<!-- Node111 -->
 <g id="node5" class="node">
-<title>Node119</title>
+<title>Node111</title>
 <g id="a_node5"><a xlink:href="mt19937-64_8c.html#a265bf48d20d6e0347371fcf4fe340e6d" target="_top" xlink:title="genrand64_int64">
 <polygon fill="none" stroke="#000000" points="460,-.5 460,-19.5 548,-19.5 548,-.5 460,-.5"/>
 <text text-anchor="middle" x="504" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">genrand64_int64</text>
 </a>
 </g>
 </g>
-<!-- Node118&#45;&gt;Node119 -->
+<!-- Node110&#45;&gt;Node111 -->
 <g id="edge4" class="edge">
-<title>Node118&#45;&gt;Node119</title>
+<title>Node110&#45;&gt;Node111</title>
 <path fill="none" stroke="#191970" d="M424.0669,-10C432.2822,-10 440.957,-10 449.4432,-10"/>
 <polygon fill="#191970" stroke="#191970" points="449.6572,-13.5001 459.6572,-10 449.6572,-6.5001 449.6572,-13.5001"/>
 </g>
-<!-- Node120 -->
+<!-- Node112 -->
 <g id="node6" class="node">
-<title>Node120</title>
+<title>Node112</title>
 <g id="a_node6"><a xlink:href="mt19937-64_8c.html#adf4127d44c2dc34fcb318d406131ef7c" target="_top" xlink:title="init_genrand64">
 <polygon fill="none" stroke="#000000" points="584,-.5 584,-19.5 664,-19.5 664,-.5 584,-.5"/>
 <text text-anchor="middle" x="624" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">init_genrand64</text>
 </a>
 </g>
 </g>
-<!-- Node119&#45;&gt;Node120 -->
+<!-- Node111&#45;&gt;Node112 -->
 <g id="edge5" class="edge">
-<title>Node119&#45;&gt;Node120</title>
+<title>Node111&#45;&gt;Node112</title>
 <path fill="none" stroke="#191970" d="M548.0022,-10C556.3719,-10 565.1896,-10 573.7365,-10"/>
 <polygon fill="#191970" stroke="#191970" points="573.9792,-13.5001 583.9792,-10 573.9792,-6.5001 573.9792,-13.5001"/>
 </g>

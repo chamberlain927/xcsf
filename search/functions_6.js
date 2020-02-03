@@ -93,8 +93,6 @@ var searchData=
   ['get_5ftheta_5fea',['get_theta_ea',['../structXCS.html#afd7b98a54b7b779f8ec20b9d1044b259',1,'XCS']]],
   ['get_5ftheta_5fsub',['get_theta_sub',['../structXCS.html#a23440843ffd9b9610983df06415875c0',1,'XCS']]],
   ['get_5ftime',['get_time',['../structXCS.html#ab7d5a6029cc29b32bbc39836300c6586',1,'XCS']]],
-  ['gplot_5ffree',['gplot_free',['../perf_8c.html#a2ae4c34e0bda704febb9e47ef49a9e4a',1,'gplot_free(const XCSF *xcsf):&#160;perf.c'],['../perf_8h.html#a2ae4c34e0bda704febb9e47ef49a9e4a',1,'gplot_free(const XCSF *xcsf):&#160;perf.c']]],
-  ['gplot_5finit',['gplot_init',['../perf_8c.html#a9132c6b6e8fd479744142f57df8023d0',1,'gplot_init(const XCSF *xcsf):&#160;perf.c'],['../perf_8h.html#a9132c6b6e8fd479744142f57df8023d0',1,'gplot_init(const XCSF *xcsf):&#160;perf.c']]],
   ['graph_5fcopy',['graph_copy',['../dgp_8c.html#a88698e131854543f5efa881b6db0e573',1,'graph_copy(const XCSF *xcsf, GRAPH *to, const GRAPH *from):&#160;dgp.c'],['../dgp_8h.html#a88698e131854543f5efa881b6db0e573',1,'graph_copy(const XCSF *xcsf, GRAPH *to, const GRAPH *from):&#160;dgp.c']]],
   ['graph_5fcrossover',['graph_crossover',['../dgp_8c.html#ac8e1ae46b110b4314abca0ccde4f77f9',1,'graph_crossover(const XCSF *xcsf, GRAPH *dgp1, GRAPH *dgp2):&#160;dgp.c'],['../dgp_8h.html#ac8e1ae46b110b4314abca0ccde4f77f9',1,'graph_crossover(const XCSF *xcsf, GRAPH *dgp1, GRAPH *dgp2):&#160;dgp.c']]],
   ['graph_5ffree',['graph_free',['../dgp_8c.html#aa442b6c98fb9fc709bd046e0308488e7',1,'graph_free(const XCSF *xcsf, const GRAPH *dgp):&#160;dgp.c'],['../dgp_8h.html#aa442b6c98fb9fc709bd046e0308488e7',1,'graph_free(const XCSF *xcsf, const GRAPH *dgp):&#160;dgp.c']]],

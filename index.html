@@ -132,7 +132,6 @@ $(document).ready(function(){initNavTree('index.html','');});
 <ul>
 <li><code>XCSF_PYLIB = ON</code> : Python library (CMake default = OFF)</li>
 <li><code>PARALLEL = ON</code> : CPU parallelised matching, predicting, and updating with OpenMP (CMake default = ON)</li>
-<li><code>GNUPLOT = ON</code> : real-time Gnuplot of the system error; data saved in folder: <code>out</code> (CMake default = OFF)</li>
 </ul>
 <hr/>
 <h2>Requirements</h2>
@@ -141,7 +140,6 @@ $(document).ready(function(){initNavTree('index.html','');});
 <li>C11 compliant compiler.</li>
 <li><a href="https://www.cmake.org" title="CMake">CMake</a> (&gt;= 3.12)</li>
 <li><a href="https://www.openmp.org" title="OpenMP">OpenMP</a> (Optional: PARALLEL=ON): supported by <a href="https://gcc.gnu.org" title="GCC">GCC</a> and Clang with libomp.</li>
-<li><a href="https://www.gnuplot.info" title="Gnuplot">Gnuplot</a> (Optional: GNUPLOT=ON)</li>
 </ul>
 <h3>Python library</h3>
 <ul>
@@ -153,8 +151,8 @@ $(document).ready(function(){initNavTree('index.html','');});
 <hr/>
 <h2>Building</h2>
 <h3>Ubuntu 18.04</h3>
-<div class="fragment"><div class="line">$ sudo apt install python3 libboost-python-dev libboost-numpy-dev gnuplot</div><div class="line">$ git clone --recurse-submodules https://github.com/rpreen/xcsf.git</div><div class="line">$ cd xcsf/build</div><div class="line">$ cmake -DCMAKE_BUILD_TYPE=Release -DXCSF_PYLIB=ON ..</div><div class="line">$ make</div></div><!-- fragment --><h3>OSX (XCode 10.1 / Clang)</h3>
-<div class="fragment"><div class="line">$ brew install libomp cmake python boost-python3 gnuplot</div><div class="line">$ git clone --recurse-submodules https://github.com/rpreen/xcsf.git</div><div class="line">$ cd xcsf/build</div><div class="line">$ cmake -DCMAKE_BUILD_TYPE=Release -DXCSF_PYLIB=ON ..</div><div class="line">$ make</div></div><!-- fragment --><h3>Windows (<a href="http://mingw-w64.org" title="MinGW64-gcc-7.2.0">MinGW64-gcc-7.2.0</a>)</h3>
+<div class="fragment"><div class="line">$ sudo apt install python3 libboost-python-dev libboost-numpy-dev</div><div class="line">$ git clone --recurse-submodules https://github.com/rpreen/xcsf.git</div><div class="line">$ cd xcsf/build</div><div class="line">$ cmake -DCMAKE_BUILD_TYPE=Release -DXCSF_PYLIB=ON ..</div><div class="line">$ make</div></div><!-- fragment --><h3>OSX (XCode 10.1 / Clang)</h3>
+<div class="fragment"><div class="line">$ brew install libomp cmake python boost-python3</div><div class="line">$ git clone --recurse-submodules https://github.com/rpreen/xcsf.git</div><div class="line">$ cd xcsf/build</div><div class="line">$ cmake -DCMAKE_BUILD_TYPE=Release -DXCSF_PYLIB=ON ..</div><div class="line">$ make</div></div><!-- fragment --><h3>Windows (<a href="http://mingw-w64.org" title="MinGW64-gcc-7.2.0">MinGW64-gcc-7.2.0</a>)</h3>
 <div class="fragment"><div class="line">$ git clone --recurse-submodules https://github.com/rpreen/xcsf.git</div><div class="line">$ cd xcsf/build</div><div class="line">$ cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -G &quot;MinGW Makefiles&quot; ..</div><div class="line">$ cmake --build . --config Release</div></div><!-- fragment --><h3>Documentation (Doxygen + graphviz)</h3>
 <p>After running cmake:</p>
 <div class="fragment"><div class="line">$ make doc</div></div><!-- fragment --><p>Alternatively see: <a href="https://rpreen.github.io/xcsf/" title="XCSF documentation">XCSF documentation</a>.</p>

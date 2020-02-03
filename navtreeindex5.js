@@ -1,11 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"rule__neural_8c.html#a7252648bf579969b23b572f409863ed3":[2,0,76,17],
-"rule__neural_8c.html#a769fe6eda7fa331c2a462c0abdea3164":[2,0,76,7],
-"rule__neural_8c.html#a7ea938a40fa62db8e4f9b9d3f75ca292":[2,0,76,22],
-"rule__neural_8c.html#a83f598598e5d5a6282471c316c09b162":[2,0,76,3],
-"rule__neural_8c.html#a9a20387518ea45ca3e5f38057e5b5187":[2,0,76,10],
-"rule__neural_8c.html#aac5fd77146e5a0d3a7691e906f5c48cc":[2,0,76,28],
 "rule__neural_8c.html#ab5a77d9a5639d94e5d97eb9a928b90ec":[2,0,76,25],
 "rule__neural_8c.html#ac70f4549638957e42f5ee48dd6a469d6":[2,0,76,11],
 "rule__neural_8c.html#ac8a58e7f8cdd8ff86bd38e9cd8e9b8b1":[2,0,76,5],
@@ -249,5 +243,11 @@ var NAVTREEINDEX5 =
 "structPredVtbl.html#ab67133579960c8003f22f616bd4dd2e7":[1,0,25,9],
 "structPredVtbl.html#ad14ca8c15fed356c842cb7a9ca533dca":[1,0,25,0],
 "structPredVtbl.html#ade2b422f32c6805c043fceacd672bce9":[1,0,25,3],
-"structPredVtbl.html#ae22eb023abd902d1648b6d0d125235c6":[1,0,25,6]
+"structPredVtbl.html#ae22eb023abd902d1648b6d0d125235c6":[1,0,25,6],
+"structRULE__DGP.html":[1,0,26],
+"structRULE__DGP.html#a8271d57244476077a6869721895a1137":[1,0,26,1],
+"structRULE__DGP.html#ae4ac6be1e8fb9934bb767dd0375e3303":[1,0,26,0],
+"structRULE__NEURAL.html":[1,0,27],
+"structRULE__NEURAL.html#a05533241bac5647ed445c8b869070711":[1,0,27,1],
+"structRULE__NEURAL.html#a0dbbeb9afcbfa620ec930dacffcdab13":[1,0,27,0]
 };

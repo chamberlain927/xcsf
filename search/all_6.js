@@ -104,8 +104,6 @@ var searchData=
   ['gp_5fnum_5fcons',['GP_NUM_CONS',['../structXCSF.html#a32d29f4f84c9a919596a8302da65f09b',1,'XCSF']]],
   ['gp_5fnum_5ffunc',['GP_NUM_FUNC',['../gp_8c.html#aee9a8f46de9c5a8da3f840df8825453f',1,'gp.c']]],
   ['gp_5ftree',['GP_TREE',['../structGP__TREE.html',1,'GP_TREE'],['../gp_8h.html#ab7f91f9101368c25c8a18bfb7f52f44b',1,'GP_TREE():&#160;gp.h']]],
-  ['gplot_5ffree',['gplot_free',['../perf_8c.html#a2ae4c34e0bda704febb9e47ef49a9e4a',1,'gplot_free(const XCSF *xcsf):&#160;perf.c'],['../perf_8h.html#a2ae4c34e0bda704febb9e47ef49a9e4a',1,'gplot_free(const XCSF *xcsf):&#160;perf.c']]],
-  ['gplot_5finit',['gplot_init',['../perf_8c.html#a9132c6b6e8fd479744142f57df8023d0',1,'gplot_init(const XCSF *xcsf):&#160;perf.c'],['../perf_8h.html#a9132c6b6e8fd479744142f57df8023d0',1,'gplot_init(const XCSF *xcsf):&#160;perf.c']]],
   ['graph',['GRAPH',['../structGRAPH.html',1,'GRAPH'],['../dgp_8h.html#af2d8e3d4dc8b1537e3058491e3a1a8a7',1,'GRAPH():&#160;dgp.h']]],
   ['graph_5fcopy',['graph_copy',['../dgp_8c.html#a88698e131854543f5efa881b6db0e573',1,'graph_copy(const XCSF *xcsf, GRAPH *to, const GRAPH *from):&#160;dgp.c'],['../dgp_8h.html#a88698e131854543f5efa881b6db0e573',1,'graph_copy(const XCSF *xcsf, GRAPH *to, const GRAPH *from):&#160;dgp.c']]],
   ['graph_5fcrossover',['graph_crossover',['../dgp_8c.html#ac8e1ae46b110b4314abca0ccde4f77f9',1,'graph_crossover(const XCSF *xcsf, GRAPH *dgp1, GRAPH *dgp2):&#160;dgp.c'],['../dgp_8h.html#ac8e1ae46b110b4314abca0ccde4f77f9',1,'graph_crossover(const XCSF *xcsf, GRAPH *dgp1, GRAPH *dgp2):&#160;dgp.c']]],
