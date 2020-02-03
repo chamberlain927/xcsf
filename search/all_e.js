@@ -26,6 +26,7 @@ var searchData=
   ['params_5fsubsumption',['params_subsumption',['../config_8c.html#abe7b908d3de0d9711545ecc150d91628',1,'config.c']]],
   ['perf_2ec',['perf.c',['../perf_8c.html',1,'']]],
   ['perf_2eh',['perf.h',['../perf_8h.html',1,'']]],
+  ['perf_5fprint',['perf_print',['../perf_8c.html#a2457f127a3d536558d3bbd2d3bd0686d',1,'perf_print(const XCSF *xcsf, double *error, double *terror, int trial):&#160;perf.c'],['../perf_8h.html#a2457f127a3d536558d3bbd2d3bd0686d',1,'perf_print(const XCSF *xcsf, double *error, double *terror, int trial):&#160;perf.c']]],
   ['perf_5ftrials',['PERF_TRIALS',['../structXCSF.html#a487d9deb0e6deca1af2f0b0eb66750fc',1,'XCSF']]],
   ['pop_5finit',['POP_INIT',['../structXCSF.html#af7a397309a0f109d3368e9aa5eb7794a',1,'XCSF']]],
   ['pop_5fsize',['POP_SIZE',['../structXCSF.html#a87a937b17f4e4a224cc7c957e56d21a1',1,'XCSF']]],

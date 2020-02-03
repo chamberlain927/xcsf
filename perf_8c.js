@@ -1,4 +1,4 @@
 var perf_8c =
 [
-    [ "disp_perf", "perf_8c.html#a1dc35fd7c0bb92df97bfaa037976253f", null ]
+    [ "perf_print", "perf_8c.html#a2457f127a3d536558d3bbd2d3bd0686d", null ]
 ];

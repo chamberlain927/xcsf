@@ -11,53 +11,53 @@
 <!-- Node84 -->
 <g id="node1" class="node">
 <title>Node84</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="0,-940.1658 0,-959.1658 108,-959.1658 108,-940.1658 0,-940.1658"/>
-<text text-anchor="middle" x="54" y="-947.1658" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcs_single_step_exp</text>
+<polygon fill="#bfbfbf" stroke="#000000" points="0,-978.1658 0,-997.1658 108,-997.1658 108,-978.1658 0,-978.1658"/>
+<text text-anchor="middle" x="54" y="-985.1658" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcs_single_step_exp</text>
 </g>
 <!-- Node85 -->
 <g id="node2" class="node">
 <title>Node85</title>
-<g id="a_node2"><a xlink:href="perf_8c.html#a1dc35fd7c0bb92df97bfaa037976253f" target="_top" xlink:title="Displays the current training and test performance. ">
-<polygon fill="none" stroke="#000000" points="158,-1059.1658 158,-1078.1658 214,-1078.1658 214,-1059.1658 158,-1059.1658"/>
-<text text-anchor="middle" x="186" y="-1066.1658" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">disp_perf</text>
+<g id="a_node2"><a xlink:href="pa_8c.html#a09001e724632dbb6e43c8772a0a5c315" target="_top" xlink:title="Frees the prediction array. ">
+<polygon fill="none" stroke="#000000" points="161.5,-1035.1658 161.5,-1054.1658 210.5,-1054.1658 210.5,-1035.1658 161.5,-1035.1658"/>
+<text text-anchor="middle" x="186" y="-1042.1658" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">pa_free</text>
 </a>
 </g>
 </g>
 <!-- Node84&#45;&gt;Node85 -->
 <g id="edge1" class="edge">
 <title>Node84&#45;&gt;Node85</title>
-<path fill="none" stroke="#191970" d="M64.8021,-959.404C87.4428,-979.8149 140.0738,-1027.2626 167.9414,-1052.3857"/>
-<polygon fill="#191970" stroke="#191970" points="165.6466,-1055.0292 175.4175,-1059.1255 170.3337,-1049.83 165.6466,-1055.0292"/>
+<path fill="none" stroke="#191970" d="M76.0938,-997.2063C97.5097,-1006.454 130.213,-1020.5759 154.3821,-1031.0126"/>
+<polygon fill="#191970" stroke="#191970" points="153.2659,-1034.3429 163.8341,-1035.0941 156.041,-1027.9165 153.2659,-1034.3429"/>
 </g>
-<!-- Node88 -->
-<g id="node5" class="node">
-<title>Node88</title>
-<g id="a_node5"><a xlink:href="pa_8c.html#a09001e724632dbb6e43c8772a0a5c315" target="_top" xlink:title="Frees the prediction array. ">
-<polygon fill="none" stroke="#000000" points="161.5,-959.1658 161.5,-978.1658 210.5,-978.1658 210.5,-959.1658 161.5,-959.1658"/>
-<text text-anchor="middle" x="186" y="-966.1658" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">pa_free</text>
+<!-- Node86 -->
+<g id="node3" class="node">
+<title>Node86</title>
+<g id="a_node3"><a xlink:href="pa_8c.html#aa55a39344262edf881d250e41fa2c581" target="_top" xlink:title="Initialises the prediction array. ">
+<polygon fill="none" stroke="#000000" points="163.5,-997.1658 163.5,-1016.1658 208.5,-1016.1658 208.5,-997.1658 163.5,-997.1658"/>
+<text text-anchor="middle" x="186" y="-1004.1658" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">pa_init</text>
 </a>
 </g>
 </g>
-<!-- Node84&#45;&gt;Node88 -->
-<g id="edge4" class="edge">
-<title>Node84&#45;&gt;Node88</title>
-<path fill="none" stroke="#191970" d="M108.0703,-957.4486C122.6771,-959.5511 138.0903,-961.7697 151.3184,-963.6737"/>
-<polygon fill="#191970" stroke="#191970" points="151.0049,-967.1646 161.4015,-965.1251 152.0022,-960.236 151.0049,-967.1646"/>
+<!-- Node84&#45;&gt;Node86 -->
+<g id="edge2" class="edge">
+<title>Node84&#45;&gt;Node86</title>
+<path fill="none" stroke="#191970" d="M108.0703,-995.4486C123.5026,-997.6699 139.8349,-1000.0208 153.5396,-1001.9934"/>
+<polygon fill="#191970" stroke="#191970" points="153.0523,-1005.4593 163.449,-1003.4198 154.0497,-998.5307 153.0523,-1005.4593"/>
 </g>
-<!-- Node89 -->
-<g id="node6" class="node">
-<title>Node89</title>
-<g id="a_node6"><a xlink:href="pa_8c.html#aa55a39344262edf881d250e41fa2c581" target="_top" xlink:title="Initialises the prediction array. ">
-<polygon fill="none" stroke="#000000" points="163.5,-921.1658 163.5,-940.1658 208.5,-940.1658 208.5,-921.1658 163.5,-921.1658"/>
-<text text-anchor="middle" x="186" y="-928.1658" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">pa_init</text>
+<!-- Node87 -->
+<g id="node4" class="node">
+<title>Node87</title>
+<g id="a_node4"><a xlink:href="perf_8c.html#a2457f127a3d536558d3bbd2d3bd0686d" target="_top" xlink:title="Displays the current training and test performance. ">
+<polygon fill="none" stroke="#000000" points="157.5,-959.1658 157.5,-978.1658 214.5,-978.1658 214.5,-959.1658 157.5,-959.1658"/>
+<text text-anchor="middle" x="186" y="-966.1658" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">perf_print</text>
 </a>
 </g>
 </g>
-<!-- Node84&#45;&gt;Node89 -->
-<g id="edge5" class="edge">
-<title>Node84&#45;&gt;Node89</title>
-<path fill="none" stroke="#191970" d="M108.0703,-941.8829C123.5026,-939.6616 139.8349,-937.3107 153.5396,-935.3381"/>
-<polygon fill="#191970" stroke="#191970" points="154.0497,-938.8008 163.449,-933.9117 153.0523,-931.8722 154.0497,-938.8008"/>
+<!-- Node84&#45;&gt;Node87 -->
+<g id="edge3" class="edge">
+<title>Node84&#45;&gt;Node87</title>
+<path fill="none" stroke="#191970" d="M108.0703,-979.8829C121.3088,-977.9774 135.2096,-975.9765 147.5458,-974.2008"/>
+<polygon fill="#191970" stroke="#191970" points="148.092,-977.6584 157.4913,-972.7693 147.0946,-970.7298 148.092,-977.6584"/>
 </g>
 <!-- Node90 -->
 <g id="node7" class="node">
@@ -71,36 +71,36 @@
 <!-- Node84&#45;&gt;Node90 -->
 <g id="edge6" class="edge">
 <title>Node84&#45;&gt;Node90</title>
-<path fill="none" stroke="#191970" d="M61.0969,-939.9882C82.2258,-911.176 144.9658,-825.6214 172.6356,-787.8899"/>
-<polygon fill="#191970" stroke="#191970" points="175.7768,-789.525 178.868,-779.3912 170.1319,-785.3855 175.7768,-789.525"/>
+<path fill="none" stroke="#191970" d="M59.8422,-978.0173C80.2021,-944.3926 148.2432,-832.0217 175.0302,-787.7825"/>
+<polygon fill="#191970" stroke="#191970" points="178.0396,-789.5698 180.2253,-779.2028 172.0517,-785.9441 178.0396,-789.5698"/>
 </g>
-<!-- Node86 -->
-<g id="node3" class="node">
-<title>Node86</title>
-<g id="a_node3"><a xlink:href="clset_8c.html#a52ca2f1a652586a791c82f27169d1b45" target="_top" xlink:title="Calculates the mean mutation rate of classifiers in the set. ">
+<!-- Node88 -->
+<g id="node5" class="node">
+<title>Node88</title>
+<g id="a_node5"><a xlink:href="clset_8c.html#a52ca2f1a652586a791c82f27169d1b45" target="_top" xlink:title="Calculates the mean mutation rate of classifiers in the set. ">
 <polygon fill="none" stroke="#000000" points="271.5,-1382.1658 271.5,-1401.1658 360.5,-1401.1658 360.5,-1382.1658 271.5,-1382.1658"/>
 <text text-anchor="middle" x="316" y="-1389.1658" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">clset_mean_mut</text>
 </a>
 </g>
 </g>
-<!-- Node85&#45;&gt;Node86 -->
-<g id="edge2" class="edge">
-<title>Node85&#45;&gt;Node86</title>
-<path fill="none" stroke="#191970" d="M189.8906,-1078.3325C207.9445,-1123.1894 283.7143,-1311.4482 308.2775,-1372.4783"/>
-<polygon fill="#191970" stroke="#191970" points="305.1439,-1374.0667 312.1245,-1382.0367 311.6377,-1371.4531 305.1439,-1374.0667"/>
+<!-- Node87&#45;&gt;Node88 -->
+<g id="edge4" class="edge">
+<title>Node87&#45;&gt;Node88</title>
+<path fill="none" stroke="#191970" d="M214.8271,-977.1953C219.8412,-979.8355 224.5464,-983.2548 228,-987.6658 282.331,-1057.0578 245.3519,-1096.53 264,-1182.6658 279.2004,-1252.8765 300.8734,-1335.4182 310.7425,-1372.2374"/>
+<polygon fill="#191970" stroke="#191970" points="307.4269,-1373.3855 313.4061,-1382.1319 314.1862,-1371.5658 307.4269,-1373.3855"/>
 </g>
-<!-- Node87 -->
-<g id="node4" class="node">
-<title>Node87</title>
-<g id="a_node4"><a xlink:href="cl_8c.html#aa168e302dc5b5f67c3e8e350282ad05e" target="_top" xlink:title="Returns the classifier self&#45;adaptive mutation rate. ">
+<!-- Node89 -->
+<g id="node6" class="node">
+<title>Node89</title>
+<g id="a_node6"><a xlink:href="cl_8c.html#aa168e302dc5b5f67c3e8e350282ad05e" target="_top" xlink:title="Returns the classifier self&#45;adaptive mutation rate. ">
 <polygon fill="none" stroke="#000000" points="408.5,-1534.1658 408.5,-1553.1658 497.5,-1553.1658 497.5,-1534.1658 408.5,-1534.1658"/>
 <text text-anchor="middle" x="453" y="-1541.1658" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cl_mutation_rate</text>
 </a>
 </g>
 </g>
-<!-- Node86&#45;&gt;Node87 -->
-<g id="edge3" class="edge">
-<title>Node86&#45;&gt;Node87</title>
+<!-- Node88&#45;&gt;Node89 -->
+<g id="edge5" class="edge">
+<title>Node88&#45;&gt;Node89</title>
 <path fill="none" stroke="#191970" d="M320.4246,-1401.2541C331.5049,-1424.3701 362.5552,-1483.8998 404,-1519.6658 408.258,-1523.3403 413.1767,-1526.6014 418.2206,-1529.4432"/>
 <polygon fill="#191970" stroke="#191970" points="416.8232,-1532.6598 427.3192,-1534.1041 420.0148,-1526.4297 416.8232,-1532.6598"/>
 </g>
