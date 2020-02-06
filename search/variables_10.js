@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['s_5fmutation',['S_MUTATION',['../structXCSF.html#a55f0777ac2a8d18bbf2b3b7c087047cd',1,'XCSF']]],
-  ['sam_5fmin',['SAM_MIN',['../structXCSF.html#a8326bacceede052465f844d5573fd51e',1,'XCSF']]],
-  ['sam_5fnum',['SAM_NUM',['../structXCSF.html#a4620107b269df632512e8a9bb5a62bc3',1,'XCSF']]],
   ['sam_5ftype',['SAM_TYPE',['../structXCSF.html#ab3a411a6ca44c88d007ced78c534410a',1,'XCSF']]],
   ['scale',['scale',['../structLAYER.html#ab5ed397f7befb5d5388b6505d822b263',1,'LAYER']]],
   ['set_5fsubsumption',['SET_SUBSUMPTION',['../structXCSF.html#aa80fbdfc452c7e1e9d022de58339f13c',1,'XCSF']]],

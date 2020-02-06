@@ -1,6 +1,14 @@
 var searchData=
 [
   ['n',['n',['../structGRAPH.html#a0d65de53db8c823da5433fa7a1f11995',1,'GRAPH']]],
+  ['n_5factions',['n_actions',['../structXCSF.html#a76f3497def1e6b78a89415c75fb31f63',1,'XCSF']]],
+  ['n_5finputs',['n_inputs',['../structNET.html#a19f7c9067bc5fcdfe8a48a75b085bbaf',1,'NET::n_inputs()'],['../structLAYER.html#a3026d8020c31059a19fff374b9551d18',1,'LAYER::n_inputs()']]],
+  ['n_5flayers',['n_layers',['../structNET.html#ac135cff15f4c1728405b01e8bf8d1459',1,'NET']]],
+  ['n_5fmu',['N_MU',['../act__integer_8c.html#a7ad8e86a318f2d3d354e0a4e5bc23b30',1,'N_MU():&#160;act_integer.c'],['../cond__ellipsoid_8c.html#a7ad8e86a318f2d3d354e0a4e5bc23b30',1,'N_MU():&#160;cond_ellipsoid.c'],['../cond__rectangle_8c.html#a7ad8e86a318f2d3d354e0a4e5bc23b30',1,'N_MU():&#160;cond_rectangle.c'],['../cond__ternary_8c.html#a7ad8e86a318f2d3d354e0a4e5bc23b30',1,'N_MU():&#160;cond_ternary.c'],['../neural__layer__connected_8c.html#a7ad8e86a318f2d3d354e0a4e5bc23b30',1,'N_MU():&#160;neural_layer_connected.c']]],
+  ['n_5foutputs',['n_outputs',['../structNET.html#ab04e04c43d8cf78858559cf8b22ae746',1,'NET::n_outputs()'],['../structLAYER.html#aa2597322cc89b3fcdefbead9db725382',1,'LAYER::n_outputs()'],['../structRULE__DGP.html#a078031911befaa445c728f6aa4100447',1,'RULE_DGP::n_outputs()'],['../structRULE__NEURAL.html#a3d5977d414c7e6303f939eaef6ef783e',1,'RULE_NEURAL::n_outputs()']]],
+  ['n_5frates',['N_RATES',['../sam_8c.html#ab911b800398fac0f4107388d8e702d7e',1,'sam.c']]],
+  ['n_5fsamples',['n_samples',['../structINPUT.html#af911e0939bdf00e656c64a533111691b',1,'INPUT']]],
+  ['n_5fweights',['n_weights',['../structLAYER.html#a96517e92eec2622d877c12c8966476cf',1,'LAYER']]],
   ['name',['name',['../structPARAM__LIST.html#a3da93e39a5777a4b65ed5e851adbbed6',1,'PARAM_LIST']]],
   ['net',['NET',['../structNET.html',1,'NET'],['../structCOND__NEURAL.html#aa910afe1336b3bbef9545d62e60e1f0a',1,'COND_NEURAL::net()'],['../structPRED__NEURAL.html#a30a82bc6f16b91638fc5385612ba043e',1,'PRED_NEURAL::net()'],['../structRULE__NEURAL.html#a0dbbeb9afcbfa620ec930dacffcdab13',1,'RULE_NEURAL::net()'],['../neural_8h.html#a175ac6f9df6bf95316c0102dfee55f62',1,'NET():&#160;neural.h']]],
   ['neural_2ec',['neural.c',['../neural_8c.html',1,'']]],
@@ -95,12 +103,6 @@ var searchData=
   ['nr',['nr',['../structXCSF.html#a1e9f7b5c246cbf133be30effa606e94d',1,'XCSF']]],
   ['nu',['NU',['../structXCSF.html#a6ffb8993fdb50334736dbaf51b7592bd',1,'XCSF']]],
   ['num',['num',['../structCL.html#a7d2c3c55614401cc90c6ce3cc3e66f3e',1,'CL::num()'],['../structSET.html#a65c958a63359bcaf0e2a374e770df436',1,'SET::num()']]],
-  ['num_5factions',['num_actions',['../structXCSF.html#ae104f4d5926f9e2f1da2fef5a14bdfd5',1,'XCSF']]],
   ['num_5factivations',['NUM_ACTIVATIONS',['../neural__activations_8h.html#a4937a4f2709888cde5189a2f35e4de09',1,'neural_activations.h']]],
-  ['num_5ffunc',['NUM_FUNC',['../dgp_8c.html#a9aad0046191b9926d17eb7e3b3b53c66',1,'dgp.c']]],
-  ['num_5finputs',['num_inputs',['../structNET.html#abbe8f1e609d68dfed52bb5903602bb26',1,'NET::num_inputs()'],['../structLAYER.html#a444cda34793d6f792d76a997dc1384c3',1,'LAYER::num_inputs()']]],
-  ['num_5flayers',['num_layers',['../structNET.html#a19f34e188483b29e4d3547b2e227155a',1,'NET']]],
-  ['num_5foutputs',['num_outputs',['../structNET.html#a3bbf31738a420262dda9aa96ac6813d6',1,'NET::num_outputs()'],['../structLAYER.html#afc27659b79187e630133c63c436049eb',1,'LAYER::num_outputs()'],['../structRULE__DGP.html#a8271d57244476077a6869721895a1137',1,'RULE_DGP::num_outputs()'],['../structRULE__NEURAL.html#a05533241bac5647ed445c8b869070711',1,'RULE_NEURAL::num_outputs()']]],
-  ['num_5frates',['NUM_RATES',['../sam_8c.html#a645e6e4b2b86edabb8055e43055b1b02',1,'sam.c']]],
-  ['num_5fweights',['num_weights',['../structLAYER.html#ae178fe72a5f5ba48223c3b8fd9d652bb',1,'LAYER']]]
+  ['num_5ffunc',['NUM_FUNC',['../dgp_8c.html#a9aad0046191b9926d17eb7e3b3b53c66',1,'dgp.c']]]
 ];

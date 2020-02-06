@@ -101,15 +101,15 @@ Collaboration diagram for NET:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:a19f34e188483b29e4d3547b2e227155a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structNET.html#a19f34e188483b29e4d3547b2e227155a">num_layers</a></td></tr>
-<tr class="memdesc:a19f34e188483b29e4d3547b2e227155a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of layers (hidden + output)  <a href="#a19f34e188483b29e4d3547b2e227155a">More...</a><br /></td></tr>
-<tr class="separator:a19f34e188483b29e4d3547b2e227155a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbe8f1e609d68dfed52bb5903602bb26"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structNET.html#abbe8f1e609d68dfed52bb5903602bb26">num_inputs</a></td></tr>
-<tr class="memdesc:abbe8f1e609d68dfed52bb5903602bb26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of network inputs.  <a href="#abbe8f1e609d68dfed52bb5903602bb26">More...</a><br /></td></tr>
-<tr class="separator:abbe8f1e609d68dfed52bb5903602bb26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bbf31738a420262dda9aa96ac6813d6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structNET.html#a3bbf31738a420262dda9aa96ac6813d6">num_outputs</a></td></tr>
-<tr class="memdesc:a3bbf31738a420262dda9aa96ac6813d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of network outputs.  <a href="#a3bbf31738a420262dda9aa96ac6813d6">More...</a><br /></td></tr>
-<tr class="separator:a3bbf31738a420262dda9aa96ac6813d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac135cff15f4c1728405b01e8bf8d1459"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structNET.html#ac135cff15f4c1728405b01e8bf8d1459">n_layers</a></td></tr>
+<tr class="memdesc:ac135cff15f4c1728405b01e8bf8d1459"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of layers (hidden + output)  <a href="#ac135cff15f4c1728405b01e8bf8d1459">More...</a><br /></td></tr>
+<tr class="separator:ac135cff15f4c1728405b01e8bf8d1459"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19f7c9067bc5fcdfe8a48a75b085bbaf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structNET.html#a19f7c9067bc5fcdfe8a48a75b085bbaf">n_inputs</a></td></tr>
+<tr class="memdesc:a19f7c9067bc5fcdfe8a48a75b085bbaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of network inputs.  <a href="#a19f7c9067bc5fcdfe8a48a75b085bbaf">More...</a><br /></td></tr>
+<tr class="separator:a19f7c9067bc5fcdfe8a48a75b085bbaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab04e04c43d8cf78858559cf8b22ae746"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structNET.html#ab04e04c43d8cf78858559cf8b22ae746">n_outputs</a></td></tr>
+<tr class="memdesc:ab04e04c43d8cf78858559cf8b22ae746"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of network outputs.  <a href="#ab04e04c43d8cf78858559cf8b22ae746">More...</a><br /></td></tr>
+<tr class="separator:ab04e04c43d8cf78858559cf8b22ae746"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5115cdba25f3e79c00e39b86eab8ece2"><td class="memItemLeft" align="right" valign="top">double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structNET.html#a5115cdba25f3e79c00e39b86eab8ece2">delta</a></td></tr>
 <tr class="memdesc:a5115cdba25f3e79c00e39b86eab8ece2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delta for updating networks weights.  <a href="#a5115cdba25f3e79c00e39b86eab8ece2">More...</a><br /></td></tr>
 <tr class="separator:a5115cdba25f3e79c00e39b86eab8ece2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,7 +144,7 @@ Data Fields</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="neural_8h_source.html#l00042">42</a> of file <a class="el" href="neural_8h_source.html">neural.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer__connected_8c_source.html#l00140">neural_layer_connected_backward()</a>, <a class="el" href="neural__layer__dropout_8c_source.html#l00108">neural_layer_dropout_backward()</a>, <a class="el" href="neural__layer__noise_8c_source.html#l00108">neural_layer_noise_backward()</a>, <a class="el" href="neural__layer__softmax_8c_source.html#l00096">neural_layer_softmax_backward()</a>, and <a class="el" href="neural_8c_source.html#l00238">neural_learn()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="neural__layer__connected_8c_source.html#l00147">neural_layer_connected_backward()</a>, <a class="el" href="neural__layer__dropout_8c_source.html#l00108">neural_layer_dropout_backward()</a>, <a class="el" href="neural__layer__noise_8c_source.html#l00108">neural_layer_noise_backward()</a>, <a class="el" href="neural__layer__softmax_8c_source.html#l00096">neural_layer_softmax_backward()</a>, and <a class="el" href="neural_8c_source.html#l00238">neural_learn()</a>.</p>
 
 </div>
 </div>
@@ -184,18 +184,18 @@ Data Fields</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="neural_8h_source.html#l00043">43</a> of file <a class="el" href="neural_8h_source.html">neural.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer__connected_8c_source.html#l00140">neural_layer_connected_backward()</a>, and <a class="el" href="neural_8c_source.html#l00238">neural_learn()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="neural__layer__connected_8c_source.html#l00147">neural_layer_connected_backward()</a>, and <a class="el" href="neural_8c_source.html#l00238">neural_learn()</a>.</p>
 
 </div>
 </div>
-<a id="abbe8f1e609d68dfed52bb5903602bb26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abbe8f1e609d68dfed52bb5903602bb26">&#9670;&nbsp;</a></span>num_inputs</h2>
+<a id="a19f7c9067bc5fcdfe8a48a75b085bbaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19f7c9067bc5fcdfe8a48a75b085bbaf">&#9670;&nbsp;</a></span>n_inputs</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int NET::num_inputs</td>
+          <td class="memname">int NET::n_inputs</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -208,14 +208,14 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a id="a19f34e188483b29e4d3547b2e227155a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19f34e188483b29e4d3547b2e227155a">&#9670;&nbsp;</a></span>num_layers</h2>
+<a id="ac135cff15f4c1728405b01e8bf8d1459"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac135cff15f4c1728405b01e8bf8d1459">&#9670;&nbsp;</a></span>n_layers</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int NET::num_layers</td>
+          <td class="memname">int NET::n_layers</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -228,14 +228,14 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a id="a3bbf31738a420262dda9aa96ac6813d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3bbf31738a420262dda9aa96ac6813d6">&#9670;&nbsp;</a></span>num_outputs</h2>
+<a id="ab04e04c43d8cf78858559cf8b22ae746"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab04e04c43d8cf78858559cf8b22ae746">&#9670;&nbsp;</a></span>n_outputs</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int NET::num_outputs</td>
+          <td class="memname">int NET::n_outputs</td>
         </tr>
       </table>
 </div><div class="memdoc">

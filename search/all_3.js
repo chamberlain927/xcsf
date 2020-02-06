@@ -5,6 +5,7 @@ var searchData=
   ['dgp',['dgp',['../structCOND__DGP.html#acba0ab02d4dec264bbb968f3fb93a606',1,'COND_DGP::dgp()'],['../structRULE__DGP.html#ae4ac6be1e8fb9934bb767dd0375e3303',1,'RULE_DGP::dgp()']]],
   ['dgp_2ec',['dgp.c',['../dgp_8c.html',1,'']]],
   ['dgp_2eh',['dgp.h',['../dgp_8h.html',1,'']]],
+  ['dgp_5fn_5fmu',['DGP_N_MU',['../dgp_8h.html#af2efbfb3f32c0b37be55b7ccf850b7df',1,'dgp.h']]],
   ['dgp_5fnum_5fnodes',['DGP_NUM_NODES',['../structXCSF.html#a631813df5d4847f6c98077c20b70d51a',1,'XCSF']]],
   ['div',['DIV',['../gp_8c.html#a8295e0aed07a8923d8363ce46c7b08e2',1,'gp.c']]],
   ['dont_5fcare',['DONT_CARE',['../cond__ternary_8c.html#afdc326bd5037b2251e62f398ab1b48d1',1,'cond_ternary.c']]],

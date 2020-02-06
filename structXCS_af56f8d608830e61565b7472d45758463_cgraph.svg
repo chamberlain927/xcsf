@@ -8,120 +8,120 @@
  viewBox="0.00 0.00 446.00 218.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 214)">
 <title>XCS::set_loss_func</title>
-<!-- Node896 -->
+<!-- Node821 -->
 <g id="node1" class="node">
-<title>Node896</title>
+<title>Node821</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-95.5 0,-114.5 104,-114.5 104,-95.5 0,-95.5"/>
 <text text-anchor="middle" x="52" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">XCS::set_loss_func</text>
 </g>
-<!-- Node897 -->
+<!-- Node822 -->
 <g id="node2" class="node">
-<title>Node897</title>
+<title>Node822</title>
 <g id="a_node2"><a xlink:href="loss_8c.html#a1accbbfc21d6eefe2d2cb676497953f6" target="_top" xlink:title="Sets the XCSF error function to the implemented function. ">
 <polygon fill="none" stroke="#000000" points="140,-95.5 140,-114.5 217,-114.5 217,-95.5 140,-95.5"/>
 <text text-anchor="middle" x="178.5" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">loss_set_func</text>
 </a>
 </g>
 </g>
-<!-- Node896&#45;&gt;Node897 -->
+<!-- Node821&#45;&gt;Node822 -->
 <g id="edge1" class="edge">
-<title>Node896&#45;&gt;Node897</title>
+<title>Node821&#45;&gt;Node822</title>
 <path fill="none" stroke="#191970" d="M104.1827,-105C112.6985,-105 121.4906,-105 129.9153,-105"/>
 <polygon fill="#191970" stroke="#191970" points="129.9661,-108.5001 139.9661,-105 129.966,-101.5001 129.9661,-108.5001"/>
 </g>
-<!-- Node898 -->
+<!-- Node823 -->
 <g id="node3" class="node">
-<title>Node898</title>
+<title>Node823</title>
 <g id="a_node3"><a xlink:href="loss_8c.html#a39395cf45199ace9d5d1417cea421ef1" target="_top" xlink:title="Binary logistic log loss for binary&#45;class classification. ">
 <polygon fill="none" stroke="#000000" points="256,-190.5 256,-209.5 340,-209.5 340,-190.5 256,-190.5"/>
 <text text-anchor="middle" x="298" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">loss_binary_log</text>
 </a>
 </g>
 </g>
-<!-- Node897&#45;&gt;Node898 -->
+<!-- Node822&#45;&gt;Node823 -->
 <g id="edge2" class="edge">
-<title>Node897&#45;&gt;Node898</title>
+<title>Node822&#45;&gt;Node823</title>
 <path fill="none" stroke="#191970" d="M185.7912,-114.6033C198.1334,-130.3079 224.5866,-161.668 253,-181 255.5811,-182.7561 258.3503,-184.4001 261.2003,-185.9278"/>
 <polygon fill="#191970" stroke="#191970" points="259.921,-189.197 270.4465,-190.4066 262.9726,-182.8972 259.921,-189.197"/>
 </g>
-<!-- Node899 -->
+<!-- Node824 -->
 <g id="node4" class="node">
-<title>Node899</title>
+<title>Node824</title>
 <g id="a_node4"><a xlink:href="loss_8c.html#ae77d02973678eda049e5c2d002443f8b" target="_top" xlink:title="Logistic log loss for multi&#45;class classification. ">
 <polygon fill="none" stroke="#000000" points="271.5,-152.5 271.5,-171.5 324.5,-171.5 324.5,-152.5 271.5,-152.5"/>
 <text text-anchor="middle" x="298" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">loss_log</text>
 </a>
 </g>
 </g>
-<!-- Node897&#45;&gt;Node899 -->
+<!-- Node822&#45;&gt;Node824 -->
 <g id="edge3" class="edge">
-<title>Node897&#45;&gt;Node899</title>
+<title>Node822&#45;&gt;Node824</title>
 <path fill="none" stroke="#191970" d="M196.3858,-114.5821C211.3665,-122.4964 233.3863,-133.8716 253,-143 256.8923,-144.8115 261.0049,-146.6495 265.0986,-148.4328"/>
 <polygon fill="#191970" stroke="#191970" points="263.9326,-151.7408 274.5033,-152.4561 266.6859,-145.305 263.9326,-151.7408"/>
 </g>
-<!-- Node900 -->
+<!-- Node825 -->
 <g id="node5" class="node">
-<title>Node900</title>
+<title>Node825</title>
 <g id="a_node5"><a xlink:href="loss_8c.html#adccb11b8a1e21aae044940951c6da988" target="_top" xlink:title="Mean absolute error loss function. ">
 <polygon fill="none" stroke="#000000" points="268.5,-114.5 268.5,-133.5 327.5,-133.5 327.5,-114.5 268.5,-114.5"/>
 <text text-anchor="middle" x="298" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">loss_mae</text>
 </a>
 </g>
 </g>
-<!-- Node897&#45;&gt;Node900 -->
+<!-- Node822&#45;&gt;Node825 -->
 <g id="edge4" class="edge">
-<title>Node897&#45;&gt;Node900</title>
+<title>Node822&#45;&gt;Node825</title>
 <path fill="none" stroke="#191970" d="M217.2982,-111.1688C230.4194,-113.255 245.084,-115.5866 258.2759,-117.684"/>
 <polygon fill="#191970" stroke="#191970" points="258.0567,-121.1931 268.4822,-119.3068 259.1559,-114.2799 258.0567,-121.1931"/>
 </g>
-<!-- Node901 -->
+<!-- Node826 -->
 <g id="node6" class="node">
-<title>Node901</title>
+<title>Node826</title>
 <g id="a_node6"><a xlink:href="loss_8c.html#ad3492e9d69c36471df1fbe572aee0ea7" target="_top" xlink:title="Mean squared error loss function. ">
 <polygon fill="none" stroke="#000000" points="379,-38.5 379,-57.5 438,-57.5 438,-38.5 379,-38.5"/>
 <text text-anchor="middle" x="408.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">loss_mse</text>
 </a>
 </g>
 </g>
-<!-- Node897&#45;&gt;Node901 -->
+<!-- Node822&#45;&gt;Node826 -->
 <g id="edge5" class="edge">
-<title>Node897&#45;&gt;Node901</title>
+<title>Node822&#45;&gt;Node826</title>
 <path fill="none" stroke="#191970" d="M217.2029,-96.6934C250.6321,-89.3676 300.1678,-78.1504 343,-67 351.4828,-64.7917 360.537,-62.2717 369.1228,-59.8049"/>
 <polygon fill="#191970" stroke="#191970" points="370.2988,-63.108 378.9242,-56.9555 368.3447,-56.3863 370.2988,-63.108"/>
 </g>
-<!-- Node902 -->
+<!-- Node827 -->
 <g id="node7" class="node">
-<title>Node902</title>
+<title>Node827</title>
 <g id="a_node7"><a xlink:href="loss_8c.html#ace95b144b0430b39e6a1486f73b2dfd8" target="_top" xlink:title="One&#45;hot classification error. ">
 <polygon fill="none" stroke="#000000" points="253,-38.5 253,-57.5 343,-57.5 343,-38.5 253,-38.5"/>
 <text text-anchor="middle" x="298" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">loss_onehot_acc</text>
 </a>
 </g>
 </g>
-<!-- Node897&#45;&gt;Node902 -->
+<!-- Node822&#45;&gt;Node827 -->
 <g id="edge6" class="edge">
-<title>Node897&#45;&gt;Node902</title>
+<title>Node822&#45;&gt;Node827</title>
 <path fill="none" stroke="#191970" d="M198.5016,-95.4595C217.7171,-86.2939 246.9703,-72.3405 268.7909,-61.9324"/>
 <polygon fill="#191970" stroke="#191970" points="270.4142,-65.0359 277.9331,-57.5716 267.4005,-58.7179 270.4142,-65.0359"/>
 </g>
-<!-- Node903 -->
+<!-- Node828 -->
 <g id="node8" class="node">
-<title>Node903</title>
+<title>Node828</title>
 <g id="a_node8"><a xlink:href="loss_8c.html#a8b9f770f00ca3c534690d727bc9d61ea" target="_top" xlink:title="Root mean squared error loss function. ">
 <polygon fill="none" stroke="#000000" points="267,-.5 267,-19.5 329,-19.5 329,-.5 267,-.5"/>
 <text text-anchor="middle" x="298" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">loss_rmse</text>
 </a>
 </g>
 </g>
-<!-- Node897&#45;&gt;Node903 -->
+<!-- Node822&#45;&gt;Node828 -->
 <g id="edge7" class="edge">
-<title>Node897&#45;&gt;Node903</title>
+<title>Node822&#45;&gt;Node828</title>
 <path fill="none" stroke="#191970" d="M185.7912,-95.3967C198.1334,-79.6921 224.5866,-48.332 253,-29 255.5811,-27.2439 258.3503,-25.5999 261.2003,-24.0722"/>
 <polygon fill="#191970" stroke="#191970" points="262.9726,-27.1028 270.4465,-19.5934 259.921,-20.803 262.9726,-27.1028"/>
 </g>
-<!-- Node903&#45;&gt;Node901 -->
+<!-- Node828&#45;&gt;Node826 -->
 <g id="edge8" class="edge">
-<title>Node903&#45;&gt;Node901</title>
+<title>Node828&#45;&gt;Node826</title>
 <path fill="none" stroke="#191970" d="M325.8838,-19.589C339.494,-24.2694 356.0682,-29.9692 370.7891,-35.0315"/>
 <polygon fill="#191970" stroke="#191970" points="370.0304,-38.4718 380.6251,-38.4141 372.3069,-31.8522 370.0304,-38.4718"/>
 </g>

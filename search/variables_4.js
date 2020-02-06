@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['e_5fmutation',['E_MUTATION',['../structXCSF.html#a5c75cfd486e7ebe94565439fa38a75b5',1,'XCSF']]],
   ['ea_5fselect_5fsize',['EA_SELECT_SIZE',['../structXCSF.html#ae15f8fef844b25ad37f95a94e771270a',1,'XCSF']]],
   ['ea_5fselect_5ftype',['EA_SELECT_TYPE',['../structXCSF.html#a08e09663631fe7e00bda85d3ce80108d',1,'XCSF']]],
   ['ea_5fsubsumption',['EA_SUBSUMPTION',['../structXCSF.html#a5435ad129888625266255b28b276bf0f',1,'XCSF']]],

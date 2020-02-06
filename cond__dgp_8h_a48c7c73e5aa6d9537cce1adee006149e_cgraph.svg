@@ -8,84 +8,84 @@
  viewBox="0.00 0.00 415.00 85.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 81)">
 <title>cond_dgp_match</title>
-<!-- Node46 -->
+<!-- Node58 -->
 <g id="node1" class="node">
-<title>Node46</title>
+<title>Node58</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-38.5 0,-57.5 91,-57.5 91,-38.5 0,-38.5"/>
 <text text-anchor="middle" x="45.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cond_dgp_match</text>
 </g>
-<!-- Node47 -->
+<!-- Node59 -->
 <g id="node2" class="node">
-<title>Node47</title>
-<g id="a_node2"><a xlink:href="dgp_8c.html#a6acff583ba53059413800ec40b129896" target="_top" xlink:title="Returns the current state of a specified node in the graph. ">
+<title>Node59</title>
+<g id="a_node2"><a xlink:href="$dgp_8c.html#a6acff583ba53059413800ec40b129896" xlink:title="Returns the current state of a specified node in the graph. ">
 <polygon fill="none" stroke="#000000" points="128,-57.5 128,-76.5 201,-76.5 201,-57.5 128,-57.5"/>
 <text text-anchor="middle" x="164.5" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">graph_output</text>
 </a>
 </g>
 </g>
-<!-- Node46&#45;&gt;Node47 -->
+<!-- Node58&#45;&gt;Node59 -->
 <g id="edge1" class="edge">
-<title>Node46&#45;&gt;Node47</title>
+<title>Node58&#45;&gt;Node59</title>
 <path fill="none" stroke="#191970" d="M91.1682,-55.2916C99.9306,-56.6906 109.1167,-58.1573 117.9079,-59.5609"/>
 <polygon fill="#191970" stroke="#191970" points="117.5707,-63.0513 127.9975,-61.1719 118.6744,-56.1389 117.5707,-63.0513"/>
 </g>
-<!-- Node48 -->
+<!-- Node60 -->
 <g id="node3" class="node">
-<title>Node48</title>
-<g id="a_node3"><a xlink:href="dgp_8c.html#ac7037469abc0b8c6875d95f377d95a37" target="_top" xlink:title="Synchronously updates a DGP graph T cycles. ">
+<title>Node60</title>
+<g id="a_node3"><a xlink:href="$dgp_8c.html#ac7037469abc0b8c6875d95f377d95a37" xlink:title="Synchronously updates a DGP graph T cycles. ">
 <polygon fill="none" stroke="#000000" points="127,-19.5 127,-38.5 202,-38.5 202,-19.5 127,-19.5"/>
 <text text-anchor="middle" x="164.5" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">graph_update</text>
 </a>
 </g>
 </g>
-<!-- Node46&#45;&gt;Node48 -->
+<!-- Node58&#45;&gt;Node60 -->
 <g id="edge2" class="edge">
-<title>Node46&#45;&gt;Node48</title>
+<title>Node58&#45;&gt;Node60</title>
 <path fill="none" stroke="#191970" d="M91.1682,-40.7084C99.5558,-39.3692 108.3316,-37.9681 116.7776,-36.6195"/>
 <polygon fill="#191970" stroke="#191970" points="117.545,-40.0414 126.8681,-35.0085 116.4413,-33.129 117.545,-40.0414"/>
 </g>
-<!-- Node49 -->
+<!-- Node61 -->
 <g id="node4" class="node">
-<title>Node49</title>
-<g id="a_node4"><a xlink:href="dgp_8c.html#acecb4b6b54630b71479a69f5a568899e" target="_top" xlink:title="Resets the states to their initial state. ">
+<title>Node61</title>
+<g id="a_node4"><a xlink:href="$dgp_8c.html#acecb4b6b54630b71479a69f5a568899e" xlink:title="Resets the states to their initial state. ">
 <polygon fill="none" stroke="#000000" points="242.5,-38.5 242.5,-57.5 310.5,-57.5 310.5,-38.5 242.5,-38.5"/>
 <text text-anchor="middle" x="276.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">graph_reset</text>
 </a>
 </g>
 </g>
-<!-- Node48&#45;&gt;Node49 -->
+<!-- Node60&#45;&gt;Node61 -->
 <g id="edge3" class="edge">
-<title>Node48&#45;&gt;Node49</title>
+<title>Node60&#45;&gt;Node61</title>
 <path fill="none" stroke="#191970" d="M202.1059,-35.3796C211.7277,-37.0118 222.1644,-38.7824 232.0927,-40.4666"/>
 <polygon fill="#191970" stroke="#191970" points="231.755,-43.9593 242.1996,-42.1812 232.9258,-37.0579 231.755,-43.9593"/>
 </g>
-<!-- Node50 -->
+<!-- Node62 -->
 <g id="node5" class="node">
-<title>Node50</title>
-<g id="a_node5"><a xlink:href="dgp_8c.html#a36cd860ca5cce8d9b0ea53cf40b8bfba" target="_top" xlink:title="Returns the result from applying a specified activation function. ">
+<title>Node62</title>
+<g id="a_node5"><a xlink:href="$dgp_8c.html#a36cd860ca5cce8d9b0ea53cf40b8bfba" xlink:title="Returns the result from applying a specified activation function. ">
 <polygon fill="none" stroke="#000000" points="238,-.5 238,-19.5 315,-19.5 315,-.5 238,-.5"/>
 <text text-anchor="middle" x="276.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">node_activate</text>
 </a>
 </g>
 </g>
-<!-- Node48&#45;&gt;Node50 -->
+<!-- Node60&#45;&gt;Node62 -->
 <g id="edge4" class="edge">
-<title>Node48&#45;&gt;Node50</title>
+<title>Node60&#45;&gt;Node62</title>
 <path fill="none" stroke="#191970" d="M202.1059,-22.6204C210.3276,-21.2257 219.1444,-19.73 227.7305,-18.2734"/>
 <polygon fill="#191970" stroke="#191970" points="228.3807,-21.7132 237.6544,-16.5899 227.2099,-14.8118 228.3807,-21.7132"/>
 </g>
-<!-- Node51 -->
+<!-- Node63 -->
 <g id="node6" class="node">
-<title>Node51</title>
-<g id="a_node6"><a xlink:href="utils_8c.html#a4d9693be6ce890dc7a2ee825d11ca3ee" target="_top" xlink:title="Returns a float constrained within the specified range. ">
+<title>Node63</title>
+<g id="a_node6"><a xlink:href="$utils_8c.html#a4d9693be6ce890dc7a2ee825d11ca3ee" xlink:title="Returns a float constrained within the specified range. ">
 <polygon fill="none" stroke="#000000" points="351,-.5 351,-19.5 407,-19.5 407,-.5 351,-.5"/>
 <text text-anchor="middle" x="379" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">constrain</text>
 </a>
 </g>
 </g>
-<!-- Node50&#45;&gt;Node51 -->
+<!-- Node62&#45;&gt;Node63 -->
 <g id="edge5" class="edge">
-<title>Node50&#45;&gt;Node51</title>
+<title>Node62&#45;&gt;Node63</title>
 <path fill="none" stroke="#191970" d="M315.2509,-10C323.542,-10 332.298,-10 340.5768,-10"/>
 <polygon fill="#191970" stroke="#191970" points="340.7371,-13.5001 350.7371,-10 340.737,-6.5001 340.7371,-13.5001"/>
 </g>

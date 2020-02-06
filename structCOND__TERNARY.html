@@ -99,11 +99,14 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a7b0df6d789023f20adbcd8b43739c02c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCOND__TERNARY.html#a7b0df6d789023f20adbcd8b43739c02c">len</a></td></tr>
 <tr class="memdesc:a7b0df6d789023f20adbcd8b43739c02c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length of the bitstring.  <a href="#a7b0df6d789023f20adbcd8b43739c02c">More...</a><br /></td></tr>
 <tr class="separator:a7b0df6d789023f20adbcd8b43739c02c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a290b7c61f178e799e25ba80ff66209d3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCOND__TERNARY.html#a290b7c61f178e799e25ba80ff66209d3">mu</a> [1]</td></tr>
+<tr class="memdesc:a290b7c61f178e799e25ba80ff66209d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutation rates.  <a href="#a290b7c61f178e799e25ba80ff66209d3">More...</a><br /></td></tr>
+<tr class="separator:a290b7c61f178e799e25ba80ff66209d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Ternary condition data structure. </p>
 
-<p class="definition">Definition at line <a class="el" href="cond__ternary_8c_source.html#l00042">42</a> of file <a class="el" href="cond__ternary_8c_source.html">cond_ternary.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cond__ternary_8c_source.html#l00044">44</a> of file <a class="el" href="cond__ternary_8c_source.html">cond_ternary.c</a>.</p>
 </div><h2 class="groupheader">Field Documentation</h2>
 <a id="a7b0df6d789023f20adbcd8b43739c02c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7b0df6d789023f20adbcd8b43739c02c">&#9670;&nbsp;</a></span>len</h2>
@@ -119,9 +122,29 @@ Data Fields</h2></td></tr>
 
 <p>Length of the bitstring. </p>
 
-<p class="definition">Definition at line <a class="el" href="cond__ternary_8c_source.html#l00044">44</a> of file <a class="el" href="cond__ternary_8c_source.html">cond_ternary.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cond__ternary_8c_source.html#l00046">46</a> of file <a class="el" href="cond__ternary_8c_source.html">cond_ternary.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cond__ternary_8c_source.html#l00085">cond_ternary_copy()</a>, <a class="el" href="cond__ternary_8c_source.html#l00134">cond_ternary_crossover()</a>, <a class="el" href="cond__ternary_8c_source.html#l00175">cond_ternary_general()</a>, <a class="el" href="cond__ternary_8c_source.html#l00152">cond_ternary_mutate()</a>, <a class="el" href="cond__ternary_8c_source.html#l00193">cond_ternary_print()</a>, <a class="el" href="cond__ternary_8c_source.html#l00058">cond_ternary_rand()</a>, <a class="el" href="cond__ternary_8c_source.html#l00211">cond_ternary_save()</a>, and <a class="el" href="cond__ternary_8c_source.html#l00204">cond_ternary_size()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cond__ternary_8c_source.html#l00089">cond_ternary_copy()</a>, <a class="el" href="cond__ternary_8c_source.html#l00139">cond_ternary_crossover()</a>, <a class="el" href="cond__ternary_8c_source.html#l00181">cond_ternary_general()</a>, <a class="el" href="cond__ternary_8c_source.html#l00157">cond_ternary_mutate()</a>, <a class="el" href="cond__ternary_8c_source.html#l00198">cond_ternary_print()</a>, <a class="el" href="cond__ternary_8c_source.html#l00062">cond_ternary_rand()</a>, <a class="el" href="cond__ternary_8c_source.html#l00216">cond_ternary_save()</a>, and <a class="el" href="cond__ternary_8c_source.html#l00209">cond_ternary_size()</a>.</p>
+
+</div>
+</div>
+<a id="a290b7c61f178e799e25ba80ff66209d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a290b7c61f178e799e25ba80ff66209d3">&#9670;&nbsp;</a></span>mu</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double COND_TERNARY::mu[1]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Mutation rates. </p>
+
+<p class="definition">Definition at line <a class="el" href="cond__ternary_8c_source.html#l00047">47</a> of file <a class="el" href="cond__ternary_8c_source.html">cond_ternary.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="cond__ternary_8c_source.html#l00089">cond_ternary_copy()</a>, <a class="el" href="cond__ternary_8c_source.html#l00157">cond_ternary_mutate()</a>, and <a class="el" href="cond__ternary_8c_source.html#l00216">cond_ternary_save()</a>.</p>
 
 </div>
 </div>
@@ -139,9 +162,9 @@ Data Fields</h2></td></tr>
 
 <p>Ternary bitstring. </p>
 
-<p class="definition">Definition at line <a class="el" href="cond__ternary_8c_source.html#l00043">43</a> of file <a class="el" href="cond__ternary_8c_source.html">cond_ternary.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cond__ternary_8c_source.html#l00045">45</a> of file <a class="el" href="cond__ternary_8c_source.html">cond_ternary.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cond__ternary_8c_source.html#l00085">cond_ternary_copy()</a>, <a class="el" href="cond__ternary_8c_source.html#l00096">cond_ternary_cover()</a>, <a class="el" href="cond__ternary_8c_source.html#l00134">cond_ternary_crossover()</a>, <a class="el" href="cond__ternary_8c_source.html#l00077">cond_ternary_free()</a>, <a class="el" href="cond__ternary_8c_source.html#l00175">cond_ternary_general()</a>, <a class="el" href="cond__ternary_8c_source.html#l00118">cond_ternary_match()</a>, <a class="el" href="cond__ternary_8c_source.html#l00152">cond_ternary_mutate()</a>, <a class="el" href="cond__ternary_8c_source.html#l00193">cond_ternary_print()</a>, <a class="el" href="cond__ternary_8c_source.html#l00058">cond_ternary_rand()</a>, and <a class="el" href="cond__ternary_8c_source.html#l00211">cond_ternary_save()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cond__ternary_8c_source.html#l00089">cond_ternary_copy()</a>, <a class="el" href="cond__ternary_8c_source.html#l00101">cond_ternary_cover()</a>, <a class="el" href="cond__ternary_8c_source.html#l00139">cond_ternary_crossover()</a>, <a class="el" href="cond__ternary_8c_source.html#l00081">cond_ternary_free()</a>, <a class="el" href="cond__ternary_8c_source.html#l00181">cond_ternary_general()</a>, <a class="el" href="cond__ternary_8c_source.html#l00123">cond_ternary_match()</a>, <a class="el" href="cond__ternary_8c_source.html#l00157">cond_ternary_mutate()</a>, <a class="el" href="cond__ternary_8c_source.html#l00198">cond_ternary_print()</a>, <a class="el" href="cond__ternary_8c_source.html#l00062">cond_ternary_rand()</a>, and <a class="el" href="cond__ternary_8c_source.html#l00216">cond_ternary_save()</a>.</p>
 
 </div>
 </div>

@@ -1,6 +1,7 @@
 var cond__ellipsoid_8c =
 [
     [ "COND_ELLIPSOID", "structCOND__ELLIPSOID.html", "structCOND__ELLIPSOID" ],
+    [ "N_MU", "cond__ellipsoid_8c.html#a7ad8e86a318f2d3d354e0a4e5bc23b30", null ],
     [ "COND_ELLIPSOID", "cond__ellipsoid_8c.html#a09fd637cf61e2c6adfa1ec766946fd58", null ],
     [ "cond_ellipsoid_copy", "cond__ellipsoid_8c.html#a6fb5b2234129bc195f398fbbb814869b", null ],
     [ "cond_ellipsoid_cover", "cond__ellipsoid_8c.html#a8c27de12a3b7edd6462065e3c99c45a6", null ],

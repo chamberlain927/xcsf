@@ -102,15 +102,35 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a0dbbeb9afcbfa620ec930dacffcdab13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structNET.html">NET</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRULE__NEURAL.html#a0dbbeb9afcbfa620ec930dacffcdab13">net</a></td></tr>
 <tr class="memdesc:a0dbbeb9afcbfa620ec930dacffcdab13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Neural network.  <a href="#a0dbbeb9afcbfa620ec930dacffcdab13">More...</a><br /></td></tr>
 <tr class="separator:a0dbbeb9afcbfa620ec930dacffcdab13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05533241bac5647ed445c8b869070711"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRULE__NEURAL.html#a05533241bac5647ed445c8b869070711">num_outputs</a></td></tr>
-<tr class="memdesc:a05533241bac5647ed445c8b869070711"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of action nodes (binarised)  <a href="#a05533241bac5647ed445c8b869070711">More...</a><br /></td></tr>
-<tr class="separator:a05533241bac5647ed445c8b869070711"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d5977d414c7e6303f939eaef6ef783e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRULE__NEURAL.html#a3d5977d414c7e6303f939eaef6ef783e">n_outputs</a></td></tr>
+<tr class="memdesc:a3d5977d414c7e6303f939eaef6ef783e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of action nodes (binarised)  <a href="#a3d5977d414c7e6303f939eaef6ef783e">More...</a><br /></td></tr>
+<tr class="separator:a3d5977d414c7e6303f939eaef6ef783e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Neural network rule data structure. </p>
 
 <p class="definition">Definition at line <a class="el" href="rule__neural_8c_source.html#l00045">45</a> of file <a class="el" href="rule__neural_8c_source.html">rule_neural.c</a>.</p>
 </div><h2 class="groupheader">Field Documentation</h2>
+<a id="a3d5977d414c7e6303f939eaef6ef783e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d5977d414c7e6303f939eaef6ef783e">&#9670;&nbsp;</a></span>n_outputs</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RULE_NEURAL::n_outputs</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Number of action nodes (binarised) </p>
+
+<p class="definition">Definition at line <a class="el" href="rule__neural_8c_source.html#l00047">47</a> of file <a class="el" href="rule__neural_8c_source.html">rule_neural.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="rule__neural_8c_source.html#l00226">rule_neural_act_compute()</a>, and <a class="el" href="rule__neural_8c_source.html#l00108">rule_neural_cond_copy()</a>.</p>
+
+</div>
+</div>
 <a id="a0dbbeb9afcbfa620ec930dacffcdab13"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0dbbeb9afcbfa620ec930dacffcdab13">&#9670;&nbsp;</a></span>net</h2>
 
@@ -128,26 +148,6 @@ Data Fields</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="rule__neural_8c_source.html#l00046">46</a> of file <a class="el" href="rule__neural_8c_source.html">rule_neural.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="rule__neural_8c_source.html#l00226">rule_neural_act_compute()</a>, <a class="el" href="rule__neural_8c_source.html#l00108">rule_neural_cond_copy()</a>, <a class="el" href="rule__neural_8c_source.html#l00101">rule_neural_cond_free()</a>, <a class="el" href="rule__neural_8c_source.html#l00133">rule_neural_cond_match()</a>, <a class="el" href="rule__neural_8c_source.html#l00145">rule_neural_cond_mutate()</a>, <a class="el" href="rule__neural_8c_source.html#l00163">rule_neural_cond_print()</a>, <a class="el" href="rule__neural_8c_source.html#l00117">rule_neural_cond_rand()</a>, <a class="el" href="rule__neural_8c_source.html#l00175">rule_neural_cond_save()</a>, and <a class="el" href="rule__neural_8c_source.html#l00169">rule_neural_cond_size()</a>.</p>
-
-</div>
-</div>
-<a id="a05533241bac5647ed445c8b869070711"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05533241bac5647ed445c8b869070711">&#9670;&nbsp;</a></span>num_outputs</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int RULE_NEURAL::num_outputs</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Number of action nodes (binarised) </p>
-
-<p class="definition">Definition at line <a class="el" href="rule__neural_8c_source.html#l00047">47</a> of file <a class="el" href="rule__neural_8c_source.html">rule_neural.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="rule__neural_8c_source.html#l00226">rule_neural_act_compute()</a>, and <a class="el" href="rule__neural_8c_source.html#l00108">rule_neural_cond_copy()</a>.</p>
 
 </div>
 </div>

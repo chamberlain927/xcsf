@@ -10,7 +10,6 @@ var searchData=
   ['relu_5fgradient',['relu_gradient',['../neural__activations_8h.html#a6e49e33b48cd376b129aeeafb65c8807',1,'neural_activations.h']]],
   ['reset',['reset',['../structENV__MAZE.html#a310adaaa1e8c646762ed1171a0dedd0a',1,'ENV_MAZE']]],
   ['reset_5fstates',['RESET_STATES',['../structXCSF.html#aab2df0dce0e143031994db40d4e59ccd',1,'XCSF']]],
-  ['rows',['rows',['../structINPUT.html#a1d53fd98b244cf91f0c90ad6d34d4c6a',1,'INPUT']]],
   ['rule_5fdgp',['RULE_DGP',['../structRULE__DGP.html',1,'RULE_DGP'],['../rule__dgp_8c.html#a244bb2ef536424a462c4aa6b33bbbcfb',1,'RULE_DGP():&#160;rule_dgp.c']]],
   ['rule_5fdgp_2ec',['rule_dgp.c',['../rule__dgp_8c.html',1,'']]],
   ['rule_5fdgp_2eh',['rule_dgp.h',['../rule__dgp_8h.html',1,'']]],

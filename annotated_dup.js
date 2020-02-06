@@ -1,5 +1,6 @@
 var annotated_dup =
 [
+    [ "ACT_INTEGER", "structACT__INTEGER.html", "structACT__INTEGER" ],
     [ "ActVtbl", "structActVtbl.html", "structActVtbl" ],
     [ "CL", "structCL.html", "structCL" ],
     [ "CLIST", "structCLIST.html", "structCLIST" ],

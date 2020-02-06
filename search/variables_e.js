@@ -3,7 +3,6 @@ var searchData=
   ['p',['p',['../structGP__TREE.html#a7a994cad068039735f9781905f849ae8',1,'GP_TREE']]],
   ['p_5fcrossover',['P_CROSSOVER',['../structXCSF.html#af0d484f3eda41d05ba80878bbce4c0df',1,'XCSF']]],
   ['p_5fexplore',['P_EXPLORE',['../structXCSF.html#a356e1eb7293a55c8e53cbb3e1d1265cf',1,'XCSF']]],
-  ['p_5fmutation',['P_MUTATION',['../structXCSF.html#abdb5b699aa73e7761582256aad6baacc',1,'XCSF']]],
   ['pa',['pa',['../structXCSF.html#a49681646a21a0ba54e73f4efc7874fbd',1,'XCSF']]],
   ['perf_5ftrials',['PERF_TRIALS',['../structXCSF.html#a487d9deb0e6deca1af2f0b0eb66750fc',1,'XCSF']]],
   ['pop_5finit',['POP_INIT',['../structXCSF.html#af7a397309a0f109d3368e9aa5eb7794a',1,'XCSF']]],

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['e_5fmutation',['E_MUTATION',['../structXCSF.html#a5c75cfd486e7ebe94565439fa38a75b5',1,'XCSF']]],
   ['ea',['ea',['../ea_8c.html#ae90a9b4131bb94462265b9c928499eb8',1,'ea(XCSF *xcsf, const SET *set):&#160;ea.c'],['../ea_8h.html#ae90a9b4131bb94462265b9c928499eb8',1,'ea(XCSF *xcsf, const SET *set):&#160;ea.c']]],
   ['ea_2ec',['ea.c',['../ea_8c.html',1,'']]],
   ['ea_2eh',['ea.h',['../ea_8h.html',1,'']]],
@@ -28,7 +27,7 @@ var searchData=
   ['env_5fcsv_5fisreset',['env_csv_isreset',['../env__csv_8c.html#aaf58c2e6a8d9679c88eb83d3ae177ca2',1,'env_csv_isreset(const XCSF *xcsf):&#160;env_csv.c'],['../env__csv_8h.html#aaf58c2e6a8d9679c88eb83d3ae177ca2',1,'env_csv_isreset(const XCSF *xcsf):&#160;env_csv.c']]],
   ['env_5fcsv_5fmaxpayoff',['env_csv_maxpayoff',['../env__csv_8c.html#a31d2d2d9d0c01fba47fbc9cfa0013af3',1,'env_csv_maxpayoff(const XCSF *xcsf):&#160;env_csv.c'],['../env__csv_8h.html#a31d2d2d9d0c01fba47fbc9cfa0013af3',1,'env_csv_maxpayoff(const XCSF *xcsf):&#160;env_csv.c']]],
   ['env_5fcsv_5fmultistep',['env_csv_multistep',['../env__csv_8c.html#a8f5b5cba9c9721192b92ac0fee31f36f',1,'env_csv_multistep(const XCSF *xcsf):&#160;env_csv.c'],['../env__csv_8h.html#a8f5b5cba9c9721192b92ac0fee31f36f',1,'env_csv_multistep(const XCSF *xcsf):&#160;env_csv.c']]],
-  ['env_5fcsv_5fread',['env_csv_read',['../env__csv_8c.html#a5926c8dc023b1cc4aadec9d763ad2c70',1,'env_csv.c']]],
+  ['env_5fcsv_5fread',['env_csv_read',['../env__csv_8c.html#a8567bcba682041121bb9fa5522d4d144',1,'env_csv.c']]],
   ['env_5fcsv_5freset',['env_csv_reset',['../env__csv_8c.html#a87fa1dd1d25595c79e03a862405d0963',1,'env_csv_reset(const XCSF *xcsf):&#160;env_csv.c'],['../env__csv_8h.html#a87fa1dd1d25595c79e03a862405d0963',1,'env_csv_reset(const XCSF *xcsf):&#160;env_csv.c']]],
   ['env_5fcsv_5fvtbl',['env_csv_vtbl',['../env__csv_8h.html#a6b0995a33629ab289317bf7a1417f9fd',1,'env_csv.h']]],
   ['env_5fexecute',['env_execute',['../env_8h.html#a666841f241816f1eb3da3a8dcc14e460',1,'env.h']]],

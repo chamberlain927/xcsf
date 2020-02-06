@@ -1,6 +1,7 @@
 var dgp_8h =
 [
     [ "GRAPH", "structGRAPH.html", "structGRAPH" ],
+    [ "DGP_N_MU", "dgp_8h.html#af2efbfb3f32c0b37be55b7ccf850b7df", null ],
     [ "GRAPH", "dgp_8h.html#af2d8e3d4dc8b1537e3058491e3a1a8a7", null ],
     [ "graph_copy", "dgp_8h.html#a88698e131854543f5efa881b6db0e573", null ],
     [ "graph_crossover", "dgp_8h.html#ac8e1ae46b110b4314abca0ccde4f77f9", null ],

@@ -1,5 +1,8 @@
 var act__integer_8c =
 [
+    [ "ACT_INTEGER", "structACT__INTEGER.html", "structACT__INTEGER" ],
+    [ "N_MU", "act__integer_8c.html#a7ad8e86a318f2d3d354e0a4e5bc23b30", null ],
+    [ "ACT_INTEGER", "act__integer_8c.html#a6ef5ed0fb72d5e9fdc8cbba169a8e55b", null ],
     [ "act_integer_compute", "act__integer_8c.html#a0158c78a17588ea4a323891f40548e32", null ],
     [ "act_integer_copy", "act__integer_8c.html#a914fdf8539d32b4ffc308c25add1351b", null ],
     [ "act_integer_cover", "act__integer_8c.html#abaf060ce5fed0d5901fe512f127b333b", null ],

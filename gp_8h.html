@@ -83,6 +83,7 @@ $(document).ready(function(){initNavTree('gp_8h.html','');});
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
@@ -106,6 +107,12 @@ Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structGP__TREE.html">GP_TREE</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">GP tree data structure.  <a href="structGP__TREE.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ac6176b42ea492794926f3105b4dfb2a1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gp_8h.html#ac6176b42ea492794926f3105b4dfb2a1">GP_N_MU</a>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:ac6176b42ea492794926f3105b4dfb2a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of GP mutation rates.  <a href="#ac6176b42ea492794926f3105b4dfb2a1">More...</a><br /></td></tr>
+<tr class="separator:ac6176b42ea492794926f3105b4dfb2a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -139,9 +146,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ac1b8b935cacd6cbd2d6630a5335b56e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gp_8h.html#ac1b8b935cacd6cbd2d6630a5335b56e2">tree_crossover</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structGP__TREE.html">GP_TREE</a> *p1, <a class="el" href="structGP__TREE.html">GP_TREE</a> *p2)</td></tr>
 <tr class="memdesc:ac1b8b935cacd6cbd2d6630a5335b56e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs sub-tree crossover.  <a href="#ac1b8b935cacd6cbd2d6630a5335b56e2">More...</a><br /></td></tr>
 <tr class="separator:ac1b8b935cacd6cbd2d6630a5335b56e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61668110523d4eed5a97fb4ddcaed8f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gp_8h.html#a61668110523d4eed5a97fb4ddcaed8f0">tree_mutate</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structGP__TREE.html">GP_TREE</a> *gp, double rate)</td></tr>
-<tr class="memdesc:a61668110523d4eed5a97fb4ddcaed8f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs point mutation on a GP tree.  <a href="#a61668110523d4eed5a97fb4ddcaed8f0">More...</a><br /></td></tr>
-<tr class="separator:a61668110523d4eed5a97fb4ddcaed8f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfa176ddc5ae609393a558e46b3fc52b"><td class="memItemLeft" align="right" valign="top">_Bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gp_8h.html#acfa176ddc5ae609393a558e46b3fc52b">tree_mutate</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structGP__TREE.html">GP_TREE</a> *gp)</td></tr>
+<tr class="memdesc:acfa176ddc5ae609393a558e46b3fc52b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs point mutation on a GP tree.  <a href="#acfa176ddc5ae609393a558e46b3fc52b">More...</a><br /></td></tr>
+<tr class="separator:acfa176ddc5ae609393a558e46b3fc52b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a812faa1cc9785dd38706fc5d15de7d84"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gp_8h.html#a812faa1cc9785dd38706fc5d15de7d84">tree_save</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structGP__TREE.html">GP_TREE</a> *gp, FILE *fp)</td></tr>
 <tr class="memdesc:a812faa1cc9785dd38706fc5d15de7d84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the GP tree to a binary file.  <a href="#a812faa1cc9785dd38706fc5d15de7d84">More...</a><br /></td></tr>
 <tr class="separator:a812faa1cc9785dd38706fc5d15de7d84"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -156,7 +163,28 @@ Functions</h2></td></tr>
 <dl class="section date"><dt>Date</dt><dd>2016&ndash;2020. </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="gp_8h_source.html">gp.h</a>.</p>
-</div><h2 class="groupheader">Typedef Documentation</h2>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ac6176b42ea492794926f3105b4dfb2a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6176b42ea492794926f3105b4dfb2a1">&#9670;&nbsp;</a></span>GP_N_MU</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GP_N_MU&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Number of GP mutation rates. </p>
+
+<p class="definition">Definition at line <a class="el" href="gp_8h_source.html#l00026">26</a> of file <a class="el" href="gp_8h_source.html">gp.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="gp_8c_source.html#l00234">tree_copy()</a>, <a class="el" href="gp_8c_source.html#l00352">tree_load()</a>, <a class="el" href="gp_8c_source.html#l00281">tree_mutate()</a>, <a class="el" href="gp_8c_source.html#l00075">tree_rand()</a>, and <a class="el" href="gp_8c_source.html#l00334">tree_save()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Typedef Documentation</h2>
 <a id="ab7f91f9101368c25c8a18bfb7f52f44b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab7f91f9101368c25c8a18bfb7f52f44b">&#9670;&nbsp;</a></span>GP_TREE</h2>
 
@@ -216,11 +244,11 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="gp_8c_source.html#l00232">232</a> of file <a class="el" href="gp_8c_source.html">gp.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gp_8c_source.html#l00234">234</a> of file <a class="el" href="gp_8c_source.html">gp.c</a>.</p>
 
-<p class="reference">References <a class="el" href="gp_8h_source.html#l00031">GP_TREE::len</a>, <a class="el" href="gp_8h_source.html#l00032">GP_TREE::p</a>, and <a class="el" href="gp_8h_source.html#l00030">GP_TREE::tree</a>.</p>
+<p class="reference">References <a class="el" href="gp_8h_source.html#l00026">GP_N_MU</a>, <a class="el" href="gp_8h_source.html#l00033">GP_TREE::len</a>, <a class="el" href="gp_8h_source.html#l00035">GP_TREE::mu</a>, <a class="el" href="gp_8h_source.html#l00034">GP_TREE::p</a>, and <a class="el" href="gp_8h_source.html#l00032">GP_TREE::tree</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cond__gp_8c_source.html#l00059">cond_gp_copy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cond__gp_8c_source.html#l00060">cond_gp_copy()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -272,11 +300,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="gp_8c_source.html#l00247">247</a> of file <a class="el" href="gp_8c_source.html">gp.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gp_8c_source.html#l00250">250</a> of file <a class="el" href="gp_8c_source.html">gp.c</a>.</p>
 
-<p class="reference">References <a class="el" href="utils_8c_source.html#l00064">irand_uniform()</a>, <a class="el" href="gp_8h_source.html#l00031">GP_TREE::len</a>, <a class="el" href="gp_8h_source.html#l00030">GP_TREE::tree</a>, <a class="el" href="gp_8c_source.html#l00090">tree_free()</a>, and <a class="el" href="gp_8c_source.html#l00302">tree_traverse()</a>.</p>
+<p class="reference">References <a class="el" href="utils_8c_source.html#l00064">irand_uniform()</a>, <a class="el" href="gp_8h_source.html#l00033">GP_TREE::len</a>, <a class="el" href="gp_8h_source.html#l00032">GP_TREE::tree</a>, <a class="el" href="gp_8c_source.html#l00092">tree_free()</a>, and <a class="el" href="gp_8c_source.html#l00308">tree_traverse()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cond__gp_8c_source.html#l00111">cond_gp_crossover()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cond__gp_8c_source.html#l00104">cond_gp_crossover()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -335,11 +363,11 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The result from evaluating the GP tree. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="gp_8c_source.html#l00152">152</a> of file <a class="el" href="gp_8c_source.html">gp.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gp_8c_source.html#l00154">154</a> of file <a class="el" href="gp_8c_source.html">gp.c</a>.</p>
 
-<p class="reference">References <a class="el" href="gp_8c_source.html#l00040">ADD</a>, <a class="el" href="gp_8c_source.html#l00043">DIV</a>, <a class="el" href="xcsf_8h_source.html#l00158">XCSF::gp_cons</a>, <a class="el" href="xcsf_8h_source.html#l00156">XCSF::GP_NUM_CONS</a>, <a class="el" href="gp_8c_source.html#l00039">GP_NUM_FUNC</a>, <a class="el" href="gp_8c_source.html#l00042">MUL</a>, <a class="el" href="gp_8h_source.html#l00032">GP_TREE::p</a>, <a class="el" href="gp_8c_source.html#l00041">SUB</a>, <a class="el" href="gp_8h_source.html#l00030">GP_TREE::tree</a>, and <a class="el" href="gp_8c_source.html#l00152">tree_eval()</a>.</p>
+<p class="reference">References <a class="el" href="gp_8c_source.html#l00041">ADD</a>, <a class="el" href="gp_8c_source.html#l00044">DIV</a>, <a class="el" href="xcsf_8h_source.html#l00150">XCSF::gp_cons</a>, <a class="el" href="xcsf_8h_source.html#l00148">XCSF::GP_NUM_CONS</a>, <a class="el" href="gp_8c_source.html#l00040">GP_NUM_FUNC</a>, <a class="el" href="gp_8c_source.html#l00043">MUL</a>, <a class="el" href="gp_8h_source.html#l00034">GP_TREE::p</a>, <a class="el" href="gp_8c_source.html#l00042">SUB</a>, <a class="el" href="gp_8h_source.html#l00032">GP_TREE::tree</a>, and <a class="el" href="gp_8c_source.html#l00154">tree_eval()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cond__gp_8c_source.html#l00086">cond_gp_match()</a>, and <a class="el" href="gp_8c_source.html#l00152">tree_eval()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cond__gp_8c_source.html#l00087">cond_gp_match()</a>, and <a class="el" href="gp_8c_source.html#l00154">tree_eval()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -390,11 +418,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="gp_8c_source.html#l00090">90</a> of file <a class="el" href="gp_8c_source.html">gp.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gp_8c_source.html#l00092">92</a> of file <a class="el" href="gp_8c_source.html">gp.c</a>.</p>
 
-<p class="reference">References <a class="el" href="gp_8h_source.html#l00030">GP_TREE::tree</a>.</p>
+<p class="reference">References <a class="el" href="gp_8h_source.html#l00032">GP_TREE::tree</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cond__gp_8c_source.html#l00052">cond_gp_free()</a>, <a class="el" href="cond__gp_8c_source.html#l00067">cond_gp_rand()</a>, and <a class="el" href="gp_8c_source.html#l00247">tree_crossover()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cond__gp_8c_source.html#l00053">cond_gp_free()</a>, <a class="el" href="cond__gp_8c_source.html#l00068">cond_gp_rand()</a>, and <a class="el" href="gp_8c_source.html#l00250">tree_crossover()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -428,9 +456,9 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="gp_8c_source.html#l00064">64</a> of file <a class="el" href="gp_8c_source.html">gp.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gp_8c_source.html#l00065">65</a> of file <a class="el" href="gp_8c_source.html">gp.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00158">XCSF::gp_cons</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00150">XCSF::gp_cons</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00099">config_free()</a>.</p>
 <div class="dynheader">
@@ -466,9 +494,9 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="gp_8c_source.html#l00052">52</a> of file <a class="el" href="gp_8c_source.html">gp.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gp_8c_source.html#l00053">53</a> of file <a class="el" href="gp_8c_source.html">gp.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00148">XCSF::COND_MAX</a>, <a class="el" href="xcsf_8h_source.html#l00149">XCSF::COND_MIN</a>, <a class="el" href="xcsf_8h_source.html#l00158">XCSF::gp_cons</a>, <a class="el" href="xcsf_8h_source.html#l00156">XCSF::GP_NUM_CONS</a>, and <a class="el" href="utils_8c_source.html#l00073">rand_uniform()</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00140">XCSF::COND_MAX</a>, <a class="el" href="xcsf_8h_source.html#l00141">XCSF::COND_MIN</a>, <a class="el" href="xcsf_8h_source.html#l00150">XCSF::gp_cons</a>, <a class="el" href="xcsf_8h_source.html#l00148">XCSF::GP_NUM_CONS</a>, and <a class="el" href="utils_8c_source.html#l00073">rand_uniform()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00075">config_init()</a>.</p>
 <div class="dynheader">
@@ -529,11 +557,11 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The number of elements read. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="gp_8c_source.html#l00345">345</a> of file <a class="el" href="gp_8c_source.html">gp.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gp_8c_source.html#l00352">352</a> of file <a class="el" href="gp_8c_source.html">gp.c</a>.</p>
 
-<p class="reference">References <a class="el" href="gp_8h_source.html#l00031">GP_TREE::len</a>, <a class="el" href="gp_8h_source.html#l00032">GP_TREE::p</a>, and <a class="el" href="gp_8h_source.html#l00030">GP_TREE::tree</a>.</p>
+<p class="reference">References <a class="el" href="gp_8h_source.html#l00026">GP_N_MU</a>, <a class="el" href="gp_8h_source.html#l00033">GP_TREE::len</a>, <a class="el" href="gp_8h_source.html#l00035">GP_TREE::mu</a>, <a class="el" href="gp_8h_source.html#l00034">GP_TREE::p</a>, and <a class="el" href="gp_8h_source.html#l00032">GP_TREE::tree</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cond__gp_8c_source.html#l00152">cond_gp_load()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cond__gp_8c_source.html#l00143">cond_gp_load()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -543,14 +571,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a61668110523d4eed5a97fb4ddcaed8f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61668110523d4eed5a97fb4ddcaed8f0">&#9670;&nbsp;</a></span>tree_mutate()</h2>
+<a id="acfa176ddc5ae609393a558e46b3fc52b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfa176ddc5ae609393a558e46b3fc52b">&#9670;&nbsp;</a></span>tree_mutate()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void tree_mutate </td>
+          <td class="memname">_Bool tree_mutate </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
           <td class="paramname"><em>xcsf</em>, </td>
@@ -558,14 +586,8 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structGP__TREE.html">GP_TREE</a> *&#160;</td>
-          <td class="paramname"><em>gp</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>rate</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="structGP__TREE.html">GP_TREE</a> *&#160;</td>
+          <td class="paramname"><em>gp</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -580,26 +602,25 @@ Here is the caller graph for this function:</div>
   <table class="params">
     <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
     <tr><td class="paramname">gp</td><td>The GP tree to be mutated. </td></tr>
-    <tr><td class="paramname">rate</td><td>The per allele rate of mutation. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="gp_8c_source.html#l00279">279</a> of file <a class="el" href="gp_8c_source.html">gp.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gp_8c_source.html#l00281">281</a> of file <a class="el" href="gp_8c_source.html">gp.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00156">XCSF::GP_NUM_CONS</a>, <a class="el" href="gp_8c_source.html#l00039">GP_NUM_FUNC</a>, <a class="el" href="utils_8c_source.html#l00064">irand_uniform()</a>, <a class="el" href="gp_8h_source.html#l00031">GP_TREE::len</a>, <a class="el" href="utils_8c_source.html#l00073">rand_uniform()</a>, <a class="el" href="gp_8h_source.html#l00030">GP_TREE::tree</a>, and <a class="el" href="xcsf_8h_source.html#l00203">XCSF::x_dim</a>.</p>
+<p class="reference">References <a class="el" href="gp_8h_source.html#l00026">GP_N_MU</a>, <a class="el" href="xcsf_8h_source.html#l00148">XCSF::GP_NUM_CONS</a>, <a class="el" href="gp_8c_source.html#l00040">GP_NUM_FUNC</a>, <a class="el" href="utils_8c_source.html#l00064">irand_uniform()</a>, <a class="el" href="gp_8h_source.html#l00033">GP_TREE::len</a>, <a class="el" href="gp_8h_source.html#l00035">GP_TREE::mu</a>, <a class="el" href="utils_8c_source.html#l00073">rand_uniform()</a>, <a class="el" href="sam_8c_source.html#l00063">sam_adapt()</a>, <a class="el" href="gp_8h_source.html#l00032">GP_TREE::tree</a>, and <a class="el" href="xcsf_8h_source.html#l00195">XCSF::x_dim</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cond__gp_8c_source.html#l00099">cond_gp_mutate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cond__gp_8c_source.html#l00098">cond_gp_mutate()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8h_a61668110523d4eed5a97fb4ddcaed8f0_cgraph.svg" width="983" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8h_acfa176ddc5ae609393a558e46b3fc52b_cgraph.svg" width="1322" height="223"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8h_a61668110523d4eed5a97fb4ddcaed8f0_icgraph.svg" width="268" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8h_acfa176ddc5ae609393a558e46b3fc52b_icgraph.svg" width="268" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -648,11 +669,11 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The position after traversal. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="gp_8c_source.html#l00193">193</a> of file <a class="el" href="gp_8c_source.html">gp.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gp_8c_source.html#l00195">195</a> of file <a class="el" href="gp_8c_source.html">gp.c</a>.</p>
 
-<p class="reference">References <a class="el" href="gp_8c_source.html#l00040">ADD</a>, <a class="el" href="gp_8c_source.html#l00043">DIV</a>, <a class="el" href="xcsf_8h_source.html#l00158">XCSF::gp_cons</a>, <a class="el" href="xcsf_8h_source.html#l00156">XCSF::GP_NUM_CONS</a>, <a class="el" href="gp_8c_source.html#l00039">GP_NUM_FUNC</a>, <a class="el" href="gp_8c_source.html#l00042">MUL</a>, <a class="el" href="gp_8c_source.html#l00041">SUB</a>, <a class="el" href="gp_8h_source.html#l00030">GP_TREE::tree</a>, and <a class="el" href="gp_8c_source.html#l00193">tree_print()</a>.</p>
+<p class="reference">References <a class="el" href="gp_8c_source.html#l00041">ADD</a>, <a class="el" href="gp_8c_source.html#l00044">DIV</a>, <a class="el" href="xcsf_8h_source.html#l00150">XCSF::gp_cons</a>, <a class="el" href="xcsf_8h_source.html#l00148">XCSF::GP_NUM_CONS</a>, <a class="el" href="gp_8c_source.html#l00040">GP_NUM_FUNC</a>, <a class="el" href="gp_8c_source.html#l00043">MUL</a>, <a class="el" href="gp_8c_source.html#l00042">SUB</a>, <a class="el" href="gp_8h_source.html#l00032">GP_TREE::tree</a>, and <a class="el" href="gp_8c_source.html#l00195">tree_print()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cond__gp_8c_source.html#l00130">cond_gp_print()</a>, and <a class="el" href="gp_8c_source.html#l00193">tree_print()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cond__gp_8c_source.html#l00121">cond_gp_print()</a>, and <a class="el" href="gp_8c_source.html#l00195">tree_print()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -703,15 +724,15 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="gp_8c_source.html#l00074">74</a> of file <a class="el" href="gp_8c_source.html">gp.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gp_8c_source.html#l00075">75</a> of file <a class="el" href="gp_8c_source.html">gp.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00157">XCSF::GP_INIT_DEPTH</a>, <a class="el" href="gp_8c_source.html#l00038">GP_MAX_LEN</a>, <a class="el" href="gp_8h_source.html#l00031">GP_TREE::len</a>, <a class="el" href="gp_8h_source.html#l00030">GP_TREE::tree</a>, and <a class="el" href="gp_8c_source.html#l00107">tree_grow()</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00149">XCSF::GP_INIT_DEPTH</a>, <a class="el" href="gp_8c_source.html#l00039">GP_MAX_LEN</a>, <a class="el" href="gp_8h_source.html#l00026">GP_N_MU</a>, <a class="el" href="gp_8h_source.html#l00033">GP_TREE::len</a>, <a class="el" href="gp_8h_source.html#l00035">GP_TREE::mu</a>, <a class="el" href="sam_8c_source.html#l00046">sam_init()</a>, <a class="el" href="gp_8h_source.html#l00032">GP_TREE::tree</a>, and <a class="el" href="gp_8c_source.html#l00109">tree_grow()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cond__gp_8c_source.html#l00045">cond_gp_init()</a>, and <a class="el" href="cond__gp_8c_source.html#l00067">cond_gp_rand()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cond__gp_8c_source.html#l00046">cond_gp_init()</a>, and <a class="el" href="cond__gp_8c_source.html#l00068">cond_gp_rand()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8h_ae77c9d7102a5e5d3b0ecca6993117e21_cgraph.svg" width="1095" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8h_ae77c9d7102a5e5d3b0ecca6993117e21_cgraph.svg" width="1335" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -766,11 +787,11 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The number of elements written. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="gp_8c_source.html#l00328">328</a> of file <a class="el" href="gp_8c_source.html">gp.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gp_8c_source.html#l00334">334</a> of file <a class="el" href="gp_8c_source.html">gp.c</a>.</p>
 
-<p class="reference">References <a class="el" href="gp_8h_source.html#l00031">GP_TREE::len</a>, <a class="el" href="gp_8h_source.html#l00032">GP_TREE::p</a>, and <a class="el" href="gp_8h_source.html#l00030">GP_TREE::tree</a>.</p>
+<p class="reference">References <a class="el" href="gp_8h_source.html#l00026">GP_N_MU</a>, <a class="el" href="gp_8h_source.html#l00033">GP_TREE::len</a>, <a class="el" href="gp_8h_source.html#l00035">GP_TREE::mu</a>, <a class="el" href="gp_8h_source.html#l00034">GP_TREE::p</a>, and <a class="el" href="gp_8h_source.html#l00032">GP_TREE::tree</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cond__gp_8c_source.html#l00145">cond_gp_save()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cond__gp_8c_source.html#l00136">cond_gp_save()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
