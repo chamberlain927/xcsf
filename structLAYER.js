@@ -18,7 +18,6 @@ var structLAYER =
     [ "rand", "structLAYER.html#ad63be30cb5baf23a43bb286a76ac5f86", null ],
     [ "scale", "structLAYER.html#ab5ed397f7befb5d5388b6505d822b263", null ],
     [ "state", "structLAYER.html#aa38e92c54e0af70754c55b389e615b3e", null ],
-    [ "temp", "structLAYER.html#a743c67ae8ad10b84b80de6916c2fa4aa", null ],
     [ "weight_updates", "structLAYER.html#a8cdaab3521b32215737c5895c599fb3b", null ],
     [ "weights", "structLAYER.html#a958ed546034f23b08abf2d5e8784ba8d", null ]
 ];

@@ -183,10 +183,9 @@ var NAVTREEINDEX5 =
 "structLAYER.html#a3026d8020c31059a19fff374b9551d18":[1,0,18,9],
 "structLAYER.html#a5563171200a9c4a55de872d1c980c08d":[1,0,18,8],
 "structLAYER.html#a6652bbfa7d5568bbedaf909ed528fc06":[1,0,18,3],
-"structLAYER.html#a743c67ae8ad10b84b80de6916c2fa4aa":[1,0,18,18],
-"structLAYER.html#a8cdaab3521b32215737c5895c599fb3b":[1,0,18,19],
+"structLAYER.html#a8cdaab3521b32215737c5895c599fb3b":[1,0,18,18],
 "structLAYER.html#a935f86a8074381fba53b5528b4df1316":[1,0,18,5],
-"structLAYER.html#a958ed546034f23b08abf2d5e8784ba8d":[1,0,18,20],
+"structLAYER.html#a958ed546034f23b08abf2d5e8784ba8d":[1,0,18,19],
 "structLAYER.html#a96517e92eec2622d877c12c8966476cf":[1,0,18,11],
 "structLAYER.html#a97f2fb77da92ee6124a31b87a1a2c031":[1,0,18,6],
 "structLAYER.html#a9cd67819c3ac0129bf881a284d2607ff":[1,0,18,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX5 =
 "structPredVtbl.html#aa365aa7152ff1b89cbf9ecf34872d521":[1,0,26,5],
 "structPredVtbl.html#ab67133579960c8003f22f616bd4dd2e7":[1,0,26,9],
 "structPredVtbl.html#ad14ca8c15fed356c842cb7a9ca533dca":[1,0,26,0],
-"structPredVtbl.html#ade2b422f32c6805c043fceacd672bce9":[1,0,26,3]
+"structPredVtbl.html#ade2b422f32c6805c043fceacd672bce9":[1,0,26,3],
+"structPredVtbl.html#ae22eb023abd902d1648b6d0d125235c6":[1,0,26,6]
 };

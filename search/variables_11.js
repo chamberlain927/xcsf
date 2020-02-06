@@ -3,7 +3,6 @@ var searchData=
   ['t',['t',['../structGRAPH.html#ad7ec8210fa64912c6a6cbba9f167bb7d',1,'GRAPH']]],
   ['tail',['tail',['../structNET.html#ab764acdcb1d5c310d9ae55a78ca277a7',1,'NET']]],
   ['teletransportation',['TELETRANSPORTATION',['../structXCSF.html#a55b5eb5311bf5eb3fdb61efb628b1784',1,'XCSF']]],
-  ['temp',['temp',['../structLAYER.html#a743c67ae8ad10b84b80de6916c2fa4aa',1,'LAYER']]],
   ['test_5fdata',['test_data',['../structENV__CSV.html#a4c642d8adaef71937df3c2043707aafa',1,'ENV_CSV::test_data()'],['../structXCS.html#aba1237989c28a1cf48ac2f2e742f23ac',1,'XCS::test_data()']]],
   ['theta_5fdel',['THETA_DEL',['../structXCSF.html#a6f0096b6367d1ab342686e12a988c267',1,'XCSF']]],
   ['theta_5fea',['THETA_EA',['../structXCSF.html#a580a42d79930991c1f45928ccc5de6af',1,'XCSF']]],

@@ -6,7 +6,6 @@ var searchData=
   ['tanh_5factivate',['tanh_activate',['../neural__activations_8h.html#ad140d819f7f36fd2750f697d914cfed9',1,'neural_activations.h']]],
   ['tanh_5fgradient',['tanh_gradient',['../neural__activations_8h.html#a9ff181117fd714ae3d53c60f48eef8b0',1,'neural_activations.h']]],
   ['teletransportation',['TELETRANSPORTATION',['../structXCSF.html#a55b5eb5311bf5eb3fdb61efb628b1784',1,'XCSF']]],
-  ['temp',['temp',['../structLAYER.html#a743c67ae8ad10b84b80de6916c2fa4aa',1,'LAYER']]],
   ['test_5fdata',['test_data',['../structENV__CSV.html#a4c642d8adaef71937df3c2043707aafa',1,'ENV_CSV::test_data()'],['../structXCS.html#aba1237989c28a1cf48ac2f2e742f23ac',1,'XCS::test_data()']]],
   ['theta_5fdel',['THETA_DEL',['../structXCSF.html#a6f0096b6367d1ab342686e12a988c267',1,'XCSF']]],
   ['theta_5fea',['THETA_EA',['../structXCSF.html#a580a42d79930991c1f45928ccc5de6af',1,'XCSF']]],
