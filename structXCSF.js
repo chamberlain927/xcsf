@@ -50,8 +50,6 @@ var structXCSF =
     [ "nr", "structXCSF.html#a1e9f7b5c246cbf133be30effa606e94d", null ],
     [ "NU", "structXCSF.html#a6ffb8993fdb50334736dbaf51b7592bd", null ],
     [ "num_actions", "structXCSF.html#ae104f4d5926f9e2f1da2fef5a14bdfd5", null ],
-    [ "num_x_vars", "structXCSF.html#a40fd2be9c7f8171f838192fc737aad18", null ],
-    [ "num_y_vars", "structXCSF.html#a248d2f683cf66c00e3122c9a4f629241", null ],
     [ "OMP_NUM_THREADS", "structXCSF.html#ab02d61d7acb7e4bddb3e8f3e4f56d019", null ],
     [ "P_CROSSOVER", "structXCSF.html#af0d484f3eda41d05ba80878bbce4c0df", null ],
     [ "P_EXPLORE", "structXCSF.html#a356e1eb7293a55c8e53cbb3e1d1265cf", null ],
@@ -90,5 +88,7 @@ var structXCSF =
     [ "THETA_EA", "structXCSF.html#a580a42d79930991c1f45928ccc5de6af", null ],
     [ "THETA_SUB", "structXCSF.html#ad5e368101793c1a242ffa38c81d45b3b", null ],
     [ "time", "structXCSF.html#abe0405c64106260871074d7dc21d2b4e", null ],
-    [ "train", "structXCSF.html#a3858c34e3409563cd131afc70d12995b", null ]
+    [ "train", "structXCSF.html#a3858c34e3409563cd131afc70d12995b", null ],
+    [ "x_dim", "structXCSF.html#a3f4e92535768c38b9dd3a2c50f40192d", null ],
+    [ "y_dim", "structXCSF.html#af0407e2f08dfc6f2ab13eb8457b70a6b", null ]
 ];

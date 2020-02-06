@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['xcs',['XCS',['../structXCS.html#a0dd359a4dfc0a6439a5c6554768c8b9f',1,'XCS::XCS(int num_x_vars, int num_actions, _Bool multistep)'],['../structXCS.html#abcfa655a934bb0bf6348df073b39ce72',1,'XCS::XCS(int num_x_vars, int num_y_vars)'],['../structXCS.html#a6cfaf100bf40e491fb8b32a93439b969',1,'XCS::XCS(int num_x_vars, int num_y_vars, const char *filename)']]],
+  ['xcs',['XCS',['../structXCS.html#a41c00bedfcf907780c26ca4574c9b816',1,'XCS::XCS(int x_dim, int num_actions, _Bool multistep)'],['../structXCS.html#a9bef8068ce4f016bf5dca984d2caa80b',1,'XCS::XCS(int x_dim, int y_dim)'],['../structXCS.html#a8511e64693819e2b8f2940c17f5d565f',1,'XCS::XCS(int x_dim, int y_dim, const char *filename)']]],
   ['xcs_5finit',['xcs_init',['../structXCS.html#ad372bae45743be0fbf7d95b67e13b390',1,'XCS::xcs_init()'],['../python__wrapper_8cpp.html#ad0bc993489799b3864429756909417a6',1,'xcs_init():&#160;python_wrapper.cpp']]],
   ['xcs_5fmulti_5fdecision',['xcs_multi_decision',['../xcs__multi__step_8c.html#af2eaa15cba52d29fa3630218d9780a6a',1,'xcs_multi_decision(XCSF *xcsf, const double *x):&#160;xcs_multi_step.c'],['../xcs__multi__step_8h.html#af2eaa15cba52d29fa3630218d9780a6a',1,'xcs_multi_decision(XCSF *xcsf, const double *x):&#160;xcs_multi_step.c']]],
   ['xcs_5fmulti_5fstep_5fexp',['xcs_multi_step_exp',['../xcs__multi__step_8c.html#acc29d4a55dbd56c16ea5f19f15a7c677',1,'xcs_multi_step_exp(XCSF *xcsf):&#160;xcs_multi_step.c'],['../xcs__multi__step_8h.html#acc29d4a55dbd56c16ea5f19f15a7c677',1,'xcs_multi_step_exp(XCSF *xcsf):&#160;xcs_multi_step.c']]],

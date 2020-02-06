@@ -102,7 +102,5 @@ var searchData=
   ['num_5flayers',['num_layers',['../structNET.html#a19f34e188483b29e4d3547b2e227155a',1,'NET']]],
   ['num_5foutputs',['num_outputs',['../structNET.html#a3bbf31738a420262dda9aa96ac6813d6',1,'NET::num_outputs()'],['../structLAYER.html#afc27659b79187e630133c63c436049eb',1,'LAYER::num_outputs()'],['../structRULE__DGP.html#a8271d57244476077a6869721895a1137',1,'RULE_DGP::num_outputs()'],['../structRULE__NEURAL.html#a05533241bac5647ed445c8b869070711',1,'RULE_NEURAL::num_outputs()']]],
   ['num_5frates',['NUM_RATES',['../sam_8c.html#a645e6e4b2b86edabb8055e43055b1b02',1,'sam.c']]],
-  ['num_5fweights',['num_weights',['../structLAYER.html#ae178fe72a5f5ba48223c3b8fd9d652bb',1,'LAYER']]],
-  ['num_5fx_5fvars',['num_x_vars',['../structXCSF.html#a40fd2be9c7f8171f838192fc737aad18',1,'XCSF']]],
-  ['num_5fy_5fvars',['num_y_vars',['../structXCSF.html#a248d2f683cf66c00e3122c9a4f629241',1,'XCSF']]]
+  ['num_5fweights',['num_weights',['../structLAYER.html#ae178fe72a5f5ba48223c3b8fd9d652bb',1,'LAYER']]]
 ];
