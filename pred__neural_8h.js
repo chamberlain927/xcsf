@@ -3,7 +3,7 @@ var pred__neural_8h =
     [ "pred_neural_compute", "pred__neural_8h.html#a6d4304b2fb6eb840c9974f1180bc15a5", null ],
     [ "pred_neural_copy", "pred__neural_8h.html#a29c40c10e9a2e2cd52f937d136b76356", null ],
     [ "pred_neural_crossover", "pred__neural_8h.html#a9cb49b17ac93709160d17c0ce84add74", null ],
-    [ "pred_neural_eta", "pred__neural_8h.html#a44a2328a324cfde396e747881dc4be6f", null ],
+    [ "pred_neural_eta", "pred__neural_8h.html#af85da944e8fc9d454368ea4f997ca310", null ],
     [ "pred_neural_free", "pred__neural_8h.html#ac8c7432c5a5b0e790c4ac488f74d5319", null ],
     [ "pred_neural_init", "pred__neural_8h.html#a397fa4cc96b4018275cd41fd50292440", null ],
     [ "pred_neural_layers", "pred__neural_8h.html#a0c10b17e2a343fef0128cbaf1d39f0d1", null ],

@@ -9,7 +9,7 @@ var searchData=
   ['ea_5fselect_5froulette',['EA_SELECT_ROULETTE',['../ea_8c.html#aeb166d481b9c61c177c155402335e4e2',1,'ea.c']]],
   ['ea_5fselect_5frw',['ea_select_rw',['../ea_8c.html#a715c3a5736659610b1ac1bd34bd77008',1,'ea.c']]],
   ['ea_5fselect_5fsize',['EA_SELECT_SIZE',['../structXCSF.html#ae15f8fef844b25ad37f95a94e771270a',1,'XCSF']]],
-  ['ea_5fselect_5ftournament',['EA_SELECT_TOURNAMENT',['../ea_8c.html#a3e45cbb20be181c5186ed716880823af',1,'EA_SELECT_TOURNAMENT():&#160;ea.c'],['../ea_8c.html#a820eac4258fe096a1ac0c1a67969f71e',1,'ea_select_tournament(const XCSF *xcsf, const SET *set):&#160;ea.c']]],
+  ['ea_5fselect_5ftournament',['ea_select_tournament',['../ea_8c.html#a820eac4258fe096a1ac0c1a67969f71e',1,'ea_select_tournament(const XCSF *xcsf, const SET *set):&#160;ea.c'],['../ea_8c.html#a3e45cbb20be181c5186ed716880823af',1,'EA_SELECT_TOURNAMENT():&#160;ea.c']]],
   ['ea_5fselect_5ftype',['EA_SELECT_TYPE',['../structXCSF.html#a08e09663631fe7e00bda85d3ce80108d',1,'XCSF']]],
   ['ea_5fsubsume',['ea_subsume',['../ea_8c.html#a8ea16017fe8753d9b079e8e333d98545',1,'ea.c']]],
   ['ea_5fsubsumption',['EA_SUBSUMPTION',['../structXCSF.html#a5435ad129888625266255b28b276bf0f',1,'XCSF']]],
@@ -76,8 +76,8 @@ var searchData=
   ['eps_5f0',['EPS_0',['../structXCSF.html#a3e64bfb14c981bff248b33158de16034',1,'XCSF']]],
   ['err',['err',['../structCL.html#a0b5736198fa0502c3eb41ee5ace91fbb',1,'CL']]],
   ['err_5freduc',['ERR_REDUC',['../structXCSF.html#a8b77e1d5d7082112e1c5aa4da5d52cf8',1,'XCSF']]],
-  ['eta',['eta',['../structLAYER.html#a6652bbfa7d5568bbedaf909ed528fc06',1,'LAYER']]],
-  ['eta_5fmax',['ETA_MAX',['../neural__layer__connected_8c.html#ac8506c6dfbaa367890d2c900541c6f19',1,'neural_layer_connected.c']]],
-  ['eta_5fmin',['ETA_MIN',['../neural__layer__connected_8c.html#a05eb6d5155c3a0f6b17118b5ce0478ac',1,'neural_layer_connected.c']]],
+  ['eta',['eta',['../structNET.html#a618bdf798a7b2f14232f4070c92e9142',1,'NET']]],
+  ['eta_5fmax',['ETA_MAX',['../neural_8c.html#ac8506c6dfbaa367890d2c900541c6f19',1,'neural.c']]],
+  ['eta_5fmin',['ETA_MIN',['../neural_8c.html#a05eb6d5155c3a0f6b17118b5ce0478ac',1,'neural.c']]],
   ['exp',['exp',['../structCL.html#a14f0e79726736c74a3c0a97525f597d9',1,'CL']]]
 ];

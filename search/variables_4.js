@@ -18,6 +18,6 @@ var searchData=
   ['eps_5f0',['EPS_0',['../structXCSF.html#a3e64bfb14c981bff248b33158de16034',1,'XCSF']]],
   ['err',['err',['../structCL.html#a0b5736198fa0502c3eb41ee5ace91fbb',1,'CL']]],
   ['err_5freduc',['ERR_REDUC',['../structXCSF.html#a8b77e1d5d7082112e1c5aa4da5d52cf8',1,'XCSF']]],
-  ['eta',['eta',['../structLAYER.html#a6652bbfa7d5568bbedaf909ed528fc06',1,'LAYER']]],
+  ['eta',['eta',['../structNET.html#a618bdf798a7b2f14232f4070c92e9142',1,'NET']]],
   ['exp',['exp',['../structCL.html#a14f0e79726736c74a3c0a97525f597d9',1,'CL']]]
 ];

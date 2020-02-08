@@ -123,12 +123,12 @@ Functions</h2></td></tr>
 <tr class="separator:ad19ff24633bdc86eb6da7a32541918e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16792a1a80288e2370300f9f16ef04ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__softmax_8c.html#a16792a1a80288e2370300f9f16ef04ea">neural_layer_softmax_backward</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structLAYER.html">LAYER</a> *l, const <a class="el" href="structNET.html">NET</a> *net)</td></tr>
 <tr class="separator:a16792a1a80288e2370300f9f16ef04ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3701ce9d42437f84c43eeea0d4faa46f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__softmax_8c.html#a3701ce9d42437f84c43eeea0d4faa46f">neural_layer_softmax_update</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structLAYER.html">LAYER</a> *l)</td></tr>
-<tr class="separator:a3701ce9d42437f84c43eeea0d4faa46f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab82b23d022128defb4a99dd8659d5e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__softmax_8c.html#aab82b23d022128defb4a99dd8659d5e7">neural_layer_softmax_update</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structLAYER.html">LAYER</a> *l, double eta)</td></tr>
+<tr class="separator:aab82b23d022128defb4a99dd8659d5e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8844fd035c8cf466f83daae0ed7ec956"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__softmax_8c.html#a8844fd035c8cf466f83daae0ed7ec956">neural_layer_softmax_print</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structLAYER.html">LAYER</a> *l, _Bool print_weights)</td></tr>
 <tr class="separator:a8844fd035c8cf466f83daae0ed7ec956"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45503e08d90ddcf99635c758a3635a43"><td class="memItemLeft" align="right" valign="top">_Bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__softmax_8c.html#a45503e08d90ddcf99635c758a3635a43">neural_layer_softmax_mutate</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l)</td></tr>
-<tr class="separator:a45503e08d90ddcf99635c758a3635a43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d14b4598bf88b5474e2a8562a8a9f7d"><td class="memItemLeft" align="right" valign="top">_Bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__softmax_8c.html#a3d14b4598bf88b5474e2a8562a8a9f7d">neural_layer_softmax_mutate</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, const double *mu)</td></tr>
+<tr class="separator:a3d14b4598bf88b5474e2a8562a8a9f7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75ba573eca0091c1ca146b8993d3f1ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__softmax_8c.html#a75ba573eca0091c1ca146b8993d3f1ba">neural_layer_softmax_resize</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, const <a class="el" href="structLAYER.html">LAYER</a> *prev)</td></tr>
 <tr class="separator:a75ba573eca0091c1ca146b8993d3f1ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac940c339bae43507900414994b98bbb1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__softmax_8c.html#ac940c339bae43507900414994b98bbb1">neural_layer_softmax_free</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structLAYER.html">LAYER</a> *l)</td></tr>
@@ -180,9 +180,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__softmax_8c_source.html#l00096">96</a> of file <a class="el" href="neural__layer__softmax_8c_source.html">neural_layer_softmax.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__softmax_8c_source.html#l00094">94</a> of file <a class="el" href="neural__layer__softmax_8c_source.html">neural_layer_softmax.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural_8h_source.html#l00042">NET::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::delta</a>, and <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::n_inputs</a>.</p>
+<p class="reference">References <a class="el" href="neural_8h_source.html#l00049">NET::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00050">LAYER::delta</a>, and <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::n_inputs</a>.</p>
 
 </div>
 </div>
@@ -212,9 +212,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__softmax_8c_source.html#l00054">54</a> of file <a class="el" href="neural__layer__softmax_8c_source.html">neural_layer_softmax.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__softmax_8c_source.html#l00053">53</a> of file <a class="el" href="neural__layer__softmax_8c_source.html">neural_layer_softmax.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00058">LAYER::eta</a>, <a class="el" href="neural__layer_8h_source.html#l00043">LAYER::layer_type</a>, <a class="el" href="neural__layer_8h_source.html#l00062">LAYER::layer_vptr</a>, <a class="el" href="neural__layer_8h_source.html#l00055">LAYER::max_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00046">LAYER::options</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, and <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::scale</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00050">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00042">LAYER::layer_type</a>, <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::layer_vptr</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::max_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::n_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::options</a>, <a class="el" href="neural__layer_8h_source.html#l00044">LAYER::output</a>, and <a class="el" href="neural__layer_8h_source.html#l00056">LAYER::scale</a>.</p>
 
 </div>
 </div>
@@ -250,9 +250,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__softmax_8c_source.html#l00076">76</a> of file <a class="el" href="neural__layer__softmax_8c_source.html">neural_layer_softmax.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__softmax_8c_source.html#l00074">74</a> of file <a class="el" href="neural__layer__softmax_8c_source.html">neural_layer_softmax.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, and <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::scale</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00044">LAYER::output</a>, and <a class="el" href="neural__layer_8h_source.html#l00056">LAYER::scale</a>.</p>
 
 </div>
 </div>
@@ -282,9 +282,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__softmax_8c_source.html#l00134">134</a> of file <a class="el" href="neural__layer__softmax_8c_source.html">neural_layer_softmax.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__softmax_8c_source.html#l00132">132</a> of file <a class="el" href="neural__layer__softmax_8c_source.html">neural_layer_softmax.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::delta</a>, and <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00050">LAYER::delta</a>, and <a class="el" href="neural__layer_8h_source.html#l00044">LAYER::output</a>.</p>
 
 </div>
 </div>
@@ -322,7 +322,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="neural__layer__softmax_8c_source.html#l00037">37</a> of file <a class="el" href="neural__layer__softmax_8c_source.html">neural_layer_softmax.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00058">LAYER::eta</a>, <a class="el" href="neural__layer__softmax_8h_source.html#l00040">layer_softmax_vtbl</a>, <a class="el" href="neural__layer_8h_source.html#l00043">LAYER::layer_type</a>, <a class="el" href="neural__layer_8h_source.html#l00062">LAYER::layer_vptr</a>, <a class="el" href="neural__layer_8h_source.html#l00055">LAYER::max_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00046">LAYER::options</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::scale</a>, and <a class="el" href="neural__layer_8h_source.html#l00031">SOFTMAX</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00050">LAYER::delta</a>, <a class="el" href="neural__layer__softmax_8h_source.html#l00040">layer_softmax_vtbl</a>, <a class="el" href="neural__layer_8h_source.html#l00042">LAYER::layer_type</a>, <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::layer_vptr</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::max_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::n_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::options</a>, <a class="el" href="neural__layer_8h_source.html#l00044">LAYER::output</a>, <a class="el" href="neural__layer_8h_source.html#l00056">LAYER::scale</a>, and <a class="el" href="neural__layer_8h_source.html#l00031">SOFTMAX</a>.</p>
 
 </div>
 </div>
@@ -358,14 +358,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__softmax_8c_source.html#l00158">158</a> of file <a class="el" href="neural__layer__softmax_8c_source.html">neural_layer_softmax.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__softmax_8c_source.html#l00156">156</a> of file <a class="el" href="neural__layer__softmax_8c_source.html">neural_layer_softmax.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00058">LAYER::eta</a>, <a class="el" href="neural__layer_8h_source.html#l00055">LAYER::max_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00046">LAYER::options</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, and <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::scale</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00050">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::max_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::n_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::options</a>, <a class="el" href="neural__layer_8h_source.html#l00044">LAYER::output</a>, and <a class="el" href="neural__layer_8h_source.html#l00056">LAYER::scale</a>.</p>
 
 </div>
 </div>
-<a id="a45503e08d90ddcf99635c758a3635a43"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45503e08d90ddcf99635c758a3635a43">&#9670;&nbsp;</a></span>neural_layer_softmax_mutate()</h2>
+<a id="a3d14b4598bf88b5474e2a8562a8a9f7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d14b4598bf88b5474e2a8562a8a9f7d">&#9670;&nbsp;</a></span>neural_layer_softmax_mutate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -380,7 +380,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="structLAYER.html">LAYER</a> *&#160;</td>
-          <td class="paramname"><em>l</em>&#160;</td>
+          <td class="paramname"><em>l</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double *&#160;</td>
+          <td class="paramname"><em>mu</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -390,7 +396,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__softmax_8c_source.html#l00116">116</a> of file <a class="el" href="neural__layer__softmax_8c_source.html">neural_layer_softmax.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__softmax_8c_source.html#l00114">114</a> of file <a class="el" href="neural__layer__softmax_8c_source.html">neural_layer_softmax.c</a>.</p>
 
 </div>
 </div>
@@ -420,9 +426,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__softmax_8c_source.html#l00141">141</a> of file <a class="el" href="neural__layer__softmax_8c_source.html">neural_layer_softmax.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__softmax_8c_source.html#l00139">139</a> of file <a class="el" href="neural__layer__softmax_8c_source.html">neural_layer_softmax.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00044">LAYER::output</a>.</p>
 
 </div>
 </div>
@@ -458,9 +464,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__softmax_8c_source.html#l00109">109</a> of file <a class="el" href="neural__layer__softmax_8c_source.html">neural_layer_softmax.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__softmax_8c_source.html#l00107">107</a> of file <a class="el" href="neural__layer__softmax_8c_source.html">neural_layer_softmax.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_outputs</a>, and <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::scale</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::n_outputs</a>, and <a class="el" href="neural__layer_8h_source.html#l00056">LAYER::scale</a>.</p>
 
 </div>
 </div>
@@ -490,7 +496,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__softmax_8c_source.html#l00071">71</a> of file <a class="el" href="neural__layer__softmax_8c_source.html">neural_layer_softmax.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__softmax_8c_source.html#l00069">69</a> of file <a class="el" href="neural__layer__softmax_8c_source.html">neural_layer_softmax.c</a>.</p>
 
 </div>
 </div>
@@ -526,9 +532,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__softmax_8c_source.html#l00122">122</a> of file <a class="el" href="neural__layer__softmax_8c_source.html">neural_layer_softmax.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__softmax_8c_source.html#l00120">120</a> of file <a class="el" href="neural__layer__softmax_8c_source.html">neural_layer_softmax.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00055">LAYER::max_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_outputs</a>, and <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00050">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::max_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::n_outputs</a>, and <a class="el" href="neural__layer_8h_source.html#l00044">LAYER::output</a>.</p>
 
 </div>
 </div>
@@ -564,14 +570,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__softmax_8c_source.html#l00147">147</a> of file <a class="el" href="neural__layer__softmax_8c_source.html">neural_layer_softmax.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__softmax_8c_source.html#l00145">145</a> of file <a class="el" href="neural__layer__softmax_8c_source.html">neural_layer_softmax.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00055">LAYER::max_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_outputs</a>, and <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::scale</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::max_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::n_outputs</a>, and <a class="el" href="neural__layer_8h_source.html#l00056">LAYER::scale</a>.</p>
 
 </div>
 </div>
-<a id="a3701ce9d42437f84c43eeea0d4faa46f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3701ce9d42437f84c43eeea0d4faa46f">&#9670;&nbsp;</a></span>neural_layer_softmax_update()</h2>
+<a id="aab82b23d022128defb4a99dd8659d5e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab82b23d022128defb4a99dd8659d5e7">&#9670;&nbsp;</a></span>neural_layer_softmax_update()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -586,7 +592,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="structLAYER.html">LAYER</a> *&#160;</td>
-          <td class="paramname"><em>l</em>&#160;</td>
+          <td class="paramname"><em>l</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>eta</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -596,7 +608,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__softmax_8c_source.html#l00104">104</a> of file <a class="el" href="neural__layer__softmax_8c_source.html">neural_layer_softmax.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__softmax_8c_source.html#l00102">102</a> of file <a class="el" href="neural__layer__softmax_8c_source.html">neural_layer_softmax.c</a>.</p>
 
 </div>
 </div>
