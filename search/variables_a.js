@@ -15,7 +15,7 @@ var searchData=
   ['layer_5fimpl_5frand',['layer_impl_rand',['../structLayerVtbl.html#ab6f36611451e1f5005dd333d3fd97499',1,'LayerVtbl']]],
   ['layer_5fimpl_5fresize',['layer_impl_resize',['../structLayerVtbl.html#a7f3508230bf7ae727306db2f4773fc60',1,'LayerVtbl']]],
   ['layer_5fimpl_5fsave',['layer_impl_save',['../structLayerVtbl.html#a02fdfea340f91d7a62285ce39d7eb242',1,'LayerVtbl']]],
-  ['layer_5fimpl_5fupdate',['layer_impl_update',['../structLayerVtbl.html#a853f21c9e7fbc2468e6cc22fc9a97a66',1,'LayerVtbl']]],
+  ['layer_5fimpl_5fupdate',['layer_impl_update',['../structLayerVtbl.html#a8393223b64da5fd3112047804c22deb2',1,'LayerVtbl']]],
   ['layer_5fnoise_5fvtbl',['layer_noise_vtbl',['../neural__layer__noise_8h.html#a0ff6d6c8d7a805a3bc9855205a801033',1,'neural_layer_noise.h']]],
   ['layer_5fsoftmax_5fvtbl',['layer_softmax_vtbl',['../neural__layer__softmax_8h.html#a86f010cbdfcd4054464504a1233d3974',1,'neural_layer_softmax.h']]],
   ['layer_5ftype',['layer_type',['../structLAYER.html#a935f86a8074381fba53b5528b4df1316',1,'LAYER']]],

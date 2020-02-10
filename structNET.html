@@ -95,15 +95,11 @@ $(document).ready(function(){initNavTree('structNET.html','');});
 <div class="dynheader">
 Collaboration diagram for NET:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structNET__coll__graph.svg" width="271" height="234"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structNET__coll__graph.svg" width="271" height="234"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:ab15963fb61a0a7ba949ea4a5125b0450"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structNET.html#ab15963fb61a0a7ba949ea4a5125b0450">nopt</a></td></tr>
-<tr class="memdesc:ab15963fb61a0a7ba949ea4a5125b0450"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bitwise network options permitting functionality.  <a href="#ab15963fb61a0a7ba949ea4a5125b0450">More...</a><br /></td></tr>
-<tr class="separator:ab15963fb61a0a7ba949ea4a5125b0450"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac135cff15f4c1728405b01e8bf8d1459"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structNET.html#ac135cff15f4c1728405b01e8bf8d1459">n_layers</a></td></tr>
 <tr class="memdesc:ac135cff15f4c1728405b01e8bf8d1459"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of layers (hidden + output)  <a href="#ac135cff15f4c1728405b01e8bf8d1459">More...</a><br /></td></tr>
 <tr class="separator:ac135cff15f4c1728405b01e8bf8d1459"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -128,14 +124,11 @@ Data Fields</h2></td></tr>
 <tr class="memitem:ac0bcf7c557cd0e4c5f6b998a362ab465"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structNET.html#ac0bcf7c557cd0e4c5f6b998a362ab465">mu</a> [4]</td></tr>
 <tr class="memdesc:ac0bcf7c557cd0e4c5f6b998a362ab465"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutation rates.  <a href="#ac0bcf7c557cd0e4c5f6b998a362ab465">More...</a><br /></td></tr>
 <tr class="separator:ac0bcf7c557cd0e4c5f6b998a362ab465"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a618bdf798a7b2f14232f4070c92e9142"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structNET.html#a618bdf798a7b2f14232f4070c92e9142">eta</a></td></tr>
-<tr class="memdesc:a618bdf798a7b2f14232f4070c92e9142"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gradient descent rate.  <a href="#a618bdf798a7b2f14232f4070c92e9142">More...</a><br /></td></tr>
-<tr class="separator:a618bdf798a7b2f14232f4070c92e9142"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Neural network data structure. </p>
 
-<p class="definition">Definition at line <a class="el" href="neural_8h_source.html#l00044">44</a> of file <a class="el" href="neural_8h_source.html">neural.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural_8h_source.html#l00040">40</a> of file <a class="el" href="neural_8h_source.html">neural.h</a>.</p>
 </div><h2 class="groupheader">Field Documentation</h2>
 <a id="a5115cdba25f3e79c00e39b86eab8ece2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5115cdba25f3e79c00e39b86eab8ece2">&#9670;&nbsp;</a></span>delta</h2>
@@ -151,29 +144,9 @@ Data Fields</h2></td></tr>
 
 <p>Delta for updating networks weights. </p>
 
-<p class="definition">Definition at line <a class="el" href="neural_8h_source.html#l00049">49</a> of file <a class="el" href="neural_8h_source.html">neural.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural_8h_source.html#l00044">44</a> of file <a class="el" href="neural_8h_source.html">neural.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer__connected_8c_source.html#l00130">neural_layer_connected_backward()</a>, <a class="el" href="neural__layer__dropout_8c_source.html#l00106">neural_layer_dropout_backward()</a>, <a class="el" href="neural__layer__noise_8c_source.html#l00106">neural_layer_noise_backward()</a>, <a class="el" href="neural__layer__softmax_8c_source.html#l00094">neural_layer_softmax_backward()</a>, and <a class="el" href="neural_8c_source.html#l00270">neural_learn()</a>.</p>
-
-</div>
-</div>
-<a id="a618bdf798a7b2f14232f4070c92e9142"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a618bdf798a7b2f14232f4070c92e9142">&#9670;&nbsp;</a></span>eta</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double NET::eta</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Gradient descent rate. </p>
-
-<p class="definition">Definition at line <a class="el" href="neural_8h_source.html#l00054">54</a> of file <a class="el" href="neural_8h_source.html">neural.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="neural_8c_source.html#l00238">mutate_eta()</a>, <a class="el" href="neural_8c_source.html#l00166">neural_copy()</a>, <a class="el" href="neural_8c_source.html#l00053">neural_init()</a>, <a class="el" href="neural_8c_source.html#l00270">neural_learn()</a>, <a class="el" href="neural_8c_source.html#l00384">neural_load()</a>, <a class="el" href="neural_8c_source.html#l00361">neural_save()</a>, and <a class="el" href="pred__neural_8c_source.html#l00182">pred_neural_eta()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="neural__layer__connected_8c_source.html#l00140">neural_layer_connected_backward()</a>, <a class="el" href="neural__layer__dropout_8c_source.html#l00108">neural_layer_dropout_backward()</a>, <a class="el" href="neural__layer__noise_8c_source.html#l00108">neural_layer_noise_backward()</a>, <a class="el" href="neural__layer__softmax_8c_source.html#l00096">neural_layer_softmax_backward()</a>, and <a class="el" href="neural_8c_source.html#l00241">neural_learn()</a>.</p>
 
 </div>
 </div>
@@ -191,9 +164,9 @@ Data Fields</h2></td></tr>
 
 <p>Pointer to the head layer (output layer) </p>
 
-<p class="definition">Definition at line <a class="el" href="neural_8h_source.html#l00051">51</a> of file <a class="el" href="neural_8h_source.html">neural.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural_8h_source.html#l00046">46</a> of file <a class="el" href="neural_8h_source.html">neural.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="neural_8c_source.html#l00053">neural_init()</a>, <a class="el" href="neural_8c_source.html#l00077">neural_layer_insert()</a>, <a class="el" href="neural_8c_source.html#l00129">neural_layer_remove()</a>, <a class="el" href="neural_8c_source.html#l00270">neural_learn()</a>, and <a class="el" href="neural_8c_source.html#l00311">neural_output()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="neural_8c_source.html#l00046">neural_init()</a>, <a class="el" href="neural_8c_source.html#l00063">neural_layer_insert()</a>, <a class="el" href="neural_8c_source.html#l00115">neural_layer_remove()</a>, <a class="el" href="neural_8c_source.html#l00241">neural_learn()</a>, <a class="el" href="neural_8c_source.html#l00282">neural_output()</a>, and <a class="el" href="pred__neural_8c_source.html#l00210">pred_neural_expand()</a>.</p>
 
 </div>
 </div>
@@ -211,9 +184,9 @@ Data Fields</h2></td></tr>
 
 <p>Pointer to the network input. </p>
 
-<p class="definition">Definition at line <a class="el" href="neural_8h_source.html#l00050">50</a> of file <a class="el" href="neural_8h_source.html">neural.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural_8h_source.html#l00045">45</a> of file <a class="el" href="neural_8h_source.html">neural.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer__connected_8c_source.html#l00130">neural_layer_connected_backward()</a>, and <a class="el" href="neural_8c_source.html#l00270">neural_learn()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="neural__layer__connected_8c_source.html#l00140">neural_layer_connected_backward()</a>, and <a class="el" href="neural_8c_source.html#l00241">neural_learn()</a>.</p>
 
 </div>
 </div>
@@ -231,9 +204,9 @@ Data Fields</h2></td></tr>
 
 <p>Mutation rates. </p>
 
-<p class="definition">Definition at line <a class="el" href="neural_8h_source.html#l00053">53</a> of file <a class="el" href="neural_8h_source.html">neural.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural_8h_source.html#l00048">48</a> of file <a class="el" href="neural_8h_source.html">neural.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="neural_8c_source.html#l00238">mutate_eta()</a>, <a class="el" href="neural_8c_source.html#l00166">neural_copy()</a>, <a class="el" href="neural_8c_source.html#l00053">neural_init()</a>, <a class="el" href="neural_8c_source.html#l00384">neural_load()</a>, <a class="el" href="neural_8c_source.html#l00216">neural_mutate()</a>, and <a class="el" href="neural_8c_source.html#l00361">neural_save()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="neural_8c_source.html#l00152">neural_copy()</a>, <a class="el" href="neural_8c_source.html#l00046">neural_init()</a>, <a class="el" href="neural_8c_source.html#l00353">neural_load()</a>, <a class="el" href="neural_8c_source.html#l00201">neural_mutate()</a>, and <a class="el" href="neural_8c_source.html#l00332">neural_save()</a>.</p>
 
 </div>
 </div>
@@ -251,9 +224,9 @@ Data Fields</h2></td></tr>
 
 <p>Number of network inputs. </p>
 
-<p class="definition">Definition at line <a class="el" href="neural_8h_source.html#l00047">47</a> of file <a class="el" href="neural_8h_source.html">neural.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural_8h_source.html#l00042">42</a> of file <a class="el" href="neural_8h_source.html">neural.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="neural_8c_source.html#l00053">neural_init()</a>, <a class="el" href="neural_8c_source.html#l00077">neural_layer_insert()</a>, and <a class="el" href="neural_8c_source.html#l00361">neural_save()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="neural_8c_source.html#l00046">neural_init()</a>, <a class="el" href="neural_8c_source.html#l00063">neural_layer_insert()</a>, and <a class="el" href="neural_8c_source.html#l00332">neural_save()</a>.</p>
 
 </div>
 </div>
@@ -271,9 +244,9 @@ Data Fields</h2></td></tr>
 
 <p>Number of layers (hidden + output) </p>
 
-<p class="definition">Definition at line <a class="el" href="neural_8h_source.html#l00046">46</a> of file <a class="el" href="neural_8h_source.html">neural.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural_8h_source.html#l00041">41</a> of file <a class="el" href="neural_8h_source.html">neural.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="neural_8c_source.html#l00185">neural_free()</a>, <a class="el" href="neural_8c_source.html#l00053">neural_init()</a>, <a class="el" href="neural_8c_source.html#l00077">neural_layer_insert()</a>, <a class="el" href="neural_8c_source.html#l00129">neural_layer_remove()</a>, <a class="el" href="neural_8c_source.html#l00361">neural_save()</a>, and <a class="el" href="pred__neural_8c_source.html#l00204">pred_neural_layers()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="neural_8c_source.html#l00170">neural_free()</a>, <a class="el" href="neural_8c_source.html#l00046">neural_init()</a>, <a class="el" href="neural_8c_source.html#l00063">neural_layer_insert()</a>, <a class="el" href="neural_8c_source.html#l00115">neural_layer_remove()</a>, <a class="el" href="neural_8c_source.html#l00332">neural_save()</a>, <a class="el" href="pred__neural_8c_source.html#l00210">pred_neural_expand()</a>, and <a class="el" href="pred__neural_8c_source.html#l00202">pred_neural_layers()</a>.</p>
 
 </div>
 </div>
@@ -291,29 +264,9 @@ Data Fields</h2></td></tr>
 
 <p>Number of network outputs. </p>
 
-<p class="definition">Definition at line <a class="el" href="neural_8h_source.html#l00048">48</a> of file <a class="el" href="neural_8h_source.html">neural.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural_8h_source.html#l00043">43</a> of file <a class="el" href="neural_8h_source.html">neural.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="neural_8c_source.html#l00053">neural_init()</a>, <a class="el" href="neural_8c_source.html#l00077">neural_layer_insert()</a>, <a class="el" href="neural_8c_source.html#l00311">neural_output()</a>, <a class="el" href="neural_8c_source.html#l00361">neural_save()</a>, and <a class="el" href="pred__neural_8c_source.html#l00189">pred_neural_neurons()</a>.</p>
-
-</div>
-</div>
-<a id="ab15963fb61a0a7ba949ea4a5125b0450"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab15963fb61a0a7ba949ea4a5125b0450">&#9670;&nbsp;</a></span>nopt</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t NET::nopt</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Bitwise network options permitting functionality. </p>
-
-<p class="definition">Definition at line <a class="el" href="neural_8h_source.html#l00045">45</a> of file <a class="el" href="neural_8h_source.html">neural.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="neural_8c_source.html#l00166">neural_copy()</a>, <a class="el" href="neural_8c_source.html#l00053">neural_init()</a>, <a class="el" href="neural_8c_source.html#l00216">neural_mutate()</a>, and <a class="el" href="neural_8c_source.html#l00361">neural_save()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="neural_8c_source.html#l00046">neural_init()</a>, <a class="el" href="neural_8c_source.html#l00063">neural_layer_insert()</a>, <a class="el" href="neural_8c_source.html#l00282">neural_output()</a>, <a class="el" href="neural_8c_source.html#l00332">neural_save()</a>, and <a class="el" href="pred__neural_8c_source.html#l00187">pred_neural_neurons()</a>.</p>
 
 </div>
 </div>
@@ -331,9 +284,9 @@ Data Fields</h2></td></tr>
 
 <p>Pointer to the tail layer (first layer) </p>
 
-<p class="definition">Definition at line <a class="el" href="neural_8h_source.html#l00052">52</a> of file <a class="el" href="neural_8h_source.html">neural.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural_8h_source.html#l00047">47</a> of file <a class="el" href="neural_8h_source.html">neural.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="neural_8c_source.html#l00166">neural_copy()</a>, <a class="el" href="neural_8c_source.html#l00185">neural_free()</a>, <a class="el" href="neural_8c_source.html#l00053">neural_init()</a>, <a class="el" href="neural_8c_source.html#l00077">neural_layer_insert()</a>, <a class="el" href="neural_8c_source.html#l00129">neural_layer_remove()</a>, <a class="el" href="neural_8c_source.html#l00270">neural_learn()</a>, <a class="el" href="neural_8c_source.html#l00216">neural_mutate()</a>, <a class="el" href="neural_8c_source.html#l00326">neural_print()</a>, <a class="el" href="neural_8c_source.html#l00255">neural_propagate()</a>, <a class="el" href="neural_8c_source.html#l00203">neural_rand()</a>, <a class="el" href="neural_8c_source.html#l00361">neural_save()</a>, <a class="el" href="neural_8c_source.html#l00342">neural_size()</a>, and <a class="el" href="pred__neural_8c_source.html#l00189">pred_neural_neurons()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="neural_8c_source.html#l00152">neural_copy()</a>, <a class="el" href="neural_8c_source.html#l00170">neural_free()</a>, <a class="el" href="neural_8c_source.html#l00046">neural_init()</a>, <a class="el" href="neural_8c_source.html#l00063">neural_layer_insert()</a>, <a class="el" href="neural_8c_source.html#l00115">neural_layer_remove()</a>, <a class="el" href="neural_8c_source.html#l00241">neural_learn()</a>, <a class="el" href="neural_8c_source.html#l00201">neural_mutate()</a>, <a class="el" href="neural_8c_source.html#l00297">neural_print()</a>, <a class="el" href="neural_8c_source.html#l00226">neural_propagate()</a>, <a class="el" href="neural_8c_source.html#l00188">neural_rand()</a>, <a class="el" href="neural_8c_source.html#l00332">neural_save()</a>, <a class="el" href="neural_8c_source.html#l00313">neural_size()</a>, <a class="el" href="pred__neural_8c_source.html#l00173">pred_neural_eta()</a>, <a class="el" href="pred__neural_8c_source.html#l00210">pred_neural_expand()</a>, and <a class="el" href="pred__neural_8c_source.html#l00187">pred_neural_neurons()</a>.</p>
 
 </div>
 </div>

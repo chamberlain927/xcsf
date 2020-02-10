@@ -10,7 +10,6 @@ var searchData=
   ['name',['name',['../structPARAM__LIST.html#a3da93e39a5777a4b65ed5e851adbbed6',1,'PARAM_LIST']]],
   ['net',['net',['../structCOND__NEURAL.html#aa910afe1336b3bbef9545d62e60e1f0a',1,'COND_NEURAL::net()'],['../structPRED__NEURAL.html#a30a82bc6f16b91638fc5385612ba043e',1,'PRED_NEURAL::net()'],['../structRULE__NEURAL.html#a0dbbeb9afcbfa620ec930dacffcdab13',1,'RULE_NEURAL::net()']]],
   ['next',['next',['../structPARAM__LIST.html#a0ffcdae674819cf45cf350dffb7cf077',1,'PARAM_LIST::next()'],['../structLLIST.html#a5a52e9ae41ba30e67ad458a0da8cd680',1,'LLIST::next()'],['../structCLIST.html#ab1092b15836e6250985f365ae512cb67',1,'CLIST::next()']]],
-  ['nopt',['nopt',['../structNET.html#ab15963fb61a0a7ba949ea4a5125b0450',1,'NET']]],
   ['nr',['nr',['../structXCSF.html#a1e9f7b5c246cbf133be30effa606e94d',1,'XCSF']]],
   ['nu',['NU',['../structXCSF.html#a6ffb8993fdb50334736dbaf51b7592bd',1,'XCSF']]],
   ['num',['num',['../structCL.html#a7d2c3c55614401cc90c6ce3cc3e66f3e',1,'CL::num()'],['../structSET.html#a65c958a63359bcaf0e2a374e770df436',1,'SET::num()']]]

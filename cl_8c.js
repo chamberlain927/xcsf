@@ -23,7 +23,7 @@ var cl_8c =
     [ "cl_save", "cl_8c.html#ab7c1c5964d05c6f08dcfc0314ecd1f96", null ],
     [ "cl_subsumer", "cl_8c.html#aad679eb45e1e1d79608ebb80e3d7810f", null ],
     [ "cl_update", "cl_8c.html#ad3ef5eea9801c3b8c38ad8e5e2141dc0", null ],
-    [ "cl_update_err", "cl_8c.html#a2bbf4588d8d01137c0fd4eb79edc3fb7", null ],
+    [ "cl_update_err", "cl_8c.html#a3ce7d2665179f8cb1284caef9808d890", null ],
     [ "cl_update_fit", "cl_8c.html#a8ef8cb774f6f4910f26ca414a9bd02d3", null ],
-    [ "cl_update_size", "cl_8c.html#a71d859a36f2d65210687cf9bebec6568", null ]
+    [ "cl_update_size", "cl_8c.html#a2536212dfb57411f6b48f7792084af3c", null ]
 ];

@@ -3,6 +3,7 @@ var structLAYER =
     [ "bias_updates", "structLAYER.html#a098dfb15d3d34c24e599b44e95041621", null ],
     [ "biases", "structLAYER.html#aa216b731c43b90945b4785084f93d815", null ],
     [ "delta", "structLAYER.html#a269f56eab39db827d769116995dc3ff9", null ],
+    [ "eta", "structLAYER.html#a6652bbfa7d5568bbedaf909ed528fc06", null ],
     [ "function", "structLAYER.html#a9cd67819c3ac0129bf881a284d2607ff", null ],
     [ "layer_type", "structLAYER.html#a935f86a8074381fba53b5528b4df1316", null ],
     [ "layer_vptr", "structLAYER.html#a97f2fb77da92ee6124a31b87a1a2c031", null ],

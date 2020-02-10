@@ -7,7 +7,7 @@ var clset_8h =
     [ "clset_kill", "clset_8h.html#aad012238caff12fcd827b1e282c9a4ef", null ],
     [ "clset_match", "clset_8h.html#a229207544a5b8b601de05d231bb84650", null ],
     [ "clset_mean_cond_size", "clset_8h.html#ac4894b96efd52dfdaf83d63c1d0d5ea5", null ],
-    [ "clset_mean_eta", "clset_8h.html#a91179816a21748da2b022b62eab5a6ea", null ],
+    [ "clset_mean_eta", "clset_8h.html#a7d6e14d04b4d88ba52ffaba48f40eb62", null ],
     [ "clset_mean_layers", "clset_8h.html#aa9eaaf1c746c2ac3e63bb11b59a0ade4", null ],
     [ "clset_mean_neurons", "clset_8h.html#aec15f8785c4988e8f2dcfcf48eb38c43", null ],
     [ "clset_mean_pred_size", "clset_8h.html#a153a7fb58d6742e0509b006fe224dcaf", null ],

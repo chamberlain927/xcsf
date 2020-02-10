@@ -12,5 +12,5 @@ var neural__layer__noise_8c =
     [ "neural_layer_noise_rand", "neural__layer__noise_8c.html#af5e4884b156164fb8cf0710a9da053b8", null ],
     [ "neural_layer_noise_resize", "neural__layer__noise_8c.html#a85af16004e49fd8a37972652bdab9536", null ],
     [ "neural_layer_noise_save", "neural__layer__noise_8c.html#a34527994874cb08f284fc412a7c1ddaa", null ],
-    [ "neural_layer_noise_update", "neural__layer__noise_8c.html#a5bd4894490b83a492fc928fefc9e8792", null ]
+    [ "neural_layer_noise_update", "neural__layer__noise_8c.html#af0bd9b1807a072b66e96efcb82d85a6a", null ]
 ];

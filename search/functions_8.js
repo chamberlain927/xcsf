@@ -11,7 +11,7 @@ var searchData=
   ['layer_5frand',['layer_rand',['../neural__layer_8h.html#a126497f6ca92a3939c5b8a3597d1c98c',1,'neural_layer.h']]],
   ['layer_5fresize',['layer_resize',['../neural__layer_8h.html#ab76b0a2c3d47e870fb8e8086ece24766',1,'neural_layer.h']]],
   ['layer_5fsave',['layer_save',['../neural__layer_8h.html#ae644505bcb4340d5cd245c8ffe3b624b',1,'neural_layer.h']]],
-  ['layer_5fupdate',['layer_update',['../neural__layer_8h.html#a328dcaf7603f437f9506a9762cbe2834',1,'neural_layer.h']]],
+  ['layer_5fupdate',['layer_update',['../neural__layer_8h.html#ad6d84d10a87ae6ea164f482a73ee9dfa',1,'neural_layer.h']]],
   ['leaky_5factivate',['leaky_activate',['../neural__activations_8h.html#afaca3dadb26beb0668bafd5058d71aa4',1,'neural_activations.h']]],
   ['leaky_5fgradient',['leaky_gradient',['../neural__activations_8h.html#a6c81fc6e0fd95e773769d8da1aba0ae7',1,'neural_activations.h']]],
   ['linear_5factivate',['linear_activate',['../neural__activations_8h.html#a522644040f851178194bfde8fd9c4816',1,'neural_activations.h']]],

@@ -83,6 +83,7 @@ $(document).ready(function(){initNavTree('pred__nlms_8c.html','');});
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
@@ -99,14 +100,14 @@ $(document).ready(function(){initNavTree('pred__nlms_8c.html','');});
 <code>#include &lt;math.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="xcsf_8h_source.html">xcsf.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="utils_8h_source.html">utils.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="sam_8h_source.html">sam.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="cl_8h_source.html">cl.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="prediction_8h_source.html">prediction.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="pred__nlms_8h_source.html">pred_nlms.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for pred_nlms.c:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="pred__nlms_8c__incl.svg" width="902" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="pred__nlms_8c__incl.svg" width="984" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <p><a href="pred__nlms_8c_source.html">Go to the source code of this file.</a></p>
@@ -116,6 +117,18 @@ Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPRED__NLMS.html">PRED_NLMS</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalised least mean squares prediction data structure.  <a href="structPRED__NLMS.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a7ad8e86a318f2d3d354e0a4e5bc23b30"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__nlms_8c.html#a7ad8e86a318f2d3d354e0a4e5bc23b30">N_MU</a>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:a7ad8e86a318f2d3d354e0a4e5bc23b30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of self-adaptive mutation rates.  <a href="#a7ad8e86a318f2d3d354e0a4e5bc23b30">More...</a><br /></td></tr>
+<tr class="separator:a7ad8e86a318f2d3d354e0a4e5bc23b30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8506c6dfbaa367890d2c900541c6f19"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__nlms_8c.html#ac8506c6dfbaa367890d2c900541c6f19">ETA_MAX</a>&#160;&#160;&#160;0.1</td></tr>
+<tr class="memdesc:ac8506c6dfbaa367890d2c900541c6f19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum gradient descent rate.  <a href="#ac8506c6dfbaa367890d2c900541c6f19">More...</a><br /></td></tr>
+<tr class="separator:ac8506c6dfbaa367890d2c900541c6f19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05eb6d5155c3a0f6b17118b5ce0478ac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__nlms_8c.html#a05eb6d5155c3a0f6b17118b5ce0478ac">ETA_MIN</a>&#160;&#160;&#160;0.0001</td></tr>
+<tr class="memdesc:a05eb6d5155c3a0f6b17118b5ce0478ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum gradient descent rate.  <a href="#a05eb6d5155c3a0f6b17118b5ce0478ac">More...</a><br /></td></tr>
+<tr class="separator:a05eb6d5155c3a0f6b17118b5ce0478ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -133,8 +146,8 @@ Functions</h2></td></tr>
 <tr class="separator:a7678130f334d8846b2a6909fe51d6de8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29901e83a2bcc209192a9cec34056472"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__nlms_8c.html#a29901e83a2bcc209192a9cec34056472">pred_nlms_update</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structCL.html">CL</a> *c, const double *x, const double *y)</td></tr>
 <tr class="separator:a29901e83a2bcc209192a9cec34056472"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8871a563be47ae421b169f90e2ba61ba"><td class="memItemLeft" align="right" valign="top">const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__nlms_8c.html#a8871a563be47ae421b169f90e2ba61ba">pred_nlms_compute</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structCL.html">CL</a> *c, const double *x)</td></tr>
-<tr class="separator:a8871a563be47ae421b169f90e2ba61ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a9ba73e3e5e65afce9cdb36c7a3fff1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__nlms_8c.html#a1a9ba73e3e5e65afce9cdb36c7a3fff1">pred_nlms_compute</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structCL.html">CL</a> *c, const double *x)</td></tr>
+<tr class="separator:a1a9ba73e3e5e65afce9cdb36c7a3fff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa529bd99482324d8bfe43d90dff013d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__nlms_8c.html#aa529bd99482324d8bfe43d90dff013d2">pred_nlms_print</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structCL.html">CL</a> *c)</td></tr>
 <tr class="separator:aa529bd99482324d8bfe43d90dff013d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace3149551240f99e99315e94fed0e7a3"><td class="memItemLeft" align="right" valign="top">_Bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__nlms_8c.html#ace3149551240f99e99315e94fed0e7a3">pred_nlms_crossover</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structCL.html">CL</a> *c1, const <a class="el" href="structCL.html">CL</a> *c2)</td></tr>
@@ -155,7 +168,68 @@ Functions</h2></td></tr>
 <dl class="section date"><dt>Date</dt><dd>2015&ndash;2020. </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
-</div><h2 class="groupheader">Typedef Documentation</h2>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ac8506c6dfbaa367890d2c900541c6f19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8506c6dfbaa367890d2c900541c6f19">&#9670;&nbsp;</a></span>ETA_MAX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ETA_MAX&#160;&#160;&#160;0.1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Maximum gradient descent rate. </p>
+
+<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00037">37</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="pred__nlms_8c_source.html#l00050">pred_nlms_init()</a>, and <a class="el" href="pred__nlms_8c_source.html#l00176">pred_nlms_mutate()</a>.</p>
+
+</div>
+</div>
+<a id="a05eb6d5155c3a0f6b17118b5ce0478ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05eb6d5155c3a0f6b17118b5ce0478ac">&#9670;&nbsp;</a></span>ETA_MIN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ETA_MIN&#160;&#160;&#160;0.0001</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Minimum gradient descent rate. </p>
+
+<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00038">38</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="pred__nlms_8c_source.html#l00050">pred_nlms_init()</a>, and <a class="el" href="pred__nlms_8c_source.html#l00176">pred_nlms_mutate()</a>.</p>
+
+</div>
+</div>
+<a id="a7ad8e86a318f2d3d354e0a4e5bc23b30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ad8e86a318f2d3d354e0a4e5bc23b30">&#9670;&nbsp;</a></span>N_MU</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define N_MU&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Number of self-adaptive mutation rates. </p>
+
+<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00036">36</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="pred__nlms_8c_source.html#l00083">pred_nlms_copy()</a>, <a class="el" href="pred__nlms_8c_source.html#l00050">pred_nlms_init()</a>, <a class="el" href="pred__nlms_8c_source.html#l00211">pred_nlms_load()</a>, <a class="el" href="pred__nlms_8c_source.html#l00176">pred_nlms_mutate()</a>, and <a class="el" href="pred__nlms_8c_source.html#l00198">pred_nlms_save()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Typedef Documentation</h2>
 <a id="a1506e62754286617633d626fa6279e01"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1506e62754286617633d626fa6279e01">&#9670;&nbsp;</a></span>PRED_NLMS</h2>
 
@@ -173,14 +247,14 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a8871a563be47ae421b169f90e2ba61ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8871a563be47ae421b169f90e2ba61ba">&#9670;&nbsp;</a></span>pred_nlms_compute()</h2>
+<a id="a1a9ba73e3e5e65afce9cdb36c7a3fff1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a9ba73e3e5e65afce9cdb36c7a3fff1">&#9670;&nbsp;</a></span>pred_nlms_compute()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const double* pred_nlms_compute </td>
+          <td class="memname">void pred_nlms_compute </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
           <td class="paramname"><em>xcsf</em>, </td>
@@ -205,9 +279,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00117">117</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00135">135</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="xcsf_8h_source.html#l00127">XCSF::PRED_TYPE</a>, <a class="el" href="xcsf_8h_source.html#l00040">PRED_TYPE_NLMS_QUADRATIC</a>, <a class="el" href="xcsf_8h_source.html#l00165">XCSF::PRED_X0</a>, <a class="el" href="xcsf_8h_source.html#l00065">CL::prediction</a>, <a class="el" href="pred__nlms_8c_source.html#l00040">PRED_NLMS::weights</a>, <a class="el" href="xcsf_8h_source.html#l00195">XCSF::x_dim</a>, and <a class="el" href="xcsf_8h_source.html#l00196">XCSF::y_dim</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="xcsf_8h_source.html#l00127">XCSF::PRED_TYPE</a>, <a class="el" href="xcsf_8h_source.html#l00040">PRED_TYPE_NLMS_QUADRATIC</a>, <a class="el" href="xcsf_8h_source.html#l00165">XCSF::PRED_X0</a>, <a class="el" href="xcsf_8h_source.html#l00065">CL::prediction</a>, <a class="el" href="pred__nlms_8c_source.html#l00045">PRED_NLMS::weights</a>, <a class="el" href="xcsf_8h_source.html#l00195">XCSF::x_dim</a>, and <a class="el" href="xcsf_8h_source.html#l00196">XCSF::y_dim</a>.</p>
 
 </div>
 </div>
@@ -243,14 +317,13 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00067">67</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00083">83</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="pred__nlms_8c_source.html#l00043">pred_nlms_init()</a>, <a class="el" href="pred__nlms_8c_source.html#l00040">PRED_NLMS::weights</a>, <a class="el" href="pred__nlms_8c_source.html#l00039">PRED_NLMS::weights_length</a>, and <a class="el" href="xcsf_8h_source.html#l00196">XCSF::y_dim</a>.</p>
+<p class="reference">References <a class="el" href="pred__nlms_8c_source.html#l00047">PRED_NLMS::eta</a>, <a class="el" href="pred__nlms_8c_source.html#l00046">PRED_NLMS::mu</a>, <a class="el" href="pred__nlms_8c_source.html#l00036">N_MU</a>, <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="pred__nlms_8c_source.html#l00050">pred_nlms_init()</a>, <a class="el" href="pred__nlms_8c_source.html#l00045">PRED_NLMS::weights</a>, <a class="el" href="pred__nlms_8c_source.html#l00044">PRED_NLMS::weights_length</a>, and <a class="el" href="xcsf_8h_source.html#l00196">XCSF::y_dim</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="pred__nlms_8c_aacdd58f7e4549037314d361f08024d02_cgraph.svg" width="283" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="pred__nlms_8c_aacdd58f7e4549037314d361f08024d02_cgraph.svg" width="1531" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -287,7 +360,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00153">153</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00170">170</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
 
 </div>
 </div>
@@ -317,9 +390,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00078">78</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00096">96</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="pred__nlms_8c_source.html#l00040">PRED_NLMS::weights</a>, and <a class="el" href="xcsf_8h_source.html#l00196">XCSF::y_dim</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="pred__nlms_8c_source.html#l00045">PRED_NLMS::weights</a>, and <a class="el" href="xcsf_8h_source.html#l00196">XCSF::y_dim</a>.</p>
 
 </div>
 </div>
@@ -349,16 +422,20 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00043">43</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00050">50</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="xcsf_8h_source.html#l00127">XCSF::PRED_TYPE</a>, <a class="el" href="xcsf_8h_source.html#l00040">PRED_TYPE_NLMS_QUADRATIC</a>, <a class="el" href="xcsf_8h_source.html#l00165">XCSF::PRED_X0</a>, <a class="el" href="pred__nlms_8c_source.html#l00040">PRED_NLMS::weights</a>, <a class="el" href="pred__nlms_8c_source.html#l00039">PRED_NLMS::weights_length</a>, <a class="el" href="xcsf_8h_source.html#l00195">XCSF::x_dim</a>, and <a class="el" href="xcsf_8h_source.html#l00196">XCSF::y_dim</a>.</p>
+<p class="reference">References <a class="el" href="pred__nlms_8c_source.html#l00047">PRED_NLMS::eta</a>, <a class="el" href="pred__nlms_8c_source.html#l00037">ETA_MAX</a>, <a class="el" href="pred__nlms_8c_source.html#l00038">ETA_MIN</a>, <a class="el" href="pred__nlms_8c_source.html#l00046">PRED_NLMS::mu</a>, <a class="el" href="pred__nlms_8c_source.html#l00036">N_MU</a>, <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="xcsf_8h_source.html#l00164">XCSF::PRED_ETA</a>, <a class="el" href="xcsf_8h_source.html#l00171">XCSF::PRED_EVOLVE_ETA</a>, <a class="el" href="xcsf_8h_source.html#l00127">XCSF::PRED_TYPE</a>, <a class="el" href="xcsf_8h_source.html#l00040">PRED_TYPE_NLMS_QUADRATIC</a>, <a class="el" href="xcsf_8h_source.html#l00165">XCSF::PRED_X0</a>, <a class="el" href="utils_8c_source.html#l00073">rand_uniform()</a>, <a class="el" href="sam_8c_source.html#l00046">sam_init()</a>, <a class="el" href="pred__nlms_8c_source.html#l00045">PRED_NLMS::weights</a>, <a class="el" href="pred__nlms_8c_source.html#l00044">PRED_NLMS::weights_length</a>, <a class="el" href="xcsf_8h_source.html#l00195">XCSF::x_dim</a>, and <a class="el" href="xcsf_8h_source.html#l00196">XCSF::y_dim</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="pred__nlms_8c_source.html#l00067">pred_nlms_copy()</a>, and <a class="el" href="pred__nlms_8c_source.html#l00183">pred_nlms_load()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="pred__nlms_8c_source.html#l00083">pred_nlms_copy()</a>, and <a class="el" href="pred__nlms_8c_source.html#l00211">pred_nlms_load()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="pred__nlms_8c_a6821aa2339db542232df02a312836b6c_cgraph.svg" width="1366" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="pred__nlms_8c_a6821aa2339db542232df02a312836b6c_icgraph.svg" width="283" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="pred__nlms_8c_a6821aa2339db542232df02a312836b6c_icgraph.svg" width="283" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -395,14 +472,13 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00183">183</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00211">211</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="pred__nlms_8c_source.html#l00043">pred_nlms_init()</a>, <a class="el" href="pred__nlms_8c_source.html#l00040">PRED_NLMS::weights</a>, <a class="el" href="pred__nlms_8c_source.html#l00039">PRED_NLMS::weights_length</a>, and <a class="el" href="xcsf_8h_source.html#l00196">XCSF::y_dim</a>.</p>
+<p class="reference">References <a class="el" href="pred__nlms_8c_source.html#l00047">PRED_NLMS::eta</a>, <a class="el" href="pred__nlms_8c_source.html#l00046">PRED_NLMS::mu</a>, <a class="el" href="pred__nlms_8c_source.html#l00036">N_MU</a>, <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="pred__nlms_8c_source.html#l00050">pred_nlms_init()</a>, <a class="el" href="pred__nlms_8c_source.html#l00045">PRED_NLMS::weights</a>, <a class="el" href="pred__nlms_8c_source.html#l00044">PRED_NLMS::weights_length</a>, and <a class="el" href="xcsf_8h_source.html#l00196">XCSF::y_dim</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="pred__nlms_8c_a7eb0eef8ccefbe57235e42157b404c01_cgraph.svg" width="279" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="pred__nlms_8c_a7eb0eef8ccefbe57235e42157b404c01_cgraph.svg" width="1527" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -433,7 +509,14 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00159">159</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00176">176</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
+
+<p class="reference">References <a class="el" href="utils_8c_source.html#l00114">constrain()</a>, <a class="el" href="pred__nlms_8c_source.html#l00047">PRED_NLMS::eta</a>, <a class="el" href="pred__nlms_8c_source.html#l00037">ETA_MAX</a>, <a class="el" href="pred__nlms_8c_source.html#l00038">ETA_MIN</a>, <a class="el" href="pred__nlms_8c_source.html#l00046">PRED_NLMS::mu</a>, <a class="el" href="pred__nlms_8c_source.html#l00036">N_MU</a>, <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="xcsf_8h_source.html#l00171">XCSF::PRED_EVOLVE_ETA</a>, <a class="el" href="utils_8c_source.html#l00086">rand_normal()</a>, and <a class="el" href="sam_8c_source.html#l00063">sam_adapt()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="pred__nlms_8c_a7c190fc40fd5956ba8d9340588ad8e72_cgraph.svg" width="1360" height="191"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -463,9 +546,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00141">141</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00158">158</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="pred__nlms_8c_source.html#l00040">PRED_NLMS::weights</a>, <a class="el" href="pred__nlms_8c_source.html#l00039">PRED_NLMS::weights_length</a>, and <a class="el" href="xcsf_8h_source.html#l00196">XCSF::y_dim</a>.</p>
+<p class="reference">References <a class="el" href="pred__nlms_8c_source.html#l00047">PRED_NLMS::eta</a>, <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="pred__nlms_8c_source.html#l00045">PRED_NLMS::weights</a>, <a class="el" href="pred__nlms_8c_source.html#l00044">PRED_NLMS::weights_length</a>, and <a class="el" href="xcsf_8h_source.html#l00196">XCSF::y_dim</a>.</p>
 
 </div>
 </div>
@@ -501,9 +584,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00172">172</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00198">198</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="pred__nlms_8c_source.html#l00040">PRED_NLMS::weights</a>, <a class="el" href="pred__nlms_8c_source.html#l00039">PRED_NLMS::weights_length</a>, and <a class="el" href="xcsf_8h_source.html#l00196">XCSF::y_dim</a>.</p>
+<p class="reference">References <a class="el" href="pred__nlms_8c_source.html#l00047">PRED_NLMS::eta</a>, <a class="el" href="pred__nlms_8c_source.html#l00046">PRED_NLMS::mu</a>, <a class="el" href="pred__nlms_8c_source.html#l00036">N_MU</a>, <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="pred__nlms_8c_source.html#l00045">PRED_NLMS::weights</a>, <a class="el" href="pred__nlms_8c_source.html#l00044">PRED_NLMS::weights_length</a>, and <a class="el" href="xcsf_8h_source.html#l00196">XCSF::y_dim</a>.</p>
 
 </div>
 </div>
@@ -533,9 +616,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00165">165</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00191">191</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, and <a class="el" href="pred__nlms_8c_source.html#l00039">PRED_NLMS::weights_length</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, and <a class="el" href="pred__nlms_8c_source.html#l00044">PRED_NLMS::weights_length</a>.</p>
 
 </div>
 </div>
@@ -577,9 +660,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00088">88</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00106">106</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="xcsf_8h_source.html#l00164">XCSF::PRED_ETA</a>, <a class="el" href="xcsf_8h_source.html#l00127">XCSF::PRED_TYPE</a>, <a class="el" href="xcsf_8h_source.html#l00040">PRED_TYPE_NLMS_QUADRATIC</a>, <a class="el" href="xcsf_8h_source.html#l00165">XCSF::PRED_X0</a>, <a class="el" href="xcsf_8h_source.html#l00065">CL::prediction</a>, <a class="el" href="pred__nlms_8c_source.html#l00040">PRED_NLMS::weights</a>, <a class="el" href="xcsf_8h_source.html#l00195">XCSF::x_dim</a>, and <a class="el" href="xcsf_8h_source.html#l00196">XCSF::y_dim</a>.</p>
+<p class="reference">References <a class="el" href="pred__nlms_8c_source.html#l00047">PRED_NLMS::eta</a>, <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="xcsf_8h_source.html#l00127">XCSF::PRED_TYPE</a>, <a class="el" href="xcsf_8h_source.html#l00040">PRED_TYPE_NLMS_QUADRATIC</a>, <a class="el" href="xcsf_8h_source.html#l00165">XCSF::PRED_X0</a>, <a class="el" href="xcsf_8h_source.html#l00065">CL::prediction</a>, <a class="el" href="pred__nlms_8c_source.html#l00045">PRED_NLMS::weights</a>, <a class="el" href="xcsf_8h_source.html#l00195">XCSF::x_dim</a>, and <a class="el" href="xcsf_8h_source.html#l00196">XCSF::y_dim</a>.</p>
 
 </div>
 </div>

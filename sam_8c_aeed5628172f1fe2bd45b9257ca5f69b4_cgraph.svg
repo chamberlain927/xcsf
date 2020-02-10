@@ -8,99 +8,99 @@
  viewBox="0.00 0.00 672.00 66.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 62)">
 <title>sam_log_normal_adapt</title>
-<!-- Node59 -->
+<!-- Node64 -->
 <g id="node1" class="node">
-<title>Node59</title>
+<title>Node64</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-19.5 0,-38.5 117,-38.5 117,-19.5 0,-19.5"/>
 <text text-anchor="middle" x="58.5" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sam_log_normal_adapt</text>
 </g>
-<!-- Node60 -->
+<!-- Node65 -->
 <g id="node2" class="node">
-<title>Node60</title>
+<title>Node65</title>
 <g id="a_node2"><a xlink:href="utils_8c.html#a4d9693be6ce890dc7a2ee825d11ca3ee" target="_top" xlink:title="Returns a float constrained within the specified range. ">
 <polygon fill="none" stroke="#000000" points="160,-38.5 160,-57.5 216,-57.5 216,-38.5 160,-38.5"/>
 <text text-anchor="middle" x="188" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">constrain</text>
 </a>
 </g>
 </g>
-<!-- Node59&#45;&gt;Node60 -->
+<!-- Node64&#45;&gt;Node65 -->
 <g id="edge1" class="edge">
-<title>Node59&#45;&gt;Node60</title>
+<title>Node64&#45;&gt;Node65</title>
 <path fill="none" stroke="#191970" d="M117.1876,-37.6105C128.214,-39.2283 139.477,-40.8808 149.6825,-42.3781"/>
 <polygon fill="#191970" stroke="#191970" points="149.4783,-45.8856 159.8805,-43.8744 150.4945,-38.9597 149.4783,-45.8856"/>
 </g>
-<!-- Node61 -->
+<!-- Node66 -->
 <g id="node3" class="node">
-<title>Node61</title>
+<title>Node66</title>
 <g id="a_node3"><a xlink:href="utils_8c.html#aa57fc0f69e730ce0a348c25ee498643d" target="_top" xlink:title="Returns a normal random float with specified mean and standard deviation. ">
 <polygon fill="none" stroke="#000000" points="153,-.5 153,-19.5 223,-19.5 223,-.5 153,-.5"/>
 <text text-anchor="middle" x="188" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">rand_normal</text>
 </a>
 </g>
 </g>
-<!-- Node59&#45;&gt;Node61 -->
+<!-- Node64&#45;&gt;Node66 -->
 <g id="edge2" class="edge">
-<title>Node59&#45;&gt;Node61</title>
+<title>Node64&#45;&gt;Node66</title>
 <path fill="none" stroke="#191970" d="M117.1876,-20.3895C125.7515,-19.133 134.4581,-17.8556 142.7011,-16.6462"/>
 <polygon fill="#191970" stroke="#191970" points="143.4627,-20.072 152.8487,-15.1573 142.4465,-13.1461 143.4627,-20.072"/>
 </g>
-<!-- Node62 -->
+<!-- Node67 -->
 <g id="node4" class="node">
-<title>Node62</title>
+<title>Node67</title>
 <g id="a_node4"><a xlink:href="utils_8c.html#a101d27cdda714b7f17a06224c65cac56" target="_top" xlink:title="Returns a uniform random float [0,1]. ">
 <polygon fill="none" stroke="#000000" points="259,-.5 259,-19.5 300,-19.5 300,-.5 259,-.5"/>
 <text text-anchor="middle" x="279.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">drand</text>
 </a>
 </g>
 </g>
-<!-- Node61&#45;&gt;Node62 -->
+<!-- Node66&#45;&gt;Node67 -->
 <g id="edge3" class="edge">
-<title>Node61&#45;&gt;Node62</title>
+<title>Node66&#45;&gt;Node67</title>
 <path fill="none" stroke="#191970" d="M223.1146,-10C231.5247,-10 240.4424,-10 248.6434,-10"/>
 <polygon fill="#191970" stroke="#191970" points="248.9086,-13.5001 258.9086,-10 248.9086,-6.5001 248.9086,-13.5001"/>
 </g>
-<!-- Node63 -->
+<!-- Node68 -->
 <g id="node5" class="node">
-<title>Node63</title>
+<title>Node68</title>
 <g id="a_node5"><a xlink:href="mt19937-64_8c.html#aa0b74daf51eca91df224d00f1730084a" target="_top" xlink:title="genrand64_real1">
 <polygon fill="none" stroke="#000000" points="336,-.5 336,-19.5 424,-19.5 424,-.5 336,-.5"/>
 <text text-anchor="middle" x="380" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">genrand64_real1</text>
 </a>
 </g>
 </g>
-<!-- Node62&#45;&gt;Node63 -->
+<!-- Node67&#45;&gt;Node68 -->
 <g id="edge4" class="edge">
-<title>Node62&#45;&gt;Node63</title>
+<title>Node67&#45;&gt;Node68</title>
 <path fill="none" stroke="#191970" d="M300.3237,-10C307.8428,-10 316.7193,-10 325.769,-10"/>
 <polygon fill="#191970" stroke="#191970" points="325.9969,-13.5001 335.9969,-10 325.9969,-6.5001 325.9969,-13.5001"/>
 </g>
-<!-- Node64 -->
+<!-- Node69 -->
 <g id="node6" class="node">
-<title>Node64</title>
+<title>Node69</title>
 <g id="a_node6"><a xlink:href="mt19937-64_8c.html#a265bf48d20d6e0347371fcf4fe340e6d" target="_top" xlink:title="genrand64_int64">
 <polygon fill="none" stroke="#000000" points="460,-.5 460,-19.5 548,-19.5 548,-.5 460,-.5"/>
 <text text-anchor="middle" x="504" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">genrand64_int64</text>
 </a>
 </g>
 </g>
-<!-- Node63&#45;&gt;Node64 -->
+<!-- Node68&#45;&gt;Node69 -->
 <g id="edge5" class="edge">
-<title>Node63&#45;&gt;Node64</title>
+<title>Node68&#45;&gt;Node69</title>
 <path fill="none" stroke="#191970" d="M424.0669,-10C432.2822,-10 440.957,-10 449.4432,-10"/>
 <polygon fill="#191970" stroke="#191970" points="449.6572,-13.5001 459.6572,-10 449.6572,-6.5001 449.6572,-13.5001"/>
 </g>
-<!-- Node65 -->
+<!-- Node70 -->
 <g id="node7" class="node">
-<title>Node65</title>
+<title>Node70</title>
 <g id="a_node7"><a xlink:href="mt19937-64_8c.html#adf4127d44c2dc34fcb318d406131ef7c" target="_top" xlink:title="init_genrand64">
 <polygon fill="none" stroke="#000000" points="584,-.5 584,-19.5 664,-19.5 664,-.5 584,-.5"/>
 <text text-anchor="middle" x="624" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">init_genrand64</text>
 </a>
 </g>
 </g>
-<!-- Node64&#45;&gt;Node65 -->
+<!-- Node69&#45;&gt;Node70 -->
 <g id="edge6" class="edge">
-<title>Node64&#45;&gt;Node65</title>
+<title>Node69&#45;&gt;Node70</title>
 <path fill="none" stroke="#191970" d="M548.0022,-10C556.3719,-10 565.1896,-10 573.7365,-10"/>
 <polygon fill="#191970" stroke="#191970" points="573.9792,-13.5001 583.9792,-10 573.9792,-6.5001 573.9792,-13.5001"/>
 </g>

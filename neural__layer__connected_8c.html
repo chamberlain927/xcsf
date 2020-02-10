@@ -82,6 +82,7 @@ $(document).ready(function(){initNavTree('neural__layer__connected_8c.html','');
 
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">neural_layer_connected.c File Reference</div>  </div>
@@ -106,14 +107,24 @@ $(document).ready(function(){initNavTree('neural__layer__connected_8c.html','');
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for neural_layer_connected.c:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c__incl.svg" width="1275" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c__incl.svg" width="1275" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <p><a href="neural__layer__connected_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ac8506c6dfbaa367890d2c900541c6f19"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__connected_8c.html#ac8506c6dfbaa367890d2c900541c6f19">ETA_MAX</a>&#160;&#160;&#160;0.1</td></tr>
+<tr class="memdesc:ac8506c6dfbaa367890d2c900541c6f19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum gradient descent rate.  <a href="#ac8506c6dfbaa367890d2c900541c6f19">More...</a><br /></td></tr>
+<tr class="separator:ac8506c6dfbaa367890d2c900541c6f19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05eb6d5155c3a0f6b17118b5ce0478ac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__connected_8c.html#a05eb6d5155c3a0f6b17118b5ce0478ac">ETA_MIN</a>&#160;&#160;&#160;0.0001</td></tr>
+<tr class="memdesc:a05eb6d5155c3a0f6b17118b5ce0478ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum gradient descent rate.  <a href="#a05eb6d5155c3a0f6b17118b5ce0478ac">More...</a><br /></td></tr>
+<tr class="separator:a05eb6d5155c3a0f6b17118b5ce0478ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ad8720d1544cedb7dbd02928345c850a4"><td class="memItemLeft" align="right" valign="top">static _Bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__connected_8c.html#ad8720d1544cedb7dbd02928345c850a4">mutate_eta</a> (<a class="el" href="structLAYER.html">LAYER</a> *l, double mu)</td></tr>
+<tr class="separator:ad8720d1544cedb7dbd02928345c850a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a121543e4af0fc8a0ee8c3c6f96d1e25d"><td class="memItemLeft" align="right" valign="top">static _Bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__connected_8c.html#a121543e4af0fc8a0ee8c3c6f96d1e25d">mutate_neurons</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, double mu)</td></tr>
 <tr class="separator:a121543e4af0fc8a0ee8c3c6f96d1e25d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1f6499609edfd952bba8814d2103d08"><td class="memItemLeft" align="right" valign="top">static _Bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__connected_8c.html#ad1f6499609edfd952bba8814d2103d08">mutate_weights</a> (const <a class="el" href="structLAYER.html">LAYER</a> *l, double mu)</td></tr>
@@ -136,8 +147,8 @@ Functions</h2></td></tr>
 <tr class="separator:a328a93f8dc067e67c2eadb1e044c2684"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e8fd2c51210cf48be30744562800817"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__connected_8c.html#a8e8fd2c51210cf48be30744562800817">neural_layer_connected_backward</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structLAYER.html">LAYER</a> *l, const <a class="el" href="structNET.html">NET</a> *net)</td></tr>
 <tr class="separator:a8e8fd2c51210cf48be30744562800817"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6b189bebcd73317594742eb5fc42f80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__connected_8c.html#ad6b189bebcd73317594742eb5fc42f80">neural_layer_connected_update</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structLAYER.html">LAYER</a> *l, double eta)</td></tr>
-<tr class="separator:ad6b189bebcd73317594742eb5fc42f80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe463e61d0410cd3cdaa53bed790965d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__connected_8c.html#abe463e61d0410cd3cdaa53bed790965d">neural_layer_connected_update</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structLAYER.html">LAYER</a> *l)</td></tr>
+<tr class="separator:abe463e61d0410cd3cdaa53bed790965d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01dc278b0a816d7eb11614a19cab9eaa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__connected_8c.html#a01dc278b0a816d7eb11614a19cab9eaa">neural_layer_connected_resize</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, const <a class="el" href="structLAYER.html">LAYER</a> *prev)</td></tr>
 <tr class="separator:a01dc278b0a816d7eb11614a19cab9eaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22899fd23cd8ecea1daf7ce4c5638d76"><td class="memItemLeft" align="right" valign="top">_Bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural__layer__connected_8c.html#a22899fd23cd8ecea1daf7ce4c5638d76">neural_layer_connected_mutate</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structLAYER.html">LAYER</a> *l, const double *mu)</td></tr>
@@ -158,7 +169,100 @@ Functions</h2></td></tr>
 <dl class="section date"><dt>Date</dt><dd>2016&ndash;2020. </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ac8506c6dfbaa367890d2c900541c6f19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8506c6dfbaa367890d2c900541c6f19">&#9670;&nbsp;</a></span>ETA_MAX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ETA_MAX&#160;&#160;&#160;0.1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Maximum gradient descent rate. </p>
+
+<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00038">38</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="neural__layer__connected_8c_source.html#l00225">mutate_eta()</a>, and <a class="el" href="neural__layer__connected_8c_source.html#l00048">neural_layer_connected_init()</a>.</p>
+
+</div>
+</div>
+<a id="a05eb6d5155c3a0f6b17118b5ce0478ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05eb6d5155c3a0f6b17118b5ce0478ac">&#9670;&nbsp;</a></span>ETA_MIN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ETA_MIN&#160;&#160;&#160;0.0001</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Minimum gradient descent rate. </p>
+
+<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00039">39</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="neural__layer__connected_8c_source.html#l00225">mutate_eta()</a>, and <a class="el" href="neural__layer__connected_8c_source.html#l00048">neural_layer_connected_init()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ad8720d1544cedb7dbd02928345c850a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8720d1544cedb7dbd02928345c850a4">&#9670;&nbsp;</a></span>mutate_eta()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static _Bool mutate_eta </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structLAYER.html">LAYER</a> *&#160;</td>
+          <td class="paramname"><em>l</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>mu</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00225">225</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
+
+<p class="reference">References <a class="el" href="utils_8c_source.html#l00114">constrain()</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::eta</a>, <a class="el" href="neural__layer__connected_8c_source.html#l00038">ETA_MAX</a>, <a class="el" href="neural__layer__connected_8c_source.html#l00039">ETA_MIN</a>, and <a class="el" href="utils_8c_source.html#l00086">rand_normal()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="neural__layer__connected_8c_source.html#l00207">neural_layer_connected_mutate()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_ad8720d1544cedb7dbd02928345c850a4_cgraph.svg" width="827" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_ad8720d1544cedb7dbd02928345c850a4_icgraph.svg" width="304" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="acc6370bd01955e94c2da4ddb7be8a10b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acc6370bd01955e94c2da4ddb7be8a10b">&#9670;&nbsp;</a></span>mutate_functions()</h2>
 
@@ -193,22 +297,20 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00334">334</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00358">358</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00055">LAYER::function</a>, <a class="el" href="utils_8c_source.html#l00064">irand_uniform()</a>, <a class="el" href="neural__activations_8h_source.html#l00039">NUM_ACTIVATIONS</a>, and <a class="el" href="utils_8c_source.html#l00073">rand_uniform()</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00057">LAYER::function</a>, <a class="el" href="utils_8c_source.html#l00064">irand_uniform()</a>, <a class="el" href="neural__activations_8h_source.html#l00039">NUM_ACTIVATIONS</a>, and <a class="el" href="utils_8c_source.html#l00073">rand_uniform()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer__connected_8c_source.html#l00197">neural_layer_connected_mutate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="neural__layer__connected_8c_source.html#l00207">neural_layer_connected_mutate()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_acc6370bd01955e94c2da4ddb7be8a10b_cgraph.svg" width="1015" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_acc6370bd01955e94c2da4ddb7be8a10b_cgraph.svg" width="1015" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_acc6370bd01955e94c2da4ddb7be8a10b_icgraph.svg" width="340" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_acc6370bd01955e94c2da4ddb7be8a10b_icgraph.svg" width="340" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -253,22 +355,20 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00212">212</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00236">236</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
 
-<p class="reference">References <a class="el" href="utils_8c_source.html#l00064">irand_uniform()</a>, <a class="el" href="xcsf_8h_source.html#l00151">XCSF::MAX_NEURON_MOD</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::max_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::n_outputs</a>, <a class="el" href="neural__layer__connected_8c_source.html#l00242">neuron_add()</a>, <a class="el" href="neural__layer__connected_8c_source.html#l00282">neuron_remove()</a>, and <a class="el" href="utils_8c_source.html#l00073">rand_uniform()</a>.</p>
+<p class="reference">References <a class="el" href="utils_8c_source.html#l00064">irand_uniform()</a>, <a class="el" href="xcsf_8h_source.html#l00151">XCSF::MAX_NEURON_MOD</a>, <a class="el" href="neural__layer_8h_source.html#l00055">LAYER::max_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_outputs</a>, <a class="el" href="neural__layer__connected_8c_source.html#l00266">neuron_add()</a>, <a class="el" href="neural__layer__connected_8c_source.html#l00306">neuron_remove()</a>, and <a class="el" href="utils_8c_source.html#l00073">rand_uniform()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer__connected_8c_source.html#l00197">neural_layer_connected_mutate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="neural__layer__connected_8c_source.html#l00207">neural_layer_connected_mutate()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_a121543e4af0fc8a0ee8c3c6f96d1e25d_cgraph.svg" width="1018" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_a121543e4af0fc8a0ee8c3c6f96d1e25d_cgraph.svg" width="1018" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_a121543e4af0fc8a0ee8c3c6f96d1e25d_icgraph.svg" width="332" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_a121543e4af0fc8a0ee8c3c6f96d1e25d_icgraph.svg" width="332" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -307,22 +407,20 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00314">314</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00338">338</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::biases</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::n_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_weights</a>, <a class="el" href="utils_8c_source.html#l00086">rand_normal()</a>, and <a class="el" href="neural__layer_8h_source.html#l00046">LAYER::weights</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00048">LAYER::biases</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00056">LAYER::n_weights</a>, <a class="el" href="utils_8c_source.html#l00086">rand_normal()</a>, and <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::weights</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer__connected_8c_source.html#l00197">neural_layer_connected_mutate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="neural__layer__connected_8c_source.html#l00207">neural_layer_connected_mutate()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_ad1f6499609edfd952bba8814d2103d08_cgraph.svg" width="855" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_ad1f6499609edfd952bba8814d2103d08_cgraph.svg" width="855" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_ad1f6499609edfd952bba8814d2103d08_icgraph.svg" width="332" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_ad1f6499609edfd952bba8814d2103d08_icgraph.svg" width="332" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -359,14 +457,13 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00130">130</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00140">140</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00048">LAYER::bias_updates</a>, <a class="el" href="neural_8h_source.html#l00049">NET::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00050">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00055">LAYER::function</a>, <a class="el" href="neural_8h_source.html#l00050">NET::input</a>, <a class="el" href="neural__layer_8h_source.html#l00036">LAYER_SGD_WEIGHTS</a>, <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::n_outputs</a>, <a class="el" href="neural__activations_8c_source.html#l00060">neural_gradient()</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::options</a>, <a class="el" href="neural__layer_8h_source.html#l00043">LAYER::state</a>, <a class="el" href="neural__layer_8h_source.html#l00049">LAYER::weight_updates</a>, and <a class="el" href="neural__layer_8h_source.html#l00046">LAYER::weights</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00049">LAYER::bias_updates</a>, <a class="el" href="neural_8h_source.html#l00044">NET::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00057">LAYER::function</a>, <a class="el" href="neural_8h_source.html#l00045">NET::input</a>, <a class="el" href="neural__layer_8h_source.html#l00036">LAYER_SGD_WEIGHTS</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_outputs</a>, <a class="el" href="neural__activations_8c_source.html#l00060">neural_gradient()</a>, <a class="el" href="neural__layer_8h_source.html#l00046">LAYER::options</a>, <a class="el" href="neural__layer_8h_source.html#l00044">LAYER::state</a>, <a class="el" href="neural__layer_8h_source.html#l00050">LAYER::weight_updates</a>, and <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::weights</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_a8e8fd2c51210cf48be30744562800817_cgraph.svg" width="504" height="544"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_a8e8fd2c51210cf48be30744562800817_cgraph.svg" width="504" height="544"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -397,9 +494,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00069">69</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00078">78</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00048">LAYER::bias_updates</a>, <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::biases</a>, <a class="el" href="neural__layer_8h_source.html#l00050">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00055">LAYER::function</a>, <a class="el" href="neural__layer_8h_source.html#l00042">LAYER::layer_type</a>, <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::layer_vptr</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::max_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::n_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_weights</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::options</a>, <a class="el" href="neural__layer_8h_source.html#l00044">LAYER::output</a>, <a class="el" href="neural__layer_8h_source.html#l00043">LAYER::state</a>, <a class="el" href="neural__layer_8h_source.html#l00049">LAYER::weight_updates</a>, and <a class="el" href="neural__layer_8h_source.html#l00046">LAYER::weights</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00049">LAYER::bias_updates</a>, <a class="el" href="neural__layer_8h_source.html#l00048">LAYER::biases</a>, <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::eta</a>, <a class="el" href="neural__layer_8h_source.html#l00057">LAYER::function</a>, <a class="el" href="neural__layer_8h_source.html#l00043">LAYER::layer_type</a>, <a class="el" href="neural__layer_8h_source.html#l00061">LAYER::layer_vptr</a>, <a class="el" href="neural__layer_8h_source.html#l00055">LAYER::max_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00056">LAYER::n_weights</a>, <a class="el" href="neural__layer_8h_source.html#l00046">LAYER::options</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, <a class="el" href="neural__layer_8h_source.html#l00044">LAYER::state</a>, <a class="el" href="neural__layer_8h_source.html#l00050">LAYER::weight_updates</a>, and <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::weights</a>.</p>
 
 </div>
 </div>
@@ -435,14 +532,13 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00116">116</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00126">126</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::biases</a>, <a class="el" href="utils_8c_source.html#l00114">constrain()</a>, <a class="el" href="neural__layer_8h_source.html#l00055">LAYER::function</a>, <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::n_outputs</a>, <a class="el" href="neural__activations_8c_source.html#l00034">neural_activate()</a>, <a class="el" href="neural__layer_8h_source.html#l00044">LAYER::output</a>, <a class="el" href="neural__layer_8h_source.html#l00043">LAYER::state</a>, and <a class="el" href="neural__layer_8h_source.html#l00046">LAYER::weights</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00048">LAYER::biases</a>, <a class="el" href="utils_8c_source.html#l00114">constrain()</a>, <a class="el" href="neural__layer_8h_source.html#l00057">LAYER::function</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_outputs</a>, <a class="el" href="neural__activations_8c_source.html#l00034">neural_activate()</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, <a class="el" href="neural__layer_8h_source.html#l00044">LAYER::state</a>, and <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::weights</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_a328a93f8dc067e67c2eadb1e044c2684_cgraph.svg" width="504" height="544"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_a328a93f8dc067e67c2eadb1e044c2684_cgraph.svg" width="504" height="544"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -473,9 +569,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00093">93</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00103">103</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00048">LAYER::bias_updates</a>, <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::biases</a>, <a class="el" href="neural__layer_8h_source.html#l00050">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00044">LAYER::output</a>, <a class="el" href="neural__layer_8h_source.html#l00043">LAYER::state</a>, <a class="el" href="neural__layer_8h_source.html#l00049">LAYER::weight_updates</a>, and <a class="el" href="neural__layer_8h_source.html#l00046">LAYER::weights</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00049">LAYER::bias_updates</a>, <a class="el" href="neural__layer_8h_source.html#l00048">LAYER::biases</a>, <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, <a class="el" href="neural__layer_8h_source.html#l00044">LAYER::state</a>, <a class="el" href="neural__layer_8h_source.html#l00050">LAYER::weight_updates</a>, and <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::weights</a>.</p>
 
 </div>
 </div>
@@ -529,22 +625,20 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00044">44</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00048">48</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00048">LAYER::bias_updates</a>, <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::biases</a>, <a class="el" href="neural__layer_8h_source.html#l00028">CONNECTED</a>, <a class="el" href="neural__layer_8h_source.html#l00050">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00055">LAYER::function</a>, <a class="el" href="neural__layer__connected_8h_source.html#l00040">layer_connected_vtbl</a>, <a class="el" href="neural__layer_8h_source.html#l00042">LAYER::layer_type</a>, <a class="el" href="neural__layer_8h_source.html#l00059">LAYER::layer_vptr</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::max_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::n_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_weights</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::options</a>, <a class="el" href="neural__layer_8h_source.html#l00044">LAYER::output</a>, <a class="el" href="utils_8c_source.html#l00086">rand_normal()</a>, <a class="el" href="neural__layer_8h_source.html#l00043">LAYER::state</a>, <a class="el" href="neural__layer_8h_source.html#l00049">LAYER::weight_updates</a>, and <a class="el" href="neural__layer_8h_source.html#l00046">LAYER::weights</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00049">LAYER::bias_updates</a>, <a class="el" href="neural__layer_8h_source.html#l00048">LAYER::biases</a>, <a class="el" href="neural__layer_8h_source.html#l00028">CONNECTED</a>, <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::eta</a>, <a class="el" href="neural__layer__connected_8c_source.html#l00038">ETA_MAX</a>, <a class="el" href="neural__layer__connected_8c_source.html#l00039">ETA_MIN</a>, <a class="el" href="neural__layer_8h_source.html#l00057">LAYER::function</a>, <a class="el" href="neural__layer__connected_8h_source.html#l00040">layer_connected_vtbl</a>, <a class="el" href="neural__layer_8h_source.html#l00037">LAYER_EVOLVE_ETA</a>, <a class="el" href="neural__layer_8h_source.html#l00043">LAYER::layer_type</a>, <a class="el" href="neural__layer_8h_source.html#l00061">LAYER::layer_vptr</a>, <a class="el" href="neural__layer_8h_source.html#l00055">LAYER::max_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00056">LAYER::n_weights</a>, <a class="el" href="neural__layer_8h_source.html#l00046">LAYER::options</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, <a class="el" href="xcsf_8h_source.html#l00164">XCSF::PRED_ETA</a>, <a class="el" href="utils_8c_source.html#l00086">rand_normal()</a>, <a class="el" href="utils_8c_source.html#l00073">rand_uniform()</a>, <a class="el" href="neural__layer_8h_source.html#l00044">LAYER::state</a>, <a class="el" href="neural__layer_8h_source.html#l00050">LAYER::weight_updates</a>, and <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::weights</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cond__neural_8c_source.html#l00051">cond_neural_init()</a>, <a class="el" href="pred__neural_8c_source.html#l00053">pred_neural_init()</a>, and <a class="el" href="rule__neural_8c_source.html#l00055">rule_neural_cond_init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cond__neural_8c_source.html#l00051">cond_neural_init()</a>, <a class="el" href="pred__neural_8c_source.html#l00210">pred_neural_expand()</a>, <a class="el" href="pred__neural_8c_source.html#l00052">pred_neural_init()</a>, and <a class="el" href="rule__neural_8c_source.html#l00055">rule_neural_cond_init()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_adcf59226c12296224d675cfb28892039_cgraph.svg" width="923" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_adcf59226c12296224d675cfb28892039_cgraph.svg" width="927" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_adcf59226c12296224d675cfb28892039_icgraph.svg" width="386" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_adcf59226c12296224d675cfb28892039_icgraph.svg" width="386" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -581,9 +675,9 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00389">389</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00414">414</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00048">LAYER::bias_updates</a>, <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::biases</a>, <a class="el" href="neural__layer_8h_source.html#l00050">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00055">LAYER::function</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::max_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::n_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_weights</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::options</a>, <a class="el" href="neural__layer_8h_source.html#l00044">LAYER::output</a>, <a class="el" href="neural__layer_8h_source.html#l00043">LAYER::state</a>, <a class="el" href="neural__layer_8h_source.html#l00049">LAYER::weight_updates</a>, and <a class="el" href="neural__layer_8h_source.html#l00046">LAYER::weights</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00049">LAYER::bias_updates</a>, <a class="el" href="neural__layer_8h_source.html#l00048">LAYER::biases</a>, <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::eta</a>, <a class="el" href="neural__layer_8h_source.html#l00057">LAYER::function</a>, <a class="el" href="neural__layer_8h_source.html#l00055">LAYER::max_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00056">LAYER::n_weights</a>, <a class="el" href="neural__layer_8h_source.html#l00046">LAYER::options</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, <a class="el" href="neural__layer_8h_source.html#l00044">LAYER::state</a>, <a class="el" href="neural__layer_8h_source.html#l00050">LAYER::weight_updates</a>, and <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::weights</a>.</p>
 
 </div>
 </div>
@@ -619,14 +713,13 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00197">197</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00207">207</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00035">LAYER_EVOLVE_FUNCTIONS</a>, <a class="el" href="neural__layer_8h_source.html#l00034">LAYER_EVOLVE_NEURONS</a>, <a class="el" href="neural__layer_8h_source.html#l00033">LAYER_EVOLVE_WEIGHTS</a>, <a class="el" href="neural__layer__connected_8c_source.html#l00334">mutate_functions()</a>, <a class="el" href="neural__layer__connected_8c_source.html#l00212">mutate_neurons()</a>, <a class="el" href="neural__layer__connected_8c_source.html#l00314">mutate_weights()</a>, and <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::options</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00037">LAYER_EVOLVE_ETA</a>, <a class="el" href="neural__layer_8h_source.html#l00035">LAYER_EVOLVE_FUNCTIONS</a>, <a class="el" href="neural__layer_8h_source.html#l00034">LAYER_EVOLVE_NEURONS</a>, <a class="el" href="neural__layer_8h_source.html#l00033">LAYER_EVOLVE_WEIGHTS</a>, <a class="el" href="neural__layer__connected_8c_source.html#l00225">mutate_eta()</a>, <a class="el" href="neural__layer__connected_8c_source.html#l00358">mutate_functions()</a>, <a class="el" href="neural__layer__connected_8c_source.html#l00236">mutate_neurons()</a>, <a class="el" href="neural__layer__connected_8c_source.html#l00338">mutate_weights()</a>, and <a class="el" href="neural__layer_8h_source.html#l00046">LAYER::options</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_a22899fd23cd8ecea1daf7ce4c5638d76_cgraph.svg" width="1232" height="235"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_a22899fd23cd8ecea1daf7ce4c5638d76_cgraph.svg" width="1232" height="335"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -657,9 +750,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00346">346</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00370">370</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00044">LAYER::output</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>.</p>
 
 </div>
 </div>
@@ -695,14 +788,13 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00352">352</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00376">376</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__activations_8c_source.html#l00085">activation_string()</a>, <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::biases</a>, <a class="el" href="neural__layer_8h_source.html#l00055">LAYER::function</a>, <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::n_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_weights</a>, and <a class="el" href="neural__layer_8h_source.html#l00046">LAYER::weights</a>.</p>
+<p class="reference">References <a class="el" href="neural__activations_8c_source.html#l00085">activation_string()</a>, <a class="el" href="neural__layer_8h_source.html#l00048">LAYER::biases</a>, <a class="el" href="neural__layer_8h_source.html#l00057">LAYER::function</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00056">LAYER::n_weights</a>, and <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::weights</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_a1d7b94160bc590068f1397a7cfe83c31_cgraph.svg" width="335" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_a1d7b94160bc590068f1397a7cfe83c31_cgraph.svg" width="335" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -733,14 +825,13 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00105">105</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00115">115</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::biases</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::n_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_weights</a>, <a class="el" href="utils_8c_source.html#l00086">rand_normal()</a>, and <a class="el" href="neural__layer_8h_source.html#l00046">LAYER::weights</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00048">LAYER::biases</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00056">LAYER::n_weights</a>, <a class="el" href="utils_8c_source.html#l00086">rand_normal()</a>, and <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::weights</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_a0500b455649a0093dbf8cf3ec7368ac4_cgraph.svg" width="931" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_a0500b455649a0093dbf8cf3ec7368ac4_cgraph.svg" width="931" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -777,14 +868,13 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00169">169</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00179">179</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::n_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_weights</a>, <a class="el" href="utils_8c_source.html#l00086">rand_normal()</a>, <a class="el" href="neural__layer_8h_source.html#l00049">LAYER::weight_updates</a>, and <a class="el" href="neural__layer_8h_source.html#l00046">LAYER::weights</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00056">LAYER::n_weights</a>, <a class="el" href="utils_8c_source.html#l00086">rand_normal()</a>, <a class="el" href="neural__layer_8h_source.html#l00050">LAYER::weight_updates</a>, and <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::weights</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_a01dc278b0a816d7eb11614a19cab9eaa_cgraph.svg" width="899" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_a01dc278b0a816d7eb11614a19cab9eaa_cgraph.svg" width="899" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -821,14 +911,14 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00372">372</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00396">396</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00048">LAYER::bias_updates</a>, <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::biases</a>, <a class="el" href="neural__layer_8h_source.html#l00055">LAYER::function</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::max_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::n_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_weights</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::options</a>, <a class="el" href="neural__layer_8h_source.html#l00049">LAYER::weight_updates</a>, and <a class="el" href="neural__layer_8h_source.html#l00046">LAYER::weights</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00049">LAYER::bias_updates</a>, <a class="el" href="neural__layer_8h_source.html#l00048">LAYER::biases</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::eta</a>, <a class="el" href="neural__layer_8h_source.html#l00057">LAYER::function</a>, <a class="el" href="neural__layer_8h_source.html#l00055">LAYER::max_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00056">LAYER::n_weights</a>, <a class="el" href="neural__layer_8h_source.html#l00046">LAYER::options</a>, <a class="el" href="neural__layer_8h_source.html#l00050">LAYER::weight_updates</a>, and <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::weights</a>.</p>
 
 </div>
 </div>
-<a id="ad6b189bebcd73317594742eb5fc42f80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6b189bebcd73317594742eb5fc42f80">&#9670;&nbsp;</a></span>neural_layer_connected_update()</h2>
+<a id="abe463e61d0410cd3cdaa53bed790965d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe463e61d0410cd3cdaa53bed790965d">&#9670;&nbsp;</a></span>neural_layer_connected_update()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -843,13 +933,7 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="structLAYER.html">LAYER</a> *&#160;</td>
-          <td class="paramname"><em>l</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>eta</em>&#160;</td>
+          <td class="paramname"><em>l</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -859,9 +943,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00155">155</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00165">165</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00048">LAYER::bias_updates</a>, <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::biases</a>, <a class="el" href="neural__layer_8h_source.html#l00036">LAYER_SGD_WEIGHTS</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::n_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_weights</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::options</a>, <a class="el" href="xcsf_8h_source.html#l00173">XCSF::PRED_MOMENTUM</a>, <a class="el" href="neural__layer_8h_source.html#l00049">LAYER::weight_updates</a>, and <a class="el" href="neural__layer_8h_source.html#l00046">LAYER::weights</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00049">LAYER::bias_updates</a>, <a class="el" href="neural__layer_8h_source.html#l00048">LAYER::biases</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::eta</a>, <a class="el" href="neural__layer_8h_source.html#l00036">LAYER_SGD_WEIGHTS</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00056">LAYER::n_weights</a>, <a class="el" href="neural__layer_8h_source.html#l00046">LAYER::options</a>, <a class="el" href="xcsf_8h_source.html#l00173">XCSF::PRED_MOMENTUM</a>, <a class="el" href="neural__layer_8h_source.html#l00050">LAYER::weight_updates</a>, and <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::weights</a>.</p>
 
 </div>
 </div>
@@ -899,22 +983,20 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00242">242</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00266">266</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00048">LAYER::bias_updates</a>, <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::biases</a>, <a class="el" href="neural__layer_8h_source.html#l00050">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::n_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_weights</a>, <a class="el" href="neural__layer_8h_source.html#l00044">LAYER::output</a>, <a class="el" href="utils_8c_source.html#l00086">rand_normal()</a>, <a class="el" href="neural__layer_8h_source.html#l00043">LAYER::state</a>, <a class="el" href="neural__layer_8h_source.html#l00049">LAYER::weight_updates</a>, and <a class="el" href="neural__layer_8h_source.html#l00046">LAYER::weights</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00049">LAYER::bias_updates</a>, <a class="el" href="neural__layer_8h_source.html#l00048">LAYER::biases</a>, <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00056">LAYER::n_weights</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, <a class="el" href="utils_8c_source.html#l00086">rand_normal()</a>, <a class="el" href="neural__layer_8h_source.html#l00044">LAYER::state</a>, <a class="el" href="neural__layer_8h_source.html#l00050">LAYER::weight_updates</a>, and <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::weights</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer__connected_8c_source.html#l00212">mutate_neurons()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="neural__layer__connected_8c_source.html#l00236">mutate_neurons()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_a6e87a1a97403c4bf705953327c870af8_cgraph.svg" width="830" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_a6e87a1a97403c4bf705953327c870af8_cgraph.svg" width="830" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_a6e87a1a97403c4bf705953327c870af8_icgraph.svg" width="470" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_a6e87a1a97403c4bf705953327c870af8_icgraph.svg" width="470" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -953,16 +1035,15 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00282">282</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="neural__layer__connected_8c_source.html#l00306">306</a> of file <a class="el" href="neural__layer__connected_8c_source.html">neural_layer_connected.c</a>.</p>
 
-<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00048">LAYER::bias_updates</a>, <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::biases</a>, <a class="el" href="neural__layer_8h_source.html#l00050">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00052">LAYER::n_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_weights</a>, <a class="el" href="neural__layer_8h_source.html#l00044">LAYER::output</a>, <a class="el" href="neural__layer_8h_source.html#l00043">LAYER::state</a>, <a class="el" href="neural__layer_8h_source.html#l00049">LAYER::weight_updates</a>, and <a class="el" href="neural__layer_8h_source.html#l00046">LAYER::weights</a>.</p>
+<p class="reference">References <a class="el" href="neural__layer_8h_source.html#l00049">LAYER::bias_updates</a>, <a class="el" href="neural__layer_8h_source.html#l00048">LAYER::biases</a>, <a class="el" href="neural__layer_8h_source.html#l00051">LAYER::delta</a>, <a class="el" href="neural__layer_8h_source.html#l00053">LAYER::n_inputs</a>, <a class="el" href="neural__layer_8h_source.html#l00054">LAYER::n_outputs</a>, <a class="el" href="neural__layer_8h_source.html#l00056">LAYER::n_weights</a>, <a class="el" href="neural__layer_8h_source.html#l00045">LAYER::output</a>, <a class="el" href="neural__layer_8h_source.html#l00044">LAYER::state</a>, <a class="el" href="neural__layer_8h_source.html#l00050">LAYER::weight_updates</a>, and <a class="el" href="neural__layer_8h_source.html#l00047">LAYER::weights</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer__connected_8c_source.html#l00212">mutate_neurons()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="neural__layer__connected_8c_source.html#l00236">mutate_neurons()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_afef6f1db503b9db764876a88a4015c3f_icgraph.svg" width="491" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural__layer__connected_8c_afef6f1db503b9db764876a88a4015c3f_icgraph.svg" width="491" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

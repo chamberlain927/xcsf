@@ -4,6 +4,7 @@ var neural__layer_8h =
     [ "LayerVtbl", "structLayerVtbl.html", "structLayerVtbl" ],
     [ "CONNECTED", "neural__layer_8h.html#af6202935c026af12978d46a765dafb90", null ],
     [ "DROPOUT", "neural__layer_8h.html#ad59a649496ed736e2c98d2d979d00474", null ],
+    [ "LAYER_EVOLVE_ETA", "neural__layer_8h.html#a2dd72d2b1754574d49d136beef537116", null ],
     [ "LAYER_EVOLVE_FUNCTIONS", "neural__layer_8h.html#a2e3532966ea550f89965fc0e8a7350cc", null ],
     [ "LAYER_EVOLVE_NEURONS", "neural__layer_8h.html#a7a6d21d5c57a13cd2a3cb2850ab2957d", null ],
     [ "LAYER_EVOLVE_WEIGHTS", "neural__layer_8h.html#a50ea5e049563f7732e57f6fe462f04e1", null ],
@@ -22,6 +23,6 @@ var neural__layer_8h =
     [ "layer_rand", "neural__layer_8h.html#a126497f6ca92a3939c5b8a3597d1c98c", null ],
     [ "layer_resize", "neural__layer_8h.html#ab76b0a2c3d47e870fb8e8086ece24766", null ],
     [ "layer_save", "neural__layer_8h.html#ae644505bcb4340d5cd245c8ffe3b624b", null ],
-    [ "layer_update", "neural__layer_8h.html#a328dcaf7603f437f9506a9762cbe2834", null ],
+    [ "layer_update", "neural__layer_8h.html#ad6d84d10a87ae6ea164f482a73ee9dfa", null ],
     [ "neural_layer_set_vptr", "neural__layer_8h.html#ab50f23022664bce6dbd72a5b7bcbffe9", null ]
 ];

@@ -56,7 +56,7 @@ var searchData=
   ['get_5fpop_5finit',['get_pop_init',['../structXCS.html#a8a598a33952d31a4f451ab6977a11b3d',1,'XCS']]],
   ['get_5fpop_5fmax_5fsize',['get_pop_max_size',['../structXCS.html#ab799e1cb1d5501548406316ac2a5869f',1,'XCS']]],
   ['get_5fpop_5fmean_5fcond_5fsize',['get_pop_mean_cond_size',['../structXCS.html#ad41c1a22e9eeec57921dba4471591a42',1,'XCS']]],
-  ['get_5fpop_5fmean_5fpred_5feta',['get_pop_mean_pred_eta',['../structXCS.html#a581a9da192721bdada5486cdeacb9b97',1,'XCS']]],
+  ['get_5fpop_5fmean_5fpred_5feta',['get_pop_mean_pred_eta',['../structXCS.html#a60e9750120f819fde4b2e3f398ca7f07',1,'XCS']]],
   ['get_5fpop_5fmean_5fpred_5flayers',['get_pop_mean_pred_layers',['../structXCS.html#a58ad19780e86b0ea47f65539678a4f5b',1,'XCS']]],
   ['get_5fpop_5fmean_5fpred_5fneurons',['get_pop_mean_pred_neurons',['../structXCS.html#a93de5a2336939c86704362808ea70d38',1,'XCS']]],
   ['get_5fpop_5fmean_5fpred_5fsize',['get_pop_mean_pred_size',['../structXCS.html#ad9367f471d3bd009d3d84a6e85f5b619',1,'XCS']]],

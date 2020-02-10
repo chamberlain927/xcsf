@@ -8,190 +8,190 @@
  viewBox="0.00 0.00 378.00 408.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 404)">
 <title>neural_layer_connected_backward</title>
-<!-- Node29 -->
+<!-- Node38 -->
 <g id="node1" class="node">
-<title>Node29</title>
+<title>Node38</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-185 0,-215 119,-215 119,-185 0,-185"/>
 <text text-anchor="start" x="8" y="-203" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">neural_layer_connected</text>
 <text text-anchor="middle" x="59.5" y="-192" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_backward</text>
 </g>
-<!-- Node30 -->
+<!-- Node39 -->
 <g id="node2" class="node">
-<title>Node30</title>
+<title>Node39</title>
 <g id="a_node2"><a xlink:href="neural__activations_8c.html#acae9e3465fe2037bb5300ae3e84aa37d" target="_top" xlink:title="Returns the derivative from applying a specified activation function. ">
 <polygon fill="none" stroke="#000000" points="155,-190.5 155,-209.5 238,-209.5 238,-190.5 155,-190.5"/>
 <text text-anchor="middle" x="196.5" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">neural_gradient</text>
 </a>
 </g>
 </g>
-<!-- Node29&#45;&gt;Node30 -->
+<!-- Node38&#45;&gt;Node39 -->
 <g id="edge1" class="edge">
-<title>Node29&#45;&gt;Node30</title>
+<title>Node38&#45;&gt;Node39</title>
 <path fill="none" stroke="#191970" d="M119.1917,-200C127.6079,-200 136.2045,-200 144.4618,-200"/>
 <polygon fill="#191970" stroke="#191970" points="144.7006,-203.5001 154.7006,-200 144.7006,-196.5001 144.7006,-203.5001"/>
 </g>
-<!-- Node31 -->
+<!-- Node40 -->
 <g id="node3" class="node">
-<title>Node31</title>
+<title>Node40</title>
 <g id="a_node3"><a xlink:href="neural__activations_8h.html#aeb419ce905e0dc5552b80a2cbee8d7b4" target="_top" xlink:title="cos_gradient">
 <polygon fill="none" stroke="#000000" points="286,-380.5 286,-399.5 358,-399.5 358,-380.5 286,-380.5"/>
 <text text-anchor="middle" x="322" y="-387.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cos_gradient</text>
 </a>
 </g>
 </g>
-<!-- Node30&#45;&gt;Node31 -->
+<!-- Node39&#45;&gt;Node40 -->
 <g id="edge2" class="edge">
-<title>Node30&#45;&gt;Node31</title>
+<title>Node39&#45;&gt;Node40</title>
 <path fill="none" stroke="#191970" d="M198.226,-209.5967C203.8443,-238.1574 224.202,-323.566 274,-371 275.6346,-372.557 277.4121,-373.9915 279.2887,-375.3126"/>
 <polygon fill="#191970" stroke="#191970" points="277.6137,-378.3875 288.0145,-380.4063 281.1428,-372.3421 277.6137,-378.3875"/>
 </g>
-<!-- Node32 -->
+<!-- Node41 -->
 <g id="node4" class="node">
-<title>Node32</title>
+<title>Node41</title>
 <g id="a_node4"><a xlink:href="neural__activations_8h.html#a1e70d48042f40da0117b80f8311091cd" target="_top" xlink:title="gaussian_gradient">
 <polygon fill="none" stroke="#000000" points="274.5,-342.5 274.5,-361.5 369.5,-361.5 369.5,-342.5 274.5,-342.5"/>
 <text text-anchor="middle" x="322" y="-349.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">gaussian_gradient</text>
 </a>
 </g>
 </g>
-<!-- Node30&#45;&gt;Node32 -->
+<!-- Node39&#45;&gt;Node41 -->
 <g id="edge3" class="edge">
-<title>Node30&#45;&gt;Node32</title>
+<title>Node39&#45;&gt;Node41</title>
 <path fill="none" stroke="#191970" d="M199.6765,-209.8344C207.9914,-234.1062 232.6575,-297.4614 274,-333 275.7671,-334.519 277.6703,-335.9255 279.6639,-337.2265"/>
 <polygon fill="#191970" stroke="#191970" points="278.392,-340.5217 288.8402,-342.2785 281.7681,-334.3895 278.392,-340.5217"/>
 </g>
-<!-- Node33 -->
+<!-- Node42 -->
 <g id="node5" class="node">
-<title>Node33</title>
+<title>Node42</title>
 <g id="a_node5"><a xlink:href="neural__activations_8h.html#a6c81fc6e0fd95e773769d8da1aba0ae7" target="_top" xlink:title="leaky_gradient">
 <polygon fill="none" stroke="#000000" points="282,-304.5 282,-323.5 362,-323.5 362,-304.5 282,-304.5"/>
 <text text-anchor="middle" x="322" y="-311.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">leaky_gradient</text>
 </a>
 </g>
 </g>
-<!-- Node30&#45;&gt;Node33 -->
+<!-- Node39&#45;&gt;Node42 -->
 <g id="edge4" class="edge">
-<title>Node30&#45;&gt;Node33</title>
+<title>Node39&#45;&gt;Node42</title>
 <path fill="none" stroke="#191970" d="M202.0715,-209.7268C213.3518,-228.6322 240.6756,-270.6156 274,-295 276.4874,-296.8201 279.1728,-298.4941 281.958,-300.0284"/>
 <polygon fill="#191970" stroke="#191970" points="280.5502,-303.2356 291.074,-304.4609 283.6112,-296.9404 280.5502,-303.2356"/>
 </g>
-<!-- Node34 -->
+<!-- Node43 -->
 <g id="node6" class="node">
-<title>Node34</title>
+<title>Node43</title>
 <g id="a_node6"><a xlink:href="neural__activations_8h.html#ac1addc462b61b54a55c80efcfb03a98b" target="_top" xlink:title="linear_gradient">
 <polygon fill="none" stroke="#000000" points="282,-266.5 282,-285.5 362,-285.5 362,-266.5 282,-266.5"/>
 <text text-anchor="middle" x="322" y="-273.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">linear_gradient</text>
 </a>
 </g>
 </g>
-<!-- Node30&#45;&gt;Node34 -->
+<!-- Node39&#45;&gt;Node43 -->
 <g id="edge5" class="edge">
-<title>Node30&#45;&gt;Node34</title>
+<title>Node39&#45;&gt;Node43</title>
 <path fill="none" stroke="#191970" d="M207.685,-209.6772C222.2145,-221.8958 248.7195,-243.0072 274,-257 277.4735,-258.9226 281.1821,-260.7487 284.9404,-262.4542"/>
 <polygon fill="#191970" stroke="#191970" points="283.7077,-265.7333 294.2796,-266.4312 286.4504,-259.293 283.7077,-265.7333"/>
 </g>
-<!-- Node35 -->
+<!-- Node44 -->
 <g id="node7" class="node">
-<title>Node35</title>
+<title>Node44</title>
 <g id="a_node7"><a xlink:href="neural__activations_8h.html#a62402386587022e3acb22609c539c916" target="_top" xlink:title="loggy_gradient">
 <polygon fill="none" stroke="#000000" points="282,-228.5 282,-247.5 362,-247.5 362,-228.5 282,-228.5"/>
 <text text-anchor="middle" x="322" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">loggy_gradient</text>
 </a>
 </g>
 </g>
-<!-- Node30&#45;&gt;Node35 -->
+<!-- Node39&#45;&gt;Node44 -->
 <g id="edge6" class="edge">
-<title>Node30&#45;&gt;Node35</title>
+<title>Node39&#45;&gt;Node44</title>
 <path fill="none" stroke="#191970" d="M228.1689,-209.589C244.0725,-214.4044 263.5396,-220.2988 280.6114,-225.468"/>
 <polygon fill="#191970" stroke="#191970" points="279.756,-228.8658 290.3412,-228.4141 281.7846,-222.1662 279.756,-228.8658"/>
 </g>
-<!-- Node36 -->
+<!-- Node45 -->
 <g id="node8" class="node">
-<title>Node36</title>
+<title>Node45</title>
 <g id="a_node8"><a xlink:href="neural__activations_8h.html#a76d382cd4a11b7a3494c21322e5ac896" target="_top" xlink:title="logistic_gradient">
 <polygon fill="none" stroke="#000000" points="278.5,-190.5 278.5,-209.5 365.5,-209.5 365.5,-190.5 278.5,-190.5"/>
 <text text-anchor="middle" x="322" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">logistic_gradient</text>
 </a>
 </g>
 </g>
-<!-- Node30&#45;&gt;Node36 -->
+<!-- Node39&#45;&gt;Node45 -->
 <g id="edge7" class="edge">
-<title>Node30&#45;&gt;Node36</title>
+<title>Node39&#45;&gt;Node45</title>
 <path fill="none" stroke="#191970" d="M238.2897,-200C247.8155,-200 258.0695,-200 268.0231,-200"/>
 <polygon fill="#191970" stroke="#191970" points="268.2439,-203.5001 278.2438,-200 268.2438,-196.5001 268.2439,-203.5001"/>
 </g>
-<!-- Node37 -->
+<!-- Node46 -->
 <g id="node9" class="node">
-<title>Node37</title>
+<title>Node46</title>
 <g id="a_node9"><a xlink:href="neural__activations_8h.html#a6e49e33b48cd376b129aeeafb65c8807" target="_top" xlink:title="relu_gradient">
 <polygon fill="none" stroke="#000000" points="286,-152.5 286,-171.5 358,-171.5 358,-152.5 286,-152.5"/>
 <text text-anchor="middle" x="322" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">relu_gradient</text>
 </a>
 </g>
 </g>
-<!-- Node30&#45;&gt;Node37 -->
+<!-- Node39&#45;&gt;Node46 -->
 <g id="edge8" class="edge">
-<title>Node30&#45;&gt;Node37</title>
+<title>Node39&#45;&gt;Node46</title>
 <path fill="none" stroke="#191970" d="M228.1689,-190.411C244.0725,-185.5956 263.5396,-179.7012 280.6114,-174.532"/>
 <polygon fill="#191970" stroke="#191970" points="281.7846,-177.8338 290.3412,-171.5859 279.756,-171.1342 281.7846,-177.8338"/>
 </g>
-<!-- Node38 -->
+<!-- Node47 -->
 <g id="node10" class="node">
-<title>Node38</title>
+<title>Node47</title>
 <g id="a_node10"><a xlink:href="neural__activations_8h.html#a29868e973d463d10ef85a817f8e91add" target="_top" xlink:title="selu_gradient">
 <polygon fill="none" stroke="#000000" points="285,-114.5 285,-133.5 359,-133.5 359,-114.5 285,-114.5"/>
 <text text-anchor="middle" x="322" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">selu_gradient</text>
 </a>
 </g>
 </g>
-<!-- Node30&#45;&gt;Node38 -->
+<!-- Node39&#45;&gt;Node47 -->
 <g id="edge9" class="edge">
-<title>Node30&#45;&gt;Node38</title>
+<title>Node39&#45;&gt;Node47</title>
 <path fill="none" stroke="#191970" d="M207.685,-190.3228C222.2145,-178.1042 248.7195,-156.9928 274,-143 277.4735,-141.0774 281.1821,-139.2513 284.9404,-137.5458"/>
 <polygon fill="#191970" stroke="#191970" points="286.4504,-140.707 294.2796,-133.5688 283.7077,-134.2667 286.4504,-140.707"/>
 </g>
-<!-- Node39 -->
+<!-- Node48 -->
 <g id="node11" class="node">
-<title>Node39</title>
+<title>Node48</title>
 <g id="a_node11"><a xlink:href="neural__activations_8h.html#ae81fb7fd858fb67cf5bb3514dbf399ce" target="_top" xlink:title="sin_gradient">
 <polygon fill="none" stroke="#000000" points="287.5,-76.5 287.5,-95.5 356.5,-95.5 356.5,-76.5 287.5,-76.5"/>
 <text text-anchor="middle" x="322" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sin_gradient</text>
 </a>
 </g>
 </g>
-<!-- Node30&#45;&gt;Node39 -->
+<!-- Node39&#45;&gt;Node48 -->
 <g id="edge10" class="edge">
-<title>Node30&#45;&gt;Node39</title>
+<title>Node39&#45;&gt;Node48</title>
 <path fill="none" stroke="#191970" d="M202.0715,-190.2732C213.3518,-171.3678 240.6756,-129.3844 274,-105 276.4874,-103.1799 279.1728,-101.5059 281.958,-99.9716"/>
 <polygon fill="#191970" stroke="#191970" points="283.6112,-103.0596 291.074,-95.5391 280.5502,-96.7644 283.6112,-103.0596"/>
 </g>
-<!-- Node40 -->
+<!-- Node49 -->
 <g id="node12" class="node">
-<title>Node40</title>
+<title>Node49</title>
 <g id="a_node12"><a xlink:href="neural__activations_8h.html#ad35d1ffc99173b6570b4b6076e97c1d0" target="_top" xlink:title="soft_plus_gradient">
 <polygon fill="none" stroke="#000000" points="274,-38.5 274,-57.5 370,-57.5 370,-38.5 274,-38.5"/>
 <text text-anchor="middle" x="322" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">soft_plus_gradient</text>
 </a>
 </g>
 </g>
-<!-- Node30&#45;&gt;Node40 -->
+<!-- Node39&#45;&gt;Node49 -->
 <g id="edge11" class="edge">
-<title>Node30&#45;&gt;Node40</title>
+<title>Node39&#45;&gt;Node49</title>
 <path fill="none" stroke="#191970" d="M199.6765,-190.1656C207.9914,-165.8938 232.6575,-102.5386 274,-67 275.7671,-65.481 277.6703,-64.0745 279.6639,-62.7735"/>
 <polygon fill="#191970" stroke="#191970" points="281.7681,-65.6105 288.8402,-57.7215 278.392,-59.4783 281.7681,-65.6105"/>
 </g>
-<!-- Node41 -->
+<!-- Node50 -->
 <g id="node13" class="node">
-<title>Node41</title>
+<title>Node50</title>
 <g id="a_node13"><a xlink:href="neural__activations_8h.html#a9ff181117fd714ae3d53c60f48eef8b0" target="_top" xlink:title="tanh_gradient">
 <polygon fill="none" stroke="#000000" points="284.5,-.5 284.5,-19.5 359.5,-19.5 359.5,-.5 284.5,-.5"/>
 <text text-anchor="middle" x="322" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tanh_gradient</text>
 </a>
 </g>
 </g>
-<!-- Node30&#45;&gt;Node41 -->
+<!-- Node39&#45;&gt;Node50 -->
 <g id="edge12" class="edge">
-<title>Node30&#45;&gt;Node41</title>
+<title>Node39&#45;&gt;Node50</title>
 <path fill="none" stroke="#191970" d="M198.226,-190.4033C203.8443,-161.8426 224.202,-76.434 274,-29 275.6346,-27.443 277.4121,-26.0085 279.2887,-24.6874"/>
 <polygon fill="#191970" stroke="#191970" points="281.1428,-27.6579 288.0145,-19.5937 277.6137,-21.6125 281.1428,-27.6579"/>
 </g>

@@ -12,6 +12,6 @@ var neural__layer__connected_8h =
     [ "neural_layer_connected_rand", "neural__layer__connected_8h.html#a0500b455649a0093dbf8cf3ec7368ac4", null ],
     [ "neural_layer_connected_resize", "neural__layer__connected_8h.html#a01dc278b0a816d7eb11614a19cab9eaa", null ],
     [ "neural_layer_connected_save", "neural__layer__connected_8h.html#a73e96c3417f05c4c6a0b6d8839b84a3d", null ],
-    [ "neural_layer_connected_update", "neural__layer__connected_8h.html#ad6b189bebcd73317594742eb5fc42f80", null ],
+    [ "neural_layer_connected_update", "neural__layer__connected_8h.html#abe463e61d0410cd3cdaa53bed790965d", null ],
     [ "layer_connected_vtbl", "neural__layer__connected_8h.html#a0c2eda24d755ec965930f84a35c25ce6", null ]
 ];

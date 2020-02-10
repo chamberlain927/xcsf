@@ -96,37 +96,26 @@ $(document).ready(function(){initNavTree('structPredVtbl.html','');});
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
 <tr class="memitem:a1c8ac9829bd9ca179e38f6d28edd83a1"><td class="memItemLeft" align="right" valign="top">_Bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPredVtbl.html#a1c8ac9829bd9ca179e38f6d28edd83a1">pred_impl_crossover</a> )(const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structCL.html">CL</a> *c1, const <a class="el" href="structCL.html">CL</a> *c2)</td></tr>
-<tr class="memdesc:a1c8ac9829bd9ca179e38f6d28edd83a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs classifier prediction crossover.  <a href="#a1c8ac9829bd9ca179e38f6d28edd83a1">More...</a><br /></td></tr>
 <tr class="separator:a1c8ac9829bd9ca179e38f6d28edd83a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae22eb023abd902d1648b6d0d125235c6"><td class="memItemLeft" align="right" valign="top">_Bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPredVtbl.html#ae22eb023abd902d1648b6d0d125235c6">pred_impl_mutate</a> )(const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structCL.html">CL</a> *c)</td></tr>
-<tr class="memdesc:ae22eb023abd902d1648b6d0d125235c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs classifier prediction mutation.  <a href="#ae22eb023abd902d1648b6d0d125235c6">More...</a><br /></td></tr>
 <tr class="separator:ae22eb023abd902d1648b6d0d125235c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad14ca8c15fed356c842cb7a9ca533dca"><td class="memItemLeft" align="right" valign="top">const double *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPredVtbl.html#ad14ca8c15fed356c842cb7a9ca533dca">pred_impl_compute</a> )(const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structCL.html">CL</a> *c, const double *x)</td></tr>
-<tr class="memdesc:ad14ca8c15fed356c842cb7a9ca533dca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the current classifier prediction using the input.  <a href="#ad14ca8c15fed356c842cb7a9ca533dca">More...</a><br /></td></tr>
-<tr class="separator:ad14ca8c15fed356c842cb7a9ca533dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a412dc03fd4e3a4de13a709d898df4035"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPredVtbl.html#a412dc03fd4e3a4de13a709d898df4035">pred_impl_compute</a> )(const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structCL.html">CL</a> *c, const double *x)</td></tr>
+<tr class="separator:a412dc03fd4e3a4de13a709d898df4035"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a055d46ca8c3ababe5615467519b2c678"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPredVtbl.html#a055d46ca8c3ababe5615467519b2c678">pred_impl_copy</a> )(const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *to, const <a class="el" href="structCL.html">CL</a> *from)</td></tr>
-<tr class="memdesc:a055d46ca8c3ababe5615467519b2c678"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the prediction from one classifier to another.  <a href="#a055d46ca8c3ababe5615467519b2c678">More...</a><br /></td></tr>
 <tr class="separator:a055d46ca8c3ababe5615467519b2c678"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade2b422f32c6805c043fceacd672bce9"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPredVtbl.html#ade2b422f32c6805c043fceacd672bce9">pred_impl_free</a> )(const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structCL.html">CL</a> *c)</td></tr>
-<tr class="memdesc:ade2b422f32c6805c043fceacd672bce9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees the memory used by the classifier prediction.  <a href="#ade2b422f32c6805c043fceacd672bce9">More...</a><br /></td></tr>
 <tr class="separator:ade2b422f32c6805c043fceacd672bce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1138a9d52f6934d300191278217f1d28"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPredVtbl.html#a1138a9d52f6934d300191278217f1d28">pred_impl_init</a> )(const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c)</td></tr>
-<tr class="memdesc:a1138a9d52f6934d300191278217f1d28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises a classifier's prediction.  <a href="#a1138a9d52f6934d300191278217f1d28">More...</a><br /></td></tr>
 <tr class="separator:a1138a9d52f6934d300191278217f1d28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78ca64f645047cb72efad03c408e6fc5"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPredVtbl.html#a78ca64f645047cb72efad03c408e6fc5">pred_impl_print</a> )(const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structCL.html">CL</a> *c)</td></tr>
-<tr class="memdesc:a78ca64f645047cb72efad03c408e6fc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the classifier prediction.  <a href="#a78ca64f645047cb72efad03c408e6fc5">More...</a><br /></td></tr>
 <tr class="separator:a78ca64f645047cb72efad03c408e6fc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fa97340b5d05e6498ab4b28f8a2d9bd"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPredVtbl.html#a2fa97340b5d05e6498ab4b28f8a2d9bd">pred_impl_update</a> )(const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structCL.html">CL</a> *c, const double *x, const double *y)</td></tr>
-<tr class="memdesc:a2fa97340b5d05e6498ab4b28f8a2d9bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the classifier's prediction.  <a href="#a2fa97340b5d05e6498ab4b28f8a2d9bd">More...</a><br /></td></tr>
 <tr class="separator:a2fa97340b5d05e6498ab4b28f8a2d9bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab67133579960c8003f22f616bd4dd2e7"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPredVtbl.html#ab67133579960c8003f22f616bd4dd2e7">pred_impl_size</a> )(const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structCL.html">CL</a> *c)</td></tr>
-<tr class="memdesc:ab67133579960c8003f22f616bd4dd2e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size of the classifier prediction.  <a href="#ab67133579960c8003f22f616bd4dd2e7">More...</a><br /></td></tr>
 <tr class="separator:ab67133579960c8003f22f616bd4dd2e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f3712d9bade2e76dad8a0f4bd9462b7"><td class="memItemLeft" align="right" valign="top">size_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPredVtbl.html#a4f3712d9bade2e76dad8a0f4bd9462b7">pred_impl_save</a> )(const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structCL.html">CL</a> *c, FILE *fp)</td></tr>
-<tr class="memdesc:a4f3712d9bade2e76dad8a0f4bd9462b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the prediction to a binary file.  <a href="#a4f3712d9bade2e76dad8a0f4bd9462b7">More...</a><br /></td></tr>
 <tr class="separator:a4f3712d9bade2e76dad8a0f4bd9462b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa365aa7152ff1b89cbf9ecf34872d521"><td class="memItemLeft" align="right" valign="top">size_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPredVtbl.html#aa365aa7152ff1b89cbf9ecf34872d521">pred_impl_load</a> )(const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c, FILE *fp)</td></tr>
-<tr class="memdesc:aa365aa7152ff1b89cbf9ecf34872d521"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the prediction from a binary file.  <a href="#aa365aa7152ff1b89cbf9ecf34872d521">More...</a><br /></td></tr>
 <tr class="separator:aa365aa7152ff1b89cbf9ecf34872d521"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -135,32 +124,21 @@ Data Fields</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="prediction_8h_source.html#l00032">32</a> of file <a class="el" href="prediction_8h_source.html">prediction.h</a>.</p>
 </div><h2 class="groupheader">Field Documentation</h2>
-<a id="ad14ca8c15fed356c842cb7a9ca533dca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad14ca8c15fed356c842cb7a9ca533dca">&#9670;&nbsp;</a></span>pred_impl_compute</h2>
+<a id="a412dc03fd4e3a4de13a709d898df4035"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a412dc03fd4e3a4de13a709d898df4035">&#9670;&nbsp;</a></span>pred_impl_compute</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const double*(* PredVtbl::pred_impl_compute) (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structCL.html">CL</a> *c, const double *x)</td>
+          <td class="memname">void(* PredVtbl::pred_impl_compute) (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structCL.html">CL</a> *c, const double *x)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Computes the current classifier prediction using the input. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
-    <tr><td class="paramname">c</td><td>The classifier calculating the prediction. </td></tr>
-    <tr><td class="paramname">x</td><td>The input state. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The classifier's prediction. </dd></dl>
+<p class="definition">Definition at line <a class="el" href="prediction_8h_source.html#l00035">35</a> of file <a class="el" href="prediction_8h_source.html">prediction.h</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="prediction_8h_source.html#l00055">55</a> of file <a class="el" href="prediction_8h_source.html">prediction.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="prediction_8h_source.html#l00135">pred_compute()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="prediction_8h_source.html#l00105">pred_compute()</a>.</p>
 
 </div>
 </div>
@@ -176,19 +154,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Copies the prediction from one classifier to another. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
-    <tr><td class="paramname">to</td><td>The destination classifier. </td></tr>
-    <tr><td class="paramname">from</td><td>The source classifier. </td></tr>
-  </table>
-  </dd>
-</dl>
+<p class="definition">Definition at line <a class="el" href="prediction_8h_source.html#l00036">36</a> of file <a class="el" href="prediction_8h_source.html">prediction.h</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="prediction_8h_source.html#l00062">62</a> of file <a class="el" href="prediction_8h_source.html">prediction.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="prediction_8h_source.html#l00139">pred_copy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="prediction_8h_source.html#l00115">pred_copy()</a>.</p>
 
 </div>
 </div>
@@ -204,20 +172,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Performs classifier prediction crossover. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
-    <tr><td class="paramname">c1</td><td>The first classifier whose prediction is being crossed. </td></tr>
-    <tr><td class="paramname">c2</td><td>The second classifier whose prediction is being crossed. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Whether any alterations were made. </dd></dl>
+<p class="definition">Definition at line <a class="el" href="prediction_8h_source.html#l00033">33</a> of file <a class="el" href="prediction_8h_source.html">prediction.h</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="prediction_8h_source.html#l00040">40</a> of file <a class="el" href="prediction_8h_source.html">prediction.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="prediction_8h_source.html#l00127">pred_crossover()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="prediction_8h_source.html#l00085">pred_crossover()</a>.</p>
 
 </div>
 </div>
@@ -233,18 +190,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Frees the memory used by the classifier prediction. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
-    <tr><td class="paramname">c</td><td>The classifier whose prediction is to be freed. </td></tr>
-  </table>
-  </dd>
-</dl>
+<p class="definition">Definition at line <a class="el" href="prediction_8h_source.html#l00037">37</a> of file <a class="el" href="prediction_8h_source.html">prediction.h</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="prediction_8h_source.html#l00068">68</a> of file <a class="el" href="prediction_8h_source.html">prediction.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="prediction_8h_source.html#l00143">pred_free()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="prediction_8h_source.html#l00124">pred_free()</a>.</p>
 
 </div>
 </div>
@@ -260,18 +208,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Initialises a classifier's prediction. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
-    <tr><td class="paramname">c</td><td>The classifier whose prediction is to be initialised. </td></tr>
-  </table>
-  </dd>
-</dl>
+<p class="definition">Definition at line <a class="el" href="prediction_8h_source.html#l00038">38</a> of file <a class="el" href="prediction_8h_source.html">prediction.h</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="prediction_8h_source.html#l00074">74</a> of file <a class="el" href="prediction_8h_source.html">prediction.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="prediction_8h_source.html#l00147">pred_init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="prediction_8h_source.html#l00133">pred_init()</a>.</p>
 
 </div>
 </div>
@@ -287,20 +226,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Reads the prediction from a binary file. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
-    <tr><td class="paramname">c</td><td>The classifier whose prediction is to be read. </td></tr>
-    <tr><td class="paramname">fp</td><td>Pointer to the file to be read. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The number of elements read. </dd></dl>
+<p class="definition">Definition at line <a class="el" href="prediction_8h_source.html#l00043">43</a> of file <a class="el" href="prediction_8h_source.html">prediction.h</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="prediction_8h_source.html#l00112">112</a> of file <a class="el" href="prediction_8h_source.html">prediction.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="prediction_8h_source.html#l00119">pred_load()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="prediction_8h_source.html#l00064">pred_load()</a>.</p>
 
 </div>
 </div>
@@ -316,19 +244,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Performs classifier prediction mutation. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
-    <tr><td class="paramname">c</td><td>The classifier whose prediction is being mutated. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Whether any alterations were made. </dd></dl>
+<p class="definition">Definition at line <a class="el" href="prediction_8h_source.html#l00034">34</a> of file <a class="el" href="prediction_8h_source.html">prediction.h</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="prediction_8h_source.html#l00047">47</a> of file <a class="el" href="prediction_8h_source.html">prediction.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="prediction_8h_source.html#l00131">pred_mutate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="prediction_8h_source.html#l00095">pred_mutate()</a>.</p>
 
 </div>
 </div>
@@ -344,18 +262,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Prints the classifier prediction. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
-    <tr><td class="paramname">c</td><td>The classifier whose prediction is to be printed. </td></tr>
-  </table>
-  </dd>
-</dl>
+<p class="definition">Definition at line <a class="el" href="prediction_8h_source.html#l00039">39</a> of file <a class="el" href="prediction_8h_source.html">prediction.h</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="prediction_8h_source.html#l00080">80</a> of file <a class="el" href="prediction_8h_source.html">prediction.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="prediction_8h_source.html#l00151">pred_print()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="prediction_8h_source.html#l00142">pred_print()</a>.</p>
 
 </div>
 </div>
@@ -371,20 +280,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Writes the prediction to a binary file. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
-    <tr><td class="paramname">c</td><td>The classifier whose prediction is to be written. </td></tr>
-    <tr><td class="paramname">fp</td><td>Pointer to the file to be written. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The number of elements written. </dd></dl>
+<p class="definition">Definition at line <a class="el" href="prediction_8h_source.html#l00042">42</a> of file <a class="el" href="prediction_8h_source.html">prediction.h</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="prediction_8h_source.html#l00104">104</a> of file <a class="el" href="prediction_8h_source.html">prediction.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="prediction_8h_source.html#l00115">pred_save()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="prediction_8h_source.html#l00053">pred_save()</a>.</p>
 
 </div>
 </div>
@@ -400,19 +298,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns the size of the classifier prediction. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
-    <tr><td class="paramname">c</td><td>The classifier whose prediction size to return. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The size of the prediction. </dd></dl>
+<p class="definition">Definition at line <a class="el" href="prediction_8h_source.html#l00041">41</a> of file <a class="el" href="prediction_8h_source.html">prediction.h</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="prediction_8h_source.html#l00096">96</a> of file <a class="el" href="prediction_8h_source.html">prediction.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="prediction_8h_source.html#l00123">pred_size()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="prediction_8h_source.html#l00074">pred_size()</a>.</p>
 
 </div>
 </div>
@@ -428,20 +316,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Updates the classifier's prediction. </p>
-<p>Assumes the prediction has been computed for the current state. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
-    <tr><td class="paramname">c</td><td>The classifier whose prediction is to be updated. </td></tr>
-    <tr><td class="paramname">x</td><td>The input state. </td></tr>
-    <tr><td class="paramname">y</td><td>The payoff value. </td></tr>
-  </table>
-  </dd>
-</dl>
+<p class="definition">Definition at line <a class="el" href="prediction_8h_source.html#l00040">40</a> of file <a class="el" href="prediction_8h_source.html">prediction.h</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="prediction_8h_source.html#l00089">89</a> of file <a class="el" href="prediction_8h_source.html">prediction.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="prediction_8h_source.html#l00155">pred_update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="prediction_8h_source.html#l00154">pred_update()</a>.</p>
 
 </div>
 </div>
