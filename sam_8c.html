@@ -94,8 +94,6 @@ $(document).ready(function(){initNavTree('sam_8c.html','');});
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
 <code>#include &lt;stdlib.h&gt;</code><br />
-<code>#include &lt;string.h&gt;</code><br />
-<code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;math.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="xcsf_8h_source.html">xcsf.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="utils_8h_source.html">utils.h</a>&quot;</code><br />
@@ -103,7 +101,8 @@ $(document).ready(function(){initNavTree('sam_8c.html','');});
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for sam.c:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c__incl.svg" width="686" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c__incl.svg" width="496" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="sam_8c_source.html">Go to the source code of this file.</a></p>
@@ -162,9 +161,9 @@ Variables</h2></td></tr>
 
 <p>number of selectable mutation rates for rate selection adaptation </p>
 
-<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00033">33</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00031">31</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="sam_8c_source.html#l00117">sam_rate_selection_adapt()</a>, and <a class="el" href="sam_8c_source.html#l00104">sam_rate_selection_init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="sam_8c_source.html#l00115">sam_rate_selection_adapt()</a>, and <a class="el" href="sam_8c_source.html#l00102">sam_rate_selection_init()</a>.</p>
 
 </div>
 </div>
@@ -211,20 +210,22 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00063">63</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00061">61</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
 
-<p class="reference">References <a class="el" href="sam_8h_source.html#l00026">SAM_LOG_NORMAL</a>, <a class="el" href="sam_8c_source.html#l00091">sam_log_normal_adapt()</a>, <a class="el" href="sam_8h_source.html#l00027">SAM_RATE_SELECT</a>, <a class="el" href="sam_8c_source.html#l00117">sam_rate_selection_adapt()</a>, and <a class="el" href="xcsf_8h_source.html#l00130">XCSF::SAM_TYPE</a>.</p>
+<p class="reference">References <a class="el" href="sam_8h_source.html#l00026">SAM_LOG_NORMAL</a>, <a class="el" href="sam_8c_source.html#l00089">sam_log_normal_adapt()</a>, <a class="el" href="sam_8h_source.html#l00027">SAM_RATE_SELECT</a>, <a class="el" href="sam_8c_source.html#l00115">sam_rate_selection_adapt()</a>, and <a class="el" href="xcsf_8h_source.html#l00129">XCSF::SAM_TYPE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="act__integer_8c_source.html#l00061">act_integer_mutate()</a>, <a class="el" href="cond__ellipsoid_8c_source.html#l00146">cond_ellipsoid_mutate()</a>, <a class="el" href="cond__rectangle_8c_source.html#l00148">cond_rectangle_mutate()</a>, <a class="el" href="cond__ternary_8c_source.html#l00157">cond_ternary_mutate()</a>, <a class="el" href="dgp_8c_source.html#l00202">graph_mutate()</a>, <a class="el" href="neural_8c_source.html#l00201">neural_mutate()</a>, <a class="el" href="pred__nlms_8c_source.html#l00176">pred_nlms_mutate()</a>, and <a class="el" href="gp_8c_source.html#l00281">tree_mutate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="act__integer_8c_source.html#l00061">act_integer_mutate()</a>, <a class="el" href="cond__ellipsoid_8c_source.html#l00146">cond_ellipsoid_mutate()</a>, <a class="el" href="cond__rectangle_8c_source.html#l00148">cond_rectangle_mutate()</a>, <a class="el" href="cond__ternary_8c_source.html#l00156">cond_ternary_mutate()</a>, <a class="el" href="dgp_8c_source.html#l00200">graph_mutate()</a>, <a class="el" href="neural__layer__connected_8c_source.html#l00219">neural_layer_connected_mutate()</a>, <a class="el" href="pred__nlms_8c_source.html#l00175">pred_nlms_mutate()</a>, and <a class="el" href="gp_8c_source.html#l00275">tree_mutate()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_ab7b9b862cf798bc25fc0654a4ff1e54e_cgraph.svg" width="1183" height="164"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_ab7b9b862cf798bc25fc0654a4ff1e54e_cgraph.svg" width="1183" height="164"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_ab7b9b862cf798bc25fc0654a4ff1e54e_icgraph.svg" width="518" height="430"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_ab7b9b862cf798bc25fc0654a4ff1e54e_icgraph.svg" width="506" height="408"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -271,20 +272,22 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00046">46</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00044">44</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
 
-<p class="reference">References <a class="el" href="sam_8h_source.html#l00026">SAM_LOG_NORMAL</a>, <a class="el" href="sam_8c_source.html#l00079">sam_log_normal_init()</a>, <a class="el" href="sam_8h_source.html#l00027">SAM_RATE_SELECT</a>, <a class="el" href="sam_8c_source.html#l00104">sam_rate_selection_init()</a>, and <a class="el" href="xcsf_8h_source.html#l00130">XCSF::SAM_TYPE</a>.</p>
+<p class="reference">References <a class="el" href="sam_8h_source.html#l00026">SAM_LOG_NORMAL</a>, <a class="el" href="sam_8c_source.html#l00077">sam_log_normal_init()</a>, <a class="el" href="sam_8h_source.html#l00027">SAM_RATE_SELECT</a>, <a class="el" href="sam_8c_source.html#l00102">sam_rate_selection_init()</a>, and <a class="el" href="xcsf_8h_source.html#l00129">XCSF::SAM_TYPE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="act__integer_8c_source.html#l00118">act_integer_init()</a>, <a class="el" href="cond__ellipsoid_8c_source.html#l00049">cond_ellipsoid_init()</a>, <a class="el" href="cond__rectangle_8c_source.html#l00049">cond_rectangle_init()</a>, <a class="el" href="cond__ternary_8c_source.html#l00052">cond_ternary_init()</a>, <a class="el" href="dgp_8c_source.html#l00046">graph_init()</a>, <a class="el" href="neural_8c_source.html#l00046">neural_init()</a>, <a class="el" href="pred__nlms_8c_source.html#l00050">pred_nlms_init()</a>, and <a class="el" href="gp_8c_source.html#l00075">tree_rand()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="act__integer_8c_source.html#l00118">act_integer_init()</a>, <a class="el" href="cond__ellipsoid_8c_source.html#l00049">cond_ellipsoid_init()</a>, <a class="el" href="cond__rectangle_8c_source.html#l00049">cond_rectangle_init()</a>, <a class="el" href="cond__ternary_8c_source.html#l00051">cond_ternary_init()</a>, <a class="el" href="dgp_8c_source.html#l00044">graph_init()</a>, <a class="el" href="neural__layer__connected_8c_source.html#l00049">neural_layer_connected_init()</a>, <a class="el" href="pred__nlms_8c_source.html#l00049">pred_nlms_init()</a>, and <a class="el" href="gp_8c_source.html#l00073">tree_rand()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_a3164f33509a5dc751b57a544fe2153a7_cgraph.svg" width="1211" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_a3164f33509a5dc751b57a544fe2153a7_cgraph.svg" width="1211" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_a3164f33509a5dc751b57a544fe2153a7_icgraph.svg" width="659" height="696"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_a3164f33509a5dc751b57a544fe2153a7_icgraph.svg" width="663" height="646"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -332,20 +335,22 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00091">91</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00089">89</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
 
 <p class="reference">References <a class="el" href="utils_8c_source.html#l00114">constrain()</a>, and <a class="el" href="utils_8c_source.html#l00086">rand_normal()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="sam_8c_source.html#l00063">sam_adapt()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="sam_8c_source.html#l00061">sam_adapt()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_aeed5628172f1fe2bd45b9257ca5f69b4_cgraph.svg" width="896" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_aeed5628172f1fe2bd45b9257ca5f69b4_cgraph.svg" width="896" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_aeed5628172f1fe2bd45b9257ca5f69b4_icgraph.svg" width="722" height="443"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_aeed5628172f1fe2bd45b9257ca5f69b4_icgraph.svg" width="710" height="408"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -393,20 +398,22 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00079">79</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00077">77</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
 
 <p class="reference">References <a class="el" href="utils_8c_source.html#l00073">rand_uniform()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="sam_8c_source.html#l00046">sam_init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="sam_8c_source.html#l00044">sam_init()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_a3376574f2624a397ac253242b1958491_cgraph.svg" width="886" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_a3376574f2624a397ac253242b1958491_cgraph.svg" width="886" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_a3376574f2624a397ac253242b1958491_icgraph.svg" width="848" height="696"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_a3376574f2624a397ac253242b1958491_icgraph.svg" width="852" height="646"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -455,20 +462,22 @@ Here is the caller graph for this function:</div>
 </dl>
 <p>With 10% probability, randomly selects one of the possible rates. </p>
 
-<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00117">117</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00115">115</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
 
-<p class="reference">References <a class="el" href="utils_8c_source.html#l00064">irand_uniform()</a>, <a class="el" href="sam_8c_source.html#l00034">mrates</a>, <a class="el" href="sam_8c_source.html#l00033">N_RATES</a>, and <a class="el" href="utils_8c_source.html#l00073">rand_uniform()</a>.</p>
+<p class="reference">References <a class="el" href="utils_8c_source.html#l00064">irand_uniform()</a>, <a class="el" href="sam_8c_source.html#l00032">mrates</a>, <a class="el" href="sam_8c_source.html#l00031">N_RATES</a>, and <a class="el" href="utils_8c_source.html#l00073">rand_uniform()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="sam_8c_source.html#l00063">sam_adapt()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="sam_8c_source.html#l00061">sam_adapt()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_ac0808d47ef98fae3eb607d2eca8fee0d_cgraph.svg" width="1027" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_ac0808d47ef98fae3eb607d2eca8fee0d_cgraph.svg" width="1027" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_ac0808d47ef98fae3eb607d2eca8fee0d_icgraph.svg" width="700" height="443"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_ac0808d47ef98fae3eb607d2eca8fee0d_icgraph.svg" width="688" height="408"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -516,20 +525,22 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00104">104</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00102">102</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
 
-<p class="reference">References <a class="el" href="utils_8c_source.html#l00064">irand_uniform()</a>, <a class="el" href="sam_8c_source.html#l00034">mrates</a>, and <a class="el" href="sam_8c_source.html#l00033">N_RATES</a>.</p>
+<p class="reference">References <a class="el" href="utils_8c_source.html#l00064">irand_uniform()</a>, <a class="el" href="sam_8c_source.html#l00032">mrates</a>, and <a class="el" href="sam_8c_source.html#l00031">N_RATES</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="sam_8c_source.html#l00046">sam_init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="sam_8c_source.html#l00044">sam_init()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_a5c510f09cd5f6069b67e1b9a59df7acc_cgraph.svg" width="1051" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_a5c510f09cd5f6069b67e1b9a59df7acc_cgraph.svg" width="1051" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_a5c510f09cd5f6069b67e1b9a59df7acc_icgraph.svg" width="866" height="696"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="sam_8c_a5c510f09cd5f6069b67e1b9a59df7acc_icgraph.svg" width="870" height="646"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -555,9 +566,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00034">34</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sam_8c_source.html#l00032">32</a> of file <a class="el" href="sam_8c_source.html">sam.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="sam_8c_source.html#l00117">sam_rate_selection_adapt()</a>, and <a class="el" href="sam_8c_source.html#l00104">sam_rate_selection_init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="sam_8c_source.html#l00115">sam_rate_selection_adapt()</a>, and <a class="el" href="sam_8c_source.html#l00102">sam_rate_selection_init()</a>.</p>
 
 </div>
 </div>

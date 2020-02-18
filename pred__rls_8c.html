@@ -96,16 +96,17 @@ $(document).ready(function(){initNavTree('pred__rls_8c.html','');});
 <code>#include &lt;stdlib.h&gt;</code><br />
 <code>#include &lt;string.h&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
-<code>#include &lt;math.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="xcsf_8h_source.html">xcsf.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="utils_8h_source.html">utils.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="blas_8h_source.html">blas.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="cl_8h_source.html">cl.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="prediction_8h_source.html">prediction.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="pred__rls_8h_source.html">pred_rls.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for pred_rls.c:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="pred__rls_8c__incl.svg" width="887" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="pred__rls_8c__incl.svg" width="880" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="pred__rls_8c_source.html">Go to the source code of this file.</a></p>
@@ -124,10 +125,6 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a704e208474d55cc3af2859f786cea6a8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__rls_8c.html#a704e208474d55cc3af2859f786cea6a8">matrix_matrix_multiply</a> (const double *srca, const double *srcb, double *dest, int n)</td></tr>
-<tr class="separator:a704e208474d55cc3af2859f786cea6a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09e287b671c2afcc06cc6045745557cf"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__rls_8c.html#a09e287b671c2afcc06cc6045745557cf">matrix_vector_multiply</a> (const double *srcm, const double *srcv, double *dest, int n)</td></tr>
-<tr class="separator:a09e287b671c2afcc06cc6045745557cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93c37219fc0ec594a2dceb6b6d6b4f06"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__rls_8c.html#a93c37219fc0ec594a2dceb6b6d6b4f06">init_matrix</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, double *matrix, int n)</td></tr>
 <tr class="separator:a93c37219fc0ec594a2dceb6b6d6b4f06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd35c579776a63f6361245817ef7af7a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__rls_8c.html#abd35c579776a63f6361245817ef7af7a">pred_rls_init</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c)</td></tr>
@@ -218,129 +215,16 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pred__rls_8c_source.html#l00087">87</a> of file <a class="el" href="pred__rls_8c_source.html">pred_rls.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pred__rls_8c_source.html#l00085">85</a> of file <a class="el" href="pred__rls_8c_source.html">pred_rls.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00166">XCSF::PRED_RLS_SCALE_FACTOR</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00165">XCSF::PRED_RLS_SCALE_FACTOR</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="pred__rls_8c_source.html#l00052">pred_rls_init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="pred__rls_8c_source.html#l00050">pred_rls_init()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="pred__rls_8c_a93c37219fc0ec594a2dceb6b6d6b4f06_icgraph.svg" width="384" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="pred__rls_8c_a93c37219fc0ec594a2dceb6b6d6b4f06_icgraph.svg" width="384" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
-
-</div>
-</div>
-<a id="a704e208474d55cc3af2859f786cea6a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a704e208474d55cc3af2859f786cea6a8">&#9670;&nbsp;</a></span>matrix_matrix_multiply()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void matrix_matrix_multiply </td>
-          <td>(</td>
-          <td class="paramtype">const double *&#160;</td>
-          <td class="paramname"><em>srca</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const double *&#160;</td>
-          <td class="paramname"><em>srcb</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double *&#160;</td>
-          <td class="paramname"><em>dest</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>n</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="pred__rls_8c_source.html#l00219">219</a> of file <a class="el" href="pred__rls_8c_source.html">pred_rls.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="pred__rls_8c_source.html#l00127">pred_rls_update()</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="pred__rls_8c_a704e208474d55cc3af2859f786cea6a8_icgraph.svg" width="327" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a09e287b671c2afcc06cc6045745557cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09e287b671c2afcc06cc6045745557cf">&#9670;&nbsp;</a></span>matrix_vector_multiply()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void matrix_vector_multiply </td>
-          <td>(</td>
-          <td class="paramtype">const double *&#160;</td>
-          <td class="paramname"><em>srcm</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const double *&#160;</td>
-          <td class="paramname"><em>srcv</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double *&#160;</td>
-          <td class="paramname"><em>dest</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>n</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="pred__rls_8c_source.html#l00231">231</a> of file <a class="el" href="pred__rls_8c_source.html">pred_rls.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="pred__rls_8c_source.html#l00127">pred_rls_update()</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="pred__rls_8c_a09e287b671c2afcc06cc6045745557cf_icgraph.svg" width="327" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -377,9 +261,9 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pred__rls_8c_source.html#l00184">184</a> of file <a class="el" href="pred__rls_8c_source.html">pred_rls.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pred__rls_8c_source.html#l00179">179</a> of file <a class="el" href="pred__rls_8c_source.html">pred_rls.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="xcsf_8h_source.html#l00127">XCSF::PRED_TYPE</a>, <a class="el" href="xcsf_8h_source.html#l00042">PRED_TYPE_RLS_QUADRATIC</a>, <a class="el" href="xcsf_8h_source.html#l00165">XCSF::PRED_X0</a>, <a class="el" href="xcsf_8h_source.html#l00065">CL::prediction</a>, <a class="el" href="pred__rls_8c_source.html#l00044">PRED_RLS::weights</a>, <a class="el" href="xcsf_8h_source.html#l00195">XCSF::x_dim</a>, and <a class="el" href="xcsf_8h_source.html#l00196">XCSF::y_dim</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="xcsf_8h_source.html#l00126">XCSF::PRED_TYPE</a>, <a class="el" href="xcsf_8h_source.html#l00042">PRED_TYPE_RLS_QUADRATIC</a>, <a class="el" href="xcsf_8h_source.html#l00164">XCSF::PRED_X0</a>, <a class="el" href="xcsf_8h_source.html#l00064">CL::prediction</a>, <a class="el" href="pred__rls_8c_source.html#l00042">PRED_RLS::weights</a>, <a class="el" href="xcsf_8h_source.html#l00194">XCSF::x_dim</a>, and <a class="el" href="xcsf_8h_source.html#l00195">XCSF::y_dim</a>.</p>
 
 </div>
 </div>
@@ -415,13 +299,14 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pred__rls_8c_source.html#l00101">101</a> of file <a class="el" href="pred__rls_8c_source.html">pred_rls.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pred__rls_8c_source.html#l00099">99</a> of file <a class="el" href="pred__rls_8c_source.html">pred_rls.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="pred__rls_8c_source.html#l00052">pred_rls_init()</a>, <a class="el" href="pred__rls_8c_source.html#l00044">PRED_RLS::weights</a>, <a class="el" href="pred__rls_8c_source.html#l00043">PRED_RLS::weights_length</a>, and <a class="el" href="xcsf_8h_source.html#l00196">XCSF::y_dim</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="pred__rls_8c_source.html#l00050">pred_rls_init()</a>, <a class="el" href="pred__rls_8c_source.html#l00042">PRED_RLS::weights</a>, <a class="el" href="pred__rls_8c_source.html#l00041">PRED_RLS::weights_length</a>, and <a class="el" href="xcsf_8h_source.html#l00195">XCSF::y_dim</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="pred__rls_8c_ac2b16984e3cce3d263cac0fdd78adc38_cgraph.svg" width="384" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="pred__rls_8c_ac2b16984e3cce3d263cac0fdd78adc38_cgraph.svg" width="384" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -458,7 +343,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pred__rls_8c_source.html#l00241">241</a> of file <a class="el" href="pred__rls_8c_source.html">pred_rls.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pred__rls_8c_source.html#l00214">214</a> of file <a class="el" href="pred__rls_8c_source.html">pred_rls.c</a>.</p>
 
 </div>
 </div>
@@ -488,9 +373,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pred__rls_8c_source.html#l00112">112</a> of file <a class="el" href="pred__rls_8c_source.html">pred_rls.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pred__rls_8c_source.html#l00110">110</a> of file <a class="el" href="pred__rls_8c_source.html">pred_rls.c</a>.</p>
 
-<p class="reference">References <a class="el" href="pred__rls_8c_source.html#l00045">PRED_RLS::matrix</a>, <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="pred__rls_8c_source.html#l00046">PRED_RLS::tmp_input</a>, <a class="el" href="pred__rls_8c_source.html#l00048">PRED_RLS::tmp_matrix1</a>, <a class="el" href="pred__rls_8c_source.html#l00049">PRED_RLS::tmp_matrix2</a>, <a class="el" href="pred__rls_8c_source.html#l00047">PRED_RLS::tmp_vec</a>, <a class="el" href="pred__rls_8c_source.html#l00044">PRED_RLS::weights</a>, and <a class="el" href="xcsf_8h_source.html#l00196">XCSF::y_dim</a>.</p>
+<p class="reference">References <a class="el" href="pred__rls_8c_source.html#l00043">PRED_RLS::matrix</a>, <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="pred__rls_8c_source.html#l00044">PRED_RLS::tmp_input</a>, <a class="el" href="pred__rls_8c_source.html#l00046">PRED_RLS::tmp_matrix1</a>, <a class="el" href="pred__rls_8c_source.html#l00047">PRED_RLS::tmp_matrix2</a>, <a class="el" href="pred__rls_8c_source.html#l00045">PRED_RLS::tmp_vec</a>, <a class="el" href="pred__rls_8c_source.html#l00042">PRED_RLS::weights</a>, and <a class="el" href="xcsf_8h_source.html#l00195">XCSF::y_dim</a>.</p>
 
 </div>
 </div>
@@ -520,20 +405,22 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pred__rls_8c_source.html#l00052">52</a> of file <a class="el" href="pred__rls_8c_source.html">pred_rls.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pred__rls_8c_source.html#l00050">50</a> of file <a class="el" href="pred__rls_8c_source.html">pred_rls.c</a>.</p>
 
-<p class="reference">References <a class="el" href="pred__rls_8c_source.html#l00087">init_matrix()</a>, <a class="el" href="pred__rls_8c_source.html#l00045">PRED_RLS::matrix</a>, <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="xcsf_8h_source.html#l00127">XCSF::PRED_TYPE</a>, <a class="el" href="xcsf_8h_source.html#l00042">PRED_TYPE_RLS_QUADRATIC</a>, <a class="el" href="xcsf_8h_source.html#l00165">XCSF::PRED_X0</a>, <a class="el" href="pred__rls_8c_source.html#l00046">PRED_RLS::tmp_input</a>, <a class="el" href="pred__rls_8c_source.html#l00048">PRED_RLS::tmp_matrix1</a>, <a class="el" href="pred__rls_8c_source.html#l00049">PRED_RLS::tmp_matrix2</a>, <a class="el" href="pred__rls_8c_source.html#l00047">PRED_RLS::tmp_vec</a>, <a class="el" href="pred__rls_8c_source.html#l00044">PRED_RLS::weights</a>, <a class="el" href="pred__rls_8c_source.html#l00043">PRED_RLS::weights_length</a>, <a class="el" href="xcsf_8h_source.html#l00195">XCSF::x_dim</a>, and <a class="el" href="xcsf_8h_source.html#l00196">XCSF::y_dim</a>.</p>
+<p class="reference">References <a class="el" href="pred__rls_8c_source.html#l00085">init_matrix()</a>, <a class="el" href="pred__rls_8c_source.html#l00043">PRED_RLS::matrix</a>, <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="xcsf_8h_source.html#l00126">XCSF::PRED_TYPE</a>, <a class="el" href="xcsf_8h_source.html#l00042">PRED_TYPE_RLS_QUADRATIC</a>, <a class="el" href="xcsf_8h_source.html#l00164">XCSF::PRED_X0</a>, <a class="el" href="pred__rls_8c_source.html#l00044">PRED_RLS::tmp_input</a>, <a class="el" href="pred__rls_8c_source.html#l00046">PRED_RLS::tmp_matrix1</a>, <a class="el" href="pred__rls_8c_source.html#l00047">PRED_RLS::tmp_matrix2</a>, <a class="el" href="pred__rls_8c_source.html#l00045">PRED_RLS::tmp_vec</a>, <a class="el" href="pred__rls_8c_source.html#l00042">PRED_RLS::weights</a>, <a class="el" href="pred__rls_8c_source.html#l00041">PRED_RLS::weights_length</a>, <a class="el" href="xcsf_8h_source.html#l00194">XCSF::x_dim</a>, and <a class="el" href="xcsf_8h_source.html#l00195">XCSF::y_dim</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="pred__rls_8c_source.html#l00101">pred_rls_copy()</a>, and <a class="el" href="pred__rls_8c_source.html#l00273">pred_rls_load()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="pred__rls_8c_source.html#l00099">pred_rls_copy()</a>, and <a class="el" href="pred__rls_8c_source.html#l00246">pred_rls_load()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="pred__rls_8c_abd35c579776a63f6361245817ef7af7a_cgraph.svg" width="234" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="pred__rls_8c_abd35c579776a63f6361245817ef7af7a_cgraph.svg" width="234" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="pred__rls_8c_abd35c579776a63f6361245817ef7af7a_icgraph.svg" width="254" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="pred__rls_8c_abd35c579776a63f6361245817ef7af7a_icgraph.svg" width="254" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -570,13 +457,14 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pred__rls_8c_source.html#l00273">273</a> of file <a class="el" href="pred__rls_8c_source.html">pred_rls.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pred__rls_8c_source.html#l00246">246</a> of file <a class="el" href="pred__rls_8c_source.html">pred_rls.c</a>.</p>
 
-<p class="reference">References <a class="el" href="pred__rls_8c_source.html#l00045">PRED_RLS::matrix</a>, <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="pred__rls_8c_source.html#l00052">pred_rls_init()</a>, <a class="el" href="pred__rls_8c_source.html#l00044">PRED_RLS::weights</a>, <a class="el" href="pred__rls_8c_source.html#l00043">PRED_RLS::weights_length</a>, and <a class="el" href="xcsf_8h_source.html#l00196">XCSF::y_dim</a>.</p>
+<p class="reference">References <a class="el" href="pred__rls_8c_source.html#l00043">PRED_RLS::matrix</a>, <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="pred__rls_8c_source.html#l00050">pred_rls_init()</a>, <a class="el" href="pred__rls_8c_source.html#l00042">PRED_RLS::weights</a>, <a class="el" href="pred__rls_8c_source.html#l00041">PRED_RLS::weights_length</a>, and <a class="el" href="xcsf_8h_source.html#l00195">XCSF::y_dim</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="pred__rls_8c_ae90ad571a2b842ab90dc788852b7761d_cgraph.svg" width="380" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="pred__rls_8c_ae90ad571a2b842ab90dc788852b7761d_cgraph.svg" width="380" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -607,7 +495,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pred__rls_8c_source.html#l00247">247</a> of file <a class="el" href="pred__rls_8c_source.html">pred_rls.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pred__rls_8c_source.html#l00220">220</a> of file <a class="el" href="pred__rls_8c_source.html">pred_rls.c</a>.</p>
 
 </div>
 </div>
@@ -637,9 +525,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pred__rls_8c_source.html#l00207">207</a> of file <a class="el" href="pred__rls_8c_source.html">pred_rls.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pred__rls_8c_source.html#l00202">202</a> of file <a class="el" href="pred__rls_8c_source.html">pred_rls.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="pred__rls_8c_source.html#l00044">PRED_RLS::weights</a>, <a class="el" href="pred__rls_8c_source.html#l00043">PRED_RLS::weights_length</a>, and <a class="el" href="xcsf_8h_source.html#l00196">XCSF::y_dim</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="pred__rls_8c_source.html#l00042">PRED_RLS::weights</a>, <a class="el" href="pred__rls_8c_source.html#l00041">PRED_RLS::weights_length</a>, and <a class="el" href="xcsf_8h_source.html#l00195">XCSF::y_dim</a>.</p>
 
 </div>
 </div>
@@ -675,9 +563,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pred__rls_8c_source.html#l00260">260</a> of file <a class="el" href="pred__rls_8c_source.html">pred_rls.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pred__rls_8c_source.html#l00233">233</a> of file <a class="el" href="pred__rls_8c_source.html">pred_rls.c</a>.</p>
 
-<p class="reference">References <a class="el" href="pred__rls_8c_source.html#l00045">PRED_RLS::matrix</a>, <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="pred__rls_8c_source.html#l00044">PRED_RLS::weights</a>, <a class="el" href="pred__rls_8c_source.html#l00043">PRED_RLS::weights_length</a>, and <a class="el" href="xcsf_8h_source.html#l00196">XCSF::y_dim</a>.</p>
+<p class="reference">References <a class="el" href="pred__rls_8c_source.html#l00043">PRED_RLS::matrix</a>, <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="pred__rls_8c_source.html#l00042">PRED_RLS::weights</a>, <a class="el" href="pred__rls_8c_source.html#l00041">PRED_RLS::weights_length</a>, and <a class="el" href="xcsf_8h_source.html#l00195">XCSF::y_dim</a>.</p>
 
 </div>
 </div>
@@ -707,9 +595,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pred__rls_8c_source.html#l00253">253</a> of file <a class="el" href="pred__rls_8c_source.html">pred_rls.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pred__rls_8c_source.html#l00226">226</a> of file <a class="el" href="pred__rls_8c_source.html">pred_rls.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, and <a class="el" href="pred__rls_8c_source.html#l00043">PRED_RLS::weights_length</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, and <a class="el" href="pred__rls_8c_source.html#l00041">PRED_RLS::weights_length</a>.</p>
 
 </div>
 </div>
@@ -751,13 +639,14 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pred__rls_8c_source.html#l00127">127</a> of file <a class="el" href="pred__rls_8c_source.html">pred_rls.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pred__rls_8c_source.html#l00125">125</a> of file <a class="el" href="pred__rls_8c_source.html">pred_rls.c</a>.</p>
 
-<p class="reference">References <a class="el" href="pred__rls_8c_source.html#l00045">PRED_RLS::matrix</a>, <a class="el" href="pred__rls_8c_source.html#l00219">matrix_matrix_multiply()</a>, <a class="el" href="pred__rls_8c_source.html#l00231">matrix_vector_multiply()</a>, <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="xcsf_8h_source.html#l00167">XCSF::PRED_RLS_LAMBDA</a>, <a class="el" href="xcsf_8h_source.html#l00127">XCSF::PRED_TYPE</a>, <a class="el" href="xcsf_8h_source.html#l00042">PRED_TYPE_RLS_QUADRATIC</a>, <a class="el" href="xcsf_8h_source.html#l00165">XCSF::PRED_X0</a>, <a class="el" href="xcsf_8h_source.html#l00065">CL::prediction</a>, <a class="el" href="pred__rls_8c_source.html#l00046">PRED_RLS::tmp_input</a>, <a class="el" href="pred__rls_8c_source.html#l00048">PRED_RLS::tmp_matrix1</a>, <a class="el" href="pred__rls_8c_source.html#l00049">PRED_RLS::tmp_matrix2</a>, <a class="el" href="pred__rls_8c_source.html#l00047">PRED_RLS::tmp_vec</a>, <a class="el" href="pred__rls_8c_source.html#l00044">PRED_RLS::weights</a>, <a class="el" href="pred__rls_8c_source.html#l00043">PRED_RLS::weights_length</a>, <a class="el" href="xcsf_8h_source.html#l00195">XCSF::x_dim</a>, and <a class="el" href="xcsf_8h_source.html#l00196">XCSF::y_dim</a>.</p>
+<p class="reference">References <a class="el" href="blas_8c_source.html#l00162">blas_axpy()</a>, <a class="el" href="blas_8c_source.html#l00177">blas_dot()</a>, <a class="el" href="blas_8c_source.html#l00148">blas_gemm()</a>, <a class="el" href="pred__rls_8c_source.html#l00043">PRED_RLS::matrix</a>, <a class="el" href="xcsf_8h_source.html#l00055">CL::pred</a>, <a class="el" href="xcsf_8h_source.html#l00166">XCSF::PRED_RLS_LAMBDA</a>, <a class="el" href="xcsf_8h_source.html#l00126">XCSF::PRED_TYPE</a>, <a class="el" href="xcsf_8h_source.html#l00042">PRED_TYPE_RLS_QUADRATIC</a>, <a class="el" href="xcsf_8h_source.html#l00164">XCSF::PRED_X0</a>, <a class="el" href="xcsf_8h_source.html#l00064">CL::prediction</a>, <a class="el" href="pred__rls_8c_source.html#l00044">PRED_RLS::tmp_input</a>, <a class="el" href="pred__rls_8c_source.html#l00046">PRED_RLS::tmp_matrix1</a>, <a class="el" href="pred__rls_8c_source.html#l00047">PRED_RLS::tmp_matrix2</a>, <a class="el" href="pred__rls_8c_source.html#l00045">PRED_RLS::tmp_vec</a>, <a class="el" href="pred__rls_8c_source.html#l00042">PRED_RLS::weights</a>, <a class="el" href="pred__rls_8c_source.html#l00041">PRED_RLS::weights_length</a>, <a class="el" href="xcsf_8h_source.html#l00194">XCSF::x_dim</a>, and <a class="el" href="xcsf_8h_source.html#l00195">XCSF::y_dim</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="pred__rls_8c_a7bba07e0ef91a4d9f687a0e28ef0a19d_cgraph.svg" width="327" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="pred__rls_8c_a7bba07e0ef91a4d9f687a0e28ef0a19d_cgraph.svg" width="524" height="215"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>

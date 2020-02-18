@@ -2,7 +2,6 @@ var neural_8h =
 [
     [ "LLIST", "structLLIST.html", "structLLIST" ],
     [ "NET", "structNET.html", "structNET" ],
-    [ "N_MU", "neural_8h.html#a7ad8e86a318f2d3d354e0a4e5bc23b30", null ],
     [ "LLIST", "neural_8h.html#a35898f06463a5c653daac0682b27bd8e", null ],
     [ "NET", "neural_8h.html#a175ac6f9df6bf95316c0102dfee55f62", null ],
     [ "neural_copy", "neural_8h.html#a8da978581c53ed20994dc0d3b0a5d1a8", null ],
@@ -12,7 +11,7 @@ var neural_8h =
     [ "neural_layer_remove", "neural_8h.html#a6bf7b7f57925225ad66ae8269d50590a", null ],
     [ "neural_learn", "neural_8h.html#a707de205b2a8e26a586d9ad8539f2186", null ],
     [ "neural_load", "neural_8h.html#a82feaf5070043d33da3e6568ab3bfa63", null ],
-    [ "neural_mutate", "neural_8h.html#a9da7f9b824f9ef3e27e2e7c3a275a975", null ],
+    [ "neural_mutate", "neural_8h.html#a9f485503733918ed0eb6d8e3b9a5afea", null ],
     [ "neural_output", "neural_8h.html#a37652d16ab189bac7e909e98f223e0bb", null ],
     [ "neural_print", "neural_8h.html#a85e5bbbe70913a21f854a613511cb90d", null ],
     [ "neural_propagate", "neural_8h.html#af24fee7adcb1405985a06b7648df8f97", null ],

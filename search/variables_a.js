@@ -9,7 +9,7 @@ var searchData=
   ['layer_5fimpl_5fforward',['layer_impl_forward',['../structLayerVtbl.html#a4eb8f71b456c7bb4f85dfd46c81fb41c',1,'LayerVtbl']]],
   ['layer_5fimpl_5ffree',['layer_impl_free',['../structLayerVtbl.html#a5d56d48f5487324125699e6df7413733',1,'LayerVtbl']]],
   ['layer_5fimpl_5fload',['layer_impl_load',['../structLayerVtbl.html#a77504873cbb648caa761dde01ae67c40',1,'LayerVtbl']]],
-  ['layer_5fimpl_5fmutate',['layer_impl_mutate',['../structLayerVtbl.html#a0ad9c979c8b1b08a3cdae8f69da015a9',1,'LayerVtbl']]],
+  ['layer_5fimpl_5fmutate',['layer_impl_mutate',['../structLayerVtbl.html#a75fdcb8662accf18ff7351ef750be6cf',1,'LayerVtbl']]],
   ['layer_5fimpl_5foutput',['layer_impl_output',['../structLayerVtbl.html#aa0581317f1a1628763154d879bffc47a',1,'LayerVtbl']]],
   ['layer_5fimpl_5fprint',['layer_impl_print',['../structLayerVtbl.html#a45d8788dad29ff9e1331c8d19512a7ff',1,'LayerVtbl']]],
   ['layer_5fimpl_5frand',['layer_impl_rand',['../structLayerVtbl.html#ab6f36611451e1f5005dd333d3fd97499',1,'LayerVtbl']]],

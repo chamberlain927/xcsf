@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['loss_2ec',['loss.c',['../loss_8c.html',1,'']]],
-  ['loss_2eh',['loss.h',['../loss_8h.html',1,'']]]
+  ['gp_2ec',['gp.c',['../gp_8c.html',1,'']]],
+  ['gp_2eh',['gp.h',['../gp_8h.html',1,'']]]
 ];

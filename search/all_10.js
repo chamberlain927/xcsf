@@ -12,6 +12,7 @@ var searchData=
   ['sam_5frate_5fselection_5finit',['sam_rate_selection_init',['../sam_8c.html#a5c510f09cd5f6069b67e1b9a59df7acc',1,'sam.c']]],
   ['sam_5ftype',['SAM_TYPE',['../structXCSF.html#ab3a411a6ca44c88d007ced78c534410a',1,'XCSF']]],
   ['save',['save',['../structXCS.html#a1312ff6b9e9eef9c34029bff38c39de7',1,'XCS']]],
+  ['scal_5fcpu',['scal_cpu',['../blas_8c.html#a11e9747be19587201b093f3c51686cc1',1,'blas.c']]],
   ['scale',['scale',['../structLAYER.html#ab5ed397f7befb5d5388b6505d822b263',1,'LAYER']]],
   ['score',['score',['../structXCS.html#aa77bc77484d6d14bf512304a23cfec88',1,'XCS']]],
   ['selu',['SELU',['../neural__activations_8h.html#a549840c5b77ff7eb85bb080629bc253a',1,'neural_activations.h']]],

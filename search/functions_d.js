@@ -7,6 +7,7 @@ var searchData=
   ['sam_5frate_5fselection_5fadapt',['sam_rate_selection_adapt',['../sam_8c.html#ac0808d47ef98fae3eb607d2eca8fee0d',1,'sam.c']]],
   ['sam_5frate_5fselection_5finit',['sam_rate_selection_init',['../sam_8c.html#a5c510f09cd5f6069b67e1b9a59df7acc',1,'sam.c']]],
   ['save',['save',['../structXCS.html#a1312ff6b9e9eef9c34029bff38c39de7',1,'XCS']]],
+  ['scal_5fcpu',['scal_cpu',['../blas_8c.html#a11e9747be19587201b093f3c51686cc1',1,'blas.c']]],
   ['score',['score',['../structXCS.html#aa77bc77484d6d14bf512304a23cfec88',1,'XCS']]],
   ['selu_5factivate',['selu_activate',['../neural__activations_8h.html#a6f033c99e837d6615c495f4f2273d92d',1,'neural_activations.h']]],
   ['selu_5fgradient',['selu_gradient',['../neural__activations_8h.html#a29868e973d463d10ef85a817f8e91add',1,'neural_activations.h']]],

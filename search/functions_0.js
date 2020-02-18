@@ -27,5 +27,6 @@ var searchData=
   ['act_5fsave',['act_save',['../action_8h.html#aa6df834c33c5a6a1a4e6ec499c943606',1,'action.h']]],
   ['act_5fupdate',['act_update',['../action_8h.html#a9d77d15e43830f8fb07e4e142d8cc176',1,'action.h']]],
   ['action_5fset',['action_set',['../action_8c.html#ac235375c6dc54d6abca5efb0f50b1400',1,'action_set(const XCSF *xcsf, CL *c):&#160;action.c'],['../action_8h.html#ac235375c6dc54d6abca5efb0f50b1400',1,'action_set(const XCSF *xcsf, CL *c):&#160;action.c']]],
-  ['activation_5fstring',['activation_string',['../neural__activations_8c.html#a3c497db1eec07b52784eff06e61c06c0',1,'activation_string(int function):&#160;neural_activations.c'],['../neural__activations_8h.html#a3c497db1eec07b52784eff06e61c06c0',1,'activation_string(int function):&#160;neural_activations.c']]]
+  ['activation_5fstring',['activation_string',['../neural__activations_8c.html#a3c497db1eec07b52784eff06e61c06c0',1,'activation_string(int function):&#160;neural_activations.c'],['../neural__activations_8h.html#a3c497db1eec07b52784eff06e61c06c0',1,'activation_string(int function):&#160;neural_activations.c']]],
+  ['axpy_5fcpu',['axpy_cpu',['../blas_8c.html#a7fbad07058c92b52f0bba27d7af1def9',1,'blas.c']]]
 ];

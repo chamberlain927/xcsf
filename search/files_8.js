@@ -1,18 +1,17 @@
 var searchData=
 [
-  ['pa_2ec',['pa.c',['../pa_8c.html',1,'']]],
-  ['pa_2eh',['pa.h',['../pa_8h.html',1,'']]],
-  ['perf_2ec',['perf.c',['../perf_8c.html',1,'']]],
-  ['perf_2eh',['perf.h',['../perf_8h.html',1,'']]],
-  ['pred_5fconstant_2ec',['pred_constant.c',['../pred__constant_8c.html',1,'']]],
-  ['pred_5fconstant_2eh',['pred_constant.h',['../pred__constant_8h.html',1,'']]],
-  ['pred_5fneural_2ec',['pred_neural.c',['../pred__neural_8c.html',1,'']]],
-  ['pred_5fneural_2eh',['pred_neural.h',['../pred__neural_8h.html',1,'']]],
-  ['pred_5fnlms_2ec',['pred_nlms.c',['../pred__nlms_8c.html',1,'']]],
-  ['pred_5fnlms_2eh',['pred_nlms.h',['../pred__nlms_8h.html',1,'']]],
-  ['pred_5frls_2ec',['pred_rls.c',['../pred__rls_8c.html',1,'']]],
-  ['pred_5frls_2eh',['pred_rls.h',['../pred__rls_8h.html',1,'']]],
-  ['prediction_2ec',['prediction.c',['../prediction_8c.html',1,'']]],
-  ['prediction_2eh',['prediction.h',['../prediction_8h.html',1,'']]],
-  ['python_5fwrapper_2ecpp',['python_wrapper.cpp',['../python__wrapper_8cpp.html',1,'']]]
+  ['neural_2ec',['neural.c',['../neural_8c.html',1,'']]],
+  ['neural_2eh',['neural.h',['../neural_8h.html',1,'']]],
+  ['neural_5factivations_2ec',['neural_activations.c',['../neural__activations_8c.html',1,'']]],
+  ['neural_5factivations_2eh',['neural_activations.h',['../neural__activations_8h.html',1,'']]],
+  ['neural_5flayer_2ec',['neural_layer.c',['../neural__layer_8c.html',1,'']]],
+  ['neural_5flayer_2eh',['neural_layer.h',['../neural__layer_8h.html',1,'']]],
+  ['neural_5flayer_5fconnected_2ec',['neural_layer_connected.c',['../neural__layer__connected_8c.html',1,'']]],
+  ['neural_5flayer_5fconnected_2eh',['neural_layer_connected.h',['../neural__layer__connected_8h.html',1,'']]],
+  ['neural_5flayer_5fdropout_2ec',['neural_layer_dropout.c',['../neural__layer__dropout_8c.html',1,'']]],
+  ['neural_5flayer_5fdropout_2eh',['neural_layer_dropout.h',['../neural__layer__dropout_8h.html',1,'']]],
+  ['neural_5flayer_5fnoise_2ec',['neural_layer_noise.c',['../neural__layer__noise_8c.html',1,'']]],
+  ['neural_5flayer_5fnoise_2eh',['neural_layer_noise.h',['../neural__layer__noise_8h.html',1,'']]],
+  ['neural_5flayer_5fsoftmax_2ec',['neural_layer_softmax.c',['../neural__layer__softmax_8c.html',1,'']]],
+  ['neural_5flayer_5fsoftmax_2eh',['neural_layer_softmax.h',['../neural__layer__softmax_8h.html',1,'']]]
 ];

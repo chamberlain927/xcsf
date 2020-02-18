@@ -15,7 +15,6 @@ var cl_8h =
     [ "cl_match", "cl_8h.html#af5a666538852ce0406d5d8ad933f92f7", null ],
     [ "cl_mfrac", "cl_8h.html#a98982b34e8eebe2f85333397bdd24bd3", null ],
     [ "cl_mutate", "cl_8h.html#a9c652f3dd22936f8d99809daf219efe8", null ],
-    [ "cl_mutation_rate", "cl_8h.html#aa168e302dc5b5f67c3e8e350282ad05e", null ],
     [ "cl_pred_size", "cl_8h.html#a72d3cf213699a8d68d348ff75c2b2d49", null ],
     [ "cl_predict", "cl_8h.html#a2e37895c1cc585b83805af74061afa46", null ],
     [ "cl_print", "cl_8h.html#ae72baabb74be8c1a8eca64eacb1941d1", null ],

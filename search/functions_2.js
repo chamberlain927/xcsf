@@ -15,7 +15,6 @@ var searchData=
   ['cl_5fmatch',['cl_match',['../cl_8c.html#af5a666538852ce0406d5d8ad933f92f7',1,'cl_match(const XCSF *xcsf, CL *c, const double *x):&#160;cl.c'],['../cl_8h.html#af5a666538852ce0406d5d8ad933f92f7',1,'cl_match(const XCSF *xcsf, CL *c, const double *x):&#160;cl.c']]],
   ['cl_5fmfrac',['cl_mfrac',['../cl_8c.html#a98982b34e8eebe2f85333397bdd24bd3',1,'cl_mfrac(const XCSF *xcsf, const CL *c):&#160;cl.c'],['../cl_8h.html#a98982b34e8eebe2f85333397bdd24bd3',1,'cl_mfrac(const XCSF *xcsf, const CL *c):&#160;cl.c']]],
   ['cl_5fmutate',['cl_mutate',['../cl_8c.html#a9c652f3dd22936f8d99809daf219efe8',1,'cl_mutate(const XCSF *xcsf, const CL *c):&#160;cl.c'],['../cl_8h.html#a9c652f3dd22936f8d99809daf219efe8',1,'cl_mutate(const XCSF *xcsf, const CL *c):&#160;cl.c']]],
-  ['cl_5fmutation_5frate',['cl_mutation_rate',['../cl_8c.html#aa168e302dc5b5f67c3e8e350282ad05e',1,'cl_mutation_rate(const XCSF *xcsf, const CL *c, int m):&#160;cl.c'],['../cl_8h.html#aa168e302dc5b5f67c3e8e350282ad05e',1,'cl_mutation_rate(const XCSF *xcsf, const CL *c, int m):&#160;cl.c']]],
   ['cl_5fpred_5fsize',['cl_pred_size',['../cl_8c.html#a72d3cf213699a8d68d348ff75c2b2d49',1,'cl_pred_size(const XCSF *xcsf, const CL *c):&#160;cl.c'],['../cl_8h.html#a72d3cf213699a8d68d348ff75c2b2d49',1,'cl_pred_size(const XCSF *xcsf, const CL *c):&#160;cl.c']]],
   ['cl_5fpredict',['cl_predict',['../cl_8c.html#a2e37895c1cc585b83805af74061afa46',1,'cl_predict(const XCSF *xcsf, const CL *c, const double *x):&#160;cl.c'],['../cl_8h.html#a2e37895c1cc585b83805af74061afa46',1,'cl_predict(const XCSF *xcsf, const CL *c, const double *x):&#160;cl.c']]],
   ['cl_5fprint',['cl_print',['../cl_8c.html#ae72baabb74be8c1a8eca64eacb1941d1',1,'cl_print(const XCSF *xcsf, const CL *c, _Bool printc, _Bool printa, _Bool printp):&#160;cl.c'],['../cl_8h.html#ae72baabb74be8c1a8eca64eacb1941d1',1,'cl_print(const XCSF *xcsf, const CL *c, _Bool printc, _Bool printa, _Bool printp):&#160;cl.c']]],
@@ -25,7 +24,7 @@ var searchData=
   ['cl_5fupdate',['cl_update',['../cl_8c.html#ad3ef5eea9801c3b8c38ad8e5e2141dc0',1,'cl_update(const XCSF *xcsf, CL *c, const double *x, const double *y, int set_num, _Bool cur):&#160;cl.c'],['../cl_8h.html#ad3ef5eea9801c3b8c38ad8e5e2141dc0',1,'cl_update(const XCSF *xcsf, CL *c, const double *x, const double *y, int set_num, _Bool cur):&#160;cl.c']]],
   ['cl_5fupdate_5ferr',['cl_update_err',['../cl_8c.html#a3ce7d2665179f8cb1284caef9808d890',1,'cl.c']]],
   ['cl_5fupdate_5ffit',['cl_update_fit',['../cl_8c.html#a8ef8cb774f6f4910f26ca414a9bd02d3',1,'cl_update_fit(const XCSF *xcsf, CL *c, double acc_sum, double acc):&#160;cl.c'],['../cl_8h.html#a8ef8cb774f6f4910f26ca414a9bd02d3',1,'cl_update_fit(const XCSF *xcsf, CL *c, double acc_sum, double acc):&#160;cl.c']]],
-  ['cl_5fupdate_5fsize',['cl_update_size',['../cl_8c.html#a2536212dfb57411f6b48f7792084af3c',1,'cl.c']]],
+  ['cl_5fupdate_5fsize',['cl_update_size',['../cl_8c.html#ac935fba64bc3f743c215677b1e758cf9',1,'cl.c']]],
   ['clset_5faction',['clset_action',['../clset_8c.html#a619c29b16e98c286a1eb5c749b2320ba',1,'clset_action(XCSF *xcsf, int action):&#160;clset.c'],['../clset_8h.html#a619c29b16e98c286a1eb5c749b2320ba',1,'clset_action(XCSF *xcsf, int action):&#160;clset.c']]],
   ['clset_5faction_5fcovered',['clset_action_covered',['../clset_8c.html#add73fc8e93b326673bec83ae4b93fae7',1,'clset.c']]],
   ['clset_5fadd',['clset_add',['../clset_8c.html#ae702f77855a5f1c42a8177f197706aee',1,'clset_add(SET *set, CL *c):&#160;clset.c'],['../clset_8h.html#ae702f77855a5f1c42a8177f197706aee',1,'clset_add(SET *set, CL *c):&#160;clset.c']]],
@@ -180,5 +179,13 @@ var searchData=
   ['config_5ftrim',['config_trim',['../config_8c.html#a0c81724e9bdc867a3dd41bafab67cbd3',1,'config.c']]],
   ['constrain',['constrain',['../utils_8c.html#a4d9693be6ce890dc7a2ee825d11ca3ee',1,'constrain(double min, double max, double a):&#160;utils.c'],['../utils_8h.html#a4d9693be6ce890dc7a2ee825d11ca3ee',1,'constrain(double min, double max, double a):&#160;utils.c']]],
   ['cos_5factivate',['cos_activate',['../neural__activations_8h.html#abb0ed807625c86c51e2b7d4c6a5c7131',1,'neural_activations.h']]],
-  ['cos_5fgradient',['cos_gradient',['../neural__activations_8h.html#aeb419ce905e0dc5552b80a2cbee8d7b4',1,'neural_activations.h']]]
+  ['cos_5fgradient',['cos_gradient',['../neural__activations_8h.html#aeb419ce905e0dc5552b80a2cbee8d7b4',1,'neural_activations.h']]],
+  ['cuda_5ffree',['cuda_free',['../cuda_8h.html#a0b759ed852956d3a43d577bf35966c81',1,'cuda.h']]],
+  ['cuda_5fget_5fdevice',['cuda_get_device',['../cuda_8h.html#aa39b28ad12b11e171c7330d71f8db0f4',1,'cuda.h']]],
+  ['cuda_5fgridsize',['cuda_gridsize',['../cuda_8h.html#a70fb3631205e2dd0898132f36ba9e4f3',1,'cuda.h']]],
+  ['cuda_5finfo',['cuda_info',['../cuda_8h.html#aa1d99d324ce7501b59edf1ab489835e6',1,'cuda.h']]],
+  ['cuda_5fmake_5farray',['cuda_make_array',['../cuda_8h.html#a25b759dc0c5b94f2dffb568af650a997',1,'cuda.h']]],
+  ['cuda_5fpull_5farray',['cuda_pull_array',['../cuda_8h.html#aebaa5ee23534178ddf7cbc7b08750fb6',1,'cuda.h']]],
+  ['cuda_5fpush_5farray',['cuda_push_array',['../cuda_8h.html#a3ac675a14b40a525160eabaf8cd473b5',1,'cuda.h']]],
+  ['cuda_5fset_5fdevice',['cuda_set_device',['../cuda_8h.html#aa4214bec4ec8eda4c37f5e1487efa2e9',1,'cuda.h']]]
 ];

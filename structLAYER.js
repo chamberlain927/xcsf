@@ -8,6 +8,7 @@ var structLAYER =
     [ "layer_type", "structLAYER.html#a935f86a8074381fba53b5528b4df1316", null ],
     [ "layer_vptr", "structLAYER.html#a97f2fb77da92ee6124a31b87a1a2c031", null ],
     [ "max_outputs", "structLAYER.html#a2c480b635cb98ac2a904dba9202acfa5", null ],
+    [ "mu", "structLAYER.html#a5563171200a9c4a55de872d1c980c08d", null ],
     [ "n_inputs", "structLAYER.html#a3026d8020c31059a19fff374b9551d18", null ],
     [ "n_outputs", "structLAYER.html#aa2597322cc89b3fcdefbead9db725382", null ],
     [ "n_weights", "structLAYER.html#a96517e92eec2622d877c12c8966476cf", null ],

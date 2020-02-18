@@ -57,5 +57,6 @@ var searchData=
   ['age',['age',['../structCL.html#af9c2de55d24975ff050b430b164825ce',1,'CL']]],
   ['alpha',['ALPHA',['../structXCSF.html#aab84d855d797f15ffbd6feab2d615e30',1,'XCSF']]],
   ['array_5fdelim',['ARRAY_DELIM',['../config_8c.html#a3d7c8faadcf5bcb3f2c6c90b2921e75d',1,'config.c']]],
-  ['aset',['aset',['../structXCSF.html#a7283bb9a6642f19818c62630a28f2bee',1,'XCSF']]]
+  ['aset',['aset',['../structXCSF.html#a7283bb9a6642f19818c62630a28f2bee',1,'XCSF']]],
+  ['axpy_5fcpu',['axpy_cpu',['../blas_8c.html#a7fbad07058c92b52f0bba27d7af1def9',1,'blas.c']]]
 ];

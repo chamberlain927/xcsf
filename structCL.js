@@ -11,7 +11,6 @@ var structCL =
     [ "fit", "structCL.html#a31cf5b960db1c58f5509b2f77ad7330c", null ],
     [ "m", "structCL.html#a36b129a577a379310b8c02c7af61a50d", null ],
     [ "mtotal", "structCL.html#a6de3c55b15e1216328e7e7438d054754", null ],
-    [ "mu", "structCL.html#ac041d3df100a129e0de82d9e09155979", null ],
     [ "num", "structCL.html#a7d2c3c55614401cc90c6ce3cc3e66f3e", null ],
     [ "pred", "structCL.html#a9319caaf3c1bd7008f2dff02af4a6113", null ],
     [ "pred_vptr", "structCL.html#aed4c4c0f42aeb9ed127f70a2799dfc30", null ],

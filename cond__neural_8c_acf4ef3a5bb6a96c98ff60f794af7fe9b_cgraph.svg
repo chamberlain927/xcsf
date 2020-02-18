@@ -8,135 +8,135 @@
  viewBox="0.00 0.00 481.00 104.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 100)">
 <title>cond_neural_cover</title>
-<!-- Node15 -->
+<!-- Node6 -->
 <g id="node1" class="node">
-<title>Node15</title>
+<title>Node6</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-19.5 0,-38.5 98,-38.5 98,-19.5 0,-19.5"/>
 <text text-anchor="middle" x="49" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cond_neural_cover</text>
 </g>
-<!-- Node16 -->
+<!-- Node7 -->
 <g id="node2" class="node">
-<title>Node16</title>
+<title>Node7</title>
 <g id="a_node2"><a xlink:href="cond__neural_8c.html#a2c2bc1d934688d90af626be468332c03" target="_top" xlink:title="cond_neural_match">
 <polygon fill="none" stroke="#000000" points="134,-38.5 134,-57.5 235,-57.5 235,-38.5 134,-38.5"/>
 <text text-anchor="middle" x="184.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cond_neural_match</text>
 </a>
 </g>
 </g>
-<!-- Node15&#45;&gt;Node16 -->
+<!-- Node6&#45;&gt;Node7 -->
 <g id="edge1" class="edge">
-<title>Node15&#45;&gt;Node16</title>
+<title>Node6&#45;&gt;Node7</title>
 <path fill="none" stroke="#191970" d="M98.3019,-35.9132C106.479,-37.0598 115.0441,-38.2608 123.4693,-39.4422"/>
 <polygon fill="#191970" stroke="#191970" points="123.252,-42.9459 133.6412,-40.8685 124.2241,-36.0137 123.252,-42.9459"/>
 </g>
-<!-- Node21 -->
+<!-- Node12 -->
 <g id="node7" class="node">
-<title>Node21</title>
+<title>Node12</title>
 <g id="a_node7"><a xlink:href="cond__neural_8c.html#a902fdfbcd52503ac1f9160a7e3ab4bd8" target="_top" xlink:title="cond_neural_rand">
 <polygon fill="none" stroke="#000000" points="138,-.5 138,-19.5 231,-19.5 231,-.5 138,-.5"/>
 <text text-anchor="middle" x="184.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cond_neural_rand</text>
 </a>
 </g>
 </g>
-<!-- Node15&#45;&gt;Node21 -->
+<!-- Node6&#45;&gt;Node12 -->
 <g id="edge7" class="edge">
-<title>Node15&#45;&gt;Node21</title>
+<title>Node6&#45;&gt;Node12</title>
 <path fill="none" stroke="#191970" d="M98.3019,-22.0868C107.8493,-20.7481 117.9257,-19.3351 127.6907,-17.9659"/>
 <polygon fill="#191970" stroke="#191970" points="128.3018,-21.4145 137.7189,-16.5597 127.3297,-14.4823 128.3018,-21.4145"/>
 </g>
-<!-- Node17 -->
+<!-- Node8 -->
 <g id="node3" class="node">
-<title>Node17</title>
+<title>Node8</title>
 <g id="a_node3"><a xlink:href="neural_8c.html#af24fee7adcb1405985a06b7648df8f97" target="_top" xlink:title="Forward propagates a neural network. ">
 <polygon fill="none" stroke="#000000" points="271,-76.5 271,-95.5 362,-95.5 362,-76.5 271,-76.5"/>
 <text text-anchor="middle" x="316.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">neural_propagate</text>
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node17 -->
+<!-- Node7&#45;&gt;Node8 -->
 <g id="edge2" class="edge">
-<title>Node16&#45;&gt;Node17</title>
+<title>Node7&#45;&gt;Node8</title>
 <path fill="none" stroke="#191970" d="M217.8092,-57.589C234.6928,-62.4494 255.3948,-68.4091 273.4705,-73.6127"/>
 <polygon fill="#191970" stroke="#191970" points="272.6235,-77.011 283.2015,-76.4141 274.56,-70.2842 272.6235,-77.011"/>
 </g>
-<!-- Node20 -->
+<!-- Node11 -->
 <g id="node6" class="node">
-<title>Node20</title>
+<title>Node11</title>
 <g id="a_node6"><a xlink:href="neural_8c.html#a37652d16ab189bac7e909e98f223e0bb" target="_top" xlink:title="Returns the output of a specified neuron in the output layer of a neural network. ...">
 <polygon fill="none" stroke="#000000" points="279,-38.5 279,-57.5 354,-57.5 354,-38.5 279,-38.5"/>
 <text text-anchor="middle" x="316.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">neural_output</text>
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node20 -->
+<!-- Node7&#45;&gt;Node11 -->
 <g id="edge5" class="edge">
-<title>Node16&#45;&gt;Node20</title>
+<title>Node7&#45;&gt;Node11</title>
 <path fill="none" stroke="#191970" d="M235.1571,-48C246.1764,-48 257.7997,-48 268.7039,-48"/>
 <polygon fill="#191970" stroke="#191970" points="268.8949,-51.5001 278.8949,-48 268.8948,-44.5001 268.8949,-51.5001"/>
 </g>
-<!-- Node18 -->
+<!-- Node9 -->
 <g id="node4" class="node">
-<title>Node18</title>
+<title>Node9</title>
 <g id="a_node4"><a xlink:href="neural__layer_8h.html#a55857a2243f79491e75280eb5d6f0d8d" target="_top" xlink:title="Forward propagates an input through the layer. ">
 <polygon fill="none" stroke="#000000" points="398,-76.5 398,-95.5 473,-95.5 473,-76.5 398,-76.5"/>
 <text text-anchor="middle" x="435.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">layer_forward</text>
 </a>
 </g>
 </g>
-<!-- Node17&#45;&gt;Node18 -->
+<!-- Node8&#45;&gt;Node9 -->
 <g id="edge3" class="edge">
-<title>Node17&#45;&gt;Node18</title>
+<title>Node8&#45;&gt;Node9</title>
 <path fill="none" stroke="#191970" d="M362.1682,-86C370.5558,-86 379.3316,-86 387.7776,-86"/>
 <polygon fill="#191970" stroke="#191970" points="387.8681,-89.5001 397.8681,-86 387.868,-82.5001 387.8681,-89.5001"/>
 </g>
-<!-- Node19 -->
+<!-- Node10 -->
 <g id="node5" class="node">
-<title>Node19</title>
+<title>Node10</title>
 <g id="a_node5"><a xlink:href="neural__layer_8h.html#aef2814bbb155d93ad1284e76bc154ae1" target="_top" xlink:title="Returns the outputs of a layer. ">
 <polygon fill="none" stroke="#000000" points="400.5,-38.5 400.5,-57.5 470.5,-57.5 470.5,-38.5 400.5,-38.5"/>
 <text text-anchor="middle" x="435.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">layer_output</text>
 </a>
 </g>
 </g>
-<!-- Node17&#45;&gt;Node19 -->
+<!-- Node8&#45;&gt;Node10 -->
 <g id="edge4" class="edge">
-<title>Node17&#45;&gt;Node19</title>
+<title>Node8&#45;&gt;Node10</title>
 <path fill="none" stroke="#191970" d="M346.5287,-76.411C361.4677,-71.6406 379.7227,-65.8112 395.8006,-60.6771"/>
 <polygon fill="#191970" stroke="#191970" points="397.0195,-63.9621 405.4809,-57.5859 394.8901,-57.2938 397.0195,-63.9621"/>
 </g>
-<!-- Node20&#45;&gt;Node19 -->
+<!-- Node11&#45;&gt;Node10 -->
 <g id="edge6" class="edge">
-<title>Node20&#45;&gt;Node19</title>
+<title>Node11&#45;&gt;Node10</title>
 <path fill="none" stroke="#191970" d="M354.1523,-48C365.528,-48 378.141,-48 389.9726,-48"/>
 <polygon fill="#191970" stroke="#191970" points="390.1183,-51.5001 400.1183,-48 390.1182,-44.5001 390.1183,-51.5001"/>
 </g>
-<!-- Node22 -->
+<!-- Node13 -->
 <g id="node8" class="node">
-<title>Node22</title>
+<title>Node13</title>
 <g id="a_node8"><a xlink:href="neural_8c.html#aaf0a6701c2d891294dd7fd2d118137ef" target="_top" xlink:title="Randomises the layers within a neural network. ">
 <polygon fill="none" stroke="#000000" points="283,-.5 283,-19.5 350,-19.5 350,-.5 283,-.5"/>
 <text text-anchor="middle" x="316.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">neural_rand</text>
 </a>
 </g>
 </g>
-<!-- Node21&#45;&gt;Node22 -->
+<!-- Node12&#45;&gt;Node13 -->
 <g id="edge8" class="edge">
-<title>Node21&#45;&gt;Node22</title>
+<title>Node12&#45;&gt;Node13</title>
 <path fill="none" stroke="#191970" d="M231.0383,-10C244.5091,-10 259.1678,-10 272.4798,-10"/>
 <polygon fill="#191970" stroke="#191970" points="272.8186,-13.5001 282.8186,-10 272.8185,-6.5001 272.8186,-13.5001"/>
 </g>
-<!-- Node23 -->
+<!-- Node14 -->
 <g id="node9" class="node">
-<title>Node23</title>
+<title>Node14</title>
 <g id="a_node9"><a xlink:href="neural__layer_8h.html#a126497f6ca92a3939c5b8a3597d1c98c" target="_top" xlink:title="Randomises a layer. ">
 <polygon fill="none" stroke="#000000" points="404.5,-.5 404.5,-19.5 466.5,-19.5 466.5,-.5 404.5,-.5"/>
 <text text-anchor="middle" x="435.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">layer_rand</text>
 </a>
 </g>
 </g>
-<!-- Node22&#45;&gt;Node23 -->
+<!-- Node13&#45;&gt;Node14 -->
 <g id="edge9" class="edge">
-<title>Node22&#45;&gt;Node23</title>
+<title>Node13&#45;&gt;Node14</title>
 <path fill="none" stroke="#191970" d="M350.2823,-10C363.9951,-10 379.9645,-10 394.3482,-10"/>
 <polygon fill="#191970" stroke="#191970" points="394.4867,-13.5001 404.4866,-10 394.4866,-6.5001 394.4867,-13.5001"/>
 </g>
