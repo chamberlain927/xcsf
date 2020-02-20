@@ -51,6 +51,7 @@ var files =
     [ "mt64.h", "mt64_8h.html", "mt64_8h" ],
     [ "neural.c", "neural_8c.html", "neural_8c" ],
     [ "neural.h", "neural_8h.html", "neural_8h" ],
+    [ "neural_activation_kernels.h", "neural__activation__kernels_8h.html", "neural__activation__kernels_8h" ],
     [ "neural_activations.c", "neural__activations_8c.html", "neural__activations_8c" ],
     [ "neural_activations.h", "neural__activations_8h.html", "neural__activations_8h" ],
     [ "neural_layer.c", "neural__layer_8c.html", "neural__layer_8c" ],

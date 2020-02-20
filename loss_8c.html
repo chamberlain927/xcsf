@@ -93,13 +93,14 @@ $(document).ready(function(){initNavTree('loss_8c.html','');});
 <div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
 <code>#include &lt;stdlib.h&gt;</code><br />
 <code>#include &lt;math.h&gt;</code><br />
+<code>#include &lt;float.h&gt;</code><br />
 <code>#include &lt;errno.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="xcsf_8h_source.html">xcsf.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="loss_8h_source.html">loss.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for loss.c:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="loss_8c__incl.svg" width="500" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="loss_8c__incl.svg" width="584" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -180,11 +181,11 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The log error. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="loss_8c_source.html#l00103">103</a> of file <a class="el" href="loss_8c_source.html">loss.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="loss_8c_source.html#l00104">104</a> of file <a class="el" href="loss_8c_source.html">loss.c</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00195">XCSF::y_dim</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="loss_8c_source.html#l00138">loss_set_func()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="loss_8c_source.html#l00139">loss_set_func()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -238,11 +239,11 @@ Here is the caller graph for this function:</div>
 <dl class="section return"><dt>Returns</dt><dd>The log error.</dd></dl>
 <p>Assumes the sum of predictions = 1 and a single target y_i has a value of 1. </p>
 
-<p class="definition">Definition at line <a class="el" href="loss_8c_source.html#l00087">87</a> of file <a class="el" href="loss_8c_source.html">loss.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="loss_8c_source.html#l00088">88</a> of file <a class="el" href="loss_8c_source.html">loss.c</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00195">XCSF::y_dim</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="loss_8c_source.html#l00138">loss_set_func()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="loss_8c_source.html#l00139">loss_set_func()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -295,11 +296,11 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The mean absolute error. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="loss_8c_source.html#l00038">38</a> of file <a class="el" href="loss_8c_source.html">loss.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="loss_8c_source.html#l00039">39</a> of file <a class="el" href="loss_8c_source.html">loss.c</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00195">XCSF::y_dim</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="loss_8c_source.html#l00138">loss_set_func()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="loss_8c_source.html#l00139">loss_set_func()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -352,11 +353,11 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The mean squared error. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="loss_8c_source.html#l00055">55</a> of file <a class="el" href="loss_8c_source.html">loss.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="loss_8c_source.html#l00056">56</a> of file <a class="el" href="loss_8c_source.html">loss.c</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00195">XCSF::y_dim</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="loss_8c_source.html#l00072">loss_rmse()</a>, and <a class="el" href="loss_8c_source.html#l00138">loss_set_func()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="loss_8c_source.html#l00073">loss_rmse()</a>, and <a class="el" href="loss_8c_source.html#l00139">loss_set_func()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -409,11 +410,11 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The one-hot classification error. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="loss_8c_source.html#l00120">120</a> of file <a class="el" href="loss_8c_source.html">loss.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="loss_8c_source.html#l00121">121</a> of file <a class="el" href="loss_8c_source.html">loss.c</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00195">XCSF::y_dim</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="loss_8c_source.html#l00138">loss_set_func()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="loss_8c_source.html#l00139">loss_set_func()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -466,11 +467,11 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The root mean squared error. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="loss_8c_source.html#l00072">72</a> of file <a class="el" href="loss_8c_source.html">loss.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="loss_8c_source.html#l00073">73</a> of file <a class="el" href="loss_8c_source.html">loss.c</a>.</p>
 
-<p class="reference">References <a class="el" href="loss_8c_source.html#l00055">loss_mse()</a>.</p>
+<p class="reference">References <a class="el" href="loss_8c_source.html#l00056">loss_mse()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="loss_8c_source.html#l00138">loss_set_func()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="loss_8c_source.html#l00139">loss_set_func()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -510,9 +511,9 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="loss_8c_source.html#l00138">138</a> of file <a class="el" href="loss_8c_source.html">loss.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="loss_8c_source.html#l00139">139</a> of file <a class="el" href="loss_8c_source.html">loss.c</a>.</p>
 
-<p class="reference">References <a class="el" href="loss_8h_source.html#l00030">LOSS_BINARY_LOG</a>, <a class="el" href="loss_8c_source.html#l00103">loss_binary_log()</a>, <a class="el" href="xcsf_8h_source.html#l00107">XCSF::LOSS_FUNC</a>, <a class="el" href="loss_8h_source.html#l00029">LOSS_LOG</a>, <a class="el" href="loss_8c_source.html#l00087">loss_log()</a>, <a class="el" href="loss_8h_source.html#l00026">LOSS_MAE</a>, <a class="el" href="loss_8c_source.html#l00038">loss_mae()</a>, <a class="el" href="loss_8h_source.html#l00027">LOSS_MSE</a>, <a class="el" href="loss_8c_source.html#l00055">loss_mse()</a>, <a class="el" href="loss_8h_source.html#l00031">LOSS_ONEHOT_ACC</a>, <a class="el" href="loss_8c_source.html#l00120">loss_onehot_acc()</a>, <a class="el" href="xcsf_8h_source.html#l00197">XCSF::loss_ptr</a>, <a class="el" href="loss_8h_source.html#l00028">LOSS_RMSE</a>, and <a class="el" href="loss_8c_source.html#l00072">loss_rmse()</a>.</p>
+<p class="reference">References <a class="el" href="loss_8h_source.html#l00030">LOSS_BINARY_LOG</a>, <a class="el" href="loss_8c_source.html#l00104">loss_binary_log()</a>, <a class="el" href="xcsf_8h_source.html#l00107">XCSF::LOSS_FUNC</a>, <a class="el" href="loss_8h_source.html#l00029">LOSS_LOG</a>, <a class="el" href="loss_8c_source.html#l00088">loss_log()</a>, <a class="el" href="loss_8h_source.html#l00026">LOSS_MAE</a>, <a class="el" href="loss_8c_source.html#l00039">loss_mae()</a>, <a class="el" href="loss_8h_source.html#l00027">LOSS_MSE</a>, <a class="el" href="loss_8c_source.html#l00056">loss_mse()</a>, <a class="el" href="loss_8h_source.html#l00031">LOSS_ONEHOT_ACC</a>, <a class="el" href="loss_8c_source.html#l00121">loss_onehot_acc()</a>, <a class="el" href="xcsf_8h_source.html#l00197">XCSF::loss_ptr</a>, <a class="el" href="loss_8h_source.html#l00028">LOSS_RMSE</a>, and <a class="el" href="loss_8c_source.html#l00073">loss_rmse()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00075">config_init()</a>, <a class="el" href="python__wrapper_8cpp_source.html#l00384">XCS::set_loss_func()</a>, and <a class="el" href="xcsf_8c_source.html#l00323">xcsf_load_params()</a>.</p>
 <div class="dynheader">

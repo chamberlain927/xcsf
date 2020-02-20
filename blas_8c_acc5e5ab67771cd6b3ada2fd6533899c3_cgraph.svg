@@ -8,69 +8,69 @@
  viewBox="0.00 0.00 168.00 142.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 138)">
 <title>gemm_cpu</title>
-<!-- Node41 -->
+<!-- Node53 -->
 <g id="node1" class="node">
-<title>Node41</title>
+<title>Node53</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-57.5 0,-76.5 65,-76.5 65,-57.5 0,-57.5"/>
 <text text-anchor="middle" x="32.5" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">gemm_cpu</text>
 </g>
-<!-- Node42 -->
+<!-- Node54 -->
 <g id="node2" class="node">
-<title>Node42</title>
+<title>Node54</title>
 <g id="a_node2"><a xlink:href="blas_8c.html#a19039ca820abf5f9fe5963ce118f836d" target="_top" xlink:title="gemm_nn">
 <polygon fill="none" stroke="#000000" points="101,-114.5 101,-133.5 160,-133.5 160,-114.5 101,-114.5"/>
 <text text-anchor="middle" x="130.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">gemm_nn</text>
 </a>
 </g>
 </g>
-<!-- Node41&#45;&gt;Node42 -->
+<!-- Node53&#45;&gt;Node54 -->
 <g id="edge1" class="edge">
-<title>Node41&#45;&gt;Node42</title>
+<title>Node53&#45;&gt;Node54</title>
 <path fill="none" stroke="#191970" d="M49.1244,-76.6693C64.5634,-85.6491 87.7641,-99.1434 105.4473,-109.4285"/>
 <polygon fill="#191970" stroke="#191970" points="103.7172,-112.4712 114.1212,-114.4735 107.2367,-106.4203 103.7172,-112.4712"/>
 </g>
-<!-- Node43 -->
+<!-- Node55 -->
 <g id="node3" class="node">
-<title>Node43</title>
+<title>Node55</title>
 <g id="a_node3"><a xlink:href="blas_8c.html#aca9b706fd3bbf0bd260e60636311846d" target="_top" xlink:title="gemm_nt">
 <polygon fill="none" stroke="#000000" points="102,-76.5 102,-95.5 159,-95.5 159,-76.5 102,-76.5"/>
 <text text-anchor="middle" x="130.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">gemm_nt</text>
 </a>
 </g>
 </g>
-<!-- Node41&#45;&gt;Node43 -->
+<!-- Node53&#45;&gt;Node55 -->
 <g id="edge2" class="edge">
-<title>Node41&#45;&gt;Node43</title>
+<title>Node53&#45;&gt;Node55</title>
 <path fill="none" stroke="#191970" d="M65.1326,-73.3267C73.6969,-74.9872 83.0149,-76.7937 91.8608,-78.5087"/>
 <polygon fill="#191970" stroke="#191970" points="91.4714,-81.9983 101.9548,-80.4657 92.8038,-75.1263 91.4714,-81.9983"/>
 </g>
-<!-- Node44 -->
+<!-- Node56 -->
 <g id="node4" class="node">
-<title>Node44</title>
+<title>Node56</title>
 <g id="a_node4"><a xlink:href="blas_8c.html#a1903d50ec698fb744676468e78834763" target="_top" xlink:title="gemm_tn">
 <polygon fill="none" stroke="#000000" points="102,-38.5 102,-57.5 159,-57.5 159,-38.5 102,-38.5"/>
 <text text-anchor="middle" x="130.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">gemm_tn</text>
 </a>
 </g>
 </g>
-<!-- Node41&#45;&gt;Node44 -->
+<!-- Node53&#45;&gt;Node56 -->
 <g id="edge3" class="edge">
-<title>Node41&#45;&gt;Node44</title>
+<title>Node53&#45;&gt;Node56</title>
 <path fill="none" stroke="#191970" d="M65.1326,-60.6733C73.6969,-59.0128 83.0149,-57.2063 91.8608,-55.4913"/>
 <polygon fill="#191970" stroke="#191970" points="92.8038,-58.8737 101.9548,-53.5343 91.4714,-52.0017 92.8038,-58.8737"/>
 </g>
-<!-- Node45 -->
+<!-- Node57 -->
 <g id="node5" class="node">
-<title>Node45</title>
+<title>Node57</title>
 <g id="a_node5"><a xlink:href="blas_8c.html#a4f55eb00f6ea7089b7f77697e9511ec0" target="_top" xlink:title="gemm_tt">
 <polygon fill="none" stroke="#000000" points="103,-.5 103,-19.5 158,-19.5 158,-.5 103,-.5"/>
 <text text-anchor="middle" x="130.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">gemm_tt</text>
 </a>
 </g>
 </g>
-<!-- Node41&#45;&gt;Node45 -->
+<!-- Node53&#45;&gt;Node57 -->
 <g id="edge4" class="edge">
-<title>Node41&#45;&gt;Node45</title>
+<title>Node53&#45;&gt;Node57</title>
 <path fill="none" stroke="#191970" d="M49.1244,-57.3307C64.5634,-48.3509 87.7641,-34.8566 105.4473,-24.5715"/>
 <polygon fill="#191970" stroke="#191970" points="107.2367,-27.5797 114.1212,-19.5265 103.7172,-21.5288 107.2367,-27.5797"/>
 </g>

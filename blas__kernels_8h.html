@@ -90,15 +90,24 @@ $(document).ready(function(){initNavTree('blas__kernels_8h.html','');});
 
 <p>CUDA basic linear algebra functions.  
 <a href="#details">More...</a></p>
-
+<div class="textblock"><code>#include &lt;cuda_runtime.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for blas_kernels.h:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="blas__kernels_8h__incl.svg" width="122" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</div>
 <p><a href="blas__kernels_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a7c242c058a1b94bb7374cabcaa640da7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="blas__kernels_8h.html#a7c242c058a1b94bb7374cabcaa640da7">gemm_gpu</a> (int TA, int TB, int M, int N, int K, double ALPHA, const double *A, int lda, const double *B, int ldb, double BETA, double *C, int ldc)</td></tr>
-<tr class="separator:a7c242c058a1b94bb7374cabcaa640da7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83ac969da512ec2f7ff44a632d01c7ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="blas__kernels_8h.html#a83ac969da512ec2f7ff44a632d01c7ae">fill_gpu</a> (int N, double ALPHA, double *X, int INCX)</td></tr>
-<tr class="separator:a83ac969da512ec2f7ff44a632d01c7ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a626dbef51b1cea6d14bce65ebc8d0f86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="blas__kernels_8h.html#a626dbef51b1cea6d14bce65ebc8d0f86">gemm_gpu</a> (int TA, int TB, int M, int N, int K, double ALPHA, const double *A, int lda, const double *B, int ldb, double BETA, double *C, int ldc, const cudaStream_t *stream)</td></tr>
+<tr class="separator:a626dbef51b1cea6d14bce65ebc8d0f86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45628201df41ed961eb6dea6b40d6f9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="blas__kernels_8h.html#a45628201df41ed961eb6dea6b40d6f9d">dot_gpu</a> (int N, const double *A, const double *B, double *C, const cudaStream_t *stream)</td></tr>
+<tr class="separator:a45628201df41ed961eb6dea6b40d6f9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11bcbc4229dc0200dace139cc530c3e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="blas__kernels_8h.html#a11bcbc4229dc0200dace139cc530c3e8">scal_gpu</a> (int N, double ALPHA, double *X, int INCX, const cudaStream_t *stream)</td></tr>
+<tr class="separator:a11bcbc4229dc0200dace139cc530c3e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>CUDA basic linear algebra functions. </p>
@@ -108,14 +117,14 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition in file <a class="el" href="blas__kernels_8h_source.html">blas_kernels.h</a>.</p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="a83ac969da512ec2f7ff44a632d01c7ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83ac969da512ec2f7ff44a632d01c7ae">&#9670;&nbsp;</a></span>fill_gpu()</h2>
+<a id="a45628201df41ed961eb6dea6b40d6f9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45628201df41ed961eb6dea6b40d6f9d">&#9670;&nbsp;</a></span>dot_gpu()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void fill_gpu </td>
+          <td class="memname">void dot_gpu </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>N</em>, </td>
@@ -123,20 +132,26 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>ALPHA</em>, </td>
+          <td class="paramtype">const double *&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double *&#160;</td>
+          <td class="paramname"><em>B</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double *&#160;</td>
-          <td class="paramname"><em>X</em>, </td>
+          <td class="paramname"><em>C</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>INCX</em>&#160;</td>
+          <td class="paramtype">const cudaStream_t *&#160;</td>
+          <td class="paramname"><em>stream</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -146,10 +161,18 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="reference">Referenced by <a class="el" href="pred__rls_8c_source.html#l00145">pred_rls_update()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="blas__kernels_8h_a45628201df41ed961eb6dea6b40d6f9d_icgraph.svg" width="242" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<a id="a7c242c058a1b94bb7374cabcaa640da7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c242c058a1b94bb7374cabcaa640da7">&#9670;&nbsp;</a></span>gemm_gpu()</h2>
+
+</div>
+</div>
+<a id="a626dbef51b1cea6d14bce65ebc8d0f86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a626dbef51b1cea6d14bce65ebc8d0f86">&#9670;&nbsp;</a></span>gemm_gpu()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -230,7 +253,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>ldc</em>&#160;</td>
+          <td class="paramname"><em>ldc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const cudaStream_t *&#160;</td>
+          <td class="paramname"><em>stream</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -240,11 +269,65 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="blas_8c_source.html#l00148">blas_gemm()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="pred__rls_8c_source.html#l00145">pred_rls_update()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="blas__kernels_8h_a7c242c058a1b94bb7374cabcaa640da7_icgraph.svg" width="442" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="blas__kernels_8h_a626dbef51b1cea6d14bce65ebc8d0f86_icgraph.svg" width="260" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a11bcbc4229dc0200dace139cc530c3e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11bcbc4229dc0200dace139cc530c3e8">&#9670;&nbsp;</a></span>scal_gpu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void scal_gpu </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>ALPHA</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>INCX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const cudaStream_t *&#160;</td>
+          <td class="paramname"><em>stream</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="pred__rls_8c_source.html#l00145">pred_rls_update()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="blas__kernels_8h_a11bcbc4229dc0200dace139cc530c3e8_icgraph.svg" width="248" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 

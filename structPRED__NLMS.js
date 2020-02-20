@@ -2,6 +2,7 @@ var structPRED__NLMS =
 [
     [ "eta", "structPRED__NLMS.html#a488789f699dbf0a83a65089bd3d2a3ce", null ],
     [ "mu", "structPRED__NLMS.html#ade08256d7b44125d4bcc2fd60cb4a0cc", null ],
-    [ "weights", "structPRED__NLMS.html#a296468919c29efa4055a4d51610e1c4f", null ],
-    [ "weights_length", "structPRED__NLMS.html#a58b5a98013465015562b48f2494013a3", null ]
+    [ "n", "structPRED__NLMS.html#a24d9233771c8552918204b7443a80ca5", null ],
+    [ "n_weights", "structPRED__NLMS.html#a61a3667af8c5f25bcd5f5e4bb541d8ae", null ],
+    [ "weights", "structPRED__NLMS.html#a7f2e2f8e2464f99f1bf4ae00af9ed8a0", null ]
 ];
