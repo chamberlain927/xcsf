@@ -2,7 +2,6 @@ var searchData=
 [
   ['neural_2ec',['neural.c',['../neural_8c.html',1,'']]],
   ['neural_2eh',['neural.h',['../neural_8h.html',1,'']]],
-  ['neural_5factivation_5fkernels_2eh',['neural_activation_kernels.h',['../neural__activation__kernels_8h.html',1,'']]],
   ['neural_5factivations_2ec',['neural_activations.c',['../neural__activations_8c.html',1,'']]],
   ['neural_5factivations_2eh',['neural_activations.h',['../neural__activations_8h.html',1,'']]],
   ['neural_5flayer_2ec',['neural_layer.c',['../neural__layer_8c.html',1,'']]],

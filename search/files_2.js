@@ -21,6 +21,5 @@ var searchData=
   ['condition_2ec',['condition.c',['../condition_8c.html',1,'']]],
   ['condition_2eh',['condition.h',['../condition_8h.html',1,'']]],
   ['config_2ec',['config.c',['../config_8c.html',1,'']]],
-  ['config_2eh',['config.h',['../config_8h.html',1,'']]],
-  ['cuda_2eh',['cuda.h',['../cuda_8h.html',1,'']]]
+  ['config_2eh',['config.h',['../config_8h.html',1,'']]]
 ];

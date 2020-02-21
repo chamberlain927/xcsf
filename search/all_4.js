@@ -9,7 +9,7 @@ var searchData=
   ['ea_5fselect_5froulette',['EA_SELECT_ROULETTE',['../ea_8c.html#aeb166d481b9c61c177c155402335e4e2',1,'ea.c']]],
   ['ea_5fselect_5frw',['ea_select_rw',['../ea_8c.html#a715c3a5736659610b1ac1bd34bd77008',1,'ea.c']]],
   ['ea_5fselect_5fsize',['EA_SELECT_SIZE',['../structXCSF.html#ae15f8fef844b25ad37f95a94e771270a',1,'XCSF']]],
-  ['ea_5fselect_5ftournament',['ea_select_tournament',['../ea_8c.html#a820eac4258fe096a1ac0c1a67969f71e',1,'ea_select_tournament(const XCSF *xcsf, const SET *set):&#160;ea.c'],['../ea_8c.html#a3e45cbb20be181c5186ed716880823af',1,'EA_SELECT_TOURNAMENT():&#160;ea.c']]],
+  ['ea_5fselect_5ftournament',['EA_SELECT_TOURNAMENT',['../ea_8c.html#a3e45cbb20be181c5186ed716880823af',1,'EA_SELECT_TOURNAMENT():&#160;ea.c'],['../ea_8c.html#a820eac4258fe096a1ac0c1a67969f71e',1,'ea_select_tournament(const XCSF *xcsf, const SET *set):&#160;ea.c']]],
   ['ea_5fselect_5ftype',['EA_SELECT_TYPE',['../structXCSF.html#a08e09663631fe7e00bda85d3ce80108d',1,'XCSF']]],
   ['ea_5fsubsume',['ea_subsume',['../ea_8c.html#a8ea16017fe8753d9b079e8e333d98545',1,'ea.c']]],
   ['ea_5fsubsumption',['EA_SUBSUMPTION',['../structXCSF.html#a5435ad129888625266255b28b276bf0f',1,'XCSF']]],

@@ -51,7 +51,6 @@ var searchData=
   ['action_2ec',['action.c',['../action_8c.html',1,'']]],
   ['action_2eh',['action.h',['../action_8h.html',1,'']]],
   ['action_5fset',['action_set',['../action_8c.html#ac235375c6dc54d6abca5efb0f50b1400',1,'action_set(const XCSF *xcsf, CL *c):&#160;action.c'],['../action_8h.html#ac235375c6dc54d6abca5efb0f50b1400',1,'action_set(const XCSF *xcsf, CL *c):&#160;action.c']]],
-  ['activate_5farray_5fgpu',['activate_array_gpu',['../neural__activation__kernels_8h.html#a3366620fedefa3205425a73939491e3d',1,'neural_activation_kernels.h']]],
   ['actvtbl',['ActVtbl',['../structActVtbl.html',1,'']]],
   ['add',['ADD',['../gp_8c.html#a97fe5470fb1ac167c713671655ff3e52',1,'gp.c']]],
   ['age',['age',['../structCL.html#af9c2de55d24975ff050b430b164825ce',1,'CL']]],

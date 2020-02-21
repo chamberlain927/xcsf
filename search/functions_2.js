@@ -179,15 +179,5 @@ var searchData=
   ['config_5ftrim',['config_trim',['../config_8c.html#a0c81724e9bdc867a3dd41bafab67cbd3',1,'config.c']]],
   ['constrain',['constrain',['../utils_8c.html#a4d9693be6ce890dc7a2ee825d11ca3ee',1,'constrain(double min, double max, double a):&#160;utils.c'],['../utils_8h.html#a4d9693be6ce890dc7a2ee825d11ca3ee',1,'constrain(double min, double max, double a):&#160;utils.c']]],
   ['cos_5factivate',['cos_activate',['../neural__activations_8h.html#abb0ed807625c86c51e2b7d4c6a5c7131',1,'neural_activations.h']]],
-  ['cos_5fgradient',['cos_gradient',['../neural__activations_8h.html#aeb419ce905e0dc5552b80a2cbee8d7b4',1,'neural_activations.h']]],
-  ['cuda_5fcreate_5fstream',['cuda_create_stream',['../cuda_8h.html#a3053369275468b696672af9128373951',1,'cuda.h']]],
-  ['cuda_5fdestroy_5fstream',['cuda_destroy_stream',['../cuda_8h.html#af15cbc7eaa3779003f99ffabc4f71db0',1,'cuda.h']]],
-  ['cuda_5ffree',['cuda_free',['../cuda_8h.html#a0b759ed852956d3a43d577bf35966c81',1,'cuda.h']]],
-  ['cuda_5fget_5fdevice',['cuda_get_device',['../cuda_8h.html#aa39b28ad12b11e171c7330d71f8db0f4',1,'cuda.h']]],
-  ['cuda_5finfo',['cuda_info',['../cuda_8h.html#aa1d99d324ce7501b59edf1ab489835e6',1,'cuda.h']]],
-  ['cuda_5fmake_5farray',['cuda_make_array',['../cuda_8h.html#ae7232801b626203e05c04dd734796d65',1,'cuda.h']]],
-  ['cuda_5fmemset',['cuda_memset',['../cuda_8h.html#a3fc0fe75ad2dc888cfa2946ebdfc4d60',1,'cuda.h']]],
-  ['cuda_5fpull_5farray',['cuda_pull_array',['../cuda_8h.html#a837bba40f58ed80ec242ac72f3201b22',1,'cuda.h']]],
-  ['cuda_5fpush_5farray',['cuda_push_array',['../cuda_8h.html#a37c7613bbe76f2bc24e95c79d1c3fcf7',1,'cuda.h']]],
-  ['cuda_5fset_5fdevice',['cuda_set_device',['../cuda_8h.html#aa4214bec4ec8eda4c37f5e1487efa2e9',1,'cuda.h']]]
+  ['cos_5fgradient',['cos_gradient',['../neural__activations_8h.html#aeb419ce905e0dc5552b80a2cbee8d7b4',1,'neural_activations.h']]]
 ];

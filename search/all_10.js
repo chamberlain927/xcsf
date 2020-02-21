@@ -13,7 +13,6 @@ var searchData=
   ['sam_5ftype',['SAM_TYPE',['../structXCSF.html#ab3a411a6ca44c88d007ced78c534410a',1,'XCSF']]],
   ['save',['save',['../structXCS.html#a1312ff6b9e9eef9c34029bff38c39de7',1,'XCS']]],
   ['scal_5fcpu',['scal_cpu',['../blas_8c.html#a11e9747be19587201b093f3c51686cc1',1,'blas.c']]],
-  ['scal_5fgpu',['scal_gpu',['../blas__kernels_8h.html#a11bcbc4229dc0200dace139cc530c3e8',1,'blas_kernels.h']]],
   ['scale',['scale',['../structLAYER.html#ab5ed397f7befb5d5388b6505d822b263',1,'LAYER']]],
   ['score',['score',['../structXCS.html#aa77bc77484d6d14bf512304a23cfec88',1,'XCS']]],
   ['selu',['SELU',['../neural__activations_8h.html#a549840c5b77ff7eb85bb080629bc253a',1,'neural_activations.h']]],
