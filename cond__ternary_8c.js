@@ -18,5 +18,6 @@ var cond__ternary_8c =
     [ "cond_ternary_rand", "cond__ternary_8c.html#af2345313a50182fffbc191ddefc9ea05", null ],
     [ "cond_ternary_save", "cond__ternary_8c.html#a95ae577d4aac8a9f4fd9b97d39575df6", null ],
     [ "cond_ternary_size", "cond__ternary_8c.html#a236df3e8c9b0d3615b39a53763a1260e", null ],
-    [ "cond_ternary_update", "cond__ternary_8c.html#a4822d0c80f63601301ba16c4aedb696e", null ]
+    [ "cond_ternary_update", "cond__ternary_8c.html#a4822d0c80f63601301ba16c4aedb696e", null ],
+    [ "float_to_binary", "cond__ternary_8c.html#aba5b4730a66915430c5986d11d39537f", null ]
 ];

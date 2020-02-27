@@ -11,6 +11,7 @@ var prediction_8h =
     [ "pred_print", "prediction_8h.html#aa20cce1c5d4805d59e833c7738e10570", null ],
     [ "pred_save", "prediction_8h.html#a9417a88e432eac7f1463ac0248e3243f", null ],
     [ "pred_size", "prediction_8h.html#a60ead673b526125328224ec152916290", null ],
+    [ "pred_transform_input", "prediction_8h.html#a8a71de0e00b92a0e5199b999f3e0cb04", null ],
     [ "pred_update", "prediction_8h.html#a45792a63b5b63ffa0ede37b3c1468f56", null ],
     [ "prediction_set", "prediction_8h.html#acc3389ac08ab3b032ab1223e3339be12", null ]
 ];

@@ -11,6 +11,7 @@ var annotated_dup =
     [ "COND_RECTANGLE", "structCOND__RECTANGLE.html", "structCOND__RECTANGLE" ],
     [ "COND_TERNARY", "structCOND__TERNARY.html", "structCOND__TERNARY" ],
     [ "CondVtbl", "structCondVtbl.html", "structCondVtbl" ],
+    [ "DSFMT_T", "structDSFMT__T.html", "structDSFMT__T" ],
     [ "ENV_CSV", "structENV__CSV.html", "structENV__CSV" ],
     [ "ENV_MAZE", "structENV__MAZE.html", "structENV__MAZE" ],
     [ "ENV_MUX", "structENV__MUX.html", "structENV__MUX" ],
@@ -30,6 +31,7 @@ var annotated_dup =
     [ "RULE_DGP", "structRULE__DGP.html", "structRULE__DGP" ],
     [ "RULE_NEURAL", "structRULE__NEURAL.html", "structRULE__NEURAL" ],
     [ "SET", "structSET.html", "structSET" ],
-    [ "XCS", "structXCS.html", "structXCS" ],
+    [ "W128_T", "unionW128__T.html", "unionW128__T" ],
+    [ "XCS", "classXCS.html", "classXCS" ],
     [ "XCSF", "structXCSF.html", "structXCSF" ]
 ];

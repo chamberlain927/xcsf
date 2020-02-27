@@ -103,8 +103,7 @@ $(document).ready(function(){initNavTree('env__csv_8c.html','');});
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for env_csv.c:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="env__csv_8c__incl.svg" width="788" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="env__csv_8c__incl.svg" width="788" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <p><a href="env__csv_8c_source.html">Go to the source code of this file.</a></p>
@@ -126,12 +125,21 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8567bcba682041121bb9fa5522d4d144"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="env__csv_8c.html#a8567bcba682041121bb9fa5522d4d144">env_csv_read</a> (const char *fname, double **data, int *n_samples, int *dim)</td></tr>
-<tr class="memdesc:a8567bcba682041121bb9fa5522d4d144"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses a specified csv file.  <a href="#a8567bcba682041121bb9fa5522d4d144">More...</a><br /></td></tr>
-<tr class="separator:a8567bcba682041121bb9fa5522d4d144"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa04f4059d7dc32f286289991c7359976"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="env__csv_8c.html#aa04f4059d7dc32f286289991c7359976">env_csv_read</a> (const char *fname, double **data, int *n_samples, int *n_dim)</td></tr>
+<tr class="memdesc:aa04f4059d7dc32f286289991c7359976"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses a specified csv file.  <a href="#aa04f4059d7dc32f286289991c7359976">More...</a><br /></td></tr>
+<tr class="separator:aa04f4059d7dc32f286289991c7359976"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78dfcdc69acd0dcbc74e2ca2db795ebe"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="env__csv_8c.html#a78dfcdc69acd0dcbc74e2ca2db795ebe">env_csv_input_read</a> (const char *infile, <a class="el" href="structINPUT.html">INPUT</a> *train_data, <a class="el" href="structINPUT.html">INPUT</a> *test_data)</td></tr>
 <tr class="memdesc:a78dfcdc69acd0dcbc74e2ca2db795ebe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses specified csv files into training and testing data sets.  <a href="#a78dfcdc69acd0dcbc74e2ca2db795ebe">More...</a><br /></td></tr>
 <tr class="separator:a78dfcdc69acd0dcbc74e2ca2db795ebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a198d536c7c45d4143d8eedcc674278b7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="env__csv_8c.html#a198d536c7c45d4143d8eedcc674278b7">env_csv_read_data</a> (FILE *fin, double **data, int n_samples, int n_dim)</td></tr>
+<tr class="memdesc:a198d536c7c45d4143d8eedcc674278b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the data from a csv file.  <a href="#a198d536c7c45d4143d8eedcc674278b7">More...</a><br /></td></tr>
+<tr class="separator:a198d536c7c45d4143d8eedcc674278b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43f5c7d8568e48dc8e3c107892186adc"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="env__csv_8c.html#a43f5c7d8568e48dc8e3c107892186adc">env_csv_samples</a> (FILE *fin)</td></tr>
+<tr class="memdesc:a43f5c7d8568e48dc8e3c107892186adc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of samples in a csv file.  <a href="#a43f5c7d8568e48dc8e3c107892186adc">More...</a><br /></td></tr>
+<tr class="separator:a43f5c7d8568e48dc8e3c107892186adc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8011f01dca045f19b0ff6284e3d377aa"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="env__csv_8c.html#a8011f01dca045f19b0ff6284e3d377aa">env_csv_dim</a> (FILE *fin)</td></tr>
+<tr class="memdesc:a8011f01dca045f19b0ff6284e3d377aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of dimensions in a csv file.  <a href="#a8011f01dca045f19b0ff6284e3d377aa">More...</a><br /></td></tr>
+<tr class="separator:a8011f01dca045f19b0ff6284e3d377aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a144034032efbffcd91e5ab7734581ae6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="env__csv_8c.html#a144034032efbffcd91e5ab7734581ae6">env_csv_init</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, const char *fname)</td></tr>
 <tr class="memdesc:a144034032efbffcd91e5ab7734581ae6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises a CSV input environment from a specified filename.  <a href="#a144034032efbffcd91e5ab7734581ae6">More...</a><br /></td></tr>
 <tr class="separator:a144034032efbffcd91e5ab7734581ae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -175,7 +183,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="env__csv_8c_source.html#l00037">37</a> of file <a class="el" href="env__csv_8c_source.html">env_csv.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="env__csv_8c_source.html#l00105">env_csv_read()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="env__csv_8c_source.html#l00149">env_csv_dim()</a>, and <a class="el" href="env__csv_8c_source.html#l00174">env_csv_read_data()</a>.</p>
 
 </div>
 </div>
@@ -195,7 +203,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="env__csv_8c_source.html#l00035">35</a> of file <a class="el" href="env__csv_8c_source.html">env_csv.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="env__csv_8c_source.html#l00105">env_csv_read()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="env__csv_8c_source.html#l00149">env_csv_dim()</a>, <a class="el" href="env__csv_8c_source.html#l00174">env_csv_read_data()</a>, and <a class="el" href="env__csv_8c_source.html#l00134">env_csv_samples()</a>.</p>
 
 </div>
 </div>
@@ -215,7 +223,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="env__csv_8c_source.html#l00036">36</a> of file <a class="el" href="env__csv_8c_source.html">env_csv.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="env__csv_8c_source.html#l00083">env_csv_input_read()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="env__csv_8c_source.html#l00086">env_csv_input_read()</a>.</p>
 
 </div>
 </div>
@@ -235,11 +243,55 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="env__csv_8c_source.html#l00034">34</a> of file <a class="el" href="env__csv_8c_source.html">env_csv.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="env__csv_8c_source.html#l00105">env_csv_read()</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a8011f01dca045f19b0ff6284e3d377aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8011f01dca045f19b0ff6284e3d377aa">&#9670;&nbsp;</a></span>env_csv_dim()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int env_csv_dim </td>
+          <td>(</td>
+          <td class="paramtype">FILE *&#160;</td>
+          <td class="paramname"><em>fin</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the number of dimensions in a csv file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fin</td><td>The csv file. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The number of dimensions. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="env__csv_8c_source.html#l00149">149</a> of file <a class="el" href="env__csv_8c_source.html">env_csv.c</a>.</p>
+
+<p class="reference">References <a class="el" href="env__csv_8c_source.html#l00037">DELIM</a>, and <a class="el" href="env__csv_8c_source.html#l00035">MAX_COLS</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="env__csv_8c_source.html#l00108">env_csv_read()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="env__csv_8c_a8011f01dca045f19b0ff6284e3d377aa_icgraph.svg" width="803" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a6fba64a412f82680e9c509413d829bf3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6fba64a412f82680e9c509413d829bf3">&#9670;&nbsp;</a></span>env_csv_execute()</h2>
 
@@ -266,7 +318,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="env__csv_8c_source.html#l00166">166</a> of file <a class="el" href="env__csv_8c_source.html">env_csv.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="env__csv_8c_source.html#l00207">207</a> of file <a class="el" href="env__csv_8c_source.html">env_csv.c</a>.</p>
 
 </div>
 </div>
@@ -294,7 +346,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="env__csv_8c_source.html#l00063">63</a> of file <a class="el" href="env__csv_8c_source.html">env_csv.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="env__csv_8c_source.html#l00066">66</a> of file <a class="el" href="env__csv_8c_source.html">env_csv.c</a>.</p>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00185">XCSF::env</a>, <a class="el" href="env__csv_8h_source.html#l00031">ENV_CSV::test_data</a>, <a class="el" href="env__csv_8h_source.html#l00030">ENV_CSV::train_data</a>, <a class="el" href="xcsf_8h_source.html#l00204">INPUT::x</a>, and <a class="el" href="xcsf_8h_source.html#l00205">INPUT::y</a>.</p>
 
@@ -316,7 +368,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="env__csv_8c_source.html#l00160">160</a> of file <a class="el" href="env__csv_8c_source.html">env_csv.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="env__csv_8c_source.html#l00201">201</a> of file <a class="el" href="env__csv_8c_source.html">env_csv.c</a>.</p>
 
 </div>
 </div>
@@ -355,22 +407,20 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="env__csv_8c_source.html#l00047">47</a> of file <a class="el" href="env__csv_8c_source.html">env_csv.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="env__csv_8c_source.html#l00050">50</a> of file <a class="el" href="env__csv_8c_source.html">env_csv.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00185">XCSF::env</a>, <a class="el" href="env__csv_8c_source.html#l00083">env_csv_input_read()</a>, <a class="el" href="xcsf_8h_source.html#l00196">XCSF::n_actions</a>, <a class="el" href="env__csv_8h_source.html#l00031">ENV_CSV::test_data</a>, <a class="el" href="env__csv_8h_source.html#l00030">ENV_CSV::train_data</a>, <a class="el" href="xcsf_8h_source.html#l00194">XCSF::x_dim</a>, <a class="el" href="xcsf_8h_source.html#l00206">INPUT::x_dim</a>, <a class="el" href="xcsf_8h_source.html#l00195">XCSF::y_dim</a>, and <a class="el" href="xcsf_8h_source.html#l00207">INPUT::y_dim</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00185">XCSF::env</a>, <a class="el" href="env__csv_8c_source.html#l00086">env_csv_input_read()</a>, <a class="el" href="xcsf_8h_source.html#l00196">XCSF::n_actions</a>, <a class="el" href="env__csv_8h_source.html#l00031">ENV_CSV::test_data</a>, <a class="el" href="env__csv_8h_source.html#l00030">ENV_CSV::train_data</a>, <a class="el" href="xcsf_8h_source.html#l00194">XCSF::x_dim</a>, <a class="el" href="xcsf_8h_source.html#l00206">INPUT::x_dim</a>, <a class="el" href="xcsf_8h_source.html#l00195">XCSF::y_dim</a>, and <a class="el" href="xcsf_8h_source.html#l00207">INPUT::y_dim</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="env_8c_source.html#l00041">env_init()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="env__csv_8c_a144034032efbffcd91e5ab7734581ae6_cgraph.svg" width="443" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="env__csv_8c_a144034032efbffcd91e5ab7734581ae6_cgraph.svg" width="626" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="env__csv_8c_a144034032efbffcd91e5ab7734581ae6_icgraph.svg" width="319" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="env__csv_8c_a144034032efbffcd91e5ab7734581ae6_icgraph.svg" width="319" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -426,22 +476,20 @@ Here is the caller graph for this function:</div>
 </dl>
 <p>Expects an identical number of x and y samples. </p>
 
-<p class="definition">Definition at line <a class="el" href="env__csv_8c_source.html#l00083">83</a> of file <a class="el" href="env__csv_8c_source.html">env_csv.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="env__csv_8c_source.html#l00086">86</a> of file <a class="el" href="env__csv_8c_source.html">env_csv.c</a>.</p>
 
-<p class="reference">References <a class="el" href="env__csv_8c_source.html#l00105">env_csv_read()</a>, <a class="el" href="env__csv_8c_source.html#l00036">MAX_NAME</a>, <a class="el" href="xcsf_8h_source.html#l00208">INPUT::n_samples</a>, <a class="el" href="xcsf_8h_source.html#l00204">INPUT::x</a>, <a class="el" href="xcsf_8h_source.html#l00206">INPUT::x_dim</a>, <a class="el" href="xcsf_8h_source.html#l00205">INPUT::y</a>, and <a class="el" href="xcsf_8h_source.html#l00207">INPUT::y_dim</a>.</p>
+<p class="reference">References <a class="el" href="env__csv_8c_source.html#l00108">env_csv_read()</a>, <a class="el" href="env__csv_8c_source.html#l00036">MAX_NAME</a>, <a class="el" href="xcsf_8h_source.html#l00208">INPUT::n_samples</a>, <a class="el" href="xcsf_8h_source.html#l00204">INPUT::x</a>, <a class="el" href="xcsf_8h_source.html#l00206">INPUT::x_dim</a>, <a class="el" href="xcsf_8h_source.html#l00205">INPUT::y</a>, and <a class="el" href="xcsf_8h_source.html#l00207">INPUT::y_dim</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="env__csv_8c_source.html#l00047">env_csv_init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="env__csv_8c_source.html#l00050">env_csv_init()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="env__csv_8c_a78dfcdc69acd0dcbc74e2ca2db795ebe_cgraph.svg" width="300" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="env__csv_8c_a78dfcdc69acd0dcbc74e2ca2db795ebe_cgraph.svg" width="483" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="env__csv_8c_a78dfcdc69acd0dcbc74e2ca2db795ebe_icgraph.svg" width="506" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="env__csv_8c_a78dfcdc69acd0dcbc74e2ca2db795ebe_icgraph.svg" width="506" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -462,7 +510,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="env__csv_8c_source.html#l00154">154</a> of file <a class="el" href="env__csv_8c_source.html">env_csv.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="env__csv_8c_source.html#l00195">195</a> of file <a class="el" href="env__csv_8c_source.html">env_csv.c</a>.</p>
 
 </div>
 </div>
@@ -482,7 +530,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="env__csv_8c_source.html#l00179">179</a> of file <a class="el" href="env__csv_8c_source.html">env_csv.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="env__csv_8c_source.html#l00220">220</a> of file <a class="el" href="env__csv_8c_source.html">env_csv.c</a>.</p>
 
 </div>
 </div>
@@ -502,12 +550,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="env__csv_8c_source.html#l00173">173</a> of file <a class="el" href="env__csv_8c_source.html">env_csv.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="env__csv_8c_source.html#l00214">214</a> of file <a class="el" href="env__csv_8c_source.html">env_csv.c</a>.</p>
 
 </div>
 </div>
-<a id="a8567bcba682041121bb9fa5522d4d144"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8567bcba682041121bb9fa5522d4d144">&#9670;&nbsp;</a></span>env_csv_read()</h2>
+<a id="aa04f4059d7dc32f286289991c7359976"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa04f4059d7dc32f286289991c7359976">&#9670;&nbsp;</a></span>env_csv_read()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -537,7 +585,7 @@ Here is the caller graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int *&#160;</td>
-          <td class="paramname"><em>dim</em>&#160;</td>
+          <td class="paramname"><em>n_dim</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -558,22 +606,96 @@ Here is the caller graph for this function:</div>
     <tr><td class="paramname">fname</td><td>The name of the csv file to read. </td></tr>
     <tr><td class="paramname">data</td><td>The data structure to load the data (set by this function). </td></tr>
     <tr><td class="paramname">n_samples</td><td>The number of samples in the dataset (set by this function). </td></tr>
-    <tr><td class="paramname">dim</td><td>The number of dimensions in the dataset (set by this function).</td></tr>
+    <tr><td class="paramname">n_dim</td><td>The number of dimensions in the dataset (set by this function).</td></tr>
   </table>
   </dd>
 </dl>
-<p>Provided a file name will set the data, n_samples, and dim. </p>
+<p>Provided a file name will set the data, n_samples, and n_dim. </p>
 
-<p class="definition">Definition at line <a class="el" href="env__csv_8c_source.html#l00105">105</a> of file <a class="el" href="env__csv_8c_source.html">env_csv.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="env__csv_8c_source.html#l00108">108</a> of file <a class="el" href="env__csv_8c_source.html">env_csv.c</a>.</p>
 
-<p class="reference">References <a class="el" href="env__csv_8c_source.html#l00037">DELIM</a>, <a class="el" href="env__csv_8c_source.html#l00035">MAX_COLS</a>, and <a class="el" href="env__csv_8c_source.html#l00034">MAX_ROWS</a>.</p>
+<p class="reference">References <a class="el" href="env__csv_8c_source.html#l00149">env_csv_dim()</a>, <a class="el" href="env__csv_8c_source.html#l00174">env_csv_read_data()</a>, and <a class="el" href="env__csv_8c_source.html#l00134">env_csv_samples()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="env__csv_8c_source.html#l00083">env_csv_input_read()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="env__csv_8c_source.html#l00086">env_csv_input_read()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="env__csv_8c_aa04f4059d7dc32f286289991c7359976_cgraph.svg" width="296" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="env__csv_8c_a8567bcba682041121bb9fa5522d4d144_icgraph.svg" width="656" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="env__csv_8c_aa04f4059d7dc32f286289991c7359976_icgraph.svg" width="656" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
+
+</div>
+</div>
+<a id="a198d536c7c45d4143d8eedcc674278b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a198d536c7c45d4143d8eedcc674278b7">&#9670;&nbsp;</a></span>env_csv_read_data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void env_csv_read_data </td>
+          <td>(</td>
+          <td class="paramtype">FILE *&#160;</td>
+          <td class="paramname"><em>fin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double **&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n_samples</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n_dim</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reads the data from a csv file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fin</td><td>The csv file. </td></tr>
+    <tr><td class="paramname">data</td><td>The data (set by this function). </td></tr>
+    <tr><td class="paramname">n_samples</td><td>The number of samples. </td></tr>
+    <tr><td class="paramname">n_dim</td><td>The number of dimensions. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="env__csv_8c_source.html#l00174">174</a> of file <a class="el" href="env__csv_8c_source.html">env_csv.c</a>.</p>
+
+<p class="reference">References <a class="el" href="env__csv_8c_source.html#l00037">DELIM</a>, and <a class="el" href="env__csv_8c_source.html#l00035">MAX_COLS</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="env__csv_8c_source.html#l00108">env_csv_read()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="env__csv_8c_a198d536c7c45d4143d8eedcc674278b7_icgraph.svg" width="839" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -594,7 +716,53 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="env__csv_8c_source.html#l00149">149</a> of file <a class="el" href="env__csv_8c_source.html">env_csv.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="env__csv_8c_source.html#l00190">190</a> of file <a class="el" href="env__csv_8c_source.html">env_csv.c</a>.</p>
+
+</div>
+</div>
+<a id="a43f5c7d8568e48dc8e3c107892186adc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43f5c7d8568e48dc8e3c107892186adc">&#9670;&nbsp;</a></span>env_csv_samples()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int env_csv_samples </td>
+          <td>(</td>
+          <td class="paramtype">FILE *&#160;</td>
+          <td class="paramname"><em>fin</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the number of samples in a csv file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fin</td><td>The csv file. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The number of samples. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="env__csv_8c_source.html#l00134">134</a> of file <a class="el" href="env__csv_8c_source.html">env_csv.c</a>.</p>
+
+<p class="reference">References <a class="el" href="env__csv_8c_source.html#l00035">MAX_COLS</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="env__csv_8c_source.html#l00108">env_csv_read()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="env__csv_8c_a43f5c7d8568e48dc8e3c107892186adc_icgraph.svg" width="831" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>

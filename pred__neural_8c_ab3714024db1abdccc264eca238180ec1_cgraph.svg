@@ -8,54 +8,54 @@
  viewBox="0.00 0.00 335.00 66.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 62)">
 <title>pred_neural_update</title>
-<!-- Node93 -->
+<!-- Node95 -->
 <g id="node1" class="node">
-<title>Node93</title>
+<title>Node95</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-19.5 0,-38.5 101,-38.5 101,-19.5 0,-19.5"/>
 <text text-anchor="middle" x="50.5" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">pred_neural_update</text>
 </g>
-<!-- Node94 -->
+<!-- Node96 -->
 <g id="node2" class="node">
-<title>Node94</title>
+<title>Node96</title>
 <g id="a_node2"><a xlink:href="neural_8c.html#a1b1b03936f483261383e82c36540f1eb" target="_top" xlink:title="Performs a gradient descent update on a neural network. ">
 <polygon fill="none" stroke="#000000" points="137,-19.5 137,-38.5 206,-38.5 206,-19.5 137,-19.5"/>
 <text text-anchor="middle" x="171.5" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">neural_learn</text>
 </a>
 </g>
 </g>
-<!-- Node93&#45;&gt;Node94 -->
+<!-- Node95&#45;&gt;Node96 -->
 <g id="edge1" class="edge">
-<title>Node93&#45;&gt;Node94</title>
+<title>Node95&#45;&gt;Node96</title>
 <path fill="none" stroke="#191970" d="M101.1138,-29C109.5832,-29 118.3183,-29 126.6307,-29"/>
 <polygon fill="#191970" stroke="#191970" points="126.882,-32.5001 136.8819,-29 126.8819,-25.5001 126.882,-32.5001"/>
 </g>
-<!-- Node95 -->
+<!-- Node97 -->
 <g id="node3" class="node">
-<title>Node95</title>
+<title>Node97</title>
 <g id="a_node3"><a xlink:href="neural__layer_8h.html#a36908e172693a17aaaf941d7d972231f" target="_top" xlink:title="Backward propagates the error through a layer. ">
 <polygon fill="none" stroke="#000000" points="242,-38.5 242,-57.5 327,-57.5 327,-38.5 242,-38.5"/>
 <text text-anchor="middle" x="284.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">layer_backward</text>
 </a>
 </g>
 </g>
-<!-- Node94&#45;&gt;Node95 -->
+<!-- Node96&#45;&gt;Node97 -->
 <g id="edge2" class="edge">
-<title>Node94&#45;&gt;Node95</title>
+<title>Node96&#45;&gt;Node97</title>
 <path fill="none" stroke="#191970" d="M206.0177,-34.8039C214.1349,-36.1687 222.9692,-37.6541 231.686,-39.1198"/>
 <polygon fill="#191970" stroke="#191970" points="231.3728,-42.6162 241.8148,-40.8228 232.5336,-35.7131 231.3728,-42.6162"/>
 </g>
-<!-- Node96 -->
+<!-- Node98 -->
 <g id="node4" class="node">
-<title>Node96</title>
+<title>Node98</title>
 <g id="a_node4"><a xlink:href="neural__layer_8h.html#ad6d84d10a87ae6ea164f482a73ee9dfa" target="_top" xlink:title="Updates the weights and biases of a layer. ">
 <polygon fill="none" stroke="#000000" points="248.5,-.5 248.5,-19.5 320.5,-19.5 320.5,-.5 248.5,-.5"/>
 <text text-anchor="middle" x="284.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">layer_update</text>
 </a>
 </g>
 </g>
-<!-- Node94&#45;&gt;Node96 -->
+<!-- Node96&#45;&gt;Node98 -->
 <g id="edge3" class="edge">
-<title>Node94&#45;&gt;Node96</title>
+<title>Node96&#45;&gt;Node98</title>
 <path fill="none" stroke="#191970" d="M206.0177,-23.1961C216.15,-21.4925 227.3996,-19.6009 238.1434,-17.7945"/>
 <polygon fill="#191970" stroke="#191970" points="238.9548,-21.2073 248.236,-16.0975 237.7941,-14.3042 238.9548,-21.2073"/>
 </g>

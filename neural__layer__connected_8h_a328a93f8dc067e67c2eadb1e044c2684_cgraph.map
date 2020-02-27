@@ -1,22 +1,21 @@
 <map id="neural_layer_connected_forward" name="neural_layer_connected_forward">
-<area shape="rect" id="node2" href="$blas_8c.html#a1a64812460975600e087a38bbfd292aa" title="blas_gemm" alt="" coords="241,171,330,197"/>
-<area shape="rect" id="node8" href="$neural__activations_8c.html#a31ebed878fdc3dd004c1bc50ac0b7584" title="Applies a specified activation function to an array. " alt="" coords="212,323,359,349"/>
-<area shape="rect" id="node3" href="$blas_8c.html#acc5e5ab67771cd6b3ada2fd6533899c3" title="gemm_cpu" alt="" coords="419,107,505,133"/>
-<area shape="rect" id="node4" href="$blas_8c.html#a19039ca820abf5f9fe5963ce118f836d" title="gemm_nn" alt="" coords="590,5,669,32"/>
-<area shape="rect" id="node5" href="$blas_8c.html#aca9b706fd3bbf0bd260e60636311846d" title="gemm_nt" alt="" coords="591,56,667,83"/>
-<area shape="rect" id="node6" href="$blas_8c.html#a1903d50ec698fb744676468e78834763" title="gemm_tn" alt="" coords="591,107,667,133"/>
-<area shape="rect" id="node7" href="$blas_8c.html#a4f55eb00f6ea7089b7f77697e9511ec0" title="gemm_tt" alt="" coords="593,157,666,184"/>
-<area shape="rect" id="node9" href="$utils_8c.html#a4d9693be6ce890dc7a2ee825d11ca3ee" title="Returns a float constrained within the specified range. " alt="" coords="425,323,499,349"/>
-<area shape="rect" id="node10" href="$neural__activations_8c.html#af7951a549e0f2b7de833d9473adc2c0c" title="Returns the result from applying a specified activation function. " alt="" coords="407,436,517,463"/>
-<area shape="rect" id="node11" href="$neural__activations_8h.html#abb0ed807625c86c51e2b7d4c6a5c7131" title="cos_activate" alt="" coords="581,208,677,235"/>
-<area shape="rect" id="node12" href="$neural__activations_8h.html#a36f845e6eec4a4dd6001aa56e49ef196" title="gaussian_activate" alt="" coords="566,259,693,285"/>
-<area shape="rect" id="node13" href="$neural__activations_8h.html#afaca3dadb26beb0668bafd5058d71aa4" title="leaky_activate" alt="" coords="576,309,683,336"/>
-<area shape="rect" id="node14" href="$neural__activations_8h.html#a522644040f851178194bfde8fd9c4816" title="linear_activate" alt="" coords="576,360,683,387"/>
-<area shape="rect" id="node15" href="$neural__activations_8h.html#a59dcdbb0b47312c88ca0c92d9c06337c" title="loggy_activate" alt="" coords="576,411,683,437"/>
-<area shape="rect" id="node16" href="$neural__activations_8h.html#a63547ce0417b7290156185257cdde252" title="logistic_activate" alt="" coords="571,461,687,488"/>
-<area shape="rect" id="node17" href="$neural__activations_8h.html#a90b4b22f4ec82215ebf5bee3ccd0013f" title="relu_activate" alt="" coords="581,512,677,539"/>
-<area shape="rect" id="node18" href="$neural__activations_8h.html#a6f033c99e837d6615c495f4f2273d92d" title="selu_activate" alt="" coords="580,563,679,589"/>
-<area shape="rect" id="node19" href="$neural__activations_8h.html#a02090b679f2d4a4fc64567538275a4ae" title="sin_activate" alt="" coords="583,613,675,640"/>
-<area shape="rect" id="node20" href="$neural__activations_8h.html#a1e7917de33b1a1c96bf0d2463808f03f" title="soft_plus_activate" alt="" coords="565,664,693,691"/>
-<area shape="rect" id="node21" href="$neural__activations_8h.html#ad140d819f7f36fd2750f697d914cfed9" title="tanh_activate" alt="" coords="579,715,679,741"/>
+<area shape="rect" id="node2" href="$blas_8c.html#a1a64812460975600e087a38bbfd292aa" title="Performs the matrix&#45;matrix multiplication: . " alt="" coords="241,107,330,133"/>
+<area shape="rect" id="node7" href="$neural__activations_8c.html#a31ebed878fdc3dd004c1bc50ac0b7584" title="Applies a specified activation function to an array. " alt="" coords="212,208,359,235"/>
+<area shape="rect" id="node3" href="$blas_8c.html#a19039ca820abf5f9fe5963ce118f836d" title="gemm_nn" alt="" coords="423,5,501,32"/>
+<area shape="rect" id="node4" href="$blas_8c.html#aca9b706fd3bbf0bd260e60636311846d" title="gemm_nt" alt="" coords="424,56,500,83"/>
+<area shape="rect" id="node5" href="$blas_8c.html#a1903d50ec698fb744676468e78834763" title="gemm_tn" alt="" coords="424,107,500,133"/>
+<area shape="rect" id="node6" href="$blas_8c.html#a4f55eb00f6ea7089b7f77697e9511ec0" title="gemm_tt" alt="" coords="425,157,499,184"/>
+<area shape="rect" id="node8" href="$utils_8h.html#ae02d149bec0d867bdb7616bb612439a6" title="Returns a float constrained within the specified range. " alt="" coords="425,208,499,235"/>
+<area shape="rect" id="node9" href="$neural__activations_8c.html#af7951a549e0f2b7de833d9473adc2c0c" title="Returns the result from applying a specified activation function. " alt="" coords="407,259,517,285"/>
+<area shape="rect" id="node10" href="$neural__activations_8h.html#abb0ed807625c86c51e2b7d4c6a5c7131" title="cos_activate" alt="" coords="581,5,677,32"/>
+<area shape="rect" id="node11" href="$neural__activations_8h.html#a36f845e6eec4a4dd6001aa56e49ef196" title="gaussian_activate" alt="" coords="566,56,693,83"/>
+<area shape="rect" id="node12" href="$neural__activations_8h.html#afaca3dadb26beb0668bafd5058d71aa4" title="leaky_activate" alt="" coords="576,107,683,133"/>
+<area shape="rect" id="node13" href="$neural__activations_8h.html#a522644040f851178194bfde8fd9c4816" title="linear_activate" alt="" coords="576,157,683,184"/>
+<area shape="rect" id="node14" href="$neural__activations_8h.html#a59dcdbb0b47312c88ca0c92d9c06337c" title="loggy_activate" alt="" coords="576,208,683,235"/>
+<area shape="rect" id="node15" href="$neural__activations_8h.html#a63547ce0417b7290156185257cdde252" title="logistic_activate" alt="" coords="571,259,687,285"/>
+<area shape="rect" id="node16" href="$neural__activations_8h.html#a90b4b22f4ec82215ebf5bee3ccd0013f" title="relu_activate" alt="" coords="581,309,677,336"/>
+<area shape="rect" id="node17" href="$neural__activations_8h.html#a6f033c99e837d6615c495f4f2273d92d" title="selu_activate" alt="" coords="580,360,679,387"/>
+<area shape="rect" id="node18" href="$neural__activations_8h.html#a02090b679f2d4a4fc64567538275a4ae" title="sin_activate" alt="" coords="583,411,675,437"/>
+<area shape="rect" id="node19" href="$neural__activations_8h.html#a1e7917de33b1a1c96bf0d2463808f03f" title="soft_plus_activate" alt="" coords="565,461,693,488"/>
+<area shape="rect" id="node20" href="$neural__activations_8h.html#ad140d819f7f36fd2750f697d914cfed9" title="tanh_activate" alt="" coords="579,512,679,539"/>
 </map>

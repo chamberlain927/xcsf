@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['y',['y',['../structINPUT.html#a909d4d7dd731ee282be5101522d695d5',1,'INPUT']]],
-  ['y_5fdim',['y_dim',['../structXCSF.html#af0407e2f08dfc6f2ab13eb8457b70a6b',1,'XCSF::y_dim()'],['../structINPUT.html#ab36d8e022acfbeb1577c05d75c357114',1,'INPUT::y_dim()']]],
-  ['y_5fmoves',['y_moves',['../env__maze_8c.html#ac8b354755ed423138edda7b28c6b8cfa',1,'env_maze.c']]],
-  ['ypos',['ypos',['../structENV__MAZE.html#ac6f83972134356dbf971cd3b3fdbe1e3',1,'ENV_MAZE']]],
-  ['ysize',['ysize',['../structENV__MAZE.html#ac981b1f8a92c7f043c27e2d36cbbf39c',1,'ENV_MAZE']]]
+  ['x',['x',['../structINPUT.html#a0759e20cd0dc95722af2ee84dd1c1bcc',1,'INPUT']]],
+  ['x_5fdim',['x_dim',['../structXCSF.html#a3f4e92535768c38b9dd3a2c50f40192d',1,'XCSF::x_dim()'],['../structINPUT.html#a3f237e5bb66c306cfb84aa366903aed6',1,'INPUT::x_dim()']]],
+  ['x_5fmoves',['x_moves',['../env__maze_8c.html#ad258b1cc4d3d94af9bd4e7d2ef24404f',1,'env_maze.c']]],
+  ['xcs',['xcs',['../classXCS.html#af60e18f39edc745425fe1fecea03732b',1,'XCS']]],
+  ['xpos',['xpos',['../structENV__MAZE.html#ad2dec55d87f215a06f2b4b5329d1601e',1,'ENV_MAZE']]],
+  ['xsize',['xsize',['../structENV__MAZE.html#a89392dd7856ca6722ed9a371a226247f',1,'ENV_MAZE']]]
 ];

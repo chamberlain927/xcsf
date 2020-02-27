@@ -14,5 +14,5 @@ var searchData=
   ['pred_5frls_2eh',['pred_rls.h',['../pred__rls_8h.html',1,'']]],
   ['prediction_2ec',['prediction.c',['../prediction_8c.html',1,'']]],
   ['prediction_2eh',['prediction.h',['../prediction_8h.html',1,'']]],
-  ['python_5fwrapper_2ecpp',['python_wrapper.cpp',['../python__wrapper_8cpp.html',1,'']]]
+  ['pybind_5fwrapper_2ecpp',['pybind_wrapper.cpp',['../pybind__wrapper_8cpp.html',1,'']]]
 ];

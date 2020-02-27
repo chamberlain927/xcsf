@@ -14,5 +14,7 @@ var dgp_8c =
     [ "graph_reset", "dgp_8c.html#acecb4b6b54630b71479a69f5a568899e", null ],
     [ "graph_save", "dgp_8c.html#a7c769190752159ea85926b2f21227076", null ],
     [ "graph_update", "dgp_8c.html#ac7037469abc0b8c6875d95f377d95a37", null ],
-    [ "node_activate", "dgp_8c.html#a36cd860ca5cce8d9b0ea53cf40b8bfba", null ]
+    [ "node_activate", "dgp_8c.html#a36cd860ca5cce8d9b0ea53cf40b8bfba", null ],
+    [ "random_connection", "dgp_8c.html#afdff428427a00c7e6c9ec124bbb4cf5f", null ],
+    [ "synchronous_update", "dgp_8c.html#afab08701aa17da0be663bae23888cd75", null ]
 ];

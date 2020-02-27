@@ -95,8 +95,7 @@ $(document).ready(function(){initNavTree('blas_8c.html','');});
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for blas.c:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c__incl.svg" width="160" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c__incl.svg" width="160" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <p><a href="blas_8c_source.html">Go to the source code of this file.</a></p>
@@ -111,25 +110,20 @@ Functions</h2></td></tr>
 <tr class="separator:a1903d50ec698fb744676468e78834763"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f55eb00f6ea7089b7f77697e9511ec0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="blas_8c.html#a4f55eb00f6ea7089b7f77697e9511ec0">gemm_tt</a> (int M, int N, int K, double ALPHA, const double *A, int lda, const double *B, int ldb, double *C, int ldc)</td></tr>
 <tr class="separator:a4f55eb00f6ea7089b7f77697e9511ec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc5e5ab67771cd6b3ada2fd6533899c3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="blas_8c.html#acc5e5ab67771cd6b3ada2fd6533899c3">gemm_cpu</a> (int TA, int TB, int M, int N, int K, double ALPHA, const double *A, int lda, const double *B, int ldb, double BETA, double *C, int ldc)</td></tr>
-<tr class="separator:acc5e5ab67771cd6b3ada2fd6533899c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fbad07058c92b52f0bba27d7af1def9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="blas_8c.html#a7fbad07058c92b52f0bba27d7af1def9">axpy_cpu</a> (int N, double ALPHA, const double *X, int INCX, double *Y, int INCY)</td></tr>
-<tr class="separator:a7fbad07058c92b52f0bba27d7af1def9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11e9747be19587201b093f3c51686cc1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="blas_8c.html#a11e9747be19587201b093f3c51686cc1">scal_cpu</a> (int N, double ALPHA, double *X, int INCX)</td></tr>
-<tr class="separator:a11e9747be19587201b093f3c51686cc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ad51e4642cc0045163e7d3390657541"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="blas_8c.html#a3ad51e4642cc0045163e7d3390657541">fill_cpu</a> (int N, double ALPHA, double *X, int INCX)</td></tr>
-<tr class="separator:a3ad51e4642cc0045163e7d3390657541"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3c7c08bb9ff52cd67c364988cf36b25"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="blas_8c.html#ad3c7c08bb9ff52cd67c364988cf36b25">dot_cpu</a> (int N, const double *X, int INCX, const double *Y, int INCY)</td></tr>
-<tr class="separator:ad3c7c08bb9ff52cd67c364988cf36b25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a64812460975600e087a38bbfd292aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="blas_8c.html#a1a64812460975600e087a38bbfd292aa">blas_gemm</a> (int TA, int TB, int M, int N, int K, double ALPHA, const double *A, int lda, const double *B, int ldb, double BETA, double *C, int ldc)</td></tr>
+<tr class="memdesc:a1a64812460975600e087a38bbfd292aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs the matrix-matrix multiplication: <img class="formulaInl" alt="$ C = \alpha \mbox{op}(A) \mbox{op}(B) + \beta C $" src="form_6.png"/>.  <a href="#a1a64812460975600e087a38bbfd292aa">More...</a><br /></td></tr>
 <tr class="separator:a1a64812460975600e087a38bbfd292aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad58784c49cb497c041e461a3fb6d3a56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="blas_8c.html#ad58784c49cb497c041e461a3fb6d3a56">blas_axpy</a> (int N, double ALPHA, const double *X, int INCX, double *Y, int INCY)</td></tr>
+<tr class="memdesc:ad58784c49cb497c041e461a3fb6d3a56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiplies the vector X by the scalar ALPHA and adds it to the vector Y.  <a href="#ad58784c49cb497c041e461a3fb6d3a56">More...</a><br /></td></tr>
 <tr class="separator:ad58784c49cb497c041e461a3fb6d3a56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8206d0e5c583b51b9526d83cecc39e87"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="blas_8c.html#a8206d0e5c583b51b9526d83cecc39e87">blas_scal</a> (int N, double ALPHA, double *X, int INCX)</td></tr>
+<tr class="memdesc:a8206d0e5c583b51b9526d83cecc39e87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scales the vector X by the scalar ALPHA and overwrites it with the result.  <a href="#a8206d0e5c583b51b9526d83cecc39e87">More...</a><br /></td></tr>
 <tr class="separator:a8206d0e5c583b51b9526d83cecc39e87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95eb315efef08b5eb4694c3ca6bfe633"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="blas_8c.html#a95eb315efef08b5eb4694c3ca6bfe633">blas_fill</a> (int N, double ALPHA, double *X, int INCX)</td></tr>
+<tr class="memdesc:a95eb315efef08b5eb4694c3ca6bfe633"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills the vector X with the value ALPHA.  <a href="#a95eb315efef08b5eb4694c3ca6bfe633">More...</a><br /></td></tr>
 <tr class="separator:a95eb315efef08b5eb4694c3ca6bfe633"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b8527684a792f4eef8ff8110294bdc5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="blas_8c.html#a0b8527684a792f4eef8ff8110294bdc5">blas_dot</a> (int N, const double *X, int INCX, const double *Y, int INCY)</td></tr>
+<tr class="memdesc:a0b8527684a792f4eef8ff8110294bdc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the dot product of two vectors.  <a href="#a0b8527684a792f4eef8ff8110294bdc5">More...</a><br /></td></tr>
 <tr class="separator:a0b8527684a792f4eef8ff8110294bdc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -140,76 +134,6 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition in file <a class="el" href="blas_8c_source.html">blas.c</a>.</p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="a7fbad07058c92b52f0bba27d7af1def9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7fbad07058c92b52f0bba27d7af1def9">&#9670;&nbsp;</a></span>axpy_cpu()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void axpy_cpu </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>N</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>ALPHA</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const double *&#160;</td>
-          <td class="paramname"><em>X</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>INCX</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double *&#160;</td>
-          <td class="paramname"><em>Y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>INCY</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="blas_8c_source.html#l00114">114</a> of file <a class="el" href="blas_8c_source.html">blas.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="blas_8c_source.html#l00153">blas_axpy()</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c_a7fbad07058c92b52f0bba27d7af1def9_icgraph.svg" width="426" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
-</div>
-</div>
 <a id="ad58784c49cb497c041e461a3fb6d3a56"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad58784c49cb497c041e461a3fb6d3a56">&#9670;&nbsp;</a></span>blas_axpy()</h2>
 
@@ -260,22 +184,26 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="blas_8c_source.html#l00153">153</a> of file <a class="el" href="blas_8c_source.html">blas.c</a>.</p>
+<p>Multiplies the vector X by the scalar ALPHA and adds it to the vector Y. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">N</td><td>The number of elements in vectors X and Y. </td></tr>
+    <tr><td class="paramname">ALPHA</td><td>Scalar used for multiplication. </td></tr>
+    <tr><td class="paramname">X</td><td>Vector with N elements. </td></tr>
+    <tr><td class="paramname">INCX</td><td>Stride between consecutive elements of X. </td></tr>
+    <tr><td class="paramname">Y</td><td>Vector with N elements. </td></tr>
+    <tr><td class="paramname">INCY</td><td>Stride between consecutive elements of Y. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="reference">References <a class="el" href="blas_8c_source.html#l00114">axpy_cpu()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="blas_8c_source.html#l00140">140</a> of file <a class="el" href="blas_8c_source.html">blas.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="neural__layer__connected_8c_source.html#l00148">neural_layer_connected_backward()</a>, <a class="el" href="neural__layer__connected_8c_source.html#l00176">neural_layer_connected_update()</a>, and <a class="el" href="pred__rls_8c_source.html#l00113">pred_rls_update()</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c_ad58784c49cb497c041e461a3fb6d3a56_cgraph.svg" width="219" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
+<p class="reference">Referenced by <a class="el" href="neural__layer__connected_8c_source.html#l00148">neural_layer_connected_backward()</a>, <a class="el" href="neural__layer__connected_8c_source.html#l00176">neural_layer_connected_update()</a>, <a class="el" href="pred__nlms_8c_source.html#l00100">pred_nlms_update()</a>, and <a class="el" href="pred__rls_8c_source.html#l00113">pred_rls_update()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c_ad58784c49cb497c041e461a3fb6d3a56_icgraph.svg" width="299" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c_ad58784c49cb497c041e461a3fb6d3a56_icgraph.svg" width="299" height="220"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -324,22 +252,26 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="blas_8c_source.html#l00168">168</a> of file <a class="el" href="blas_8c_source.html">blas.c</a>.</p>
+<p>Computes the dot product of two vectors. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">N</td><td>The number of elements in vectors X and Y. </td></tr>
+    <tr><td class="paramname">X</td><td>Vector with N elements. </td></tr>
+    <tr><td class="paramname">INCX</td><td>Stride between consecutive elements of X. </td></tr>
+    <tr><td class="paramname">Y</td><td>Vector with N elements. </td></tr>
+    <tr><td class="paramname">INCY</td><td>Stride between consecutive elements of Y. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The resulting dot product. </dd></dl>
 
-<p class="reference">References <a class="el" href="blas_8c_source.html#l00135">dot_cpu()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="blas_8c_source.html#l00184">184</a> of file <a class="el" href="blas_8c_source.html">blas.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="pred__rls_8c_source.html#l00113">pred_rls_update()</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c_a0b8527684a792f4eef8ff8110294bdc5_cgraph.svg" width="198" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
+<p class="reference">Referenced by <a class="el" href="pred__nlms_8c_source.html#l00115">pred_nlms_compute()</a>, <a class="el" href="pred__nlms_8c_source.html#l00100">pred_nlms_update()</a>, <a class="el" href="pred__rls_8c_source.html#l00151">pred_rls_compute()</a>, and <a class="el" href="pred__rls_8c_source.html#l00113">pred_rls_update()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c_a0b8527684a792f4eef8ff8110294bdc5_icgraph.svg" width="244" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c_a0b8527684a792f4eef8ff8110294bdc5_icgraph.svg" width="268" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -382,22 +314,24 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="blas_8c_source.html#l00163">163</a> of file <a class="el" href="blas_8c_source.html">blas.c</a>.</p>
+<p>Fills the vector X with the value ALPHA. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">N</td><td>The number of elements in vector X. </td></tr>
+    <tr><td class="paramname">ALPHA</td><td>The value to fill the vector. </td></tr>
+    <tr><td class="paramname">X</td><td>Vector with N elements. </td></tr>
+    <tr><td class="paramname">INCX</td><td>Stride between consecutive elements of X. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="reference">References <a class="el" href="blas_8c_source.html#l00128">fill_cpu()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="blas_8c_source.html#l00168">168</a> of file <a class="el" href="blas_8c_source.html">blas.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="pred__nlms_8c_source.html#l00051">pred_nlms_init()</a>, and <a class="el" href="pred__rls_8c_source.html#l00051">pred_rls_init()</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c_a95eb315efef08b5eb4694c3ca6bfe633_cgraph.svg" width="188" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
+<p class="reference">Referenced by <a class="el" href="pred__nlms_8c_source.html#l00052">pred_nlms_init()</a>, and <a class="el" href="pred__rls_8c_source.html#l00051">pred_rls_init()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c_a95eb315efef08b5eb4694c3ca6bfe633_icgraph.svg" width="398" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c_a95eb315efef08b5eb4694c3ca6bfe633_icgraph.svg" width="398" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -494,22 +428,40 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="blas_8c_source.html#l00144">144</a> of file <a class="el" href="blas_8c_source.html">blas.c</a>.</p>
+<p>Performs the matrix-matrix multiplication: <img class="formulaInl" alt="$ C = \alpha \mbox{op}(A) \mbox{op}(B) + \beta C $" src="form_6.png"/>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">TA</td><td>Operation op(A) that is non- or (conj.) transpose. </td></tr>
+    <tr><td class="paramname">TB</td><td>Operation op(B) that is non- or (conj.) transpose. </td></tr>
+    <tr><td class="paramname">M</td><td>Number of rows of matrix op(A) and C. </td></tr>
+    <tr><td class="paramname">N</td><td>Number of columns of matrix op(B) and C. </td></tr>
+    <tr><td class="paramname">K</td><td>Number of columns of op(A) and rows of op(B). </td></tr>
+    <tr><td class="paramname">ALPHA</td><td>Scalar used for multiplication. </td></tr>
+    <tr><td class="paramname">A</td><td>Array of dimension lda × K with lda &gt;= max(1,M) if TA=0 and lda × M with lda &gt;= max(1,K) otherwise. </td></tr>
+    <tr><td class="paramname">lda</td><td>Leading dimension of two-dimensional array used to store the matrix A. </td></tr>
+    <tr><td class="paramname">B</td><td>Array of dimension ldb × N with ldb &gt;= max(1,K) if TB=0 and ldb × K with ldb &gt;= max(1,N) otherwise. </td></tr>
+    <tr><td class="paramname">ldb</td><td>Leading dimension of two-dimensional array used to store matrix B. </td></tr>
+    <tr><td class="paramname">BETA</td><td>Scalar used for multiplication. If BETA=0, C does not have to be a valid input. </td></tr>
+    <tr><td class="paramname">C</td><td>Array of dimension ldc × N with ldc &gt;= max(1,M). </td></tr>
+    <tr><td class="paramname">ldc</td><td>Leading dimension of a two-dimensional array used to store the matrix C. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="reference">References <a class="el" href="blas_8c_source.html#l00089">gemm_cpu()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="blas_8c_source.html#l00106">106</a> of file <a class="el" href="blas_8c_source.html">blas.c</a>.</p>
+
+<p class="reference">References <a class="el" href="blas_8c_source.html#l00027">gemm_nn()</a>, <a class="el" href="blas_8c_source.html#l00042">gemm_nt()</a>, <a class="el" href="blas_8c_source.html#l00058">gemm_tn()</a>, and <a class="el" href="blas_8c_source.html#l00073">gemm_tt()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="neural__layer__connected_8c_source.html#l00148">neural_layer_connected_backward()</a>, <a class="el" href="neural__layer__connected_8c_source.html#l00132">neural_layer_connected_forward()</a>, and <a class="el" href="pred__rls_8c_source.html#l00113">pred_rls_update()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c_a1a64812460975600e087a38bbfd292aa_cgraph.svg" width="362" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c_a1a64812460975600e087a38bbfd292aa_cgraph.svg" width="227" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c_a1a64812460975600e087a38bbfd292aa_icgraph.svg" width="307" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c_a1a64812460975600e087a38bbfd292aa_icgraph.svg" width="307" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -552,264 +504,24 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="blas_8c_source.html#l00158">158</a> of file <a class="el" href="blas_8c_source.html">blas.c</a>.</p>
+<p>Scales the vector X by the scalar ALPHA and overwrites it with the result. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">N</td><td>The number of elements in vector X. </td></tr>
+    <tr><td class="paramname">ALPHA</td><td>Scalar used for multiplication. </td></tr>
+    <tr><td class="paramname">X</td><td>Vector with N elements. </td></tr>
+    <tr><td class="paramname">INCX</td><td>Stride between consecutive elements of X. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="reference">References <a class="el" href="blas_8c_source.html#l00121">scal_cpu()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="blas_8c_source.html#l00154">154</a> of file <a class="el" href="blas_8c_source.html">blas.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="neural__layer__connected_8c_source.html#l00176">neural_layer_connected_update()</a>, and <a class="el" href="pred__rls_8c_source.html#l00113">pred_rls_update()</a>.</p>
 <div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c_a8206d0e5c583b51b9526d83cecc39e87_cgraph.svg" width="211" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c_a8206d0e5c583b51b9526d83cecc39e87_icgraph.svg" width="295" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
-</div>
-</div>
-<a id="ad3c7c08bb9ff52cd67c364988cf36b25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3c7c08bb9ff52cd67c364988cf36b25">&#9670;&nbsp;</a></span>dot_cpu()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static double dot_cpu </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>N</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const double *&#160;</td>
-          <td class="paramname"><em>X</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>INCX</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const double *&#160;</td>
-          <td class="paramname"><em>Y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>INCY</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="blas_8c_source.html#l00135">135</a> of file <a class="el" href="blas_8c_source.html">blas.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="blas_8c_source.html#l00168">blas_dot()</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c_ad3c7c08bb9ff52cd67c364988cf36b25_icgraph.svg" width="360" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
-</div>
-</div>
-<a id="a3ad51e4642cc0045163e7d3390657541"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ad51e4642cc0045163e7d3390657541">&#9670;&nbsp;</a></span>fill_cpu()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void fill_cpu </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>N</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>ALPHA</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double *&#160;</td>
-          <td class="paramname"><em>X</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>INCX</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="blas_8c_source.html#l00128">128</a> of file <a class="el" href="blas_8c_source.html">blas.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="blas_8c_source.html#l00163">blas_fill()</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c_a3ad51e4642cc0045163e7d3390657541_icgraph.svg" width="508" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
-</div>
-</div>
-<a id="acc5e5ab67771cd6b3ada2fd6533899c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc5e5ab67771cd6b3ada2fd6533899c3">&#9670;&nbsp;</a></span>gemm_cpu()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void gemm_cpu </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>TA</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>TB</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>M</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>N</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>K</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>ALPHA</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const double *&#160;</td>
-          <td class="paramname"><em>A</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>lda</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const double *&#160;</td>
-          <td class="paramname"><em>B</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>ldb</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>BETA</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double *&#160;</td>
-          <td class="paramname"><em>C</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>ldc</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="blas_8c_source.html#l00089">89</a> of file <a class="el" href="blas_8c_source.html">blas.c</a>.</p>
-
-<p class="reference">References <a class="el" href="blas_8c_source.html#l00027">gemm_nn()</a>, <a class="el" href="blas_8c_source.html#l00042">gemm_nt()</a>, <a class="el" href="blas_8c_source.html#l00058">gemm_tn()</a>, and <a class="el" href="blas_8c_source.html#l00073">gemm_tt()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="blas_8c_source.html#l00144">blas_gemm()</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c_acc5e5ab67771cd6b3ada2fd6533899c3_cgraph.svg" width="224" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c_acc5e5ab67771cd6b3ada2fd6533899c3_icgraph.svg" width="442" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c_a8206d0e5c583b51b9526d83cecc39e87_icgraph.svg" width="295" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -898,12 +610,11 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="blas_8c_source.html#l00027">27</a> of file <a class="el" href="blas_8c_source.html">blas.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="blas_8c_source.html#l00089">gemm_cpu()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="blas_8c_source.html#l00106">blas_gemm()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c_a19039ca820abf5f9fe5963ce118f836d_icgraph.svg" width="568" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c_a19039ca820abf5f9fe5963ce118f836d_icgraph.svg" width="434" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -992,12 +703,11 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="blas_8c_source.html#l00042">42</a> of file <a class="el" href="blas_8c_source.html">blas.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="blas_8c_source.html#l00089">gemm_cpu()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="blas_8c_source.html#l00106">blas_gemm()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c_aca9b706fd3bbf0bd260e60636311846d_icgraph.svg" width="566" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c_aca9b706fd3bbf0bd260e60636311846d_icgraph.svg" width="431" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1086,12 +796,11 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="blas_8c_source.html#l00058">58</a> of file <a class="el" href="blas_8c_source.html">blas.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="blas_8c_source.html#l00089">gemm_cpu()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="blas_8c_source.html#l00106">blas_gemm()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c_a1903d50ec698fb744676468e78834763_icgraph.svg" width="566" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c_a1903d50ec698fb744676468e78834763_icgraph.svg" width="431" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1180,70 +889,11 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="blas_8c_source.html#l00073">73</a> of file <a class="el" href="blas_8c_source.html">blas.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="blas_8c_source.html#l00089">gemm_cpu()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="blas_8c_source.html#l00106">blas_gemm()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c_a4f55eb00f6ea7089b7f77697e9511ec0_icgraph.svg" width="563" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
-</div>
-</div>
-<a id="a11e9747be19587201b093f3c51686cc1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11e9747be19587201b093f3c51686cc1">&#9670;&nbsp;</a></span>scal_cpu()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void scal_cpu </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>N</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>ALPHA</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double *&#160;</td>
-          <td class="paramname"><em>X</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>INCX</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="blas_8c_source.html#l00121">121</a> of file <a class="el" href="blas_8c_source.html">blas.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="blas_8c_source.html#l00158">blas_scal()</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c_a11e9747be19587201b093f3c51686cc1_icgraph.svg" width="418" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="blas_8c_a4f55eb00f6ea7089b7f77697e9511ec0_icgraph.svg" width="428" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
