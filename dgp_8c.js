@@ -2,7 +2,7 @@ var dgp_8c =
 [
     [ "NUM_FUNC", "dgp_8c.html#a9aad0046191b9926d17eb7e3b3b53c66", null ],
     [ "function_string", "dgp_8c.html#a803fbf71cf39b02f1ce8f6d33a23c075", null ],
-    [ "graph_copy", "dgp_8c.html#a88698e131854543f5efa881b6db0e573", null ],
+    [ "graph_copy", "dgp_8c.html#a3a05dbecca41777e1f60faf95aa7e97e", null ],
     [ "graph_crossover", "dgp_8c.html#ac8e1ae46b110b4314abca0ccde4f77f9", null ],
     [ "graph_free", "dgp_8c.html#aa442b6c98fb9fc709bd046e0308488e7", null ],
     [ "graph_init", "dgp_8c.html#a10b25afd37a261629da7540c1f7a574c", null ],

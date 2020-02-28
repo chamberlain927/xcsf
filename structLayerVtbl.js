@@ -1,7 +1,7 @@
 var structLayerVtbl =
 [
     [ "layer_impl_backward", "structLayerVtbl.html#a9ef839b4d9ed5c2af5831e2da870135d", null ],
-    [ "layer_impl_copy", "structLayerVtbl.html#a4e7ad729c384d6e43d56820828f21698", null ],
+    [ "layer_impl_copy", "structLayerVtbl.html#a13e7f5231105ffa828e411b8ed1fbe90", null ],
     [ "layer_impl_forward", "structLayerVtbl.html#a4eb8f71b456c7bb4f85dfd46c81fb41c", null ],
     [ "layer_impl_free", "structLayerVtbl.html#a5d56d48f5487324125699e6df7413733", null ],
     [ "layer_impl_load", "structLayerVtbl.html#a77504873cbb648caa761dde01ae67c40", null ],

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['layer_5fbackward',['layer_backward',['../neural__layer_8h.html#a36908e172693a17aaaf941d7d972231f',1,'neural_layer.h']]],
-  ['layer_5fcopy',['layer_copy',['../neural__layer_8h.html#a605b42df1b56bb47effcad8a9ad6198e',1,'neural_layer.h']]],
+  ['layer_5fcopy',['layer_copy',['../neural__layer_8h.html#ad46f57aa777edc03333a3080ca625845',1,'neural_layer.h']]],
   ['layer_5fforward',['layer_forward',['../neural__layer_8h.html#a55857a2243f79491e75280eb5d6f0d8d',1,'neural_layer.h']]],
   ['layer_5ffree',['layer_free',['../neural__layer_8h.html#a2e4746483323cd25ed1c820662fa8577',1,'neural_layer.h']]],
   ['layer_5fload',['layer_load',['../neural__layer_8h.html#aeda1a21e99df6de17f298b475f7c1ea7',1,'neural_layer.h']]],

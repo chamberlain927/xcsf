@@ -94,7 +94,8 @@ $(document).ready(function(){initNavTree('prediction_8h.html','');});
 <div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h__dep__incl.svg" width="738" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h__dep__incl.svg" width="738" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="prediction_8h_source.html">Go to the source code of this file.</a></p>
@@ -128,9 +129,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a547a2b703a8423b25b7011085a1ab904"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="prediction_8h.html#a547a2b703a8423b25b7011085a1ab904">pred_compute</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structCL.html">CL</a> *c, const double *x)</td></tr>
 <tr class="memdesc:a547a2b703a8423b25b7011085a1ab904"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the current classifier prediction using the input.  <a href="#a547a2b703a8423b25b7011085a1ab904">More...</a><br /></td></tr>
 <tr class="separator:a547a2b703a8423b25b7011085a1ab904"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44211a52b290a152c4802ca6262f83de"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="prediction_8h.html#a44211a52b290a152c4802ca6262f83de">pred_copy</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *to, const <a class="el" href="structCL.html">CL</a> *from)</td></tr>
-<tr class="memdesc:a44211a52b290a152c4802ca6262f83de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the prediction from one classifier to another.  <a href="#a44211a52b290a152c4802ca6262f83de">More...</a><br /></td></tr>
-<tr class="separator:a44211a52b290a152c4802ca6262f83de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace419e29bb3ac47f8708202e7b993008"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="prediction_8h.html#ace419e29bb3ac47f8708202e7b993008">pred_copy</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *dest, const <a class="el" href="structCL.html">CL</a> *src)</td></tr>
+<tr class="memdesc:ace419e29bb3ac47f8708202e7b993008"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the prediction from one classifier to another.  <a href="#ace419e29bb3ac47f8708202e7b993008">More...</a><br /></td></tr>
+<tr class="separator:ace419e29bb3ac47f8708202e7b993008"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43bac629eb9434b643605a214f5d5876"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="prediction_8h.html#a43bac629eb9434b643605a214f5d5876">pred_free</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structCL.html">CL</a> *c)</td></tr>
 <tr class="memdesc:a43bac629eb9434b643605a214f5d5876"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees the memory used by the classifier prediction.  <a href="#a43bac629eb9434b643605a214f5d5876">More...</a><br /></td></tr>
 <tr class="separator:a43bac629eb9434b643605a214f5d5876"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -209,17 +210,18 @@ Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="prediction_8h_source.html#l00035">PredVtbl::pred_impl_compute</a>, and <a class="el" href="xcsf_8h_source.html#l00052">CL::pred_vptr</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00319">cl_predict()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00318">cl_predict()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h_a547a2b703a8423b25b7011085a1ab904_icgraph.svg" width="1268" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h_a547a2b703a8423b25b7011085a1ab904_icgraph.svg" width="1268" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a44211a52b290a152c4802ca6262f83de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44211a52b290a152c4802ca6262f83de">&#9670;&nbsp;</a></span>pred_copy()</h2>
+<a id="ace419e29bb3ac47f8708202e7b993008"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace419e29bb3ac47f8708202e7b993008">&#9670;&nbsp;</a></span>pred_copy()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -237,13 +239,13 @@ Here is the caller graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="structCL.html">CL</a> *&#160;</td>
-          <td class="paramname"><em>to</em>, </td>
+          <td class="paramname"><em>dest</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="structCL.html">CL</a> *&#160;</td>
-          <td class="paramname"><em>from</em>&#160;</td>
+          <td class="paramname"><em>src</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -262,8 +264,8 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
-    <tr><td class="paramname">to</td><td>The destination classifier. </td></tr>
-    <tr><td class="paramname">from</td><td>The source classifier. </td></tr>
+    <tr><td class="paramname">dest</td><td>The destination classifier. </td></tr>
+    <tr><td class="paramname">src</td><td>The source classifier. </td></tr>
   </table>
   </dd>
 </dl>
@@ -272,11 +274,12 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="prediction_8h_source.html#l00036">PredVtbl::pred_impl_copy</a>, and <a class="el" href="xcsf_8h_source.html#l00052">CL::pred_vptr</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00068">cl_copy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00067">cl_copy()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h_a44211a52b290a152c4802ca6262f83de_icgraph.svg" width="1031" height="342"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h_ace419e29bb3ac47f8708202e7b993008_icgraph.svg" width="1031" height="342"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -336,11 +339,12 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="prediction_8h_source.html#l00033">PredVtbl::pred_impl_crossover</a>, and <a class="el" href="xcsf_8h_source.html#l00052">CL::pred_vptr</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00382">cl_crossover()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00381">cl_crossover()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h_a1e1b06df51b7f194d406b2b3dafbaae4_icgraph.svg" width="1088" height="342"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h_a1e1b06df51b7f194d406b2b3dafbaae4_icgraph.svg" width="1088" height="342"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -392,11 +396,12 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="prediction_8h_source.html#l00037">PredVtbl::pred_impl_free</a>, and <a class="el" href="xcsf_8h_source.html#l00052">CL::pred_vptr</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00216">cl_free()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00215">cl_free()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h_a43bac629eb9434b643605a214f5d5876_icgraph.svg" width="1310" height="470"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h_a43bac629eb9434b643605a214f5d5876_icgraph.svg" width="1310" height="470"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -448,11 +453,12 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="prediction_8h_source.html#l00038">PredVtbl::pred_impl_init</a>, and <a class="el" href="xcsf_8h_source.html#l00052">CL::pred_vptr</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00068">cl_copy()</a>, and <a class="el" href="cl_8c_source.html#l00102">cl_rand()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00067">cl_copy()</a>, and <a class="el" href="cl_8c_source.html#l00101">cl_rand()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h_a32efd0b8ad0f4cbc72683c35c5e49afd_icgraph.svg" width="1346" height="494"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h_a32efd0b8ad0f4cbc72683c35c5e49afd_icgraph.svg" width="1346" height="494"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -512,11 +518,12 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="prediction_8h_source.html#l00043">PredVtbl::pred_impl_load</a>, and <a class="el" href="xcsf_8h_source.html#l00052">CL::pred_vptr</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00449">cl_load()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00448">cl_load()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h_a57cd41005ff53c6c0896a1334cefdd1f_icgraph.svg" width="794" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h_a57cd41005ff53c6c0896a1334cefdd1f_icgraph.svg" width="794" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -569,11 +576,12 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="prediction_8h_source.html#l00034">PredVtbl::pred_impl_mutate</a>, and <a class="el" href="xcsf_8h_source.html#l00052">CL::pred_vptr</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00360">cl_mutate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00359">cl_mutate()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h_a47a713568a6631efffbffcdbbe832962_icgraph.svg" width="1055" height="342"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h_a47a713568a6631efffbffcdbbe832962_icgraph.svg" width="1055" height="342"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -625,11 +633,12 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="prediction_8h_source.html#l00039">PredVtbl::pred_impl_print</a>, and <a class="el" href="xcsf_8h_source.html#l00052">CL::pred_vptr</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00233">cl_print()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00232">cl_print()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h_aa20cce1c5d4805d59e833c7738e10570_icgraph.svg" width="824" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h_aa20cce1c5d4805d59e833c7738e10570_icgraph.svg" width="824" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -689,11 +698,12 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="prediction_8h_source.html#l00042">PredVtbl::pred_impl_save</a>, and <a class="el" href="xcsf_8h_source.html#l00052">CL::pred_vptr</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00422">cl_save()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00421">cl_save()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h_a9417a88e432eac7f1463ac0248e3243f_icgraph.svg" width="814" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h_a9417a88e432eac7f1463ac0248e3243f_icgraph.svg" width="814" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -746,11 +756,12 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="prediction_8h_source.html#l00041">PredVtbl::pred_impl_size</a>, and <a class="el" href="xcsf_8h_source.html#l00052">CL::pred_vptr</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00410">cl_pred_size()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00409">cl_pred_size()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h_a60ead673b526125328224ec152916290_icgraph.svg" width="1863" height="438"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h_a60ead673b526125328224ec152916290_icgraph.svg" width="1863" height="438"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -813,7 +824,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h_a8a71de0e00b92a0e5199b999f3e0cb04_icgraph.svg" width="342" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h_a8a71de0e00b92a0e5199b999f3e0cb04_icgraph.svg" width="342" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -879,11 +891,12 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="prediction_8h_source.html#l00040">PredVtbl::pred_impl_update</a>, and <a class="el" href="xcsf_8h_source.html#l00052">CL::pred_vptr</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00151">cl_update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00150">cl_update()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h_a45792a63b5b63ffa0ede37b3c1468f56_icgraph.svg" width="1111" height="342"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h_a45792a63b5b63ffa0ede37b3c1468f56_icgraph.svg" width="1111" height="342"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -927,11 +940,12 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="pred__constant_8h_source.html#l00041">pred_constant_vtbl</a>, <a class="el" href="pred__neural_8h_source.html#l00045">pred_neural_vtbl</a>, <a class="el" href="pred__nlms_8h_source.html#l00041">pred_nlms_vtbl</a>, <a class="el" href="pred__rls_8h_source.html#l00041">pred_rls_vtbl</a>, <a class="el" href="xcsf_8h_source.html#l00126">XCSF::PRED_TYPE</a>, <a class="el" href="xcsf_8h_source.html#l00038">PRED_TYPE_CONSTANT</a>, <a class="el" href="xcsf_8h_source.html#l00043">PRED_TYPE_NEURAL</a>, <a class="el" href="xcsf_8h_source.html#l00039">PRED_TYPE_NLMS_LINEAR</a>, <a class="el" href="xcsf_8h_source.html#l00040">PRED_TYPE_NLMS_QUADRATIC</a>, <a class="el" href="xcsf_8h_source.html#l00041">PRED_TYPE_RLS_LINEAR</a>, <a class="el" href="xcsf_8h_source.html#l00042">PRED_TYPE_RLS_QUADRATIC</a>, and <a class="el" href="xcsf_8h_source.html#l00052">CL::pred_vptr</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00449">cl_load()</a>, and <a class="el" href="cl_8c_source.html#l00102">cl_rand()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cl_8c_source.html#l00448">cl_load()</a>, and <a class="el" href="cl_8c_source.html#l00101">cl_rand()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h_acc3389ac08ab3b032ab1223e3339be12_icgraph.svg" width="1382" height="523"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="prediction_8h_acc3389ac08ab3b032ab1223e3339be12_icgraph.svg" width="1382" height="523"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>

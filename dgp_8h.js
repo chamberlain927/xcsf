@@ -3,7 +3,7 @@ var dgp_8h =
     [ "GRAPH", "structGRAPH.html", "structGRAPH" ],
     [ "DGP_N_MU", "dgp_8h.html#af2efbfb3f32c0b37be55b7ccf850b7df", null ],
     [ "GRAPH", "dgp_8h.html#af2d8e3d4dc8b1537e3058491e3a1a8a7", null ],
-    [ "graph_copy", "dgp_8h.html#a88698e131854543f5efa881b6db0e573", null ],
+    [ "graph_copy", "dgp_8h.html#a3a05dbecca41777e1f60faf95aa7e97e", null ],
     [ "graph_crossover", "dgp_8h.html#ac8e1ae46b110b4314abca0ccde4f77f9", null ],
     [ "graph_free", "dgp_8h.html#aa442b6c98fb9fc709bd046e0308488e7", null ],
     [ "graph_init", "dgp_8h.html#a10b25afd37a261629da7540c1f7a574c", null ],

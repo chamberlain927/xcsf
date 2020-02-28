@@ -1,14 +1,14 @@
 var searchData=
 [
   ['act_5fcompute',['act_compute',['../action_8h.html#aab6ebb454826f8e9425efc0ed2917023',1,'action.h']]],
-  ['act_5fcopy',['act_copy',['../action_8h.html#ad7a1c1435f9b1055ce5c2f341dee4ce8',1,'action.h']]],
+  ['act_5fcopy',['act_copy',['../action_8h.html#a9b39bc913acab98fe7f41a6831fcf4cf',1,'action.h']]],
   ['act_5fcover',['act_cover',['../action_8h.html#ac250a5534d7c5fb268e0ccdb479d6e20',1,'action.h']]],
   ['act_5fcrossover',['act_crossover',['../action_8h.html#ae381665a65716c4d1475dcddf9bc19a2',1,'action.h']]],
   ['act_5ffree',['act_free',['../action_8h.html#a2e77a50c24d06a37f2fc5aab8e3ecbac',1,'action.h']]],
   ['act_5fgeneral',['act_general',['../action_8h.html#aad1e1ac50032c52933294c49302a87f2',1,'action.h']]],
   ['act_5finit',['act_init',['../action_8h.html#a7561ff50b261f644feae225259c8b8f6',1,'action.h']]],
   ['act_5finteger_5fcompute',['act_integer_compute',['../act__integer_8c.html#a0158c78a17588ea4a323891f40548e32',1,'act_integer_compute(const XCSF *xcsf, const CL *c, const double *x):&#160;act_integer.c'],['../act__integer_8h.html#a0158c78a17588ea4a323891f40548e32',1,'act_integer_compute(const XCSF *xcsf, const CL *c, const double *x):&#160;act_integer.c']]],
-  ['act_5finteger_5fcopy',['act_integer_copy',['../act__integer_8c.html#a914fdf8539d32b4ffc308c25add1351b',1,'act_integer_copy(const XCSF *xcsf, CL *to, const CL *from):&#160;act_integer.c'],['../act__integer_8h.html#a914fdf8539d32b4ffc308c25add1351b',1,'act_integer_copy(const XCSF *xcsf, CL *to, const CL *from):&#160;act_integer.c']]],
+  ['act_5finteger_5fcopy',['act_integer_copy',['../act__integer_8c.html#a55e69b50ef233d61a24108a53dada9bd',1,'act_integer_copy(const XCSF *xcsf, CL *dest, const CL *src):&#160;act_integer.c'],['../act__integer_8h.html#a55e69b50ef233d61a24108a53dada9bd',1,'act_integer_copy(const XCSF *xcsf, CL *dest, const CL *src):&#160;act_integer.c']]],
   ['act_5finteger_5fcover',['act_integer_cover',['../act__integer_8c.html#abaf060ce5fed0d5901fe512f127b333b',1,'act_integer_cover(const XCSF *xcsf, const CL *c, const double *x, int action):&#160;act_integer.c'],['../act__integer_8h.html#abaf060ce5fed0d5901fe512f127b333b',1,'act_integer_cover(const XCSF *xcsf, const CL *c, const double *x, int action):&#160;act_integer.c']]],
   ['act_5finteger_5fcrossover',['act_integer_crossover',['../act__integer_8c.html#a613f041159ddbeacd3bf453113e0b327',1,'act_integer_crossover(const XCSF *xcsf, const CL *c1, const CL *c2):&#160;act_integer.c'],['../act__integer_8h.html#a613f041159ddbeacd3bf453113e0b327',1,'act_integer_crossover(const XCSF *xcsf, const CL *c1, const CL *c2):&#160;act_integer.c']]],
   ['act_5finteger_5ffree',['act_integer_free',['../act__integer_8c.html#a588876aca0036d358f86acec72d02ea9',1,'act_integer_free(const XCSF *xcsf, const CL *c):&#160;act_integer.c'],['../act__integer_8h.html#a588876aca0036d358f86acec72d02ea9',1,'act_integer_free(const XCSF *xcsf, const CL *c):&#160;act_integer.c']]],

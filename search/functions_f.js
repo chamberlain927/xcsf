@@ -2,7 +2,7 @@ var searchData=
 [
   ['tanh_5factivate',['tanh_activate',['../neural__activations_8h.html#ad140d819f7f36fd2750f697d914cfed9',1,'neural_activations.h']]],
   ['tanh_5fgradient',['tanh_gradient',['../neural__activations_8h.html#a9ff181117fd714ae3d53c60f48eef8b0',1,'neural_activations.h']]],
-  ['tree_5fcopy',['tree_copy',['../gp_8c.html#a8006cb74f8bcc0e8572cd8a27bccd67e',1,'tree_copy(const XCSF *xcsf, GP_TREE *to, const GP_TREE *from):&#160;gp.c'],['../gp_8h.html#a8006cb74f8bcc0e8572cd8a27bccd67e',1,'tree_copy(const XCSF *xcsf, GP_TREE *to, const GP_TREE *from):&#160;gp.c']]],
+  ['tree_5fcopy',['tree_copy',['../gp_8c.html#a43092e122811bbe561a9e5660e3009cf',1,'tree_copy(const XCSF *xcsf, GP_TREE *dest, const GP_TREE *src):&#160;gp.c'],['../gp_8h.html#a43092e122811bbe561a9e5660e3009cf',1,'tree_copy(const XCSF *xcsf, GP_TREE *dest, const GP_TREE *src):&#160;gp.c']]],
   ['tree_5fcrossover',['tree_crossover',['../gp_8c.html#ac1b8b935cacd6cbd2d6630a5335b56e2',1,'tree_crossover(const XCSF *xcsf, GP_TREE *p1, GP_TREE *p2):&#160;gp.c'],['../gp_8h.html#ac1b8b935cacd6cbd2d6630a5335b56e2',1,'tree_crossover(const XCSF *xcsf, GP_TREE *p1, GP_TREE *p2):&#160;gp.c']]],
   ['tree_5feval',['tree_eval',['../gp_8c.html#a38ad09b6b4bf2d9aeb3a6a72b8e04220',1,'tree_eval(const XCSF *xcsf, GP_TREE *gp, const double *x):&#160;gp.c'],['../gp_8h.html#a38ad09b6b4bf2d9aeb3a6a72b8e04220',1,'tree_eval(const XCSF *xcsf, GP_TREE *gp, const double *x):&#160;gp.c']]],
   ['tree_5ffree',['tree_free',['../gp_8c.html#aa5345452d3441ba131da2cb41fabd07b',1,'tree_free(const XCSF *xcsf, const GP_TREE *gp):&#160;gp.c'],['../gp_8h.html#aa5345452d3441ba131da2cb41fabd07b',1,'tree_free(const XCSF *xcsf, const GP_TREE *gp):&#160;gp.c']]],

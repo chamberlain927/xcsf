@@ -1,7 +1,7 @@
 var structActVtbl =
 [
     [ "act_impl_compute", "structActVtbl.html#abc20d56e8c522e4c24b3f72695f23354", null ],
-    [ "act_impl_copy", "structActVtbl.html#a6136475b800d8f44ee95adde92af6886", null ],
+    [ "act_impl_copy", "structActVtbl.html#a823822b1bcccbae7ad3d51255028be81", null ],
     [ "act_impl_cover", "structActVtbl.html#a2e77cd89e66ee82165a434a0610cf74b", null ],
     [ "act_impl_crossover", "structActVtbl.html#aa409b1a0d51cd192b649c313306dbb28", null ],
     [ "act_impl_free", "structActVtbl.html#a4734d1828bf214ea34a9dad017829c03", null ],

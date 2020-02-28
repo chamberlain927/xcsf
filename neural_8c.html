@@ -106,7 +106,8 @@ $(document).ready(function(){initNavTree('neural_8c.html','');});
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for neural.c:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c__incl.svg" width="1618" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c__incl.svg" width="1618" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="neural_8c_source.html">Go to the source code of this file.</a></p>
@@ -122,9 +123,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a6bf7b7f57925225ad66ae8269d50590a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural_8c.html#a6bf7b7f57925225ad66ae8269d50590a">neural_layer_remove</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structNET.html">NET</a> *net, int p)</td></tr>
 <tr class="memdesc:a6bf7b7f57925225ad66ae8269d50590a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a layer from a neural network.  <a href="#a6bf7b7f57925225ad66ae8269d50590a">More...</a><br /></td></tr>
 <tr class="separator:a6bf7b7f57925225ad66ae8269d50590a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8da978581c53ed20994dc0d3b0a5d1a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural_8c.html#a8da978581c53ed20994dc0d3b0a5d1a8">neural_copy</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structNET.html">NET</a> *to, const <a class="el" href="structNET.html">NET</a> *from)</td></tr>
-<tr class="memdesc:a8da978581c53ed20994dc0d3b0a5d1a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a neural network.  <a href="#a8da978581c53ed20994dc0d3b0a5d1a8">More...</a><br /></td></tr>
-<tr class="separator:a8da978581c53ed20994dc0d3b0a5d1a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c25e5fdeaeca8fe4da40442b78de7a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural_8c.html#a6c25e5fdeaeca8fe4da40442b78de7a9">neural_copy</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structNET.html">NET</a> *dest, const <a class="el" href="structNET.html">NET</a> *src)</td></tr>
+<tr class="memdesc:a6c25e5fdeaeca8fe4da40442b78de7a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a neural network.  <a href="#a6c25e5fdeaeca8fe4da40442b78de7a9">More...</a><br /></td></tr>
+<tr class="separator:a6c25e5fdeaeca8fe4da40442b78de7a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca1f0c0d2a771c3c65a74e6b7c49a1b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neural_8c.html#aca1f0c0d2a771c3c65a74e6b7c49a1b7">neural_free</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structNET.html">NET</a> *net)</td></tr>
 <tr class="memdesc:aca1f0c0d2a771c3c65a74e6b7c49a1b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees a neural network.  <a href="#aca1f0c0d2a771c3c65a74e6b7c49a1b7">More...</a><br /></td></tr>
 <tr class="separator:aca1f0c0d2a771c3c65a74e6b7c49a1b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -164,8 +165,8 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition in file <a class="el" href="neural_8c_source.html">neural.c</a>.</p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="a8da978581c53ed20994dc0d3b0a5d1a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8da978581c53ed20994dc0d3b0a5d1a8">&#9670;&nbsp;</a></span>neural_copy()</h2>
+<a id="a6c25e5fdeaeca8fe4da40442b78de7a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c25e5fdeaeca8fe4da40442b78de7a9">&#9670;&nbsp;</a></span>neural_copy()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -180,13 +181,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="structNET.html">NET</a> *&#160;</td>
-          <td class="paramname"><em>to</em>, </td>
+          <td class="paramname"><em>dest</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="structNET.html">NET</a> *&#160;</td>
-          <td class="paramname"><em>from</em>&#160;</td>
+          <td class="paramname"><em>src</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -200,8 +201,8 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
-    <tr><td class="paramname">to</td><td>The destination neural network. </td></tr>
-    <tr><td class="paramname">from</td><td>The source neural network. </td></tr>
+    <tr><td class="paramname">dest</td><td>The destination neural network. </td></tr>
+    <tr><td class="paramname">src</td><td>The source neural network. </td></tr>
   </table>
   </dd>
 </dl>
@@ -214,12 +215,14 @@ Functions</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a8da978581c53ed20994dc0d3b0a5d1a8_cgraph.svg" width="282" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a6c25e5fdeaeca8fe4da40442b78de7a9_cgraph.svg" width="282" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a8da978581c53ed20994dc0d3b0a5d1a8_icgraph.svg" width="306" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a6c25e5fdeaeca8fe4da40442b78de7a9_icgraph.svg" width="306" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -267,12 +270,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_aca1f0c0d2a771c3c65a74e6b7c49a1b7_cgraph.svg" width="224" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_aca1f0c0d2a771c3c65a74e6b7c49a1b7_cgraph.svg" width="224" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_aca1f0c0d2a771c3c65a74e6b7c49a1b7_icgraph.svg" width="295" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_aca1f0c0d2a771c3c65a74e6b7c49a1b7_icgraph.svg" width="295" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -320,7 +325,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a89a8b1cf58b3c2abe700d9e602e13c8e_icgraph.svg" width="487" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a89a8b1cf58b3c2abe700d9e602e13c8e_icgraph.svg" width="487" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -382,7 +388,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a6217c5bc4bdba93832cb4d8aa6c64d51_icgraph.svg" width="536" height="342"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a6217c5bc4bdba93832cb4d8aa6c64d51_icgraph.svg" width="536" height="342"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -435,7 +442,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a6bf7b7f57925225ad66ae8269d50590a_cgraph.svg" width="280" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a6bf7b7f57925225ad66ae8269d50590a_cgraph.svg" width="280" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -497,12 +505,14 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a1b1b03936f483261383e82c36540f1eb_cgraph.svg" width="264" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a1b1b03936f483261383e82c36540f1eb_cgraph.svg" width="264" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a1b1b03936f483261383e82c36540f1eb_icgraph.svg" width="286" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a1b1b03936f483261383e82c36540f1eb_icgraph.svg" width="286" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -558,12 +568,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a82feaf5070043d33da3e6568ab3bfa63_cgraph.svg" width="294" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a82feaf5070043d33da3e6568ab3bfa63_cgraph.svg" width="294" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a82feaf5070043d33da3e6568ab3bfa63_icgraph.svg" width="298" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a82feaf5070043d33da3e6568ab3bfa63_icgraph.svg" width="298" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -612,12 +624,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a9f485503733918ed0eb6d8e3b9a5afea_cgraph.svg" width="260" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a9f485503733918ed0eb6d8e3b9a5afea_cgraph.svg" width="260" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a9f485503733918ed0eb6d8e3b9a5afea_icgraph.svg" width="330" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a9f485503733918ed0eb6d8e3b9a5afea_icgraph.svg" width="330" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -673,12 +687,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a37652d16ab189bac7e909e98f223e0bb_cgraph.svg" width="252" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a37652d16ab189bac7e909e98f223e0bb_cgraph.svg" width="252" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a37652d16ab189bac7e909e98f223e0bb_icgraph.svg" width="523" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a37652d16ab189bac7e909e98f223e0bb_icgraph.svg" width="523" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -733,12 +749,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a85e5bbbe70913a21f854a613511cb90d_cgraph.svg" width="426" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a85e5bbbe70913a21f854a613511cb90d_cgraph.svg" width="426" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a85e5bbbe70913a21f854a613511cb90d_icgraph.svg" width="300" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a85e5bbbe70913a21f854a613511cb90d_icgraph.svg" width="300" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -793,12 +811,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_af24fee7adcb1405985a06b7648df8f97_cgraph.svg" width="280" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_af24fee7adcb1405985a06b7648df8f97_cgraph.svg" width="280" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_af24fee7adcb1405985a06b7648df8f97_icgraph.svg" width="540" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_af24fee7adcb1405985a06b7648df8f97_icgraph.svg" width="540" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -846,12 +866,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_aaf0a6701c2d891294dd7fd2d118137ef_cgraph.svg" width="231" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_aaf0a6701c2d891294dd7fd2d118137ef_cgraph.svg" width="231" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_aaf0a6701c2d891294dd7fd2d118137ef_icgraph.svg" width="498" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_aaf0a6701c2d891294dd7fd2d118137ef_icgraph.svg" width="498" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -907,12 +929,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a535649e8569318c9b4f8d9395a308b1d_cgraph.svg" width="236" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a535649e8569318c9b4f8d9395a308b1d_cgraph.svg" width="236" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a535649e8569318c9b4f8d9395a308b1d_icgraph.svg" width="306" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_a535649e8569318c9b4f8d9395a308b1d_icgraph.svg" width="306" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -961,7 +985,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_ab4705268bc0ccf470275783b10dabe9d_icgraph.svg" width="298" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="neural_8c_ab4705268bc0ccf470275783b10dabe9d_icgraph.svg" width="298" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>

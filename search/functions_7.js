@@ -95,7 +95,7 @@ var searchData=
   ['get_5ftime',['get_time',['../classXCS.html#ab7d5a6029cc29b32bbc39836300c6586',1,'XCS']]],
   ['get_5fx_5fdim',['get_x_dim',['../classXCS.html#a7d59bb62ae8c2e42ef3d7d1cce45167e',1,'XCS']]],
   ['get_5fy_5fdim',['get_y_dim',['../classXCS.html#a5bc4ea64f42ffffb7a8302e5be5f109e',1,'XCS']]],
-  ['graph_5fcopy',['graph_copy',['../dgp_8c.html#a88698e131854543f5efa881b6db0e573',1,'graph_copy(const XCSF *xcsf, GRAPH *to, const GRAPH *from):&#160;dgp.c'],['../dgp_8h.html#a88698e131854543f5efa881b6db0e573',1,'graph_copy(const XCSF *xcsf, GRAPH *to, const GRAPH *from):&#160;dgp.c']]],
+  ['graph_5fcopy',['graph_copy',['../dgp_8c.html#a3a05dbecca41777e1f60faf95aa7e97e',1,'graph_copy(const XCSF *xcsf, GRAPH *dest, const GRAPH *src):&#160;dgp.c'],['../dgp_8h.html#a3a05dbecca41777e1f60faf95aa7e97e',1,'graph_copy(const XCSF *xcsf, GRAPH *dest, const GRAPH *src):&#160;dgp.c']]],
   ['graph_5fcrossover',['graph_crossover',['../dgp_8c.html#ac8e1ae46b110b4314abca0ccde4f77f9',1,'graph_crossover(const XCSF *xcsf, GRAPH *dgp1, GRAPH *dgp2):&#160;dgp.c'],['../dgp_8h.html#ac8e1ae46b110b4314abca0ccde4f77f9',1,'graph_crossover(const XCSF *xcsf, GRAPH *dgp1, GRAPH *dgp2):&#160;dgp.c']]],
   ['graph_5ffree',['graph_free',['../dgp_8c.html#aa442b6c98fb9fc709bd046e0308488e7',1,'graph_free(const XCSF *xcsf, const GRAPH *dgp):&#160;dgp.c'],['../dgp_8h.html#aa442b6c98fb9fc709bd046e0308488e7',1,'graph_free(const XCSF *xcsf, const GRAPH *dgp):&#160;dgp.c']]],
   ['graph_5finit',['graph_init',['../dgp_8c.html#a10b25afd37a261629da7540c1f7a574c',1,'graph_init(const XCSF *xcsf, GRAPH *dgp, int n):&#160;dgp.c'],['../dgp_8h.html#a10b25afd37a261629da7540c1f7a574c',1,'graph_init(const XCSF *xcsf, GRAPH *dgp, int n):&#160;dgp.c']]],

@@ -8,7 +8,7 @@ var neural__layer__connected_8c =
     [ "mutate_neurons", "neural__layer__connected_8c.html#a121543e4af0fc8a0ee8c3c6f96d1e25d", null ],
     [ "mutate_weights", "neural__layer__connected_8c.html#ad1f6499609edfd952bba8814d2103d08", null ],
     [ "neural_layer_connected_backward", "neural__layer__connected_8c.html#a8e8fd2c51210cf48be30744562800817", null ],
-    [ "neural_layer_connected_copy", "neural__layer__connected_8c.html#afaeb4bcb213c9f3fa5da479af4a3c922", null ],
+    [ "neural_layer_connected_copy", "neural__layer__connected_8c.html#a5520a36f1bfe5a263f13902e166bc645", null ],
     [ "neural_layer_connected_forward", "neural__layer__connected_8c.html#a328a93f8dc067e67c2eadb1e044c2684", null ],
     [ "neural_layer_connected_free", "neural__layer__connected_8c.html#a8a71a7105130d00d28798087970b1016", null ],
     [ "neural_layer_connected_init", "neural__layer__connected_8c.html#adcf59226c12296224d675cfb28892039", null ],

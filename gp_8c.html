@@ -102,7 +102,8 @@ $(document).ready(function(){initNavTree('gp_8c.html','');});
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for gp.c:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c__incl.svg" width="670" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c__incl.svg" width="670" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="gp_8c_source.html">Go to the source code of this file.</a></p>
@@ -150,9 +151,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ac1ce5ebff5dbd537921803e743a1f894"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gp_8c.html#ac1ce5ebff5dbd537921803e743a1f894">tree_print</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structGP__TREE.html">GP_TREE</a> *gp, int p)</td></tr>
 <tr class="memdesc:ac1ce5ebff5dbd537921803e743a1f894"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints a GP tree.  <a href="#ac1ce5ebff5dbd537921803e743a1f894">More...</a><br /></td></tr>
 <tr class="separator:ac1ce5ebff5dbd537921803e743a1f894"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8006cb74f8bcc0e8572cd8a27bccd67e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gp_8c.html#a8006cb74f8bcc0e8572cd8a27bccd67e">tree_copy</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structGP__TREE.html">GP_TREE</a> *to, const <a class="el" href="structGP__TREE.html">GP_TREE</a> *from)</td></tr>
-<tr class="memdesc:a8006cb74f8bcc0e8572cd8a27bccd67e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a GP tree.  <a href="#a8006cb74f8bcc0e8572cd8a27bccd67e">More...</a><br /></td></tr>
-<tr class="separator:a8006cb74f8bcc0e8572cd8a27bccd67e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43092e122811bbe561a9e5660e3009cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gp_8c.html#a43092e122811bbe561a9e5660e3009cf">tree_copy</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structGP__TREE.html">GP_TREE</a> *dest, const <a class="el" href="structGP__TREE.html">GP_TREE</a> *src)</td></tr>
+<tr class="memdesc:a43092e122811bbe561a9e5660e3009cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a GP tree.  <a href="#a43092e122811bbe561a9e5660e3009cf">More...</a><br /></td></tr>
+<tr class="separator:a43092e122811bbe561a9e5660e3009cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1b8b935cacd6cbd2d6630a5335b56e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gp_8c.html#ac1b8b935cacd6cbd2d6630a5335b56e2">tree_crossover</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structGP__TREE.html">GP_TREE</a> *p1, <a class="el" href="structGP__TREE.html">GP_TREE</a> *p2)</td></tr>
 <tr class="memdesc:ac1b8b935cacd6cbd2d6630a5335b56e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs sub-tree crossover.  <a href="#ac1b8b935cacd6cbd2d6630a5335b56e2">More...</a><br /></td></tr>
 <tr class="separator:ac1b8b935cacd6cbd2d6630a5335b56e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -288,8 +289,8 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a8006cb74f8bcc0e8572cd8a27bccd67e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8006cb74f8bcc0e8572cd8a27bccd67e">&#9670;&nbsp;</a></span>tree_copy()</h2>
+<a id="a43092e122811bbe561a9e5660e3009cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43092e122811bbe561a9e5660e3009cf">&#9670;&nbsp;</a></span>tree_copy()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -304,13 +305,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="structGP__TREE.html">GP_TREE</a> *&#160;</td>
-          <td class="paramname"><em>to</em>, </td>
+          <td class="paramname"><em>dest</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="structGP__TREE.html">GP_TREE</a> *&#160;</td>
-          <td class="paramname"><em>from</em>&#160;</td>
+          <td class="paramname"><em>src</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -324,8 +325,8 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
-    <tr><td class="paramname">to</td><td>The destination GP tree. </td></tr>
-    <tr><td class="paramname">from</td><td>The source GP tree. </td></tr>
+    <tr><td class="paramname">dest</td><td>The destination GP tree. </td></tr>
+    <tr><td class="paramname">src</td><td>The source GP tree. </td></tr>
   </table>
   </dd>
 </dl>
@@ -338,7 +339,8 @@ Functions</h2></td></tr>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_a8006cb74f8bcc0e8572cd8a27bccd67e_icgraph.svg" width="244" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_a43092e122811bbe561a9e5660e3009cf_icgraph.svg" width="244" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -393,12 +395,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_ac1b8b935cacd6cbd2d6630a5335b56e2_cgraph.svg" width="1315" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_ac1b8b935cacd6cbd2d6630a5335b56e2_cgraph.svg" width="1315" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_ac1b8b935cacd6cbd2d6630a5335b56e2_icgraph.svg" width="302" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_ac1b8b935cacd6cbd2d6630a5335b56e2_icgraph.svg" width="302" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -454,12 +458,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_a38ad09b6b4bf2d9aeb3a6a72b8e04220_cgraph.svg" width="86" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_a38ad09b6b4bf2d9aeb3a6a72b8e04220_cgraph.svg" width="86" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_a38ad09b6b4bf2d9aeb3a6a72b8e04220_icgraph.svg" width="530" height="76"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_a38ad09b6b4bf2d9aeb3a6a72b8e04220_icgraph.svg" width="530" height="76"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -507,7 +513,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_aa5345452d3441ba131da2cb41fabd07b_icgraph.svg" width="423" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_aa5345452d3441ba131da2cb41fabd07b_icgraph.svg" width="423" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -544,7 +551,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_a74091a445ea616e4e3499d60425baf78_icgraph.svg" width="352" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_a74091a445ea616e4e3499d60425baf78_icgraph.svg" width="352" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -623,12 +631,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_ab19988d921192b34eb305090b9f2a5e8_cgraph.svg" width="1286" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_ab19988d921192b34eb305090b9f2a5e8_cgraph.svg" width="1286" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_ab19988d921192b34eb305090b9f2a5e8_icgraph.svg" width="523" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_ab19988d921192b34eb305090b9f2a5e8_icgraph.svg" width="523" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -665,12 +675,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_a262c601e1744b1d1c654f609a5138b94_cgraph.svg" width="1162" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_a262c601e1744b1d1c654f609a5138b94_cgraph.svg" width="1162" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_a262c601e1744b1d1c654f609a5138b94_icgraph.svg" width="528" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_a262c601e1744b1d1c654f609a5138b94_icgraph.svg" width="528" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -726,7 +738,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_a5056e949dbe5a1de45d114dbebe0cbb2_icgraph.svg" width="236" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_a5056e949dbe5a1de45d114dbebe0cbb2_icgraph.svg" width="236" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -774,12 +787,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_acfa176ddc5ae609393a558e46b3fc52b_cgraph.svg" width="1636" height="223"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_acfa176ddc5ae609393a558e46b3fc52b_cgraph.svg" width="1636" height="223"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_acfa176ddc5ae609393a558e46b3fc52b_icgraph.svg" width="268" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_acfa176ddc5ae609393a558e46b3fc52b_icgraph.svg" width="268" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -835,12 +850,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_ac1ce5ebff5dbd537921803e743a1f894_cgraph.svg" width="87" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_ac1ce5ebff5dbd537921803e743a1f894_cgraph.svg" width="87" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_ac1ce5ebff5dbd537921803e743a1f894_icgraph.svg" width="362" height="76"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_ac1ce5ebff5dbd537921803e743a1f894_icgraph.svg" width="362" height="76"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -888,12 +905,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_ae77c9d7102a5e5d3b0ecca6993117e21_cgraph.svg" width="1650" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_ae77c9d7102a5e5d3b0ecca6993117e21_cgraph.svg" width="1650" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_ae77c9d7102a5e5d3b0ecca6993117e21_icgraph.svg" width="396" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_ae77c9d7102a5e5d3b0ecca6993117e21_icgraph.svg" width="396" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -949,7 +968,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_a812faa1cc9785dd38706fc5d15de7d84_icgraph.svg" width="244" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_a812faa1cc9785dd38706fc5d15de7d84_icgraph.svg" width="244" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -1006,7 +1026,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_a7c42cce0ae1e713a3dc4d34b1cdd5d42_icgraph.svg" width="448" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gp_8c_a7c42cce0ae1e713a3dc4d34b1cdd5d42_icgraph.svg" width="448" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>

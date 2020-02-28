@@ -29,9 +29,9 @@ var NAVTREEINDEX =
 "act__integer_8c.html",
 "classXCS.html#acf369c125c580e09babaa17c78ad2374",
 "cond__neural_8h.html#a1873e5cf2ac3a4239f532a072a2d9716",
-"dgp_8c.html#a870d8b0c4cbc943f756b54ccbb3ff4c7",
+"dgp_8c.html#a803fbf71cf39b02f1ce8f6d33a23c075",
 "gp_8c.html#aee9a8f46de9c5a8da3f840df8825453f",
-"neural__layer__noise_8h.html#a8a993b13bc46c89ca4b4cf22d2a17660",
+"neural__layer__noise_8h.html#a8b0d122a9b22f0e085d80e7440c4f4cf",
 "rule__dgp_8h.html#a2a600691247c34c91f33e9a35852adae",
 "structLayerVtbl.html#a77504873cbb648caa761dde01ae67c40"
 ];

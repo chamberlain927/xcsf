@@ -1,7 +1,7 @@
 var neural__layer__dropout_8h =
 [
     [ "neural_layer_dropout_backward", "neural__layer__dropout_8h.html#aa447c6c135bc7a8615572d59428b69cc", null ],
-    [ "neural_layer_dropout_copy", "neural__layer__dropout_8h.html#a8aa1baaef8afd51d64b1b7505f4c0baa", null ],
+    [ "neural_layer_dropout_copy", "neural__layer__dropout_8h.html#ac29a272c8b5acf601ae02cb6cdd95155", null ],
     [ "neural_layer_dropout_forward", "neural__layer__dropout_8h.html#a107ad5a52e728a1eb0d7793d84d04e81", null ],
     [ "neural_layer_dropout_free", "neural__layer__dropout_8h.html#aa4869af041d6c5909dc530c1509d9099", null ],
     [ "neural_layer_dropout_init", "neural__layer__dropout_8h.html#ae05ebb339162741315faa45bc70a5ca0", null ],

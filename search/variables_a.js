@@ -5,7 +5,7 @@ var searchData=
   ['layer_5fconnected_5fvtbl',['layer_connected_vtbl',['../neural__layer__connected_8h.html#a0c2eda24d755ec965930f84a35c25ce6',1,'neural_layer_connected.h']]],
   ['layer_5fdropout_5fvtbl',['layer_dropout_vtbl',['../neural__layer__dropout_8h.html#a6c5aa1c66eaa28dd748530488cd00c82',1,'neural_layer_dropout.h']]],
   ['layer_5fimpl_5fbackward',['layer_impl_backward',['../structLayerVtbl.html#a9ef839b4d9ed5c2af5831e2da870135d',1,'LayerVtbl']]],
-  ['layer_5fimpl_5fcopy',['layer_impl_copy',['../structLayerVtbl.html#a4e7ad729c384d6e43d56820828f21698',1,'LayerVtbl']]],
+  ['layer_5fimpl_5fcopy',['layer_impl_copy',['../structLayerVtbl.html#a13e7f5231105ffa828e411b8ed1fbe90',1,'LayerVtbl']]],
   ['layer_5fimpl_5fforward',['layer_impl_forward',['../structLayerVtbl.html#a4eb8f71b456c7bb4f85dfd46c81fb41c',1,'LayerVtbl']]],
   ['layer_5fimpl_5ffree',['layer_impl_free',['../structLayerVtbl.html#a5d56d48f5487324125699e6df7413733',1,'LayerVtbl']]],
   ['layer_5fimpl_5fload',['layer_impl_load',['../structLayerVtbl.html#a77504873cbb648caa761dde01ae67c40',1,'LayerVtbl']]],

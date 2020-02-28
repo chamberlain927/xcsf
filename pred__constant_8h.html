@@ -94,7 +94,8 @@ $(document).ready(function(){initNavTree('pred__constant_8h.html','');});
 <div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="pred__constant_8h__dep__incl.svg" width="240" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="pred__constant_8h__dep__incl.svg" width="240" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="pred__constant_8h_source.html">Go to the source code of this file.</a></p>
@@ -113,8 +114,8 @@ Functions</h2></td></tr>
 <tr class="separator:aff1389a708f6ae1388de165026ece985"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ebcec08a6aecbfca8648cba5574bc94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__constant_8h.html#a8ebcec08a6aecbfca8648cba5574bc94">pred_constant_compute</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structCL.html">CL</a> *c, const double *x)</td></tr>
 <tr class="separator:a8ebcec08a6aecbfca8648cba5574bc94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05f1e4d7fd77351dd91479704b918a9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__constant_8h.html#a05f1e4d7fd77351dd91479704b918a9e">pred_constant_copy</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *to, const <a class="el" href="structCL.html">CL</a> *from)</td></tr>
-<tr class="separator:a05f1e4d7fd77351dd91479704b918a9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42f5b131d4124e52fe20c8e1e71d1859"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__constant_8h.html#a42f5b131d4124e52fe20c8e1e71d1859">pred_constant_copy</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *dest, const <a class="el" href="structCL.html">CL</a> *src)</td></tr>
+<tr class="separator:a42f5b131d4124e52fe20c8e1e71d1859"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23774f3f3be142689733b5022244131e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__constant_8h.html#a23774f3f3be142689733b5022244131e">pred_constant_free</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structCL.html">CL</a> *c)</td></tr>
 <tr class="separator:a23774f3f3be142689733b5022244131e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a773c69f83be3fba3ba97d2457a0e136e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pred__constant_8h.html#a773c69f83be3fba3ba97d2457a0e136e">pred_constant_init</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf, <a class="el" href="structCL.html">CL</a> *c)</td></tr>
@@ -174,8 +175,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a05f1e4d7fd77351dd91479704b918a9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05f1e4d7fd77351dd91479704b918a9e">&#9670;&nbsp;</a></span>pred_constant_copy()</h2>
+<a id="a42f5b131d4124e52fe20c8e1e71d1859"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42f5b131d4124e52fe20c8e1e71d1859">&#9670;&nbsp;</a></span>pred_constant_copy()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -190,13 +191,13 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="structCL.html">CL</a> *&#160;</td>
-          <td class="paramname"><em>to</em>, </td>
+          <td class="paramname"><em>dest</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="structCL.html">CL</a> *&#160;</td>
-          <td class="paramname"><em>from</em>&#160;</td>
+          <td class="paramname"><em>src</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -536,17 +537,17 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">    &amp;<a class="code" href="pred__constant_8h.html#adfb6274ce18418cf8891d6ac1f19ffab">pred_constant_crossover</a>,</div><div class="line">    &amp;<a class="code" href="pred__constant_8h.html#a11ce41c8bc29e4081ac243cd6e11a784">pred_constant_mutate</a>,</div><div class="line">    &amp;<a class="code" href="pred__constant_8h.html#a8ebcec08a6aecbfca8648cba5574bc94">pred_constant_compute</a>,</div><div class="line">    &amp;<a class="code" href="pred__constant_8h.html#a05f1e4d7fd77351dd91479704b918a9e">pred_constant_copy</a>,</div><div class="line">    &amp;<a class="code" href="pred__constant_8h.html#a23774f3f3be142689733b5022244131e">pred_constant_free</a>,</div><div class="line">    &amp;<a class="code" href="pred__constant_8h.html#a773c69f83be3fba3ba97d2457a0e136e">pred_constant_init</a>,</div><div class="line">    &amp;<a class="code" href="pred__constant_8h.html#a2ebf870bd5b50f8f1f8af92460f2f1a6">pred_constant_print</a>,</div><div class="line">    &amp;<a class="code" href="pred__constant_8h.html#a7f0428241bbc52e45e01db321420a4d6">pred_constant_update</a>,</div><div class="line">    &amp;<a class="code" href="pred__constant_8h.html#adf31780c2de952ce652b86d12b91ff0c">pred_constant_size</a>,</div><div class="line">    &amp;<a class="code" href="pred__constant_8h.html#aff1389a708f6ae1388de165026ece985">pred_constant_save</a>,</div><div class="line">    &amp;<a class="code" href="pred__constant_8h.html#a93f696b2c0490aada04f2ff57905767f">pred_constant_load</a></div><div class="line">}</div><div class="ttc" id="pred__constant_8h_html_a2ebf870bd5b50f8f1f8af92460f2f1a6"><div class="ttname"><a href="pred__constant_8h.html#a2ebf870bd5b50f8f1f8af92460f2f1a6">pred_constant_print</a></div><div class="ttdeci">void pred_constant_print(const XCSF *xcsf, const CL *c)</div><div class="ttdef"><b>Definition:</b> <a href="pred__constant_8c_source.html#l00068">pred_constant.c:68</a></div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">    &amp;<a class="code" href="pred__constant_8h.html#adfb6274ce18418cf8891d6ac1f19ffab">pred_constant_crossover</a>,</div><div class="line">    &amp;<a class="code" href="pred__constant_8h.html#a11ce41c8bc29e4081ac243cd6e11a784">pred_constant_mutate</a>,</div><div class="line">    &amp;<a class="code" href="pred__constant_8h.html#a8ebcec08a6aecbfca8648cba5574bc94">pred_constant_compute</a>,</div><div class="line">    &amp;<a class="code" href="pred__constant_8h.html#a42f5b131d4124e52fe20c8e1e71d1859">pred_constant_copy</a>,</div><div class="line">    &amp;<a class="code" href="pred__constant_8h.html#a23774f3f3be142689733b5022244131e">pred_constant_free</a>,</div><div class="line">    &amp;<a class="code" href="pred__constant_8h.html#a773c69f83be3fba3ba97d2457a0e136e">pred_constant_init</a>,</div><div class="line">    &amp;<a class="code" href="pred__constant_8h.html#a2ebf870bd5b50f8f1f8af92460f2f1a6">pred_constant_print</a>,</div><div class="line">    &amp;<a class="code" href="pred__constant_8h.html#a7f0428241bbc52e45e01db321420a4d6">pred_constant_update</a>,</div><div class="line">    &amp;<a class="code" href="pred__constant_8h.html#adf31780c2de952ce652b86d12b91ff0c">pred_constant_size</a>,</div><div class="line">    &amp;<a class="code" href="pred__constant_8h.html#aff1389a708f6ae1388de165026ece985">pred_constant_save</a>,</div><div class="line">    &amp;<a class="code" href="pred__constant_8h.html#a93f696b2c0490aada04f2ff57905767f">pred_constant_load</a></div><div class="line">}</div><div class="ttc" id="pred__constant_8h_html_a2ebf870bd5b50f8f1f8af92460f2f1a6"><div class="ttname"><a href="pred__constant_8h.html#a2ebf870bd5b50f8f1f8af92460f2f1a6">pred_constant_print</a></div><div class="ttdeci">void pred_constant_print(const XCSF *xcsf, const CL *c)</div><div class="ttdef"><b>Definition:</b> <a href="pred__constant_8c_source.html#l00068">pred_constant.c:68</a></div></div>
 <div class="ttc" id="pred__constant_8h_html_a773c69f83be3fba3ba97d2457a0e136e"><div class="ttname"><a href="pred__constant_8h.html#a773c69f83be3fba3ba97d2457a0e136e">pred_constant_init</a></div><div class="ttdeci">void pred_constant_init(const XCSF *xcsf, CL *c)</div><div class="ttdef"><b>Definition:</b> <a href="pred__constant_8c_source.html#l00033">pred_constant.c:33</a></div></div>
 <div class="ttc" id="pred__constant_8h_html_adf31780c2de952ce652b86d12b91ff0c"><div class="ttname"><a href="pred__constant_8h.html#adf31780c2de952ce652b86d12b91ff0c">pred_constant_size</a></div><div class="ttdeci">int pred_constant_size(const XCSF *xcsf, const CL *c)</div><div class="ttdef"><b>Definition:</b> <a href="pred__constant_8c_source.html#l00089">pred_constant.c:89</a></div></div>
 <div class="ttc" id="pred__constant_8h_html_aff1389a708f6ae1388de165026ece985"><div class="ttname"><a href="pred__constant_8h.html#aff1389a708f6ae1388de165026ece985">pred_constant_save</a></div><div class="ttdeci">size_t pred_constant_save(const XCSF *xcsf, const CL *c, FILE *fp)</div><div class="ttdef"><b>Definition:</b> <a href="pred__constant_8c_source.html#l00095">pred_constant.c:95</a></div></div>
 <div class="ttc" id="pred__constant_8h_html_a8ebcec08a6aecbfca8648cba5574bc94"><div class="ttname"><a href="pred__constant_8h.html#a8ebcec08a6aecbfca8648cba5574bc94">pred_constant_compute</a></div><div class="ttdeci">void pred_constant_compute(const XCSF *xcsf, const CL *c, const double *x)</div><div class="ttdef"><b>Definition:</b> <a href="pred__constant_8c_source.html#l00063">pred_constant.c:63</a></div></div>
-<div class="ttc" id="pred__constant_8h_html_a05f1e4d7fd77351dd91479704b918a9e"><div class="ttname"><a href="pred__constant_8h.html#a05f1e4d7fd77351dd91479704b918a9e">pred_constant_copy</a></div><div class="ttdeci">void pred_constant_copy(const XCSF *xcsf, CL *to, const CL *from)</div><div class="ttdef"><b>Definition:</b> <a href="pred__constant_8c_source.html#l00038">pred_constant.c:38</a></div></div>
 <div class="ttc" id="pred__constant_8h_html_adfb6274ce18418cf8891d6ac1f19ffab"><div class="ttname"><a href="pred__constant_8h.html#adfb6274ce18418cf8891d6ac1f19ffab">pred_constant_crossover</a></div><div class="ttdeci">_Bool pred_constant_crossover(const XCSF *xcsf, const CL *c1, const CL *c2)</div><div class="ttdef"><b>Definition:</b> <a href="pred__constant_8c_source.html#l00077">pred_constant.c:77</a></div></div>
 <div class="ttc" id="pred__constant_8h_html_a23774f3f3be142689733b5022244131e"><div class="ttname"><a href="pred__constant_8h.html#a23774f3f3be142689733b5022244131e">pred_constant_free</a></div><div class="ttdeci">void pred_constant_free(const XCSF *xcsf, const CL *c)</div><div class="ttdef"><b>Definition:</b> <a href="pred__constant_8c_source.html#l00043">pred_constant.c:43</a></div></div>
 <div class="ttc" id="pred__constant_8h_html_a11ce41c8bc29e4081ac243cd6e11a784"><div class="ttname"><a href="pred__constant_8h.html#a11ce41c8bc29e4081ac243cd6e11a784">pred_constant_mutate</a></div><div class="ttdeci">_Bool pred_constant_mutate(const XCSF *xcsf, const CL *c)</div><div class="ttdef"><b>Definition:</b> <a href="pred__constant_8c_source.html#l00083">pred_constant.c:83</a></div></div>
 <div class="ttc" id="pred__constant_8h_html_a93f696b2c0490aada04f2ff57905767f"><div class="ttname"><a href="pred__constant_8h.html#a93f696b2c0490aada04f2ff57905767f">pred_constant_load</a></div><div class="ttdeci">size_t pred_constant_load(const XCSF *xcsf, CL *c, FILE *fp)</div><div class="ttdef"><b>Definition:</b> <a href="pred__constant_8c_source.html#l00101">pred_constant.c:101</a></div></div>
 <div class="ttc" id="pred__constant_8h_html_a7f0428241bbc52e45e01db321420a4d6"><div class="ttname"><a href="pred__constant_8h.html#a7f0428241bbc52e45e01db321420a4d6">pred_constant_update</a></div><div class="ttdeci">void pred_constant_update(const XCSF *xcsf, const CL *c, const double *x, const double *y)</div><div class="ttdef"><b>Definition:</b> <a href="pred__constant_8c_source.html#l00048">pred_constant.c:48</a></div></div>
+<div class="ttc" id="pred__constant_8h_html_a42f5b131d4124e52fe20c8e1e71d1859"><div class="ttname"><a href="pred__constant_8h.html#a42f5b131d4124e52fe20c8e1e71d1859">pred_constant_copy</a></div><div class="ttdeci">void pred_constant_copy(const XCSF *xcsf, CL *dest, const CL *src)</div><div class="ttdef"><b>Definition:</b> <a href="pred__constant_8c_source.html#l00038">pred_constant.c:38</a></div></div>
 </div><!-- fragment -->
 <p>Constant prediction implemented functions. </p>
 
