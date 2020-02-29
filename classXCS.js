@@ -86,6 +86,7 @@ var classXCS =
     [ "get_y_dim", "classXCS.html#a5bc4ea64f42ffffb7a8302e5be5f109e", null ],
     [ "load", "classXCS.html#adc9b621f2b7a306fbf381dd0efaf268b", null ],
     [ "predict", "classXCS.html#a8e8db281054f9e5937610eed434cd4a5", null ],
+    [ "print_params", "classXCS.html#a740e580dbd9bb7d567de5536c5fc1661", null ],
     [ "print_pop", "classXCS.html#a17153434b6e3310591eafb94e81cda9a", null ],
     [ "save", "classXCS.html#a1312ff6b9e9eef9c34029bff38c39de7", null ],
     [ "score", "classXCS.html#ad32ffc841106ec036029e4c90a33b761", null ],

@@ -82,11 +82,8 @@ $(document).ready(function(){initNavTree('config_8c.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Data Structures</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">config.c File Reference</div>  </div>
 </div><!--header-->
@@ -113,12 +110,6 @@ Include dependency graph for config.c:</div>
 </div>
 <p><a href="config_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Data Structures</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPARAM__LIST.html">PARAM_LIST</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration file parameter data structure.  <a href="structPARAM__LIST.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a3d7c8faadcf5bcb3f2c6c90b2921e75d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a3d7c8faadcf5bcb3f2c6c90b2921e75d">ARRAY_DELIM</a>&#160;&#160;&#160;&quot;,&quot;</td></tr>
@@ -131,71 +122,110 @@ Macros</h2></td></tr>
 <tr class="memdesc:a79bcfb6bde984f42d1124b068a509af7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decimal numbers.  <a href="#a79bcfb6bde984f42d1124b068a509af7">More...</a><br /></td></tr>
 <tr class="separator:a79bcfb6bde984f42d1124b068a509af7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a2f743c55f8d1d763667fedc61e7f9e94"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structPARAM__LIST.html">PARAM_LIST</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a2f743c55f8d1d763667fedc61e7f9e94">PARAM_LIST</a></td></tr>
-<tr class="memdesc:a2f743c55f8d1d763667fedc61e7f9e94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration file parameter data structure.  <a href="#a2f743c55f8d1d763667fedc61e7f9e94">More...</a><br /></td></tr>
-<tr class="separator:a2f743c55f8d1d763667fedc61e7f9e94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a10e65fe892d670b67552cef67eb86475"><td class="memItemLeft" align="right" valign="top">static char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a10e65fe892d670b67552cef67eb86475">config_getvalue</a> (const char *name)</td></tr>
-<tr class="memdesc:a10e65fe892d670b67552cef67eb86475"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of a specified parameter from the list.  <a href="#a10e65fe892d670b67552cef67eb86475">More...</a><br /></td></tr>
-<tr class="separator:a10e65fe892d670b67552cef67eb86475"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a007b1540f14136a2b3cc8b85e4902466"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a007b1540f14136a2b3cc8b85e4902466">config_get_ints</a> (const char *name, int *value)</td></tr>
-<tr class="memdesc:a007b1540f14136a2b3cc8b85e4902466"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a csv list of ints into an array.  <a href="#a007b1540f14136a2b3cc8b85e4902466">More...</a><br /></td></tr>
-<tr class="separator:a007b1540f14136a2b3cc8b85e4902466"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2e1c63fec3382cc3dfe4b72c7a24db8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#ae2e1c63fec3382cc3dfe4b72c7a24db8">config_newnvpair</a> (const char *config)</td></tr>
-<tr class="memdesc:ae2e1c63fec3382cc3dfe4b72c7a24db8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a parameter to the list.  <a href="#ae2e1c63fec3382cc3dfe4b72c7a24db8">More...</a><br /></td></tr>
-<tr class="separator:ae2e1c63fec3382cc3dfe4b72c7a24db8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3333848c96ebca04623dd04ce5be655b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a3333848c96ebca04623dd04ce5be655b">config_process</a> (const char *configline)</td></tr>
-<tr class="memdesc:a3333848c96ebca04623dd04ce5be655b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses a line of the config file and adds to the list.  <a href="#a3333848c96ebca04623dd04ce5be655b">More...</a><br /></td></tr>
-<tr class="separator:a3333848c96ebca04623dd04ce5be655b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9948d2908366d72fbb1c6feb609b3d4f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a9948d2908366d72fbb1c6feb609b3d4f">config_read</a> (const char *filename)</td></tr>
-<tr class="memdesc:a9948d2908366d72fbb1c6feb609b3d4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the specified configuration file.  <a href="#a9948d2908366d72fbb1c6feb609b3d4f">More...</a><br /></td></tr>
-<tr class="separator:a9948d2908366d72fbb1c6feb609b3d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c74c2f130c3fda846bc707b3c1467c1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a4c74c2f130c3fda846bc707b3c1467c1">config_tidyup</a> ()</td></tr>
-<tr class="memdesc:a4c74c2f130c3fda846bc707b3c1467c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees the config file parameter list.  <a href="#a4c74c2f130c3fda846bc707b3c1467c1">More...</a><br /></td></tr>
-<tr class="separator:a4c74c2f130c3fda846bc707b3c1467c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54fb0ed34172561dc44ca18d88a78f13"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a54fb0ed34172561dc44ca18d88a78f13">config_get_ints</a> (char *str, int *val)</td></tr>
+<tr class="memdesc:a54fb0ed34172561dc44ca18d88a78f13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a csv list of ints into an array.  <a href="#a54fb0ed34172561dc44ca18d88a78f13">More...</a><br /></td></tr>
+<tr class="separator:a54fb0ed34172561dc44ca18d88a78f13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0ef249c19382a8125003e1c53221767"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#ae0ef249c19382a8125003e1c53221767">config_newnvpair</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, const char *param)</td></tr>
+<tr class="memdesc:ae0ef249c19382a8125003e1c53221767"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a parameter to the list.  <a href="#ae0ef249c19382a8125003e1c53221767">More...</a><br /></td></tr>
+<tr class="separator:ae0ef249c19382a8125003e1c53221767"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a16c67bd1965c9f62f75fc88e2abe98"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a7a16c67bd1965c9f62f75fc88e2abe98">config_process</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, const char *configline)</td></tr>
+<tr class="memdesc:a7a16c67bd1965c9f62f75fc88e2abe98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses a line of the config file and adds to the list.  <a href="#a7a16c67bd1965c9f62f75fc88e2abe98">More...</a><br /></td></tr>
+<tr class="separator:a7a16c67bd1965c9f62f75fc88e2abe98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c6e238be77841517a31c44c39c84dc7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a9c6e238be77841517a31c44c39c84dc7">config_read</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, const char *filename)</td></tr>
+<tr class="memdesc:a9c6e238be77841517a31c44c39c84dc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the specified configuration file.  <a href="#a9c6e238be77841517a31c44c39c84dc7">More...</a><br /></td></tr>
+<tr class="separator:a9c6e238be77841517a31c44c39c84dc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c81724e9bdc867a3dd41bafab67cbd3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a0c81724e9bdc867a3dd41bafab67cbd3">config_trim</a> (char *s)</td></tr>
 <tr class="memdesc:a0c81724e9bdc867a3dd41bafab67cbd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes tabs/spaces/lf/cr.  <a href="#a0c81724e9bdc867a3dd41bafab67cbd3">More...</a><br /></td></tr>
 <tr class="separator:a0c81724e9bdc867a3dd41bafab67cbd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39ac19705915795f1f3daefebf96e37d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a39ac19705915795f1f3daefebf96e37d">params_cl_action</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
-<tr class="memdesc:a39ac19705915795f1f3daefebf96e37d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises classifier action parameters.  <a href="#a39ac19705915795f1f3daefebf96e37d">More...</a><br /></td></tr>
-<tr class="separator:a39ac19705915795f1f3daefebf96e37d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a165dae50e0b9f879753798bea405c7e0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a165dae50e0b9f879753798bea405c7e0">params_cl_condition</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
-<tr class="memdesc:a165dae50e0b9f879753798bea405c7e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises classifier condition parameters.  <a href="#a165dae50e0b9f879753798bea405c7e0">More...</a><br /></td></tr>
-<tr class="separator:a165dae50e0b9f879753798bea405c7e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc175ba379a3169ae3bc6df1a31b0d0f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#adc175ba379a3169ae3bc6df1a31b0d0f">params_cl_general</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
-<tr class="memdesc:adc175ba379a3169ae3bc6df1a31b0d0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises general classifier parameters.  <a href="#adc175ba379a3169ae3bc6df1a31b0d0f">More...</a><br /></td></tr>
-<tr class="separator:adc175ba379a3169ae3bc6df1a31b0d0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e94168e46b659d4ae6962a05b8a34e7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a9e94168e46b659d4ae6962a05b8a34e7">params_cl_prediction</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
-<tr class="memdesc:a9e94168e46b659d4ae6962a05b8a34e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises classifier prediction parameters.  <a href="#a9e94168e46b659d4ae6962a05b8a34e7">More...</a><br /></td></tr>
-<tr class="separator:a9e94168e46b659d4ae6962a05b8a34e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae95254f43497b746fa5446cad160e21f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#ae95254f43497b746fa5446cad160e21f">params_ea</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
-<tr class="memdesc:ae95254f43497b746fa5446cad160e21f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises evolutionary algorithm parameters.  <a href="#ae95254f43497b746fa5446cad160e21f">More...</a><br /></td></tr>
-<tr class="separator:ae95254f43497b746fa5446cad160e21f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d7a055b73c24de7dd348448b75ea626"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a0d7a055b73c24de7dd348448b75ea626">params_general</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
-<tr class="memdesc:a0d7a055b73c24de7dd348448b75ea626"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises general system parameters.  <a href="#a0d7a055b73c24de7dd348448b75ea626">More...</a><br /></td></tr>
-<tr class="separator:a0d7a055b73c24de7dd348448b75ea626"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeedb9eacce33b5236623057f71df1ebb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#aeedb9eacce33b5236623057f71df1ebb">params_multistep</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
-<tr class="memdesc:aeedb9eacce33b5236623057f71df1ebb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises multi-step parameters.  <a href="#aeedb9eacce33b5236623057f71df1ebb">More...</a><br /></td></tr>
-<tr class="separator:aeedb9eacce33b5236623057f71df1ebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe7b908d3de0d9711545ecc150d91628"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#abe7b908d3de0d9711545ecc150d91628">params_subsumption</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
-<tr class="memdesc:abe7b908d3de0d9711545ecc150d91628"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises subsumption parameters.  <a href="#abe7b908d3de0d9711545ecc150d91628">More...</a><br /></td></tr>
-<tr class="separator:abe7b908d3de0d9711545ecc150d91628"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03d953f3697e255dc6955bd4b0e4f155"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a03d953f3697e255dc6955bd4b0e4f155">params_cl_action</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, const char *name, const char *value)</td></tr>
+<tr class="memdesc:a03d953f3697e255dc6955bd4b0e4f155"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets classifier action parameters.  <a href="#a03d953f3697e255dc6955bd4b0e4f155">More...</a><br /></td></tr>
+<tr class="separator:a03d953f3697e255dc6955bd4b0e4f155"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab31e8dc9f7f2da0ab2b3a96ff16c13c3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#ab31e8dc9f7f2da0ab2b3a96ff16c13c3">params_cl_condition</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, const char *name, char *value)</td></tr>
+<tr class="memdesc:ab31e8dc9f7f2da0ab2b3a96ff16c13c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets classifier condition parameters.  <a href="#ab31e8dc9f7f2da0ab2b3a96ff16c13c3">More...</a><br /></td></tr>
+<tr class="separator:ab31e8dc9f7f2da0ab2b3a96ff16c13c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab977df8efbefd43ac742766dc163b553"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#ab977df8efbefd43ac742766dc163b553">params_cl_general</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, const char *name, const char *value)</td></tr>
+<tr class="memdesc:ab977df8efbefd43ac742766dc163b553"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets general classifier parameters.  <a href="#ab977df8efbefd43ac742766dc163b553">More...</a><br /></td></tr>
+<tr class="separator:ab977df8efbefd43ac742766dc163b553"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab49abbc5d1d5571fe940b94baad6f72b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#ab49abbc5d1d5571fe940b94baad6f72b">params_cl_prediction</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, const char *name, char *value)</td></tr>
+<tr class="memdesc:ab49abbc5d1d5571fe940b94baad6f72b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets classifier prediction parameters.  <a href="#ab49abbc5d1d5571fe940b94baad6f72b">More...</a><br /></td></tr>
+<tr class="separator:ab49abbc5d1d5571fe940b94baad6f72b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f01f41dc856a626b8f9ad3481351e9a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a4f01f41dc856a626b8f9ad3481351e9a">params_ea</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, const char *name, const char *value)</td></tr>
+<tr class="memdesc:a4f01f41dc856a626b8f9ad3481351e9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets evolutionary algorithm parameters.  <a href="#a4f01f41dc856a626b8f9ad3481351e9a">More...</a><br /></td></tr>
+<tr class="separator:a4f01f41dc856a626b8f9ad3481351e9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4aae2f8189d834caecc5a3da57b765bf"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a4aae2f8189d834caecc5a3da57b765bf">params_general</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, const char *name, const char *value)</td></tr>
+<tr class="memdesc:a4aae2f8189d834caecc5a3da57b765bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets general <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> parameters.  <a href="#a4aae2f8189d834caecc5a3da57b765bf">More...</a><br /></td></tr>
+<tr class="separator:a4aae2f8189d834caecc5a3da57b765bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae532cfa2a746dd8a5b808dac93293ef6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#ae532cfa2a746dd8a5b808dac93293ef6">params_multistep</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, const char *name, const char *value)</td></tr>
+<tr class="memdesc:ae532cfa2a746dd8a5b808dac93293ef6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets multistep experiment parameters.  <a href="#ae532cfa2a746dd8a5b808dac93293ef6">More...</a><br /></td></tr>
+<tr class="separator:ae532cfa2a746dd8a5b808dac93293ef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cf4e54a8e3a754ed9656e7ccd48e64f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a9cf4e54a8e3a754ed9656e7ccd48e64f">params_subsumption</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, const char *name, const char *value)</td></tr>
+<tr class="memdesc:a9cf4e54a8e3a754ed9656e7ccd48e64f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets subsumption parameters.  <a href="#a9cf4e54a8e3a754ed9656e7ccd48e64f">More...</a><br /></td></tr>
+<tr class="separator:a9cf4e54a8e3a754ed9656e7ccd48e64f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac931b458cf465c2119a3631b0f9bc9ed"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#ac931b458cf465c2119a3631b0f9bc9ed">config_defaults</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="memdesc:ac931b458cf465c2119a3631b0f9bc9ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises default <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> parameters.  <a href="#ac931b458cf465c2119a3631b0f9bc9ed">More...</a><br /></td></tr>
+<tr class="separator:ac931b458cf465c2119a3631b0f9bc9ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa65e39367040ffcdaa6e50783e521ade"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#aa65e39367040ffcdaa6e50783e521ade">defaults_cl_action</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="memdesc:aa65e39367040ffcdaa6e50783e521ade"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises default classifier action parameters.  <a href="#aa65e39367040ffcdaa6e50783e521ade">More...</a><br /></td></tr>
+<tr class="separator:aa65e39367040ffcdaa6e50783e521ade"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a907b8123196bcc81c04b570783b9236e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a907b8123196bcc81c04b570783b9236e">defaults_cl_condition</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="memdesc:a907b8123196bcc81c04b570783b9236e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises default classifier condition parameters.  <a href="#a907b8123196bcc81c04b570783b9236e">More...</a><br /></td></tr>
+<tr class="separator:a907b8123196bcc81c04b570783b9236e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90a9b25bd263909155ac04ad9595d994"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a90a9b25bd263909155ac04ad9595d994">defaults_cl_general</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="memdesc:a90a9b25bd263909155ac04ad9595d994"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises default general classifier parameters.  <a href="#a90a9b25bd263909155ac04ad9595d994">More...</a><br /></td></tr>
+<tr class="separator:a90a9b25bd263909155ac04ad9595d994"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8486f9bd2ab0692781e37fde9722c21"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#ac8486f9bd2ab0692781e37fde9722c21">defaults_cl_prediction</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="memdesc:ac8486f9bd2ab0692781e37fde9722c21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises default classifier prediction parameters.  <a href="#ac8486f9bd2ab0692781e37fde9722c21">More...</a><br /></td></tr>
+<tr class="separator:ac8486f9bd2ab0692781e37fde9722c21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac52e02ba17ba4277efcd2eb82ab55bfa"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#ac52e02ba17ba4277efcd2eb82ab55bfa">defaults_ea</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="memdesc:ac52e02ba17ba4277efcd2eb82ab55bfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises default evolutionary algorithm parameters.  <a href="#ac52e02ba17ba4277efcd2eb82ab55bfa">More...</a><br /></td></tr>
+<tr class="separator:ac52e02ba17ba4277efcd2eb82ab55bfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a479aea84defefad8b7eb13e1bf08e118"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a479aea84defefad8b7eb13e1bf08e118">defaults_general</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="memdesc:a479aea84defefad8b7eb13e1bf08e118"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises default <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> general parameters.  <a href="#a479aea84defefad8b7eb13e1bf08e118">More...</a><br /></td></tr>
+<tr class="separator:a479aea84defefad8b7eb13e1bf08e118"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbf541d020a99adbbfdde6d5ecb75fee"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#adbf541d020a99adbbfdde6d5ecb75fee">defaults_multistep</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="memdesc:adbf541d020a99adbbfdde6d5ecb75fee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises default multistep parameters.  <a href="#adbf541d020a99adbbfdde6d5ecb75fee">More...</a><br /></td></tr>
+<tr class="separator:adbf541d020a99adbbfdde6d5ecb75fee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80bab2f1c498bca20249c1ff554cd8ab"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a80bab2f1c498bca20249c1ff554cd8ab">defaults_subsumption</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="memdesc:a80bab2f1c498bca20249c1ff554cd8ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises default subsumption parameters.  <a href="#a80bab2f1c498bca20249c1ff554cd8ab">More...</a><br /></td></tr>
+<tr class="separator:a80bab2f1c498bca20249c1ff554cd8ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adef047bc0d61457d2be139dadccd7cdf"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#adef047bc0d61457d2be139dadccd7cdf">print_params_cl_action</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="memdesc:adef047bc0d61457d2be139dadccd7cdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> action parameters.  <a href="#adef047bc0d61457d2be139dadccd7cdf">More...</a><br /></td></tr>
+<tr class="separator:adef047bc0d61457d2be139dadccd7cdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa85c5c819bb669cd5407db8c1889a18"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#afa85c5c819bb669cd5407db8c1889a18">print_params_cl_condition</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="memdesc:afa85c5c819bb669cd5407db8c1889a18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> condtion parameters.  <a href="#afa85c5c819bb669cd5407db8c1889a18">More...</a><br /></td></tr>
+<tr class="separator:afa85c5c819bb669cd5407db8c1889a18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2989b358b42631756e1a6c40d267694b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a2989b358b42631756e1a6c40d267694b">print_params_cl_general</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="memdesc:a2989b358b42631756e1a6c40d267694b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> general classifier parameters.  <a href="#a2989b358b42631756e1a6c40d267694b">More...</a><br /></td></tr>
+<tr class="separator:a2989b358b42631756e1a6c40d267694b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84744982ef46cab5aab523490b409597"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a84744982ef46cab5aab523490b409597">print_params_cl_prediction</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="memdesc:a84744982ef46cab5aab523490b409597"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> prediction parameters.  <a href="#a84744982ef46cab5aab523490b409597">More...</a><br /></td></tr>
+<tr class="separator:a84744982ef46cab5aab523490b409597"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7376970cfb5aa1a27ff4dc9c8db4b6d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#af7376970cfb5aa1a27ff4dc9c8db4b6d">print_params_ea</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="memdesc:af7376970cfb5aa1a27ff4dc9c8db4b6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> evolutionary algorithm parameters.  <a href="#af7376970cfb5aa1a27ff4dc9c8db4b6d">More...</a><br /></td></tr>
+<tr class="separator:af7376970cfb5aa1a27ff4dc9c8db4b6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab7833431b350194434b06bca304d626"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#aab7833431b350194434b06bca304d626">print_params_general</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="memdesc:aab7833431b350194434b06bca304d626"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> general parameters.  <a href="#aab7833431b350194434b06bca304d626">More...</a><br /></td></tr>
+<tr class="separator:aab7833431b350194434b06bca304d626"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63b9e28a177744ddebf326dcec219f07"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a63b9e28a177744ddebf326dcec219f07">print_params_multistep</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="memdesc:a63b9e28a177744ddebf326dcec219f07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> multistep parameters.  <a href="#a63b9e28a177744ddebf326dcec219f07">More...</a><br /></td></tr>
+<tr class="separator:a63b9e28a177744ddebf326dcec219f07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae311246da4ad6fcabb3bf6706cd396e7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#ae311246da4ad6fcabb3bf6706cd396e7">print_params_subsumption</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="memdesc:ae311246da4ad6fcabb3bf6706cd396e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> subsumption parameters.  <a href="#ae311246da4ad6fcabb3bf6706cd396e7">More...</a><br /></td></tr>
+<tr class="separator:ae311246da4ad6fcabb3bf6706cd396e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37df9fe8af1e1583876040747eeee030"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a37df9fe8af1e1583876040747eeee030">config_init</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, const char *filename)</td></tr>
 <tr class="memdesc:a37df9fe8af1e1583876040747eeee030"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises global constants and reads the specified configuration file.  <a href="#a37df9fe8af1e1583876040747eeee030">More...</a><br /></td></tr>
 <tr class="separator:a37df9fe8af1e1583876040747eeee030"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb4c739fd67dc5287da16408ec47d5c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#abb4c739fd67dc5287da16408ec47d5c5">config_free</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
 <tr class="memdesc:abb4c739fd67dc5287da16408ec47d5c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees all global constants.  <a href="#abb4c739fd67dc5287da16408ec47d5c5">More...</a><br /></td></tr>
 <tr class="separator:abb4c739fd67dc5287da16408ec47d5c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a69e3e3473d1789f9218cf79f871ba182"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structPARAM__LIST.html">PARAM_LIST</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#a69e3e3473d1789f9218cf79f871ba182">head</a></td></tr>
-<tr class="memdesc:a69e3e3473d1789f9218cf79f871ba182"><td class="mdescLeft">&#160;</td><td class="mdescRight">Linked list of config file parameters.  <a href="#a69e3e3473d1789f9218cf79f871ba182">More...</a><br /></td></tr>
-<tr class="separator:a69e3e3473d1789f9218cf79f871ba182"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afff38fecf537b6cbe65c3d26201a71e9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#afff38fecf537b6cbe65c3d26201a71e9">param_add</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, const char *name, char *value)</td></tr>
+<tr class="memdesc:afff38fecf537b6cbe65c3d26201a71e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets specified parameter.  <a href="#afff38fecf537b6cbe65c3d26201a71e9">More...</a><br /></td></tr>
+<tr class="separator:afff38fecf537b6cbe65c3d26201a71e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc38af39a9c1a2850bc3cb85e76721f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8c.html#adc38af39a9c1a2850bc3cb85e76721f7">config_print</a> (const <a class="el" href="structXCSF.html">XCSF</a> *xcsf)</td></tr>
+<tr class="memdesc:adc38af39a9c1a2850bc3cb85e76721f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints all <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> parameters.  <a href="#adc38af39a9c1a2850bc3cb85e76721f7">More...</a><br /></td></tr>
+<tr class="separator:adc38af39a9c1a2850bc3cb85e76721f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Configuration file handling functions. </p>
@@ -221,7 +251,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00039">39</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00294">config_get_ints()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00457">config_get_ints()</a>.</p>
 
 </div>
 </div>
@@ -241,7 +271,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00041">41</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00294">config_get_ints()</a>, <a class="el" href="config_8c_source.html#l00237">params_cl_action()</a>, <a class="el" href="config_8c_source.html#l00194">params_cl_condition()</a>, <a class="el" href="config_8c_source.html#l00174">params_cl_general()</a>, <a class="el" href="config_8c_source.html#l00247">params_cl_prediction()</a>, <a class="el" href="config_8c_source.html#l00141">params_ea()</a>, <a class="el" href="config_8c_source.html#l00108">params_general()</a>, <a class="el" href="config_8c_source.html#l00129">params_multistep()</a>, and <a class="el" href="config_8c_source.html#l00156">params_subsumption()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00457">config_get_ints()</a>, <a class="el" href="config_8c_source.html#l00444">params_cl_action()</a>, <a class="el" href="config_8c_source.html#l00280">params_cl_condition()</a>, <a class="el" href="config_8c_source.html#l00236">params_cl_general()</a>, <a class="el" href="config_8c_source.html#l00365">params_cl_prediction()</a>, <a class="el" href="config_8c_source.html#l00207">params_ea()</a>, <a class="el" href="config_8c_source.html#l00129">params_general()</a>, <a class="el" href="config_8c_source.html#l00161">params_multistep()</a>, and <a class="el" href="config_8c_source.html#l00181">params_subsumption()</a>.</p>
 
 </div>
 </div>
@@ -261,28 +291,57 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00040">40</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00326">config_newnvpair()</a>, <a class="el" href="config_8c_source.html#l00390">config_process()</a>, and <a class="el" href="config_8c_source.html#l00411">config_read()</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="a2f743c55f8d1d763667fedc61e7f9e94"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f743c55f8d1d763667fedc61e7f9e94">&#9670;&nbsp;</a></span>PARAM_LIST</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="structPARAM__LIST.html">PARAM_LIST</a>  <a class="el" href="structPARAM__LIST.html">PARAM_LIST</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Configuration file parameter data structure. </p>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00488">config_newnvpair()</a>, <a class="el" href="config_8c_source.html#l00526">config_process()</a>, and <a class="el" href="config_8c_source.html#l00548">config_read()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="ac931b458cf465c2119a3631b0f9bc9ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac931b458cf465c2119a3631b0f9bc9ed">&#9670;&nbsp;</a></span>config_defaults()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void config_defaults </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialises default <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> parameters. </p>
+
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00568">568</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+
+<p class="reference">References <a class="el" href="config_8c_source.html#l00701">defaults_cl_action()</a>, <a class="el" href="config_8c_source.html#l00647">defaults_cl_condition()</a>, <a class="el" href="config_8c_source.html#l00606">defaults_cl_general()</a>, <a class="el" href="config_8c_source.html#l00676">defaults_cl_prediction()</a>, <a class="el" href="config_8c_source.html#l00634">defaults_ea()</a>, <a class="el" href="config_8c_source.html#l00583">defaults_general()</a>, <a class="el" href="config_8c_source.html#l00596">defaults_multistep()</a>, and <a class="el" href="config_8c_source.html#l00624">defaults_subsumption()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00082">config_init()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_ac931b458cf465c2119a3631b0f9bc9ed_cgraph.svg" width="319" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_ac931b458cf465c2119a3631b0f9bc9ed_icgraph.svg" width="536" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
 <a id="abb4c739fd67dc5287da16408ec47d5c5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abb4c739fd67dc5287da16408ec47d5c5">&#9670;&nbsp;</a></span>config_free()</h2>
 
@@ -307,7 +366,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00099">99</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00100">100</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
 <p class="reference">References <a class="el" href="gp_8c_source.html#l00063">tree_free_cons()</a>.</p>
 
@@ -327,8 +386,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a007b1540f14136a2b3cc8b85e4902466"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a007b1540f14136a2b3cc8b85e4902466">&#9670;&nbsp;</a></span>config_get_ints()</h2>
+<a id="a54fb0ed34172561dc44ca18d88a78f13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54fb0ed34172561dc44ca18d88a78f13">&#9670;&nbsp;</a></span>config_get_ints()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -337,16 +396,16 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static int config_get_ints </td>
+          <td class="memname">static void config_get_ints </td>
           <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int *&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -364,75 +423,21 @@ Here is the caller graph for this function:</div>
 <p>Reads a csv list of ints into an array. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">name</td><td>The name of the parameter. </td></tr>
-    <tr><td class="paramname">value</td><td>An integer array (set by this function). </td></tr>
+    <tr><td class="paramname">str</td><td>String list of values. </td></tr>
+    <tr><td class="paramname">val</td><td>An integer array (set by this function). </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>The number of values read into the array. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00294">294</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00457">457</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">References <a class="el" href="config_8c_source.html#l00039">ARRAY_DELIM</a>, <a class="el" href="config_8c_source.html#l00041">BASE</a>, and <a class="el" href="config_8c_source.html#l00375">config_getvalue()</a>.</p>
+<p class="reference">References <a class="el" href="config_8c_source.html#l00039">ARRAY_DELIM</a>, and <a class="el" href="config_8c_source.html#l00041">BASE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00194">params_cl_condition()</a>, and <a class="el" href="config_8c_source.html#l00247">params_cl_prediction()</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a007b1540f14136a2b3cc8b85e4902466_cgraph.svg" width="283" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00280">params_cl_condition()</a>, and <a class="el" href="config_8c_source.html#l00365">params_cl_prediction()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a007b1540f14136a2b3cc8b85e4902466_icgraph.svg" width="730" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
-</div>
-</div>
-<a id="a10e65fe892d670b67552cef67eb86475"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10e65fe892d670b67552cef67eb86475">&#9670;&nbsp;</a></span>config_getvalue()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static char * config_getvalue </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the value of a specified parameter from the list. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">name</td><td>The name of the parameter. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The value of the parameter. </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00375">375</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
-
-<p class="reference">References <a class="el" href="config_8c_source.html#l00049">PARAM_LIST::next</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00294">config_get_ints()</a>, <a class="el" href="config_8c_source.html#l00237">params_cl_action()</a>, <a class="el" href="config_8c_source.html#l00194">params_cl_condition()</a>, <a class="el" href="config_8c_source.html#l00174">params_cl_general()</a>, <a class="el" href="config_8c_source.html#l00247">params_cl_prediction()</a>, <a class="el" href="config_8c_source.html#l00141">params_ea()</a>, <a class="el" href="config_8c_source.html#l00108">params_general()</a>, <a class="el" href="config_8c_source.html#l00129">params_multistep()</a>, and <a class="el" href="config_8c_source.html#l00156">params_subsumption()</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a10e65fe892d670b67552cef67eb86475_icgraph.svg" width="927" height="426"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a54fb0ed34172561dc44ca18d88a78f13_icgraph.svg" width="1331" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -473,15 +478,15 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00075">75</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00082">82</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">References <a class="el" href="config_8c_source.html#l00411">config_read()</a>, <a class="el" href="config_8c_source.html#l00432">config_tidyup()</a>, <a class="el" href="loss_8c_source.html#l00139">loss_set_func()</a>, <a class="el" href="config_8c_source.html#l00237">params_cl_action()</a>, <a class="el" href="config_8c_source.html#l00194">params_cl_condition()</a>, <a class="el" href="config_8c_source.html#l00174">params_cl_general()</a>, <a class="el" href="config_8c_source.html#l00247">params_cl_prediction()</a>, <a class="el" href="config_8c_source.html#l00141">params_ea()</a>, <a class="el" href="config_8c_source.html#l00108">params_general()</a>, <a class="el" href="config_8c_source.html#l00129">params_multistep()</a>, <a class="el" href="config_8c_source.html#l00156">params_subsumption()</a>, and <a class="el" href="gp_8c_source.html#l00051">tree_init_cons()</a>.</p>
+<p class="reference">References <a class="el" href="config_8c_source.html#l00568">config_defaults()</a>, <a class="el" href="config_8c_source.html#l00548">config_read()</a>, <a class="el" href="loss_8c_source.html#l00139">loss_set_func()</a>, <a class="el" href="xcsf_8h_source.html#l00102">XCSF::OMP_NUM_THREADS</a>, and <a class="el" href="gp_8c_source.html#l00051">tree_init_cons()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8c_source.html#l00037">main()</a>, and <a class="el" href="pybind__wrapper_8cpp_source.html#l00095">XCS::xcs_init()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a37df9fe8af1e1583876040747eeee030_cgraph.svg" width="1436" height="899"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a37df9fe8af1e1583876040747eeee030_cgraph.svg" width="1419" height="848"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -493,8 +498,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ae2e1c63fec3382cc3dfe4b72c7a24db8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2e1c63fec3382cc3dfe4b72c7a24db8">&#9670;&nbsp;</a></span>config_newnvpair()</h2>
+<a id="ae0ef249c19382a8125003e1c53221767"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0ef249c19382a8125003e1c53221767">&#9670;&nbsp;</a></span>config_newnvpair()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -505,9 +510,19 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">static void config_newnvpair </td>
           <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>config</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>param</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -520,27 +535,78 @@ Here is the caller graph for this function:</div>
 <p>Adds a parameter to the list. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">config</td><td>The parameter to add. </td></tr>
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">param</td><td>The parameter to add. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00326">326</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00488">488</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">References <a class="el" href="config_8c_source.html#l00052">head</a>, <a class="el" href="config_8c_source.html#l00040">MAXLEN</a>, <a class="el" href="config_8c_source.html#l00047">PARAM_LIST::name</a>, <a class="el" href="config_8c_source.html#l00049">PARAM_LIST::next</a>, and <a class="el" href="config_8c_source.html#l00048">PARAM_LIST::value</a>.</p>
+<p class="reference">References <a class="el" href="config_8c_source.html#l00040">MAXLEN</a>, and <a class="el" href="config_8c_source.html#l00111">param_add()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00390">config_process()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00526">config_process()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_ae0ef249c19382a8125003e1c53221767_cgraph.svg" width="622" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_ae2e1c63fec3382cc3dfe4b72c7a24db8_icgraph.svg" width="844" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_ae0ef249c19382a8125003e1c53221767_icgraph.svg" width="844" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="a3333848c96ebca04623dd04ce5be655b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3333848c96ebca04623dd04ce5be655b">&#9670;&nbsp;</a></span>config_process()</h2>
+<a id="adc38af39a9c1a2850bc3cb85e76721f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc38af39a9c1a2850bc3cb85e76721f7">&#9670;&nbsp;</a></span>config_print()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void config_print </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prints all <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> parameters. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00710">710</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+
+<p class="reference">References <a class="el" href="config_8c_source.html#l00877">print_params_cl_action()</a>, <a class="el" href="config_8c_source.html#l00799">print_params_cl_condition()</a>, <a class="el" href="config_8c_source.html#l00753">print_params_cl_general()</a>, <a class="el" href="config_8c_source.html#l00839">print_params_cl_prediction()</a>, <a class="el" href="config_8c_source.html#l00785">print_params_ea()</a>, <a class="el" href="config_8c_source.html#l00727">print_params_general()</a>, <a class="el" href="config_8c_source.html#l00742">print_params_multistep()</a>, and <a class="el" href="config_8c_source.html#l00772">print_params_subsumption()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="pybind__wrapper_8cpp_source.html#l00118">XCS::print_params()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_adc38af39a9c1a2850bc3cb85e76721f7_cgraph.svg" width="327" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_adc38af39a9c1a2850bc3cb85e76721f7_icgraph.svg" width="460" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a7a16c67bd1965c9f62f75fc88e2abe98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a16c67bd1965c9f62f75fc88e2abe98">&#9670;&nbsp;</a></span>config_process()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -551,9 +617,19 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">static void config_process </td>
           <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>configline</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>configline</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -566,33 +642,34 @@ Here is the caller graph for this function:</div>
 <p>Parses a line of the config file and adds to the list. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
     <tr><td class="paramname">configline</td><td>A single line of the configuration file. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00390">390</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00526">526</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">References <a class="el" href="config_8c_source.html#l00326">config_newnvpair()</a>, and <a class="el" href="config_8c_source.html#l00040">MAXLEN</a>.</p>
+<p class="reference">References <a class="el" href="config_8c_source.html#l00488">config_newnvpair()</a>, and <a class="el" href="config_8c_source.html#l00040">MAXLEN</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00411">config_read()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00548">config_read()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a3333848c96ebca04623dd04ce5be655b_cgraph.svg" width="292" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a7a16c67bd1965c9f62f75fc88e2abe98_cgraph.svg" width="780" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a3333848c96ebca04623dd04ce5be655b_icgraph.svg" width="674" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a7a16c67bd1965c9f62f75fc88e2abe98_icgraph.svg" width="674" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="a9948d2908366d72fbb1c6feb609b3d4f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9948d2908366d72fbb1c6feb609b3d4f">&#9670;&nbsp;</a></span>config_read()</h2>
+<a id="a9c6e238be77841517a31c44c39c84dc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c6e238be77841517a31c44c39c84dc7">&#9670;&nbsp;</a></span>config_read()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -603,9 +680,19 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">static void config_read </td>
           <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>filename</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>filename</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -618,65 +705,27 @@ Here is the caller graph for this function:</div>
 <p>Reads the specified configuration file. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
     <tr><td class="paramname">filename</td><td>The name of the configuration file. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00411">411</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00548">548</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">References <a class="el" href="config_8c_source.html#l00390">config_process()</a>, <a class="el" href="config_8c_source.html#l00313">config_trim()</a>, and <a class="el" href="config_8c_source.html#l00040">MAXLEN</a>.</p>
+<p class="reference">References <a class="el" href="config_8c_source.html#l00526">config_process()</a>, <a class="el" href="config_8c_source.html#l00474">config_trim()</a>, and <a class="el" href="config_8c_source.html#l00040">MAXLEN</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00075">config_init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00082">config_init()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a9948d2908366d72fbb1c6feb609b3d4f_cgraph.svg" width="430" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a9c6e238be77841517a31c44c39c84dc7_cgraph.svg" width="918" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a9948d2908366d72fbb1c6feb609b3d4f_icgraph.svg" width="515" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
-</div>
-</div>
-<a id="a4c74c2f130c3fda846bc707b3c1467c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c74c2f130c3fda846bc707b3c1467c1">&#9670;&nbsp;</a></span>config_tidyup()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void config_tidyup </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Frees the config file parameter list. </p>
-
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00432">432</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
-
-<p class="reference">References <a class="el" href="config_8c_source.html#l00052">head</a>, <a class="el" href="config_8c_source.html#l00047">PARAM_LIST::name</a>, <a class="el" href="config_8c_source.html#l00049">PARAM_LIST::next</a>, and <a class="el" href="config_8c_source.html#l00048">PARAM_LIST::value</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00075">config_init()</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a4c74c2f130c3fda846bc707b3c1467c1_icgraph.svg" width="524" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a9c6e238be77841517a31c44c39c84dc7_icgraph.svg" width="515" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -714,9 +763,9 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00313">313</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00474">474</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00411">config_read()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00548">config_read()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -726,8 +775,398 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a39ac19705915795f1f3daefebf96e37d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39ac19705915795f1f3daefebf96e37d">&#9670;&nbsp;</a></span>params_cl_action()</h2>
+<a id="aa65e39367040ffcdaa6e50783e521ade"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa65e39367040ffcdaa6e50783e521ade">&#9670;&nbsp;</a></span>defaults_cl_action()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void defaults_cl_action </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialises default classifier action parameters. </p>
+
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00701">701</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00127">XCSF::ACT_TYPE</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00568">config_defaults()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_aa65e39367040ffcdaa6e50783e521ade_icgraph.svg" width="711" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a907b8123196bcc81c04b570783b9236e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a907b8123196bcc81c04b570783b9236e">&#9670;&nbsp;</a></span>defaults_cl_condition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void defaults_cl_condition </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialises default classifier condition parameters. </p>
+
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00647">647</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00142">XCSF::COND_BITS</a>, <a class="el" href="xcsf_8h_source.html#l00152">XCSF::COND_ETA</a>, <a class="el" href="xcsf_8h_source.html#l00155">XCSF::COND_EVOLVE_FUNCTIONS</a>, <a class="el" href="xcsf_8h_source.html#l00154">XCSF::COND_EVOLVE_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00153">XCSF::COND_EVOLVE_WEIGHTS</a>, <a class="el" href="xcsf_8h_source.html#l00159">XCSF::COND_HIDDEN_ACTIVATION</a>, <a class="el" href="xcsf_8h_source.html#l00139">XCSF::COND_MAX</a>, <a class="el" href="xcsf_8h_source.html#l00157">XCSF::COND_MAX_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00140">XCSF::COND_MIN</a>, <a class="el" href="xcsf_8h_source.html#l00156">XCSF::COND_NUM_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00158">XCSF::COND_OUTPUT_ACTIVATION</a>, <a class="el" href="xcsf_8h_source.html#l00141">XCSF::COND_SMIN</a>, <a class="el" href="xcsf_8h_source.html#l00125">XCSF::COND_TYPE</a>, <a class="el" href="xcsf_8h_source.html#l00143">XCSF::DGP_NUM_NODES</a>, <a class="el" href="xcsf_8h_source.html#l00148">XCSF::GP_INIT_DEPTH</a>, <a class="el" href="xcsf_8h_source.html#l00147">XCSF::GP_NUM_CONS</a>, <a class="el" href="xcsf_8h_source.html#l00145">XCSF::MAX_K</a>, <a class="el" href="xcsf_8h_source.html#l00045">MAX_LAYERS</a>, <a class="el" href="xcsf_8h_source.html#l00150">XCSF::MAX_NEURON_MOD</a>, <a class="el" href="xcsf_8h_source.html#l00146">XCSF::MAX_T</a>, and <a class="el" href="xcsf_8h_source.html#l00144">XCSF::RESET_STATES</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00568">config_defaults()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a907b8123196bcc81c04b570783b9236e_icgraph.svg" width="728" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a90a9b25bd263909155ac04ad9595d994"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90a9b25bd263909155ac04ad9595d994">&#9670;&nbsp;</a></span>defaults_cl_general()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void defaults_cl_general </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialises default general classifier parameters. </p>
+
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00606">606</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00115">XCSF::ALPHA</a>, <a class="el" href="xcsf_8h_source.html#l00116">XCSF::BETA</a>, <a class="el" href="xcsf_8h_source.html#l00117">XCSF::DELTA</a>, <a class="el" href="xcsf_8h_source.html#l00118">XCSF::EPS_0</a>, <a class="el" href="xcsf_8h_source.html#l00119">XCSF::ERR_REDUC</a>, <a class="el" href="xcsf_8h_source.html#l00120">XCSF::FIT_REDUC</a>, <a class="el" href="xcsf_8h_source.html#l00121">XCSF::INIT_ERROR</a>, <a class="el" href="xcsf_8h_source.html#l00122">XCSF::INIT_FITNESS</a>, <a class="el" href="xcsf_8h_source.html#l00128">XCSF::M_PROBATION</a>, <a class="el" href="xcsf_8h_source.html#l00123">XCSF::NU</a>, and <a class="el" href="xcsf_8h_source.html#l00124">XCSF::THETA_DEL</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00568">config_defaults()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a90a9b25bd263909155ac04ad9595d994_icgraph.svg" width="719" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ac8486f9bd2ab0692781e37fde9722c21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8486f9bd2ab0692781e37fde9722c21">&#9670;&nbsp;</a></span>defaults_cl_prediction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void defaults_cl_prediction </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialises default classifier prediction parameters. </p>
+
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00676">676</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00045">MAX_LAYERS</a>, <a class="el" href="xcsf_8h_source.html#l00163">XCSF::PRED_ETA</a>, <a class="el" href="xcsf_8h_source.html#l00170">XCSF::PRED_EVOLVE_ETA</a>, <a class="el" href="xcsf_8h_source.html#l00169">XCSF::PRED_EVOLVE_FUNCTIONS</a>, <a class="el" href="xcsf_8h_source.html#l00168">XCSF::PRED_EVOLVE_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00167">XCSF::PRED_EVOLVE_WEIGHTS</a>, <a class="el" href="xcsf_8h_source.html#l00176">XCSF::PRED_HIDDEN_ACTIVATION</a>, <a class="el" href="xcsf_8h_source.html#l00174">XCSF::PRED_MAX_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00172">XCSF::PRED_MOMENTUM</a>, <a class="el" href="xcsf_8h_source.html#l00173">XCSF::PRED_NUM_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00175">XCSF::PRED_OUTPUT_ACTIVATION</a>, <a class="el" href="xcsf_8h_source.html#l00162">XCSF::PRED_RESET</a>, <a class="el" href="xcsf_8h_source.html#l00166">XCSF::PRED_RLS_LAMBDA</a>, <a class="el" href="xcsf_8h_source.html#l00165">XCSF::PRED_RLS_SCALE_FACTOR</a>, <a class="el" href="xcsf_8h_source.html#l00171">XCSF::PRED_SGD_WEIGHTS</a>, <a class="el" href="xcsf_8h_source.html#l00126">XCSF::PRED_TYPE</a>, and <a class="el" href="xcsf_8h_source.html#l00164">XCSF::PRED_X0</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00568">config_defaults()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_ac8486f9bd2ab0692781e37fde9722c21_icgraph.svg" width="732" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ac52e02ba17ba4277efcd2eb82ab55bfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac52e02ba17ba4277efcd2eb82ab55bfa">&#9670;&nbsp;</a></span>defaults_ea()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void defaults_ea </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialises default evolutionary algorithm parameters. </p>
+
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00634">634</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00136">XCSF::EA_SELECT_SIZE</a>, <a class="el" href="xcsf_8h_source.html#l00135">XCSF::EA_SELECT_TYPE</a>, <a class="el" href="xcsf_8h_source.html#l00134">XCSF::LAMBDA</a>, <a class="el" href="xcsf_8h_source.html#l00132">XCSF::P_CROSSOVER</a>, <a class="el" href="xcsf_8h_source.html#l00129">XCSF::SAM_TYPE</a>, and <a class="el" href="xcsf_8h_source.html#l00133">XCSF::THETA_EA</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00568">config_defaults()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_ac52e02ba17ba4277efcd2eb82ab55bfa_icgraph.svg" width="674" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a479aea84defefad8b7eb13e1bf08e118"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a479aea84defefad8b7eb13e1bf08e118">&#9670;&nbsp;</a></span>defaults_general()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void defaults_general </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialises default <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> general parameters. </p>
+
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00583">583</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00107">XCSF::LOSS_FUNC</a>, <a class="el" href="xcsf_8h_source.html#l00104">XCSF::MAX_TRIALS</a>, <a class="el" href="xcsf_8h_source.html#l00102">XCSF::OMP_NUM_THREADS</a>, <a class="el" href="xcsf_8h_source.html#l00105">XCSF::PERF_TRIALS</a>, <a class="el" href="xcsf_8h_source.html#l00103">XCSF::POP_INIT</a>, and <a class="el" href="xcsf_8h_source.html#l00106">XCSF::POP_SIZE</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00568">config_defaults()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a479aea84defefad8b7eb13e1bf08e118_icgraph.svg" width="702" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="adbf541d020a99adbbfdde6d5ecb75fee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbf541d020a99adbbfdde6d5ecb75fee">&#9670;&nbsp;</a></span>defaults_multistep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void defaults_multistep </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialises default multistep parameters. </p>
+
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00596">596</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00110">XCSF::GAMMA</a>, <a class="el" href="xcsf_8h_source.html#l00112">XCSF::P_EXPLORE</a>, and <a class="el" href="xcsf_8h_source.html#l00111">XCSF::TELETRANSPORTATION</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00568">config_defaults()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_adbf541d020a99adbbfdde6d5ecb75fee_icgraph.svg" width="712" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a80bab2f1c498bca20249c1ff554cd8ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80bab2f1c498bca20249c1ff554cd8ab">&#9670;&nbsp;</a></span>defaults_subsumption()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void defaults_subsumption </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialises default subsumption parameters. </p>
+
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00624">624</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00179">XCSF::EA_SUBSUMPTION</a>, <a class="el" href="xcsf_8h_source.html#l00180">XCSF::SET_SUBSUMPTION</a>, and <a class="el" href="xcsf_8h_source.html#l00181">XCSF::THETA_SUB</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00568">config_defaults()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a80bab2f1c498bca20249c1ff554cd8ab_icgraph.svg" width="734" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="afff38fecf537b6cbe65c3d26201a71e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afff38fecf537b6cbe65c3d26201a71e9">&#9670;&nbsp;</a></span>param_add()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void param_add </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets specified parameter. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">name</td><td>Parameter name. </td></tr>
+    <tr><td class="paramname">value</td><td>Parameter value. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00111">111</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+
+<p class="reference">References <a class="el" href="config_8c_source.html#l00444">params_cl_action()</a>, <a class="el" href="config_8c_source.html#l00280">params_cl_condition()</a>, <a class="el" href="config_8c_source.html#l00236">params_cl_general()</a>, <a class="el" href="config_8c_source.html#l00365">params_cl_prediction()</a>, <a class="el" href="config_8c_source.html#l00207">params_ea()</a>, <a class="el" href="config_8c_source.html#l00129">params_general()</a>, <a class="el" href="config_8c_source.html#l00161">params_multistep()</a>, and <a class="el" href="config_8c_source.html#l00181">params_subsumption()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00488">config_newnvpair()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_afff38fecf537b6cbe65c3d26201a71e9_cgraph.svg" width="451" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_afff38fecf537b6cbe65c3d26201a71e9_icgraph.svg" width="979" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a03d953f3697e255dc6955bd4b0e4f155"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03d953f3697e255dc6955bd4b0e4f155">&#9670;&nbsp;</a></span>params_cl_action()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -739,8 +1178,24 @@ Here is the caller graph for this function:</div>
           <td class="memname">static void params_cl_action </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
-          <td class="paramname"><em>xcsf</em></td><td>)</td>
+          <td class="paramname"><em>xcsf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -750,36 +1205,32 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Initialises classifier action parameters. </p>
+<p>Sets classifier action parameters. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">name</td><td>Parameter name. </td></tr>
+    <tr><td class="paramname">value</td><td>Parameter value. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00237">237</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00444">444</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00127">XCSF::ACT_TYPE</a>, <a class="el" href="config_8c_source.html#l00041">BASE</a>, and <a class="el" href="config_8c_source.html#l00375">config_getvalue()</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00127">XCSF::ACT_TYPE</a>, and <a class="el" href="config_8c_source.html#l00041">BASE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00075">config_init()</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a39ac19705915795f1f3daefebf96e37d_cgraph.svg" width="296" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00111">param_add()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a39ac19705915795f1f3daefebf96e37d_icgraph.svg" width="550" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a03d953f3697e255dc6955bd4b0e4f155_icgraph.svg" width="1151" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="a165dae50e0b9f879753798bea405c7e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a165dae50e0b9f879753798bea405c7e0">&#9670;&nbsp;</a></span>params_cl_condition()</h2>
+<a id="ab31e8dc9f7f2da0ab2b3a96ff16c13c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab31e8dc9f7f2da0ab2b3a96ff16c13c3">&#9670;&nbsp;</a></span>params_cl_condition()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -791,8 +1242,24 @@ Here is the caller graph for this function:</div>
           <td class="memname">static void params_cl_condition </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
-          <td class="paramname"><em>xcsf</em></td><td>)</td>
+          <td class="paramname"><em>xcsf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -802,36 +1269,38 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Initialises classifier condition parameters. </p>
+<p>Sets classifier condition parameters. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">name</td><td>Parameter name. </td></tr>
+    <tr><td class="paramname">value</td><td>Parameter value. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00194">194</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00280">280</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">References <a class="el" href="config_8c_source.html#l00041">BASE</a>, <a class="el" href="xcsf_8h_source.html#l00142">XCSF::COND_BITS</a>, <a class="el" href="xcsf_8h_source.html#l00152">XCSF::COND_ETA</a>, <a class="el" href="xcsf_8h_source.html#l00155">XCSF::COND_EVOLVE_FUNCTIONS</a>, <a class="el" href="xcsf_8h_source.html#l00154">XCSF::COND_EVOLVE_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00153">XCSF::COND_EVOLVE_WEIGHTS</a>, <a class="el" href="xcsf_8h_source.html#l00159">XCSF::COND_HIDDEN_ACTIVATION</a>, <a class="el" href="xcsf_8h_source.html#l00139">XCSF::COND_MAX</a>, <a class="el" href="xcsf_8h_source.html#l00157">XCSF::COND_MAX_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00140">XCSF::COND_MIN</a>, <a class="el" href="xcsf_8h_source.html#l00156">XCSF::COND_NUM_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00158">XCSF::COND_OUTPUT_ACTIVATION</a>, <a class="el" href="xcsf_8h_source.html#l00141">XCSF::COND_SMIN</a>, <a class="el" href="xcsf_8h_source.html#l00125">XCSF::COND_TYPE</a>, <a class="el" href="config_8c_source.html#l00294">config_get_ints()</a>, <a class="el" href="config_8c_source.html#l00375">config_getvalue()</a>, <a class="el" href="xcsf_8h_source.html#l00143">XCSF::DGP_NUM_NODES</a>, <a class="el" href="xcsf_8h_source.html#l00148">XCSF::GP_INIT_DEPTH</a>, <a class="el" href="xcsf_8h_source.html#l00147">XCSF::GP_NUM_CONS</a>, <a class="el" href="xcsf_8h_source.html#l00145">XCSF::MAX_K</a>, <a class="el" href="xcsf_8h_source.html#l00045">MAX_LAYERS</a>, <a class="el" href="xcsf_8h_source.html#l00150">XCSF::MAX_NEURON_MOD</a>, <a class="el" href="xcsf_8h_source.html#l00146">XCSF::MAX_T</a>, and <a class="el" href="xcsf_8h_source.html#l00144">XCSF::RESET_STATES</a>.</p>
+<p class="reference">References <a class="el" href="config_8c_source.html#l00041">BASE</a>, <a class="el" href="xcsf_8h_source.html#l00142">XCSF::COND_BITS</a>, <a class="el" href="xcsf_8h_source.html#l00152">XCSF::COND_ETA</a>, <a class="el" href="xcsf_8h_source.html#l00155">XCSF::COND_EVOLVE_FUNCTIONS</a>, <a class="el" href="xcsf_8h_source.html#l00154">XCSF::COND_EVOLVE_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00153">XCSF::COND_EVOLVE_WEIGHTS</a>, <a class="el" href="xcsf_8h_source.html#l00159">XCSF::COND_HIDDEN_ACTIVATION</a>, <a class="el" href="xcsf_8h_source.html#l00139">XCSF::COND_MAX</a>, <a class="el" href="xcsf_8h_source.html#l00157">XCSF::COND_MAX_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00140">XCSF::COND_MIN</a>, <a class="el" href="xcsf_8h_source.html#l00156">XCSF::COND_NUM_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00158">XCSF::COND_OUTPUT_ACTIVATION</a>, <a class="el" href="xcsf_8h_source.html#l00141">XCSF::COND_SMIN</a>, <a class="el" href="xcsf_8h_source.html#l00125">XCSF::COND_TYPE</a>, <a class="el" href="config_8c_source.html#l00457">config_get_ints()</a>, <a class="el" href="xcsf_8h_source.html#l00143">XCSF::DGP_NUM_NODES</a>, <a class="el" href="xcsf_8h_source.html#l00148">XCSF::GP_INIT_DEPTH</a>, <a class="el" href="xcsf_8h_source.html#l00147">XCSF::GP_NUM_CONS</a>, <a class="el" href="xcsf_8h_source.html#l00145">XCSF::MAX_K</a>, <a class="el" href="xcsf_8h_source.html#l00045">MAX_LAYERS</a>, <a class="el" href="xcsf_8h_source.html#l00150">XCSF::MAX_NEURON_MOD</a>, <a class="el" href="xcsf_8h_source.html#l00146">XCSF::MAX_T</a>, and <a class="el" href="xcsf_8h_source.html#l00144">XCSF::RESET_STATES</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00075">config_init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00111">param_add()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a165dae50e0b9f879753798bea405c7e0_cgraph.svg" width="472" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_ab31e8dc9f7f2da0ab2b3a96ff16c13c3_cgraph.svg" width="311" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a165dae50e0b9f879753798bea405c7e0_icgraph.svg" width="567" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_ab31e8dc9f7f2da0ab2b3a96ff16c13c3_icgraph.svg" width="1168" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="adc175ba379a3169ae3bc6df1a31b0d0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc175ba379a3169ae3bc6df1a31b0d0f">&#9670;&nbsp;</a></span>params_cl_general()</h2>
+<a id="ab977df8efbefd43ac742766dc163b553"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab977df8efbefd43ac742766dc163b553">&#9670;&nbsp;</a></span>params_cl_general()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -843,8 +1312,24 @@ Here is the caller graph for this function:</div>
           <td class="memname">static void params_cl_general </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
-          <td class="paramname"><em>xcsf</em></td><td>)</td>
+          <td class="paramname"><em>xcsf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -854,36 +1339,32 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Initialises general classifier parameters. </p>
+<p>Sets general classifier parameters. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">name</td><td>Parameter name. </td></tr>
+    <tr><td class="paramname">value</td><td>Parameter value. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00174">174</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00236">236</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00115">XCSF::ALPHA</a>, <a class="el" href="config_8c_source.html#l00041">BASE</a>, <a class="el" href="xcsf_8h_source.html#l00116">XCSF::BETA</a>, <a class="el" href="config_8c_source.html#l00375">config_getvalue()</a>, <a class="el" href="xcsf_8h_source.html#l00117">XCSF::DELTA</a>, <a class="el" href="xcsf_8h_source.html#l00118">XCSF::EPS_0</a>, <a class="el" href="xcsf_8h_source.html#l00119">XCSF::ERR_REDUC</a>, <a class="el" href="xcsf_8h_source.html#l00120">XCSF::FIT_REDUC</a>, <a class="el" href="xcsf_8h_source.html#l00121">XCSF::INIT_ERROR</a>, <a class="el" href="xcsf_8h_source.html#l00122">XCSF::INIT_FITNESS</a>, <a class="el" href="xcsf_8h_source.html#l00128">XCSF::M_PROBATION</a>, <a class="el" href="xcsf_8h_source.html#l00123">XCSF::NU</a>, and <a class="el" href="xcsf_8h_source.html#l00124">XCSF::THETA_DEL</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00115">XCSF::ALPHA</a>, <a class="el" href="config_8c_source.html#l00041">BASE</a>, <a class="el" href="xcsf_8h_source.html#l00116">XCSF::BETA</a>, <a class="el" href="xcsf_8h_source.html#l00117">XCSF::DELTA</a>, <a class="el" href="xcsf_8h_source.html#l00118">XCSF::EPS_0</a>, <a class="el" href="xcsf_8h_source.html#l00119">XCSF::ERR_REDUC</a>, <a class="el" href="xcsf_8h_source.html#l00120">XCSF::FIT_REDUC</a>, <a class="el" href="xcsf_8h_source.html#l00121">XCSF::INIT_ERROR</a>, <a class="el" href="xcsf_8h_source.html#l00122">XCSF::INIT_FITNESS</a>, <a class="el" href="xcsf_8h_source.html#l00128">XCSF::M_PROBATION</a>, <a class="el" href="xcsf_8h_source.html#l00123">XCSF::NU</a>, and <a class="el" href="xcsf_8h_source.html#l00124">XCSF::THETA_DEL</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00075">config_init()</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_adc175ba379a3169ae3bc6df1a31b0d0f_cgraph.svg" width="303" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00111">param_add()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_adc175ba379a3169ae3bc6df1a31b0d0f_icgraph.svg" width="556" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_ab977df8efbefd43ac742766dc163b553_icgraph.svg" width="1158" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="a9e94168e46b659d4ae6962a05b8a34e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e94168e46b659d4ae6962a05b8a34e7">&#9670;&nbsp;</a></span>params_cl_prediction()</h2>
+<a id="ab49abbc5d1d5571fe940b94baad6f72b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab49abbc5d1d5571fe940b94baad6f72b">&#9670;&nbsp;</a></span>params_cl_prediction()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -895,8 +1376,24 @@ Here is the caller graph for this function:</div>
           <td class="memname">static void params_cl_prediction </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
-          <td class="paramname"><em>xcsf</em></td><td>)</td>
+          <td class="paramname"><em>xcsf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -906,36 +1403,38 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Initialises classifier prediction parameters. </p>
+<p>Sets classifier prediction parameters. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">name</td><td>Parameter name. </td></tr>
+    <tr><td class="paramname">value</td><td>Parameter value. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00247">247</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00365">365</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">References <a class="el" href="config_8c_source.html#l00041">BASE</a>, <a class="el" href="config_8c_source.html#l00294">config_get_ints()</a>, <a class="el" href="config_8c_source.html#l00375">config_getvalue()</a>, <a class="el" href="xcsf_8h_source.html#l00045">MAX_LAYERS</a>, <a class="el" href="xcsf_8h_source.html#l00163">XCSF::PRED_ETA</a>, <a class="el" href="xcsf_8h_source.html#l00170">XCSF::PRED_EVOLVE_ETA</a>, <a class="el" href="xcsf_8h_source.html#l00169">XCSF::PRED_EVOLVE_FUNCTIONS</a>, <a class="el" href="xcsf_8h_source.html#l00168">XCSF::PRED_EVOLVE_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00167">XCSF::PRED_EVOLVE_WEIGHTS</a>, <a class="el" href="xcsf_8h_source.html#l00176">XCSF::PRED_HIDDEN_ACTIVATION</a>, <a class="el" href="xcsf_8h_source.html#l00174">XCSF::PRED_MAX_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00172">XCSF::PRED_MOMENTUM</a>, <a class="el" href="xcsf_8h_source.html#l00173">XCSF::PRED_NUM_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00175">XCSF::PRED_OUTPUT_ACTIVATION</a>, <a class="el" href="xcsf_8h_source.html#l00162">XCSF::PRED_RESET</a>, <a class="el" href="xcsf_8h_source.html#l00166">XCSF::PRED_RLS_LAMBDA</a>, <a class="el" href="xcsf_8h_source.html#l00165">XCSF::PRED_RLS_SCALE_FACTOR</a>, <a class="el" href="xcsf_8h_source.html#l00171">XCSF::PRED_SGD_WEIGHTS</a>, <a class="el" href="xcsf_8h_source.html#l00126">XCSF::PRED_TYPE</a>, and <a class="el" href="xcsf_8h_source.html#l00164">XCSF::PRED_X0</a>.</p>
+<p class="reference">References <a class="el" href="config_8c_source.html#l00041">BASE</a>, <a class="el" href="config_8c_source.html#l00457">config_get_ints()</a>, <a class="el" href="xcsf_8h_source.html#l00045">MAX_LAYERS</a>, <a class="el" href="xcsf_8h_source.html#l00163">XCSF::PRED_ETA</a>, <a class="el" href="xcsf_8h_source.html#l00170">XCSF::PRED_EVOLVE_ETA</a>, <a class="el" href="xcsf_8h_source.html#l00169">XCSF::PRED_EVOLVE_FUNCTIONS</a>, <a class="el" href="xcsf_8h_source.html#l00168">XCSF::PRED_EVOLVE_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00167">XCSF::PRED_EVOLVE_WEIGHTS</a>, <a class="el" href="xcsf_8h_source.html#l00176">XCSF::PRED_HIDDEN_ACTIVATION</a>, <a class="el" href="xcsf_8h_source.html#l00174">XCSF::PRED_MAX_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00172">XCSF::PRED_MOMENTUM</a>, <a class="el" href="xcsf_8h_source.html#l00173">XCSF::PRED_NUM_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00175">XCSF::PRED_OUTPUT_ACTIVATION</a>, <a class="el" href="xcsf_8h_source.html#l00162">XCSF::PRED_RESET</a>, <a class="el" href="xcsf_8h_source.html#l00166">XCSF::PRED_RLS_LAMBDA</a>, <a class="el" href="xcsf_8h_source.html#l00165">XCSF::PRED_RLS_SCALE_FACTOR</a>, <a class="el" href="xcsf_8h_source.html#l00171">XCSF::PRED_SGD_WEIGHTS</a>, <a class="el" href="xcsf_8h_source.html#l00126">XCSF::PRED_TYPE</a>, and <a class="el" href="xcsf_8h_source.html#l00164">XCSF::PRED_X0</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00075">config_init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00111">param_add()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a9e94168e46b659d4ae6962a05b8a34e7_cgraph.svg" width="476" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_ab49abbc5d1d5571fe940b94baad6f72b_cgraph.svg" width="315" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a9e94168e46b659d4ae6962a05b8a34e7_icgraph.svg" width="571" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_ab49abbc5d1d5571fe940b94baad6f72b_icgraph.svg" width="1172" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="ae95254f43497b746fa5446cad160e21f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae95254f43497b746fa5446cad160e21f">&#9670;&nbsp;</a></span>params_ea()</h2>
+<a id="a4f01f41dc856a626b8f9ad3481351e9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f01f41dc856a626b8f9ad3481351e9a">&#9670;&nbsp;</a></span>params_ea()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -947,8 +1446,24 @@ Here is the caller graph for this function:</div>
           <td class="memname">static void params_ea </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
-          <td class="paramname"><em>xcsf</em></td><td>)</td>
+          <td class="paramname"><em>xcsf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -958,36 +1473,32 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Initialises evolutionary algorithm parameters. </p>
+<p>Sets evolutionary algorithm parameters. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">name</td><td>Parameter name. </td></tr>
+    <tr><td class="paramname">value</td><td>Parameter value. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00141">141</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00207">207</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">References <a class="el" href="config_8c_source.html#l00041">BASE</a>, <a class="el" href="config_8c_source.html#l00375">config_getvalue()</a>, <a class="el" href="xcsf_8h_source.html#l00136">XCSF::EA_SELECT_SIZE</a>, <a class="el" href="xcsf_8h_source.html#l00135">XCSF::EA_SELECT_TYPE</a>, <a class="el" href="xcsf_8h_source.html#l00134">XCSF::LAMBDA</a>, <a class="el" href="xcsf_8h_source.html#l00132">XCSF::P_CROSSOVER</a>, <a class="el" href="xcsf_8h_source.html#l00129">XCSF::SAM_TYPE</a>, and <a class="el" href="xcsf_8h_source.html#l00133">XCSF::THETA_EA</a>.</p>
+<p class="reference">References <a class="el" href="config_8c_source.html#l00041">BASE</a>, <a class="el" href="xcsf_8h_source.html#l00136">XCSF::EA_SELECT_SIZE</a>, <a class="el" href="xcsf_8h_source.html#l00135">XCSF::EA_SELECT_TYPE</a>, <a class="el" href="xcsf_8h_source.html#l00134">XCSF::LAMBDA</a>, <a class="el" href="xcsf_8h_source.html#l00132">XCSF::P_CROSSOVER</a>, <a class="el" href="xcsf_8h_source.html#l00129">XCSF::SAM_TYPE</a>, and <a class="el" href="xcsf_8h_source.html#l00133">XCSF::THETA_EA</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00075">config_init()</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_ae95254f43497b746fa5446cad160e21f_cgraph.svg" width="259" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00111">param_add()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_ae95254f43497b746fa5446cad160e21f_icgraph.svg" width="512" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a4f01f41dc856a626b8f9ad3481351e9a_icgraph.svg" width="1114" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="a0d7a055b73c24de7dd348448b75ea626"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d7a055b73c24de7dd348448b75ea626">&#9670;&nbsp;</a></span>params_general()</h2>
+<a id="a4aae2f8189d834caecc5a3da57b765bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4aae2f8189d834caecc5a3da57b765bf">&#9670;&nbsp;</a></span>params_general()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -999,8 +1510,24 @@ Here is the caller graph for this function:</div>
           <td class="memname">static void params_general </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
-          <td class="paramname"><em>xcsf</em></td><td>)</td>
+          <td class="paramname"><em>xcsf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -1010,36 +1537,32 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Initialises general system parameters. </p>
+<p>Sets general <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> parameters. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">name</td><td>Parameter name. </td></tr>
+    <tr><td class="paramname">value</td><td>Parameter value. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00108">108</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00129">129</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">References <a class="el" href="config_8c_source.html#l00041">BASE</a>, <a class="el" href="config_8c_source.html#l00375">config_getvalue()</a>, <a class="el" href="xcsf_8h_source.html#l00107">XCSF::LOSS_FUNC</a>, <a class="el" href="xcsf_8h_source.html#l00104">XCSF::MAX_TRIALS</a>, <a class="el" href="xcsf_8h_source.html#l00102">XCSF::OMP_NUM_THREADS</a>, <a class="el" href="xcsf_8h_source.html#l00105">XCSF::PERF_TRIALS</a>, <a class="el" href="xcsf_8h_source.html#l00103">XCSF::POP_INIT</a>, and <a class="el" href="xcsf_8h_source.html#l00106">XCSF::POP_SIZE</a>.</p>
+<p class="reference">References <a class="el" href="config_8c_source.html#l00041">BASE</a>, <a class="el" href="xcsf_8h_source.html#l00107">XCSF::LOSS_FUNC</a>, <a class="el" href="xcsf_8h_source.html#l00104">XCSF::MAX_TRIALS</a>, <a class="el" href="xcsf_8h_source.html#l00102">XCSF::OMP_NUM_THREADS</a>, <a class="el" href="xcsf_8h_source.html#l00105">XCSF::PERF_TRIALS</a>, <a class="el" href="xcsf_8h_source.html#l00103">XCSF::POP_INIT</a>, and <a class="el" href="xcsf_8h_source.html#l00106">XCSF::POP_SIZE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00075">config_init()</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a0d7a055b73c24de7dd348448b75ea626_cgraph.svg" width="287" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00111">param_add()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a0d7a055b73c24de7dd348448b75ea626_icgraph.svg" width="540" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a4aae2f8189d834caecc5a3da57b765bf_icgraph.svg" width="1142" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="aeedb9eacce33b5236623057f71df1ebb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeedb9eacce33b5236623057f71df1ebb">&#9670;&nbsp;</a></span>params_multistep()</h2>
+<a id="ae532cfa2a746dd8a5b808dac93293ef6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae532cfa2a746dd8a5b808dac93293ef6">&#9670;&nbsp;</a></span>params_multistep()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1051,8 +1574,24 @@ Here is the caller graph for this function:</div>
           <td class="memname">static void params_multistep </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
-          <td class="paramname"><em>xcsf</em></td><td>)</td>
+          <td class="paramname"><em>xcsf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -1062,36 +1601,32 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Initialises multi-step parameters. </p>
+<p>Sets multistep experiment parameters. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">name</td><td>Parameter name. </td></tr>
+    <tr><td class="paramname">value</td><td>Parameter value. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00129">129</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00161">161</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">References <a class="el" href="config_8c_source.html#l00041">BASE</a>, <a class="el" href="config_8c_source.html#l00375">config_getvalue()</a>, <a class="el" href="xcsf_8h_source.html#l00110">XCSF::GAMMA</a>, <a class="el" href="xcsf_8h_source.html#l00112">XCSF::P_EXPLORE</a>, and <a class="el" href="xcsf_8h_source.html#l00111">XCSF::TELETRANSPORTATION</a>.</p>
+<p class="reference">References <a class="el" href="config_8c_source.html#l00041">BASE</a>, <a class="el" href="xcsf_8h_source.html#l00110">XCSF::GAMMA</a>, <a class="el" href="xcsf_8h_source.html#l00112">XCSF::P_EXPLORE</a>, and <a class="el" href="xcsf_8h_source.html#l00111">XCSF::TELETRANSPORTATION</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00075">config_init()</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_aeedb9eacce33b5236623057f71df1ebb_cgraph.svg" width="298" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00111">param_add()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_aeedb9eacce33b5236623057f71df1ebb_icgraph.svg" width="551" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_ae532cfa2a746dd8a5b808dac93293ef6_icgraph.svg" width="1152" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="abe7b908d3de0d9711545ecc150d91628"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe7b908d3de0d9711545ecc150d91628">&#9670;&nbsp;</a></span>params_subsumption()</h2>
+<a id="a9cf4e54a8e3a754ed9656e7ccd48e64f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cf4e54a8e3a754ed9656e7ccd48e64f">&#9670;&nbsp;</a></span>params_subsumption()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1103,6 +1638,70 @@ Here is the caller graph for this function:</div>
           <td class="memname">static void params_subsumption </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets subsumption parameters. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+    <tr><td class="paramname">name</td><td>Parameter name. </td></tr>
+    <tr><td class="paramname">value</td><td>Parameter value. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00181">181</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+
+<p class="reference">References <a class="el" href="config_8c_source.html#l00041">BASE</a>, <a class="el" href="xcsf_8h_source.html#l00179">XCSF::EA_SUBSUMPTION</a>, <a class="el" href="xcsf_8h_source.html#l00180">XCSF::SET_SUBSUMPTION</a>, and <a class="el" href="xcsf_8h_source.html#l00181">XCSF::THETA_SUB</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00111">param_add()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a9cf4e54a8e3a754ed9656e7ccd48e64f_icgraph.svg" width="1174" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="adef047bc0d61457d2be139dadccd7cdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adef047bc0d61457d2be139dadccd7cdf">&#9670;&nbsp;</a></span>print_params_cl_action()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void print_params_cl_action </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
           <td class="paramname"><em>xcsf</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1114,7 +1713,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Initialises subsumption parameters. </p>
+<p>Prints <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> action parameters. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
@@ -1122,29 +1721,22 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00156">156</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00877">877</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">References <a class="el" href="config_8c_source.html#l00041">BASE</a>, <a class="el" href="config_8c_source.html#l00375">config_getvalue()</a>, <a class="el" href="xcsf_8h_source.html#l00179">XCSF::EA_SUBSUMPTION</a>, <a class="el" href="xcsf_8h_source.html#l00180">XCSF::SET_SUBSUMPTION</a>, and <a class="el" href="xcsf_8h_source.html#l00181">XCSF::THETA_SUB</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00127">XCSF::ACT_TYPE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00075">config_init()</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_abe7b908d3de0d9711545ecc150d91628_cgraph.svg" width="319" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00710">config_print()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_abe7b908d3de0d9711545ecc150d91628_icgraph.svg" width="572" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_adef047bc0d61457d2be139dadccd7cdf_icgraph.svg" width="664" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a69e3e3473d1789f9218cf79f871ba182"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69e3e3473d1789f9218cf79f871ba182">&#9670;&nbsp;</a></span>head</h2>
+<a id="afa85c5c819bb669cd5407db8c1889a18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa85c5c819bb669cd5407db8c1889a18">&#9670;&nbsp;</a></span>print_params_cl_condition()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1153,7 +1745,11 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structPARAM__LIST.html">PARAM_LIST</a>* head</td>
+          <td class="memname">static void print_params_cl_condition </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -1163,11 +1759,301 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Linked list of config file parameters. </p>
+<p>Prints <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> condtion parameters. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00052">52</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00799">799</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00326">config_newnvpair()</a>, and <a class="el" href="config_8c_source.html#l00432">config_tidyup()</a>.</p>
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00142">XCSF::COND_BITS</a>, <a class="el" href="xcsf_8h_source.html#l00152">XCSF::COND_ETA</a>, <a class="el" href="xcsf_8h_source.html#l00155">XCSF::COND_EVOLVE_FUNCTIONS</a>, <a class="el" href="xcsf_8h_source.html#l00154">XCSF::COND_EVOLVE_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00153">XCSF::COND_EVOLVE_WEIGHTS</a>, <a class="el" href="xcsf_8h_source.html#l00159">XCSF::COND_HIDDEN_ACTIVATION</a>, <a class="el" href="xcsf_8h_source.html#l00139">XCSF::COND_MAX</a>, <a class="el" href="xcsf_8h_source.html#l00157">XCSF::COND_MAX_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00140">XCSF::COND_MIN</a>, <a class="el" href="xcsf_8h_source.html#l00156">XCSF::COND_NUM_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00158">XCSF::COND_OUTPUT_ACTIVATION</a>, <a class="el" href="xcsf_8h_source.html#l00141">XCSF::COND_SMIN</a>, <a class="el" href="xcsf_8h_source.html#l00125">XCSF::COND_TYPE</a>, <a class="el" href="xcsf_8h_source.html#l00143">XCSF::DGP_NUM_NODES</a>, <a class="el" href="xcsf_8h_source.html#l00148">XCSF::GP_INIT_DEPTH</a>, <a class="el" href="xcsf_8h_source.html#l00147">XCSF::GP_NUM_CONS</a>, <a class="el" href="xcsf_8h_source.html#l00145">XCSF::MAX_K</a>, <a class="el" href="xcsf_8h_source.html#l00045">MAX_LAYERS</a>, <a class="el" href="xcsf_8h_source.html#l00150">XCSF::MAX_NEURON_MOD</a>, <a class="el" href="xcsf_8h_source.html#l00146">XCSF::MAX_T</a>, and <a class="el" href="xcsf_8h_source.html#l00144">XCSF::RESET_STATES</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00710">config_print()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_afa85c5c819bb669cd5407db8c1889a18_icgraph.svg" width="682" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a2989b358b42631756e1a6c40d267694b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2989b358b42631756e1a6c40d267694b">&#9670;&nbsp;</a></span>print_params_cl_general()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void print_params_cl_general </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Prints <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> general classifier parameters. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00753">753</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00115">XCSF::ALPHA</a>, <a class="el" href="xcsf_8h_source.html#l00116">XCSF::BETA</a>, <a class="el" href="xcsf_8h_source.html#l00117">XCSF::DELTA</a>, <a class="el" href="xcsf_8h_source.html#l00118">XCSF::EPS_0</a>, <a class="el" href="xcsf_8h_source.html#l00119">XCSF::ERR_REDUC</a>, <a class="el" href="xcsf_8h_source.html#l00120">XCSF::FIT_REDUC</a>, <a class="el" href="xcsf_8h_source.html#l00121">XCSF::INIT_ERROR</a>, <a class="el" href="xcsf_8h_source.html#l00122">XCSF::INIT_FITNESS</a>, <a class="el" href="xcsf_8h_source.html#l00128">XCSF::M_PROBATION</a>, <a class="el" href="xcsf_8h_source.html#l00123">XCSF::NU</a>, and <a class="el" href="xcsf_8h_source.html#l00124">XCSF::THETA_DEL</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00710">config_print()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a2989b358b42631756e1a6c40d267694b_icgraph.svg" width="671" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a84744982ef46cab5aab523490b409597"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84744982ef46cab5aab523490b409597">&#9670;&nbsp;</a></span>print_params_cl_prediction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void print_params_cl_prediction </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Prints <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> prediction parameters. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00839">839</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00045">MAX_LAYERS</a>, <a class="el" href="xcsf_8h_source.html#l00163">XCSF::PRED_ETA</a>, <a class="el" href="xcsf_8h_source.html#l00170">XCSF::PRED_EVOLVE_ETA</a>, <a class="el" href="xcsf_8h_source.html#l00169">XCSF::PRED_EVOLVE_FUNCTIONS</a>, <a class="el" href="xcsf_8h_source.html#l00168">XCSF::PRED_EVOLVE_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00167">XCSF::PRED_EVOLVE_WEIGHTS</a>, <a class="el" href="xcsf_8h_source.html#l00176">XCSF::PRED_HIDDEN_ACTIVATION</a>, <a class="el" href="xcsf_8h_source.html#l00174">XCSF::PRED_MAX_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00172">XCSF::PRED_MOMENTUM</a>, <a class="el" href="xcsf_8h_source.html#l00173">XCSF::PRED_NUM_NEURONS</a>, <a class="el" href="xcsf_8h_source.html#l00175">XCSF::PRED_OUTPUT_ACTIVATION</a>, <a class="el" href="xcsf_8h_source.html#l00162">XCSF::PRED_RESET</a>, <a class="el" href="xcsf_8h_source.html#l00166">XCSF::PRED_RLS_LAMBDA</a>, <a class="el" href="xcsf_8h_source.html#l00165">XCSF::PRED_RLS_SCALE_FACTOR</a>, <a class="el" href="xcsf_8h_source.html#l00171">XCSF::PRED_SGD_WEIGHTS</a>, <a class="el" href="xcsf_8h_source.html#l00126">XCSF::PRED_TYPE</a>, and <a class="el" href="xcsf_8h_source.html#l00164">XCSF::PRED_X0</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00710">config_print()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a84744982ef46cab5aab523490b409597_icgraph.svg" width="686" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="af7376970cfb5aa1a27ff4dc9c8db4b6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7376970cfb5aa1a27ff4dc9c8db4b6d">&#9670;&nbsp;</a></span>print_params_ea()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void print_params_ea </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Prints <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> evolutionary algorithm parameters. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00785">785</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00136">XCSF::EA_SELECT_SIZE</a>, <a class="el" href="xcsf_8h_source.html#l00135">XCSF::EA_SELECT_TYPE</a>, <a class="el" href="xcsf_8h_source.html#l00134">XCSF::LAMBDA</a>, <a class="el" href="xcsf_8h_source.html#l00132">XCSF::P_CROSSOVER</a>, <a class="el" href="xcsf_8h_source.html#l00129">XCSF::SAM_TYPE</a>, and <a class="el" href="xcsf_8h_source.html#l00133">XCSF::THETA_EA</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00710">config_print()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_af7376970cfb5aa1a27ff4dc9c8db4b6d_icgraph.svg" width="627" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="aab7833431b350194434b06bca304d626"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab7833431b350194434b06bca304d626">&#9670;&nbsp;</a></span>print_params_general()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void print_params_general </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Prints <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> general parameters. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00727">727</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00107">XCSF::LOSS_FUNC</a>, <a class="el" href="xcsf_8h_source.html#l00104">XCSF::MAX_TRIALS</a>, <a class="el" href="xcsf_8h_source.html#l00102">XCSF::OMP_NUM_THREADS</a>, <a class="el" href="xcsf_8h_source.html#l00105">XCSF::PERF_TRIALS</a>, <a class="el" href="xcsf_8h_source.html#l00103">XCSF::POP_INIT</a>, and <a class="el" href="xcsf_8h_source.html#l00106">XCSF::POP_SIZE</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00710">config_print()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_aab7833431b350194434b06bca304d626_icgraph.svg" width="655" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a63b9e28a177744ddebf326dcec219f07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63b9e28a177744ddebf326dcec219f07">&#9670;&nbsp;</a></span>print_params_multistep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void print_params_multistep </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Prints <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> multistep parameters. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00742">742</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00110">XCSF::GAMMA</a>, <a class="el" href="xcsf_8h_source.html#l00112">XCSF::P_EXPLORE</a>, and <a class="el" href="xcsf_8h_source.html#l00111">XCSF::TELETRANSPORTATION</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00710">config_print()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_a63b9e28a177744ddebf326dcec219f07_icgraph.svg" width="666" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ae311246da4ad6fcabb3bf6706cd396e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae311246da4ad6fcabb3bf6706cd396e7">&#9670;&nbsp;</a></span>print_params_subsumption()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void print_params_subsumption </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structXCSF.html">XCSF</a> *&#160;</td>
+          <td class="paramname"><em>xcsf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Prints <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> subsumption parameters. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="config_8c_source.html#l00772">772</a> of file <a class="el" href="config_8c_source.html">config.c</a>.</p>
+
+<p class="reference">References <a class="el" href="xcsf_8h_source.html#l00179">XCSF::EA_SUBSUMPTION</a>, <a class="el" href="xcsf_8h_source.html#l00180">XCSF::SET_SUBSUMPTION</a>, and <a class="el" href="xcsf_8h_source.html#l00181">XCSF::THETA_SUB</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="config_8c_source.html#l00710">config_print()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="config_8c_ae311246da4ad6fcabb3bf6706cd396e7_icgraph.svg" width="687" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 
 </div>
 </div>

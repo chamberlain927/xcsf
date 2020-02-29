@@ -130,7 +130,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ac2cf4a27bb10f866b2e393a2804c8c33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> with an empty population.  <a href="#ac2cf4a27bb10f866b2e393a2804c8c33">More...</a><br /></td></tr>
 <tr class="separator:ac2cf4a27bb10f866b2e393a2804c8c33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee465caea59599a71fc69528598156cb"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcsf_8c.html#aee465caea59599a71fc69528598156cb">xcsf_fit</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, const <a class="el" href="structINPUT.html">INPUT</a> *train_data, const <a class="el" href="structINPUT.html">INPUT</a> *test_data, _Bool shuffle)</td></tr>
-<tr class="memdesc:aee465caea59599a71fc69528598156cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes MAX_TRIALS number of <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> learning iterations using the training. data and test iterations using the test data.  <a href="#aee465caea59599a71fc69528598156cb">More...</a><br /></td></tr>
+<tr class="memdesc:aee465caea59599a71fc69528598156cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes MAX_TRIALS number of <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> learning iterations using the training data and test iterations using the test data.  <a href="#aee465caea59599a71fc69528598156cb">More...</a><br /></td></tr>
 <tr class="separator:aee465caea59599a71fc69528598156cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af128a7da769acabe2e841e8d06749b0b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="xcsf_8c.html#af128a7da769acabe2e841e8d06749b0b">xcsf_predict</a> (<a class="el" href="structXCSF.html">XCSF</a> *xcsf, const double *x, double *pred, int n_samples)</td></tr>
 <tr class="memdesc:af128a7da769acabe2e841e8d06749b0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> predictions for the provided input.  <a href="#af128a7da769acabe2e841e8d06749b0b">More...</a><br /></td></tr>
@@ -203,7 +203,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Executes MAX_TRIALS number of <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> learning iterations using the training. data and test iterations using the test data. </p>
+<p>Executes MAX_TRIALS number of <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> learning iterations using the training data and test iterations using the test data. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">xcsf</td><td>The <a class="el" href="structXCSF.html" title="XCSF data structure. ">XCSF</a> data structure. </td></tr>
@@ -219,7 +219,7 @@ Variables</h2></td></tr>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00197">XCSF::loss_ptr</a>, <a class="el" href="xcsf_8h_source.html#l00104">XCSF::MAX_TRIALS</a>, <a class="el" href="perf_8c_source.html#l00042">perf_print()</a>, <a class="el" href="xcsf_8h_source.html#l00193">XCSF::train</a>, <a class="el" href="xcsf_8h_source.html#l00204">INPUT::x</a>, <a class="el" href="xcsf_8h_source.html#l00206">INPUT::x_dim</a>, <a class="el" href="xcsf_8c_source.html#l00104">xcsf_select_sample()</a>, <a class="el" href="xcsf_8c_source.html#l00121">xcsf_trial()</a>, <a class="el" href="xcsf_8h_source.html#l00205">INPUT::y</a>, <a class="el" href="xcsf_8h_source.html#l00195">XCSF::y_dim</a>, and <a class="el" href="xcsf_8h_source.html#l00207">INPUT::y_dim</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="pybind__wrapper_8cpp_source.html#l00155">XCS::fit()</a>, and <a class="el" href="main_8c_source.html#l00037">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="pybind__wrapper_8cpp_source.html#l00156">XCS::fit()</a>, and <a class="el" href="main_8c_source.html#l00037">main()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -452,7 +452,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00193">XCSF::train</a>, <a class="el" href="xcsf_8h_source.html#l00194">XCSF::x_dim</a>, <a class="el" href="xcsf_8c_source.html#l00121">xcsf_trial()</a>, and <a class="el" href="xcsf_8h_source.html#l00195">XCSF::y_dim</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="pybind__wrapper_8cpp_source.html#l00220">XCS::predict()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="pybind__wrapper_8cpp_source.html#l00221">XCS::predict()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -521,7 +521,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="clset_8c_source.html#l00500">clset_print()</a>, and <a class="el" href="xcsf_8h_source.html#l00091">XCSF::pset</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="pybind__wrapper_8cpp_source.html#l00119">XCS::print_pop()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="pybind__wrapper_8cpp_source.html#l00120">XCS::print_pop()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -691,7 +691,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="xcsf_8h_source.html#l00197">XCSF::loss_ptr</a>, <a class="el" href="xcsf_8h_source.html#l00208">INPUT::n_samples</a>, <a class="el" href="xcsf_8h_source.html#l00193">XCSF::train</a>, <a class="el" href="xcsf_8h_source.html#l00204">INPUT::x</a>, <a class="el" href="xcsf_8h_source.html#l00206">INPUT::x_dim</a>, <a class="el" href="xcsf_8c_source.html#l00121">xcsf_trial()</a>, <a class="el" href="xcsf_8h_source.html#l00205">INPUT::y</a>, <a class="el" href="xcsf_8h_source.html#l00195">XCSF::y_dim</a>, and <a class="el" href="xcsf_8h_source.html#l00207">INPUT::y_dim</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="pybind__wrapper_8cpp_source.html#l00233">XCS::score()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="pybind__wrapper_8cpp_source.html#l00234">XCS::score()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

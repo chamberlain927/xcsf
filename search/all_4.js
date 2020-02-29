@@ -1,6 +1,14 @@
 var searchData=
 [
   ['d',['d',['../unionW128__T.html#af1781b30d4052a0832fb7e7cd992cb75',1,'W128_T']]],
+  ['defaults_5fcl_5faction',['defaults_cl_action',['../config_8c.html#aa65e39367040ffcdaa6e50783e521ade',1,'config.c']]],
+  ['defaults_5fcl_5fcondition',['defaults_cl_condition',['../config_8c.html#a907b8123196bcc81c04b570783b9236e',1,'config.c']]],
+  ['defaults_5fcl_5fgeneral',['defaults_cl_general',['../config_8c.html#a90a9b25bd263909155ac04ad9595d994',1,'config.c']]],
+  ['defaults_5fcl_5fprediction',['defaults_cl_prediction',['../config_8c.html#ac8486f9bd2ab0692781e37fde9722c21',1,'config.c']]],
+  ['defaults_5fea',['defaults_ea',['../config_8c.html#ac52e02ba17ba4277efcd2eb82ab55bfa',1,'config.c']]],
+  ['defaults_5fgeneral',['defaults_general',['../config_8c.html#a479aea84defefad8b7eb13e1bf08e118',1,'config.c']]],
+  ['defaults_5fmultistep',['defaults_multistep',['../config_8c.html#adbf541d020a99adbbfdde6d5ecb75fee',1,'config.c']]],
+  ['defaults_5fsubsumption',['defaults_subsumption',['../config_8c.html#a80bab2f1c498bca20249c1ff554cd8ab',1,'config.c']]],
   ['delim',['DELIM',['../env__csv_8c.html#a1129d7e0bed7c31561c8664cfe73ad07',1,'env_csv.c']]],
   ['delta',['delta',['../structNET.html#a5115cdba25f3e79c00e39b86eab8ece2',1,'NET::delta()'],['../structLAYER.html#a269f56eab39db827d769116995dc3ff9',1,'LAYER::delta()'],['../structXCSF.html#a8f4b8bebee13b0cf90fc13c1d32d8d02',1,'XCSF::DELTA()']]],
   ['dgp',['dgp',['../structCOND__DGP.html#acba0ab02d4dec264bbb968f3fb93a606',1,'COND_DGP::dgp()'],['../structRULE__DGP.html#ae4ac6be1e8fb9934bb767dd0375e3303',1,'RULE_DGP::dgp()']]],

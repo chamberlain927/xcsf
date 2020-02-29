@@ -23,7 +23,6 @@ var annotated_dup =
     [ "LayerVtbl", "structLayerVtbl.html", "structLayerVtbl" ],
     [ "LLIST", "structLLIST.html", "structLLIST" ],
     [ "NET", "structNET.html", "structNET" ],
-    [ "PARAM_LIST", "structPARAM__LIST.html", "structPARAM__LIST" ],
     [ "PRED_NEURAL", "structPRED__NEURAL.html", "structPRED__NEURAL" ],
     [ "PRED_NLMS", "structPRED__NLMS.html", "structPRED__NLMS" ],
     [ "PRED_RLS", "structPRED__RLS.html", "structPRED__RLS" ],
