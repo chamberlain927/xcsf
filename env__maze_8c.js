@@ -1,10 +1,7 @@
 var env__maze_8c =
 [
-    [ "ENV_MAZE", "structENV__MAZE.html", "structENV__MAZE" ],
     [ "MAX_PAYOFF", "env__maze_8c.html#af20ccb66105d757d227a0e6975d2726f", null ],
-    [ "MAX_SIZE", "env__maze_8c.html#a0592dba56693fad79136250c11e5a7fe", null ],
     [ "MAZE_DEBUG", "env__maze_8c.html#ae20553cae6a84d9ae8a57c80a5cb3d2d", null ],
-    [ "ENV_MAZE", "env__maze_8c.html#a100cc91617b3204f4d758ec3698898e5", null ],
     [ "env_maze_execute", "env__maze_8c.html#ae4a3b648bc6bea62c7c6ccc80e3bad89", null ],
     [ "env_maze_free", "env__maze_8c.html#a5d3c1eee97581f3250af0701ead27236", null ],
     [ "env_maze_get_state", "env__maze_8c.html#acb09d0f7710243c4a66fa795876f25ef", null ],

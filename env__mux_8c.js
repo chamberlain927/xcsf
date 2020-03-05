@@ -1,8 +1,6 @@
 var env__mux_8c =
 [
-    [ "ENV_MUX", "structENV__MUX.html", "structENV__MUX" ],
     [ "MAX_PAYOFF", "env__mux_8c.html#af20ccb66105d757d227a0e6975d2726f", null ],
-    [ "ENV_MUX", "env__mux_8c.html#a5ff1c39221006f6b019e32b241e18e8c", null ],
     [ "env_mux_execute", "env__mux_8c.html#ac3293555d026dd0234b9e6846e0677b4", null ],
     [ "env_mux_free", "env__mux_8c.html#ad6510a5937233dfa41aa44adf7b2b1f4", null ],
     [ "env_mux_get_state", "env__mux_8c.html#a856b6d5b110e3046b866ff2b246bb70f", null ],

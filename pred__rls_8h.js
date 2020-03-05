@@ -1,5 +1,7 @@
 var pred__rls_8h =
 [
+    [ "PRED_RLS", "structPRED__RLS.html", "structPRED__RLS" ],
+    [ "PRED_RLS", "pred__rls_8h.html#a7ccd99bf7a7c951c23d85a4ec7bb6449", null ],
     [ "pred_rls_compute", "pred__rls_8h.html#abb4c55ec5065d298d5185dea1c7d1d31", null ],
     [ "pred_rls_copy", "pred__rls_8h.html#a6418146984176ed5c34694c35b0f7ab7", null ],
     [ "pred_rls_crossover", "pred__rls_8h.html#a489ce3729c6176679d92f62a43891496", null ],

@@ -8,234 +8,234 @@
  viewBox="0.00 0.00 1385.00 137.97" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 133.9743)">
 <title>rule_dgp_cond_init</title>
-<!-- Node72 -->
+<!-- Node69 -->
 <g id="node1" class="node">
-<title>Node72</title>
+<title>Node69</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-44.4743 0,-63.4743 98,-63.4743 98,-44.4743 0,-44.4743"/>
 <text text-anchor="middle" x="49" y="-51.4743" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">rule_dgp_cond_init</text>
 </g>
-<!-- Node73 -->
+<!-- Node70 -->
 <g id="node2" class="node">
-<title>Node73</title>
+<title>Node70</title>
 <g id="a_node2"><a xlink:href="dgp_8c.html#a10b25afd37a261629da7540c1f7a574c" target="_top" xlink:title="Initialises a new DGP graph. ">
 <polygon fill="none" stroke="#000000" points="134,-82.4743 134,-101.4743 193,-101.4743 193,-82.4743 134,-82.4743"/>
 <text text-anchor="middle" x="163.5" y="-89.4743" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">graph_init</text>
 </a>
 </g>
 </g>
-<!-- Node72&#45;&gt;Node73 -->
+<!-- Node69&#45;&gt;Node70 -->
 <g id="edge1" class="edge">
-<title>Node72&#45;&gt;Node73</title>
+<title>Node69&#45;&gt;Node70</title>
 <path fill="none" stroke="#191970" d="M77.8932,-63.5633C92.1316,-68.2887 109.5008,-74.0532 124.8634,-79.1517"/>
 <polygon fill="#191970" stroke="#191970" points="124.0226,-82.5603 134.6161,-82.3884 126.2276,-75.9166 124.0226,-82.5603"/>
 </g>
-<!-- Node84 -->
+<!-- Node81 -->
 <g id="node13" class="node">
-<title>Node84</title>
+<title>Node81</title>
 <g id="a_node13"><a xlink:href="dgp_8c.html#a870d8b0c4cbc943f756b54ccbb3ff4c7" target="_top" xlink:title="Randomises a specified DGP graph. ">
 <polygon fill="none" stroke="#000000" points="229,-20.4743 229,-39.4743 294,-39.4743 294,-20.4743 229,-20.4743"/>
 <text text-anchor="middle" x="261.5" y="-27.4743" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">graph_rand</text>
 </a>
 </g>
 </g>
-<!-- Node72&#45;&gt;Node84 -->
+<!-- Node69&#45;&gt;Node81 -->
 <g id="edge13" class="edge">
-<title>Node72&#45;&gt;Node84</title>
+<title>Node69&#45;&gt;Node81</title>
 <path fill="none" stroke="#191970" d="M98.0186,-48.4381C134.4529,-44.3232 183.6847,-38.7628 218.574,-34.8224"/>
 <polygon fill="#191970" stroke="#191970" points="219.3672,-38.2552 228.9112,-33.6549 218.5816,-31.2994 219.3672,-38.2552"/>
 </g>
-<!-- Node74 -->
+<!-- Node71 -->
 <g id="node3" class="node">
-<title>Node74</title>
+<title>Node71</title>
 <g id="a_node3"><a xlink:href="sam_8c.html#a3164f33509a5dc751b57a544fe2153a7" target="_top" xlink:title="Initialises self&#45;adaptive mutation rates. ">
 <polygon fill="none" stroke="#000000" points="235,-91.4743 235,-110.4743 288,-110.4743 288,-91.4743 235,-91.4743"/>
 <text text-anchor="middle" x="261.5" y="-98.4743" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sam_init</text>
 </a>
 </g>
 </g>
-<!-- Node73&#45;&gt;Node74 -->
+<!-- Node70&#45;&gt;Node71 -->
 <g id="edge2" class="edge">
-<title>Node73&#45;&gt;Node74</title>
+<title>Node70&#45;&gt;Node71</title>
 <path fill="none" stroke="#191970" d="M193.1692,-94.699C203.1406,-95.6148 214.384,-96.6473 224.8282,-97.6065"/>
 <polygon fill="#191970" stroke="#191970" points="224.6511,-101.1049 234.9293,-98.5341 225.2913,-94.1342 224.6511,-101.1049"/>
 </g>
-<!-- Node75 -->
+<!-- Node72 -->
 <g id="node4" class="node">
-<title>Node75</title>
+<title>Node72</title>
 <g id="a_node4"><a xlink:href="sam_8c.html#a3376574f2624a397ac253242b1958491" target="_top" xlink:title="Initialises log normal self&#45;adaptive mutation rates. ">
 <polygon fill="none" stroke="#000000" points="485,-110.4743 485,-129.4743 591,-129.4743 591,-110.4743 485,-110.4743"/>
 <text text-anchor="middle" x="538" y="-117.4743" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sam_log_normal_init</text>
 </a>
 </g>
 </g>
-<!-- Node74&#45;&gt;Node75 -->
+<!-- Node71&#45;&gt;Node72 -->
 <g id="edge3" class="edge">
-<title>Node74&#45;&gt;Node75</title>
+<title>Node71&#45;&gt;Node72</title>
 <path fill="none" stroke="#191970" d="M288.1515,-110.1745C300.6857,-114.0315 315.9371,-118.0601 330,-119.9743 378.1592,-126.5296 433.1738,-126.1919 474.523,-124.3973"/>
 <polygon fill="#191970" stroke="#191970" points="474.9058,-127.8831 484.7286,-123.9129 474.5739,-120.891 474.9058,-127.8831"/>
 </g>
-<!-- Node82 -->
+<!-- Node79 -->
 <g id="node11" class="node">
-<title>Node82</title>
+<title>Node79</title>
 <g id="a_node11"><a xlink:href="sam_8c.html#a5c510f09cd5f6069b67e1b9a59df7acc" target="_top" xlink:title="Initialises rate selection self&#45;adaptive mutation. ">
 <polygon fill="none" stroke="#000000" points="330,-91.4743 330,-110.4743 449,-110.4743 449,-91.4743 330,-91.4743"/>
 <text text-anchor="middle" x="389.5" y="-98.4743" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sam_rate_selection_init</text>
 </a>
 </g>
 </g>
-<!-- Node74&#45;&gt;Node82 -->
+<!-- Node71&#45;&gt;Node79 -->
 <g id="edge10" class="edge">
-<title>Node74&#45;&gt;Node82</title>
+<title>Node71&#45;&gt;Node79</title>
 <path fill="none" stroke="#191970" d="M288.0217,-100.9743C297.3283,-100.9743 308.2675,-100.9743 319.4552,-100.9743"/>
 <polygon fill="#191970" stroke="#191970" points="319.7599,-104.4744 329.7599,-100.9743 319.7599,-97.4744 319.7599,-104.4744"/>
 </g>
-<!-- Node76 -->
+<!-- Node73 -->
 <g id="node5" class="node">
-<title>Node76</title>
+<title>Node73</title>
 <g id="a_node5"><a xlink:href="utils_8c.html#ae42a9e1d467853befaa7922cfafed3bb" target="_top" xlink:title="Returns a uniform random float [min,max]. ">
 <polygon fill="none" stroke="#000000" points="627,-34.4743 627,-53.4743 700,-53.4743 700,-34.4743 627,-34.4743"/>
 <text text-anchor="middle" x="663.5" y="-41.4743" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">rand_uniform</text>
 </a>
 </g>
 </g>
-<!-- Node75&#45;&gt;Node76 -->
+<!-- Node72&#45;&gt;Node73 -->
 <g id="edge4" class="edge">
-<title>Node75&#45;&gt;Node76</title>
+<title>Node72&#45;&gt;Node73</title>
 <path fill="none" stroke="#191970" d="M553.8947,-110.3488C575.3948,-97.3289 613.9451,-73.9836 639.1207,-58.7379"/>
 <polygon fill="#191970" stroke="#191970" points="640.9936,-61.6955 647.7344,-53.5216 637.3676,-55.7078 640.9936,-61.6955"/>
 </g>
-<!-- Node77 -->
+<!-- Node74 -->
 <g id="node6" class="node">
-<title>Node77</title>
+<title>Node74</title>
 <g id="a_node6"><a xlink:href="utils_8c.html#a101d27cdda714b7f17a06224c65cac56" target="_top" xlink:title="Returns a uniform random float (0,1) ">
 <polygon fill="none" stroke="#000000" points="736,-34.4743 736,-53.4743 777,-53.4743 777,-34.4743 736,-34.4743"/>
 <text text-anchor="middle" x="756.5" y="-41.4743" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">drand</text>
 </a>
 </g>
 </g>
-<!-- Node76&#45;&gt;Node77 -->
+<!-- Node73&#45;&gt;Node74 -->
 <g id="edge5" class="edge">
-<title>Node76&#45;&gt;Node77</title>
+<title>Node73&#45;&gt;Node74</title>
 <path fill="none" stroke="#191970" d="M700.2561,-43.9743C708.658,-43.9743 717.5043,-43.9743 725.63,-43.9743"/>
 <polygon fill="#191970" stroke="#191970" points="725.799,-47.4744 735.7989,-43.9743 725.7989,-40.4744 725.799,-47.4744"/>
 </g>
-<!-- Node78 -->
+<!-- Node75 -->
 <g id="node7" class="node">
-<title>Node78</title>
+<title>Node75</title>
 <g id="a_node7"><a xlink:href="dSFMT_8h.html#af6dbcef408462da1f40edd1a1ea5dcd3" target="_top" xlink:title="dsfmt_gv_genrand_open_open">
 <polygon fill="none" stroke="#000000" points="813,-34.4743 813,-53.4743 962,-53.4743 962,-34.4743 813,-34.4743"/>
 <text text-anchor="middle" x="887.5" y="-41.4743" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">dsfmt_gv_genrand_open_open</text>
 </a>
 </g>
 </g>
-<!-- Node77&#45;&gt;Node78 -->
+<!-- Node74&#45;&gt;Node75 -->
 <g id="edge6" class="edge">
-<title>Node77&#45;&gt;Node78</title>
+<title>Node74&#45;&gt;Node75</title>
 <path fill="none" stroke="#191970" d="M777.2573,-43.9743C784.5688,-43.9743 793.3051,-43.9743 802.6156,-43.9743"/>
 <polygon fill="#191970" stroke="#191970" points="802.9038,-47.4744 812.9037,-43.9743 802.9037,-40.4744 802.9038,-47.4744"/>
 </g>
-<!-- Node79 -->
+<!-- Node76 -->
 <g id="node8" class="node">
-<title>Node79</title>
+<title>Node76</title>
 <g id="a_node8"><a xlink:href="dSFMT_8h.html#a147a0a05c969a4cb5d92ce3963b839c2" target="_top" xlink:title="dsfmt_genrand_open_open">
 <polygon fill="none" stroke="#000000" points="998,-34.4743 998,-53.4743 1132,-53.4743 1132,-34.4743 998,-34.4743"/>
 <text text-anchor="middle" x="1065" y="-41.4743" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">dsfmt_genrand_open_open</text>
 </a>
 </g>
 </g>
-<!-- Node78&#45;&gt;Node79 -->
+<!-- Node75&#45;&gt;Node76 -->
 <g id="edge7" class="edge">
-<title>Node78&#45;&gt;Node79</title>
+<title>Node75&#45;&gt;Node76</title>
 <path fill="none" stroke="#191970" d="M962.0045,-43.9743C970.4355,-43.9743 979.0427,-43.9743 987.5109,-43.9743"/>
 <polygon fill="#191970" stroke="#191970" points="987.7501,-47.4744 997.75,-43.9743 987.75,-40.4744 987.7501,-47.4744"/>
 </g>
-<!-- Node80 -->
+<!-- Node77 -->
 <g id="node9" class="node">
-<title>Node80</title>
+<title>Node77</title>
 <g id="a_node9"><a xlink:href="dSFMT_8h.html#afccb1e4d75cea7ffe3b45cba53d1e5e0" target="_top" xlink:title="dsfmt_gen_rand_all">
 <polygon fill="none" stroke="#000000" points="1168,-34.4743 1168,-53.4743 1269,-53.4743 1269,-34.4743 1168,-34.4743"/>
 <text text-anchor="middle" x="1218.5" y="-41.4743" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">dsfmt_gen_rand_all</text>
 </a>
 </g>
 </g>
-<!-- Node79&#45;&gt;Node80 -->
+<!-- Node76&#45;&gt;Node77 -->
 <g id="edge8" class="edge">
-<title>Node79&#45;&gt;Node80</title>
+<title>Node76&#45;&gt;Node77</title>
 <path fill="none" stroke="#191970" d="M1132.3273,-43.9743C1140.8031,-43.9743 1149.4345,-43.9743 1157.7997,-43.9743"/>
 <polygon fill="#191970" stroke="#191970" points="1157.8429,-47.4744 1167.8429,-43.9743 1157.8428,-40.4744 1157.8429,-47.4744"/>
 </g>
-<!-- Node81 -->
+<!-- Node78 -->
 <g id="node10" class="node">
-<title>Node81</title>
+<title>Node78</title>
 <g id="a_node10"><a xlink:href="dSFMT-common_8h.html#a43e33e2235015c9c072bad7dfe1a282c" target="_top" xlink:title="do_recursion">
 <polygon fill="none" stroke="#000000" points="1305,-34.4743 1305,-53.4743 1377,-53.4743 1377,-34.4743 1305,-34.4743"/>
 <text text-anchor="middle" x="1341" y="-41.4743" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">do_recursion</text>
 </a>
 </g>
 </g>
-<!-- Node80&#45;&gt;Node81 -->
+<!-- Node77&#45;&gt;Node78 -->
 <g id="edge9" class="edge">
-<title>Node80&#45;&gt;Node81</title>
+<title>Node77&#45;&gt;Node78</title>
 <path fill="none" stroke="#191970" d="M1269.0327,-43.9743C1277.5603,-43.9743 1286.3741,-43.9743 1294.7846,-43.9743"/>
 <polygon fill="#191970" stroke="#191970" points="1294.7975,-47.4744 1304.7974,-43.9743 1294.7974,-40.4744 1294.7975,-47.4744"/>
 </g>
-<!-- Node83 -->
+<!-- Node80 -->
 <g id="node12" class="node">
-<title>Node83</title>
+<title>Node80</title>
 <g id="a_node12"><a xlink:href="utils_8c.html#a32648ab076544a9ac1c086d0f07b599f" target="_top" xlink:title="Returns a uniform random integer [min,max] not inclusive of max. ">
 <polygon fill="none" stroke="#000000" points="500.5,-53.4743 500.5,-72.4743 575.5,-72.4743 575.5,-53.4743 500.5,-53.4743"/>
 <text text-anchor="middle" x="538" y="-60.4743" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">irand_uniform</text>
 </a>
 </g>
 </g>
-<!-- Node82&#45;&gt;Node83 -->
+<!-- Node79&#45;&gt;Node80 -->
 <g id="edge11" class="edge">
-<title>Node82&#45;&gt;Node83</title>
+<title>Node79&#45;&gt;Node80</title>
 <path fill="none" stroke="#191970" d="M426.9728,-91.3853C446.3925,-86.416 470.3025,-80.2976 490.9542,-75.013"/>
 <polygon fill="#191970" stroke="#191970" points="491.9765,-78.3642 500.7966,-72.4943 490.2411,-71.5827 491.9765,-78.3642"/>
 </g>
-<!-- Node83&#45;&gt;Node76 -->
+<!-- Node80&#45;&gt;Node73 -->
 <g id="edge12" class="edge">
-<title>Node83&#45;&gt;Node76</title>
+<title>Node80&#45;&gt;Node73</title>
 <path fill="none" stroke="#191970" d="M575.6541,-57.2737C588.542,-55.3225 603.1208,-53.1154 616.6451,-51.0679"/>
 <polygon fill="#191970" stroke="#191970" points="617.3727,-54.4977 626.7361,-49.5401 616.3248,-47.5765 617.3727,-54.4977"/>
 </g>
-<!-- Node84&#45;&gt;Node76 -->
+<!-- Node81&#45;&gt;Node73 -->
 <g id="edge15" class="edge">
-<title>Node84&#45;&gt;Node76</title>
+<title>Node81&#45;&gt;Node73</title>
 <path fill="none" stroke="#191970" d="M282.9062,-20.3762C296.1705,-14.9623 313.7263,-8.7427 330,-5.9743 434.2126,11.7536 558.1899,-14.7227 621.5949,-31.6585"/>
 <polygon fill="#191970" stroke="#191970" points="621.0386,-35.1346 631.6072,-34.389 622.8804,-28.3812 621.0386,-35.1346"/>
 </g>
-<!-- Node84&#45;&gt;Node83 -->
+<!-- Node81&#45;&gt;Node80 -->
 <g id="edge14" class="edge">
-<title>Node84&#45;&gt;Node83</title>
+<title>Node81&#45;&gt;Node80</title>
 <path fill="none" stroke="#191970" d="M294.1222,-37.4079C305.4352,-39.7814 318.2317,-42.2396 330,-43.9743 384.6831,-52.0347 447.9908,-57.2325 490.2647,-60.119"/>
 <polygon fill="#191970" stroke="#191970" points="490.0652,-63.6134 500.2759,-60.7861 490.5308,-56.6288 490.0652,-63.6134"/>
 </g>
-<!-- Node85 -->
+<!-- Node82 -->
 <g id="node14" class="node">
-<title>Node85</title>
+<title>Node82</title>
 <g id="a_node14"><a xlink:href="dgp_8c.html#afdff428427a00c7e6c9ec124bbb4cf5f" target="_top" xlink:title="Returns a random connection. ">
 <polygon fill="none" stroke="#000000" points="339,-15.4743 339,-34.4743 440,-34.4743 440,-15.4743 339,-15.4743"/>
 <text text-anchor="middle" x="389.5" y="-22.4743" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">random_connection</text>
 </a>
 </g>
 </g>
-<!-- Node84&#45;&gt;Node85 -->
+<!-- Node81&#45;&gt;Node82 -->
 <g id="edge16" class="edge">
-<title>Node84&#45;&gt;Node85</title>
+<title>Node81&#45;&gt;Node82</title>
 <path fill="none" stroke="#191970" d="M294.131,-28.6996C304.5573,-28.2924 316.4593,-27.8274 328.2375,-27.3674"/>
 <polygon fill="#191970" stroke="#191970" points="328.6602,-30.8536 338.5159,-26.9659 328.3869,-23.859 328.6602,-30.8536"/>
 </g>
-<!-- Node85&#45;&gt;Node76 -->
+<!-- Node82&#45;&gt;Node73 -->
 <g id="edge18" class="edge">
-<title>Node85&#45;&gt;Node76</title>
+<title>Node82&#45;&gt;Node73</title>
 <path fill="none" stroke="#191970" d="M440.0751,-28.4813C490.6018,-31.985 567.6368,-37.3268 616.7656,-40.7336"/>
 <polygon fill="#191970" stroke="#191970" points="616.5877,-44.2296 626.8059,-41.4298 617.0721,-37.2463 616.5877,-44.2296"/>
 </g>
-<!-- Node85&#45;&gt;Node83 -->
+<!-- Node82&#45;&gt;Node80 -->
 <g id="edge17" class="edge">
-<title>Node85&#45;&gt;Node83</title>
+<title>Node82&#45;&gt;Node80</title>
 <path fill="none" stroke="#191970" d="M426.9728,-34.5633C446.3925,-39.5326 470.3025,-45.651 490.9542,-50.9356"/>
 <polygon fill="#191970" stroke="#191970" points="490.2411,-54.3659 500.7966,-53.4542 491.9765,-47.5844 490.2411,-54.3659"/>
 </g>

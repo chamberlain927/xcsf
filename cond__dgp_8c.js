@@ -1,7 +1,5 @@
 var cond__dgp_8c =
 [
-    [ "COND_DGP", "structCOND__DGP.html", "structCOND__DGP" ],
-    [ "COND_DGP", "cond__dgp_8c.html#aeb797f2715f472216a039df08e0863c6", null ],
     [ "cond_dgp_copy", "cond__dgp_8c.html#aa6725c3ead9ca8c395aa90f593d77202", null ],
     [ "cond_dgp_cover", "cond__dgp_8c.html#a3a7c2f80b0dbb665d8ebc25facbbae43", null ],
     [ "cond_dgp_crossover", "cond__dgp_8c.html#ac02b44a8efa80d6bf19374effb445e04", null ],
@@ -12,7 +10,6 @@ var cond__dgp_8c =
     [ "cond_dgp_match", "cond__dgp_8c.html#a48c7c73e5aa6d9537cce1adee006149e", null ],
     [ "cond_dgp_mutate", "cond__dgp_8c.html#abd373ea063e99377a8bcd234c5018abe", null ],
     [ "cond_dgp_print", "cond__dgp_8c.html#a2dba88cd28b7c78c49bede6a8b47c737", null ],
-    [ "cond_dgp_rand", "cond__dgp_8c.html#ab1cd55000e40873ee2fef3c519ef627d", null ],
     [ "cond_dgp_save", "cond__dgp_8c.html#ac89d590eaf4229c12025d49befc42cfb", null ],
     [ "cond_dgp_size", "cond__dgp_8c.html#a95a54aba8bbb1f0c5c83dc9e739b9a49", null ],
     [ "cond_dgp_update", "cond__dgp_8c.html#ae1cdb17309adb585b2379e0853ab505d", null ]

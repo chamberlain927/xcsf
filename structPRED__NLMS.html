@@ -90,6 +90,8 @@ $(document).ready(function(){initNavTree('structPRED__NLMS.html','');});
 
 <p>Normalised least mean squares prediction data structure.  
  <a href="structPRED__NLMS.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="pred__nlms_8h_source.html">pred_nlms.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
@@ -102,9 +104,9 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a7f2e2f8e2464f99f1bf4ae00af9ed8a0"><td class="memItemLeft" align="right" valign="top">double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPRED__NLMS.html#a7f2e2f8e2464f99f1bf4ae00af9ed8a0">weights</a></td></tr>
 <tr class="memdesc:a7f2e2f8e2464f99f1bf4ae00af9ed8a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weights used to compute prediction.  <a href="#a7f2e2f8e2464f99f1bf4ae00af9ed8a0">More...</a><br /></td></tr>
 <tr class="separator:a7f2e2f8e2464f99f1bf4ae00af9ed8a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade08256d7b44125d4bcc2fd60cb4a0cc"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPRED__NLMS.html#ade08256d7b44125d4bcc2fd60cb4a0cc">mu</a> [1]</td></tr>
-<tr class="memdesc:ade08256d7b44125d4bcc2fd60cb4a0cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutation rates.  <a href="#ade08256d7b44125d4bcc2fd60cb4a0cc">More...</a><br /></td></tr>
-<tr class="separator:ade08256d7b44125d4bcc2fd60cb4a0cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75e4e262aedff2f6a045a1641c40c8d7"><td class="memItemLeft" align="right" valign="top">double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPRED__NLMS.html#a75e4e262aedff2f6a045a1641c40c8d7">mu</a></td></tr>
+<tr class="memdesc:a75e4e262aedff2f6a045a1641c40c8d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutation rates.  <a href="#a75e4e262aedff2f6a045a1641c40c8d7">More...</a><br /></td></tr>
+<tr class="separator:a75e4e262aedff2f6a045a1641c40c8d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a488789f699dbf0a83a65089bd3d2a3ce"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPRED__NLMS.html#a488789f699dbf0a83a65089bd3d2a3ce">eta</a></td></tr>
 <tr class="memdesc:a488789f699dbf0a83a65089bd3d2a3ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gradient descent rate.  <a href="#a488789f699dbf0a83a65089bd3d2a3ce">More...</a><br /></td></tr>
 <tr class="separator:a488789f699dbf0a83a65089bd3d2a3ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -115,7 +117,7 @@ Data Fields</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Normalised least mean squares prediction data structure. </p>
 
-<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00043">43</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pred__nlms_8h_source.html#l00029">29</a> of file <a class="el" href="pred__nlms_8h_source.html">pred_nlms.h</a>.</p>
 </div><h2 class="groupheader">Field Documentation</h2>
 <a id="a488789f699dbf0a83a65089bd3d2a3ce"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a488789f699dbf0a83a65089bd3d2a3ce">&#9670;&nbsp;</a></span>eta</h2>
@@ -131,29 +133,29 @@ Data Fields</h2></td></tr>
 
 <p>Gradient descent rate. </p>
 
-<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00048">48</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pred__nlms_8h_source.html#l00034">34</a> of file <a class="el" href="pred__nlms_8h_source.html">pred_nlms.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="pred__nlms_8c_source.html#l00081">pred_nlms_copy()</a>, <a class="el" href="pred__nlms_8c_source.html#l00052">pred_nlms_init()</a>, <a class="el" href="pred__nlms_8c_source.html#l00179">pred_nlms_load()</a>, <a class="el" href="pred__nlms_8c_source.html#l00144">pred_nlms_mutate()</a>, <a class="el" href="pred__nlms_8c_source.html#l00125">pred_nlms_print()</a>, <a class="el" href="pred__nlms_8c_source.html#l00166">pred_nlms_save()</a>, and <a class="el" href="pred__nlms_8c_source.html#l00100">pred_nlms_update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="pred__nlms_8c_source.html#l00070">pred_nlms_copy()</a>, <a class="el" href="pred__nlms_8c_source.html#l00040">pred_nlms_init()</a>, <a class="el" href="pred__nlms_8c_source.html#l00169">pred_nlms_load()</a>, <a class="el" href="pred__nlms_8c_source.html#l00134">pred_nlms_mutate()</a>, <a class="el" href="pred__nlms_8c_source.html#l00115">pred_nlms_print()</a>, <a class="el" href="pred__nlms_8c_source.html#l00156">pred_nlms_save()</a>, and <a class="el" href="pred__nlms_8c_source.html#l00090">pred_nlms_update()</a>.</p>
 
 </div>
 </div>
-<a id="ade08256d7b44125d4bcc2fd60cb4a0cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade08256d7b44125d4bcc2fd60cb4a0cc">&#9670;&nbsp;</a></span>mu</h2>
+<a id="a75e4e262aedff2f6a045a1641c40c8d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75e4e262aedff2f6a045a1641c40c8d7">&#9670;&nbsp;</a></span>mu</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double PRED_NLMS::mu[1]</td>
+          <td class="memname">double* PRED_NLMS::mu</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Mutation rates. </p>
 
-<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00047">47</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pred__nlms_8h_source.html#l00033">33</a> of file <a class="el" href="pred__nlms_8h_source.html">pred_nlms.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="pred__nlms_8c_source.html#l00081">pred_nlms_copy()</a>, <a class="el" href="pred__nlms_8c_source.html#l00052">pred_nlms_init()</a>, <a class="el" href="pred__nlms_8c_source.html#l00179">pred_nlms_load()</a>, <a class="el" href="pred__nlms_8c_source.html#l00144">pred_nlms_mutate()</a>, and <a class="el" href="pred__nlms_8c_source.html#l00166">pred_nlms_save()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="pred__nlms_8c_source.html#l00070">pred_nlms_copy()</a>, <a class="el" href="pred__nlms_8c_source.html#l00080">pred_nlms_free()</a>, <a class="el" href="pred__nlms_8c_source.html#l00040">pred_nlms_init()</a>, <a class="el" href="pred__nlms_8c_source.html#l00169">pred_nlms_load()</a>, <a class="el" href="pred__nlms_8c_source.html#l00134">pred_nlms_mutate()</a>, and <a class="el" href="pred__nlms_8c_source.html#l00156">pred_nlms_save()</a>.</p>
 
 </div>
 </div>
@@ -171,9 +173,9 @@ Data Fields</h2></td></tr>
 
 <p>Number of weights for each predicted variable. </p>
 
-<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00044">44</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pred__nlms_8h_source.html#l00030">30</a> of file <a class="el" href="pred__nlms_8h_source.html">pred_nlms.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="pred__nlms_8c_source.html#l00115">pred_nlms_compute()</a>, <a class="el" href="pred__nlms_8c_source.html#l00052">pred_nlms_init()</a>, <a class="el" href="pred__nlms_8c_source.html#l00179">pred_nlms_load()</a>, <a class="el" href="pred__nlms_8c_source.html#l00125">pred_nlms_print()</a>, <a class="el" href="pred__nlms_8c_source.html#l00166">pred_nlms_save()</a>, and <a class="el" href="pred__nlms_8c_source.html#l00100">pred_nlms_update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="pred__nlms_8c_source.html#l00105">pred_nlms_compute()</a>, <a class="el" href="pred__nlms_8c_source.html#l00040">pred_nlms_init()</a>, <a class="el" href="pred__nlms_8c_source.html#l00169">pred_nlms_load()</a>, <a class="el" href="pred__nlms_8c_source.html#l00115">pred_nlms_print()</a>, <a class="el" href="pred__nlms_8c_source.html#l00156">pred_nlms_save()</a>, and <a class="el" href="pred__nlms_8c_source.html#l00090">pred_nlms_update()</a>.</p>
 
 </div>
 </div>
@@ -191,9 +193,9 @@ Data Fields</h2></td></tr>
 
 <p>Total number of weights. </p>
 
-<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00045">45</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pred__nlms_8h_source.html#l00031">31</a> of file <a class="el" href="pred__nlms_8h_source.html">pred_nlms.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="pred__nlms_8c_source.html#l00081">pred_nlms_copy()</a>, <a class="el" href="pred__nlms_8c_source.html#l00052">pred_nlms_init()</a>, <a class="el" href="pred__nlms_8c_source.html#l00179">pred_nlms_load()</a>, <a class="el" href="pred__nlms_8c_source.html#l00166">pred_nlms_save()</a>, and <a class="el" href="pred__nlms_8c_source.html#l00159">pred_nlms_size()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="pred__nlms_8c_source.html#l00070">pred_nlms_copy()</a>, <a class="el" href="pred__nlms_8c_source.html#l00040">pred_nlms_init()</a>, <a class="el" href="pred__nlms_8c_source.html#l00169">pred_nlms_load()</a>, <a class="el" href="pred__nlms_8c_source.html#l00156">pred_nlms_save()</a>, and <a class="el" href="pred__nlms_8c_source.html#l00149">pred_nlms_size()</a>.</p>
 
 </div>
 </div>
@@ -211,9 +213,9 @@ Data Fields</h2></td></tr>
 
 <p>Temporary storage for updating weights. </p>
 
-<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00049">49</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pred__nlms_8h_source.html#l00035">35</a> of file <a class="el" href="pred__nlms_8h_source.html">pred_nlms.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="pred__nlms_8c_source.html#l00115">pred_nlms_compute()</a>, <a class="el" href="pred__nlms_8c_source.html#l00091">pred_nlms_free()</a>, <a class="el" href="pred__nlms_8c_source.html#l00052">pred_nlms_init()</a>, and <a class="el" href="pred__nlms_8c_source.html#l00100">pred_nlms_update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="pred__nlms_8c_source.html#l00105">pred_nlms_compute()</a>, <a class="el" href="pred__nlms_8c_source.html#l00080">pred_nlms_free()</a>, <a class="el" href="pred__nlms_8c_source.html#l00040">pred_nlms_init()</a>, and <a class="el" href="pred__nlms_8c_source.html#l00090">pred_nlms_update()</a>.</p>
 
 </div>
 </div>
@@ -231,14 +233,14 @@ Data Fields</h2></td></tr>
 
 <p>Weights used to compute prediction. </p>
 
-<p class="definition">Definition at line <a class="el" href="pred__nlms_8c_source.html#l00046">46</a> of file <a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pred__nlms_8h_source.html#l00032">32</a> of file <a class="el" href="pred__nlms_8h_source.html">pred_nlms.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="pred__nlms_8c_source.html#l00115">pred_nlms_compute()</a>, <a class="el" href="pred__nlms_8c_source.html#l00081">pred_nlms_copy()</a>, <a class="el" href="pred__nlms_8c_source.html#l00091">pred_nlms_free()</a>, <a class="el" href="pred__nlms_8c_source.html#l00052">pred_nlms_init()</a>, <a class="el" href="pred__nlms_8c_source.html#l00179">pred_nlms_load()</a>, <a class="el" href="pred__nlms_8c_source.html#l00125">pred_nlms_print()</a>, <a class="el" href="pred__nlms_8c_source.html#l00166">pred_nlms_save()</a>, and <a class="el" href="pred__nlms_8c_source.html#l00100">pred_nlms_update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="pred__nlms_8c_source.html#l00105">pred_nlms_compute()</a>, <a class="el" href="pred__nlms_8c_source.html#l00070">pred_nlms_copy()</a>, <a class="el" href="pred__nlms_8c_source.html#l00080">pred_nlms_free()</a>, <a class="el" href="pred__nlms_8c_source.html#l00040">pred_nlms_init()</a>, <a class="el" href="pred__nlms_8c_source.html#l00169">pred_nlms_load()</a>, <a class="el" href="pred__nlms_8c_source.html#l00115">pred_nlms_print()</a>, <a class="el" href="pred__nlms_8c_source.html#l00156">pred_nlms_save()</a>, and <a class="el" href="pred__nlms_8c_source.html#l00090">pred_nlms_update()</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="pred__nlms_8c_source.html">pred_nlms.c</a></li>
+<li><a class="el" href="pred__nlms_8h_source.html">pred_nlms.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

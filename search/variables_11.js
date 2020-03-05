@@ -8,7 +8,7 @@ var searchData=
   ['theta_5fea',['THETA_EA',['../structXCSF.html#a580a42d79930991c1f45928ccc5de6af',1,'XCSF']]],
   ['theta_5fsub',['THETA_SUB',['../structXCSF.html#ad5e368101793c1a242ffa38c81d45b3b',1,'XCSF']]],
   ['time',['time',['../structCL.html#a860381acf1b5143ec6856909f2a41af2',1,'CL::time()'],['../structXCSF.html#abe0405c64106260871074d7dc21d2b4e',1,'XCSF::time()']]],
-  ['tmp_5finput',['tmp_input',['../structGRAPH.html#a6a0fcb39cb700fed32d74b3f8a8ea1aa',1,'GRAPH::tmp_input()'],['../structPRED__NLMS.html#aa26d755c38a5526952f11b75fafc246b',1,'PRED_NLMS::tmp_input()'],['../structPRED__RLS.html#aab9ed1b9a46df631fb1e15ef5f2a41be',1,'PRED_RLS::tmp_input()']]],
+  ['tmp_5finput',['tmp_input',['../structCOND__TERNARY.html#acd3f111fbf21ff58d55b737031566582',1,'COND_TERNARY::tmp_input()'],['../structGRAPH.html#a6a0fcb39cb700fed32d74b3f8a8ea1aa',1,'GRAPH::tmp_input()'],['../structPRED__NLMS.html#aa26d755c38a5526952f11b75fafc246b',1,'PRED_NLMS::tmp_input()'],['../structPRED__RLS.html#aab9ed1b9a46df631fb1e15ef5f2a41be',1,'PRED_RLS::tmp_input()']]],
   ['tmp_5fmatrix1',['tmp_matrix1',['../structPRED__RLS.html#ab89818e2ac0c9415cbe72bd224543f5f',1,'PRED_RLS']]],
   ['tmp_5fmatrix2',['tmp_matrix2',['../structPRED__RLS.html#a137d818b4ee254348b053bed75404689',1,'PRED_RLS']]],
   ['tmp_5fstate',['tmp_state',['../structGRAPH.html#a812bcd5fec6df8e4a05b98f034520685',1,'GRAPH']]],

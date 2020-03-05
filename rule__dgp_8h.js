@@ -1,5 +1,7 @@
 var rule__dgp_8h =
 [
+    [ "RULE_DGP", "structRULE__DGP.html", "structRULE__DGP" ],
+    [ "RULE_DGP", "rule__dgp_8h.html#a244bb2ef536424a462c4aa6b33bbbcfb", null ],
     [ "rule_dgp_act_compute", "rule__dgp_8h.html#a47bee03a0a641069fcfcfcdd763748b1", null ],
     [ "rule_dgp_act_copy", "rule__dgp_8h.html#aa45419cca8bbe0109516044cd23f5456", null ],
     [ "rule_dgp_act_cover", "rule__dgp_8h.html#a78f04dfe1d729861612db2583dd4303d", null ],
@@ -10,7 +12,6 @@ var rule__dgp_8h =
     [ "rule_dgp_act_load", "rule__dgp_8h.html#a244b1920ea157f1b34a14d920ab20490", null ],
     [ "rule_dgp_act_mutate", "rule__dgp_8h.html#a9f5ee4e0aeaa25ddfe559171022a6089", null ],
     [ "rule_dgp_act_print", "rule__dgp_8h.html#a50402c6710eaddd03317a692a4ee34f4", null ],
-    [ "rule_dgp_act_rand", "rule__dgp_8h.html#aeb0ae2ac5b822ff1561cafc25f4cd92f", null ],
     [ "rule_dgp_act_save", "rule__dgp_8h.html#a321f526643205b500ad83a95cba9bbaf", null ],
     [ "rule_dgp_act_update", "rule__dgp_8h.html#a0c9bd74089a99955107a5b6ab0aad464", null ],
     [ "rule_dgp_cond_copy", "rule__dgp_8h.html#aaff0be4572e3895956a6e80d5283c6ae", null ],

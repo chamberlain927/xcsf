@@ -1,5 +1,7 @@
 var pred__neural_8h =
 [
+    [ "PRED_NEURAL", "structPRED__NEURAL.html", "structPRED__NEURAL" ],
+    [ "PRED_NEURAL", "pred__neural_8h.html#aced8c8bf8e8b90b227c6ef2f2232b070", null ],
     [ "pred_neural_compute", "pred__neural_8h.html#ab3ce7c5b51e6a881b6066718979b5766", null ],
     [ "pred_neural_copy", "pred__neural_8h.html#a83fc6462ab7b3cbfa9379ef55697a930", null ],
     [ "pred_neural_crossover", "pred__neural_8h.html#a9cb49b17ac93709160d17c0ce84add74", null ],

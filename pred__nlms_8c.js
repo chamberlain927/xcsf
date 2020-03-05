@@ -1,10 +1,8 @@
 var pred__nlms_8c =
 [
-    [ "PRED_NLMS", "structPRED__NLMS.html", "structPRED__NLMS" ],
     [ "ETA_MAX", "pred__nlms_8c.html#ac8506c6dfbaa367890d2c900541c6f19", null ],
     [ "ETA_MIN", "pred__nlms_8c.html#a05eb6d5155c3a0f6b17118b5ce0478ac", null ],
     [ "N_MU", "pred__nlms_8c.html#a7ad8e86a318f2d3d354e0a4e5bc23b30", null ],
-    [ "PRED_NLMS", "pred__nlms_8c.html#a1506e62754286617633d626fa6279e01", null ],
     [ "pred_nlms_compute", "pred__nlms_8c.html#a1a9ba73e3e5e65afce9cdb36c7a3fff1", null ],
     [ "pred_nlms_copy", "pred__nlms_8c.html#a39b2b2fc031bec520e083e518d41587b", null ],
     [ "pred_nlms_crossover", "pred__nlms_8c.html#ace3149551240f99e99315e94fed0e7a3", null ],

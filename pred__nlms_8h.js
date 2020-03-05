@@ -1,5 +1,7 @@
 var pred__nlms_8h =
 [
+    [ "PRED_NLMS", "structPRED__NLMS.html", "structPRED__NLMS" ],
+    [ "PRED_NLMS", "pred__nlms_8h.html#a1506e62754286617633d626fa6279e01", null ],
     [ "pred_nlms_compute", "pred__nlms_8h.html#a1a9ba73e3e5e65afce9cdb36c7a3fff1", null ],
     [ "pred_nlms_copy", "pred__nlms_8h.html#a39b2b2fc031bec520e083e518d41587b", null ],
     [ "pred_nlms_crossover", "pred__nlms_8h.html#ace3149551240f99e99315e94fed0e7a3", null ],

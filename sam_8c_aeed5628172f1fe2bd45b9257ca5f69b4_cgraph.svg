@@ -8,114 +8,114 @@
  viewBox="0.00 0.00 908.00 66.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 62)">
 <title>sam_log_normal_adapt</title>
-<!-- Node56 -->
+<!-- Node55 -->
 <g id="node1" class="node">
-<title>Node56</title>
+<title>Node55</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-19.5 0,-38.5 117,-38.5 117,-19.5 0,-19.5"/>
 <text text-anchor="middle" x="58.5" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sam_log_normal_adapt</text>
 </g>
-<!-- Node57 -->
+<!-- Node56 -->
 <g id="node2" class="node">
-<title>Node57</title>
-<g id="a_node2"><a xlink:href="utils_8h.html#ae02d149bec0d867bdb7616bb612439a6" target="_top" xlink:title="Returns a float constrained within the specified range. ">
-<polygon fill="none" stroke="#000000" points="160,-38.5 160,-57.5 216,-57.5 216,-38.5 160,-38.5"/>
-<text text-anchor="middle" x="188" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">constrain</text>
+<title>Node56</title>
+<g id="a_node2"><a xlink:href="utils_8h.html#ae1e666b8d7b3afa5b96698d6a0b8b30f" target="_top" xlink:title="Returns a float clamped within the specified range. ">
+<polygon fill="none" stroke="#000000" points="166.5,-38.5 166.5,-57.5 209.5,-57.5 209.5,-38.5 166.5,-38.5"/>
+<text text-anchor="middle" x="188" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">clamp</text>
 </a>
 </g>
 </g>
-<!-- Node56&#45;&gt;Node57 -->
+<!-- Node55&#45;&gt;Node56 -->
 <g id="edge1" class="edge">
-<title>Node56&#45;&gt;Node57</title>
-<path fill="none" stroke="#191970" d="M117.1876,-37.6105C128.214,-39.2283 139.477,-40.8808 149.6825,-42.3781"/>
-<polygon fill="#191970" stroke="#191970" points="149.4783,-45.8856 159.8805,-43.8744 150.4945,-38.9597 149.4783,-45.8856"/>
+<title>Node55&#45;&gt;Node56</title>
+<path fill="none" stroke="#191970" d="M117.1876,-37.6105C130.6117,-39.5801 144.3865,-41.6011 156.1766,-43.3309"/>
+<polygon fill="#191970" stroke="#191970" points="155.9771,-46.8391 166.3793,-44.8279 156.9933,-39.9132 155.9771,-46.8391"/>
 </g>
-<!-- Node58 -->
+<!-- Node57 -->
 <g id="node3" class="node">
-<title>Node58</title>
+<title>Node57</title>
 <g id="a_node3"><a xlink:href="utils_8c.html#aa57fc0f69e730ce0a348c25ee498643d" target="_top" xlink:title="Returns a normal random float with specified mean and standard deviation. ">
 <polygon fill="none" stroke="#000000" points="153,-.5 153,-19.5 223,-19.5 223,-.5 153,-.5"/>
 <text text-anchor="middle" x="188" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">rand_normal</text>
 </a>
 </g>
 </g>
-<!-- Node56&#45;&gt;Node58 -->
+<!-- Node55&#45;&gt;Node57 -->
 <g id="edge2" class="edge">
-<title>Node56&#45;&gt;Node58</title>
+<title>Node55&#45;&gt;Node57</title>
 <path fill="none" stroke="#191970" d="M117.1876,-20.3895C125.7515,-19.133 134.4581,-17.8556 142.7011,-16.6462"/>
 <polygon fill="#191970" stroke="#191970" points="143.4627,-20.072 152.8487,-15.1573 142.4465,-13.1461 143.4627,-20.072"/>
 </g>
-<!-- Node59 -->
+<!-- Node58 -->
 <g id="node4" class="node">
-<title>Node59</title>
+<title>Node58</title>
 <g id="a_node4"><a xlink:href="utils_8c.html#a101d27cdda714b7f17a06224c65cac56" target="_top" xlink:title="Returns a uniform random float (0,1) ">
 <polygon fill="none" stroke="#000000" points="259,-.5 259,-19.5 300,-19.5 300,-.5 259,-.5"/>
 <text text-anchor="middle" x="279.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">drand</text>
 </a>
 </g>
 </g>
-<!-- Node58&#45;&gt;Node59 -->
+<!-- Node57&#45;&gt;Node58 -->
 <g id="edge3" class="edge">
-<title>Node58&#45;&gt;Node59</title>
+<title>Node57&#45;&gt;Node58</title>
 <path fill="none" stroke="#191970" d="M223.1146,-10C231.5247,-10 240.4424,-10 248.6434,-10"/>
 <polygon fill="#191970" stroke="#191970" points="248.9086,-13.5001 258.9086,-10 248.9086,-6.5001 248.9086,-13.5001"/>
 </g>
-<!-- Node60 -->
+<!-- Node59 -->
 <g id="node5" class="node">
-<title>Node60</title>
+<title>Node59</title>
 <g id="a_node5"><a xlink:href="dSFMT_8h.html#af6dbcef408462da1f40edd1a1ea5dcd3" target="_top" xlink:title="dsfmt_gv_genrand_open_open">
 <polygon fill="none" stroke="#000000" points="336,-.5 336,-19.5 485,-19.5 485,-.5 336,-.5"/>
 <text text-anchor="middle" x="410.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">dsfmt_gv_genrand_open_open</text>
 </a>
 </g>
 </g>
-<!-- Node59&#45;&gt;Node60 -->
+<!-- Node58&#45;&gt;Node59 -->
 <g id="edge4" class="edge">
-<title>Node59&#45;&gt;Node60</title>
+<title>Node58&#45;&gt;Node59</title>
 <path fill="none" stroke="#191970" d="M300.2573,-10C307.5688,-10 316.3051,-10 325.6156,-10"/>
 <polygon fill="#191970" stroke="#191970" points="325.9038,-13.5001 335.9037,-10 325.9037,-6.5001 325.9038,-13.5001"/>
 </g>
-<!-- Node61 -->
+<!-- Node60 -->
 <g id="node6" class="node">
-<title>Node61</title>
+<title>Node60</title>
 <g id="a_node6"><a xlink:href="dSFMT_8h.html#a147a0a05c969a4cb5d92ce3963b839c2" target="_top" xlink:title="dsfmt_genrand_open_open">
 <polygon fill="none" stroke="#000000" points="521,-.5 521,-19.5 655,-19.5 655,-.5 521,-.5"/>
 <text text-anchor="middle" x="588" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">dsfmt_genrand_open_open</text>
 </a>
 </g>
 </g>
-<!-- Node60&#45;&gt;Node61 -->
+<!-- Node59&#45;&gt;Node60 -->
 <g id="edge5" class="edge">
-<title>Node60&#45;&gt;Node61</title>
+<title>Node59&#45;&gt;Node60</title>
 <path fill="none" stroke="#191970" d="M485.0045,-10C493.4355,-10 502.0427,-10 510.5109,-10"/>
 <polygon fill="#191970" stroke="#191970" points="510.7501,-13.5001 520.75,-10 510.75,-6.5001 510.7501,-13.5001"/>
 </g>
-<!-- Node62 -->
+<!-- Node61 -->
 <g id="node7" class="node">
-<title>Node62</title>
+<title>Node61</title>
 <g id="a_node7"><a xlink:href="dSFMT_8h.html#afccb1e4d75cea7ffe3b45cba53d1e5e0" target="_top" xlink:title="dsfmt_gen_rand_all">
 <polygon fill="none" stroke="#000000" points="691,-.5 691,-19.5 792,-19.5 792,-.5 691,-.5"/>
 <text text-anchor="middle" x="741.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">dsfmt_gen_rand_all</text>
 </a>
 </g>
 </g>
-<!-- Node61&#45;&gt;Node62 -->
+<!-- Node60&#45;&gt;Node61 -->
 <g id="edge6" class="edge">
-<title>Node61&#45;&gt;Node62</title>
+<title>Node60&#45;&gt;Node61</title>
 <path fill="none" stroke="#191970" d="M655.3273,-10C663.8031,-10 672.4345,-10 680.7997,-10"/>
 <polygon fill="#191970" stroke="#191970" points="680.8429,-13.5001 690.8429,-10 680.8428,-6.5001 680.8429,-13.5001"/>
 </g>
-<!-- Node63 -->
+<!-- Node62 -->
 <g id="node8" class="node">
-<title>Node63</title>
+<title>Node62</title>
 <g id="a_node8"><a xlink:href="dSFMT-common_8h.html#a43e33e2235015c9c072bad7dfe1a282c" target="_top" xlink:title="do_recursion">
 <polygon fill="none" stroke="#000000" points="828,-.5 828,-19.5 900,-19.5 900,-.5 828,-.5"/>
 <text text-anchor="middle" x="864" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">do_recursion</text>
 </a>
 </g>
 </g>
-<!-- Node62&#45;&gt;Node63 -->
+<!-- Node61&#45;&gt;Node62 -->
 <g id="edge7" class="edge">
-<title>Node62&#45;&gt;Node63</title>
+<title>Node61&#45;&gt;Node62</title>
 <path fill="none" stroke="#191970" d="M792.0327,-10C800.5603,-10 809.3741,-10 817.7846,-10"/>
 <polygon fill="#191970" stroke="#191970" points="817.7975,-13.5001 827.7974,-10 817.7974,-6.5001 817.7975,-13.5001"/>
 </g>

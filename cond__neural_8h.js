@@ -1,5 +1,7 @@
 var cond__neural_8h =
 [
+    [ "COND_NEURAL", "structCOND__NEURAL.html", "structCOND__NEURAL" ],
+    [ "COND_NEURAL", "cond__neural_8h.html#a909812cd729e55b0b997200e3d561443", null ],
     [ "cond_neural_copy", "cond__neural_8h.html#abc3d119bbbe7310a89740c4e8b65ab1d", null ],
     [ "cond_neural_cover", "cond__neural_8h.html#acf4ef3a5bb6a96c98ff60f794af7fe9b", null ],
     [ "cond_neural_crossover", "cond__neural_8h.html#ab569f44b43fcad10eb0cb0b16d72e6b4", null ],

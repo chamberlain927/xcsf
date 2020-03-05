@@ -8,84 +8,84 @@
  viewBox="0.00 0.00 369.00 142.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 138)">
 <title>rule_neural_cond_load</title>
-<!-- Node73 -->
+<!-- Node70 -->
 <g id="node1" class="node">
-<title>Node73</title>
+<title>Node70</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-57.5 0,-76.5 113,-76.5 113,-57.5 0,-57.5"/>
 <text text-anchor="middle" x="56.5" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">rule_neural_cond_load</text>
 </g>
-<!-- Node74 -->
+<!-- Node71 -->
 <g id="node2" class="node">
-<title>Node74</title>
+<title>Node71</title>
 <g id="a_node2"><a xlink:href="neural_8c.html#a82feaf5070043d33da3e6568ab3bfa63" target="_top" xlink:title="Reads a neural network from a binary file. ">
 <polygon fill="none" stroke="#000000" points="149,-57.5 149,-76.5 215,-76.5 215,-57.5 149,-57.5"/>
 <text text-anchor="middle" x="182" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">neural_load</text>
 </a>
 </g>
 </g>
-<!-- Node73&#45;&gt;Node74 -->
+<!-- Node70&#45;&gt;Node71 -->
 <g id="edge1" class="edge">
-<title>Node73&#45;&gt;Node74</title>
+<title>Node70&#45;&gt;Node71</title>
 <path fill="none" stroke="#191970" d="M113.0087,-67C121.6089,-67 130.367,-67 138.6282,-67"/>
 <polygon fill="#191970" stroke="#191970" points="138.7775,-70.5001 148.7775,-67 138.7774,-63.5001 138.7775,-70.5001"/>
 </g>
-<!-- Node75 -->
+<!-- Node72 -->
 <g id="node3" class="node">
-<title>Node75</title>
+<title>Node72</title>
 <g id="a_node3"><a xlink:href="neural__layer_8h.html#aeda1a21e99df6de17f298b475f7c1ea7" target="_top" xlink:title="Reads the layer from a binary file. ">
 <polygon fill="none" stroke="#000000" points="275.5,-114.5 275.5,-133.5 336.5,-133.5 336.5,-114.5 275.5,-114.5"/>
 <text text-anchor="middle" x="306" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">layer_load</text>
 </a>
 </g>
 </g>
-<!-- Node74&#45;&gt;Node75 -->
+<!-- Node71&#45;&gt;Node72 -->
 <g id="edge2" class="edge">
-<title>Node74&#45;&gt;Node75</title>
+<title>Node71&#45;&gt;Node72</title>
 <path fill="none" stroke="#191970" d="M197.5047,-76.5409C211.2396,-84.7474 232.0028,-96.5617 251,-105 255.7259,-107.0992 260.7608,-109.1185 265.7922,-111.006"/>
 <polygon fill="#191970" stroke="#191970" points="264.787,-114.364 275.3814,-114.4596 267.159,-107.7781 264.787,-114.364"/>
 </g>
-<!-- Node76 -->
+<!-- Node73 -->
 <g id="node4" class="node">
-<title>Node76</title>
+<title>Node73</title>
 <g id="a_node4"><a xlink:href="neural_8c.html#a89a8b1cf58b3c2abe700d9e602e13c8e" target="_top" xlink:title="Initialises an empty neural network. ">
 <polygon fill="none" stroke="#000000" points="275.5,-76.5 275.5,-95.5 336.5,-95.5 336.5,-76.5 275.5,-76.5"/>
 <text text-anchor="middle" x="306" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">neural_init</text>
 </a>
 </g>
 </g>
-<!-- Node74&#45;&gt;Node76 -->
+<!-- Node71&#45;&gt;Node73 -->
 <g id="edge3" class="edge">
-<title>Node74&#45;&gt;Node76</title>
+<title>Node71&#45;&gt;Node73</title>
 <path fill="none" stroke="#191970" d="M215.2297,-72.0917C230.5303,-74.4361 248.8345,-77.2408 264.9849,-79.7154"/>
 <polygon fill="#191970" stroke="#191970" points="264.8191,-83.2308 275.2338,-81.2858 265.8793,-76.3115 264.8191,-83.2308"/>
 </g>
-<!-- Node77 -->
+<!-- Node74 -->
 <g id="node5" class="node">
-<title>Node77</title>
+<title>Node74</title>
 <g id="a_node5"><a xlink:href="neural_8c.html#a6217c5bc4bdba93832cb4d8aa6c64d51" target="_top" xlink:title="Inserts a layer into a neural network. ">
 <polygon fill="none" stroke="#000000" points="257,-38.5 257,-57.5 355,-57.5 355,-38.5 257,-38.5"/>
 <text text-anchor="middle" x="306" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">neural_layer_insert</text>
 </a>
 </g>
 </g>
-<!-- Node74&#45;&gt;Node77 -->
+<!-- Node71&#45;&gt;Node74 -->
 <g id="edge4" class="edge">
-<title>Node74&#45;&gt;Node77</title>
+<title>Node71&#45;&gt;Node74</title>
 <path fill="none" stroke="#191970" d="M215.2297,-61.9083C225.0064,-60.4103 236.0094,-58.7244 246.8933,-57.0567"/>
 <polygon fill="#191970" stroke="#191970" points="247.4621,-60.5105 256.8166,-55.5362 246.4018,-53.5912 247.4621,-60.5105"/>
 </g>
-<!-- Node78 -->
+<!-- Node75 -->
 <g id="node6" class="node">
-<title>Node78</title>
+<title>Node75</title>
 <g id="a_node6"><a xlink:href="neural__layer_8c.html#ab50f23022664bce6dbd72a5b7bcbffe9" target="_top" xlink:title="Sets a neural network layer&#39;s functions to the implementations. ">
 <polygon fill="none" stroke="#000000" points="251,-.5 251,-19.5 361,-19.5 361,-.5 251,-.5"/>
 <text text-anchor="middle" x="306" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">neural_layer_set_vptr</text>
 </a>
 </g>
 </g>
-<!-- Node74&#45;&gt;Node78 -->
+<!-- Node71&#45;&gt;Node75 -->
 <g id="edge5" class="edge">
-<title>Node74&#45;&gt;Node78</title>
+<title>Node71&#45;&gt;Node75</title>
 <path fill="none" stroke="#191970" d="M197.5047,-57.4591C211.2396,-49.2526 232.0028,-37.4383 251,-29 255.7259,-26.9008 260.7608,-24.8815 265.7922,-22.994"/>
 <polygon fill="#191970" stroke="#191970" points="267.159,-26.2219 275.3814,-19.5404 264.787,-19.636 267.159,-26.2219"/>
 </g>

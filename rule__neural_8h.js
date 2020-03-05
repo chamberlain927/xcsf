@@ -1,5 +1,7 @@
 var rule__neural_8h =
 [
+    [ "RULE_NEURAL", "structRULE__NEURAL.html", "structRULE__NEURAL" ],
+    [ "RULE_NEURAL", "rule__neural_8h.html#a6cb94a4d4ef768ced212385bbc0b661a", null ],
     [ "rule_neural_act_compute", "rule__neural_8h.html#af7d6be0e8d8e83293db5cdfae9548f95", null ],
     [ "rule_neural_act_copy", "rule__neural_8h.html#a999b2730981cfc0356ec9f5ce9df858a", null ],
     [ "rule_neural_act_cover", "rule__neural_8h.html#a0e63e5b9fcbd6713955c459418c3d235", null ],
@@ -10,7 +12,6 @@ var rule__neural_8h =
     [ "rule_neural_act_load", "rule__neural_8h.html#a264c4be862a243394055f2d2870942dc", null ],
     [ "rule_neural_act_mutate", "rule__neural_8h.html#a9a20387518ea45ca3e5f38057e5b5187", null ],
     [ "rule_neural_act_print", "rule__neural_8h.html#ac70f4549638957e42f5ee48dd6a469d6", null ],
-    [ "rule_neural_act_rand", "rule__neural_8h.html#a2934e2f61a899b3af7cb1f6e8d8119b7", null ],
     [ "rule_neural_act_save", "rule__neural_8h.html#a57aeeae56f5b95f4f2a91bed494320f2", null ],
     [ "rule_neural_act_update", "rule__neural_8h.html#a5ab49b79789d7ca552026224cc58c378", null ],
     [ "rule_neural_cond_copy", "rule__neural_8h.html#a4685009f6811b5d4ed3ab4eff21475a4", null ],

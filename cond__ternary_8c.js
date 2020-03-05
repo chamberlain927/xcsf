@@ -1,10 +1,8 @@
 var cond__ternary_8c =
 [
-    [ "COND_TERNARY", "structCOND__TERNARY.html", "structCOND__TERNARY" ],
     [ "DONT_CARE", "cond__ternary_8c.html#afdc326bd5037b2251e62f398ab1b48d1", null ],
     [ "N_MU", "cond__ternary_8c.html#a7ad8e86a318f2d3d354e0a4e5bc23b30", null ],
     [ "P_DONTCARE", "cond__ternary_8c.html#a406fe7fd44755ef2832ac805c8a748e6", null ],
-    [ "COND_TERNARY", "cond__ternary_8c.html#af9117d9bc21fa2438a1efe2a3f136073", null ],
     [ "cond_ternary_copy", "cond__ternary_8c.html#ac3436abe171a9697d088588027c2adcb", null ],
     [ "cond_ternary_cover", "cond__ternary_8c.html#a833308faeca987df05318117375cddd7", null ],
     [ "cond_ternary_crossover", "cond__ternary_8c.html#a2439afed49201dac54dd2c8e76151dee", null ],

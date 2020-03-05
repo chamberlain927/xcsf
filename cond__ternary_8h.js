@@ -1,5 +1,7 @@
 var cond__ternary_8h =
 [
+    [ "COND_TERNARY", "structCOND__TERNARY.html", "structCOND__TERNARY" ],
+    [ "COND_TERNARY", "cond__ternary_8h.html#af9117d9bc21fa2438a1efe2a3f136073", null ],
     [ "cond_ternary_copy", "cond__ternary_8h.html#ac3436abe171a9697d088588027c2adcb", null ],
     [ "cond_ternary_cover", "cond__ternary_8h.html#a833308faeca987df05318117375cddd7", null ],
     [ "cond_ternary_crossover", "cond__ternary_8h.html#a2439afed49201dac54dd2c8e76151dee", null ],

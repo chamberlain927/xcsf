@@ -158,12 +158,11 @@ $(document).ready(function(){initNavTree('index.html','');});
 <hr/>
 <h2>Running</h2>
 <h3>Stand-alone</h3>
-<p>After building with CMake option: <code>-DXCSF_PYLIB=OFF</code></p>
 <p>There are currently 3 built-in problem environments: {csv, mp, maze}.</p>
 <p>Example real-multiplexer classification:</p>
-<div class="fragment"><div class="line">$ ./xcsf/xcsf mp 6</div></div><!-- fragment --><p>Example discrete mazes:</p>
-<div class="fragment"><div class="line">$ ./xcsf/xcsf maze ../env/maze/maze4.txt</div></div><!-- fragment --><p>Example regression: learning <code>env/csv/sine_3var_train.csv</code> and testing <code>env/csv/sine_3var_test.csv</code></p>
-<div class="fragment"><div class="line">$ ./xcsf/xcsf csv ../env/csv/sine_3var</div></div><!-- fragment --><h3>Python library</h3>
+<div class="fragment"><div class="line">$ ./xcsf/main mp 6</div></div><!-- fragment --><p>Example discrete mazes:</p>
+<div class="fragment"><div class="line">$ ./xcsf/main maze ../env/maze/maze4.txt</div></div><!-- fragment --><p>Example regression: learning <code>env/csv/sine_3var_train.csv</code> and testing <code>env/csv/sine_3var_test.csv</code></p>
+<div class="fragment"><div class="line">$ ./xcsf/main csv ../env/csv/sine_3var</div></div><!-- fragment --><h3>Python library</h3>
 <p>After building with CMake option: <code>-DXCSF_PYLIB=ON</code></p>
 <p>Supervised regression learning example:</p>
 <div class="fragment"><div class="line">$ python example_regression.py</div></div><!-- fragment --><p>Single-step reinforcement learning examples:</p>

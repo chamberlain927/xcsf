@@ -10,7 +10,6 @@ var structActVtbl =
     [ "act_impl_load", "structActVtbl.html#ae0bcfd27f443578b2fab4855160787a9", null ],
     [ "act_impl_mutate", "structActVtbl.html#ae7586aded51b61ba674b448cb368a738", null ],
     [ "act_impl_print", "structActVtbl.html#a87de876d19fdb8d59f889d77e41b5177", null ],
-    [ "act_impl_rand", "structActVtbl.html#ace8ac628b7d1f65e3bb6af52a40f1f96", null ],
     [ "act_impl_save", "structActVtbl.html#ab268ba33ce82674fbe7d3485181e037f", null ],
     [ "act_impl_update", "structActVtbl.html#ae487bc57ad4f576726732401aaf9d97d", null ]
 ];
