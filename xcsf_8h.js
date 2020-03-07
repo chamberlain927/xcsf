@@ -27,12 +27,9 @@ var xcsf_8h =
     [ "INPUT", "xcsf_8h.html#adcbd95e7eb6c03b3a92c33f8123402f4", null ],
     [ "SET", "xcsf_8h.html#ae0d9661f90519e450c08557d6dcec682", null ],
     [ "XCSF", "xcsf_8h.html#a88fa7587df88c4f1ccfd8046f69f02e8", null ],
-    [ "xcsf_fit", "xcsf_8h.html#aee465caea59599a71fc69528598156cb", null ],
     [ "xcsf_init", "xcsf_8h.html#ac2cf4a27bb10f866b2e393a2804c8c33", null ],
     [ "xcsf_load", "xcsf_8h.html#af419720749752a7b5596f9def871a71c", null ],
-    [ "xcsf_predict", "xcsf_8h.html#af128a7da769acabe2e841e8d06749b0b", null ],
     [ "xcsf_print_pop", "xcsf_8h.html#a84d6ba23771186ab252b9120f87f9eac", null ],
     [ "xcsf_save", "xcsf_8h.html#a2367432a0df930809988c3a4989ed3ae", null ],
-    [ "xcsf_score", "xcsf_8h.html#a348b8cd321211c377fb1deedc62c7c67", null ],
     [ "xcsf_version", "xcsf_8h.html#a2f2f713fc047a94b2888051933d0b0bd", null ]
 ];

@@ -91,6 +91,8 @@ var files =
     [ "xcs_multi_step.h", "xcs__multi__step_8h.html", "xcs__multi__step_8h" ],
     [ "xcs_single_step.c", "xcs__single__step_8c.html", "xcs__single__step_8c" ],
     [ "xcs_single_step.h", "xcs__single__step_8h.html", "xcs__single__step_8h" ],
+    [ "xcs_supervised.c", "xcs__supervised_8c.html", "xcs__supervised_8c" ],
+    [ "xcs_supervised.h", "xcs__supervised_8h.html", "xcs__supervised_8h" ],
     [ "xcsf.c", "xcsf_8c.html", "xcsf_8c" ],
     [ "xcsf.h", "xcsf_8h.html", "xcsf_8h" ]
 ];

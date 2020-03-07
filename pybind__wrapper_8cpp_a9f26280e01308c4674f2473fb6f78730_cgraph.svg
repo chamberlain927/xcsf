@@ -2426,17 +2426,17 @@
 <!-- Node16 -->
 <g id="node7" class="node">
 <title>Node16</title>
-<g id="a_node7"><a xlink:href="xcsf_8c.html#aee465caea59599a71fc69528598156cb" target="_top" xlink:title="Executes MAX_TRIALS number of XCSF learning iterations using the training data and test iterations us...">
-<polygon fill="none" stroke="#000000" points="362.5,-6326.5 362.5,-6345.5 411.5,-6345.5 411.5,-6326.5 362.5,-6326.5"/>
-<text text-anchor="middle" x="387" y="-6333.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcsf_fit</text>
+<g id="a_node7"><a xlink:href="xcs__supervised_8c.html#aa4daa45596a8cf402d58d029f780db3a" target="_top" xlink:title="Executes MAX_TRIALS number of XCSF learning iterations using the training data and test iterations us...">
+<polygon fill="none" stroke="#000000" points="338,-6326.5 338,-6345.5 436,-6345.5 436,-6326.5 338,-6326.5"/>
+<text text-anchor="middle" x="387" y="-6333.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcs_supervised_fit</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node16 -->
 <g id="edge6" class="edge">
 <title>Node5&#45;&gt;Node16</title>
-<path fill="none" stroke="#191970" d="M237.8738,-6279.597C268.2435,-6291.0835 319.2199,-6310.364 352.9825,-6323.1338"/>
-<polygon fill="#191970" stroke="#191970" points="351.8497,-6326.4473 362.4413,-6326.7113 354.3261,-6319.8999 351.8497,-6326.4473"/>
+<path fill="none" stroke="#191970" d="M237.8738,-6279.597C268.0714,-6291.0184 318.6429,-6310.1457 352.407,-6322.9161"/>
+<polygon fill="#191970" stroke="#191970" points="351.2871,-6326.2345 361.8787,-6326.4985 353.7635,-6319.6871 351.2871,-6326.2345"/>
 </g>
 <!-- Node7 -->
 <g id="node4" class="node">
@@ -2486,9 +2486,9 @@
 <!-- Node17 -->
 <g id="node8" class="node">
 <title>Node17</title>
-<g id="a_node8"><a xlink:href="xcsf_8c.html#a1200756651c76d440d235a8a7b268778" target="_top" xlink:title="Selects a data sample for training or testing. ">
-<polygon fill="none" stroke="#ff0000" points="497.5,-6393.5 497.5,-6412.5 601.5,-6412.5 601.5,-6393.5 497.5,-6393.5"/>
-<text text-anchor="middle" x="549.5" y="-6400.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcsf_select_sample</text>
+<g id="a_node8"><a xlink:href="xcs__supervised_8c.html#af818cee7b23082df24ea2d6a9e73708a" target="_top" xlink:title="Selects a data sample for training or testing. ">
+<polygon fill="none" stroke="#ff0000" points="488.5,-6393.5 488.5,-6412.5 610.5,-6412.5 610.5,-6393.5 488.5,-6393.5"/>
+<text text-anchor="middle" x="549.5" y="-6400.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcs_supervised_sample</text>
 </a>
 </g>
 </g>
@@ -2501,9 +2501,9 @@
 <!-- Node25 -->
 <g id="node9" class="node">
 <title>Node25</title>
-<g id="a_node9"><a xlink:href="xcsf_8c.html#af5fb604e81235fdcb2ed8925d9291f59" target="_top" xlink:title="Executes a single XCSF trial. ">
-<polygon fill="none" stroke="#ff0000" points="521.5,-6165.5 521.5,-6184.5 577.5,-6184.5 577.5,-6165.5 521.5,-6165.5"/>
-<text text-anchor="middle" x="549.5" y="-6172.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcsf_trial</text>
+<g id="a_node9"><a xlink:href="xcs__supervised_8c.html#ad48f3f1110cd2295710b91192dc80b31" target="_top" xlink:title="Executes a single XCSF trial. ">
+<polygon fill="none" stroke="#ff0000" points="496.5,-6165.5 496.5,-6184.5 602.5,-6184.5 602.5,-6165.5 496.5,-6165.5"/>
+<text text-anchor="middle" x="549.5" y="-6172.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcs_supervised_trial</text>
 </a>
 </g>
 </g>
@@ -2525,8 +2525,8 @@
 <!-- Node16&#45;&gt;Node97 -->
 <g id="edge11" class="edge">
 <title>Node16&#45;&gt;Node97</title>
-<path fill="none" stroke="#191970" d="M411.6803,-6340.4045C438.0042,-6345.1023 480.0554,-6352.6068 510.7925,-6358.0922"/>
-<polygon fill="#191970" stroke="#191970" points="510.2842,-6361.5567 520.7436,-6359.8681 511.514,-6354.6656 510.2842,-6361.5567"/>
+<path fill="none" stroke="#191970" d="M436.1963,-6344.7797C460.0665,-6349.0396 488.3325,-6354.084 510.6608,-6358.0687"/>
+<polygon fill="#191970" stroke="#191970" points="510.3221,-6361.5635 520.7815,-6359.8749 511.552,-6354.6724 510.3221,-6361.5635"/>
 </g>
 <!-- Node26 -->
 <g id="node10" class="node">
@@ -2540,8 +2540,8 @@
 <!-- Node25&#45;&gt;Node26 -->
 <g id="edge9" class="edge">
 <title>Node25&#45;&gt;Node26</title>
-<path fill="none" stroke="#191970" d="M577.6946,-6167.4015C599.2126,-6161.6023 629.0745,-6153.5544 652.6688,-6147.1956"/>
-<polygon fill="#191970" stroke="#191970" points="653.6096,-6150.5671 662.3543,-6144.5854 651.788,-6143.8082 653.6096,-6150.5671"/>
+<path fill="none" stroke="#191970" d="M585.0803,-6165.411C605.6925,-6159.8559 631.6327,-6152.8649 652.6231,-6147.2079"/>
+<polygon fill="#191970" stroke="#191970" points="653.7402,-6150.5319 662.4849,-6144.5502 651.9186,-6143.773 653.7402,-6150.5319"/>
 </g>
 <!-- Node95 -->
 <g id="node11" class="node">
@@ -2555,8 +2555,8 @@
 <!-- Node25&#45;&gt;Node95 -->
 <g id="edge10" class="edge">
 <title>Node25&#45;&gt;Node95</title>
-<path fill="none" stroke="#191970" d="M577.6946,-6175C599.2565,-6175 629.1965,-6175 652.8133,-6175"/>
-<polygon fill="#191970" stroke="#191970" points="652.8348,-6178.5001 662.8348,-6175 652.8348,-6171.5001 652.8348,-6178.5001"/>
+<path fill="none" stroke="#191970" d="M602.8061,-6175C619.4073,-6175 637.3632,-6175 652.6775,-6175"/>
+<polygon fill="#191970" stroke="#191970" points="652.8086,-6178.5001 662.8085,-6175 652.8085,-6171.5001 652.8086,-6178.5001"/>
 </g>
 <!-- Node145 -->
 <g id="node60" class="node">
@@ -2795,23 +2795,23 @@
 <!-- Node201 -->
 <g id="node108" class="node">
 <title>Node201</title>
-<g id="a_node108"><a xlink:href="xcsf_8c.html#af128a7da769acabe2e841e8d06749b0b" target="_top" xlink:title="Calculates the XCSF predictions for the provided input. ">
-<polygon fill="none" stroke="#000000" points="352,-6165.5 352,-6184.5 422,-6184.5 422,-6165.5 352,-6165.5"/>
-<text text-anchor="middle" x="387" y="-6172.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcsf_predict</text>
+<g id="a_node108"><a xlink:href="xcs__supervised_8c.html#a11b5fbece61ea9da003cda48fbf7d728" target="_top" xlink:title="Calculates the XCSF predictions for the provided input. ">
+<polygon fill="none" stroke="#000000" points="327.5,-6165.5 327.5,-6184.5 446.5,-6184.5 446.5,-6165.5 327.5,-6165.5"/>
+<text text-anchor="middle" x="387" y="-6172.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcs_supervised_predict</text>
 </a>
 </g>
 </g>
 <!-- Node200&#45;&gt;Node201 -->
 <g id="edge111" class="edge">
 <title>Node200&#45;&gt;Node201</title>
-<path fill="none" stroke="#191970" d="M249.0809,-6175C276.0505,-6175 312.9046,-6175 341.7314,-6175"/>
-<polygon fill="#191970" stroke="#191970" points="341.9554,-6178.5001 351.9554,-6175 341.9553,-6171.5001 341.9554,-6178.5001"/>
+<path fill="none" stroke="#191970" d="M249.0809,-6175C268.8428,-6175 293.9118,-6175 317.241,-6175"/>
+<polygon fill="#191970" stroke="#191970" points="317.4608,-6178.5001 327.4608,-6175 317.4607,-6171.5001 317.4608,-6178.5001"/>
 </g>
 <!-- Node201&#45;&gt;Node25 -->
 <g id="edge112" class="edge">
 <title>Node201&#45;&gt;Node25</title>
-<path fill="none" stroke="#191970" d="M422.2601,-6175C448.4652,-6175 484.1871,-6175 511.1111,-6175"/>
-<polygon fill="#191970" stroke="#191970" points="511.3252,-6178.5001 521.3251,-6175 511.3251,-6171.5001 511.3252,-6178.5001"/>
+<path fill="none" stroke="#191970" d="M446.5863,-6175C459.4516,-6175 473.0987,-6175 486.1038,-6175"/>
+<polygon fill="#191970" stroke="#191970" points="486.3688,-6178.5001 496.3687,-6175 486.3687,-6171.5001 486.3688,-6178.5001"/>
 </g>
 <!-- Node203 -->
 <g id="node110" class="node">
@@ -2966,23 +2966,23 @@
 <!-- Node238 -->
 <g id="node124" class="node">
 <title>Node238</title>
-<g id="a_node124"><a xlink:href="xcsf_8c.html#a348b8cd321211c377fb1deedc62c7c67" target="_top" xlink:title="Calculates the XCSF error for the input data. ">
-<polygon fill="none" stroke="#000000" points="354.5,-6127.5 354.5,-6146.5 419.5,-6146.5 419.5,-6127.5 354.5,-6127.5"/>
-<text text-anchor="middle" x="387" y="-6134.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcsf_score</text>
+<g id="a_node124"><a xlink:href="xcs__supervised_8c.html#a19dea220a72a3646e490ff13ea7ed5fa" target="_top" xlink:title="Calculates the XCSF error for the input data. ">
+<polygon fill="none" stroke="#000000" points="330,-6127.5 330,-6146.5 444,-6146.5 444,-6127.5 330,-6127.5"/>
+<text text-anchor="middle" x="387" y="-6134.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xcs_supervised_score</text>
 </a>
 </g>
 </g>
 <!-- Node237&#45;&gt;Node238 -->
 <g id="edge128" class="edge">
 <title>Node237&#45;&gt;Node238</title>
-<path fill="none" stroke="#191970" d="M246.5596,-6137C274.4189,-6137 313.9782,-6137 344.0156,-6137"/>
-<polygon fill="#191970" stroke="#191970" points="344.2083,-6140.5001 354.2083,-6137 344.2083,-6133.5001 344.2083,-6140.5001"/>
+<path fill="none" stroke="#191970" d="M246.5596,-6137C267.3071,-6137 294.5434,-6137 319.5035,-6137"/>
+<polygon fill="#191970" stroke="#191970" points="319.6677,-6140.5001 329.6677,-6137 319.6677,-6133.5001 319.6677,-6140.5001"/>
 </g>
 <!-- Node238&#45;&gt;Node25 -->
 <g id="edge129" class="edge">
 <title>Node238&#45;&gt;Node25</title>
-<path fill="none" stroke="#191970" d="M419.8843,-6144.6899C446.3979,-6150.89 483.7148,-6159.6164 511.5037,-6166.1147"/>
-<polygon fill="#191970" stroke="#191970" points="510.7387,-6169.5302 521.273,-6168.3992 512.3327,-6162.7141 510.7387,-6169.5302"/>
+<path fill="none" stroke="#191970" d="M428.0056,-6146.589C449.5458,-6151.6261 476.1347,-6157.8438 498.9414,-6163.1771"/>
+<polygon fill="#191970" stroke="#191970" points="498.255,-6166.6109 508.7893,-6165.4799 499.8489,-6159.7948 498.255,-6166.6109"/>
 </g>
 <!-- Node267&#45;&gt;Node188 -->
 <g id="edge159" class="edge">
