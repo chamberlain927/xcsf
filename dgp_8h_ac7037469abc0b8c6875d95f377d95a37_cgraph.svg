@@ -8,69 +8,69 @@
  viewBox="0.00 0.00 418.00 66.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 62)">
 <title>graph_update</title>
-<!-- Node86 -->
+<!-- Node74 -->
 <g id="node1" class="node">
-<title>Node86</title>
+<title>Node74</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-19.5 0,-38.5 75,-38.5 75,-19.5 0,-19.5"/>
 <text text-anchor="middle" x="37.5" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">graph_update</text>
 </g>
-<!-- Node87 -->
+<!-- Node75 -->
 <g id="node2" class="node">
-<title>Node87</title>
+<title>Node75</title>
 <g id="a_node2"><a xlink:href="dgp_8c.html#acecb4b6b54630b71479a69f5a568899e" target="_top" xlink:title="Resets the states to their initial state. ">
 <polygon fill="none" stroke="#000000" points="130.5,-38.5 130.5,-57.5 198.5,-57.5 198.5,-38.5 130.5,-38.5"/>
 <text text-anchor="middle" x="164.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">graph_reset</text>
 </a>
 </g>
 </g>
-<!-- Node86&#45;&gt;Node87 -->
+<!-- Node74&#45;&gt;Node75 -->
 <g id="edge1" class="edge">
-<title>Node86&#45;&gt;Node87</title>
+<title>Node74&#45;&gt;Node75</title>
 <path fill="none" stroke="#191970" d="M75.2603,-34.6492C89.2635,-36.7441 105.2768,-39.1398 119.8373,-41.3182"/>
 <polygon fill="#191970" stroke="#191970" points="119.7255,-44.8403 130.1333,-42.8585 120.7612,-37.9174 119.7255,-44.8403"/>
 </g>
-<!-- Node88 -->
+<!-- Node76 -->
 <g id="node3" class="node">
-<title>Node88</title>
+<title>Node76</title>
 <g id="a_node3"><a xlink:href="dgp_8c.html#afab08701aa17da0be663bae23888cd75" target="_top" xlink:title="Performs a synchronous update. ">
 <polygon fill="none" stroke="#000000" points="111,-.5 111,-19.5 218,-19.5 218,-.5 111,-.5"/>
 <text text-anchor="middle" x="164.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">synchronous_update</text>
 </a>
 </g>
 </g>
-<!-- Node86&#45;&gt;Node88 -->
+<!-- Node74&#45;&gt;Node76 -->
 <g id="edge2" class="edge">
-<title>Node86&#45;&gt;Node88</title>
+<title>Node74&#45;&gt;Node76</title>
 <path fill="none" stroke="#191970" d="M75.2603,-23.3508C83.2484,-22.1557 91.8907,-20.8628 100.5442,-19.5682"/>
 <polygon fill="#191970" stroke="#191970" points="101.2973,-22.9946 110.6693,-18.0534 100.2615,-16.0716 101.2973,-22.9946"/>
 </g>
-<!-- Node89 -->
+<!-- Node77 -->
 <g id="node4" class="node">
-<title>Node89</title>
+<title>Node77</title>
 <g id="a_node4"><a xlink:href="dgp_8c.html#a36cd860ca5cce8d9b0ea53cf40b8bfba" target="_top" xlink:title="Returns the result from applying a specified activation function. ">
 <polygon fill="none" stroke="#000000" points="254,-.5 254,-19.5 331,-19.5 331,-.5 254,-.5"/>
 <text text-anchor="middle" x="292.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">node_activate</text>
 </a>
 </g>
 </g>
-<!-- Node88&#45;&gt;Node89 -->
+<!-- Node76&#45;&gt;Node77 -->
 <g id="edge3" class="edge">
-<title>Node88&#45;&gt;Node89</title>
+<title>Node76&#45;&gt;Node77</title>
 <path fill="none" stroke="#191970" d="M218.0419,-10C226.6137,-10 235.4429,-10 243.8916,-10"/>
 <polygon fill="#191970" stroke="#191970" points="243.9656,-13.5001 253.9656,-10 243.9656,-6.5001 243.9656,-13.5001"/>
 </g>
-<!-- Node90 -->
+<!-- Node78 -->
 <g id="node5" class="node">
-<title>Node90</title>
+<title>Node78</title>
 <g id="a_node5"><a xlink:href="utils_8h.html#ae1e666b8d7b3afa5b96698d6a0b8b30f" target="_top" xlink:title="Returns a float clamped within the specified range. ">
 <polygon fill="none" stroke="#000000" points="367,-.5 367,-19.5 410,-19.5 410,-.5 367,-.5"/>
 <text text-anchor="middle" x="388.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">clamp</text>
 </a>
 </g>
 </g>
-<!-- Node89&#45;&gt;Node90 -->
+<!-- Node77&#45;&gt;Node78 -->
 <g id="edge4" class="edge">
-<title>Node89&#45;&gt;Node90</title>
+<title>Node77&#45;&gt;Node78</title>
 <path fill="none" stroke="#191970" d="M331.2702,-10C339.7369,-10 348.6019,-10 356.7569,-10"/>
 <polygon fill="#191970" stroke="#191970" points="356.9754,-13.5001 366.9753,-10 356.9753,-6.5001 356.9754,-13.5001"/>
 </g>

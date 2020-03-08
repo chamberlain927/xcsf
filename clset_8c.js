@@ -2,9 +2,9 @@ var clset_8c =
 [
     [ "MAX_COVER", "clset_8c.html#a9cca6f51165de2b97647cb83f2128ddb", null ],
     [ "clset_action", "clset_8c.html#a619c29b16e98c286a1eb5c749b2320ba", null ],
-    [ "clset_action_covered", "clset_8c.html#add73fc8e93b326673bec83ae4b93fae7", null ],
+    [ "clset_action_coverage", "clset_8c.html#a6c7a5e6cb8b06b4504ef519cb37fb485", null ],
     [ "clset_add", "clset_8c.html#ae702f77855a5f1c42a8177f197706aee", null ],
-    [ "clset_cover", "clset_8c.html#a60fd3363a0a370e8b5a18671861be461", null ],
+    [ "clset_cover", "clset_8c.html#a500ed0d64b9682041d347af15ec54adf", null ],
     [ "clset_free", "clset_8c.html#ac1442f0363f0e56173c3868c10b54eb8", null ],
     [ "clset_init", "clset_8c.html#a23c23122a8e68a161d3511b995591075", null ],
     [ "clset_kill", "clset_8c.html#aad012238caff12fcd827b1e282c9a4ef", null ],

@@ -17,7 +17,6 @@ var searchData=
   ['params_5fmultistep',['params_multistep',['../config_8c.html#ae532cfa2a746dd8a5b808dac93293ef6',1,'config.c']]],
   ['params_5fsubsumption',['params_subsumption',['../config_8c.html#a9cf4e54a8e3a754ed9656e7ccd48e64f',1,'config.c']]],
   ['perf_5fprint',['perf_print',['../perf_8c.html#a2457f127a3d536558d3bbd2d3bd0686d',1,'perf_print(const XCSF *xcsf, double *error, double *terror, int trial):&#160;perf.c'],['../perf_8h.html#a2457f127a3d536558d3bbd2d3bd0686d',1,'perf_print(const XCSF *xcsf, double *error, double *terror, int trial):&#160;perf.c']]],
-  ['period_5fcertification',['period_certification',['../dSFMT_8c.html#a8c0334eb83e12d16f2cfe48929114e44',1,'dSFMT.c']]],
   ['pred_5fcompute',['pred_compute',['../prediction_8h.html#a547a2b703a8423b25b7011085a1ab904',1,'prediction.h']]],
   ['pred_5fconstant_5fcompute',['pred_constant_compute',['../pred__constant_8c.html#a8ebcec08a6aecbfca8648cba5574bc94',1,'pred_constant_compute(const XCSF *xcsf, const CL *c, const double *x):&#160;pred_constant.c'],['../pred__constant_8h.html#a8ebcec08a6aecbfca8648cba5574bc94',1,'pred_constant_compute(const XCSF *xcsf, const CL *c, const double *x):&#160;pred_constant.c']]],
   ['pred_5fconstant_5fcopy',['pred_constant_copy',['../pred__constant_8c.html#a42f5b131d4124e52fe20c8e1e71d1859',1,'pred_constant_copy(const XCSF *xcsf, CL *dest, const CL *src):&#160;pred_constant.c'],['../pred__constant_8h.html#a42f5b131d4124e52fe20c8e1e71d1859',1,'pred_constant_copy(const XCSF *xcsf, CL *dest, const CL *src):&#160;pred_constant.c']]],

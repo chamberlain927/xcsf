@@ -8,210 +8,210 @@
  viewBox="0.00 0.00 688.00 294.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 290)">
 <title>config_read</title>
-<!-- Node120 -->
+<!-- Node116 -->
 <g id="node1" class="node">
-<title>Node120</title>
+<title>Node116</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-114.5 0,-133.5 67,-133.5 67,-114.5 0,-114.5"/>
 <text text-anchor="middle" x="33.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">config_read</text>
 </g>
-<!-- Node121 -->
+<!-- Node117 -->
 <g id="node2" class="node">
-<title>Node121</title>
+<title>Node117</title>
 <g id="a_node2"><a xlink:href="config_8c.html#a7a16c67bd1965c9f62f75fc88e2abe98" target="_top" xlink:title="Parses a line of the config file and adds to the list. ">
 <polygon fill="none" stroke="#000000" points="103,-133.5 103,-152.5 186,-152.5 186,-133.5 103,-133.5"/>
 <text text-anchor="middle" x="144.5" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">config_process</text>
 </a>
 </g>
 </g>
-<!-- Node120&#45;&gt;Node121 -->
+<!-- Node116&#45;&gt;Node117 -->
 <g id="edge1" class="edge">
-<title>Node120&#45;&gt;Node121</title>
+<title>Node116&#45;&gt;Node117</title>
 <path fill="none" stroke="#191970" d="M67.1049,-129.7522C75.1767,-131.1339 83.9844,-132.6415 92.6716,-134.1285"/>
 <polygon fill="#191970" stroke="#191970" points="92.3158,-137.6184 102.763,-135.8558 93.4969,-130.7187 92.3158,-137.6184"/>
 </g>
-<!-- Node133 -->
+<!-- Node129 -->
 <g id="node14" class="node">
-<title>Node133</title>
+<title>Node129</title>
 <g id="a_node14"><a xlink:href="config_8c.html#a0c81724e9bdc867a3dd41bafab67cbd3" target="_top" xlink:title="Removes tabs/spaces/lf/cr. ">
 <polygon fill="none" stroke="#000000" points="112,-95.5 112,-114.5 177,-114.5 177,-95.5 112,-95.5"/>
 <text text-anchor="middle" x="144.5" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">config_trim</text>
 </a>
 </g>
 </g>
-<!-- Node120&#45;&gt;Node133 -->
+<!-- Node116&#45;&gt;Node129 -->
 <g id="edge14" class="edge">
-<title>Node120&#45;&gt;Node133</title>
+<title>Node116&#45;&gt;Node129</title>
 <path fill="none" stroke="#191970" d="M67.1049,-118.2478C78.0611,-116.3724 90.373,-114.265 101.8992,-112.292"/>
 <polygon fill="#191970" stroke="#191970" points="102.506,-115.7392 111.7721,-110.6021 101.3249,-108.8395 102.506,-115.7392"/>
 </g>
-<!-- Node122 -->
+<!-- Node118 -->
 <g id="node3" class="node">
-<title>Node122</title>
+<title>Node118</title>
 <g id="a_node3"><a xlink:href="config_8c.html#ae0ef249c19382a8125003e1c53221767" target="_top" xlink:title="Adds a parameter to the list. ">
 <polygon fill="none" stroke="#000000" points="222,-133.5 222,-152.5 314,-152.5 314,-133.5 222,-133.5"/>
 <text text-anchor="middle" x="268" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">config_newnvpair</text>
 </a>
 </g>
 </g>
-<!-- Node121&#45;&gt;Node122 -->
+<!-- Node117&#45;&gt;Node118 -->
 <g id="edge2" class="edge">
-<title>Node121&#45;&gt;Node122</title>
+<title>Node117&#45;&gt;Node118</title>
 <path fill="none" stroke="#191970" d="M186.3115,-143C194.56,-143 203.3403,-143 211.9703,-143"/>
 <polygon fill="#191970" stroke="#191970" points="211.9912,-146.5001 221.9912,-143 211.9912,-139.5001 211.9912,-146.5001"/>
 </g>
-<!-- Node123 -->
+<!-- Node119 -->
 <g id="node4" class="node">
-<title>Node123</title>
+<title>Node119</title>
 <g id="a_node4"><a xlink:href="config_8c.html#afff38fecf537b6cbe65c3d26201a71e9" target="_top" xlink:title="Sets specified parameter. ">
 <polygon fill="none" stroke="#000000" points="350,-133.5 350,-152.5 415,-152.5 415,-133.5 350,-133.5"/>
 <text text-anchor="middle" x="382.5" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">param_add</text>
 </a>
 </g>
 </g>
-<!-- Node122&#45;&gt;Node123 -->
+<!-- Node118&#45;&gt;Node119 -->
 <g id="edge3" class="edge">
-<title>Node122&#45;&gt;Node123</title>
+<title>Node118&#45;&gt;Node119</title>
 <path fill="none" stroke="#191970" d="M314.2415,-143C322.6204,-143 331.3263,-143 339.6042,-143"/>
 <polygon fill="#191970" stroke="#191970" points="339.8039,-146.5001 349.8038,-143 339.8038,-139.5001 339.8039,-146.5001"/>
 </g>
-<!-- Node124 -->
+<!-- Node120 -->
 <g id="node5" class="node">
-<title>Node124</title>
+<title>Node120</title>
 <g id="a_node5"><a xlink:href="config_8c.html#a4aae2f8189d834caecc5a3da57b765bf" target="_top" xlink:title="Sets general XCSF parameters. ">
 <polygon fill="none" stroke="#000000" points="463,-266.5 463,-285.5 549,-285.5 549,-266.5 463,-266.5"/>
 <text text-anchor="middle" x="506" y="-273.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">params_general</text>
 </a>
 </g>
 </g>
-<!-- Node123&#45;&gt;Node124 -->
+<!-- Node119&#45;&gt;Node120 -->
 <g id="edge4" class="edge">
-<title>Node123&#45;&gt;Node124</title>
+<title>Node119&#45;&gt;Node120</title>
 <path fill="none" stroke="#191970" d="M385.7496,-152.8041C393.4961,-174.6976 415.1262,-227.9204 451,-257 453.244,-258.819 455.6728,-260.4687 458.2173,-261.9642"/>
 <polygon fill="#191970" stroke="#191970" points="456.7051,-265.1213 467.2129,-266.4768 459.8439,-258.8644 456.7051,-265.1213"/>
 </g>
-<!-- Node125 -->
+<!-- Node121 -->
 <g id="node6" class="node">
-<title>Node125</title>
+<title>Node121</title>
 <g id="a_node6"><a xlink:href="config_8c.html#ae532cfa2a746dd8a5b808dac93293ef6" target="_top" xlink:title="Sets multistep experiment parameters. ">
 <polygon fill="none" stroke="#000000" points="459,-228.5 459,-247.5 553,-247.5 553,-228.5 459,-228.5"/>
 <text text-anchor="middle" x="506" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">params_multistep</text>
 </a>
 </g>
 </g>
-<!-- Node123&#45;&gt;Node125 -->
+<!-- Node119&#45;&gt;Node121 -->
 <g id="edge5" class="edge">
-<title>Node123&#45;&gt;Node125</title>
+<title>Node119&#45;&gt;Node121</title>
 <path fill="none" stroke="#191970" d="M388.7107,-152.5901C399.5205,-168.5609 423.3057,-200.6595 451,-219 453.9532,-220.9558 457.1292,-222.7322 460.4116,-224.3418"/>
 <polygon fill="#191970" stroke="#191970" points="459.2808,-227.6667 469.8469,-228.4463 462.0732,-221.2477 459.2808,-227.6667"/>
 </g>
-<!-- Node126 -->
+<!-- Node122 -->
 <g id="node7" class="node">
-<title>Node126</title>
+<title>Node122</title>
 <g id="a_node7"><a xlink:href="config_8c.html#a9cf4e54a8e3a754ed9656e7ccd48e64f" target="_top" xlink:title="Sets subsumption parameters. ">
 <polygon fill="none" stroke="#000000" points="451,-190.5 451,-209.5 561,-209.5 561,-190.5 451,-190.5"/>
 <text text-anchor="middle" x="506" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">params_subsumption</text>
 </a>
 </g>
 </g>
-<!-- Node123&#45;&gt;Node126 -->
+<!-- Node119&#45;&gt;Node122 -->
 <g id="edge6" class="edge">
-<title>Node123&#45;&gt;Node126</title>
+<title>Node119&#45;&gt;Node122</title>
 <path fill="none" stroke="#191970" d="M397.8829,-152.5497C411.5121,-160.7618 432.1213,-172.5795 451,-181 455.7226,-183.1065 460.7556,-185.1302 465.786,-187.02"/>
 <polygon fill="#191970" stroke="#191970" points="464.7798,-190.3777 475.3742,-190.4758 467.1534,-183.7924 464.7798,-190.3777"/>
 </g>
-<!-- Node127 -->
+<!-- Node123 -->
 <g id="node8" class="node">
-<title>Node127</title>
+<title>Node123</title>
 <g id="a_node8"><a xlink:href="config_8c.html#a4f01f41dc856a626b8f9ad3481351e9a" target="_top" xlink:title="Sets evolutionary algorithm parameters. ">
 <polygon fill="none" stroke="#000000" points="473.5,-152.5 473.5,-171.5 538.5,-171.5 538.5,-152.5 473.5,-152.5"/>
 <text text-anchor="middle" x="506" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">params_ea</text>
 </a>
 </g>
 </g>
-<!-- Node123&#45;&gt;Node127 -->
+<!-- Node119&#45;&gt;Node123 -->
 <g id="edge7" class="edge">
-<title>Node123&#45;&gt;Node127</title>
+<title>Node119&#45;&gt;Node123</title>
 <path fill="none" stroke="#191970" d="M415.2715,-148.0418C429.9264,-150.2964 447.3974,-152.9842 463.0775,-155.3965"/>
 <polygon fill="#191970" stroke="#191970" points="462.6594,-158.8733 473.0754,-156.9347 463.7239,-151.9547 462.6594,-158.8733"/>
 </g>
-<!-- Node128 -->
+<!-- Node124 -->
 <g id="node9" class="node">
-<title>Node128</title>
+<title>Node124</title>
 <g id="a_node9"><a xlink:href="config_8c.html#ab977df8efbefd43ac742766dc163b553" target="_top" xlink:title="Sets general classifier parameters. ">
 <polygon fill="none" stroke="#000000" points="457,-114.5 457,-133.5 555,-133.5 555,-114.5 457,-114.5"/>
 <text text-anchor="middle" x="506" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">params_cl_general</text>
 </a>
 </g>
 </g>
-<!-- Node123&#45;&gt;Node128 -->
+<!-- Node119&#45;&gt;Node124 -->
 <g id="edge8" class="edge">
-<title>Node123&#45;&gt;Node128</title>
+<title>Node119&#45;&gt;Node124</title>
 <path fill="none" stroke="#191970" d="M415.2715,-137.9582C425.0101,-136.46 435.9924,-134.7704 446.8664,-133.0975"/>
 <polygon fill="#191970" stroke="#191970" points="447.4319,-136.5517 456.7834,-131.5718 446.3674,-129.6331 447.4319,-136.5517"/>
 </g>
-<!-- Node129 -->
+<!-- Node125 -->
 <g id="node10" class="node">
-<title>Node129</title>
+<title>Node125</title>
 <g id="a_node10"><a xlink:href="config_8c.html#ab31e8dc9f7f2da0ab2b3a96ff16c13c3" target="_top" xlink:title="Sets classifier condition parameters. ">
 <polygon fill="none" stroke="#000000" points="453,-76.5 453,-95.5 559,-95.5 559,-76.5 453,-76.5"/>
 <text text-anchor="middle" x="506" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">params_cl_condition</text>
 </a>
 </g>
 </g>
-<!-- Node123&#45;&gt;Node129 -->
+<!-- Node119&#45;&gt;Node125 -->
 <g id="edge9" class="edge">
-<title>Node123&#45;&gt;Node129</title>
+<title>Node119&#45;&gt;Node125</title>
 <path fill="none" stroke="#191970" d="M397.8829,-133.4503C411.5121,-125.2382 432.1213,-113.4205 451,-105 455.7226,-102.8935 460.7556,-100.8698 465.786,-98.98"/>
 <polygon fill="#191970" stroke="#191970" points="467.1534,-102.2076 475.3742,-95.5242 464.7798,-95.6223 467.1534,-102.2076"/>
 </g>
-<!-- Node131 -->
+<!-- Node127 -->
 <g id="node12" class="node">
-<title>Node131</title>
+<title>Node127</title>
 <g id="a_node12"><a xlink:href="config_8c.html#ab49abbc5d1d5571fe940b94baad6f72b" target="_top" xlink:title="Sets classifier prediction parameters. ">
 <polygon fill="none" stroke="#000000" points="451.5,-38.5 451.5,-57.5 560.5,-57.5 560.5,-38.5 451.5,-38.5"/>
 <text text-anchor="middle" x="506" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">params_cl_prediction</text>
 </a>
 </g>
 </g>
-<!-- Node123&#45;&gt;Node131 -->
+<!-- Node119&#45;&gt;Node127 -->
 <g id="edge11" class="edge">
-<title>Node123&#45;&gt;Node131</title>
+<title>Node119&#45;&gt;Node127</title>
 <path fill="none" stroke="#191970" d="M388.7107,-133.4099C399.5205,-117.4391 423.3057,-85.3405 451,-67 453.9532,-65.0442 457.1292,-63.2678 460.4116,-61.6582"/>
 <polygon fill="#191970" stroke="#191970" points="462.0732,-64.7523 469.8469,-57.5537 459.2808,-58.3333 462.0732,-64.7523"/>
 </g>
-<!-- Node132 -->
+<!-- Node128 -->
 <g id="node13" class="node">
-<title>Node132</title>
+<title>Node128</title>
 <g id="a_node13"><a xlink:href="config_8c.html#a03d953f3697e255dc6955bd4b0e4f155" target="_top" xlink:title="Sets classifier action parameters. ">
 <polygon fill="none" stroke="#000000" points="459.5,-.5 459.5,-19.5 552.5,-19.5 552.5,-.5 459.5,-.5"/>
 <text text-anchor="middle" x="506" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">params_cl_action</text>
 </a>
 </g>
 </g>
-<!-- Node123&#45;&gt;Node132 -->
+<!-- Node119&#45;&gt;Node128 -->
 <g id="edge13" class="edge">
-<title>Node123&#45;&gt;Node132</title>
+<title>Node119&#45;&gt;Node128</title>
 <path fill="none" stroke="#191970" d="M385.7496,-133.1959C393.4961,-111.3024 415.1262,-58.0796 451,-29 453.244,-27.181 455.6728,-25.5313 458.2173,-24.0358"/>
 <polygon fill="#191970" stroke="#191970" points="459.8439,-27.1356 467.2129,-19.5232 456.7051,-20.8787 459.8439,-27.1356"/>
 </g>
-<!-- Node130 -->
+<!-- Node126 -->
 <g id="node11" class="node">
-<title>Node130</title>
+<title>Node126</title>
 <g id="a_node11"><a xlink:href="config_8c.html#a54fb0ed34172561dc44ca18d88a78f13" target="_top" xlink:title="Reads a csv list of ints into an array. ">
 <polygon fill="none" stroke="#000000" points="597,-57.5 597,-76.5 680,-76.5 680,-57.5 597,-57.5"/>
 <text text-anchor="middle" x="638.5" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">config_get_ints</text>
 </a>
 </g>
 </g>
-<!-- Node129&#45;&gt;Node130 -->
+<!-- Node125&#45;&gt;Node126 -->
 <g id="edge10" class="edge">
-<title>Node129&#45;&gt;Node130</title>
+<title>Node125&#45;&gt;Node126</title>
 <path fill="none" stroke="#191970" d="M559.1294,-78.3815C568.2314,-77.0763 577.6776,-75.7217 586.7431,-74.4217"/>
 <polygon fill="#191970" stroke="#191970" points="587.376,-77.8669 596.7779,-72.9828 586.3823,-70.9378 587.376,-77.8669"/>
 </g>
-<!-- Node131&#45;&gt;Node130 -->
+<!-- Node127&#45;&gt;Node126 -->
 <g id="edge12" class="edge">
-<title>Node131&#45;&gt;Node130</title>
+<title>Node127&#45;&gt;Node126</title>
 <path fill="none" stroke="#191970" d="M560.6578,-55.8377C569.3681,-57.0867 578.3543,-58.3753 586.9887,-59.6135"/>
 <polygon fill="#191970" stroke="#191970" points="586.5299,-63.0834 596.9255,-61.0384 587.5236,-56.1543 586.5299,-63.0834"/>
 </g>

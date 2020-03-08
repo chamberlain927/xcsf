@@ -1,13 +1,10 @@
 var searchData=
 [
-  ['max_5fcols',['MAX_COLS',['../env__csv_8c.html#a551f71f92f90f76151a3cfc9679271a0',1,'env_csv.c']]],
-  ['max_5fcover',['MAX_COVER',['../clset_8c.html#a9cca6f51165de2b97647cb83f2128ddb',1,'clset.c']]],
-  ['max_5flayers',['MAX_LAYERS',['../xcsf_8h.html#ade9d4b2ac5f29fe89ffea40e7c58c9d6',1,'xcsf.h']]],
-  ['max_5fname',['MAX_NAME',['../env__csv_8c.html#ac7c0207aa5a0e10d378be03b68041350',1,'env_csv.c']]],
-  ['max_5fpayoff',['MAX_PAYOFF',['../env__maze_8c.html#af20ccb66105d757d227a0e6975d2726f',1,'MAX_PAYOFF():&#160;env_maze.c'],['../env__mux_8c.html#af20ccb66105d757d227a0e6975d2726f',1,'MAX_PAYOFF():&#160;env_mux.c']]],
-  ['max_5frows',['MAX_ROWS',['../env__csv_8c.html#a3b94af9dcb0358f28d175d80eed98330',1,'env_csv.c']]],
-  ['max_5fsize',['MAX_SIZE',['../env__maze_8h.html#a0592dba56693fad79136250c11e5a7fe',1,'env_maze.h']]],
-  ['maxlen',['MAXLEN',['../config_8c.html#ae6648cd71a8bd49d58ae8ed33ba910d1',1,'config.c']]],
-  ['maze_5fdebug',['MAZE_DEBUG',['../env__maze_8c.html#ae20553cae6a84d9ae8a57c80a5cb3d2d',1,'env_maze.c']]],
-  ['mul',['MUL',['../gp_8c.html#ab7aff04ad21c86032dee3b2012ad6126',1,'gp.c']]]
+  ['n_5fmu',['N_MU',['../act__integer_8c.html#a7ad8e86a318f2d3d354e0a4e5bc23b30',1,'N_MU():&#160;act_integer.c'],['../cond__ellipsoid_8c.html#a7ad8e86a318f2d3d354e0a4e5bc23b30',1,'N_MU():&#160;cond_ellipsoid.c'],['../cond__rectangle_8c.html#a7ad8e86a318f2d3d354e0a4e5bc23b30',1,'N_MU():&#160;cond_rectangle.c'],['../cond__ternary_8c.html#a7ad8e86a318f2d3d354e0a4e5bc23b30',1,'N_MU():&#160;cond_ternary.c'],['../neural__layer__connected_8c.html#a7ad8e86a318f2d3d354e0a4e5bc23b30',1,'N_MU():&#160;neural_layer_connected.c'],['../pred__nlms_8c.html#a7ad8e86a318f2d3d354e0a4e5bc23b30',1,'N_MU():&#160;pred_nlms.c']]],
+  ['n_5frates',['N_RATES',['../sam_8c.html#ab911b800398fac0f4107388d8e702d7e',1,'sam.c']]],
+  ['neuron_5fmax_5fstate',['NEURON_MAX_STATE',['../neural__activations_8h.html#a7ecd8161ee3cdc9e049b0bf7690bbdd1',1,'neural_activations.h']]],
+  ['neuron_5fmin_5fstate',['NEURON_MIN_STATE',['../neural__activations_8h.html#aaf694a60eee4f8bd0863dcf4e75b6aab',1,'neural_activations.h']]],
+  ['noise',['NOISE',['../neural__layer_8h.html#a1252823eae0fb4c87dddc5c2caef7790',1,'neural_layer.h']]],
+  ['num_5factivations',['NUM_ACTIVATIONS',['../neural__activations_8h.html#a4937a4f2709888cde5189a2f35e4de09',1,'neural_activations.h']]],
+  ['num_5ffunc',['NUM_FUNC',['../dgp_8c.html#a9aad0046191b9926d17eb7e3b3b53c66',1,'dgp.c']]]
 ];

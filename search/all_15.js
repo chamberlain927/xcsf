@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['w128_5ft',['W128_T',['../unionW128__T.html',1,'W128_T'],['../dSFMT_8h.html#ab1ee414cba9ca0f33a3716e7a92c2b79',1,'w128_t():&#160;dSFMT.h']]],
   ['weight_5fclamp',['weight_clamp',['../neural__layer__connected_8c.html#a359f5b504b9aa088781c623212108691',1,'neural_layer_connected.c']]],
   ['weight_5fmax',['WEIGHT_MAX',['../neural__layer__connected_8c.html#a7577ffac6ca94b84b8aa7941baf9219c',1,'neural_layer_connected.c']]],
   ['weight_5fmin',['WEIGHT_MIN',['../neural__layer__connected_8c.html#a93e7c8a1443894a56eaeaff166d88f1e',1,'neural_layer_connected.c']]],

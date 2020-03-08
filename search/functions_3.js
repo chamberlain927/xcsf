@@ -27,9 +27,9 @@ var searchData=
   ['cl_5fupdate_5fsize',['cl_update_size',['../cl_8c.html#ac935fba64bc3f743c215677b1e758cf9',1,'cl.c']]],
   ['clamp',['clamp',['../utils_8h.html#ae1e666b8d7b3afa5b96698d6a0b8b30f',1,'utils.h']]],
   ['clset_5faction',['clset_action',['../clset_8c.html#a619c29b16e98c286a1eb5c749b2320ba',1,'clset_action(XCSF *xcsf, int action):&#160;clset.c'],['../clset_8h.html#a619c29b16e98c286a1eb5c749b2320ba',1,'clset_action(XCSF *xcsf, int action):&#160;clset.c']]],
-  ['clset_5faction_5fcovered',['clset_action_covered',['../clset_8c.html#add73fc8e93b326673bec83ae4b93fae7',1,'clset.c']]],
+  ['clset_5faction_5fcoverage',['clset_action_coverage',['../clset_8c.html#a6c7a5e6cb8b06b4504ef519cb37fb485',1,'clset.c']]],
   ['clset_5fadd',['clset_add',['../clset_8c.html#ae702f77855a5f1c42a8177f197706aee',1,'clset_add(SET *set, CL *c):&#160;clset.c'],['../clset_8h.html#ae702f77855a5f1c42a8177f197706aee',1,'clset_add(SET *set, CL *c):&#160;clset.c']]],
-  ['clset_5fcover',['clset_cover',['../clset_8c.html#a60fd3363a0a370e8b5a18671861be461',1,'clset.c']]],
+  ['clset_5fcover',['clset_cover',['../clset_8c.html#a500ed0d64b9682041d347af15ec54adf',1,'clset.c']]],
   ['clset_5ffree',['clset_free',['../clset_8c.html#ac1442f0363f0e56173c3868c10b54eb8',1,'clset_free(SET *set):&#160;clset.c'],['../clset_8h.html#ac1442f0363f0e56173c3868c10b54eb8',1,'clset_free(SET *set):&#160;clset.c']]],
   ['clset_5finit',['clset_init',['../clset_8c.html#a23c23122a8e68a161d3511b995591075',1,'clset_init(SET *set):&#160;clset.c'],['../clset_8h.html#a23c23122a8e68a161d3511b995591075',1,'clset_init(SET *set):&#160;clset.c']]],
   ['clset_5fkill',['clset_kill',['../clset_8c.html#aad012238caff12fcd827b1e282c9a4ef',1,'clset_kill(const XCSF *xcsf, SET *set):&#160;clset.c'],['../clset_8h.html#aad012238caff12fcd827b1e282c9a4ef',1,'clset_kill(const XCSF *xcsf, SET *set):&#160;clset.c']]],
@@ -175,9 +175,6 @@ var searchData=
   ['config_5fprocess',['config_process',['../config_8c.html#a7a16c67bd1965c9f62f75fc88e2abe98',1,'config.c']]],
   ['config_5fread',['config_read',['../config_8c.html#a9c6e238be77841517a31c44c39c84dc7',1,'config.c']]],
   ['config_5ftrim',['config_trim',['../config_8c.html#a0c81724e9bdc867a3dd41bafab67cbd3',1,'config.c']]],
-  ['convert_5fc0o1',['convert_c0o1',['../dSFMT_8c.html#a3d69e801f1ee2fbdc3b596fab46e179e',1,'dSFMT.c']]],
-  ['convert_5fo0c1',['convert_o0c1',['../dSFMT_8c.html#a6c110f420568ad02e2709f790d3178ef',1,'dSFMT.c']]],
-  ['convert_5fo0o1',['convert_o0o1',['../dSFMT_8c.html#a9fb54ba8ca524bc29724b333b6a37cc2',1,'dSFMT.c']]],
   ['cos_5factivate',['cos_activate',['../neural__activations_8h.html#abb0ed807625c86c51e2b7d4c6a5c7131',1,'neural_activations.h']]],
   ['cos_5fgradient',['cos_gradient',['../neural__activations_8h.html#aeb419ce905e0dc5552b80a2cbee8d7b4',1,'neural_activations.h']]]
 ];

@@ -8,70 +8,70 @@
  viewBox="0.00 0.00 319.00 104.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 100)">
 <title>neural_layer_connected_update</title>
-<!-- Node151 -->
+<!-- Node119 -->
 <g id="node1" class="node">
-<title>Node151</title>
+<title>Node119</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-33 0,-63 119,-63 119,-33 0,-33"/>
 <text text-anchor="start" x="8" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">neural_layer_connected</text>
 <text text-anchor="middle" x="59.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_update</text>
 </g>
-<!-- Node152 -->
+<!-- Node120 -->
 <g id="node2" class="node">
-<title>Node152</title>
+<title>Node120</title>
 <g id="a_node2"><a xlink:href="blas_8c.html#ad58784c49cb497c041e461a3fb6d3a56" target="_top" xlink:title="Multiplies the vector X by the scalar ALPHA and adds it to the vector Y. ">
 <polygon fill="none" stroke="#000000" points="163,-76.5 163,-95.5 224,-95.5 224,-76.5 163,-76.5"/>
 <text text-anchor="middle" x="193.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">blas_axpy</text>
 </a>
 </g>
 </g>
-<!-- Node151&#45;&gt;Node152 -->
+<!-- Node119&#45;&gt;Node120 -->
 <g id="edge1" class="edge">
-<title>Node151&#45;&gt;Node152</title>
+<title>Node119&#45;&gt;Node120</title>
 <path fill="none" stroke="#191970" d="M112.4603,-63.0186C125.9677,-66.8491 140.2722,-70.9055 153.0422,-74.5269"/>
 <polygon fill="#191970" stroke="#191970" points="152.3344,-77.9641 162.9099,-77.3252 154.2442,-71.2297 152.3344,-77.9641"/>
 </g>
-<!-- Node153 -->
+<!-- Node121 -->
 <g id="node3" class="node">
-<title>Node153</title>
+<title>Node121</title>
 <g id="a_node3"><a xlink:href="blas_8c.html#a8206d0e5c583b51b9526d83cecc39e87" target="_top" xlink:title="Scales the vector X by the scalar ALPHA and overwrites it with the result. ">
 <polygon fill="none" stroke="#000000" points="164.5,-38.5 164.5,-57.5 222.5,-57.5 222.5,-38.5 164.5,-38.5"/>
 <text text-anchor="middle" x="193.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">blas_scal</text>
 </a>
 </g>
 </g>
-<!-- Node151&#45;&gt;Node153 -->
+<!-- Node119&#45;&gt;Node121 -->
 <g id="edge2" class="edge">
-<title>Node151&#45;&gt;Node153</title>
+<title>Node119&#45;&gt;Node121</title>
 <path fill="none" stroke="#191970" d="M119.0547,-48C130.92,-48 143.1007,-48 154.0833,-48"/>
 <polygon fill="#191970" stroke="#191970" points="154.1967,-51.5001 164.1967,-48 154.1966,-44.5001 154.1967,-51.5001"/>
 </g>
-<!-- Node154 -->
+<!-- Node122 -->
 <g id="node4" class="node">
-<title>Node154</title>
+<title>Node122</title>
 <g id="a_node4"><a xlink:href="neural__layer__connected_8c.html#a359f5b504b9aa088781c623212108691" target="_top" xlink:title="weight_clamp">
 <polygon fill="none" stroke="#000000" points="155,-.5 155,-19.5 232,-19.5 232,-.5 155,-.5"/>
 <text text-anchor="middle" x="193.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">weight_clamp</text>
 </a>
 </g>
 </g>
-<!-- Node151&#45;&gt;Node154 -->
+<!-- Node119&#45;&gt;Node122 -->
 <g id="edge3" class="edge">
-<title>Node151&#45;&gt;Node154</title>
+<title>Node119&#45;&gt;Node122</title>
 <path fill="none" stroke="#191970" d="M112.4603,-32.9814C124.9195,-29.4482 138.0569,-25.7227 150.0427,-22.3237"/>
 <polygon fill="#191970" stroke="#191970" points="151.1339,-25.6523 159.7997,-19.5568 149.2241,-18.9179 151.1339,-25.6523"/>
 </g>
-<!-- Node155 -->
+<!-- Node123 -->
 <g id="node5" class="node">
-<title>Node155</title>
+<title>Node123</title>
 <g id="a_node5"><a xlink:href="utils_8h.html#ae1e666b8d7b3afa5b96698d6a0b8b30f" target="_top" xlink:title="Returns a float clamped within the specified range. ">
 <polygon fill="none" stroke="#000000" points="268,-.5 268,-19.5 311,-19.5 311,-.5 268,-.5"/>
 <text text-anchor="middle" x="289.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">clamp</text>
 </a>
 </g>
 </g>
-<!-- Node154&#45;&gt;Node155 -->
+<!-- Node122&#45;&gt;Node123 -->
 <g id="edge4" class="edge">
-<title>Node154&#45;&gt;Node155</title>
+<title>Node122&#45;&gt;Node123</title>
 <path fill="none" stroke="#191970" d="M232.2702,-10C240.7369,-10 249.6019,-10 257.7569,-10"/>
 <polygon fill="#191970" stroke="#191970" points="257.9754,-13.5001 267.9753,-10 257.9753,-6.5001 257.9754,-13.5001"/>
 </g>
